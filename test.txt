@@ -1,8 +1,8 @@
 Commit Mistakes:
-None
+The previous commit containing mistakes was not posted.
 Commit Corrections:
-None
+https://github.com/python-git/python/commit/835fe383df0e5c25a09a3c0a2a1cfdc8efd35674
 Mistakes:
-None
+Forgot to indent under for loop.
 *
 #
