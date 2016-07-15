@@ -56,6 +56,13 @@ Mistakes:
 Added two extra "
 *
 Commit Mistakes:
+https://github.com/pubnub/python/commit/03b4fb1d2cc3b781b9ddcba468c90694b7361736
+Commit Corrections:
+https://github.com/pubnub/python/commit/d44e5b455b5aba7fa68d8e0a2b5467f000c8d6a0
+Mistakes:
+Lines were not indented correctly
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
