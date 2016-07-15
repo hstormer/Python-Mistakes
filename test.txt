@@ -1,9 +1,16 @@
 Commit Mistakes:
-The previous commit containing mistakes was not posted.
+Could not find previous commit of file containing mistakes.
 Commit Corrections:
 https://github.com/python-git/python/commit/835fe383df0e5c25a09a3c0a2a1cfdc8efd35674
 Mistakes:
 Forgot to indent under for loop.
+*
+Commit Mistakes:
+Could not find previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/128add8c09bab2bc45d44cf096f7923669a886ad
+Mistakes:
+Variable rv assigned to itself and then something else in the same line.
 *
 Commit Mistakes:
 None
