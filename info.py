@@ -52,9 +52,9 @@ while str(text) != '#':
 		listofdictionaries.append(dictionary1)
 
 
-print "==============="
-print "This is the complete list of dictionaries: %r" % listofdictionaries
-print "==============="
+#print "==============="
+#print "This is the complete list of dictionaries: %r" % listofdictionaries
+#print "==============="
 dictionary1 = listofdictionaries[0]
 print "This is the dictionary for the first entry: %r" % dictionary1
 print "==============="
