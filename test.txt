@@ -70,6 +70,13 @@ Mistakes:
 Forgot to put 'self' in front of variable
 *
 Commit Mistakes:
+https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
+Commit Corrections:
+https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8
+Mistakes:
+Forgot to put 'self' in front of variable, did not correctly use the 'join' function (in line 945)
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
