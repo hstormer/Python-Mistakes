@@ -63,6 +63,13 @@ Mistakes:
 Lines were not indented correctly
 *
 Commit Mistakes:
+https://github.com/pubnub/python/commit/dcdafd146508f7f1f1a1868a94827bb4d6c1a3de
+Commit Corrections:
+https://github.com/pubnub/python/commit/437124952fd01eac9e8ccc132197ea6f18fdea56
+Mistakes:
+Forgot to put 'self' in front of variable
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
