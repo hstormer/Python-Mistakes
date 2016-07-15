@@ -49,11 +49,17 @@ Mistakes:
 spelling mistake: wrote README.SRT instead of README.RST
 *
 Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/1925082984990676d84f5dbe2b8d9f9921ccb58e
+Mistakes:
+Added two extra "
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
 Mistakes:
 None
 *
-
 #
