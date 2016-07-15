@@ -1,3 +1,9 @@
 Hello! :)
 
+<<<<<<< HEAD
 I am making some changes at the same time. Let's see what happens...
+=======
+Hi there :D
+
+Something interesting is gonna happen....
+>>>>>>> 33b72ff5c4e2c27ecc005f0bcdd29c2e6a74bb23
