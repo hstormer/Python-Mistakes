@@ -41,4 +41,11 @@ None
 Mistakes:
 None
 *
+Commit Mistakes:
+https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
+Commit Corrections:
+https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0
+Mistakes:
+Extra space after variable assignment, missing bracket (a couple lines after).
+*
 #
