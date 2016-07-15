@@ -20,14 +20,20 @@ Mistakes:
 Added extra parentheses.
 *
 Commit Mistakes:
-None
+Could not find a previous commit of file containing mistakes.
 Commit Corrections:
 https://github.com/jcsaaddupuy/python-xbmc/commit/bca89c115b18e0c443204284f1e58c79cc8cf38e#diff-3b5e31446f546cea5285cfd44d32d046
 Mistakes:
 Added a _ for no reason
 None
 *
-#
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/56cf6604fccd4b4b5af7b256674192fd4b9ef30e
+Mistakes:
+None
+*
 Commit Mistakes:
 None
 Commit Corrections:
