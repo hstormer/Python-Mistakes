@@ -35,17 +35,25 @@ Mistakes:
 Did not indent under if 
 *
 Commit Mistakes:
-None
-Commit Corrections:
-None
-Mistakes:
-None
-*
-Commit Mistakes:
 https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
 Commit Corrections:
 https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0
 Mistakes:
 Extra space after variable assignment, missing bracket (a couple lines after).
 *
+Commit Mistakes:
+https://github.com/wepay/Python-SDK/commit/f7d1ec0901c6bbfc2389f14075db7043f3679796
+Commit Corrections:
+https://github.com/wepay/Python-SDK/commit/3fdc2143f8f85ef40b527cdaebcfc2d9407309a1#diff-2eeaed663bd0d25b7e608891384b7298
+Mistakes:
+spelling mistake: wrote README.SRT instead of README.RST
+*
+Commit Mistakes:
+None
+Commit Corrections:
+None
+Mistakes:
+None
+*
+
 #
