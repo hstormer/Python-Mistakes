@@ -1,7 +1,8 @@
-Repository Name:
-
-Commit Name:
-
-Document Containing Mistake:
-
-Mistake:
+Commit Mistakes:
+None
+Commit Corrections:
+None
+Mistakes:
+None
+*
+#
