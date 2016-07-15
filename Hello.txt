@@ -1,9 +1,6 @@
 Hello! :)
-<<<<<<< HEAD
 I am making some changes at the EXACT_SAME time. Let's see what happens...
-=======
 I am making some changes at different time. Let's see what happens...
->>>>>>> 684a84f18d16c95cdb3e0c2b7ef2b210002231a9
 Hi there :D
 Something interesting is gonna happen....
 
