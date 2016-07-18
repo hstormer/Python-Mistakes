@@ -1,0 +1,12 @@
+indentation = An error in indentation.
+self = Forgot to add a 'self' before a variable in a function
+misspellvariable = misspelling of a variable
+misspell = general misspelling
+brackets = missed or added a bracket
+
+Length:
+long = >100 lines?
+short = <100 lines?
+
+
+
