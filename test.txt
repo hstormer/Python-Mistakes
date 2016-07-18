@@ -250,7 +250,7 @@ Tags:
 misspell
 Length:
 short
-
+*
 Commit Mistakes:
 Can't find
 Commit Corrections:
