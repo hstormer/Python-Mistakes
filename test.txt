@@ -153,7 +153,6 @@ Length:
 Long
 *
 Commit Mistakes:
-<<<<<<< HEAD
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/89638e6a4a39a11f4b9ef55d4a43522aacf7951c
 Commit Corrections:
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/9ee44635107ade9c54b2141f1c8c87c9933c6be8
@@ -229,6 +228,28 @@ Tags:
 quotation
 Length:
 long
+*
+Commit Mistakes:
+https://github.com/ksze/sanitize/commit/d75e613b21f609b44600ecabac14281abc0019ef
+Commit Corrections:
+https://github.com/ksze/sanitize/commit/0987ded60bcba031ffb7635a28c4c669101278d0
+Mistakes:
+Missing a colon in the if/else statement
+Tags:
+colon
+Length:
+short
+*
+Commit Mistakes:
+https://github.com/attilaolah/seven/commit/dbbacb8819fa6cb7ee3e11e81f8712fc668df90f
+Commit Corrections:
+https://github.com/attilaolah/seven/commit/d1640bc320deab192e2b0e03e9ef5fe97e99526b
+Mistakes:
+Misspelled the name of the file to open
+Tags:
+misspell
+Length:
+short
 *
 Commit Mistakes:
 None
