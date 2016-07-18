@@ -153,6 +153,28 @@ Length:
 Long
 *
 Commit Mistakes:
+Can't find file
+Commit Corrections:
+https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2
+Mistakes:
+added an extra bracket
+Tags:
+brackets
+Length:
+long
+*
+Commit Mistakes:
+Can't find file
+Commit Corrections:
+https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2
+Mistakes:
+added an extra quotation for no reason
+Tags:
+quotation
+Length:
+long
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
