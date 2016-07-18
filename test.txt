@@ -135,7 +135,7 @@ https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
 Commit Corrections:
 https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8
 Mistakes:
- did not correctly use the 'join' function (in line 945)
+Did not correctly use the 'join' function (in line 945)
 Tags:
 function
 Length:
@@ -180,6 +180,28 @@ Commit Corrections:
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/78a4b504f993600cdd82396634ea9809b0920025
 Mistakes:
 Forgot to put 'self' before a variable in a function
+Tags:
+self
+Length:
+long
+*
+Commit Mistakes:
+https://github.com/caller9/pythonaes/commit/1d25a6d918789f24dc53a874e7063b2bfa45e957
+Commit Corrections:
+https://github.com/caller9/pythonaes/commit/5548dd845ec7c8bc072ea9c21cc980c9537bb6f8
+Mistakes:
+Added uneccesary brackets in if statement.
+Tags:
+brackets
+Length:
+short
+*
+Commit Mistakes:
+https://github.com/wadda/gps3/commit/1db159c79bb3c30b96c04f9326d98a5ada4eae2b
+Commit Corrections:
+https://github.com/wadda/gps3/commit/88991c9c698d2dec6e824f0f8edd3dfcb6507edd
+Mistakes:
+Forgot to put 'self' before variable in a function
 Tags:
 self
 Length:
