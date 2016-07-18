@@ -153,6 +153,7 @@ Length:
 Long
 *
 Commit Mistakes:
+<<<<<<< HEAD
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/89638e6a4a39a11f4b9ef55d4a43522aacf7951c
 Commit Corrections:
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/9ee44635107ade9c54b2141f1c8c87c9933c6be8
@@ -204,6 +205,28 @@ Mistakes:
 Forgot to put 'self' before variable in a function
 Tags:
 self
+Length:
+long
+*
+Commit Mistakes:
+Can't find file
+Commit Corrections:
+https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2
+Mistakes:
+added an extra bracket
+Tags:
+brackets
+Length:
+long
+*
+Commit Mistakes:
+Can't find file
+Commit Corrections:
+https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2
+Mistakes:
+added an extra quotation for no reason
+Tags:
+quotation
 Length:
 long
 *
