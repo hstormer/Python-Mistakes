@@ -3,9 +3,10 @@ self = Forgot to add a 'self' before a variable in a function
 misspellvariable = misspelling of a variable
 misspell = general misspelling
 brackets = missed or added a bracket
-doubleassignment: wrote variable assignment twice
-double: wrote something twice
-noreturn: forgot to write return 
+doubleassignment = wrote variable assignment twice
+double = wrote something twice
+noreturn = forgot to write return 
+quotation = added an extra '  or ", or forgot a '  or "
 
 Length:
 long = >100 lines?
