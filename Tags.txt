@@ -9,6 +9,7 @@ noreturn = forgot to write return
 quotation = added an extra '  or ", or forgot a '  or "
 import = imported the wrong thing
 colon = missing colon, or put more than one
+escape = didn't add an escape quote within a string
 
 Length:
 long = >100 lines?
