@@ -406,6 +406,17 @@ Length:
 long
 *
 Commit Mistakes:
+Could not find a previous commit of file containing mistakes
+Commit Corrections:
+https://github.com/phedre13/FetchIt/commit/2527698e4f97dfdc402d14a2dd26df7c77490878
+Mistakes:
+Didn't add the escape quote in the string
+Tags:
+Escape
+Length:
+short
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
