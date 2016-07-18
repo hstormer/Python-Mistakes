@@ -395,6 +395,17 @@ Length:
 long
 *
 Commit Mistakes:
+File Not Found
+Commit Corrections:
+https://github.com/python-git/python/commit/8a568b2b91f168c94b54ad1105e28e96d7c82ab1#diff-37eafa775c7543adb9350a3c633f294a
+Mistakes:
+an extra = sign
+Tags:
+extra
+Length:
+long
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
