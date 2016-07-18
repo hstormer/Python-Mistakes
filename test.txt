@@ -340,6 +340,17 @@ Length:
 long
 *
 Commit Mistakes:
+https://github.com/python-git/python/commit/0486016a147b64c6165f44c340dae64bf3771678
+Commit Corrections:
+https://github.com/python-git/python/commit/55d2d9b1c9f4ff68e7ea0d5908e5911fe1221867#diff-09dd73eef618fb0131a6ffe27a612b39
+Mistakes:
+typo: wrote Falso instead of False
+Tags:
+misspell
+Length:
+long
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
