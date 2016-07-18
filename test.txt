@@ -117,7 +117,7 @@ Forgot to put 'self' in front of variable, did not correctly use the 'join' func
 Tags:
 None
 Length:
-None
+Short
 *
 Commit Mistakes:
 None
