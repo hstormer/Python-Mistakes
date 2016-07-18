@@ -384,17 +384,6 @@ Length:
 long
 *
 Commit Mistakes:
-None
-Commit Corrections:
-None
-Mistakes:
-None
-Tags:
-None
-Length:
-None
-*
-Commit Mistakes:
 https://github.com/crash0verrid3/MagicCrypt/commit/e53d6a2fb8855281696607d5e5dba81df0e19c7e
 Commit Corrections:
 https://github.com/crash0verrid3/MagicCrypt/commit/23a246e5d868c2d530f635d4a7ce386afd2a2d6e
@@ -404,5 +393,16 @@ Tags:
 brackets
 Length:
 long
+*
+Commit Mistakes:
+None
+Commit Corrections:
+None
+Mistakes:
+None
+Tags:
+None
+Length:
+None
 *
 #
