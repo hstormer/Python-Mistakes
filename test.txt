@@ -318,6 +318,17 @@ Length:
 long
 *
 Commit Mistakes:
+Can't find
+Commit Corrections:
+https://github.com/python-git/python/commit/f867f0b48fc52fc078e1233b4fcf0d303e3bb2be#diff-1353b7abd7ae746ef62fd759eb114382
+Mistakes:
+misspelled their own variable by using upper case T instead of t
+Tags:
+misspellvariable
+Length:
+short
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
