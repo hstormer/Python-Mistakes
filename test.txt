@@ -4,6 +4,10 @@ Commit Corrections:
 https://github.com/python-git/python/commit/835fe383df0e5c25a09a3c0a2a1cfdc8efd35674
 Mistakes:
 Forgot to indent under for loop.
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -11,6 +15,10 @@ Commit Corrections:
 https://github.com/python-git/python/commit/128add8c09bab2bc45d44cf096f7923669a886ad
 Mistakes:
 Variable rv assigned to itself and then something else in the same line.
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -18,6 +26,10 @@ Commit Corrections:
 https://github.com/python-git/python/commit/c8f34385fba934047f9c5400d6ca27ec756d204c
 Mistakes:
 Added extra parentheses.
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -25,6 +37,10 @@ Commit Corrections:
 https://github.com/jcsaaddupuy/python-xbmc/commit/bca89c115b18e0c443204284f1e58c79cc8cf38e#diff-3b5e31446f546cea5285cfd44d32d046
 Mistakes:
 Added a _ for no reason
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -32,6 +48,10 @@ Commit Corrections:
 https://github.com/python-git/python/commit/56cf6604fccd4b4b5af7b256674192fd4b9ef30e
 Mistakes:
 Did not indent under if 
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
@@ -39,6 +59,10 @@ Commit Corrections:
 https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0
 Mistakes:
 Extra space after variable assignment, missing bracket (a couple lines after).
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 https://github.com/wepay/Python-SDK/commit/f7d1ec0901c6bbfc2389f14075db7043f3679796
@@ -46,6 +70,10 @@ Commit Corrections:
 https://github.com/wepay/Python-SDK/commit/3fdc2143f8f85ef40b527cdaebcfc2d9407309a1#diff-2eeaed663bd0d25b7e608891384b7298
 Mistakes:
 spelling mistake: wrote README.SRT instead of README.RST
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -53,6 +81,10 @@ Commit Corrections:
 https://github.com/python-git/python/commit/1925082984990676d84f5dbe2b8d9f9921ccb58e
 Mistakes:
 Added two extra "
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/03b4fb1d2cc3b781b9ddcba468c90694b7361736
@@ -60,6 +92,10 @@ Commit Corrections:
 https://github.com/pubnub/python/commit/d44e5b455b5aba7fa68d8e0a2b5467f000c8d6a0
 Mistakes:
 Lines were not indented correctly
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/dcdafd146508f7f1f1a1868a94827bb4d6c1a3de
@@ -67,6 +103,10 @@ Commit Corrections:
 https://github.com/pubnub/python/commit/437124952fd01eac9e8ccc132197ea6f18fdea56
 Mistakes:
 Forgot to put 'self' in front of variable
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
@@ -74,12 +114,20 @@ Commit Corrections:
 https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8
 Mistakes:
 Forgot to put 'self' in front of variable, did not correctly use the 'join' function (in line 945)
+Tags:
+None
+Length:
+None
 *
 Commit Mistakes:
 None
 Commit Corrections:
 None
 Mistakes:
+None
+Tags:
+None
+Length:
 None
 *
 #
