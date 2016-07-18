@@ -16,9 +16,9 @@ https://github.com/python-git/python/commit/128add8c09bab2bc45d44cf096f7923669a8
 Mistakes:
 Variable rv assigned to itself and then something else in the same line.
 Tags:
-None
+doubleassignment
 Length:
-None
+short
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -27,9 +27,9 @@ https://github.com/python-git/python/commit/c8f34385fba934047f9c5400d6ca27ec756d
 Mistakes:
 Added extra parentheses.
 Tags:
-None
+brackets
 Length:
-None
+long
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -38,9 +38,9 @@ https://github.com/jcsaaddupuy/python-xbmc/commit/bca89c115b18e0c443204284f1e58c
 Mistakes:
 Added a _ for no reason
 Tags:
-None
+extra
 Length:
-None
+short
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -49,20 +49,31 @@ https://github.com/python-git/python/commit/56cf6604fccd4b4b5af7b256674192fd4b9e
 Mistakes:
 Did not indent under if 
 Tags:
-None
+indentation
 Length:
-None
+long
 *
 Commit Mistakes:
 https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
 Commit Corrections:
 https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0
 Mistakes:
-Extra space after variable assignment, missing bracket (a couple lines after).
+Extra space after variable assignment
 Tags:
-None
+indentation
 Length:
-None
+long
+*
+Commit Mistakes:
+https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
+Commit Corrections:
+https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0
+Mistakes:
+missing bracket 
+Tags:
+brackets 
+Length:
+long
 *
 Commit Mistakes:
 https://github.com/wepay/Python-SDK/commit/f7d1ec0901c6bbfc2389f14075db7043f3679796
@@ -71,9 +82,9 @@ https://github.com/wepay/Python-SDK/commit/3fdc2143f8f85ef40b527cdaebcfc2d940730
 Mistakes:
 spelling mistake: wrote README.SRT instead of README.RST
 Tags:
-None
+misspell
 Length:
-None
+short
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -82,9 +93,9 @@ https://github.com/python-git/python/commit/1925082984990676d84f5dbe2b8d9f9921cc
 Mistakes:
 Added two extra "
 Tags:
-None
+extra
 Length:
-None
+long
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/03b4fb1d2cc3b781b9ddcba468c90694b7361736
@@ -93,9 +104,9 @@ https://github.com/pubnub/python/commit/d44e5b455b5aba7fa68d8e0a2b5467f000c8d6a0
 Mistakes:
 Lines were not indented correctly
 Tags:
-None
+indentation
 Length:
-None
+long
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/dcdafd146508f7f1f1a1868a94827bb4d6c1a3de
@@ -104,20 +115,31 @@ https://github.com/pubnub/python/commit/437124952fd01eac9e8ccc132197ea6f18fdea56
 Mistakes:
 Forgot to put 'self' in front of variable
 Tags:
-None
+self
 Length:
-None
+long
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
 Commit Corrections:
 https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8
 Mistakes:
-Forgot to put 'self' in front of variable, did not correctly use the 'join' function (in line 945)
+Forgot to put 'self' in front of variable
 Tags:
-None
+self
 Length:
-Short
+long
+*
+Commit Mistakes:
+https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
+Commit Corrections:
+https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8
+Mistakes:
+ did not correctly use the 'join' function (in line 945)
+Tags:
+function
+Length:
+long
 *
 Commit Mistakes:
 https://github.com/adamn/python-webkit2png/commit/abd7c659878368b9300a6d19bb36243a175e78f3

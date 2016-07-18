@@ -5,6 +5,8 @@ misspell = general misspelling
 brackets = missed or added a bracket
 doubleassignment: wrote something twice
 noreturn: forgot to write return 
+extra = added extra character 
+function = did not use a function properly
 
 Length:
 long = >100 lines?
