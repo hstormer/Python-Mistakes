@@ -120,6 +120,14 @@ Length:
 Short
 *
 Commit Mistakes:
+https://github.com/adamn/python-webkit2png/commit/abd7c659878368b9300a6d19bb36243a175e78f3
+Commit Corrections:
+https://github.com/adamn/python-webkit2png/commit/ef70c8ab5a0fffe85c7de50f8bfeeb7f140ad276
+Mistakes:
+Wrote 'False' instead of 'return False'.
+Tags: noreturn
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
