@@ -131,6 +131,39 @@ Length:
 Long
 *
 Commit Mistakes:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/89638e6a4a39a11f4b9ef55d4a43522aacf7951c
+Commit Corrections:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/9ee44635107ade9c54b2141f1c8c87c9933c6be8
+Mistakes: 
+Added a bracket in the wrong place.
+Tags:
+brackets
+Length:
+long
+*
+Commit Mistakes:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/92345bd383ad06f872e2dd743f6d4a08f0df8a87
+Commit Corrections:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/f6ba4a381fc5f9c223ce973f12692054e84de678
+Mistakes:
+Misspelled tup as tep
+Tags:
+Misspell
+Length:
+long
+*
+Commit Mistakes:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/b2d94d4497903a3fc84c8da4c13b9f79321fed26
+Commit Corrections:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/78a4b504f993600cdd82396634ea9809b0920025
+Mistakes:
+Forgot to put 'self' before a variable in a function
+Tags:
+self
+Length:
+long
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
