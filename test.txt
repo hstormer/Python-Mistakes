@@ -373,6 +373,17 @@ Length:
 long
 *
 Commit Mistakes:
+https://github.com/python-git/python/commit/63026f06d1784b5d2ebc1759fe9bf5a81cdd204f
+Commit Corrections:
+https://github.com/python-git/python/commit/d18ad9758f2afc8a3d5f0abfc44ebb99ae0928e3#diff-37eafa775c7543adb9350a3c633f294a
+Mistakes:
+forgot a curly bracket (line 809)
+Tags:
+brackets
+Length:
+long
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
