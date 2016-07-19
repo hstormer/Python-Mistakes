@@ -428,6 +428,17 @@ Length:
 long
 *
 Commit Mistakes:
+https://github.com/lanyeit/radiusd/commit/0574bb87211cedbcb5cd266d3656ca2b63469837
+Commit Corrections:
+https://github.com/lanyeit/radiusd/commit/2609c86687d8e89c1617ad76098ac67c9b2bcaac
+Mistakes:
+Did not add a %s inside the string
+Tags:
+missing
+Length:
+short
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
