@@ -4,6 +4,7 @@ misspellvariable = misspelling of a variable
 misspell = general misspelling
 brackets = missed or added a bracket 
 extra = added extra character 
+missing = a missing character
 function = did not use a python function properly
 noreturn = forgot to write return 
 quotation = added an extra '  or ", or forgot a '  or "
