@@ -417,6 +417,17 @@ Length:
 short
 *
 Commit Mistakes:
+https://github.com/lanyeit/radiusd/commit/3df4e220f8325c95577a6c11aa95e4bb2849d5a7
+Commit Corrections:
+https://github.com/lanyeit/radiusd/commit/b989fbb5d9b0de005397c8f70e79635fc0e07cfe
+Mistakes:
+Forgot to put parentheses around more than two variables after a %
+Tags:
+brackets
+Length:
+long
+*
+Commit Mistakes:
 None
 Commit Corrections:
 None
