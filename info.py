@@ -60,5 +60,6 @@ print "This is the dictionary for the first entry: %r" % dictionary1
 print "==============="
 #When searching for something, put the name and :.
 print "This is the first entry's Commit Corrections link: %s" % dictionary1["Commit Corrections:"]
+print "This is the number of entries: %r" % len(listofdictionaries)
 
 	
