@@ -12,13 +12,12 @@ db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
 counter = 0
-# Replace this with your save location from last session!!!!!!!
 save_location = 0
 location = 0
 name = 'Hannah'
 message = None
 parents = None
-things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant"]
+things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid"]
 print "============================================"
 print "Finding another file just for %s..." % name
 print "============================================"
@@ -50,7 +49,7 @@ for document in cursor:
 		if file1 != [] and file1 != None:
 			file1 = file1[0]
 			file1 = file1.get("filename")	
-			if '.py' in file1:
+			if '.py' in file1  and int(additions) < 50 and int(deletions) < 50:
 				# For each of the keywords we are looking for...
 				for i in things:
 					# If it is in the message...
