@@ -7,8 +7,7 @@ db = client.github
 cursor = db.commits.find()
 message = None
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant"]
-counter = 0
-
+print "============================================"
 
 # For each document in cursor...
 for document in cursor:
@@ -17,17 +16,28 @@ for document in cursor:
 	message = message.get("message")
 	# This is the link to the comment
 	link = document.get("html_url")
-	# For each of the keywords we are looking for...
-	for i in things:
-		# If it is in the message...
-		if i in message:
-			print message
-			print link
-			print "============================================"
-			counter += 1
-			# Don't print it again if it also contains another thing.
-			break
-	# Only go through this many (there are too many to go through all at once!)
-	if counter == 20:
-		answer = raw_input("Press something to continue printing...")
-		counter = 0
+	patch = document.get("files")
+	if patch != [] and patch != None:
+		patch = patch[0]
+		patch = patch.get("patch")
+	file1 = document.get("files")
+	if patch != [] and patch != None:
+		file1 = file1[0]
+		file1 = file1.get("filename")	
+		if '.py' in file1:
+			# For each of the keywords we are looking for...
+			for i in things:
+				# If it is in the message...
+				if i in message:
+					print "Commit Message: %r" % message
+					print "\n++++++++++++++++"
+					print patch
+					print "++++++++++++++++\n"
+					print "This is the link to the commit: \n%r" % link
+					print "This is the file being edited: %r" % file1
+					print "\n============================================"
+					answer = raw_input("Press something to continue printing...")
+					print "============================================\n"
+					# Don't print it again if it also contains another thing.
+					break
+
