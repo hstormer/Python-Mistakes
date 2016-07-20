@@ -43,42 +43,41 @@ for document in cursor:
 		file1 = file1[0]
 		file1 = file1.get("filename")	
 		if '.py' in file1:
-			if '.py' in file1:
-				# For each of the keywords we are looking for...
-				for i in things:
-					# If it is in the message...
-					if i in message:
-						print "++++++++++++++++"
-						print patch
-						print "++++++++++++++++"
-						print "\nCommit Message: %s" % message
-						print "This is the link to the commit: \n%r" % link
-						print "This is the link to the previous commit: \n%r" % parents
-						print "This is the file being edited: %r" % file1
-						print "Additions: %r" % additions
-						print "Deletions: %r" % deletions
-						answer = raw_input("Do you want to include this file as an entry? y/n ")
-						if answer == 'y':
-							txt = open(filename, 'a+')
-							CommitMistakes = str(parents)
-							CommitCorrections = str(link)
-							mistake = raw_input("Type a message for Mistake: ")
-							tag = raw_input("Type the Tag: ")
-							length = raw_input("Type the length of changes: ")
-							if txt.readline(1) != "*":
-								txt.write("*" + "\n" "Commit Mistakes:" + "\n" + 									CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 									CommitCorrections + "\n" + "Mistakes:" + "\n" + mistake + 									"\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + "\n" + 								length)
-							else:
-								txt.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 								CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 									CommitCorrections + "\n" + "Mistakes:" + "\n" + mistake + 									"\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + "\n" + 								length)
-							txt.close()
-							print "\n============================================"
-							print "Finding another file just for you..."
-							print "============================================"
+			# For each of the keywords we are looking for...
+			for i in things:
+				# If it is in the message...
+				if i in message:
+					print "++++++++++++++++"
+					print patch
+					print "++++++++++++++++"
+					print "\nCommit Message: %s" % message
+					print "This is the link to the commit: \n%r" % link
+					print "This is the link to the previous commit: \n%r" % parents
+					print "This is the file being edited: %r" % file1
+					print "Additions: %r" % additions
+					print "Deletions: %r" % deletions
+					answer = raw_input("Do you want to include this file as an entry? y/n ")
+					if answer == 'y':
+						txt = open(filename, 'a+')
+						CommitMistakes = str(parents)
+						CommitCorrections = str(link)
+						mistake = raw_input("Type a message for Mistake: ")
+						tag = raw_input("Type the Tag: ")
+						length = raw_input("Type the length of changes: ")
+						if txt.readline(1) != "*":
+							txt.write("*" + "\n" "Commit Mistakes:" + "\n" + 								CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 								CommitCorrections + "\n" + "Mistakes:" + "\n" + mistake + 								"\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + "\n" + 							length)
 						else:
-							print "\n============================================"
-							print "Finding another file just for you..."
-							print "============================================"
-						# Don't print it again if it also contains another thing
-						break
+							txt.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 								CommitCorrections + "\n" + "Mistakes:" + "\n" + mistake + 								"\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + "\n" + 							length)
+						txt.close()
+						print "\n============================================"
+						print "Finding another file just for you..."
+						print "============================================"
+					else:
+						print "\n============================================"
+						print "Finding another file just for you..."
+						print "============================================"
+					# Don't print it again if it also contains another thing
+					break
 
 	
 
