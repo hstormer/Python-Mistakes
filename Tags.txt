@@ -13,8 +13,7 @@ escape = didn't add an escape quote within a string
 formatter = did not correctly use %
 
 Length:
-long = >100 lines?
-short = <100 lines?
+Count the number of lines the correction was actually made to for individual commits 
 
 
 
