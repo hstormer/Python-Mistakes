@@ -11,11 +11,13 @@ client = MongoClient('10.13.10.124')
 db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
+counter = 0
+name = 'Hannah'
 message = None
 parents = None
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant"]
 print "============================================"
-print "Finding another file just for you..."
+print "Finding another file just for %s..." % name
 print "============================================"
 
 # For each document in cursor...
@@ -50,12 +52,28 @@ for document in cursor:
 					print "++++++++++++++++"
 					print patch
 					print "++++++++++++++++"
+					counter += 1
+					if counter == 4:
+						counter = 1
+					if counter == 1:
+						print "This is Hannah's."
+						name = 'Monica'
+					if counter == 2:
+						print "This is Monica's."
+						name = 'Eisha'
+					if counter == 3:
+						print "This is Eisha's."
+						name = 'Hannah'
 					print "\nCommit Message: %s" % message
 					print "This is the link to the commit: \n%r" % link
 					print "This is the link to the previous commit: \n%r" % parents
 					print "This is the file being edited: %r" % file1
 					print "Additions: %r" % additions
 					print "Deletions: %r" % deletions
+					txt = open(filename, 'a+')
+					if str(link) in txt.read():
+							print "WE HAVE ADDED THIS ALREADY!"
+					txt.close()
 					answer = raw_input("Do you want to include this file as an entry? y/n ")
 					if answer == 'y':
 						txt = open(filename, 'a+')
@@ -70,11 +88,11 @@ for document in cursor:
 							txt.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 								CommitCorrections + "\n" + "Mistakes:" + "\n" + mistake + 								"\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + "\n" + 							length)
 						txt.close()
 						print "\n============================================"
-						print "Finding another file just for you..."
+						print "Finding another file just for %s..." % name
 						print "============================================"
 					else:
 						print "\n============================================"
-						print "Finding another file just for you..."
+						print "Finding another file just for %s..." % name
 						print "============================================"
 					# Don't print it again if it also contains another thing
 					break
