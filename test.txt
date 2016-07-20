@@ -29,7 +29,7 @@ Added extra parentheses.
 Tags:
 brackets
 Length:
-long
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -40,7 +40,7 @@ Added a _ for no reason
 Tags:
 extra
 Length:
-short
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -51,7 +51,7 @@ Did not indent under if
 Tags:
 indentation
 Length:
-long
+2
 *
 Commit Mistakes:
 https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
@@ -62,7 +62,7 @@ Extra space after variable assignment
 Tags:
 indentation
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
@@ -73,7 +73,7 @@ missing bracket
 Tags:
 brackets 
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/wepay/Python-SDK/commit/f7d1ec0901c6bbfc2389f14075db7043f3679796
@@ -84,7 +84,7 @@ spelling mistake: wrote README.SRT instead of README.RST
 Tags:
 misspell
 Length:
-short
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -95,7 +95,7 @@ Added two extra "
 Tags:
 quotation
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/03b4fb1d2cc3b781b9ddcba468c90694b7361736
@@ -106,7 +106,7 @@ Lines were not indented correctly
 Tags:
 indentation
 Length:
-long
+4
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/dcdafd146508f7f1f1a1868a94827bb4d6c1a3de
@@ -117,7 +117,7 @@ Forgot to put 'self' in front of variable
 Tags:
 self
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
@@ -128,7 +128,7 @@ Forgot to put 'self' in front of variable
 Tags:
 self
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
@@ -139,7 +139,7 @@ Did not correctly use the 'join' function (in line 945)
 Tags:
 function
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/adamn/python-webkit2png/commit/abd7c659878368b9300a6d19bb36243a175e78f3
@@ -150,7 +150,7 @@ Wrote 'False' instead of 'return False'.
 Tags: 
 noreturn
 Length: 
-Long
+1
 *
 Commit Mistakes:
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/89638e6a4a39a11f4b9ef55d4a43522aacf7951c
@@ -161,7 +161,7 @@ Added a bracket in the wrong place.
 Tags:
 brackets
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/92345bd383ad06f872e2dd743f6d4a08f0df8a87
@@ -172,7 +172,7 @@ Misspelled tup as tep
 Tags:
 Misspell
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/addam/Export-Paper-Model-from-Blender/commit/b2d94d4497903a3fc84c8da4c13b9f79321fed26
@@ -183,7 +183,7 @@ Forgot to put 'self' before a variable in a function
 Tags:
 self
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/caller9/pythonaes/commit/1d25a6d918789f24dc53a874e7063b2bfa45e957
@@ -194,7 +194,7 @@ Added uneccesary brackets in if statement.
 Tags:
 brackets
 Length:
-short
+1
 *
 Commit Mistakes:
 https://github.com/wadda/gps3/commit/1db159c79bb3c30b96c04f9326d98a5ada4eae2b
@@ -205,7 +205,7 @@ Forgot to put 'self' before variable in a function
 Tags:
 self
 Length:
-long
+1
 *
 Commit Mistakes:
 Can't find file
@@ -216,7 +216,7 @@ added an extra bracket
 Tags:
 brackets
 Length:
-long
+1
 *
 Commit Mistakes:
 Can't find file
@@ -227,7 +227,7 @@ added an extra quotation for no reason
 Tags:
 quotation
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/ksze/sanitize/commit/d75e613b21f609b44600ecabac14281abc0019ef
@@ -238,7 +238,7 @@ Missing a colon in the if/else statement
 Tags:
 colon
 Length:
-short
+2
 *
 Commit Mistakes:
 https://github.com/attilaolah/seven/commit/dbbacb8819fa6cb7ee3e11e81f8712fc668df90f
@@ -249,7 +249,7 @@ Misspelled the name of the file to open
 Tags:
 misspell
 Length:
-short
+1
 *
 Commit Mistakes:
 Can't find
@@ -260,7 +260,7 @@ spelled hpux instead of hp-ux
 Tags:
 misspell
 Length:
-long
+1
 *
 Commit Mistakes:
 can't find
@@ -271,7 +271,7 @@ added a slash for no reason
 Tags:
 extra
 Length:
-long
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -282,7 +282,7 @@ defined a variable incorrectly
 Tags:
 import
 Length:
-short
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes
@@ -293,7 +293,7 @@ Imported incorrectly, added two '..' instead of '.'
 Tags:
 import
 Length:
-short
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes
@@ -304,7 +304,7 @@ Missed ":" for a loop
 Tags:
 colon
 Length:
-short
+2
 *
 Commit Mistakes:
 Can't find
@@ -315,7 +315,7 @@ added a ; for no reason
 Tags:
 extra
 Length:
-long
+1
 *
 Commit Mistakes:
 Can't find
@@ -326,7 +326,7 @@ misspelled their own variable by using upper case T instead of t
 Tags:
 misspellvariable
 Length:
-short
+1
 *
 Commit Mistakes:
 cannot find file
@@ -337,7 +337,7 @@ wrote a letter where a number was required in order to run the function properly
 Tags:
 function
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/python-git/python/commit/0486016a147b64c6165f44c340dae64bf3771678
@@ -348,7 +348,7 @@ typo: wrote Falso instead of False
 Tags:
 misspell
 Length:
-long
+1
 *
 Commit Mistakes:
 Cannot find
@@ -359,7 +359,7 @@ forgot to write self.
 Tags:
 self
 Length:
-long
+1
 *
 Commit Mistakes:
 file lost in the land of shadows
@@ -370,7 +370,7 @@ added an extra bracket
 Tags:
 brackets
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/python-git/python/commit/63026f06d1784b5d2ebc1759fe9bf5a81cdd204f
@@ -381,7 +381,7 @@ forgot a curly bracket (line 809)
 Tags:
 brackets
 Length:
-long
+1
 *
 Commit Mistakes:
 https://github.com/crash0verrid3/MagicCrypt/commit/e53d6a2fb8855281696607d5e5dba81df0e19c7e
@@ -392,7 +392,7 @@ Kept an extra parentheses after changing a line
 Tags:
 brackets
 Length:
-long
+1
 *
 Commit Mistakes:
 File Not Found
@@ -403,7 +403,7 @@ an extra = sign
 Tags:
 extra
 Length:
-long
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes
@@ -414,7 +414,7 @@ Didn't add the escape quote in the string
 Tags:
 Escape
 Length:
-short
+1
 *
 Commit Mistakes:
 https://github.com/lanyeit/radiusd/commit/3df4e220f8325c95577a6c11aa95e4bb2849d5a7
@@ -425,7 +425,7 @@ Forgot to put parentheses around more than two variables after a %
 Tags:
 formatter
 Length:
-long
+3
 *
 Commit Mistakes:
 https://github.com/lanyeit/radiusd/commit/0574bb87211cedbcb5cd266d3656ca2b63469837
@@ -436,7 +436,7 @@ Did not add a %s inside the string
 Tags:
 formatter
 Length:
-short
+1
 *
 Commit Mistakes:
 None
