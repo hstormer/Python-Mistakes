@@ -7,7 +7,7 @@ Forgot to indent under for loop.
 Tags:
 indentation
 Length:
-long
+2
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
@@ -18,7 +18,7 @@ Variable rv assigned to itself and then something else in the same line.
 Tags:
 doubleassignment
 Length:
-short
+1
 *
 Commit Mistakes:
 Could not find a previous commit of file containing mistakes.
