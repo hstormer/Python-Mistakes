@@ -21,7 +21,7 @@ for document in cursor:
 		patch = patch[0]
 		patch = patch.get("patch")
 	file1 = document.get("files")
-	if patch != [] and patch != None:
+	if file1 != [] and file1 != None:
 		file1 = file1[0]
 		file1 = file1.get("filename")	
 		if '.py' in file1:
