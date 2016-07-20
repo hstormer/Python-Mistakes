@@ -194,7 +194,7 @@ Added uneccesary brackets in if statement.
 Tags:
 brackets
 Length:
-1
+6
 *
 Commit Mistakes:
 https://github.com/wadda/gps3/commit/1db159c79bb3c30b96c04f9326d98a5ada4eae2b
