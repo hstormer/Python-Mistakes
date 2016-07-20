@@ -223,7 +223,7 @@ Can't find file
 Commit Corrections:
 https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2
 Mistakes:
-added an extra quotation for no reason
+added an extra quotation for no reason (line 89)
 Tags:
 quotation
 Length:
