@@ -12,7 +12,8 @@ db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
 counter = 0
-save_location = 4719
+# Replace this with your save location from last session!!!!!!!
+save_location = 0
 location = 0
 name = 'Hannah'
 message = None
