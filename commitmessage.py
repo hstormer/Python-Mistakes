@@ -24,9 +24,10 @@ for document in cursor:
 			print message
 			print link
 			print "============================================"
+			counter += 1
 			# Don't print it again if it also contains another thing.
 			break
-	counter += 1
 	# Only go through this many (there are too many to go through all at once!)
-	if counter == 1200:
-		break
+	if counter == 20:
+		answer = raw_input("Press something to continue printing...")
+		counter = 0
