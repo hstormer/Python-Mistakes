@@ -1,0 +1,904 @@
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/835fe383df0e5c25a09a3c0a2a1cfdc8efd35674
+Mistakes:
+Forgot to indent under for loop.
+Tags:
+indentation
+Length:
+2
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/128add8c09bab2bc45d44cf096f7923669a886ad
+Mistakes:
+Variable rv assigned to itself and then something else in the same line.
+Tags:
+doubleassignment
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/c8f34385fba934047f9c5400d6ca27ec756d204c
+Mistakes:
+Added extra parentheses.
+Tags:
+brackets
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/jcsaaddupuy/python-xbmc/commit/bca89c115b18e0c443204284f1e58c79cc8cf38e#diff-3b5e31446f546cea5285cfd44d32d046
+Mistakes:
+Added a _ for no reason
+Tags:
+extra
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/56cf6604fccd4b4b5af7b256674192fd4b9ef30e
+Mistakes:
+Did not indent under if 
+Tags:
+indentation
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
+Commit Corrections:
+https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0
+Mistakes:
+Extra space after variable assignment
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4
+Commit Corrections:
+https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0
+Mistakes:
+missing bracket 
+Tags:
+brackets 
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/wepay/Python-SDK/commit/f7d1ec0901c6bbfc2389f14075db7043f3679796
+Commit Corrections:
+https://github.com/wepay/Python-SDK/commit/3fdc2143f8f85ef40b527cdaebcfc2d9407309a1#diff-2eeaed663bd0d25b7e608891384b7298
+Mistakes:
+spelling mistake: wrote README.SRT instead of README.RST
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/python-git/python/commit/1925082984990676d84f5dbe2b8d9f9921ccb58e
+Mistakes:
+Added two extra "
+Tags:
+quotation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/pubnub/python/commit/03b4fb1d2cc3b781b9ddcba468c90694b7361736
+Commit Corrections:
+https://github.com/pubnub/python/commit/d44e5b455b5aba7fa68d8e0a2b5467f000c8d6a0
+Mistakes:
+Lines were not indented correctly
+Tags:
+indentation
+Length:
+4
+*
+Commit Mistakes:
+https://github.com/pubnub/python/commit/dcdafd146508f7f1f1a1868a94827bb4d6c1a3de
+Commit Corrections:
+https://github.com/pubnub/python/commit/437124952fd01eac9e8ccc132197ea6f18fdea56
+Mistakes:
+Forgot to put 'self' in front of variable
+Tags:
+self
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
+Commit Corrections:
+https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8
+Mistakes:
+Forgot to put 'self' in front of variable
+Tags:
+self
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764
+Commit Corrections:
+https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8
+Mistakes:
+Did not correctly use the 'join' function (in line 945)
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/adamn/python-webkit2png/commit/abd7c659878368b9300a6d19bb36243a175e78f3
+Commit Corrections:
+https://github.com/adamn/python-webkit2png/commit/ef70c8ab5a0fffe85c7de50f8bfeeb7f140ad276
+Mistakes:
+Wrote 'False' instead of 'return False'.
+Tags: 
+noreturn
+Length: 
+1
+*
+Commit Mistakes:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/89638e6a4a39a11f4b9ef55d4a43522aacf7951c
+Commit Corrections:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/9ee44635107ade9c54b2141f1c8c87c9933c6be8
+Mistakes: 
+Added a bracket in the wrong place.
+Tags:
+brackets
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/92345bd383ad06f872e2dd743f6d4a08f0df8a87
+Commit Corrections:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/f6ba4a381fc5f9c223ce973f12692054e84de678
+Mistakes:
+Misspelled tup as tep
+Tags:
+Misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/b2d94d4497903a3fc84c8da4c13b9f79321fed26
+Commit Corrections:
+https://github.com/addam/Export-Paper-Model-from-Blender/commit/78a4b504f993600cdd82396634ea9809b0920025
+Mistakes:
+Forgot to put 'self' before a variable in a function
+Tags:
+self
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/caller9/pythonaes/commit/1d25a6d918789f24dc53a874e7063b2bfa45e957
+Commit Corrections:
+https://github.com/caller9/pythonaes/commit/5548dd845ec7c8bc072ea9c21cc980c9537bb6f8
+Mistakes:
+Added uneccesary brackets in if statement.
+Tags:
+brackets
+Length:
+6
+*
+Commit Mistakes:
+https://github.com/wadda/gps3/commit/1db159c79bb3c30b96c04f9326d98a5ada4eae2b
+Commit Corrections:
+https://github.com/wadda/gps3/commit/88991c9c698d2dec6e824f0f8edd3dfcb6507edd
+Mistakes:
+Forgot to put 'self' before variable in a function
+Tags:
+self
+Length:
+1
+*
+Commit Mistakes:
+Can't find file
+Commit Corrections:
+https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2
+Mistakes:
+added an extra bracket (line 23)
+Tags:
+brackets
+Length:
+1
+*
+Commit Mistakes:
+Can't find file
+Commit Corrections:
+https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2
+Mistakes:
+added an extra quotation for no reason (line 89)
+Tags:
+quotation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ksze/sanitize/commit/d75e613b21f609b44600ecabac14281abc0019ef
+Commit Corrections:
+https://github.com/ksze/sanitize/commit/0987ded60bcba031ffb7635a28c4c669101278d0
+Mistakes:
+Missing a colon in the if/else statement
+Tags:
+colon
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/attilaolah/seven/commit/dbbacb8819fa6cb7ee3e11e81f8712fc668df90f
+Commit Corrections:
+https://github.com/attilaolah/seven/commit/d1640bc320deab192e2b0e03e9ef5fe97e99526b
+Mistakes:
+Misspelled the name of the file to open
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+Can't find
+Commit Corrections:
+https://github.com/python-git/python/commit/a572a9fbd82d8c438e675c2aa2246bd6f2239c5f#diff-2eeaed663bd0d25b7e608891384b7298
+Mistakes:
+spelled hpux instead of hp-ux
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+can't find
+Commit Corrections:
+https://github.com/python-git/python/commit/3f1e12a2b17cf2767f7f356e6474ffb78f76a5cf#diff-2eeaed663bd0d25b7e608891384b7298
+Mistakes:
+added a slash for no reason
+Tags:
+extra
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes.
+Commit Corrections:
+https://github.com/l3nkz/recheck/commit/3b347b693179cdda90b9a2de8a1c5f07142ab731
+Mistakes:
+defined a variable incorrectly
+Tags:
+import
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes
+Commit Corrections:
+https://github.com/Azd325/gingerit/commit/7afd0645723b92a7faa7fe6c6121f488776e79bc
+Mistakes:
+Imported incorrectly, added two '..' instead of '.'
+Tags:
+import
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes
+Commit Corrections:
+https://github.com/ksze/sanitize/commit/0987ded60bcba031ffb7635a28c4c669101278d0
+Mistakes:
+Missed ":" for a loop
+Tags:
+colon
+Length:
+2
+*
+Commit Mistakes:
+Can't find
+Commit Corrections:
+https://github.com/python-git/python/commit/5f1d307e36ed04827f11a209b67c17455af33595#diff-e20542afb8838c3ff279e2e6f023dc9a
+Mistakes:
+added a ; for no reason
+Tags:
+extra
+Length:
+1
+*
+Commit Mistakes:
+Can't find
+Commit Corrections:
+https://github.com/python-git/python/commit/f867f0b48fc52fc078e1233b4fcf0d303e3bb2be#diff-1353b7abd7ae746ef62fd759eb114382
+Mistakes:
+misspelled their own variable by using upper case T instead of t
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+cannot find file
+Commit Corrections:
+https://github.com/python-git/python/commit/d74a235fa0a3afa7c5b31661d2fb580fe9b752de#diff-2cd6165d9e4fd1abfd9f01a8b508e72e
+Mistakes:
+wrote a letter where a number was required in order to run the function properly
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/python-git/python/commit/0486016a147b64c6165f44c340dae64bf3771678
+Commit Corrections:
+https://github.com/python-git/python/commit/55d2d9b1c9f4ff68e7ea0d5908e5911fe1221867#diff-09dd73eef618fb0131a6ffe27a612b39
+Mistakes:
+typo: wrote Falso instead of False
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+Cannot find
+Commit Corrections:
+https://github.com/python-git/python/commit/9b81ce547daa5834fda514533844922845fecf23#diff-f0258b6685684c113bad94d91b8fa02a
+Mistakes:
+forgot to write self.
+Tags:
+self
+Length:
+1
+*
+Commit Mistakes:
+file lost in the land of shadows
+Commit Corrections:
+https://github.com/python-git/python/commit/c8f34385fba934047f9c5400d6ca27ec756d204c#diff-7a48ae1b7387f8a8159c488fbd850021
+Mistakes:
+added an extra bracket
+Tags:
+brackets
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/python-git/python/commit/63026f06d1784b5d2ebc1759fe9bf5a81cdd204f
+Commit Corrections:
+https://github.com/python-git/python/commit/d18ad9758f2afc8a3d5f0abfc44ebb99ae0928e3#diff-37eafa775c7543adb9350a3c633f294a
+Mistakes:
+forgot a curly bracket (line 809)
+Tags:
+brackets
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/crash0verrid3/MagicCrypt/commit/e53d6a2fb8855281696607d5e5dba81df0e19c7e
+Commit Corrections:
+https://github.com/crash0verrid3/MagicCrypt/commit/23a246e5d868c2d530f635d4a7ce386afd2a2d6e
+Mistakes:
+Kept an extra parentheses after changing a line
+Tags:
+brackets
+Length:
+1
+*
+Commit Mistakes:
+File Not Found
+Commit Corrections:
+https://github.com/python-git/python/commit/8a568b2b91f168c94b54ad1105e28e96d7c82ab1#diff-37eafa775c7543adb9350a3c633f294a
+Mistakes:
+an extra = sign
+Tags:
+extra
+Length:
+1
+*
+Commit Mistakes:
+Could not find a previous commit of file containing mistakes
+Commit Corrections:
+https://github.com/phedre13/FetchIt/commit/2527698e4f97dfdc402d14a2dd26df7c77490878
+Mistakes:
+Didn't add the escape quote in the string
+Tags:
+Escape
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/lanyeit/radiusd/commit/3df4e220f8325c95577a6c11aa95e4bb2849d5a7
+Commit Corrections:
+https://github.com/lanyeit/radiusd/commit/b989fbb5d9b0de005397c8f70e79635fc0e07cfe
+Mistakes:
+Forgot to put parentheses around more than two variables after a %
+Tags:
+formatter
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/lanyeit/radiusd/commit/0574bb87211cedbcb5cd266d3656ca2b63469837
+Commit Corrections:
+https://github.com/lanyeit/radiusd/commit/2609c86687d8e89c1617ad76098ac67c9b2bcaac
+Mistakes:
+Did not add a %s inside the string
+Tags:
+formatter
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06
+Commit Corrections:
+https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10
+Mistakes:
+spelled the variable wrong
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188
+Commit Corrections:
+https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6
+Mistakes:
+forgot the _ in variable
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099
+Commit Corrections:
+https://github.com/malramsay64/MD-Molecules-Hoomd/commit/2bb8eaa5ceff6a64452e7e94972539843300dba6
+Mistakes:
+wrote the class name wrong
+Tags:
+misspell
+Length:
+13
+*
+Commit Mistakes:
+https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7
+Commit Corrections:
+https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48
+Mistakes:
+spelled the variable wrong
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/benedictpaten/cactus/commit/4c08d5fb973d2fd6dd3d1b72548e69508fbb2c33
+Commit Corrections:
+https://github.com/benedictpaten/cactus/commit/92acc42161a24a9ae7925e625d2933771851abc3
+Mistakes:
+wrong spelling
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/cissoid/psychopass-python/commit/8df1d779bcfd4f4f3462ba341d20036235483a5d
+Commit Corrections:
+https://github.com/cissoid/psychopass-python/commit/9ba6d7ae8d8f01550855a24a0bd00fc273c2dc5c
+Mistakes:
+variable spelled wrong
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/sahlinet/httptest/commit/7fce91f7aab469297952a2060ca9e5a7f949351e
+Commit Corrections:
+https://github.com/sahlinet/httptest/commit/842d0d0cb3ebe8557ceef38b032937170d962b1c
+Mistakes:
+syntax error
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/trailbehind/DeepOSM/commit/c711e69f93af03bf361d8d109e07aee81e992ea3
+Commit Corrections:
+https://github.com/trailbehind/DeepOSM/commit/98347c60f9a56ba8139a25792c25e27cf07124bd
+Mistakes:
+forgot the variable name
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/JFK/linebot/commit/12f4218603e1cddcc8601c7551c771bcd2b2c625
+Commit Corrections:
+https://github.com/JFK/linebot/commit/29bc088d6e5bcc87ac4d96c63368e6f25a318007
+Mistakes:
+spelled the variable wrong
+Tags:
+misspellvariable
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/denk-mal/tft-display/commit/02f2f1deed49608542260d43545dc5d591890dff
+Commit Corrections:
+https://github.com/denk-mal/tft-display/commit/01e79bac3d03f52370cf91e114aa4016ddf01f94
+Mistakes:
+misspelled variable in calling a function
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/devchannel/DevLang/commit/b348f516c2eabdf6ebc7a0049e39fd7d7af5356e
+Commit Corrections:
+https://github.com/devchannel/DevLang/commit/b089a0a8d0a3e564444e3f34acc5a0b2dca30899
+Mistakes:
+no script for the for-loop to execute
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/censof/ansible-deployment/commit/503cc7a2e6b9b7a23cbbf464187823dcf861b502
+Commit Corrections:
+https://github.com/censof/ansible-deployment/commit/a54d7c109a14de061e54c76f3ba2028ef6248e86
+Mistakes:
+wrong spelling
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/zstackorg/zstack-woodpecker/commit/2de2214a88cd74d4a175720ac6a0a3c2579a7248
+Commit Corrections:
+https://github.com/zstackorg/zstack-woodpecker/commit/713074f8799fef6b244d40a7ab014d24026fb975
+Mistakes:
+spelled variable wrong
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/damyanbogoev/flask-bookshelf/commit/56fdb59f6ac6e974dd5bcd0b91b3dd1ff05b29d0
+Commit Corrections:
+https://github.com/damyanbogoev/flask-bookshelf/commit/91efb618889e05d16bdbbd1beec58c5f6bd6c576
+Mistakes:
+spelled the variable wrong
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/dltiziani/gammapy/commit/95a56cc777bb93662a376e583acddb33562c0be9
+Commit Corrections:
+https://github.com/dltiziani/gammapy/commit/78501873967f1121eebdee28ca2acd3722cf783b
+Mistakes:
+variable spelled wrong
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/dhlab-basel/Knora/commit/5fe5b56ace27da0e50bc3c98d4b9e35106603638
+Commit Corrections:
+https://github.com/dhlab-basel/Knora/commit/d8a750a113ce04d4fec0175ac895527200eb5653
+Mistakes:
+forgot , after individual strings
+Tags:
+escape
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/DanKupiniak/mbed/commit/d3466ba15df6a0dff4aad02a9875661cff16500f
+Commit Corrections:
+https://github.com/DanKupiniak/mbed/commit/3d67be3be96552d102fc787ecdcb76f38e82d63f
+Mistakes:
+variable is spelled wrong
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/TissueMAPS/gc3pie/commit/aafaa267251784ad5bd1a17c8f6d1a599a505e2d
+Commit Corrections:
+https://github.com/TissueMAPS/gc3pie/commit/0ef790af2a03c50a7741156495fe67c956d8b604
+Mistakes:
+forgot : in for-loop
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/bartverstrynge/azure-sdk-for-python/commit/97f97ce35dc92bdd5394d983a7b19ec84205898e
+Commit Corrections:
+https://github.com/bartverstrynge/azure-sdk-for-python/commit/073c97dfc5239dff9634432bb954397d832a7f7d
+Mistakes:
+forgot , after string
+Tags:
+escape
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/goody44/ggrc-core/commit/6275726e5dd1dad3266e4ec24bbd9f13108f2516
+Commit Corrections:
+https://github.com/goody44/ggrc-core/commit/3852e3b89a83726e382f33942cdcfd8f39754733
+Mistakes:
+variable is spelled wrong
+Tags:
+misspellvariable
+Length:
+3
+*
+*
+Commit Mistakes:
+https://github.com/semio/ddf_utils/commit/7587d849672352c40fac76760fa0fc15623f9400
+Commit Corrections:
+https://github.com/semio/ddf_utils/commit/1d8acdfc0a729197dda3e1d52582f1ac317cc005
+Mistakes:
+Added an extra space to a line under else
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/hokuto-k/django-line-bot/commit/3e90e4e53282c27743b9079561d47e9ba6a05c91
+Commit Corrections:
+https://github.com/hokuto-k/django-line-bot/commit/7ab3fcfb53fcee1db9e11553cd4e60748a068966
+Mistakes:
+Misspelled 'recieved_text' variable as 'recieved_txt'
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ekimekim/pipirc/commit/76a5bc83eb00dfff99c4629727ee54d81258f3e7
+Commit Corrections:
+https://github.com/ekimekim/pipirc/commit/56376857d0d0cd2c7ce472863a979432ef953c38
+Mistakes:
+Misspelled 'startswith()' as 'startwith()'
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/alexskc/Fruitydo/commit/c6c1bceda0426510aa3e068884563bf460695b0c
+Commit Corrections:
+https://github.com/alexskc/Fruitydo/commit/e49980bebdf5eb421b5db20349fa2f25169a00bd
+Mistakes:
+Misspelled variable 'EMAIL_HOST_PASSWORD' as 'EMAIL_HOST_PASSWROD'
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/harvitronix/project-becho/commit/8bd94bbf6efdbc7f1cb9fbb0555776d2ef430e84
+Commit Corrections:
+https://github.com/harvitronix/project-becho/commit/740205637af0aef5af243f62679712aa26377b1c
+Mistakes:
+Misspelled variable weights_file as weights_File
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/seung-lab/znn-release/commit/992dbbf4974a52675d2691314f19eb6cadb84604
+Commit Corrections:
+https://github.com/seung-lab/znn-release/commit/cbca3dafa8552bb02402ca1babf5e6faba47e0a6
+Mistakes:
+Added some extra spaces
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/brendan-w/python-OBD/commit/3e96a65ee534f1bd27542e644ecfd73c0eda96fe
+Commit Corrections:
+https://github.com/brendan-w/python-OBD/commit/9a2241f6dfc3a31b8cd116859c0f2d3a970fddc5
+Mistakes:
+Added some extra spaces
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ScreamingUdder/live-data-prototype/commit/361ba3fa28ab5ada18c3deefec0c3b5c53890a20
+Commit Corrections:
+https://github.com/ScreamingUdder/live-data-prototype/commit/530c819d67d0c972da674e2835a1ea126c985238
+Mistakes:
+Indented incorrectly, and then corrected incorrectly
+Tags:
+indentation
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/ScreamingUdder/live-data-prototype/commit/530c819d67d0c972da674e2835a1ea126c985238
+Commit Corrections:
+https://github.com/ScreamingUdder/live-data-prototype/commit/a50555ad5792550d9c2cbd6bab1a35699febca81
+Mistakes:
+Missing a space
+Tags:
+indentation
+Length:
+28
+*
+Commit Mistakes:
+https://github.com/ITDevLtd/MCVirt/commit/be6dbc8b74d8a68e6f67d50ef29627391fe3ea03
+Commit Corrections:
+https://github.com/ITDevLtd/MCVirt/commit/2ee4d433777559173e3ef8e23f82cbef10286956
+Mistakes:
+Did not indent far enough
+Tags:
+indentation
+Length:
+26
+*
+Commit Mistakes:
+https://github.com/jeffmahoney/crash-python/commit/eb1dd5560a5e7f3e2d83259edbafd0f28fe0039b
+Commit Corrections:
+https://github.com/jeffmahoney/crash-python/commit/b2b1bc51656cfbedae0474a7fc3689d06cff9e87
+Mistakes:
+Did not indent far enough
+Tags:
+indentation
+Length:
+18
+*
+Commit Mistakes:
+https://github.com/pytest-dev/pytest-qt/commit/5e158dad24360389bc6a497d39ddf380265b4d1a
+Commit Corrections:
+https://github.com/pytest-dev/pytest-qt/commit/161c9f07370ec84a4816081938a81c4147c61ed4
+Mistakes:
+Indented too far
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/michaelpantic/iot-pie/commit/ef9ad46301ed1a584d551178357377d61b1abdbf
+Commit Corrections:
+https://github.com/michaelpantic/iot-pie/commit/b9508241127ff7d1662e59af9e0eb19dff6046a9
+Mistakes:
+Incorrect indentation in various places
+Tags:
+indentation
+Length:
+5
+
+*
+Commit Mistakes:
+https://github.com/efagerberg/PiCam/commit/12ac7135d1970be54d0e4564b18b2685749ac6b3
+Commit Corrections:
+https://github.com/efagerberg/PiCam/commit/6f280c930ce43870b38ee0ab190d457126ea18dc
+Mistakes:
+Incorrect indentation under for loop
+Tags:
+indentation
+Length:
+10
+*
+Commit Mistakes:
+https://github.com/mrummuka/location-history-json-converter/commit/28836680116719289b50d9a8c1fd2afe5670688f
+Commit Corrections:
+https://github.com/mrummuka/location-history-json-converter/commit/7fa2356a055a56bb0daefd8bfafe0f3362dd2704
+Mistakes:
+Incorrect indentation of 'continue's.
+Tags:
+indentation
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/pyGSTio/pyGSTi/commit/e7e6ae95f551d8bdf549f2738c081a1a930e1794
+Commit Corrections:
+https://github.com/pyGSTio/pyGSTi/commit/399fde336df8b420315bb4bbe897bbc0b79150bd
+Mistakes:
+Indented over too far
+Tags:
+inentation
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/129a45753cfa3cfe6d516f1d6bcf9ab2c952d931
+Commit Corrections:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/ffe975e42c962251dd05ee868f676ef62f573d46
+Mistakes:
+Indented over too far
+Tags:
+indentation
+Length:
+7
+*
+Commit Mistakes:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/129a45753cfa3cfe6d516f1d6bcf9ab2c952d931
+Commit Corrections:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/898ebfc0d74e8dcf03f9c60a8011d932ae8efc87
+Mistakes:
+Indented over too far
+Tags:
+indentation
+Length:
+7
+*
+Commit Mistakes:
+https://github.com/lcgraham/BET/commit/05fd97126bda48098f791f167c01fd5756f37213
+Commit Corrections:
+https://github.com/lcgraham/BET/commit/fee3cae7289b4b447932aa047d162c26c4958165
+Mistakes:
+Indented over too far
+Tags:
+indentation
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/sfu-natlang/glm-parser/commit/75186444cf04793d00b312dff76254b2b129370e
+Commit Corrections:
+https://github.com/sfu-natlang/glm-parser/commit/6a123cb374b2150ebd865481c9bbddcc340c9fca
+Mistakes:
+Tried to use && as 'and'
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/drocta/someParser/commit/4c32979cea69865a25136c6ffb101bc12258f692
+Commit Corrections:
+https://github.com/drocta/someParser/commit/f52e05cb9ac788b1ecd2d55c3f2dc55fda43ae0a
+Mistakes:
+Mispelled environment while trying to define a variable
+Tags:
+misspell
+Length:
+1*
+Commit Mistakes:
+https://github.com/drocta/someParser/commit/f52e05cb9ac788b1ecd2d55c3f2dc55fda43ae0a
+Commit Corrections:
+https://github.com/drocta/someParser/commit/203cff66f30f3303c159ba38d33a950fe9c6c63d
+Mistakes:
+imported wrong thing
+Tags:
+import
+Length:
+1
+*
+#
