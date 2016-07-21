@@ -610,7 +610,7 @@ https://github.com/dhlab-basel/Knora/commit/d8a750a113ce04d4fec0175ac895527200eb
 Mistakes:
 forgot , after individual strings
 Tags:
-escape
+comma
 Length:
 3
 *
@@ -643,7 +643,7 @@ https://github.com/bartverstrynge/azure-sdk-for-python/commit/073c97dfc5239dff96
 Mistakes:
 forgot , after string
 Tags:
-escape
+comma
 Length:
 1
 *
@@ -657,7 +657,6 @@ Tags:
 misspellvariable
 Length:
 3
-*
 *
 Commit Mistakes:
 https://github.com/semio/ddf_utils/commit/7587d849672352c40fac76760fa0fc15623f9400
@@ -877,6 +876,358 @@ Mistakes:
 Tried to use && as 'and'
 Tags:
 function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/tardyp/buildbot/commit/761ac22bda0ae2ab9f7bbcdae1a68e37bf4b7391
+Commit Corrections:
+https://github.com/tardyp/buildbot/commit/5f7f5c239d6c3996188371f0b75ec66f4bd23dd5
+Mistakes:
+typo in url
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/liboz/suds-lxml/commit/fe73cd798b5932832405d6d214fba6099522d642
+Commit Corrections:
+https://github.com/liboz/suds-lxml/commit/1a92913afff8a9f55ef2401729176612f6d613ed
+Mistakes:
+misspelled client as lient
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/typemytype/batchRoboFontExtension/commit/db2dd6bd6b2854f9fe40d78880fef911e7750f91
+Commit Corrections:
+https://github.com/typemytype/batchRoboFontExtension/commit/8635650d0afd19ce5d702e3d8fa323692523d8bf
+Mistakes:
+misspelling
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/langerma/icinga-plugins/commit/cd3213a8d8e6faee6c9bdd074f16c7eaf839de19
+Commit Corrections:
+https://github.com/langerma/icinga-plugins/commit/cc2fdbb38ff3bd234f3cfcb0ef0bb51c2c19db8c
+Mistakes:
+capitalized the i in pollerinterval when not supopsed to
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ITDevLtd/MCVirt/commit/f138b7407b3c6c040fa95ba3c46423e53abf83a4
+Commit Corrections:
+https://github.com/ITDevLtd/MCVirt/commit/298e59f031b045591f1a43e78f44038bb990ca64
+Mistakes:
+misspelled hash_string as hash_sring
+Tags:
+misspell
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/TauraBots/PyDimitri/commit/59df485ce2f1fb8804aaf8e03da0942ab0f57d96
+Commit Corrections:
+https://github.com/TauraBots/PyDimitri/commit/3a147ab35b2077f73e7da1dac583eba05ab89205
+Mistakes:
+misspelled joints as joits
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ICCastaneda2/azurp/commit/e1e955146d6b47d46e51783d1ca76ffda276b6e1
+Commit Corrections:
+https://github.com/ICCastaneda2/azurp/commit/57d60aaf6ef2e37f2b3589a801cda19a0a24880f
+Mistakes:
+misspelled prime_sent as prime_sen
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/cerfacs-globc/icclim/commit/671e9f7d204a1fec43aa3fb485c7663b67ac20ec
+Commit Corrections:
+https://github.com/cerfacs-globc/icclim/commit/7c0536e0c3f095ea797491af9c90d3bf8fe16fd9
+Mistakes:
+forgot to add a colon to the else statement
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/armadillica/pillar/commit/5a4d98b352684004687531c5f9d63bccf907bce5
+Commit Corrections:
+https://github.com/armadillica/pillar/commit/5355e4e359e4554a4590f5a2d3ca0f537dc02d02
+Mistakes:
+misspelled if as iff
+Tags:
+misspell
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/goody44/ggrc-core/commit/6275726e5dd1dad3266e4ec24bbd9f13108f2516
+Commit Corrections:
+https://github.com/goody44/ggrc-core/commit/2d5749b612f7741bb04521233c0c013102627f63
+Mistakes:
+some misspellings
+Tags:
+misspell
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/hyraxbio/simulated-data/commit/d57abc5b6b6cd6a9558e509b316a90b449292991
+Commit Corrections:
+https://github.com/hyraxbio/simulated-data/commit/fbc14ddabbd079a09128dcf53c2c91b6d5c8d71d
+Mistakes:
+misspelled file_names as filenames
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/City-of-Helsinki/smbackend/commit/f07df47c5804376e08f7d696648763ba93511355
+Commit Corrections:
+https://github.com/City-of-Helsinki/smbackend/commit/6aed0721e01ff124d882e55698aaf2a2546feff5
+Mistakes:
+wrote Service as Services
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/kanuahs/idltelegrambot/commit/e4ab5ac36fd34a65a72c23a24f7112ec89d0dcf9
+Commit Corrections:
+https://github.com/kanuahs/idltelegrambot/commit/c5e6dc7cbb01760b89026612bc5c67b202f5a499
+Mistakes:
+forgot indentation 
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/projectEP/backend-server/commit/fd99aaea8e5e6f3be72a26bd485f159097b668fa
+Commit Corrections:
+https://github.com/projectEP/backend-server/commit/36aa2107c8a3bf2790018f1730bb81025d54770d
+Mistakes:
+forgot to add , when switching to different line
+Tags:
+comma
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/purvigoel/Writing3D/commit/528547bd48d949c89296ce66d1a405f8deee40c5
+Commit Corrections:
+https://github.com/purvigoel/Writing3D/commit/227938f5454522adc1816c59b419f8bc0723e974
+Mistakes:
+wrote test instead of text
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/085astatine/togetter/commit/51000209d7c079d67f2501f55253ac193492a1f4
+Commit Corrections:
+https://github.com/085astatine/togetter/commit/d02a7a987b8845447dd6b66d72518d4e9509b625
+Mistakes:
+wrote getLoger instead of getLogger
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/mangaki/mangaki/commit/1c6542798c6897697dbecb1a541422cc6d3704f9
+Commit Corrections:
+https://github.com/mangaki/mangaki/commit/f6dc4766d26652061f29f96bd587d07e6d5d747a
+Mistakes:
+forgot 's' at the end of unseen_lists
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/werat/PySyncObj/commit/f8192ef5fa9231d5fefe329b1157256d4c9a6a83
+Commit Corrections:
+https://github.com/werat/PySyncObj/commit/6ca9205969702ccd698eaed1080413ed39158ae7
+Mistakes:
+misspelling
+Tags:
+misspell
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/TauraBots/PyDimitri/commit/49473fbe8008418d95360d3d445fc9328e288598
+Commit Corrections:
+https://github.com/TauraBots/PyDimitri/commit/8e6fb6faa28db39db6dbfd75e21f9fb2940f446f
+Mistakes:
+forgot colon in if statement
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0
+Commit Corrections:
+https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6
+Mistakes:
+three === instead of two ==
+Tags:
+extra
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/viatra/viatra-cps-benchmark/commit/4aeb4e59a2e5b535b292a5c411757fb3592b285b
+Commit Corrections:
+https://github.com/viatra/viatra-cps-benchmark/commit/874ace82c4e0cca72102edda5bf2f5c06415f0a0
+Mistakes:
+extra indentation
+Tags:
+indentation
+Length:
+37
+*
+Commit Mistakes:
+https://github.com/viatra/viatra-cps-benchmark/commit/c83af8165930e6fc28daa40b2343fc5754e8ab73
+Commit Corrections:
+https://github.com/viatra/viatra-cps-benchmark/commit/3eb84cee6e96cace67fde8c71e414746bdc242f0
+Mistakes:
+extra indenation
+Tags:
+indentation
+Length:
+4
+*
+Commit Mistakes:
+https://github.com/ZhuangLab/storm-control/commit/5db2c5d2432a9497598b7cac004ff8e218629175
+Commit Corrections:
+https://github.com/ZhuangLab/storm-control/commit/34c7c03ae1f051317d9aad8e89224e8e152abf83
+Mistakes:
+forgot a bracket
+Tags:
+bracket
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/Magswitch/Force-Calculator/commit/a70bc57b5307656e799d5e76e4365d81e0d1f657
+Commit Corrections:
+https://github.com/Magswitch/Force-Calculator/commit/480d7c9c9cd6aeccea05dc1528eec99d2a0434b0
+Mistakes:
+forgot colon when defining class
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/Bboatman/proceduralMapGeneration/commit/c4c9b72a35cb313c12bebe023a39b4bd871a3902
+Commit Corrections:
+https://github.com/Bboatman/proceduralMapGeneration/commit/7b4efd3de2d71bb78c911cfe721f8bc969f2ccc6
+Mistakes:
+capitalized 'c' in config
+Tags:
+misspell
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/srsummerson/analysis/commit/1d66a945353122d639eb1650ee7697a8e852d048
+Commit Corrections:
+https://github.com/srsummerson/analysis/commit/d65dc337db2475340b6115443b62f27b1a524744
+Mistakes:
+indentation issues
+Tags:
+indentation
+Length:
+4
+*
+Commit Mistakes:
+https://github.com/srsummerson/analysis/commit/d65dc337db2475340b6115443b62f27b1a524744
+Commit Corrections:
+https://github.com/srsummerson/analysis/commit/96aacc292694243d6dfc9c3d3ff6f0db43bdfac3
+Mistakes:
+indentation issues
+Tags:
+indentation
+Length:
+8
+*
+Commit Mistakes:
+https://github.com/srsummerson/analysis/commit/96aacc292694243d6dfc9c3d3ff6f0db43bdfac3
+Commit Corrections:
+https://github.com/srsummerson/analysis/commit/9fc9f3a7496bf391ef1945d7bfb0ef3cdf29a585
+Mistakes:
+indentation issues
+Tags:
+indentation
+Length:
+14
+*
+Commit Mistakes:
+https://github.com/srsummerson/analysis/commit/9fc9f3a7496bf391ef1945d7bfb0ef3cdf29a585
+Commit Corrections:
+https://github.com/srsummerson/analysis/commit/69805b98beaac2d85fbfa85ca3bc33e98bffb323
+Mistakes:
+indentation issues
+Tags:
+indentation
+Length:
+4
+*
+Commit Mistakes:
+https://github.com/kinow/pccora/commit/6cf4029517efa796b082fad4530f7fef0830d78a
+Commit Corrections:
+https://github.com/kinow/pccora/commit/e0fe4a55d5e3485cd35fc2e1223823f7c92c3ab1
+Mistakes:
+typo
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/mainfram3ca/hackerpyramid/commit/ba211959c5cf307ba29782477ed424815fa05601
+Commit Corrections:
+https://github.com/mainfram3ca/hackerpyramid/commit/653ebd0c5dbf879debe5f1b95e54cca4e6ef2768
+Mistakes:
+forgot indentaion
+Tags:
+indentation 
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/bulbulpaul/skysea-killer/commit/211ff1ee3b4357c948c3d7ba1f570f780471b656
+Commit Corrections:
+https://github.com/bulbulpaul/skysea-killer/commit/8c898d418efc896207845af5ddd8b61bdae17b8c
+Mistakes:
+an extra square bracket for no reason
+Tags:
+brackets
 Length:
 1
 *
