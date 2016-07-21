@@ -7,7 +7,7 @@ script, filename = argv
 CommitMistakes = ''
 CommitCorrections = ''
 
-client = MongoClient('10.13.10.124')
+client = MongoClient()
 db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
