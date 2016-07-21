@@ -1395,4 +1395,499 @@ misspell
 Length:
 1
 *
+Commit Mistakes:
+https://github.com/jeremywrnr/pt-evaluation/commit/7496ce5874bcb7248438d0332ad2d1dc98434a6f
+Commit Corrections:
+https://github.com/jeremywrnr/pt-evaluation/commit/3662b8dbb5d646e60d0afad7fbd7317be1dd6a6a
+Mistakes:
+Added a '2' after variable name
+Tags:
+extra
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/asmodehn/celerybeatredis/commit/214291a0ed982661700e2da6178bbe665af536e1
+Commit Corrections:
+https://github.com/asmodehn/celerybeatredis/commit/8b17282434a29a6424c3c2cb855f7e679b1d9985
+Mistakes:
+Misspelled 'scedules' as 'schedulers'
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/guozhongxin/bigchaindb/commit/59003f998fc367690ea1ed146fdefb353ec30ce7
+Commit Corrections:
+https://github.com/guozhongxin/bigchaindb/commit/eab43e4b1feab84d54af56211864f2bc80d0546c
+Mistakes:
+Forgot a , after a string
+Tags:
+comma
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/hokuto-k/django-line-bot/commit/3e90e4e53282c27743b9079561d47e9ba6a05c91
+Commit Corrections:
+https://github.com/hokuto-k/django-line-bot/commit/7ab3fcfb53fcee1db9e11553cd4e60748a068966
+Mistakes:
+Misspelled 'text' as 'txt'
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/virpatel524/miRNA-Scripts/commit/7484135e8322d9961e7815bf5e1b8f174ca35384
+Commit Corrections:
+https://github.com/virpatel524/miRNA-Scripts/commit/39df4a14f8e607be503b14964e70041dfa9db752
+Mistakes:
+Added an extra : after the if
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/virpatel524/miRNA-Scripts/commit/39df4a14f8e607be503b14964e70041dfa9db752
+Commit Corrections:
+https://github.com/virpatel524/miRNA-Scripts/commit/49c38a3ca4e283d8f93a790b5ce5bbdc55684670
+Mistakes:
+Forgot a : after the if
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/gbolo/vSummary/commit/0929bf0d5db0e9c1cbd5d3262b5652ec228ed9f0
+Commit Corrections:
+https://github.com/gbolo/vSummary/commit/1d288dd2a69ce0a18bc5db4083a36936fae33249
+Mistakes:
+Did not put a formatter inside the string.
+Tags:
+formatter
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ekimekim/pipirc/commit/76a5bc83eb00dfff99c4629727ee54d81258f3e7
+Commit Corrections:
+https://github.com/ekimekim/pipirc/commit/56376857d0d0cd2c7ce472863a979432ef953c38
+Mistakes:
+Misspelled 'startswith()' as 'startwith()'
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/stonewell/pymterm/commit/f18b221be99b699337700ca0644ee1cfd63708e4
+Commit Corrections:
+https://github.com/stonewell/pymterm/commit/800c03d0961f28b1fee95d3d97b19ab13b67ce25
+Mistakes:
+Misspelled 'TextAttribute' class as 'TextAttributes'
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/rjovelin/CRM_POPVAR/commit/6cd4477f5d5d5d47fa6454015d9e7b3d0b2dc2c4
+Commit Corrections:
+https://github.com/rjovelin/CRM_POPVAR/commit/e83a632f47bf526ba4d4cca6d818c4d91b0505bf
+Mistakes:
+Forgot a / in between filenames
+Tags:
+file
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/alexskc/Fruitydo/commit/d07916652b863d53428d138e88e58c67533aa056
+Commit Corrections:
+https://github.com/alexskc/Fruitydo/commit/638beb6bdb12ae8fe33f01da1eb70dde4fd65ed0
+Mistakes:
+Forgot to close parentheses
+Tags:
+bracket
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/jrnold/stan-language-definitions/commit/04b272c0b60023795c22337733888c2c00ef4c52
+Commit Corrections:
+https://github.com/jrnold/stan-language-definitions/commit/13a2b1a8cc77bd1ddf2c398050a7202deb52a9cd
+Mistakes:
+Missing a semicolon
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/xlliu/web_service/commit/4d1c2603782957f42901a4a5291e50069707e85a
+Commit Corrections:
+https://github.com/xlliu/web_service/commit/ab60f5e294c16a87038295343e6c36223c09fdf8
+Mistakes:
+Missing a }
+Tags:
+bracket
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/harvitronix/project-becho/commit/8bd94bbf6efdbc7f1cb9fbb0555776d2ef430e84
+Commit Corrections:
+https://github.com/harvitronix/project-becho/commit/740205637af0aef5af243f62679712aa26377b1c
+Mistakes:
+Misspelled 'self.weights_file' as 'self.weights_File'
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/DimitrisJim/MessengerBots/commit/55ab3f287b89d27f58a1f8807c2b34d3b34d31d5
+Commit Corrections:
+https://github.com/DimitrisJim/MessengerBots/commit/f605c984ac135ddc26219b9914a9e453d93fb038
+Mistakes:
+Forgot to add 'self' in front of variable name.
+Tags:
+self
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/thuzhf/history_analysis/commit/785d87e4e04317ddee24d691ef85403c8c15180d
+Commit Corrections:
+https://github.com/thuzhf/history_analysis/commit/34db1e97fd496dc38eb30db05e7078e9db29bf87
+Mistakes:
+Forgot to put quotes around a string
+Tags:
+quotation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/WatNFV/nsf-discovery/commit/eba6a4127a6cb4e94da290e13410934c8e06fba7
+Commit Corrections:
+https://github.com/WatNFV/nsf-discovery/commit/569ad662a8fcca819287d714bd2effcbc957abb9
+Mistakes:
+Forgot to add 'self' when defining a function
+Tags:
+self
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/gt-ros-pkg/hrl-assistive/commit/79443cce28dcac5ce3e03ccede75ea96eaaf7cd5
+Commit Corrections:
+https://github.com/gt-ros-pkg/hrl-assistive/commit/673cde9e1a4e5e14d4ef94d14d7c414651b24e9f
+Mistakes:
+Forgot a comma
+Tags:
+comma
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/erocarrera/pydot/commit/86163b3538dca01e8bcf617932fda373ceb1f203
+Commit Corrections:
+https://github.com/erocarrera/pydot/commit/c59d6ce4482178ade9a65bf127b53c5dc54ef432
+Mistakes:
+Did not put 'object' when making a class
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/sjkim0924/my-first-blog/commit/b49ed66739a362e69da6b5fa3a4e5878d0976826
+Commit Corrections:
+https://github.com/sjkim0924/my-first-blog/commit/c03a19b32a9f29f70bc8b87f0d051c43e37d7cb5
+Mistakes:
+Misspelled 'self' as 'seld'
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/cpcloud/ibis/commit/0a43a8c5405af3b952dc2b2733720e640f8925fc
+Commit Corrections:
+https://github.com/cpcloud/ibis/commit/362a5cadc179dd242626013976de5f0bd7bd15d0
+Mistakes:
+Forgot a comma after an item
+Tags:
+comma
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/chaayac/dilaps/commit/78ce007cdcc6d15c897b075dcfabb878d89d71b6
+Commit Corrections:
+https://github.com/chaayac/dilaps/commit/699637e1c4ae4e756d30ac3fbf685f3f6d0ebe19
+Mistakes:
+Did not indent far enough
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/chaayac/dilaps/commit/249e8dee8390ce879de4787be8fe9e861cdfec3a
+Commit Corrections:
+https://github.com/chaayac/dilaps/commit/78ce007cdcc6d15c897b075dcfabb878d89d71b6
+Mistakes:
+Forgot a comma after an item
+Tags:
+comma
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/zumbalika/pythonexample/commit/350d1062926c2dbef6e04ff309abd02bd6b864fe
+Commit Corrections:
+https://github.com/zumbalika/pythonexample/commit/2121829a1a69a852e7cce97941c75c1f4cdc6c8b
+Mistakes:
+Misspelled 'while' as 'ehile'
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/dylanpmorgan/polibot/commit/cc38d149c9bcfa27e92ec2c79e012f1974a84107
+Commit Corrections:
+https://github.com/dylanpmorgan/polibot/commit/38455eae8ed396184db76ca0bebb746cfbceb2a7
+Mistakes:
+Misspelled 'dump()' function as 'dumps()'
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/zhenailuoye1/mission/commit/33587b138f5104a5811d64a3ed4c0122b1eb04bb
+Commit Corrections:
+https://github.com/zhenailuoye1/mission/commit/2ca085c8c319f77bdd69aeeca948a217409774f1
+Mistakes:
+Did not indent far enough
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/d9pouces/PolyArchiv/commit/02c0d07e06fc4b71a9647d1c7f77fe02865f2273
+Commit Corrections:
+https://github.com/d9pouces/PolyArchiv/commit/043c6834350e86b7371b01994ba0bd9e03f962d1
+Mistakes:
+Put a comma where there shouldn't be one
+Tags:
+extra
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/meiavy/python-weixin/commit/a62122af1dd753dfe05d70310cb43ebeab30bf8e
+Commit Corrections:
+https://github.com/meiavy/python-weixin/commit/614ade2812ab93dd370d3c1e8676ffdbafaabe96
+Mistakes:
+Forgot to close parentheses
+Tags:
+brackets
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/Narcissist1/lunchplace/commit/3e94f9f99b7fea39a63da0983b27f235957b96fc
+Commit Corrections:
+https://github.com/Narcissist1/lunchplace/commit/2ceec1022c56ba0fcda8e391efc5148e32fbe97c
+Mistakes:
+Added an extra / at the end of file path
+Tags:
+file
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/folowing/nude.py/commit/dde32118e893a860dc7591de9a997c805942e43d
+Commit Corrections:
+https://github.com/folowing/nude.py/commit/9916c76a554639275c1d120d2b92fd6915fa466d
+Mistakes:
+Misspelled variable '__slots__' as '__slot__'
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/psmit/kaldi-recipes/commit/9504c7844a2db3bad3e652a5a29e743ccaddbbcf
+Commit Corrections:
+https://github.com/psmit/kaldi-recipes/commit/aa7e3c1154727c650598970e648e03fa04862f61
+Mistakes:
+Misspelled 'startswith()' as 'starswith()'
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/raaka1/samv01/commit/47a6227f9ceb2f1091b931fcb9509da4af46868e
+Commit Corrections:
+https://github.com/raaka1/samv01/commit/7cc5423884cda56772bb0c49943b166cfb9874e6
+Mistakes:
+Forgot : after if statement
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/raaka1/samv01/commit/7cc5423884cda56772bb0c49943b166cfb9874e6
+Commit Corrections:
+https://github.com/raaka1/samv01/commit/fff4f0bc7b8245add2c897b7e0777b577e63ddf8
+Mistakes:
+Forgot the : after else
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/Canule/Mash-Cogs/commit/ec3e2630fddc8e2ff0780de157742ea7734b2ffd
+Commit Corrections:
+https://github.com/Canule/Mash-Cogs/commit/fa6eaaa2533f2c2b871710ceca4301bb6a8105a9
+Mistakes:
+Did not indent a line
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/Nada3/CubeWars/commit/a4e70841a4c3ab46a0f6f1f7cc5926b68b9dc688
+Commit Corrections:
+https://github.com/Nada3/CubeWars/commit/c902a48ab4100bb6157bb130341e66b1307aa19e
+Mistakes:
+Forgot a parentheses
+Tags:
+bracket
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/mtsukanov/rusrat/commit/0f0518aeed9910168ede031f6aba8fc82f72ac4e
+Commit Corrections:
+https://github.com/mtsukanov/rusrat/commit/bceda887e2dd2603158b0400d27c8b2caa6f48dd
+Mistakes:
+Added a comma between a string and a formatter
+Tags:
+comma
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/magenta-aps/mox/commit/377bbda0478a780d4cb715c6335335f8296abe64
+Commit Corrections:
+https://github.com/magenta-aps/mox/commit/a367248eff744813ae666524bcc49f4a91351d94
+Mistakes:
+Added a ; on the end of a line
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/SartoNess/python-bitcoinlib/commit/4b05213a72f97e6e15c21244c49f248b10443c34
+Commit Corrections:
+https://github.com/SartoNess/python-bitcoinlib/commit/2bf02a05f27fd5dda59de1cbc5a84b5186e6e4cb
+Mistakes:
+Misspelled 'README.md' as 'README'
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/raaka1/samv01/commit/b5ece102a640ff50b764538977cba28d5cccf91a
+Commit Corrections:
+https://github.com/raaka1/samv01/commit/55f8091a90990aeb981d56c5a7c992798317b64e
+Mistakes:
+Put a " in front of a function
+Tags:
+quotation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/lfcipriani/commutemate/commit/947d137a87fd2fbbd520838618592e13c227a324
+Commit Corrections:
+https://github.com/lfcipriani/commutemate/commit/f4b87723bbe2898b60f95ec46d904927b593a371
+Mistakes:
+Put a ; at the end of a line
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/Sinicin/test/commit/6fd89364727cdfff84faecf5712ff2f2336f0f41
+Commit Corrections:
+https://github.com/Sinicin/test/commit/1020be36fc65e47cd5ceaf2ec69118be7173ef8c
+Mistakes:
+Added an extra )
+Tags:
+bracket
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/soasme/blackgate/commit/098d09b76e692b2a131142e9bdc62b298e3dc32e
+Commit Corrections:
+https://github.com/soasme/blackgate/commit/f6672fd0074052ba71bc1266590f0ef0db8f14d0
+Mistakes:
+Forgot to put a space between import and module
+Tags:
+space
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/pupil-labs/pupil/commit/8ca4580dbd024f67223db5250092fed04cda4913
+Commit Corrections:
+https://github.com/pupil-labs/pupil/commit/d30f48e00be2f55b01f15d419d3f42a8d3ba09a6
+Mistakes:
+Put a comma instead of a : between dictionary key and value
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/mqopen/mqspeak/commit/2948e0725cabdbede7aaa9184989541f14b0e5ed
+Commit Corrections:
+https://github.com/mqopen/mqspeak/commit/c25cff71b9412e0ad81e06913921c1146590b227
+Mistakes:
+Misspelled 'README.md' as 'readme.md'
+Tags:
+misspell
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ActivityWatch/aw-server/commit/4944e391f8cc6c7f7aba11ec3238c77c045635d2
+Commit Corrections:
+https://github.com/ActivityWatch/aw-server/commit/277104eb1492b522660529474e5ebbf1ec7f4b84
+Mistakes:
+Wrote = instead of ==
+Tags:
+operator
+Length:
+1
+*
 #
