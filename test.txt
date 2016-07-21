@@ -1373,8 +1373,6 @@ import
 Length:
 1
 *
-#
-*
 Commit Mistakes:
 https://github.com/quodlibet/quodlibet/commit/9593fd4827bbfbd4b59036db6d54db1acae9230a
 Commit Corrections:
@@ -1384,7 +1382,8 @@ forgot formatter in string
 Tags:
 formatter
 Length:
-1*
+1
+*
 Commit Mistakes:
 https://github.com/jbrooksuk/Intellitip/commit/199ab3ffdadd97c60a5fdf0466371680b91af250
 Commit Corrections:
@@ -1395,3 +1394,5 @@ Tags:
 misspell
 Length:
 1
+*
+#
