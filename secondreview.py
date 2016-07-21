@@ -12,12 +12,11 @@ db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
 counter = 0
-save_location = 0
+save_location = 92334
 location = 0
 name = 'Hannah'
 message = None
 parents = None
-things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid"]
 print "============================================"
 print "Finding another file just for %s..." % name
 print "============================================"
@@ -49,7 +48,7 @@ for document in cursor:
 		if file1 != [] and file1 != None:
 			file1 = file1[0]
 			file1 = file1.get("filename")	
-			if '.py' in file1  and int(additions) < 3 and int(deletions) < 3 and not(int(additions) == 0 and int(deletions) == 0) and not("version" in message and "bump" in message) and not("version change" in message or "Merge" in message or "update version" in message):
+			if '.py' in file1  and int(additions) < 2 and int(deletions) < 2 and not(int(additions) == 0 and int(deletions) == 0) and not("version" in message or "bump" in message or "Merge" in message or "Version" in message or "VERSION" in message or "comment" in message or "test" in message or "testing" in message):
 				print "++++++++++++++++"
 				print patch
 				print "++++++++++++++++"
@@ -101,6 +100,4 @@ for document in cursor:
 
 print location
 print save_location
-
-	
 
