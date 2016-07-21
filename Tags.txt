@@ -11,6 +11,7 @@ import = imported the wrong thing
 colon = missing colon, or put more than one
 escape = didn't add an escape quote within a string
 formatter = did not correctly use %
+comma = missing comma between multiple strings in a list or something else
 
 Length:
 Count the number of lines the correction was actually made to for individual commits 
