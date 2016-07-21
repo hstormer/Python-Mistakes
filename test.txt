@@ -800,7 +800,6 @@ Tags:
 indentation
 Length:
 5
-
 *
 Commit Mistakes:
 https://github.com/efagerberg/PiCam/commit/12ac7135d1970be54d0e4564b18b2685749ac6b3
