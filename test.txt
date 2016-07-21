@@ -1232,3 +1232,56 @@ Length:
 *
 #
 
+*
+Commit Mistakes:
+https://github.com/lutris/lutris/commit/9f8195858bfb6104b47f05c0770b9b0650ac353b
+Commit Corrections:
+https://github.com/lutris/lutris/commit/5c61e571d306edf780c538547abf7c5deec20cea
+Mistakes:
+Forgotten parenthesis when trying to call a function
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/luyg24/practise/commit/0440d55b3717c521c8dbbb3564ef4257ee1a99d2
+Commit Corrections:
+https://github.com/luyg24/practise/commit/ec67d4a5e3a52b17ec22c2d81b52d8192b31330b
+Mistakes:
+forgot to add a colon for a loop
+Tags:
+colon
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/drocta/someParser/commit/f52e05cb9ac788b1ecd2d55c3f2dc55fda43ae0a
+Commit Corrections:
+https://github.com/drocta/someParser/commit/203cff66f30f3303c159ba38d33a950fe9c6c63d
+Mistakes:
+misspelled an import
+Tags:
+import
+Length:
+1*
+Commit Mistakes:
+https://github.com/julianAvaca44/HomeBerry/commit/596d4bbc5d5fd11adb0d91fbc630682b660ad26d
+Commit Corrections:
+https://github.com/julianAvaca44/HomeBerry/commit/b6036ac30e89415f98f4f9661df59c593d6ffeb2
+Mistakes:
+wasn't supposed to add a ';'
+Tags:
+extra
+Length:
+1*
+Commit Mistakes:
+https://github.com/Kitsui/AWS-CMS-LAMBDA/commit/c4b911d5e50eeb9a0670f0b1bc7acf9f86914bcc
+Commit Corrections:
+https://github.com/Kitsui/AWS-CMS-LAMBDA/commit/30b3a8f325c22b0ef66368cbd2ac68627a1f6ee0
+Mistakes:
+wrong import
+Tags:
+import
+Length:
+1
