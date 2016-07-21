@@ -1,22 +1,26 @@
-# This initiates the thing that connects to the server thing that does a thing
+# This initiates the thing that connects to the server 
 import pymongo
 from pymongo import MongoClient
 
+# This initiates the variables we want our files to be saved to(test.txt)
 from sys import argv
 script, filename = argv
 CommitMistakes = ''
 CommitCorrections = ''
 
+# This connects to the github database
 client = MongoClient()
 db = client.github
-# This is a thing containing all the documents somehow
+# Accessing documents found in github
 cursor = db.commits.find()
+# Initiating variables
 counter = 0
 save_location = 0
 location = 0
 name = 'Hannah'
 message = None
 parents = None
+# a list of things we are looking for in the commit messages
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid"]
 print "============================================"
 print "Finding another file just for %s..." % name
@@ -24,7 +28,9 @@ print "============================================"
 
 # For each document in cursor...
 for document in cursor:
+	# if we are at the save location already...
 	if save_location == location:
+		# move to a new location
 		save_location += 1
 		location += 1
 		# This is the commit comment
@@ -32,10 +38,12 @@ for document in cursor:
 		message = message.get("message")
 		# This is the link to the comment
 		link = document.get("html_url")
+		# These are the changes found in the commit
 		patch = document.get("files")
 		if patch != [] and patch != None:
 			patch = patch[0]
 			patch = patch.get("patch")
+		# The link to the previous commit 
 		parents = document.get("parents")
 		if parents != [] and parents != None:
 			parents = parents[0]
@@ -45,15 +53,19 @@ for document in cursor:
 			length = length[0]
 			additions = length.get("additions")
 			deletions = length.get("deletions")
+		# name of the file being edited in the commit
 		file1 = document.get("files")
 		if file1 != [] and file1 != None:
 			file1 = file1[0]
-			file1 = file1.get("filename")	
+			file1 = file1.get("filename")
+			# If it is a python file that has less than 3 changes to it and does not equal to no changes at all...
 			if '.py' in file1  and int(additions) < 3 and int(deletions) < 3 and not(int(additions) == 0 and int(deletions) == 0):
 				print "++++++++++++++++"
+				# print the changes found
 				print patch
 				print "++++++++++++++++"
 				counter += 1
+				# sets up the next name
 				if counter == 4:
 					counter = 1
 				if counter == 1:
@@ -65,6 +77,7 @@ for document in cursor:
 				if counter == 3:
 					print "This is Eisha's."
 					name = 'Hannah'
+				# print all the commit info
 				print "\nCommit Message: %s" % message
 				print "This is the link to the commit: \n%r" % link
 				print "This is the link to the previous commit: \n%r" % parents
@@ -84,11 +97,13 @@ for document in cursor:
 					mistake = raw_input("Type a message for Mistake: ")
 					tag = raw_input("Type the Tag: ")
 					length = raw_input("Type the length of changes: ")
+					# if it is the first entry, do not make a new line
 					if txt.readline(1) != "*":
 						txt.write("*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Mistakes:" + "\n" + mistake + 							"\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + "\n" + 						length)
 					else:
 						txt.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 						CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Mistakes:" + "\n" + mistake + 							"\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + "\n" + 						length)
 					txt.close()
+					# close file and find another commit
 					print "\n============================================"
 					print "Finding another file just for %s..." % name
 					print "============================================"
@@ -96,6 +111,7 @@ for document in cursor:
 					print "\n============================================"
 					print "Finding another file just for %s..." % name
 					print "============================================"
+	# change location by one if we were not at the saved location
 	else: 
 		location += 1
 
