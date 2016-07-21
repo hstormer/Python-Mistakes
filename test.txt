@@ -1230,9 +1230,6 @@ brackets
 Length:
 1
 *
-#
-
-*
 Commit Mistakes:
 https://github.com/lutris/lutris/commit/9f8195858bfb6104b47f05c0770b9b0650ac353b
 Commit Corrections:
@@ -1264,7 +1261,8 @@ misspelled an import
 Tags:
 import
 Length:
-1*
+1
+*
 Commit Mistakes:
 https://github.com/julianAvaca44/HomeBerry/commit/596d4bbc5d5fd11adb0d91fbc630682b660ad26d
 Commit Corrections:
@@ -1274,7 +1272,8 @@ wasn't supposed to add a ';'
 Tags:
 extra
 Length:
-1*
+1
+*
 Commit Mistakes:
 https://github.com/Kitsui/AWS-CMS-LAMBDA/commit/c4b911d5e50eeb9a0670f0b1bc7acf9f86914bcc
 Commit Corrections:
@@ -1285,3 +1284,5 @@ Tags:
 import
 Length:
 1
+*
+#
