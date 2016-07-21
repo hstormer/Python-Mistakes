@@ -49,7 +49,7 @@ for document in cursor:
 		if file1 != [] and file1 != None:
 			file1 = file1[0]
 			file1 = file1.get("filename")	
-			if '.py' in file1  and int(additions) < 3 and int(deletions) < 3:
+			if '.py' in file1  and int(additions) < 3 and int(deletions) < 3 and not(int(additions) == 0 and int(deletions) == 0):
 				print "++++++++++++++++"
 				print patch
 				print "++++++++++++++++"
