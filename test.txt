@@ -658,4 +658,226 @@ misspellvariable
 Length:
 3
 *
+*
+Commit Mistakes:
+https://github.com/semio/ddf_utils/commit/7587d849672352c40fac76760fa0fc15623f9400
+Commit Corrections:
+https://github.com/semio/ddf_utils/commit/1d8acdfc0a729197dda3e1d52582f1ac317cc005
+Mistakes:
+Added an extra space to a line under else
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/hokuto-k/django-line-bot/commit/3e90e4e53282c27743b9079561d47e9ba6a05c91
+Commit Corrections:
+https://github.com/hokuto-k/django-line-bot/commit/7ab3fcfb53fcee1db9e11553cd4e60748a068966
+Mistakes:
+Misspelled 'recieved_text' variable as 'recieved_txt'
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ekimekim/pipirc/commit/76a5bc83eb00dfff99c4629727ee54d81258f3e7
+Commit Corrections:
+https://github.com/ekimekim/pipirc/commit/56376857d0d0cd2c7ce472863a979432ef953c38
+Mistakes:
+Misspelled 'startswith()' as 'startwith()'
+Tags:
+function
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/alexskc/Fruitydo/commit/c6c1bceda0426510aa3e068884563bf460695b0c
+Commit Corrections:
+https://github.com/alexskc/Fruitydo/commit/e49980bebdf5eb421b5db20349fa2f25169a00bd
+Mistakes:
+Misspelled variable 'EMAIL_HOST_PASSWORD' as 'EMAIL_HOST_PASSWROD'
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/harvitronix/project-becho/commit/8bd94bbf6efdbc7f1cb9fbb0555776d2ef430e84
+Commit Corrections:
+https://github.com/harvitronix/project-becho/commit/740205637af0aef5af243f62679712aa26377b1c
+Mistakes:
+Misspelled variable weights_file as weights_File
+Tags:
+misspellvariable
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/seung-lab/znn-release/commit/992dbbf4974a52675d2691314f19eb6cadb84604
+Commit Corrections:
+https://github.com/seung-lab/znn-release/commit/cbca3dafa8552bb02402ca1babf5e6faba47e0a6
+Mistakes:
+Added some extra spaces
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/brendan-w/python-OBD/commit/3e96a65ee534f1bd27542e644ecfd73c0eda96fe
+Commit Corrections:
+https://github.com/brendan-w/python-OBD/commit/9a2241f6dfc3a31b8cd116859c0f2d3a970fddc5
+Mistakes:
+Added some extra spaces
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/ScreamingUdder/live-data-prototype/commit/361ba3fa28ab5ada18c3deefec0c3b5c53890a20
+Commit Corrections:
+https://github.com/ScreamingUdder/live-data-prototype/commit/530c819d67d0c972da674e2835a1ea126c985238
+Mistakes:
+Indented incorrectly, and then corrected incorrectly
+Tags:
+indentation
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/ScreamingUdder/live-data-prototype/commit/530c819d67d0c972da674e2835a1ea126c985238
+Commit Corrections:
+https://github.com/ScreamingUdder/live-data-prototype/commit/a50555ad5792550d9c2cbd6bab1a35699febca81
+Mistakes:
+Missing a space
+Tags:
+indentation
+Length:
+28
+*
+Commit Mistakes:
+https://github.com/ITDevLtd/MCVirt/commit/be6dbc8b74d8a68e6f67d50ef29627391fe3ea03
+Commit Corrections:
+https://github.com/ITDevLtd/MCVirt/commit/2ee4d433777559173e3ef8e23f82cbef10286956
+Mistakes:
+Did not indent far enough
+Tags:
+indentation
+Length:
+26
+*
+Commit Mistakes:
+https://github.com/jeffmahoney/crash-python/commit/eb1dd5560a5e7f3e2d83259edbafd0f28fe0039b
+Commit Corrections:
+https://github.com/jeffmahoney/crash-python/commit/b2b1bc51656cfbedae0474a7fc3689d06cff9e87
+Mistakes:
+Did not indent far enough
+Tags:
+indentation
+Length:
+18
+*
+Commit Mistakes:
+https://github.com/pytest-dev/pytest-qt/commit/5e158dad24360389bc6a497d39ddf380265b4d1a
+Commit Corrections:
+https://github.com/pytest-dev/pytest-qt/commit/161c9f07370ec84a4816081938a81c4147c61ed4
+Mistakes:
+Indented too far
+Tags:
+indentation
+Length:
+1
+*
+Commit Mistakes:
+https://github.com/michaelpantic/iot-pie/commit/ef9ad46301ed1a584d551178357377d61b1abdbf
+Commit Corrections:
+https://github.com/michaelpantic/iot-pie/commit/b9508241127ff7d1662e59af9e0eb19dff6046a9
+Mistakes:
+Incorrect indentation in various places
+Tags:
+indentation
+Length:
+5
+
+*
+Commit Mistakes:
+https://github.com/efagerberg/PiCam/commit/12ac7135d1970be54d0e4564b18b2685749ac6b3
+Commit Corrections:
+https://github.com/efagerberg/PiCam/commit/6f280c930ce43870b38ee0ab190d457126ea18dc
+Mistakes:
+Incorrect indentation under for loop
+Tags:
+indentation
+Length:
+10
+*
+Commit Mistakes:
+https://github.com/mrummuka/location-history-json-converter/commit/28836680116719289b50d9a8c1fd2afe5670688f
+Commit Corrections:
+https://github.com/mrummuka/location-history-json-converter/commit/7fa2356a055a56bb0daefd8bfafe0f3362dd2704
+Mistakes:
+Incorrect indentation of 'continue's.
+Tags:
+indentation
+Length:
+2
+*
+Commit Mistakes:
+https://github.com/pyGSTio/pyGSTi/commit/e7e6ae95f551d8bdf549f2738c081a1a930e1794
+Commit Corrections:
+https://github.com/pyGSTio/pyGSTi/commit/399fde336df8b420315bb4bbe897bbc0b79150bd
+Mistakes:
+Indented over too far
+Tags:
+inentation
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/129a45753cfa3cfe6d516f1d6bcf9ab2c952d931
+Commit Corrections:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/ffe975e42c962251dd05ee868f676ef62f573d46
+Mistakes:
+Indented over too far
+Tags:
+indentation
+Length:
+7
+*
+Commit Mistakes:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/129a45753cfa3cfe6d516f1d6bcf9ab2c952d931
+Commit Corrections:
+https://github.com/ReactionMechanismGenerator/RMG-Py/commit/898ebfc0d74e8dcf03f9c60a8011d932ae8efc87
+Mistakes:
+Indented over too far
+Tags:
+indentation
+Length:
+7
+*
+Commit Mistakes:
+https://github.com/lcgraham/BET/commit/05fd97126bda48098f791f167c01fd5756f37213
+Commit Corrections:
+https://github.com/lcgraham/BET/commit/fee3cae7289b4b447932aa047d162c26c4958165
+Mistakes:
+Indented over too far
+Tags:
+indentation
+Length:
+3
+*
+Commit Mistakes:
+https://github.com/sfu-natlang/glm-parser/commit/75186444cf04793d00b312dff76254b2b129370e
+Commit Corrections:
+https://github.com/sfu-natlang/glm-parser/commit/6a123cb374b2150ebd865481c9bbddcc340c9fca
+Mistakes:
+Tried to use && as 'and'
+Tags:
+function
+Length:
+1
+*
 #
