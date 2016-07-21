@@ -48,7 +48,7 @@ for document in cursor:
 		if file1 != [] and file1 != None:
 			file1 = file1[0]
 			file1 = file1.get("filename")	
-			if '.py' in file1  and int(additions) < 2 and int(deletions) < 2 and not(int(additions) == 0 and int(deletions) == 0) and not("version" in message or "bump" in message or "Merge" in message or "Version" in message or "VERSION" in message or "comment" in message or "test" in message or "testing" in message):
+			if '.py' in file1  and int(additions) < 2 and int(deletions) < 2 and not(int(additions) == 0 and int(deletions) == 0) and not("version" in message or "bump" in message or "Merge" in message or "Version" in message or "VERSION" in message or "comment" in message or "test" in message or "testing" in message or "rename" in message or "Renamed" in message):
 				print "++++++++++++++++"
 				print patch
 				print "++++++++++++++++"
