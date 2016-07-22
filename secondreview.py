@@ -12,7 +12,7 @@ db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
 counter = 0
-save_location = 143921
+save_location = 216957
 location = 0
 name = 'Hannah'
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid", "version", "bump", "merge", "merging", "comment", "test", "testing", "renamed"]
