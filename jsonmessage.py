@@ -12,8 +12,10 @@ client = MongoClient()
 db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
+jsonfile = {}
+entries = []
 counter = 0
-save_location = 44293 #DONT FORGET TO CHANGE YOUR SAVE LOCATION TO WHEREVER YOU ARE!!!!!
+save_location = 0
 location = 0
 name = 'Hannah'
 message = None
@@ -97,11 +99,16 @@ for document in cursor:
 							mistake = raw_input("Type a message for Mistake: ")
 							tag = raw_input("Type the Tag: ")
 							length = raw_input("Type the length of changes: ")
-							data = {"Commit Mistakes" : CommitMistakes, 								"Commit Corrections:" : CommitCorrections, "Mistake:" : 							mistake, "Tags:" : tag, "Length": length, "Keyword:" : i}
-							data = json.dumps(data) 
-							txt.write(data)
-							txt.write("\n")
-							txt.close()
+							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i}
+							entries.append(data)
+							with open('jsontest.json') as f:
+								entries = json.load(f)
+							print entries
+							txt.seek(0)
+							txt.truncate()
+							entries.append(data)
+							with open('jsontest.json', 'a+') as outfile:
+								json.dump(entries, outfile, indent = 2)
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
@@ -114,7 +121,6 @@ for document in cursor:
 							data = json.dumps(data) 
 							txt2.write(data)
 							txt2.write("\n")
-							txt2.close()
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
