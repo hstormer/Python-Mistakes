@@ -14,7 +14,8 @@ formatter = did not correctly use %
 comma = missing comma between multiple strings in a list or something else
 file = did not correctly write a file path, ex. HomeDownloads/Stuff  <---Forgot a /
 operator = did not use the right math operator
-space = added or forgot a space
+loop = used loop incorrectly
+argument = did not use argument correctly when calling a function
 
 Length:
 Count the number of lines the correction was actually made to for individual commits 

@@ -13,7 +13,7 @@ db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
 counter = 0
-save_location = 0
+save_location = 44293 #DONT FORGET TO CHANGE YOUR SAVE LOCATION TO WHEREVER YOU ARE!!!!!
 location = 0
 name = 'Hannah'
 message = None
