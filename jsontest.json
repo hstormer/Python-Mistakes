@@ -1,10 +1,1322 @@
 [
   {
-    "Commit Mistakes": "NONE", 
-    "Keyword:": "NONE", 
-    "Length": "NONE", 
-    "Commit Corrections:": "NONE", 
-    "Tags:": "NONE", 
-    "Mistake:": "NONE"
+    "Length": "2", 
+    "Mistakes": "Forgot to indent under for loop.", 
+    "Commit Mistakes": "Could not find a previous commit of file containing mistakes.", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/835fe383df0e5c25a09a3c0a2a1cfdc8efd35674", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Variable rv assigned to itself and then something else in the same line.", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes.", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/128add8c09bab2bc45d44cf096f7923669a886ad", 
+    "Tags": "doubleassignment"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added extra parentheses.", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes.", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/c8f34385fba934047f9c5400d6ca27ec756d204c", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added a _ for no reason", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes.", 
+    "Commit Corrections": "https://github.com/jcsaaddupuy/python-xbmc/commit/bca89c115b18e0c443204284f1e58c79cc8cf38e#diff-3b5e31446f546cea5285cfd44d32d046", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Did not indent under if ", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes.", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/56cf6604fccd4b4b5af7b256674192fd4b9ef30e", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Extra space after variable assignment", 
+    "Commit Mistake": "https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "missing bracket ", 
+    "Commit Mistake": "https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0", 
+    "Tags": "brackets "
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelling mistake: wrote README.SRT instead of README.RST", 
+    "Commit Mistake": "https://github.com/wepay/Python-SDK/commit/f7d1ec0901c6bbfc2389f14075db7043f3679796", 
+    "Commit Corrections": "https://github.com/wepay/Python-SDK/commit/3fdc2143f8f85ef40b527cdaebcfc2d9407309a1#diff-2eeaed663bd0d25b7e608891384b7298", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added two extra \"", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes.", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/1925082984990676d84f5dbe2b8d9f9921ccb58e", 
+    "Tags": "quotation"
+  }, 
+  {
+    "Length": "4", 
+    "Mistakes": "Lines were not indented correctly", 
+    "Commit Mistake": "https://github.com/pubnub/python/commit/03b4fb1d2cc3b781b9ddcba468c90694b7361736", 
+    "Commit Corrections": "https://github.com/pubnub/python/commit/d44e5b455b5aba7fa68d8e0a2b5467f000c8d6a0", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to put 'self' in front of variable", 
+    "Commit Mistake": "https://github.com/pubnub/python/commit/dcdafd146508f7f1f1a1868a94827bb4d6c1a3de", 
+    "Commit Corrections": "https://github.com/pubnub/python/commit/437124952fd01eac9e8ccc132197ea6f18fdea56", 
+    "Tags": "self"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to put 'self' in front of variable", 
+    "Commit Mistake": "https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764", 
+    "Commit Corrections": "https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8", 
+    "Tags": "self"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Did not correctly use the 'join' function (in line 945)", 
+    "Commit Mistake": "https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764", 
+    "Commit Corrections": "https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8", 
+    "Tags": "function"
+  }, 
+  {
+    "Length: ": "1", 
+    "Mistakes": "Wrote 'False' instead of 'return False'.", 
+    "Commit Mistake": "https://github.com/adamn/python-webkit2png/commit/abd7c659878368b9300a6d19bb36243a175e78f3", 
+    "Commit Corrections": "https://github.com/adamn/python-webkit2png/commit/ef70c8ab5a0fffe85c7de50f8bfeeb7f140ad276", 
+    "Tags: ": "noreturn"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes: ": "Added a bracket in the wrong place.", 
+    "Commit Mistake": "https://github.com/addam/Export-Paper-Model-from-Blender/commit/89638e6a4a39a11f4b9ef55d4a43522aacf7951c", 
+    "Commit Corrections": "https://github.com/addam/Export-Paper-Model-from-Blender/commit/9ee44635107ade9c54b2141f1c8c87c9933c6be8", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled tup as tep", 
+    "Commit Mistake": "https://github.com/addam/Export-Paper-Model-from-Blender/commit/92345bd383ad06f872e2dd743f6d4a08f0df8a87", 
+    "Commit Corrections": "https://github.com/addam/Export-Paper-Model-from-Blender/commit/f6ba4a381fc5f9c223ce973f12692054e84de678", 
+    "Tags": "Misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to put 'self' before a variable in a function", 
+    "Commit Mistake": "https://github.com/addam/Export-Paper-Model-from-Blender/commit/b2d94d4497903a3fc84c8da4c13b9f79321fed26", 
+    "Commit Corrections": "https://github.com/addam/Export-Paper-Model-from-Blender/commit/78a4b504f993600cdd82396634ea9809b0920025", 
+    "Tags": "self"
+  }, 
+  {
+    "Length": "6", 
+    "Mistakes": "Added uneccesary brackets in if statement.", 
+    "Commit Mistake": "https://github.com/caller9/pythonaes/commit/1d25a6d918789f24dc53a874e7063b2bfa45e957", 
+    "Commit Corrections": "https://github.com/caller9/pythonaes/commit/5548dd845ec7c8bc072ea9c21cc980c9537bb6f8", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to put 'self' before variable in a function", 
+    "Commit Mistake": "https://github.com/wadda/gps3/commit/1db159c79bb3c30b96c04f9326d98a5ada4eae2b", 
+    "Commit Corrections": "https://github.com/wadda/gps3/commit/88991c9c698d2dec6e824f0f8edd3dfcb6507edd", 
+    "Tags": "self"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "added an extra bracket (line 23)", 
+    "Commit Mistake": "Can't find file", 
+    "Commit Corrections": "https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "added an extra quotation for no reason (line 89)", 
+    "Commit Mistake": "Can't find file", 
+    "Commit Corrections": "https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2", 
+    "Tags": "quotation"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Missing a colon in the if/else statement", 
+    "Commit Mistake": "https://github.com/ksze/sanitize/commit/d75e613b21f609b44600ecabac14281abc0019ef", 
+    "Commit Corrections": "https://github.com/ksze/sanitize/commit/0987ded60bcba031ffb7635a28c4c669101278d0", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled the name of the file to open", 
+    "Commit Mistake": "https://github.com/attilaolah/seven/commit/dbbacb8819fa6cb7ee3e11e81f8712fc668df90f", 
+    "Commit Corrections": "https://github.com/attilaolah/seven/commit/d1640bc320deab192e2b0e03e9ef5fe97e99526b", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelled hpux instead of hp-ux", 
+    "Commit Mistake": "Can't find", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/a572a9fbd82d8c438e675c2aa2246bd6f2239c5f#diff-2eeaed663bd0d25b7e608891384b7298", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "added a slash for no reason", 
+    "Commit Mistake": "can't find", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/3f1e12a2b17cf2767f7f356e6474ffb78f76a5cf#diff-2eeaed663bd0d25b7e608891384b7298", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "defined a variable incorrectly", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes.", 
+    "Commit Corrections": "https://github.com/l3nkz/recheck/commit/3b347b693179cdda90b9a2de8a1c5f07142ab731", 
+    "Tags": "import"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Imported incorrectly, added two '..' instead of '.'", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes", 
+    "Commit Corrections": "https://github.com/Azd325/gingerit/commit/7afd0645723b92a7faa7fe6c6121f488776e79bc", 
+    "Tags": "import"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Missed \":\" for a loop", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes", 
+    "Commit Corrections": "https://github.com/ksze/sanitize/commit/0987ded60bcba031ffb7635a28c4c669101278d0", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "added a ; for no reason", 
+    "Commit Mistake": "Can't find", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/5f1d307e36ed04827f11a209b67c17455af33595#diff-e20542afb8838c3ff279e2e6f023dc9a", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled their own variable by using upper case T instead of t", 
+    "Commit Mistake": "Can't find", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/f867f0b48fc52fc078e1233b4fcf0d303e3bb2be#diff-1353b7abd7ae746ef62fd759eb114382", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wrote a letter where a number was required in order to run the function properly", 
+    "Commit Mistake": "cannot find file", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/d74a235fa0a3afa7c5b31661d2fb580fe9b752de#diff-2cd6165d9e4fd1abfd9f01a8b508e72e", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "typo: wrote Falso instead of False", 
+    "Commit Mistake": "https://github.com/python-git/python/commit/0486016a147b64c6165f44c340dae64bf3771678", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/55d2d9b1c9f4ff68e7ea0d5908e5911fe1221867#diff-09dd73eef618fb0131a6ffe27a612b39", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot to write self.", 
+    "Commit Mistake": "Cannot find", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/9b81ce547daa5834fda514533844922845fecf23#diff-f0258b6685684c113bad94d91b8fa02a", 
+    "Tags": "self"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "added an extra bracket", 
+    "Commit Mistake": "file lost in the land of shadows", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/c8f34385fba934047f9c5400d6ca27ec756d204c#diff-7a48ae1b7387f8a8159c488fbd850021", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot a curly bracket (line 809)", 
+    "Commit Mistake": "https://github.com/python-git/python/commit/63026f06d1784b5d2ebc1759fe9bf5a81cdd204f", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/d18ad9758f2afc8a3d5f0abfc44ebb99ae0928e3#diff-37eafa775c7543adb9350a3c633f294a", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Kept an extra parentheses after changing a line", 
+    "Commit Mistake": "https://github.com/crash0verrid3/MagicCrypt/commit/e53d6a2fb8855281696607d5e5dba81df0e19c7e", 
+    "Commit Corrections": "https://github.com/crash0verrid3/MagicCrypt/commit/23a246e5d868c2d530f635d4a7ce386afd2a2d6e", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "an extra = sign", 
+    "Commit Mistake": "File Not Found", 
+    "Commit Corrections": "https://github.com/python-git/python/commit/8a568b2b91f168c94b54ad1105e28e96d7c82ab1#diff-37eafa775c7543adb9350a3c633f294a", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Didn't add the escape quote in the string", 
+    "Commit Mistake": "Could not find a previous commit of file containing mistakes", 
+    "Commit Corrections": "https://github.com/phedre13/FetchIt/commit/2527698e4f97dfdc402d14a2dd26df7c77490878", 
+    "Tags": "Escape"
+  }, 
+  {
+    "Length": "3", 
+    "Mistakes": "Forgot to put parentheses around more than two variables after a %", 
+    "Commit Mistake": "https://github.com/lanyeit/radiusd/commit/3df4e220f8325c95577a6c11aa95e4bb2849d5a7", 
+    "Commit Corrections": "https://github.com/lanyeit/radiusd/commit/b989fbb5d9b0de005397c8f70e79635fc0e07cfe", 
+    "Tags": "formatter"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Did not add a %s inside the string", 
+    "Commit Mistake": "https://github.com/lanyeit/radiusd/commit/0574bb87211cedbcb5cd266d3656ca2b63469837", 
+    "Commit Corrections": "https://github.com/lanyeit/radiusd/commit/2609c86687d8e89c1617ad76098ac67c9b2bcaac", 
+    "Tags": "formatter"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelled the variable wrong", 
+    "Commit Mistake": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06", 
+    "Commit Corrections": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot the _ in variable", 
+    "Commit Mistake": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188", 
+    "Commit Corrections": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "13", 
+    "Mistakes": "wrote the class name wrong", 
+    "Commit Mistake": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099", 
+    "Commit Corrections": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/2bb8eaa5ceff6a64452e7e94972539843300dba6", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelled the variable wrong", 
+    "Commit Mistake": "https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7", 
+    "Commit Corrections": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wrong spelling", 
+    "Commit Mistake": "https://github.com/benedictpaten/cactus/commit/4c08d5fb973d2fd6dd3d1b72548e69508fbb2c33", 
+    "Commit Corrections": "https://github.com/benedictpaten/cactus/commit/92acc42161a24a9ae7925e625d2933771851abc3", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "variable spelled wrong", 
+    "Commit Mistake": "https://github.com/cissoid/psychopass-python/commit/8df1d779bcfd4f4f3462ba341d20036235483a5d", 
+    "Commit Corrections": "https://github.com/cissoid/psychopass-python/commit/9ba6d7ae8d8f01550855a24a0bd00fc273c2dc5c", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "syntax error", 
+    "Commit Mistake": "https://github.com/sahlinet/httptest/commit/7fce91f7aab469297952a2060ca9e5a7f949351e", 
+    "Commit Corrections": "https://github.com/sahlinet/httptest/commit/842d0d0cb3ebe8557ceef38b032937170d962b1c", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot the variable name", 
+    "Commit Mistake": "https://github.com/trailbehind/DeepOSM/commit/c711e69f93af03bf361d8d109e07aee81e992ea3", 
+    "Commit Corrections": "https://github.com/trailbehind/DeepOSM/commit/98347c60f9a56ba8139a25792c25e27cf07124bd", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "spelled the variable wrong", 
+    "Commit Mistake": "https://github.com/JFK/linebot/commit/12f4218603e1cddcc8601c7551c771bcd2b2c625", 
+    "Commit Corrections": "https://github.com/JFK/linebot/commit/29bc088d6e5bcc87ac4d96c63368e6f25a318007", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled variable in calling a function", 
+    "Commit Mistake": "https://github.com/denk-mal/tft-display/commit/02f2f1deed49608542260d43545dc5d591890dff", 
+    "Commit Corrections": "https://github.com/denk-mal/tft-display/commit/01e79bac3d03f52370cf91e114aa4016ddf01f94", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "no script for the for-loop to execute", 
+    "Commit Mistake": "https://github.com/devchannel/DevLang/commit/b348f516c2eabdf6ebc7a0049e39fd7d7af5356e", 
+    "Commit Corrections": "https://github.com/devchannel/DevLang/commit/b089a0a8d0a3e564444e3f34acc5a0b2dca30899", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wrong spelling", 
+    "Commit Mistake": "https://github.com/censof/ansible-deployment/commit/503cc7a2e6b9b7a23cbbf464187823dcf861b502", 
+    "Commit Corrections": "https://github.com/censof/ansible-deployment/commit/a54d7c109a14de061e54c76f3ba2028ef6248e86", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelled variable wrong", 
+    "Commit Mistake": "https://github.com/zstackorg/zstack-woodpecker/commit/2de2214a88cd74d4a175720ac6a0a3c2579a7248", 
+    "Commit Corrections": "https://github.com/zstackorg/zstack-woodpecker/commit/713074f8799fef6b244d40a7ab014d24026fb975", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelled the variable wrong", 
+    "Commit Mistake": "https://github.com/damyanbogoev/flask-bookshelf/commit/56fdb59f6ac6e974dd5bcd0b91b3dd1ff05b29d0", 
+    "Commit Corrections": "https://github.com/damyanbogoev/flask-bookshelf/commit/91efb618889e05d16bdbbd1beec58c5f6bd6c576", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "variable spelled wrong", 
+    "Commit Mistake": "https://github.com/dltiziani/gammapy/commit/95a56cc777bb93662a376e583acddb33562c0be9", 
+    "Commit Corrections": "https://github.com/dltiziani/gammapy/commit/78501873967f1121eebdee28ca2acd3722cf783b", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "3", 
+    "Mistakes": "forgot , after individual strings", 
+    "Commit Mistake": "https://github.com/dhlab-basel/Knora/commit/5fe5b56ace27da0e50bc3c98d4b9e35106603638", 
+    "Commit Corrections": "https://github.com/dhlab-basel/Knora/commit/d8a750a113ce04d4fec0175ac895527200eb5653", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "variable is spelled wrong", 
+    "Commit Mistake": "https://github.com/DanKupiniak/mbed/commit/d3466ba15df6a0dff4aad02a9875661cff16500f", 
+    "Commit Corrections": "https://github.com/DanKupiniak/mbed/commit/3d67be3be96552d102fc787ecdcb76f38e82d63f", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot : in for-loop", 
+    "Commit Mistake": "https://github.com/TissueMAPS/gc3pie/commit/aafaa267251784ad5bd1a17c8f6d1a599a505e2d", 
+    "Commit Corrections": "https://github.com/TissueMAPS/gc3pie/commit/0ef790af2a03c50a7741156495fe67c956d8b604", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot , after string", 
+    "Commit Mistake": "https://github.com/bartverstrynge/azure-sdk-for-python/commit/97f97ce35dc92bdd5394d983a7b19ec84205898e", 
+    "Commit Corrections": "https://github.com/bartverstrynge/azure-sdk-for-python/commit/073c97dfc5239dff9634432bb954397d832a7f7d", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "3", 
+    "Mistakes": "variable is spelled wrong", 
+    "Commit Mistake": "https://github.com/goody44/ggrc-core/commit/6275726e5dd1dad3266e4ec24bbd9f13108f2516", 
+    "Commit Corrections": "https://github.com/goody44/ggrc-core/commit/3852e3b89a83726e382f33942cdcfd8f39754733", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added an extra space to a line under else", 
+    "Commit Mistake": "https://github.com/semio/ddf_utils/commit/7587d849672352c40fac76760fa0fc15623f9400", 
+    "Commit Corrections": "https://github.com/semio/ddf_utils/commit/1d8acdfc0a729197dda3e1d52582f1ac317cc005", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'recieved_text' variable as 'recieved_txt'", 
+    "Commit Mistake": "https://github.com/hokuto-k/django-line-bot/commit/3e90e4e53282c27743b9079561d47e9ba6a05c91", 
+    "Commit Corrections": "https://github.com/hokuto-k/django-line-bot/commit/7ab3fcfb53fcee1db9e11553cd4e60748a068966", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'startswith()' as 'startwith()'", 
+    "Commit Mistake": "https://github.com/ekimekim/pipirc/commit/76a5bc83eb00dfff99c4629727ee54d81258f3e7", 
+    "Commit Corrections": "https://github.com/ekimekim/pipirc/commit/56376857d0d0cd2c7ce472863a979432ef953c38", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled variable 'EMAIL_HOST_PASSWORD' as 'EMAIL_HOST_PASSWROD'", 
+    "Commit Mistake": "https://github.com/alexskc/Fruitydo/commit/c6c1bceda0426510aa3e068884563bf460695b0c", 
+    "Commit Corrections": "https://github.com/alexskc/Fruitydo/commit/e49980bebdf5eb421b5db20349fa2f25169a00bd", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled variable weights_file as weights_File", 
+    "Commit Mistake": "https://github.com/harvitronix/project-becho/commit/8bd94bbf6efdbc7f1cb9fbb0555776d2ef430e84", 
+    "Commit Corrections": "https://github.com/harvitronix/project-becho/commit/740205637af0aef5af243f62679712aa26377b1c", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added some extra spaces", 
+    "Commit Mistake": "https://github.com/seung-lab/znn-release/commit/992dbbf4974a52675d2691314f19eb6cadb84604", 
+    "Commit Corrections": "https://github.com/seung-lab/znn-release/commit/cbca3dafa8552bb02402ca1babf5e6faba47e0a6", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added some extra spaces", 
+    "Commit Mistake": "https://github.com/brendan-w/python-OBD/commit/3e96a65ee534f1bd27542e644ecfd73c0eda96fe", 
+    "Commit Corrections": "https://github.com/brendan-w/python-OBD/commit/9a2241f6dfc3a31b8cd116859c0f2d3a970fddc5", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "3", 
+    "Mistakes": "Indented incorrectly, and then corrected incorrectly", 
+    "Commit Mistake": "https://github.com/ScreamingUdder/live-data-prototype/commit/361ba3fa28ab5ada18c3deefec0c3b5c53890a20", 
+    "Commit Corrections": "https://github.com/ScreamingUdder/live-data-prototype/commit/530c819d67d0c972da674e2835a1ea126c985238", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "28", 
+    "Mistakes": "Missing a space", 
+    "Commit Mistake": "https://github.com/ScreamingUdder/live-data-prototype/commit/530c819d67d0c972da674e2835a1ea126c985238", 
+    "Commit Corrections": "https://github.com/ScreamingUdder/live-data-prototype/commit/a50555ad5792550d9c2cbd6bab1a35699febca81", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "26", 
+    "Mistakes": "Did not indent far enough", 
+    "Commit Mistake": "https://github.com/ITDevLtd/MCVirt/commit/be6dbc8b74d8a68e6f67d50ef29627391fe3ea03", 
+    "Commit Corrections": "https://github.com/ITDevLtd/MCVirt/commit/2ee4d433777559173e3ef8e23f82cbef10286956", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "18", 
+    "Mistakes": "Did not indent far enough", 
+    "Commit Mistake": "https://github.com/jeffmahoney/crash-python/commit/eb1dd5560a5e7f3e2d83259edbafd0f28fe0039b", 
+    "Commit Corrections": "https://github.com/jeffmahoney/crash-python/commit/b2b1bc51656cfbedae0474a7fc3689d06cff9e87", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Indented too far", 
+    "Commit Mistake": "https://github.com/pytest-dev/pytest-qt/commit/5e158dad24360389bc6a497d39ddf380265b4d1a", 
+    "Commit Corrections": "https://github.com/pytest-dev/pytest-qt/commit/161c9f07370ec84a4816081938a81c4147c61ed4", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "5", 
+    "Mistakes": "Incorrect indentation in various places", 
+    "Commit Mistake": "https://github.com/michaelpantic/iot-pie/commit/ef9ad46301ed1a584d551178357377d61b1abdbf", 
+    "Commit Corrections": "https://github.com/michaelpantic/iot-pie/commit/b9508241127ff7d1662e59af9e0eb19dff6046a9", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "10", 
+    "Mistakes": "Incorrect indentation under for loop", 
+    "Commit Mistake": "https://github.com/efagerberg/PiCam/commit/12ac7135d1970be54d0e4564b18b2685749ac6b3", 
+    "Commit Corrections": "https://github.com/efagerberg/PiCam/commit/6f280c930ce43870b38ee0ab190d457126ea18dc", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Incorrect indentation of 'continue's.", 
+    "Commit Mistake": "https://github.com/mrummuka/location-history-json-converter/commit/28836680116719289b50d9a8c1fd2afe5670688f", 
+    "Commit Corrections": "https://github.com/mrummuka/location-history-json-converter/commit/7fa2356a055a56bb0daefd8bfafe0f3362dd2704", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "3", 
+    "Mistakes": "Indented over too far", 
+    "Commit Mistake": "https://github.com/pyGSTio/pyGSTi/commit/e7e6ae95f551d8bdf549f2738c081a1a930e1794", 
+    "Commit Corrections": "https://github.com/pyGSTio/pyGSTi/commit/399fde336df8b420315bb4bbe897bbc0b79150bd", 
+    "Tags": "inentation"
+  }, 
+  {
+    "Length": "7", 
+    "Mistakes": "Indented over too far", 
+    "Commit Mistake": "https://github.com/ReactionMechanismGenerator/RMG-Py/commit/129a45753cfa3cfe6d516f1d6bcf9ab2c952d931", 
+    "Commit Corrections": "https://github.com/ReactionMechanismGenerator/RMG-Py/commit/ffe975e42c962251dd05ee868f676ef62f573d46", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "7", 
+    "Mistakes": "Indented over too far", 
+    "Commit Mistake": "https://github.com/ReactionMechanismGenerator/RMG-Py/commit/129a45753cfa3cfe6d516f1d6bcf9ab2c952d931", 
+    "Commit Corrections": "https://github.com/ReactionMechanismGenerator/RMG-Py/commit/898ebfc0d74e8dcf03f9c60a8011d932ae8efc87", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "3", 
+    "Mistakes": "Indented over too far", 
+    "Commit Mistake": "https://github.com/lcgraham/BET/commit/05fd97126bda48098f791f167c01fd5756f37213", 
+    "Commit Corrections": "https://github.com/lcgraham/BET/commit/fee3cae7289b4b447932aa047d162c26c4958165", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Tried to use && as 'and'", 
+    "Commit Mistake": "https://github.com/sfu-natlang/glm-parser/commit/75186444cf04793d00b312dff76254b2b129370e", 
+    "Commit Corrections": "https://github.com/sfu-natlang/glm-parser/commit/6a123cb374b2150ebd865481c9bbddcc340c9fca", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "typo in url", 
+    "Commit Mistake": "https://github.com/tardyp/buildbot/commit/761ac22bda0ae2ab9f7bbcdae1a68e37bf4b7391", 
+    "Commit Corrections": "https://github.com/tardyp/buildbot/commit/5f7f5c239d6c3996188371f0b75ec66f4bd23dd5", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled client as lient", 
+    "Commit Mistake": "https://github.com/liboz/suds-lxml/commit/fe73cd798b5932832405d6d214fba6099522d642", 
+    "Commit Corrections": "https://github.com/liboz/suds-lxml/commit/1a92913afff8a9f55ef2401729176612f6d613ed", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelling", 
+    "Commit Mistake": "https://github.com/typemytype/batchRoboFontExtension/commit/db2dd6bd6b2854f9fe40d78880fef911e7750f91", 
+    "Commit Corrections": "https://github.com/typemytype/batchRoboFontExtension/commit/8635650d0afd19ce5d702e3d8fa323692523d8bf", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "capitalized the i in pollerinterval when not supopsed to", 
+    "Commit Mistake": "https://github.com/langerma/icinga-plugins/commit/cd3213a8d8e6faee6c9bdd074f16c7eaf839de19", 
+    "Commit Corrections": "https://github.com/langerma/icinga-plugins/commit/cc2fdbb38ff3bd234f3cfcb0ef0bb51c2c19db8c", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "misspelled hash_string as hash_sring", 
+    "Commit Mistake": "https://github.com/ITDevLtd/MCVirt/commit/f138b7407b3c6c040fa95ba3c46423e53abf83a4", 
+    "Commit Corrections": "https://github.com/ITDevLtd/MCVirt/commit/298e59f031b045591f1a43e78f44038bb990ca64", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled joints as joits", 
+    "Commit Mistake": "https://github.com/TauraBots/PyDimitri/commit/59df485ce2f1fb8804aaf8e03da0942ab0f57d96", 
+    "Commit Corrections": "https://github.com/TauraBots/PyDimitri/commit/3a147ab35b2077f73e7da1dac583eba05ab89205", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled prime_sent as prime_sen", 
+    "Commit Mistake": "https://github.com/ICCastaneda2/azurp/commit/e1e955146d6b47d46e51783d1ca76ffda276b6e1", 
+    "Commit Corrections": "https://github.com/ICCastaneda2/azurp/commit/57d60aaf6ef2e37f2b3589a801cda19a0a24880f", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot to add a colon to the else statement", 
+    "Commit Mistake": "https://github.com/cerfacs-globc/icclim/commit/671e9f7d204a1fec43aa3fb485c7663b67ac20ec", 
+    "Commit Corrections": "https://github.com/cerfacs-globc/icclim/commit/7c0536e0c3f095ea797491af9c90d3bf8fe16fd9", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "misspelled if as iff", 
+    "Commit Mistake": "https://github.com/armadillica/pillar/commit/5a4d98b352684004687531c5f9d63bccf907bce5", 
+    "Commit Corrections": "https://github.com/armadillica/pillar/commit/5355e4e359e4554a4590f5a2d3ca0f537dc02d02", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "3", 
+    "Mistakes": "some misspellings", 
+    "Commit Mistake": "https://github.com/goody44/ggrc-core/commit/6275726e5dd1dad3266e4ec24bbd9f13108f2516", 
+    "Commit Corrections": "https://github.com/goody44/ggrc-core/commit/2d5749b612f7741bb04521233c0c013102627f63", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled file_names as filenames", 
+    "Commit Mistake": "https://github.com/hyraxbio/simulated-data/commit/d57abc5b6b6cd6a9558e509b316a90b449292991", 
+    "Commit Corrections": "https://github.com/hyraxbio/simulated-data/commit/fbc14ddabbd079a09128dcf53c2c91b6d5c8d71d", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wrote Service as Services", 
+    "Commit Mistake": "https://github.com/City-of-Helsinki/smbackend/commit/f07df47c5804376e08f7d696648763ba93511355", 
+    "Commit Corrections": "https://github.com/City-of-Helsinki/smbackend/commit/6aed0721e01ff124d882e55698aaf2a2546feff5", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot indentation ", 
+    "Commit Mistake": "https://github.com/kanuahs/idltelegrambot/commit/e4ab5ac36fd34a65a72c23a24f7112ec89d0dcf9", 
+    "Commit Corrections": "https://github.com/kanuahs/idltelegrambot/commit/c5e6dc7cbb01760b89026612bc5c67b202f5a499", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot to add , when switching to different line", 
+    "Commit Mistake": "https://github.com/projectEP/backend-server/commit/fd99aaea8e5e6f3be72a26bd485f159097b668fa", 
+    "Commit Corrections": "https://github.com/projectEP/backend-server/commit/36aa2107c8a3bf2790018f1730bb81025d54770d", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wrote test instead of text", 
+    "Commit Mistake": "https://github.com/purvigoel/Writing3D/commit/528547bd48d949c89296ce66d1a405f8deee40c5", 
+    "Commit Corrections": "https://github.com/purvigoel/Writing3D/commit/227938f5454522adc1816c59b419f8bc0723e974", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wrote getLoger instead of getLogger", 
+    "Commit Mistake": "https://github.com/085astatine/togetter/commit/51000209d7c079d67f2501f55253ac193492a1f4", 
+    "Commit Corrections": "https://github.com/085astatine/togetter/commit/d02a7a987b8845447dd6b66d72518d4e9509b625", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot 's' at the end of unseen_lists", 
+    "Commit Mistake": "https://github.com/mangaki/mangaki/commit/1c6542798c6897697dbecb1a541422cc6d3704f9", 
+    "Commit Corrections": "https://github.com/mangaki/mangaki/commit/f6dc4766d26652061f29f96bd587d07e6d5d747a", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "misspelling", 
+    "Commit Mistake": "https://github.com/werat/PySyncObj/commit/f8192ef5fa9231d5fefe329b1157256d4c9a6a83", 
+    "Commit Corrections": "https://github.com/werat/PySyncObj/commit/6ca9205969702ccd698eaed1080413ed39158ae7", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot colon in if statement", 
+    "Commit Mistake": "https://github.com/TauraBots/PyDimitri/commit/49473fbe8008418d95360d3d445fc9328e288598", 
+    "Commit Corrections": "https://github.com/TauraBots/PyDimitri/commit/8e6fb6faa28db39db6dbfd75e21f9fb2940f446f", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "three === instead of two ==", 
+    "Commit Mistake": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0", 
+    "Commit Corrections": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "37", 
+    "Mistakes": "extra indentation", 
+    "Commit Mistake": "https://github.com/viatra/viatra-cps-benchmark/commit/4aeb4e59a2e5b535b292a5c411757fb3592b285b", 
+    "Commit Corrections": "https://github.com/viatra/viatra-cps-benchmark/commit/874ace82c4e0cca72102edda5bf2f5c06415f0a0", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "4", 
+    "Mistakes": "extra indenation", 
+    "Commit Mistake": "https://github.com/viatra/viatra-cps-benchmark/commit/c83af8165930e6fc28daa40b2343fc5754e8ab73", 
+    "Commit Corrections": "https://github.com/viatra/viatra-cps-benchmark/commit/3eb84cee6e96cace67fde8c71e414746bdc242f0", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot a bracket", 
+    "Commit Mistake": "https://github.com/ZhuangLab/storm-control/commit/5db2c5d2432a9497598b7cac004ff8e218629175", 
+    "Commit Corrections": "https://github.com/ZhuangLab/storm-control/commit/34c7c03ae1f051317d9aad8e89224e8e152abf83", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot colon when defining class", 
+    "Commit Mistake": "https://github.com/Magswitch/Force-Calculator/commit/a70bc57b5307656e799d5e76e4365d81e0d1f657", 
+    "Commit Corrections": "https://github.com/Magswitch/Force-Calculator/commit/480d7c9c9cd6aeccea05dc1528eec99d2a0434b0", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "capitalized 'c' in config", 
+    "Commit Mistake": "https://github.com/Bboatman/proceduralMapGeneration/commit/c4c9b72a35cb313c12bebe023a39b4bd871a3902", 
+    "Commit Corrections": "https://github.com/Bboatman/proceduralMapGeneration/commit/7b4efd3de2d71bb78c911cfe721f8bc969f2ccc6", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "4", 
+    "Mistakes": "indentation issues", 
+    "Commit Mistake": "https://github.com/srsummerson/analysis/commit/1d66a945353122d639eb1650ee7697a8e852d048", 
+    "Commit Corrections": "https://github.com/srsummerson/analysis/commit/d65dc337db2475340b6115443b62f27b1a524744", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "8", 
+    "Mistakes": "indentation issues", 
+    "Commit Mistake": "https://github.com/srsummerson/analysis/commit/d65dc337db2475340b6115443b62f27b1a524744", 
+    "Commit Corrections": "https://github.com/srsummerson/analysis/commit/96aacc292694243d6dfc9c3d3ff6f0db43bdfac3", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "14", 
+    "Mistakes": "indentation issues", 
+    "Commit Mistake": "https://github.com/srsummerson/analysis/commit/96aacc292694243d6dfc9c3d3ff6f0db43bdfac3", 
+    "Commit Corrections": "https://github.com/srsummerson/analysis/commit/9fc9f3a7496bf391ef1945d7bfb0ef3cdf29a585", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "4", 
+    "Mistakes": "indentation issues", 
+    "Commit Mistake": "https://github.com/srsummerson/analysis/commit/9fc9f3a7496bf391ef1945d7bfb0ef3cdf29a585", 
+    "Commit Corrections": "https://github.com/srsummerson/analysis/commit/69805b98beaac2d85fbfa85ca3bc33e98bffb323", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "typo", 
+    "Commit Mistake": "https://github.com/kinow/pccora/commit/6cf4029517efa796b082fad4530f7fef0830d78a", 
+    "Commit Corrections": "https://github.com/kinow/pccora/commit/e0fe4a55d5e3485cd35fc2e1223823f7c92c3ab1", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot indentaion", 
+    "Commit Mistake": "https://github.com/mainfram3ca/hackerpyramid/commit/ba211959c5cf307ba29782477ed424815fa05601", 
+    "Commit Corrections": "https://github.com/mainfram3ca/hackerpyramid/commit/653ebd0c5dbf879debe5f1b95e54cca4e6ef2768", 
+    "Tags": "indentation "
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "an extra square bracket for no reason", 
+    "Commit Mistake": "https://github.com/bulbulpaul/skysea-killer/commit/211ff1ee3b4357c948c3d7ba1f570f780471b656", 
+    "Commit Corrections": "https://github.com/bulbulpaul/skysea-killer/commit/8c898d418efc896207845af5ddd8b61bdae17b8c", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "added a comma for no reason", 
+    "Commit Mistake": "https://github.com/DustinHolden/Anthos/commit/cecb1a8db2cccd8211050cab6b03bcc8d17e09bd", 
+    "Commit Corrections": "https://github.com/DustinHolden/Anthos/commit/fc3da58d7d6b66dca0e2868d1a0a8d5d7cdf8f0a", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled path required to acess a file", 
+    "Commit Mistake": "https://github.com/cxhernandez/msmexplorer/commit/2cab565d221c23df18b2605fb2aa26fd70e4e872", 
+    "Commit Corrections": "https://github.com/cxhernandez/msmexplorer/commit/5ae25c03c90466ae6917e22ac9f2f61e00d56480", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "frogot colon after if statement :)", 
+    "Commit Mistake": "https://github.com/MiladAlshomary/papers_citations/commit/4aea54930ef16c7ef0279cd28bd359c5a24eb9fd", 
+    "Commit Corrections": "https://github.com/MiladAlshomary/papers_citations/commit/745d7166edd83631d4ccd77bf6a598cc092bded3", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "typo ", 
+    "Commit Mistake": "https://github.com/cissoid/psychopass-python/commit/8df1d779bcfd4f4f3462ba341d20036235483a5d", 
+    "Commit Corrections": "https://github.com/cissoid/psychopass-python/commit/9ba6d7ae8d8f01550855a24a0bd00fc273c2dc5c", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot to capitalize GPIO", 
+    "Commit Mistake": "https://github.com/beepscore/pi_thing/commit/1b981d2ec7bd804e34e8c0b6941e3cb70c5bb525", 
+    "Commit Corrections": "https://github.com/beepscore/pi_thing/commit/b7d5767df23aa9b0dcc5c32d83387a622bf9e9e0", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelled sources instead of source when importing", 
+    "Commit Mistake": "https://github.com/dylanscott/deoplete-typescript/commit/43e89bd0b234250506aaf8227700521226972091", 
+    "Commit Corrections": "https://github.com/dylanscott/deoplete-typescript/commit/d281a6cbfaf808715c4c5c710c0cdb135059fecd", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot a comma ", 
+    "Commit Mistake": "https://github.com/PPMESSAGE/ppmessage/commit/7d25d5381f2ab38d71c38eacf66f9732cb8c8ade", 
+    "Commit Corrections": "https://github.com/PPMESSAGE/ppmessage/commit/b423fe2e08248909053a8ba60a53668eb53de6ab", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot indentation ", 
+    "Commit Mistake": "https://github.com/andrrey/tlg_dl_bot/commit/d1c89c42967abae301e7681e89e84ea8425eb010", 
+    "Commit Corrections": "https://github.com/andrrey/tlg_dl_bot/commit/dbd5b74bcf53c0705033908fa6401288e605c19a", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgotten parenthesis when trying to call a function", 
+    "Commit Mistake": "https://github.com/lutris/lutris/commit/9f8195858bfb6104b47f05c0770b9b0650ac353b", 
+    "Commit Corrections": "https://github.com/lutris/lutris/commit/5c61e571d306edf780c538547abf7c5deec20cea", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot to add a colon for a loop", 
+    "Commit Mistake": "https://github.com/luyg24/practise/commit/0440d55b3717c521c8dbbb3564ef4257ee1a99d2", 
+    "Commit Corrections": "https://github.com/luyg24/practise/commit/ec67d4a5e3a52b17ec22c2d81b52d8192b31330b", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled an import", 
+    "Commit Mistake": "https://github.com/drocta/someParser/commit/f52e05cb9ac788b1ecd2d55c3f2dc55fda43ae0a", 
+    "Commit Corrections": "https://github.com/drocta/someParser/commit/203cff66f30f3303c159ba38d33a950fe9c6c63d", 
+    "Tags": "import"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wasn't supposed to add a ';'", 
+    "Commit Mistake": "https://github.com/julianAvaca44/HomeBerry/commit/596d4bbc5d5fd11adb0d91fbc630682b660ad26d", 
+    "Commit Corrections": "https://github.com/julianAvaca44/HomeBerry/commit/b6036ac30e89415f98f4f9661df59c593d6ffeb2", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "wrong import", 
+    "Commit Mistake": "https://github.com/Kitsui/AWS-CMS-LAMBDA/commit/c4b911d5e50eeb9a0670f0b1bc7acf9f86914bcc", 
+    "Commit Corrections": "https://github.com/Kitsui/AWS-CMS-LAMBDA/commit/30b3a8f325c22b0ef66368cbd2ac68627a1f6ee0", 
+    "Tags": "import"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot formatter in string", 
+    "Commit Mistake": "https://github.com/quodlibet/quodlibet/commit/9593fd4827bbfbd4b59036db6d54db1acae9230a", 
+    "Commit Corrections": "https://github.com/quodlibet/quodlibet/commit/954e52aa65312297055e8df3e9ac600e7f193523", 
+    "Tags": "formatter"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "typo in trying to call function", 
+    "Commit Mistake": "https://github.com/jbrooksuk/Intellitip/commit/199ab3ffdadd97c60a5fdf0466371680b91af250", 
+    "Commit Corrections": "https://github.com/jbrooksuk/Intellitip/commit/9942a300c34a7bd98bc157c34e0c1378f42e0180", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added a '2' after variable name", 
+    "Commit Mistake": "https://github.com/jeremywrnr/pt-evaluation/commit/7496ce5874bcb7248438d0332ad2d1dc98434a6f", 
+    "Commit Corrections": "https://github.com/jeremywrnr/pt-evaluation/commit/3662b8dbb5d646e60d0afad7fbd7317be1dd6a6a", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'scedules' as 'schedulers'", 
+    "Commit Mistake": "https://github.com/asmodehn/celerybeatredis/commit/214291a0ed982661700e2da6178bbe665af536e1", 
+    "Commit Corrections": "https://github.com/asmodehn/celerybeatredis/commit/8b17282434a29a6424c3c2cb855f7e679b1d9985", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot a , after a string", 
+    "Commit Mistake": "https://github.com/guozhongxin/bigchaindb/commit/59003f998fc367690ea1ed146fdefb353ec30ce7", 
+    "Commit Corrections": "https://github.com/guozhongxin/bigchaindb/commit/eab43e4b1feab84d54af56211864f2bc80d0546c", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'text' as 'txt'", 
+    "Commit Mistake": "https://github.com/hokuto-k/django-line-bot/commit/3e90e4e53282c27743b9079561d47e9ba6a05c91", 
+    "Commit Corrections": "https://github.com/hokuto-k/django-line-bot/commit/7ab3fcfb53fcee1db9e11553cd4e60748a068966", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added an extra : after the if", 
+    "Commit Mistake": "https://github.com/virpatel524/miRNA-Scripts/commit/7484135e8322d9961e7815bf5e1b8f174ca35384", 
+    "Commit Corrections": "https://github.com/virpatel524/miRNA-Scripts/commit/39df4a14f8e607be503b14964e70041dfa9db752", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot a : after the if", 
+    "Commit Mistake": "https://github.com/virpatel524/miRNA-Scripts/commit/39df4a14f8e607be503b14964e70041dfa9db752", 
+    "Commit Corrections": "https://github.com/virpatel524/miRNA-Scripts/commit/49c38a3ca4e283d8f93a790b5ce5bbdc55684670", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Did not put a formatter inside the string.", 
+    "Commit Mistake": "https://github.com/gbolo/vSummary/commit/0929bf0d5db0e9c1cbd5d3262b5652ec228ed9f0", 
+    "Commit Corrections": "https://github.com/gbolo/vSummary/commit/1d288dd2a69ce0a18bc5db4083a36936fae33249", 
+    "Tags": "formatter"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'startswith()' as 'startwith()'", 
+    "Commit Mistake": "https://github.com/ekimekim/pipirc/commit/76a5bc83eb00dfff99c4629727ee54d81258f3e7", 
+    "Commit Corrections": "https://github.com/ekimekim/pipirc/commit/56376857d0d0cd2c7ce472863a979432ef953c38", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'TextAttribute' class as 'TextAttributes'", 
+    "Commit Mistake": "https://github.com/stonewell/pymterm/commit/f18b221be99b699337700ca0644ee1cfd63708e4", 
+    "Commit Corrections": "https://github.com/stonewell/pymterm/commit/800c03d0961f28b1fee95d3d97b19ab13b67ce25", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Forgot a / in between filenames", 
+    "Commit Mistake": "https://github.com/rjovelin/CRM_POPVAR/commit/6cd4477f5d5d5d47fa6454015d9e7b3d0b2dc2c4", 
+    "Commit Corrections": "https://github.com/rjovelin/CRM_POPVAR/commit/e83a632f47bf526ba4d4cca6d818c4d91b0505bf", 
+    "Tags": "file"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to close parentheses", 
+    "Commit Mistake": "https://github.com/alexskc/Fruitydo/commit/d07916652b863d53428d138e88e58c67533aa056", 
+    "Commit Corrections": "https://github.com/alexskc/Fruitydo/commit/638beb6bdb12ae8fe33f01da1eb70dde4fd65ed0", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Missing a semicolon", 
+    "Commit Mistake": "https://github.com/jrnold/stan-language-definitions/commit/04b272c0b60023795c22337733888c2c00ef4c52", 
+    "Commit Corrections": "https://github.com/jrnold/stan-language-definitions/commit/13a2b1a8cc77bd1ddf2c398050a7202deb52a9cd", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Missing a }", 
+    "Commit Mistake": "https://github.com/xlliu/web_service/commit/4d1c2603782957f42901a4a5291e50069707e85a", 
+    "Commit Corrections": "https://github.com/xlliu/web_service/commit/ab60f5e294c16a87038295343e6c36223c09fdf8", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'self.weights_file' as 'self.weights_File'", 
+    "Commit Mistake": "https://github.com/harvitronix/project-becho/commit/8bd94bbf6efdbc7f1cb9fbb0555776d2ef430e84", 
+    "Commit Corrections": "https://github.com/harvitronix/project-becho/commit/740205637af0aef5af243f62679712aa26377b1c", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Forgot to add 'self' in front of variable name.", 
+    "Commit Mistake": "https://github.com/DimitrisJim/MessengerBots/commit/55ab3f287b89d27f58a1f8807c2b34d3b34d31d5", 
+    "Commit Corrections": "https://github.com/DimitrisJim/MessengerBots/commit/f605c984ac135ddc26219b9914a9e453d93fb038", 
+    "Tags": "self"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to put quotes around a string", 
+    "Commit Mistake": "https://github.com/thuzhf/history_analysis/commit/785d87e4e04317ddee24d691ef85403c8c15180d", 
+    "Commit Corrections": "https://github.com/thuzhf/history_analysis/commit/34db1e97fd496dc38eb30db05e7078e9db29bf87", 
+    "Tags": "quotation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to add 'self' when defining a function", 
+    "Commit Mistake": "https://github.com/WatNFV/nsf-discovery/commit/eba6a4127a6cb4e94da290e13410934c8e06fba7", 
+    "Commit Corrections": "https://github.com/WatNFV/nsf-discovery/commit/569ad662a8fcca819287d714bd2effcbc957abb9", 
+    "Tags": "self"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot a comma", 
+    "Commit Mistake": "https://github.com/gt-ros-pkg/hrl-assistive/commit/79443cce28dcac5ce3e03ccede75ea96eaaf7cd5", 
+    "Commit Corrections": "https://github.com/gt-ros-pkg/hrl-assistive/commit/673cde9e1a4e5e14d4ef94d14d7c414651b24e9f", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Did not put 'object' when making a class", 
+    "Commit Mistake": "https://github.com/erocarrera/pydot/commit/86163b3538dca01e8bcf617932fda373ceb1f203", 
+    "Commit Corrections": "https://github.com/erocarrera/pydot/commit/c59d6ce4482178ade9a65bf127b53c5dc54ef432", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'self' as 'seld'", 
+    "Commit Mistake": "https://github.com/sjkim0924/my-first-blog/commit/b49ed66739a362e69da6b5fa3a4e5878d0976826", 
+    "Commit Corrections": "https://github.com/sjkim0924/my-first-blog/commit/c03a19b32a9f29f70bc8b87f0d051c43e37d7cb5", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Forgot a comma after an item", 
+    "Commit Mistake": "https://github.com/cpcloud/ibis/commit/0a43a8c5405af3b952dc2b2733720e640f8925fc", 
+    "Commit Corrections": "https://github.com/cpcloud/ibis/commit/362a5cadc179dd242626013976de5f0bd7bd15d0", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Did not indent far enough", 
+    "Commit Mistake": "https://github.com/chaayac/dilaps/commit/78ce007cdcc6d15c897b075dcfabb878d89d71b6", 
+    "Commit Corrections": "https://github.com/chaayac/dilaps/commit/699637e1c4ae4e756d30ac3fbf685f3f6d0ebe19", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "2", 
+    "Mistakes": "Forgot a comma after an item", 
+    "Commit Mistake": "https://github.com/chaayac/dilaps/commit/249e8dee8390ce879de4787be8fe9e861cdfec3a", 
+    "Commit Corrections": "https://github.com/chaayac/dilaps/commit/78ce007cdcc6d15c897b075dcfabb878d89d71b6", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'while' as 'ehile'", 
+    "Commit Mistake": "https://github.com/zumbalika/pythonexample/commit/350d1062926c2dbef6e04ff309abd02bd6b864fe", 
+    "Commit Corrections": "https://github.com/zumbalika/pythonexample/commit/2121829a1a69a852e7cce97941c75c1f4cdc6c8b", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'dump()' function as 'dumps()'", 
+    "Commit Mistake": "https://github.com/dylanpmorgan/polibot/commit/cc38d149c9bcfa27e92ec2c79e012f1974a84107", 
+    "Commit Corrections": "https://github.com/dylanpmorgan/polibot/commit/38455eae8ed396184db76ca0bebb746cfbceb2a7", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Did not indent far enough", 
+    "Commit Mistake": "https://github.com/zhenailuoye1/mission/commit/33587b138f5104a5811d64a3ed4c0122b1eb04bb", 
+    "Commit Corrections": "https://github.com/zhenailuoye1/mission/commit/2ca085c8c319f77bdd69aeeca948a217409774f1", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Put a comma where there shouldn't be one", 
+    "Commit Mistake": "https://github.com/d9pouces/PolyArchiv/commit/02c0d07e06fc4b71a9647d1c7f77fe02865f2273", 
+    "Commit Corrections": "https://github.com/d9pouces/PolyArchiv/commit/043c6834350e86b7371b01994ba0bd9e03f962d1", 
+    "Tags": "extra"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to close parentheses", 
+    "Commit Mistake": "https://github.com/meiavy/python-weixin/commit/a62122af1dd753dfe05d70310cb43ebeab30bf8e", 
+    "Commit Corrections": "https://github.com/meiavy/python-weixin/commit/614ade2812ab93dd370d3c1e8676ffdbafaabe96", 
+    "Tags": "brackets"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added an extra / at the end of file path", 
+    "Commit Mistake": "https://github.com/Narcissist1/lunchplace/commit/3e94f9f99b7fea39a63da0983b27f235957b96fc", 
+    "Commit Corrections": "https://github.com/Narcissist1/lunchplace/commit/2ceec1022c56ba0fcda8e391efc5148e32fbe97c", 
+    "Tags": "file"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled variable '__slots__' as '__slot__'", 
+    "Commit Mistake": "https://github.com/folowing/nude.py/commit/dde32118e893a860dc7591de9a997c805942e43d", 
+    "Commit Corrections": "https://github.com/folowing/nude.py/commit/9916c76a554639275c1d120d2b92fd6915fa466d", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'startswith()' as 'starswith()'", 
+    "Commit Mistake": "https://github.com/psmit/kaldi-recipes/commit/9504c7844a2db3bad3e652a5a29e743ccaddbbcf", 
+    "Commit Corrections": "https://github.com/psmit/kaldi-recipes/commit/aa7e3c1154727c650598970e648e03fa04862f61", 
+    "Tags": "function"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot : after if statement", 
+    "Commit Mistake": "https://github.com/raaka1/samv01/commit/47a6227f9ceb2f1091b931fcb9509da4af46868e", 
+    "Commit Corrections": "https://github.com/raaka1/samv01/commit/7cc5423884cda56772bb0c49943b166cfb9874e6", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot the : after else", 
+    "Commit Mistake": "https://github.com/raaka1/samv01/commit/7cc5423884cda56772bb0c49943b166cfb9874e6", 
+    "Commit Corrections": "https://github.com/raaka1/samv01/commit/fff4f0bc7b8245add2c897b7e0777b577e63ddf8", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Did not indent a line", 
+    "Commit Mistake": "https://github.com/Canule/Mash-Cogs/commit/ec3e2630fddc8e2ff0780de157742ea7734b2ffd", 
+    "Commit Corrections": "https://github.com/Canule/Mash-Cogs/commit/fa6eaaa2533f2c2b871710ceca4301bb6a8105a9", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot a parentheses", 
+    "Commit Mistake": "https://github.com/Nada3/CubeWars/commit/a4e70841a4c3ab46a0f6f1f7cc5926b68b9dc688", 
+    "Commit Corrections": "https://github.com/Nada3/CubeWars/commit/c902a48ab4100bb6157bb130341e66b1307aa19e", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added a comma between a string and a formatter", 
+    "Commit Mistake": "https://github.com/mtsukanov/rusrat/commit/0f0518aeed9910168ede031f6aba8fc82f72ac4e", 
+    "Commit Corrections": "https://github.com/mtsukanov/rusrat/commit/bceda887e2dd2603158b0400d27c8b2caa6f48dd", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added a ; on the end of a line", 
+    "Commit Mistake": "https://github.com/magenta-aps/mox/commit/377bbda0478a780d4cb715c6335335f8296abe64", 
+    "Commit Corrections": "https://github.com/magenta-aps/mox/commit/a367248eff744813ae666524bcc49f4a91351d94", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'README.md' as 'README'", 
+    "Commit Mistake": "https://github.com/SartoNess/python-bitcoinlib/commit/4b05213a72f97e6e15c21244c49f248b10443c34", 
+    "Commit Corrections": "https://github.com/SartoNess/python-bitcoinlib/commit/2bf02a05f27fd5dda59de1cbc5a84b5186e6e4cb", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Put a \" in front of a function", 
+    "Commit Mistake": "https://github.com/raaka1/samv01/commit/b5ece102a640ff50b764538977cba28d5cccf91a", 
+    "Commit Corrections": "https://github.com/raaka1/samv01/commit/55f8091a90990aeb981d56c5a7c992798317b64e", 
+    "Tags": "quotation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Put a ; at the end of a line", 
+    "Commit Mistake": "https://github.com/lfcipriani/commutemate/commit/947d137a87fd2fbbd520838618592e13c227a324", 
+    "Commit Corrections": "https://github.com/lfcipriani/commutemate/commit/f4b87723bbe2898b60f95ec46d904927b593a371", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Added an extra )", 
+    "Commit Mistake": "https://github.com/Sinicin/test/commit/6fd89364727cdfff84faecf5712ff2f2336f0f41", 
+    "Commit Corrections": "https://github.com/Sinicin/test/commit/1020be36fc65e47cd5ceaf2ec69118be7173ef8c", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Forgot to put a space between import and module", 
+    "Commit Mistake": "https://github.com/soasme/blackgate/commit/098d09b76e692b2a131142e9bdc62b298e3dc32e", 
+    "Commit Corrections": "https://github.com/soasme/blackgate/commit/f6672fd0074052ba71bc1266590f0ef0db8f14d0", 
+    "Tags": "space"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Put a comma instead of a : between dictionary key and value", 
+    "Commit Mistake": "https://github.com/pupil-labs/pupil/commit/8ca4580dbd024f67223db5250092fed04cda4913", 
+    "Commit Corrections": "https://github.com/pupil-labs/pupil/commit/d30f48e00be2f55b01f15d419d3f42a8d3ba09a6", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Misspelled 'README.md' as 'readme.md'", 
+    "Commit Mistake": "https://github.com/mqopen/mqspeak/commit/2948e0725cabdbede7aaa9184989541f14b0e5ed", 
+    "Commit Corrections": "https://github.com/mqopen/mqspeak/commit/c25cff71b9412e0ad81e06913921c1146590b227", 
+    "Tags": "misspell"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "Wrote = instead of ==", 
+    "Commit Mistake": "https://github.com/ActivityWatch/aw-server/commit/4944e391f8cc6c7f7aba11ec3238c77c045635d2", 
+    "Commit Corrections": "https://github.com/ActivityWatch/aw-server/commit/277104eb1492b522660529474e5ebbf1ec7f4b84", 
+    "Tags": "operator"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot colon in after else", 
+    "Commit Mistake": "https://github.com/GallagherCommaJack/markets/commit/ee92c04bce9e05d2971b41feb1b2c171ecb2d0de", 
+    "Commit Corrections": "https://github.com/GallagherCommaJack/markets/commit/fc6b3ab5c8b924b7232a6f9f01a3589926400c10", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot a bracket", 
+    "Commit Mistake": "https://github.com/mbedmicro/mbed/commit/f7ad7d2e27193a2b5282e5221947b5e127662367", 
+    "Commit Corrections": "https://github.com/mbedmicro/mbed/commit/855cc9155083e02d436a16be98dc43e1590ebfff", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelled variable wrong", 
+    "Commit Mistake": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/3da79f01e76430a52526bad236450a5d2bb0ceb8", 
+    "Commit Corrections": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/e9fd0cc5c198108c9d379116792ce1eda5443c65", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot a bracket", 
+    "Commit Mistake": "https://github.com/waynelkh/OpenADM/commit/b091fb0a944f82302eb0d88ee3b410aad94a05dc", 
+    "Commit Corrections": "https://github.com/waynelkh/OpenADM/commit/18a7f124525a1dde4c5bb25cd371d489e0292519", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "added extra bracket", 
+    "Commit Mistake": "https://github.com/chaayac/FindMyPet/commit/12340f05ba13a19c09c2bd1fec88a25e5222d5b6", 
+    "Commit Corrections": "https://github.com/chaayac/FindMyPet/commit/82ebcf250946305c9749511d1d729d967b08b34f", 
+    "Tags": "bracket"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "misspelled variable", 
+    "Commit Mistake": "https://github.com/swzry/zlogsysd/commit/450ffde060a95a063cc722bcda72bda9aba99a35", 
+    "Commit Corrections": "https://github.com/swzry/zlogsysd/commit/d77954b4f4046c83b38be33d756f0df441ba5179", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "indentation error", 
+    "Commit Mistake": "https://github.com/raaka1/samv01/commit/2c44be77bd70b6bb3d8657cbfe663244c7f689f4", 
+    "Commit Corrections": "https://github.com/raaka1/samv01/commit/99d1af8b6f8fdea4c31430f06acbb7f915800f04", 
+    "Tags": "indentation"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "indentation and colon", 
+    "Commit Mistake": "https://github.com/raaka1/samv01/commit/99d1af8b6f8fdea4c31430f06acbb7f915800f04", 
+    "Commit Corrections": "https://github.com/raaka1/samv01/commit/d7f90d5c43b64714dd9d4c3f82284d4cf6d90a7f", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "spelling", 
+    "Commit Mistake": "https://github.com/Ayuyuyu/ChatRoom/commit/e7eff9cc88cd2ac1a85f25240b55c62456647b02", 
+    "Commit Corrections": "https://github.com/Ayuyuyu/ChatRoom/commit/5303dfa162b4521ff51bf406a0802344f46e0bc3", 
+    "Tags": "misspellvariable"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot colon in else statement", 
+    "Commit Mistake": "https://github.com/hyunsikhwang/python/commit/b6309a59e71cf95c197cf88806c01d152c13b28d", 
+    "Commit Corrections": "https://github.com/hyunsikhwang/python/commit/39960f2f4bd07623b533b4b2fc4b742819054c52", 
+    "Tags": "colon"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "forgot to add comma when switching lines between strings", 
+    "Commit Mistake": "https://github.com/bartverstrynge/azure-sdk-for-python/commit/97f97ce35dc92bdd5394d983a7b19ec84205898e", 
+    "Commit Corrections": "https://github.com/bartverstrynge/azure-sdk-for-python/commit/073c97dfc5239dff9634432bb954397d832a7f7d", 
+    "Tags": "comma"
+  }, 
+  {
+    "Length": "1", 
+    "Mistakes": "indent for no reason", 
+    "Commit Mistake": "https://github.com/ansible/ansible-modules-extras/commit/f72b0288c0c7df77a31518c99bcd3651260e9c8e", 
+    "Commit Corrections": "https://github.com/ansible/ansible-modules-extras/commit/3e8fa8ef829dde4f379d28751059f797751e5014", 
+    "Tags": "indentation"
+  }
+  {
+    "Commit Mistakes": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06", 
+    "Keyword:": "typo", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "spelling"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188", 
+    "Keyword:": "typo", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "frogot the _ in move.counter_clockwise"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/jeff1evesque/machine-learning/commit/cc48ef134302bf28015670aed958289dad680094", 
+    "Keyword:": "indentation", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef", 
+    "Tags:": "indentation", 
+    "Mistake:": "forgot indentation after else statement"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7", 
+    "Keyword:": "typo", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "wrote - instead of _"
   }
 ]
