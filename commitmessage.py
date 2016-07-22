@@ -3,7 +3,7 @@ import pymongo
 from pymongo import MongoClient
 
 from sys import argv
-script, filename = argv
+script, filename, secondfile = argv
 CommitMistakes = ''
 CommitCorrections = ''
 
@@ -12,7 +12,7 @@ db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
 counter = 0
-save_location = 0
+save_location = 216957
 location = 0
 name = 'Hannah'
 message = None
@@ -78,9 +78,11 @@ for document in cursor:
 						print "Deletions: %r" % deletions
 						print "Save location: %d" % (save_location - 1)
 						txt = open(filename, 'a+')
+						txt2 = open(secondfile, 'a+')
 						if str(link) in txt.read():
 								print "WE HAVE ADDED THIS ALREADY!"
 						txt.close()
+						txt2.close()
 						answer = raw_input("Do you want to include this file as an entry? y/n ")
 						if answer == 'y':
 							txt = open(filename, 'a+')
@@ -98,6 +100,15 @@ for document in cursor:
 							print "Finding another file just for %s..." % name
 							print "============================================"
 						else:
+							txt2 = open(secondfile, 'a+')
+							CommitMistakes = str(parents)
+							CommitCorrections = str(link)
+							why_not = raw_input("Why did you not include this file? ")
+							if txt2.readline(1) != "*":
+								txt2.write("*" + "\n" "Commit Mistakes:" + "\n" + 								CommitMistakes + "\n" + "Commit Corrections:" + "\n" 								+ CommitCorrections + "\n" + "Why Not an error:" + 								"\n" + why_not)
+							else:
+								txt2.write("\n" + "*" + "\n" "Commit Mistakes:" +  								"\n" + CommitMistakes + "\n" + "Commit Corrections:"  								+ "\n" + CommitCorrections + "\n" + "Why not an 							error:" + "\n" + why_not)
+							txt2.close()
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
