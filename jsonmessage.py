@@ -21,7 +21,6 @@ name = 'Hannah'
 message = None
 parents = None
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid"]
-CommitMistakes = raw_input("Have you deleted the # at the end of the jsontest.txt file and the no.txt file yet?")
 print "============================================"
 print "Finding another file just for %s..." % name
 print "============================================"
@@ -118,9 +117,15 @@ for document in cursor:
 							CommitCorrections = str(link)
 							why_not = raw_input("Why did you not include this file? ")
 							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Why Not:" : why_not, "Keyword:" : i, "Additions": additions, "Deletions:": deletions}
-							data = json.dumps(data) 
-							txt2.write(data)
-							txt2.write("\n")
+							entries.append(data)
+							with open('jsonno.json') as f:
+								entries = json.load(f)
+							print entries
+							txt2.seek(0)
+							txt2.truncate()
+							entries.append(data)
+							with open('jsonno.json', 'a+') as outfile:
+								json.dump(entries, outfile, indent = 2)
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
