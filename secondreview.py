@@ -12,7 +12,7 @@ db = client.github
 # This is a thing containing all the documents somehow
 cursor = db.commits.find()
 counter = 0
-save_location = 0
+save_location = 216957
 location = 0
 name = 'Hannah'
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid", "version", "bump", "merge", "merging", "comment", "test", "testing", "renamed"]
@@ -94,9 +94,9 @@ for document in cursor:
 						tag = raw_input("Type the Tag: ")
 						length = raw_input("Type the length of changes: ")
 						if txt.readline(1) != "*":
-							txt.write("*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + i + "\n" + "Mistakes:" 							+ "\n" + mistake + "\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + 							"\n" + length)
+							txt.write("*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 						"Mistakes:" + "\n" + mistake + "\n" + "Tags:" + "\n" + tag + "\n" + 							"Length:" + "\n" + length)
 						else:
-							txt.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 						CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + i + "\n" + "Mistakes:" 							+ "\n" + mistake + "\n" + "Tags:" + "\n" + tag + "\n" + "Length:" + 							"\n" + length)
+							txt.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 						CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 						"Mistakes:" + "\n" + mistake + "\n" + "Tags:" + "\n" + tag + "\n" + 							"Length:" + "\n" + length)
 						txt.close()
 						print "\n============================================"
 						print "Finding another file just for %s..." % name
@@ -107,9 +107,9 @@ for document in cursor:
 						CommitCorrections = str(link)
 						why_not = raw_input("Why did you not include this file? ")
 						if txt2.readline(1) != "*":
-							txt2.write("*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + i + "\n" + "Why Not an 							error:" + "\n" + why_not)
+							txt2.write("*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 							"Why Not an error:" + "\n" + why_not)
 						else:
-							txt2.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 						        CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + i + "\n" + "Why not an 							error:" + "\n" + why_not)
+							txt2.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 						        CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 							"Why not an error:" + "\n" + why_not)
 						txt2.close()
 						print "\n============================================"
 						print "Finding another file just for %s..." % name
