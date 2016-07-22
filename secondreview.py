@@ -18,6 +18,7 @@ name = 'Hannah'
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid", "version", "bump", "merge", "merging", "comment", "test", "testing", "renamed"]
 message = None
 parents = None
+CommitMistakes = raw_input("Have you deleted the # at the end of the jsontest.txt file and the no.txt file yet?")
 print "============================================"
 print "Finding another file just for %s..." % name
 print "============================================"
@@ -80,10 +81,14 @@ for document in cursor:
 					print "Deletions: %r" % deletions
 					print "Save location: %d" % (save_location - 1)
 					txt = open(filename, 'a+')
-					txt2 = open(secondfile, 'a+')
 					if str(link) in txt.read():
-						print "WE HAVE ADDED THIS ALREADY!"
+							print "WE HAVE ADDED THIS ALREADY!"
+							break
 					txt.close()
+					txt2 = open(secondfile, 'a+')
+					if str(link) in txt2.read():
+							print "WE HAVE ADDED THIS ALREADY!"
+							break
 					txt2.close()
 					answer = raw_input("Do you want to include this file as an entry? y/n ")
 					if answer == 'y':
@@ -93,11 +98,10 @@ for document in cursor:
 						mistake = raw_input("Type a message for Mistake: ")
 						tag = raw_input("Type the Tag: ")
 						length = raw_input("Type the length of changes: ")
-						if txt.readline(1) != "*":
-							txt.write("*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 						"Mistakes:" + "\n" + mistake + "\n" + "Tags:" + "\n" + tag + "\n" + 							"Length:" + "\n" + length)
-						else:
-							txt.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 						CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 						"Mistakes:" + "\n" + mistake + "\n" + "Tags:" + "\n" + tag + "\n" + 							"Length:" + "\n" + length)
-						txt.close()
+						data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i}
+						data = json.dumps(data) 
+						txt.write(data)
+						txt.write("\n")
 						print "\n============================================"
 						print "Finding another file just for %s..." % name
 						print "============================================"
@@ -106,10 +110,10 @@ for document in cursor:
 						CommitMistakes = str(parents)
 						CommitCorrections = str(link)
 						why_not = raw_input("Why did you not include this file? ")
-						if txt2.readline(1) != "*":
-							txt2.write("*" + "\n" "Commit Mistakes:" + "\n" + 							CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 							"Why Not an error:" + "\n" + why_not)
-						else:
-							txt2.write("\n" + "*" + "\n" "Commit Mistakes:" + "\n" + 						        CommitMistakes + "\n" + "Commit Corrections:" + "\n" + 							CommitCorrections + "\n" + "Keyword found:" + "\n" + i + "\n" + 							"Why not an error:" + "\n" + why_not)
+						data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Why Not:" : why_not, "Keyword:" : i, "Additions": additions, "Deletions:": deletions}
+						data = json.dumps(data) 
+						txt2.write(data)
+						txt2.write("\n")
 						txt2.close()
 						print "\n============================================"
 						print "Finding another file just for %s..." % name
