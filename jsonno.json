@@ -1,10 +1,250 @@
-[
+[ 
   {
-    "Commit Mistakes": "NONE", 
-    "Keyword:": "NONE", 
-    "Length": "NONE", 
-    "Commit Corrections:": "NONE", 
-    "Tags:": "NONE", 
-    "Mistake:": "NONE"
+    "Commit Mistakes": "https://github.com/yeti/yurt/commit/b855a680b7698650e45e32d248f1f4e79252f718", 
+    "Deletions:": 38, 
+    "Keyword:": "indentation", 
+    "Commit Corrections:": "https://github.com/yeti/yurt/commit/d61937ab2da8cf1b9664389de6fa7e7dd53fc8dd", 
+    "Why Not:": "updated a lot of other stuff", 
+    "Additions": 22
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/shotat/ansible-modules-extras/commit/ac8e3f18a3c0f8c936beee06cbf44831a52c0e09", 
+    "Deletions:": 4, 
+    "Keyword:": "typo", 
+    "Commit Corrections:": "https://github.com/shotat/ansible-modules-extras/commit/8bef15443a5bcfbdf329f20b2a9c9f9effa7d22d", 
+    "Why Not:": "it's a typo in string", 
+    "Additions": 4
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/d3954481844ef931ede8ff0a8c09139e529e70a5", 
+    "Deletions:": 3, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/astrocatalogs/sne/commit/6a7285e47f9c4c4f09a5a762788cfec2633e74b3", 
+    "Why Not:": "did not enter the right name", 
+    "Additions": 2
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/c1facc156498668995324300e17ac1bb7a695cc1", 
+    "Deletions:": 1, 
+    "Keyword:": "typo", 
+    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/4414ff31845c75aacc89a89995b4c3308621921d", 
+    "Why Not:": "deleted an unwanted line", 
+    "Additions": 0
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/cfda9b38a6977a23fd92c4bece2068dda13d7625", 
+    "Deletions:": 0, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/astrocatalogs/sne/commit/5c5c08a146f3c874f5d7c71573641bf4973aaccc", 
+    "Why Not:": "just added some stuff", 
+    "Additions": 3
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/rlfscin/bioinspirada/commit/256df7f8a343892deb40e33bd376df20c3568925", 
+    "Deletions:": 3, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/rlfscin/bioinspirada/commit/b8f7d0afbff77e1894e7e6a32b92bade7c235a41", 
+    "Why Not:": "replaced with something quite different", 
+    "Additions": 3
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/AdamD2/dvd-waiting-screen/commit/44ff2eaa739ac73291260756e96a569d7e728789", 
+    "Deletions:": 1, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/AdamD2/dvd-waiting-screen/commit/2862ef78db7018fa8b84131102ada5cf1bc34296", 
+    "Why Not:": "mistake was not writing the right stuff", 
+    "Additions": 2
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/acheronte/aiohttp_auth_backend/commit/91749dc159b6ab001ac319a3ea9a8fba59175762", 
+    "Deletions:": 2, 
+    "Keyword:": "typo", 
+    "Commit Corrections:": "https://github.com/acheronte/aiohttp_auth_backend/commit/0bf7498d9b6a5e9f4f22d16e8b285dd8b26ec4ca", 
+    "Why Not:": "wrote something quite different", 
+    "Additions": 2
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/vikas-parashar/plonetheme.spot/commit/d2bcb2de43c8450e229cb76b08d0c9526ab2eea9", 
+    "Deletions:": 1, 
+    "Keyword:": "minor changes", 
+    "Commit Corrections:": "https://github.com/vikas-parashar/plonetheme.spot/commit/eb14a5413a5297f079756d317a0a4844f8770684", 
+    "Why Not:": "just deleted an unwanted line", 
+    "Additions": 0
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/rhooper/home-assistant/commit/56ca9a0569b26bf430adae4b0c38b32f065f4815", 
+    "Deletions:": 1, 
+    "Keyword:": "missed", 
+    "Commit Corrections:": "https://github.com/rhooper/home-assistant/commit/85f0d8228286397e4208e3d42673794b8f5dac39", 
+    "Why Not:": "have no idea what they changed", 
+    "Additions": 2
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/ProjetPC2/SIMM2.0-DEV/commit/2de83362db58b402ba8d4f7fbf4359c28950f48c", 
+    "Deletions:": 1, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/ProjetPC2/SIMM2.0-DEV/commit/e5486aa9c9ea740b810088063755263a5358e4b4", 
+    "Why Not:": "made minor changes to the actual process ", 
+    "Additions": 4
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/wholmgren/pvlib-python/commit/af7e4e42643c05797c1ad9088b50577a8b886763", 
+    "Deletions:": 2, 
+    "Keyword:": "mistake", 
+    "Commit Corrections:": "https://github.com/wholmgren/pvlib-python/commit/1b2fa51a526a0e1946e563c35cb17ff22fd857ec", 
+    "Why Not:": "replaced with something totally different", 
+    "Additions": 2
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/LachlanNXT/DroidRacing/commit/4de916f9dd90a7d0c714d387ffa71afac9894bbd", 
+    "Deletions:": 4, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/LachlanNXT/DroidRacing/commit/1e7559885a4ad5a218e7e977b3654fb16219615c", 
+    "Why Not:": "changed number", 
+    "Additions": 0
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/7ws/django-authorizenet/commit/35f7319cb18e46952971020b6437bea3c56d77d4", 
+    "Deletions:": 3, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/7ws/django-authorizenet/commit/a253dbd11a9df9b7cb16987711f68ba02fc9253a", 
+    "Why Not:": "wrote very different stuff", 
+    "Additions": 4
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/Antergos/antbs/commit/fe0d633aeb21429c57d3a3888b65718653c1e719", 
+    "Deletions:": 1, 
+    "Keyword:": "typo", 
+    "Commit Corrections:": "https://github.com/Antergos/antbs/commit/191aff94581a501c924eb7ed8ebb37e530862760", 
+    "Why Not:": "wrote different stuff", 
+    "Additions": 1
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099", 
+    "Deletions:": 40, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/2bb8eaa5ceff6a64452e7e94972539843300dba6", 
+    "Why Not:": "wrote different stuff", 
+    "Additions": 39
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/AdamD2/dvd-waiting-screen/commit/2862ef78db7018fa8b84131102ada5cf1bc34296", 
+    "Deletions:": 0, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/AdamD2/dvd-waiting-screen/commit/e43a088b05c7114e20cc7e5e6d6304b88f7813da", 
+    "Why Not:": "just added an extra line", 
+    "Additions": 1
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/Pujolsluis/quicktutors/commit/840a40016c6636ddabdab2a1f58601c0fad6e087", 
+    "Deletions:": 0, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/Pujolsluis/quicktutors/commit/ca5accf98ee512d57e92df6faa871a1e6a64d0f5", 
+    "Why Not:": "just added a bunch of more stuff", 
+    "Additions": 20
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef", 
+    "Deletions:": 1, 
+    "Keyword:": "indentation", 
+    "Commit Corrections:": "https://github.com/jeff1evesque/machine-learning/commit/375293fbfb2b1c023b1f7485b0f650a6241af8c5", 
+    "Why Not:": "no real change", 
+    "Additions": 1
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/gappleto97/p2p-project/commit/45eeedb0e081436161719f94f48d40f0577bbfd9", 
+    "Deletions:": 1, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/gappleto97/p2p-project/commit/9b822e45e5f4e60fbd0a02a616e122cedd0e2358", 
+    "Why Not:": "replaced with totally diffent stuff", 
+    "Additions": 1
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/Firstyear/lib389/commit/24f7d8d45a2816c57ba979d36309a66b82c8b980", 
+    "Deletions:": 11, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/Firstyear/lib389/commit/a0092e9a8c2f1714699b1124aa541152fa22b590", 
+    "Why Not:": "added some more stuff", 
+    "Additions": 19
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/APerson241/APersonBot/commit/72a282a461edab462ace0729b0e56efcc69fd9e3", 
+    "Deletions:": 3, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/APerson241/APersonBot/commit/790d363b6693ba7daa6a774d95af17cb04f4c404", 
+    "Why Not:": "just added some more stuff", 
+    "Additions": 3
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/jprince14/BingTool/commit/e16b36bd4618c79675216bf212d5219546d5aa50", 
+    "Deletions:": 1, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/jprince14/BingTool/commit/6fb1ab8c9952b6332a7f5f500b7363f9fccf9c82", 
+    "Why Not:": "just removed a line", 
+    "Additions": 0
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/Firstyear/lib389/commit/81d7eab894851020b3dd605a9dd4d462c813eef8", 
+    "Deletions:": 9, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/Firstyear/lib389/commit/cb09ca78c9129a43a3b33b26439d2c72f5f7c693", 
+    "Why Not:": "just added a few lines", 
+    "Additions": 25
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/NicolasDurrande/Gaussian-Process-short-Course/commit/e8b5ab66e69608d114036e562ae222f07b9d408b", 
+    "Deletions:": 1, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/NicolasDurrande/Gaussian-Process-short-Course/commit/7e5583998177c12ecb3d8bd691c7a100c6adced3", 
+    "Why Not:": "replaced with very different stuff", 
+    "Additions": 1
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/ab6ebb6d089d6f888faceecbfadb981f166e17d5", 
+    "Deletions:": 13, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/c2a41ebcd9577c095dccf8a763e8ea05957f523a", 
+    "Why Not:": "very different changes", 
+    "Additions": 5
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/jeff1evesque/machine-learning/commit/375293fbfb2b1c023b1f7485b0f650a6241af8c5", 
+    "Deletions:": 1, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/jeff1evesque/machine-learning/commit/bfae8b1ee3379851bdf7df781ca675127ab6d9b2", 
+    "Why Not:": "just replaced ''' with \"\"\"", 
+    "Additions": 1
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/ansible/ansible-modules-extras/commit/ac8e3f18a3c0f8c936beee06cbf44831a52c0e09", 
+    "Deletions:": 4, 
+    "Keyword:": "typo", 
+    "Commit Corrections:": "https://github.com/ansible/ansible-modules-extras/commit/d25c487ac8349885c766c7ae69e294625f21e813", 
+    "Why Not:": "typos on string", 
+    "Additions": 4
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/JGuanzon/correctv/commit/33cecaba103915dc0c2c44979c972838defb37ee", 
+    "Deletions:": 0, 
+    "Keyword:": "syntax", 
+    "Commit Corrections:": "https://github.com/JGuanzon/correctv/commit/f78e88d3655fda340220511512e4a14340af3441", 
+    "Why Not:": "changes on comments", 
+    "Additions": 4
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/bettse/wifi_uds/commit/1c35bd574c71de26f597d708ebc607daade0fea4", 
+    "Deletions:": 1, 
+    "Keyword:": "typo", 
+    "Commit Corrections:": "https://github.com/bettse/wifi_uds/commit/a345364aa7c35ba3a3cc65cf895a9930b1d775ce", 
+    "Why Not:": "replaced number", 
+    "Additions": 1
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/openstack/octavia/commit/d19eb06a67793334594257e8a0acfa7ad08e3d37", 
+    "Deletions:": 5, 
+    "Keyword:": "correct", 
+    "Commit Corrections:": "https://github.com/openstack/octavia/commit/e42b3db5804009484a0477227bffcdda97bb4ec4", 
+    "Why Not:": "deleted bunch of comments", 
+    "Additions": 0
   }
 ]
