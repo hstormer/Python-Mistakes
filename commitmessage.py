@@ -97,10 +97,11 @@ for document in cursor:
 							mistake = raw_input("Type a message for Mistake: ")
 							tag = raw_input("Type the Tag: ")
 							length = raw_input("Type the length of changes: ")
-							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i}
+							data = {"Commit Mistakes" : CommitMistakes, 								"Commit Corrections:" : CommitCorrections, "Mistake:" : 							mistake, "Tags:" : tag, "Length": length, "Keyword:" : i}
 							data = json.dumps(data) 
 							txt.write(data)
 							txt.write("\n")
+							txt.close()
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
@@ -113,6 +114,7 @@ for document in cursor:
 							data = json.dumps(data) 
 							txt2.write(data)
 							txt2.write("\n")
+							txt2.close()
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
