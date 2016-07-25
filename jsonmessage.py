@@ -115,7 +115,7 @@ for document in cursor:
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
-						else:
+						elif answer == 'n':
 							txt2 = open(secondfile, 'a+')
 							CommitMistakes = str(parents)
 							CommitCorrections = str(link)
@@ -132,6 +132,8 @@ for document in cursor:
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
 							print "============================================"
+						else:
+							None
 						# Don't print it again if it also contains another thing
 						break
 	else: 
