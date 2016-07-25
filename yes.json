@@ -1399,6 +1399,21 @@
     "Tags:": "function", 
     "Mistake:": "typo in calling function"
   }, 
+<<<<<<< HEAD
+=======
+  {
+    "Changes:": [
+      "-    student, _ = Student.objects.create_or_update(\n", 
+      "+    student, _ = Student.objects.update_or_create(\n"
+    ], 
+    "Commit Mistakes": "https://github.com/mitodl/sga-lti/commit/a7155655d3dacd3d61268d6cc58d057796169c20", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "spelled the variable wrong"
+  },
+>>>>>>> 46bc62e0fc9fb9769da14072c79b1bc047ddaf10
   {
     "Commit Mistakes": "https://github.com/wanglin1985/Steed/commit/a390e2ecdf5e63f3e9d53ef13d91c9ece3b8c843", 
     "Keyword:": "length", 
