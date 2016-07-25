@@ -106,7 +106,6 @@ for document in cursor:
 							entries.append(data)
 							with open('yes.json') as f:
 								entries = json.load(f)
-							print entries
 							txt.seek(0)
 							txt.truncate()
 							entries.append(data)
