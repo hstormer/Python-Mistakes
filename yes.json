@@ -1398,7 +1398,7 @@
     "Commit Corrections:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/8269fad5580fdddb5e4c918d70c0d6707f92a7af", 
     "Tags:": "function", 
     "Mistake:": "typo in calling function"
-  },
+  }, 
   {
     "Commit Mistakes": "https://github.com/wanglin1985/Steed/commit/a390e2ecdf5e63f3e9d53ef13d91c9ece3b8c843", 
     "Keyword:": "length", 
@@ -1414,5 +1414,17 @@
     "Commit Corrections:": "https://github.com/eshapard/AnkiHabitica/commit/cb20596498ce3f541d2e51edff033d3a9d4eba2d", 
     "Tags:": "brackets", 
     "Mistake:": "Forgot a parentheses"
+  }, 
+  {
+    "Changes:": [
+      "-            'id': self.id,\n", 
+      "+            'id': self.id\n"
+    ], 
+    "Commit Mistakes": "https://github.com/moagm316/FSND_Item_Catalog/commit/cef79e675b68ecbae421c13f25ee052612512b3d", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/moagm316/FSND_Item_Catalog/commit/947ccda23ee5bedf761a3014286bdd1d87730c6f", 
+    "Tags:": "extra", 
+    "Mistake:": "added unnecessary comma"
   }
 ]
