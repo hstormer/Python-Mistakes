@@ -124,7 +124,6 @@ for document in cursor:
 							entries.append(data)
 							with open('jsonno.json') as f:
 								entries = json.load(f)
-							print entries
 							txt2.seek(0)
 							txt2.truncate()
 							entries.append(data)
