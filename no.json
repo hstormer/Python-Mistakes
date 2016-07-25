@@ -606,7 +606,7 @@
     "Commit Corrections:": "https://github.com/gregeastman/gift-exchange-central/commit/9a0c55da66718c074151d86cae3843045217db8f", 
     "Why Not:": "changed from True to False", 
     "Additions": 1
-  },
+  }, 
   {
     "Changes:": [
       "-end_of_feat = 397 \n", 
@@ -617,7 +617,7 @@
     "Keyword:": "length", 
     "Commit Corrections:": "https://github.com/KihongHeo/auto_feat_data/commit/4e429ea8cc81b271f3882ec688d38896f7cac9ef", 
     "Why Not:": "just changed number"
-  },
+  }, 
   {
     "Commit Mistakes": "https://github.com/mochar/corebin-api/commit/6491083fedb6da12187368e8e0baf14db30ed57b", 
     "Deletions:": 8, 
@@ -1441,6 +1441,90 @@
     "Keyword:": "length", 
     "Commit Corrections:": "https://github.com/ArrowsX/musicbot/commit/ca510726c7ce658bcac9c8b00d818092cb023104", 
     "Why Not:": "added spaces between the words", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.3.1',\n", 
+      "+    version='0.4',\n"
+    ], 
+    "Commit Mistakes": "https://github.com/hhatto/pyrapidjson/commit/cb043c5d164742a6ecbf7e2f173a95299b15671b", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/hhatto/pyrapidjson/commit/74ab872f592395be52f635606543c254d894b096", 
+    "Why Not:": "just changed version number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            return utctime\n", 
+      "+            return utctime\n"
+    ], 
+    "Commit Mistakes": "https://github.com/xgds/xgds_instrument/commit/63d0edbaf6a357c79d5742f326d98bb999040d29", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/xgds/xgds_instrument/commit/3ecf3125d01c9542e6a95e6e197547a75f505800", 
+    "Why Not:": "just moved the change to a new line", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        # TODO: Handle with multiple outputs, including the order of outputs\n", 
+      "+        # TODO: Minpy currently doesn't support multiple outputs\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dmlc/minpy/commit/f4bcba7be57f8fc75747512b34987b2dc50d1698", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/dmlc/minpy/commit/21cfe4a9bc2aed4e15308d229dfd265925ca3ca2", 
+    "Why Not:": "just changed the comment", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-      version='2.2',\n", 
+      "+      version='2.2.1',\n"
+    ], 
+    "Commit Mistakes": "https://github.com/Phylliade/ikpy/commit/4f4892afc656aefba357c790c3a0567a66f8c95b", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/Phylliade/ikpy/commit/ca5a9b7d84cb252fa1c6fb28cef78d6fc3207c6e", 
+    "Why Not:": "just changed version number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        TOPIC_BASE  = config.get('mqtt', 'TOPIC_BASE')\n", 
+      "+        TOPIC_BASE = config.get('mqtt', 'TOPIC_BASE')\n"
+    ], 
+    "Commit Mistakes": "https://github.com/alexpeits/delight-diploma-thesis/commit/49d3209b62755e3aa751e9588f2e9d443eb8e3a1", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/alexpeits/delight-diploma-thesis/commit/58fd34fa9ec73de635f9f3fc7eef3723bebf5276", 
+    "Why Not:": "just deleted a space", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-for x in range(1,32000):\n", 
+      "+for x in range(1,3200000):\n"
+    ], 
+    "Commit Mistakes": "https://github.com/borislavkostov/HACKER-SCHOOL/commit/0b09004153a1bdb53fab273e3062c881d2b65711", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/borislavkostov/HACKER-SCHOOL/commit/09273f67c7a935ddf1fc6804e4126f77b6e7c930", 
+    "Why Not:": "changed value of range", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-import pygame\n", 
+      "+import pygame\n"
+    ], 
+    "Commit Mistakes": "https://github.com/hitbox/inventwithpython-practice/commit/6be59b0757731240ac6c6fcbe02e1da220f0c8a5", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/hitbox/inventwithpython-practice/commit/e3f6f4f9b2107b7228c85ec3fc43170076413214", 
+    "Why Not:": "just moved an import to a  new line", 
     "Additions": 1
   }
 ]

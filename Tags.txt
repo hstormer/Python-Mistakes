@@ -16,6 +16,7 @@ file = did not correctly write a file path, ex. HomeDownloads/Stuff  <---Forgot 
 operator = did not use the right operator
 loop = used loop incorrectly
 argument = did not use argument correctly when calling a function
+variable = didn't use variable properly
 
 Length:
 Count the number of lines the correction was actually made to for individual commits 

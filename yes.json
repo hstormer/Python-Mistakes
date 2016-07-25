@@ -1410,7 +1410,7 @@
     "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
     "Tags:": "misspellvariable", 
     "Mistake:": "spelled the variable wrong"
-  },
+  }, 
   {
     "Commit Mistakes": "https://github.com/wanglin1985/Steed/commit/a390e2ecdf5e63f3e9d53ef13d91c9ece3b8c843", 
     "Keyword:": "length", 
@@ -1438,5 +1438,212 @@
     "Commit Corrections:": "https://github.com/moagm316/FSND_Item_Catalog/commit/947ccda23ee5bedf761a3014286bdd1d87730c6f", 
     "Tags:": "extra", 
     "Mistake:": "added unnecessary comma"
+  }, 
+  {
+    "Changes:": [
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(six.text_type(actual_value),\n", 
+      "-                         six.text_type(expected_value))\n", 
+      "+        self.assertEqual(six.text_type(expected_value),\n", 
+      "+                         six.text_type(actual_value))"
+    ], 
+    "Commit Mistakes": "https://github.com/openstack/higgins/commit/3e4aad8d082ac70005cd04995a078846105e90d9", 
+    "Keyword:": "correct", 
+    "Length": "2", 
+    "Commit Corrections:": "https://github.com/openstack/higgins/commit/19fa788961c91d1540d91b7ea5abec028d72a594", 
+    "Tags:": "argument", 
+    "Mistake:": "wrong order of arguments"
+  }, 
+  {
+    "Changes:": [
+      "+    return result\n", 
+      "-            res = BackChaining_Ask(inKB, g)\n", 
+      "+            res = BackChaining_Ask(inKB, q)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/tannerzigrang/CSCI-561/commit/c736ee8d69300f647f88a5cfb28bb3fc1aade6e7", 
+    "Keyword:": "syntax", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/tannerzigrang/CSCI-561/commit/c70ee9408ab0482c616911094106f5842b64d270", 
+    "Tags:": "misspell", 
+    "Mistake:": "used 'g' instead of 'q' in the for loop. 'q' was the one bein defined in the loop."
+  }, 
+  {
+    "Changes:": [
+      "-\t\tif add_noies == 0:\n", 
+      "+\t\tif add_noise == 0:\n"
+    ], 
+    "Commit Mistakes": "https://github.com/bmountjoy/LMTools/commit/90cdfd80fcded72aa1b172a755f78b90297b7d56", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/bmountjoy/LMTools/commit/73267d522b9ceee90c8a9b3ab29356bb333f75b7", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "misspelled a variable"
+  }, 
+  {
+    "Changes:": [
+      "-    subject = \"Medical Report as of \"+datetime.now().strftime(\"%d/%m/%Y %H:%M:%S\")\n", 
+      "+    \tsubject = \"Medical Report as of \"+datetime.now().strftime(\"%d/%m/%Y %H:%M:%S\")\n", 
+      "-    \tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-\t\tfound_file = True\n", 
+      "+    \t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+\t\t\tfound_file = True\n", 
+      "-\t\tfiles_to_remove.append(path+i)\n", 
+      "+\t\t\tfiles_to_remove.append(path+i)\n", 
+      "-    \tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+    \t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-\t\tfiles.append(i)\n", 
+      "-\t\tfiles_to_remove.append(path+i)\n", 
+      "+\t\t\tfiles.append(i)\n", 
+      "+\t\t\tfiles_to_remove.append(path+i)\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    body += \"Standing from a chair:\\n\"\n", 
+      "+\tbody += \"Standing from a chair:\\n\"\n", 
+      "-    path = rospack.get_path('ros_visual_wrapper')+'/logs/'\n", 
+      "-    for i in os.listdir(path):\n", 
+      "-        if os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-                found_file = True\n", 
+      "-        files.append(i)\n", 
+      "-        files_to_remove.append(path+i)\n", 
+      "+\tpath = rospack.get_path('ros_visual_wrapper')+'/logs/'\n", 
+      "+\tfor i in os.listdir(path):\n", 
+      "+\t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+\t\t\tfound_file = True\n", 
+      "+\t\t\tfiles.append(i)\n", 
+      "+\t\t\tfiles_to_remove.append(path+i)\n", 
+      "-        for f in files:\n", 
+      "-            with open(path+f, 'r') as myfile:\n", 
+      "-                    body += myfile.read()\n", 
+      "-\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+        \tfor f in files:\n", 
+      "+            \t\twith open(path+f, 'r') as myfile:\n", 
+      "+                    \t\tbody += myfile.read()\n", 
+      "-    msg.attach(MIMEText(body, 'plain'))\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    path = rospack.get_path('radio_node_manager')+'/logs/'\n", 
+      "-    for i in os.listdir(path):\n", 
+      "-        if os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-                found_file = True\n", 
+      "-        files.append(i)\n", 
+      "-        files_to_remove.append(path+i)\n", 
+      "+\tbody += \"Gym info:\\n\"\n", 
+      "+\n", 
+      "+\tpath = rospack.get_path('radio_node_manager')+'/logs/'\n", 
+      "+\tfor i in os.listdir(path):\n", 
+      "+\t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+\t\t\tfound_file = True\n", 
+      "+        \t\tfiles.append(i)\n", 
+      "+        \t\tfiles_to_remove.append(path+i)\n", 
+      "-        for f in files:\n", 
+      "-            with open(path+f, 'r') as myfile:\n", 
+      "-                    body += myfile.read()\n", 
+      "+        \tfor f in files:\n", 
+      "+            \t\twith open(path+f, 'r') as myfile:\n", 
+      "+                    \t\tbody += myfile.read()\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    msg.attach(MIMEText(body, 'plain'))\n", 
+      "+\tmsg.attach(MIMEText(body, 'plain'))\n"
+    ], 
+    "Commit Mistakes": "https://github.com/RADIO-PROJECT-EU/radio_node_manager/commit/194355857d73ed6c2b17cc5cfa49302d6e30de41", 
+    "Keyword:": "indentation", 
+    "Length": "33", 
+    "Commit Corrections:": "https://github.com/RADIO-PROJECT-EU/radio_node_manager/commit/c3cd470efa40c8a5d4ea6c439ad15eb4bcf47e37", 
+    "Tags:": "indentation", 
+    "Mistake:": "didnt indent properly for the loop"
+  }, 
+  {
+    "Changes:": [
+      "-import papercut.settings\n", 
+      "+import papercut.settings as settings\n"
+    ], 
+    "Commit Mistakes": "https://github.com/jgrassler/papercut/commit/10ca6f753792d62a1d76cc2566727aa54f5dc717", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/jgrassler/papercut/commit/f2cab7a953c6c8f778bf98ae8a7970641fdfb34e", 
+    "Tags:": "import", 
+    "Mistake:": "wrong import name"
+  }, 
+  {
+    "Changes:": [
+      "-                  if val>0 and idx>0:microVector.append({'key':idx,'value':val})\n", 
+      "+                  if val>0 and idx>0:inVector.append({'key':idx,'value':val})\n"
+    ], 
+    "Commit Mistakes": "https://github.com/cmsdaq/hltd/commit/61950a5f8934a5981a368a7377c42ede98db6121", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/cmsdaq/hltd/commit/d6bb35f405c77ba83bca0683a022ee987d0b0891", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "used wrong variable name"
+  }, 
+  {
+    "Changes:": [
+      "-from tardis.atomic import AtomData\n", 
+      "+from tardis.io.atomic import AtomData\n"
+    ], 
+    "Commit Mistakes": "https://github.com/mishinma/tardis/commit/f7dbd9d2585a0845628a90d4e86e6a3c8e84e782", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/mishinma/tardis/commit/6d2d660422abcbdfc3c8f36e7fb5a332fa2e8c55", 
+    "Tags:": "import", 
+    "Mistake:": "wrong import name"
+  }, 
+  {
+    "Changes:": [
+      "-        comp = zlib.compress(data) + b'x' * size\n", 
+      "+        comp = zlib.compress(data) + unused\n"
+    ], 
+    "Commit Mistakes": "https://github.com/zhangyangyu/zlib64/commit/54d6a5148bbdace36db811b93bb7e8f500734031", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/zhangyangyu/zlib64/commit/97f94017eb94c666dc7c361e8670dd61312d678f", 
+    "Tags:": "variable", 
+    "Mistake:": "didnt use variable properly"
+  }, 
+  {
+    "Changes:": [
+      "-    return st.mreg(-1)\n", 
+      "+    return st.merge(-1)"
+    ], 
+    "Commit Mistakes": "https://github.com/megies/obspy/commit/947226aeab06671213b29ae4356e79266239560f", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/megies/obspy/commit/2d8f639934eaa97408ea3ad5544248cdb736b19c", 
+    "Tags:": "misspell", 
+    "Mistake:": "misspelled merge when trying to return a value"
+  }, 
+  {
+    "Changes:": [
+      "-            'url': 'http://{}{}'.format(\n", 
+      "+            'url': 'https://{}{}'.format(\n"
+    ], 
+    "Commit Mistakes": "https://github.com/unicef/etools/commit/7d11612f8e0d8848449282bc0375f1497f0dce60", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/unicef/etools/commit/110ad7b7286b82245c323fa7ff60853ced594911", 
+    "Tags:": "misspell", 
+    "Mistake:": "misspelled https for the url"
+  }, 
+  {
+    "Changes:": [
+      "-print step, sess.run(cost, feed_dict={X: x_data, Y: y_data}), sess.run(W)\n", 
+      "+        print step, sess.run(cost, feed_dict={X: x_data, Y: y_data}), sess.run(W)"
+    ], 
+    "Commit Mistakes": "https://github.com/pereahave/tensorflow_examples/commit/10063e71c554ed8ccbead696a3793c513c7bf7a0", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/pereahave/tensorflow_examples/commit/49e11665ab48b234295298c4fc7c041663730128", 
+    "Tags:": "indentation", 
+    "Mistake:": "forgot to indent"
   }
 ]

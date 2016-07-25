@@ -42,11 +42,7 @@ cursor = db.commits.find()
 jsonfile = {}
 entries = []
 counter = 0
-<<<<<<< HEAD
-save_location = 14960
-=======
-save_location = 23320
->>>>>>> 46bc62e0fc9fb9769da14072c79b1bc047ddaf10
+save_location =  172158
 location = 0
 name = 'Hannah'
 message = None
