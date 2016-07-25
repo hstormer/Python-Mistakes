@@ -1352,19 +1352,51 @@
     "Mistake:": "wrote '&' instead of 'and' in an if statement"
   }, 
   {
-    "Commit Mistakes": "https://github.com/hainm/nglview/commit/d8192020029e28ce4f99d6f235603cca8a0ed5fa", 
+    "Commit Mistakes": "https://github.com/SureDoo/3_general_Deming/commit/3527a23ec188a01d07b7ba028f976cd4cc2baae1", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/hainm/nglview/commit/3ced5d7522dd6ef92fa5dadab4133b14bfbddd15", 
-    "Tags:": "brackets", 
-    "Mistake:": "forgot to add a bracket"
+    "Commit Corrections:": "https://github.com/SureDoo/3_general_Deming/commit/1524fc3f28ec4349c9dba368e905ba4a94cb568e", 
+    "Tags:": "loop", 
+    "Mistake:": "forgot to add in not in a loop"
   }, 
   {
-    "Commit Mistakes": "https://github.com/guzishiwo/tb_auth2.0/commit/7a2d2d8573ae5559855818bd1a1766cf0dbd5b0b", 
+    "Commit Mistakes": "https://github.com/pankajlal/prabandh/commit/7343590cf58ddb50ae50f5d51662dd6bc1427b3d", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/guzishiwo/tb_auth2.0/commit/2de3cc5e335c4b2719edecdce08804489ff80b06", 
-    "Tags:": "indentation", 
-    "Mistake:": "removed extra indentation"
+    "Commit Corrections:": "https://github.com/pankajlal/prabandh/commit/37b4ebfb127e6fe1a0c0ad92d059262619f263ed", 
+    "Tags:": "loop", 
+    "Mistake:": "forgot to add in brackets to seperate the things in the if loop"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/FAForever/api/commit/c98291114ab18176ae08dc66628ed7a897c21259", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/FAForever/api/commit/444e68bb4cfc12ea96c094558f53df698765007d", 
+    "Tags:": "argument", 
+    "Mistake:": "fixed the argument"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/UWMRO/CloudCamera/commit/10fa7373542fb297e3b739b10bec5a829083079a", 
+    "Keyword:": "typo", 
+    "Length": "6", 
+    "Commit Corrections:": "https://github.com/UWMRO/CloudCamera/commit/f2170a93023669d0456e69637539a99c0e552ad0", 
+    "Tags:": "function", 
+    "Mistake:": "typo in calling a function"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/russellthackston/comp-chem-util/commit/e625875d5d1b4e698796eb54b99c1089f691d715", 
+    "Keyword:": "typo", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/russellthackston/comp-chem-util/commit/7e147e7edf64047f07e37daf4e529848a5d0775d", 
+    "Tags:": "argument", 
+    "Mistake:": "typo in argument "
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/gt-ros-pkg/hrl-assistive/commit/1a6be657bfdd75778f4b6dfd2d35c7e70c7ba6b2", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/8269fad5580fdddb5e4c918d70c0d6707f92a7af", 
+    "Tags:": "function", 
+    "Mistake:": "typo in calling function"
   }
 ]
