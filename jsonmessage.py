@@ -104,13 +104,13 @@ for document in cursor:
 							length = raw_input("Type the length of changes: ")
 							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i}
 							entries.append(data)
-							with open('jsontest.json') as f:
+							with open('yes.json') as f:
 								entries = json.load(f)
 							print entries
 							txt.seek(0)
 							txt.truncate()
 							entries.append(data)
-							with open('jsontest.json', 'a+') as outfile:
+							with open('yes.json', 'a+') as outfile:
 								json.dump(entries, outfile, indent = 2)
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
@@ -122,12 +122,12 @@ for document in cursor:
 							why_not = raw_input("Why did you not include this file? ")
 							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Why Not:" : why_not, "Keyword:" : i, "Additions": additions, "Deletions:": deletions}
 							entries.append(data)
-							with open('jsonno.json') as f:
+							with open('no.json') as f:
 								entries = json.load(f)
 							txt2.seek(0)
 							txt2.truncate()
 							entries.append(data)
-							with open('jsonno.json', 'a+') as outfile:
+							with open('no.json', 'a+') as outfile:
 								json.dump(entries, outfile, indent = 2)
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
