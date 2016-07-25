@@ -1410,5 +1410,21 @@
     "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
     "Tags:": "misspellvariable", 
     "Mistake:": "spelled the variable wrong"
+  },
+  {
+    "Commit Mistakes": "https://github.com/wanglin1985/Steed/commit/a390e2ecdf5e63f3e9d53ef13d91c9ece3b8c843", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/wanglin1985/Steed/commit/b489d1aba13e8483b43b928d06144176f2fac070", 
+    "Tags:": "function", 
+    "Mistake:": "Wrote '\"Type\"' instead of 'type'"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/eshapard/AnkiHabitica/commit/8a5fe4ec1bf05681758466a0e0f606a1403abe7c", 
+    "Keyword:": "correct", 
+    "Length": "3", 
+    "Commit Corrections:": "https://github.com/eshapard/AnkiHabitica/commit/cb20596498ce3f541d2e51edff033d3a9d4eba2d", 
+    "Tags:": "brackets", 
+    "Mistake:": "Forgot a parentheses"
   }
 ]
