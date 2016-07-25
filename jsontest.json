@@ -1286,7 +1286,7 @@
     "Commit Mistake": "https://github.com/ansible/ansible-modules-extras/commit/f72b0288c0c7df77a31518c99bcd3651260e9c8e", 
     "Commit Corrections": "https://github.com/ansible/ansible-modules-extras/commit/3e8fa8ef829dde4f379d28751059f797751e5014", 
     "Tags": "indentation"
-  },
+  }, 
   {
     "Commit Mistakes": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06", 
     "Keyword:": "typo", 
@@ -1318,5 +1318,21 @@
     "Commit Corrections:": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
     "Tags:": "misspellvariable", 
     "Mistake:": "wrote - instead of _"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038", 
+    "Tags:": "indentation", 
+    "Mistake:": "deleted extra indentation"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/559150bbe85061bb297cec01a61f1b2ee135f88e", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/80c35c94d136fdfbc1c3a873b448daaabf97c2bc", 
+    "Tags:": "colon", 
+    "Mistake:": "forgot colon after while statement"
   }
 ]
