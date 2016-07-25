@@ -8,6 +8,33 @@ script, filename, secondfile = argv
 CommitMistakes = ''
 CommitCorrections = ''
 
+def housecleaning(l):
+	finalist = []
+	list1 = []
+	finish = []
+	templist = []
+	for line in l:
+		list1.append(line)
+	for i in list1:
+		templist.append(i)
+		if str(i) == '\n':
+			str1 = ''.join(templist)
+			templist = []
+			finalist.append(str1)
+	str1 = ''.join(templist)
+	finalist.append(str1)
+	finalist.pop(0)
+	list1 = []
+	for i in finalist:
+		list1 = []
+		for line in i:
+			list1.append(line)
+		templist = []
+		if str(list1[0])== '+' or str(list1[0]) == '-':
+			str1 = ''.join(list1)
+			finish.append(str1)
+	return finish
+
 client = MongoClient()
 db = client.github
 # This is a thing containing all the documents somehow
@@ -15,7 +42,7 @@ cursor = db.commits.find()
 jsonfile = {}
 entries = []
 counter = 0
-save_location = 6881
+save_location = 0
 location = 0
 name = 'Hannah'
 message = None
@@ -101,12 +128,12 @@ for document in cursor:
 							CommitCorrections = str(link)
 							mistake = raw_input("Type a message for Mistake: ")
 							tag = raw_input("Type the Tag: ")
+							patch = housecleaning(patch)
 							length = raw_input("Type the length of changes: ")
-							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i}
+							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i, "Changes:" : patch}
 							entries.append(data)
 							with open('yes.json') as f:
 								entries = json.load(f)
-							print entries
 							txt.seek(0)
 							txt.truncate()
 							entries.append(data)
@@ -119,8 +146,10 @@ for document in cursor:
 							txt2 = open(secondfile, 'a+')
 							CommitMistakes = str(parents)
 							CommitCorrections = str(link)
+							patch = housecleaning(patch)
+							print patch
 							why_not = raw_input("Why did you not include this file? ")
-							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Why Not:" : why_not, "Keyword:" : i, "Additions": additions, "Deletions:": deletions}
+							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Why Not:" : why_not, "Keyword:" : i, "Additions": additions, "Deletions:": deletions, "Changes:" : patch}
 							entries.append(data)
 							with open('no.json') as f:
 								entries = json.load(f)
