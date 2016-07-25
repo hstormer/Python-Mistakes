@@ -606,5 +606,17 @@
     "Commit Corrections:": "https://github.com/gregeastman/gift-exchange-central/commit/9a0c55da66718c074151d86cae3843045217db8f", 
     "Why Not:": "changed from True to False", 
     "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-end_of_feat = 397 \n", 
+      "+end_of_feat = 595 \n"
+    ], 
+    "Commit Mistakes": "https://github.com/KihongHeo/auto_feat_data/commit/df7ad5d8ee7a123d8d9c46c021b3a96cd617eba6", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/KihongHeo/auto_feat_data/commit/4e429ea8cc81b271f3882ec688d38896f7cac9ef", 
+    "Why Not:": "just changed number", 
+    "Additions": 1
   }
 ]

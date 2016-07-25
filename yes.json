@@ -1398,5 +1398,17 @@
     "Commit Corrections:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/8269fad5580fdddb5e4c918d70c0d6707f92a7af", 
     "Tags:": "function", 
     "Mistake:": "typo in calling function"
+  }, 
+  {
+    "Changes:": [
+      "-    student, _ = Student.objects.create_or_update(\n", 
+      "+    student, _ = Student.objects.update_or_create(\n"
+    ], 
+    "Commit Mistakes": "https://github.com/mitodl/sga-lti/commit/a7155655d3dacd3d61268d6cc58d057796169c20", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "spelled the variable wrong"
   }
 ]
