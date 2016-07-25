@@ -607,8 +607,6 @@
     "Why Not:": "changed from True to False", 
     "Additions": 1
   }, 
-<<<<<<< HEAD
-=======
   {
     "Changes:": [
       "-end_of_feat = 397 \n", 
@@ -618,9 +616,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Commit Corrections:": "https://github.com/KihongHeo/auto_feat_data/commit/4e429ea8cc81b271f3882ec688d38896f7cac9ef", 
-    "Why Not:": "just changed number", 
+    "Why Not:": "just changed number"
   },
->>>>>>> 46bc62e0fc9fb9769da14072c79b1bc047ddaf10
   {
     "Commit Mistakes": "https://github.com/mochar/corebin-api/commit/6491083fedb6da12187368e8e0baf14db30ed57b", 
     "Deletions:": 8, 
