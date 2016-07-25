@@ -56,7 +56,7 @@ for document in cursor:
 				# For each of the keywords we are looking for...
 				for i in things:
 					# If it is in the message...
-					if i in message:
+					if i in message or (int(additions) == 1 and int(deletions) ==1):
 						print "++++++++++++++++"
 						print patch
 						print "++++++++++++++++"
@@ -72,7 +72,11 @@ for document in cursor:
 						if counter == 3:
 							print "This is Eisha's."
 							name = 'Hannah'
-						print "\nkeyword found: " + i
+						if int(additions) == 1 and int(deletions) ==1:
+							print "\nKeyword found: Length"
+							i = "length"
+						else:
+							print "\nkeyword found: " + i
 						print "\nCommit Message: %s" % message
 						print "This is the link to the commit: \n%r" % link
 						print "This is the link to the previous commit: \n%r" % parents
