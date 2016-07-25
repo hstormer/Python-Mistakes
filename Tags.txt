@@ -13,7 +13,7 @@ escape = didn't add an escape quote within a string
 formatter = did not correctly use %
 comma = missing comma between multiple strings in a list or something else
 file = did not correctly write a file path, ex. HomeDownloads/Stuff  <---Forgot a /
-operator = did not use the right math operator
+operator = did not use the right operator
 loop = used loop incorrectly
 argument = did not use argument correctly when calling a function
 

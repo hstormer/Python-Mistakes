@@ -1342,5 +1342,13 @@
     "Commit Corrections:": "https://github.com/grow/grow/commit/a24a3185ab71ffbec82a1815810d335067e54c87", 
     "Tags:": "loop", 
     "Mistake:": "did not write a complete if statement"
+  }, 
+  {
+    "Commit Mistakes": "https://github.com/aodn/data-services/commit/e1bc214cd3696c19b163e1434713fbc2cce2344c", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/aodn/data-services/commit/7a736e8ef248272647fe7f1dbd51f708809e29c7", 
+    "Tags:": "operator", 
+    "Mistake:": "wrote '&' instead of 'and' in an if statement"
   }
 ]
