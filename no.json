@@ -2062,5 +2062,43 @@
     "Keyword:": "minor fixes", 
     "Why Not:": "added a bunch of new stuff", 
     "Additions": 27
+  }, 
+  {
+    "Changes:": [
+      "-            \"sideMenu\": render_sidemenu('admin-sidemenu', active_item=self.sidemenu_option, old_style=True)\n", 
+      "+            \"sideMenu\": render_sidemenu('admin-sidemenu', active_item=self.sidemenu_option, old_style=False)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/florv/indico/commit/2caf455907b19fb209b2999c7772b6e0d238838a", 
+    "Commit Corrections": "https://github.com/florv/indico/commit/07af04758c7b0c851af75daa6d94dd6b38351aed", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "Changed from True to False", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            \"sideMenu\": render_sidemenu('event-management-sidemenu', active_item=self.sidemenu_option, old_style=True,\n", 
+      "+            \"sideMenu\": render_sidemenu('event-management-sidemenu', active_item=self.sidemenu_option, old_style=False,\n"
+    ], 
+    "Commit Mistakes": "https://github.com/florv/indico/commit/115e46087d617a4689c6c65d70f494fa25c73494", 
+    "Commit Corrections": "https://github.com/florv/indico/commit/d4ffa2595e48aa9db5fa1c519f012d08a4d71dfc", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed from True to False", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-    \"\"\"Returns True if the project the node belongs to is public.\"\"\"\n", 
+      "+    \"\"\"Returns True iff the project the node belongs to is public.\"\"\"\n", 
+      "-    \"\"\"Returns True if the project is public.\"\"\"\n", 
+      "+    \"\"\"Returns True iff the project is public.\"\"\"\n"
+    ], 
+    "Commit Mistakes": "https://github.com/armadillica/pillar/commit/5355e4e359e4554a4590f5a2d3ca0f537dc02d02", 
+    "Commit Corrections": "https://github.com/armadillica/pillar/commit/4c73f98047c06f7d8cf326871aafbc91381e00f7", 
+    "Deletions:": 2, 
+    "Keyword:": "typo", 
+    "Why Not:": "the typo is in a string", 
+    "Additions": 2
   }
 ]
