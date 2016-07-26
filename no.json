@@ -1682,5 +1682,385 @@
     "Keyword:": "length", 
     "Why Not:": "renamed function", 
     "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-a = 1 + 1;\n", 
+      "+a = 1 + 2;\n"
+    ], 
+    "Commit Mistakes": "https://github.com/Hance-Zheng/big-news/commit/da15fae9dc77a6d87a302363089d352c770396a0", 
+    "Commit Corrections": "https://github.com/Hance-Zheng/big-news/commit/c7a5c3edcdffddc968a0ac59f18fcdd5ce0a17d1", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed the number only", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        print('\\nin _parse_file()')\n", 
+      "-                print('Out of _parse_average_csv()\\n')\n", 
+      "-                print('Out of _parse_level_0cs()\\n')\n", 
+      "-        print('\\nstart _parse_level_0cs()')\n"
+    ], 
+    "Commit Mistakes": "https://github.com/Alex-Ian-Hamilton/sunpy/commit/ae75928542a63f678a05dff55b6e8984c65c4602", 
+    "Commit Corrections": "https://github.com/Alex-Ian-Hamilton/sunpy/commit/72d290461e451684f0e27d2f8bd1e048010e421d", 
+    "Deletions:": 4, 
+    "Keyword:": "correct", 
+    "Why Not:": "only deleted a bunch of stuff", 
+    "Additions": 0
+  }, 
+  {
+    "Changes:": [
+      "-        if n%2000==0:\n", 
+      "+        if n%500==0:\n"
+    ], 
+    "Commit Mistakes": "https://github.com/zdsh/k_g/commit/bf9a03fd09490a76ed90d1c05c17a97d2adc6437", 
+    "Commit Corrections": "https://github.com/zdsh/k_g/commit/3320f3eac2d0e031e768c9d6560a694bf640f364", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "just changed number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            \"sideMenu\": render_sidemenu('admin-sidemenu', active_item=self.sidemenu_option, old_style=True)\n", 
+      "+            \"sideMenu\": render_sidemenu('admin-sidemenu', active_item=self.sidemenu_option, old_style=False)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/florv/indico/commit/c5f6b92e991578501638fc488a256cb7414f99fb", 
+    "Commit Corrections": "https://github.com/florv/indico/commit/a696775c67b24b5254a6466a0ffa455cd40193bc", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed from True to False", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            \"sideMenu\": render_sidemenu('event-management-sidemenu', active_item=self.sidemenu_option, old_style=True,\n", 
+      "+            \"sideMenu\": render_sidemenu('event-management-sidemenu', active_item=self.sidemenu_option, old_style=False,\n"
+    ], 
+    "Commit Mistakes": "https://github.com/florv/indico/commit/ec3a9ab293293f92556c955f852f04e2ba4b11e4", 
+    "Commit Corrections": "https://github.com/florv/indico/commit/109cd73782155a9b550610d77882a0caa6b29cf3", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed from True to False", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "+    form_id = \"create_share_snapshot\"\n", 
+      "-    success_url = reverse_lazy(\"horizon:project:shares:index\")\n", 
+      "+    modal_header = _(\"Create Share Snapshot\")\n", 
+      "+    modal_id = \"create_share_snapshot_modal\"\n", 
+      "+    submit_url = \"horizon:project:shares:create_snapshot\"\n", 
+      "+    success_url = reverse_lazy('horizon:project:shares:snapshots_tab')\n", 
+      "+        args = (context['share_id'],)\n", 
+      "+        context['submit_url'] = reverse(self.submit_url, args=args)\n", 
+      "-                context['form'].set_warning(_(\"This share is currently \"\n", 
+      "-                                              \"attached to an instance. \"\n", 
+      "-                                              \"In some cases, creating a \"\n", 
+      "-                                              \"snapshot from an attached \"\n", 
+      "-                                              \"share can result in a \"\n", 
+      "-                                              \"corrupted snapshot.\"))\n", 
+      "+                context['form'].set_warning(\n", 
+      "+                    _(\"This share is currently attached to an instance. \"\n", 
+      "+                      \"In some cases, creating a snapshot from an attached \"\n", 
+      "+                      \"share can result in a corrupted snapshot.\"))\n"
+    ], 
+    "Commit Mistakes": "https://github.com/openstack/manila-ui/commit/24792ddba44d74a417b21641045a813db3904878", 
+    "Commit Corrections": "https://github.com/openstack/manila-ui/commit/94c0fa04f381306aa4dc092c4d33ad667fd9f3e8", 
+    "Deletions:": 7, 
+    "Keyword:": "redundant", 
+    "Why Not:": "added new stuff annd deleted bunch of old stuff", 
+    "Additions": 11
+  }, 
+  {
+    "Changes:": [
+      "-    'version' : '0.3.8', \n", 
+      "+    'version' : '0.3.9', \n"
+    ], 
+    "Commit Mistakes": "https://github.com/wwqgtxx/wwqLyParse/commit/19e0f7f43f7860fd3fa75897b155d6f7d7174a63", 
+    "Commit Corrections": "https://github.com/wwqgtxx/wwqLyParse/commit/9e655a122a9c9f594a82b431464f4a4116d87652", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed numbers only", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-    def buy(self, sector, quantity):      # Example sector: 'AGA.OSE'\n", 
+      "+    def buy(self, sector, quantity):\n"
+    ], 
+    "Commit Mistakes": "https://github.com/Eivinmor/STCM/commit/041c0d960326531157a82d33d66c9dbaf6463561", 
+    "Commit Corrections": "https://github.com/Eivinmor/STCM/commit/1f83adbe8b9309a500198d9212db8b69051cffe3", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "just added a comment under hashtag", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            \"sideMenu\": render_sidemenu('event-management-sidemenu', active_item=self.sidemenu_option, old_style=True,\n", 
+      "+            \"sideMenu\": render_sidemenu('event-management-sidemenu', active_item=self.sidemenu_option, old_style=False,\n"
+    ], 
+    "Commit Mistakes": "https://github.com/florv/indico/commit/330c8289dc38816fbcdc79cbc2c64699ca3a3efb", 
+    "Commit Corrections": "https://github.com/florv/indico/commit/1e571aba64f30f3a244bbe244bbfa11e1613cf64", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed from True to False", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            assert connection[0]._nreads == 5\n", 
+      "+            assert connection[0]._nreads == 6\n"
+    ], 
+    "Commit Mistakes": "https://github.com/bernie-simon/pyasdf/commit/f9735b6f39d4f1d5f0f231f207f0dbc25c13bd3d", 
+    "Commit Corrections": "https://github.com/bernie-simon/pyasdf/commit/a765a684e9f476a2dfbbbefb57ed243aaab2803c", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-a = 1 + 2;\n", 
+      "+a = 2 + 2;\n"
+    ], 
+    "Commit Mistakes": "https://github.com/Hance-Zheng/big-news/commit/c7a5c3edcdffddc968a0ac59f18fcdd5ce0a17d1", 
+    "Commit Corrections": "https://github.com/Hance-Zheng/big-news/commit/17658127778bf8e6356e674170798a254a6a625c", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            \"sideMenu\": render_sidemenu('admin-sidemenu', active_item=self.sidemenu_option, old_style=True)\n", 
+      "+            \"sideMenu\": render_sidemenu('admin-sidemenu', active_item=self.sidemenu_option, old_style=False)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/florv/indico/commit/b1c7571ad1d6069f93411c6b417e54482713a79f", 
+    "Commit Corrections": "https://github.com/florv/indico/commit/0178c53cc45c95adcf7680d4358ce6d5440e3aed", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed True to False", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "+import os\n", 
+      "+import uuid\n", 
+      "-\tf = urllib2.urlopen('http://api.wunderground.com/api/%s/geolookup/conditions/q/MN/Minneapolis.json') % lineD\n", 
+      "+\tf = urllib2.urlopen('http://api.wunderground.com/api/'+ lineD +'/geolookup/conditions/q/MN/Minneapolis.json')\n", 
+      "-\t#condition = parsed_json['conditions']\n", 
+      "-\t#print condition\n", 
+      "-\t#return location, temp_f\n", 
+      "+def newLogIn():\n", 
+      "+\treturn 'New Log In'\n", 
+      "+\n", 
+      "+def Shutdown():\n", 
+      "+\ttimeStampUUID = uuid.uuid1() #gwmi win32_bios | fl SerialNumber\n", 
+      "+\treturn 'Shutting down:\\n' + str(timeStampUUID)\n", 
+      "+\n", 
+      "-\tfolder = voice.search('Weather')\n", 
+      "-\tif len(folder) == 1:\n", 
+      "+\tWeatherCommand = voice.search('Weather')\n", 
+      "+\tLoggedCommand = voice.search('Logged')\n", 
+      "+\tShutDownCommand = voice.search('Shutdown')\n", 
+      "+\tRebootCommand = voice.search('Reboot')\n", 
+      "+\tif len(WeatherCommand) == 1:\n", 
+      "-\t\tvoice.send_sms(sendTo,message)\n", 
+      "+\t\tvoice.send_sms(sendTo, message)\n", 
+      "+\t\tmarkAsRead()\n", 
+      "+\t\tdeleteReadMessages()\n", 
+      "+\t\tprint \"Weather SMS Sent\"\n", 
+      "+\telif len(LoggedCommand) == 1:\n", 
+      "+\t\tmessage = str(newLogIn())\n", 
+      "+\t\tvoice.send_sms(sendTo, message)\n", 
+      "+\telif len(ShutDownCommand) == 1:\n", 
+      "+\t\tmessage = str(Shutdown())\n", 
+      "+\t\tvoice.send_sms(sendTo, message)\n", 
+      "+\t\tmarkAsRead()\n", 
+      "+\t\tdeleteReadMessages()\n", 
+      "+\t\tos.system('shutdown -s -t 0 /f')\n", 
+      "-\t\tsleep(5)\n", 
+      "+\t\tsleep(5)\n", 
+      "+\n", 
+      "+computerLoggedInOrIsOn()\n"
+    ], 
+    "Commit Mistakes": "https://github.com/BiTinerary/PersonalAPI/commit/c79a721e3ab551b52de07d3cf764b7ec86155c9f", 
+    "Commit Corrections": "https://github.com/BiTinerary/PersonalAPI/commit/e82587da1bfb946066a22ad490e211f54d06fff0", 
+    "Deletions:": 8, 
+    "Keyword:": "redundant", 
+    "Why Not:": "added and deleted bunch of stuff", 
+    "Additions": 31
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.1.0',\n", 
+      "+    version='0.1.1',\n"
+    ], 
+    "Commit Mistakes": "https://github.com/illumicare/lambda-setuptools/commit/9d0fb6218a1cbc2abe087b2b6a8f5429373dc75e", 
+    "Commit Corrections": "https://github.com/illumicare/lambda-setuptools/commit/1ce442545047301f2e11429a963f09382bdd2e9e", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-    #search first in ravenna_geocode_helper.csv\n", 
+      "+\n", 
+      "+    #search first in well_known_locations.csv\n", 
+      "+    fields = ['location', 'exclusion', 'Address']\n", 
+      "+    reader = csv.DictReader(file('./coders/well_known_locations.csv'),fields,delimiter=';')\n", 
+      "+    next(reader) #skip header\n", 
+      "+    exact_address = ''\n", 
+      "+    for idx, row in enumerate(reader):\n", 
+      "+\n", 
+      "+      if row['location'].lower() in loc.lower() and  ( row['exclusion'].strip() == ''  or (row['exclusion'].strip() <> '' and (row['exclusion'].strip().lower() + ' ' ) not in loc.lower())):\n", 
+      "+        exact_address = row['Address']\n", 
+      "+        sys.stderr.write('WELL KNOWN LOCATIONS-Resp : Trovata la via ESATTA! %s' % exact_address)\n", 
+      "+        break\n", 
+      "+    if exact_address.strip() <> '' :\n", 
+      "+      return {\n", 
+      "+          #'address': '%s %s, %s' % (number, street, city),\n", 
+      "+          'address' : '%s, %s' % (exact_address, city),  \n", 
+      "+          'source': loc,\n", 
+      "+          'type': 'street_address'\n", 
+      "+        }\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+    #search second in ravenna_geocode_helper.csv\n"
+    ], 
+    "Commit Mistakes": "https://github.com/eccoilmoro/oldnyc/commit/4a9139322005d0cd3a96ccfa44bd66267f1636c3", 
+    "Commit Corrections": "https://github.com/eccoilmoro/oldnyc/commit/8667d358f853ec3da9795083b75ba4b7fa6b5714", 
+    "Deletions:": 1, 
+    "Keyword:": "minor changes", 
+    "Why Not:": "added bunch of new stuff", 
+    "Additions": 23
+  }, 
+  {
+    "Changes:": [
+      "-    open_ok = False\n", 
+      "-    caller_finished = False\n", 
+      "-        caller_finished = True\n", 
+      "-        if not open_ok:\n", 
+      "-            raise QtOSError(f, msg=\"Open failed!\")\n", 
+      "-        elif not caller_finished:\n", 
+      "-            raise\n", 
+      "-        else:\n", 
+      "-            raise QtOSError(f, msg=\"Flush failed!\")\n", 
+      "+        raise\n"
+    ], 
+    "Commit Mistakes": "https://github.com/flv0/qutebrowser/commit/a33978ee89b0384e5a35e81471dc7827a658a58b", 
+    "Commit Corrections": "https://github.com/flv0/qutebrowser/commit/217b912f3c3ed559abdb67c3187ab5c789679ce0", 
+    "Deletions:": 9, 
+    "Keyword:": "correct", 
+    "Why Not:": "deleted bunch of stuff", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.1.13'\n", 
+      "+__version__ = '0.1.14'\n"
+    ], 
+    "Commit Mistakes": "https://github.com/NeuroML/pyNeuroML/commit/489ae90d049faea46ebebcaeed3f99607258ae30", 
+    "Commit Corrections": "https://github.com/NeuroML/pyNeuroML/commit/9a458cbae1c2883359223f0c00030585dd6848a3", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-version = '2.0.8-beta'\n", 
+      "+version = '2.1.0-beta'\n"
+    ], 
+    "Commit Mistakes": "https://github.com/tomakehurst/wiremock/commit/1462ff3b5847f872d7d247ec0f22b378f7e2719c", 
+    "Commit Corrections": "https://github.com/tomakehurst/wiremock/commit/1ef9481dbceb43bdbf50b14608fe164f727f2ffe", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed number of the version\u001b[D\u001b", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-ISRELEASED = True\n", 
+      "+ISRELEASED = False\n"
+    ], 
+    "Commit Mistakes": "https://github.com/zerothi/sisl/commit/b44d8820075cfa26bee6a69df1bc18505959c3c0", 
+    "Commit Corrections": "https://github.com/zerothi/sisl/commit/5f8c5f9a81c2da9ec5534b4a72974a3605eba48e", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed from True to False", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-                    for x in was_reward[0]:\n", 
+      "-                        if x != \"0\":  # iterate all of the last 50 blocks and see if there is a reward in there\n", 
+      "-                            reward = 0  # there has been a reward already, don't reward anymore\n", 
+      "-                            app_log.info(\"Mempool: Reward status: Mined for this segment already (\" + str(x) + \") tokens\")\n", 
+      "-                            time.sleep(10)\n", 
+      "-\n", 
+      "-                        else:  # no reward in the past x blocks\n", 
+      "-                            c.execute(\"SELECT txhash FROM transactions ORDER BY block_height DESC LIMIT 50;\")  # select previous x transactions to start mining\n", 
+      "-                            db_txhash_list = c.fetchall()\n", 
+      "-                            app_log.info(\"Mempool: Reward status: Not mined\")\n", 
+      "-\n", 
+      "-                            reward = 0\n", 
+      "-                            diff = 3\n", 
+      "-                            if db_address[0:diff] == txhash[0:diff]: #current block\n", 
+      "-                                if float(time_now) > float(db_timestamp):\n", 
+      "-                                    reward = 25\n", 
+      "-                                else:\n", 
+      "-                                    app_log.info(\"Mempool: Future mining not allowed\")\n", 
+      "-\n", 
+      "-                            for x in db_txhash_list: #previous x blocks\n", 
+      "-                                if db_address[0:diff] == x[0][0:diff]:\n", 
+      "-                                    if float(time_now) > float(db_timestamp):\n", 
+      "-                                        reward = 25\n", 
+      "-                                        app_log.info(\"Mempool: Heureka, reward mined: \" + str(reward))\n", 
+      "-                                    else:\n", 
+      "-                                        app_log.info(\"Mempool: Future mining not allowed\")\n", 
+      "-\n", 
+      "-                            if reward == 0:\n", 
+      "-                                app_log.info(\"Mempool: Mining not successful\")\n", 
+      "-                        # decide reward\n", 
+      "+                    for x in was_reward:\n", 
+      "+                        #print x[0] #debug\n", 
+      "+                        if x[0] != \"0\":\n", 
+      "+                            reward_possible = 0\n", 
+      "+\n", 
+      "+                    reward = 0 #default\n", 
+      "+\n", 
+      "+                    if reward_possible == 0:\n", 
+      "+                        app_log.info(\"Mempool: Reward status: Mined for this segment already (\" + str(x) + \") tokens\")\n", 
+      "+\n", 
+      "+                    else:  # no reward in the past x blocks\n", 
+      "+                        c.execute(\"SELECT txhash FROM transactions ORDER BY block_height DESC LIMIT 50;\")  # select previous x transactions to start mining\n", 
+      "+                        db_txhash_list = c.fetchall()\n", 
+      "+                        app_log.info(\"Mempool: Reward status: Not mined\")\n", 
+      "+\n", 
+      "+                        diff = 3\n", 
+      "+\n", 
+      "+                        if db_address[0:diff] == x[0][0:diff]:\n", 
+      "+                            if float(time_now) > float(db_timestamp):\n", 
+      "+                                reward = 25\n", 
+      "+                                app_log.info(\"Mempool: Heureka, reward mined: \" + str(reward))\n", 
+      "+                            else:\n", 
+      "+                                app_log.info(\"Mempool: Future mining not allowed\")\n", 
+      "+\n", 
+      "+                        if reward == 0:\n", 
+      "+                            app_log.info(\"Mempool: Mining not successful\")\n", 
+      "+                    # decide reward\n"
+    ], 
+    "Commit Mistakes": "https://github.com/hclivess/Bismuth/commit/c7e1c6d2e6debe195018f496e7bfca97db2ade50", 
+    "Commit Corrections": "https://github.com/hclivess/Bismuth/commit/865e4c8521ce1f2eafd85cc630b4272e63c776e1", 
+    "Deletions:": 30, 
+    "Keyword:": "minor fixes", 
+    "Why Not:": "added a bunch of new stuff", 
+    "Additions": 27
   }
 ]
