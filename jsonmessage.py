@@ -17,7 +17,6 @@ def housecleaning(l):
 		list1.append(line)
 	for i in list1:
 		templist.append(i)
-		print "%r" % i
 		if i.encode('utf8') == '\n':
 			str1 = ''.join(templist)
 			templist = []
