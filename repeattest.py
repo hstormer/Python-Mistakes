@@ -8,7 +8,7 @@ script, open_file = argv
 client = MongoClient()
 db = client.github
 
-with open('Hello.json') as f:
+with open('temp.json') as f:
 	entries = json.load(f)
 first_list = []
 new_list = []
@@ -25,14 +25,14 @@ for i in entries:
 		if link in k.get('Commit Corrections'):
 			print "We found a duplicate"
 			print k.get('Commit Corrections')
+			new_list.remove(k)
 			break
 		else:
 			new_list.append(i)
 			break
-print first_list
-print new_list
-print len(first_list)
-print len(new_list)
+
+print len(first_list) + 1  #all entries
+print len(new_list) # entries without duplicates
 
 #f = open(finalyes.json, 'r+') 
 #text = f.read()
