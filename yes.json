@@ -1753,5 +1753,29 @@
     "Length": "1", 
     "Tags:": "self", 
     "Mistake:": "forgot to add self before calling function"
+  }, 
+  {
+    "Changes:": [
+      "-            for addr, funcaddr in added_func:\n", 
+      "+            for addr, funcaddr in added_funcs:\n"
+    ], 
+    "Commit Mistakes": "https://github.com/Junraa/miasm/commit/e562cf1940a0627619f6b54b81e295eb3626b197", 
+    "Commit Corrections": "https://github.com/Junraa/miasm/commit/6f4fada73aa4b7d1c8c54c46061129323b42aacc", 
+    "Tags": "misspell", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Mistake:": "argument is misspelled"
+  }, 
+  {
+    "Changes:": [
+      "-            db_session.commit()\n", 
+      "+        db_session.commit()"
+    ], 
+    "Commit Mistakes": "https://github.com/kazemnejad/gosearch/commit/1731d321598173bddbf7c8f1b4ecf9eb6f1e86a7", 
+    "Commit Corrections": "https://github.com/kazemnejad/gosearch/commit/e298fd9454ae7d08fbb2c323b13f3e4c1c1794de", 
+    "Tags": "indentation", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Mistake:": "extra indentation"
   }
 ]
