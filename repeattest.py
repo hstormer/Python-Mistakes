@@ -22,16 +22,22 @@ for i in entries:
 	first_list.append(i)
 	for k in new_list:
 		#print k.get('Commit Corrections')
-		if link in k.get('Commit Corrections'):
+		lonk = k.get('Commit Corrections')
+		if link in lonk:
+			print "We found a duplicate"
+			print k.get('Commit Corrections')
+			break
+		elif lonk in link:
 			print "We found a duplicate"
 			print k.get('Commit Corrections')
 			break
 		else:
 			new_list.append(i)
+			print "Adding to the list"
 			break
 print first_list
 print new_list
-print len(first_list)
+print len(first_list) + 1
 print len(new_list)
 
 #f = open(finalyes.json, 'r+') 
