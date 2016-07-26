@@ -1562,5 +1562,125 @@
     "Commit Corrections:": "https://github.com/TUT-ARG/sed_eval/commit/d42c48e04ee873abfdf42af8a42f009db14ea566", 
     "Why Not:": "changed number", 
     "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-    version='1.22.dev0',\n", 
+      "+    version='1.22',\n"
+    ], 
+    "Commit Mistakes": "https://github.com/novafloss/jenkins-github-poller/commit/f6641151f067e2d43964d57f43470273b6cac9e1", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/novafloss/jenkins-github-poller/commit/db290078d2a1ed003096c5f612e15e6c7deafd04", 
+    "Why Not:": "version number change", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-VERSION             = '0.2'\n", 
+      "+VERSION             = '0.2.1'\n"
+    ], 
+    "Commit Mistakes": "https://github.com/mscross/pysplit/commit/4fa9975ba8b481330a7d68adeb16e4b686228772", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/mscross/pysplit/commit/d0c66b1034e6b7a1cd9add8dd4335a907db9f56b", 
+    "Why Not:": "version number change", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-'PhytoplankonBiovolume',\n", 
+      "+# 'PhytoplankonBiovolume',\n"
+    ], 
+    "Commit Mistakes": "https://github.com/goelakash/retriever/commit/8436cb662d8732daf215b058c490168134a2745f", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/goelakash/retriever/commit/3744773c0fff361bd43bd515eaa6ab25ec31259b", 
+    "Why Not:": "turned the code into a comment", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '2.14.1'\n", 
+      "+__version__ = '2.14.6'"
+    ], 
+    "Commit Mistakes": "https://github.com/IS-ENES-Data/esg-publisher/commit/673a8935361364f1a450e95609e11f2c32a4379d", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/IS-ENES-Data/esg-publisher/commit/89a8e794c536690e53f5a8ab8fd46f739a937703", 
+    "Why Not:": "change version number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = \"__version__ = '0.1.32'\"\n", 
+      "+__version__ = \"__version__ = '0.1.33'\"\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dm-wyncode/linode-kucun/commit/48e865470e67535b3b670c2fa23ed10fded03cc5", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/dm-wyncode/linode-kucun/commit/ad0ae878b93c3641f2b9645fabd69ef96cae321c", 
+    "Why Not:": "changed version number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        oq.oanda2.close_position(maccid, i)\n", 
+      "+        #oq.oanda2.close_position(maccid, i)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/qorelogic/ml2/commit/deda49487bb430084f211f9f0bff699b0a84d693", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/qorelogic/ml2/commit/157f288a89c3853187e7b7a8848e67466b287743", 
+    "Why Not:": "turned code into a comment", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.1.0',\n", 
+      "+    version='0.1.1',\n"
+    ], 
+    "Commit Mistakes": "https://github.com/tango-cs/itango/commit/4f7a99a6dfe07003305bcb8081421c45396a8334", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/tango-cs/itango/commit/7b523a656c270fe55d218304c400d814dc0b502b", 
+    "Why Not:": "changed version number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = \"__version__ = '0.1.33'\"\n", 
+      "+__version__ = \"__version__ = '0.1.34'\"\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dm-wyncode/linode-kucun/commit/fbf96158027af0ab332856df44a813ada1ee2fac", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/dm-wyncode/linode-kucun/commit/6a36657ce61b6ad7c3ecc8b1c278c12067f8716d", 
+    "Why Not:": "changed version number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = \"__version__ = '0.1.34'\"\n", 
+      "+__version__ = \"__version__ = '0.1.35'\"\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dm-wyncode/linode-kucun/commit/0b8782c863502262978edc5dbc07526c457fd4c7", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/dm-wyncode/linode-kucun/commit/f3e09ebdb6b574699cb5f2a9e95bf5e28d42f673", 
+    "Why Not:": "changed version number", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-    def finished(self):\n", 
+      "+    def progressEnd(self):\n"
+    ], 
+    "Commit Mistakes": "https://github.com/ilius/pyglossary/commit/3fc34b9c83f610c04a5fafa3440e288a5c0fb0ad", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Corrections:": "https://github.com/ilius/pyglossary/commit/bb83e9116dbbd0bc7478dc5ac59e75c30166ff59", 
+    "Why Not:": "renamed function", 
+    "Additions": 1
   }
 ]
