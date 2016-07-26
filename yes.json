@@ -1291,7 +1291,7 @@
     "Commit Mistakes": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06", 
     "Keyword:": "typo", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10", 
+    "Commit Corrections": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10", 
     "Tags:": "misspellvariable", 
     "Mistake:": "spelling"
   }, 
@@ -1299,7 +1299,7 @@
     "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188", 
     "Keyword:": "typo", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6", 
+    "Commit Corrections": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6", 
     "Tags:": "misspellvariable", 
     "Mistake:": "frogot the _ in move.counter_clockwise"
   }, 
@@ -1307,7 +1307,7 @@
     "Commit Mistakes": "https://github.com/jeff1evesque/machine-learning/commit/cc48ef134302bf28015670aed958289dad680094", 
     "Keyword:": "indentation", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef", 
+    "Commit Corrections": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef", 
     "Tags:": "indentation", 
     "Mistake:": "forgot indentation after else statement"
   }, 
@@ -1315,7 +1315,7 @@
     "Commit Mistakes": "https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7", 
     "Keyword:": "typo", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
+    "Commit Corrections": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
     "Tags:": "misspellvariable", 
     "Mistake:": "wrote - instead of _"
   }, 
@@ -1323,7 +1323,7 @@
     "Commit Mistakes": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038", 
+    "Commit Corrections": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038", 
     "Tags:": "indentation", 
     "Mistake:": "deleted extra indentation"
   }, 
@@ -1331,7 +1331,7 @@
     "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/559150bbe85061bb297cec01a61f1b2ee135f88e", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/80c35c94d136fdfbc1c3a873b448daaabf97c2bc", 
+    "Commit Corrections": "https://github.com/andrewbackes/autonoma/commit/80c35c94d136fdfbc1c3a873b448daaabf97c2bc", 
     "Tags:": "colon", 
     "Mistake:": "forgot colon after while statement"
   }, 
@@ -1339,7 +1339,7 @@
     "Commit Mistakes": "https://github.com/grow/grow/commit/5d903606e117755ab2b5ba686f179d00c542eb04", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/grow/grow/commit/a24a3185ab71ffbec82a1815810d335067e54c87", 
+    "Commit Corrections": "https://github.com/grow/grow/commit/a24a3185ab71ffbec82a1815810d335067e54c87", 
     "Tags:": "loop", 
     "Mistake:": "did not write a complete if statement"
   }, 
@@ -1347,7 +1347,7 @@
     "Commit Mistakes": "https://github.com/aodn/data-services/commit/e1bc214cd3696c19b163e1434713fbc2cce2344c", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/aodn/data-services/commit/7a736e8ef248272647fe7f1dbd51f708809e29c7", 
+    "Commit Corrections": "https://github.com/aodn/data-services/commit/7a736e8ef248272647fe7f1dbd51f708809e29c7", 
     "Tags:": "operator", 
     "Mistake:": "wrote '&' instead of 'and' in an if statement"
   }, 
@@ -1355,7 +1355,7 @@
     "Commit Mistakes": "https://github.com/SureDoo/3_general_Deming/commit/3527a23ec188a01d07b7ba028f976cd4cc2baae1", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/SureDoo/3_general_Deming/commit/1524fc3f28ec4349c9dba368e905ba4a94cb568e", 
+    "Commit Corrections": "https://github.com/SureDoo/3_general_Deming/commit/1524fc3f28ec4349c9dba368e905ba4a94cb568e", 
     "Tags:": "loop", 
     "Mistake:": "forgot to add in not in a loop"
   }, 
@@ -1363,7 +1363,7 @@
     "Commit Mistakes": "https://github.com/pankajlal/prabandh/commit/7343590cf58ddb50ae50f5d51662dd6bc1427b3d", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/pankajlal/prabandh/commit/37b4ebfb127e6fe1a0c0ad92d059262619f263ed", 
+    "Commit Corrections": "https://github.com/pankajlal/prabandh/commit/37b4ebfb127e6fe1a0c0ad92d059262619f263ed", 
     "Tags:": "loop", 
     "Mistake:": "forgot to add in brackets to seperate the things in the if loop"
   }, 
@@ -1371,7 +1371,7 @@
     "Commit Mistakes": "https://github.com/FAForever/api/commit/c98291114ab18176ae08dc66628ed7a897c21259", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/FAForever/api/commit/444e68bb4cfc12ea96c094558f53df698765007d", 
+    "Commit Corrections": "https://github.com/FAForever/api/commit/444e68bb4cfc12ea96c094558f53df698765007d", 
     "Tags:": "argument", 
     "Mistake:": "fixed the argument"
   }, 
@@ -1379,7 +1379,7 @@
     "Commit Mistakes": "https://github.com/UWMRO/CloudCamera/commit/10fa7373542fb297e3b739b10bec5a829083079a", 
     "Keyword:": "typo", 
     "Length": "6", 
-    "Commit Corrections:": "https://github.com/UWMRO/CloudCamera/commit/f2170a93023669d0456e69637539a99c0e552ad0", 
+    "Commit Corrections": "https://github.com/UWMRO/CloudCamera/commit/f2170a93023669d0456e69637539a99c0e552ad0", 
     "Tags:": "function", 
     "Mistake:": "typo in calling a function"
   }, 
@@ -1387,7 +1387,7 @@
     "Commit Mistakes": "https://github.com/russellthackston/comp-chem-util/commit/e625875d5d1b4e698796eb54b99c1089f691d715", 
     "Keyword:": "typo", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/russellthackston/comp-chem-util/commit/7e147e7edf64047f07e37daf4e529848a5d0775d", 
+    "Commit Corrections": "https://github.com/russellthackston/comp-chem-util/commit/7e147e7edf64047f07e37daf4e529848a5d0775d", 
     "Tags:": "argument", 
     "Mistake:": "typo in argument "
   }, 
@@ -1395,7 +1395,7 @@
     "Commit Mistakes": "https://github.com/gt-ros-pkg/hrl-assistive/commit/1a6be657bfdd75778f4b6dfd2d35c7e70c7ba6b2", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/8269fad5580fdddb5e4c918d70c0d6707f92a7af", 
+    "Commit Corrections": "https://github.com/gt-ros-pkg/hrl-assistive/commit/8269fad5580fdddb5e4c918d70c0d6707f92a7af", 
     "Tags:": "function", 
     "Mistake:": "typo in calling function"
   }, 
@@ -1407,7 +1407,7 @@
     "Commit Mistakes": "https://github.com/mitodl/sga-lti/commit/a7155655d3dacd3d61268d6cc58d057796169c20", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
+    "Commit Corrections": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
     "Tags:": "misspellvariable", 
     "Mistake:": "spelled the variable wrong"
   }, 
@@ -1415,7 +1415,7 @@
     "Commit Mistakes": "https://github.com/wanglin1985/Steed/commit/a390e2ecdf5e63f3e9d53ef13d91c9ece3b8c843", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/wanglin1985/Steed/commit/b489d1aba13e8483b43b928d06144176f2fac070", 
+    "Commit Corrections": "https://github.com/wanglin1985/Steed/commit/b489d1aba13e8483b43b928d06144176f2fac070", 
     "Tags:": "function", 
     "Mistake:": "Wrote '\"Type\"' instead of 'type'"
   }, 
@@ -1423,7 +1423,7 @@
     "Commit Mistakes": "https://github.com/eshapard/AnkiHabitica/commit/8a5fe4ec1bf05681758466a0e0f606a1403abe7c", 
     "Keyword:": "correct", 
     "Length": "3", 
-    "Commit Corrections:": "https://github.com/eshapard/AnkiHabitica/commit/cb20596498ce3f541d2e51edff033d3a9d4eba2d", 
+    "Commit Corrections": "https://github.com/eshapard/AnkiHabitica/commit/cb20596498ce3f541d2e51edff033d3a9d4eba2d", 
     "Tags:": "brackets", 
     "Mistake:": "Forgot a parentheses"
   }, 
@@ -1435,7 +1435,7 @@
     "Commit Mistakes": "https://github.com/moagm316/FSND_Item_Catalog/commit/cef79e675b68ecbae421c13f25ee052612512b3d", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/moagm316/FSND_Item_Catalog/commit/947ccda23ee5bedf761a3014286bdd1d87730c6f", 
+    "Commit Corrections": "https://github.com/moagm316/FSND_Item_Catalog/commit/947ccda23ee5bedf761a3014286bdd1d87730c6f", 
     "Tags:": "extra", 
     "Mistake:": "added unnecessary comma"
   }, 
@@ -1457,7 +1457,7 @@
     "Commit Mistakes": "https://github.com/openstack/higgins/commit/3e4aad8d082ac70005cd04995a078846105e90d9", 
     "Keyword:": "correct", 
     "Length": "2", 
-    "Commit Corrections:": "https://github.com/openstack/higgins/commit/19fa788961c91d1540d91b7ea5abec028d72a594", 
+    "Commit Corrections": "https://github.com/openstack/higgins/commit/19fa788961c91d1540d91b7ea5abec028d72a594", 
     "Tags:": "argument", 
     "Mistake:": "wrong order of arguments"
   }, 
@@ -1470,7 +1470,7 @@
     "Commit Mistakes": "https://github.com/tannerzigrang/CSCI-561/commit/c736ee8d69300f647f88a5cfb28bb3fc1aade6e7", 
     "Keyword:": "syntax", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/tannerzigrang/CSCI-561/commit/c70ee9408ab0482c616911094106f5842b64d270", 
+    "Commit Corrections": "https://github.com/tannerzigrang/CSCI-561/commit/c70ee9408ab0482c616911094106f5842b64d270", 
     "Tags:": "misspell", 
     "Mistake:": "used 'g' instead of 'q' in the for loop. 'q' was the one bein defined in the loop."
   }, 
@@ -1482,7 +1482,7 @@
     "Commit Mistakes": "https://github.com/bmountjoy/LMTools/commit/90cdfd80fcded72aa1b172a755f78b90297b7d56", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/bmountjoy/LMTools/commit/73267d522b9ceee90c8a9b3ab29356bb333f75b7", 
+    "Commit Corrections": "https://github.com/bmountjoy/LMTools/commit/73267d522b9ceee90c8a9b3ab29356bb333f75b7", 
     "Tags:": "misspellvariable", 
     "Mistake:": "misspelled a variable"
   }, 
@@ -1558,7 +1558,7 @@
     "Commit Mistakes": "https://github.com/RADIO-PROJECT-EU/radio_node_manager/commit/194355857d73ed6c2b17cc5cfa49302d6e30de41", 
     "Keyword:": "indentation", 
     "Length": "33", 
-    "Commit Corrections:": "https://github.com/RADIO-PROJECT-EU/radio_node_manager/commit/c3cd470efa40c8a5d4ea6c439ad15eb4bcf47e37", 
+    "Commit Corrections": "https://github.com/RADIO-PROJECT-EU/radio_node_manager/commit/c3cd470efa40c8a5d4ea6c439ad15eb4bcf47e37", 
     "Tags:": "indentation", 
     "Mistake:": "didnt indent properly for the loop"
   }, 
@@ -1570,7 +1570,7 @@
     "Commit Mistakes": "https://github.com/jgrassler/papercut/commit/10ca6f753792d62a1d76cc2566727aa54f5dc717", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/jgrassler/papercut/commit/f2cab7a953c6c8f778bf98ae8a7970641fdfb34e", 
+    "Commit Corrections": "https://github.com/jgrassler/papercut/commit/f2cab7a953c6c8f778bf98ae8a7970641fdfb34e", 
     "Tags:": "import", 
     "Mistake:": "wrong import name"
   }, 
@@ -1582,7 +1582,7 @@
     "Commit Mistakes": "https://github.com/cmsdaq/hltd/commit/61950a5f8934a5981a368a7377c42ede98db6121", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/cmsdaq/hltd/commit/d6bb35f405c77ba83bca0683a022ee987d0b0891", 
+    "Commit Corrections": "https://github.com/cmsdaq/hltd/commit/d6bb35f405c77ba83bca0683a022ee987d0b0891", 
     "Tags:": "misspellvariable", 
     "Mistake:": "used wrong variable name"
   }, 
@@ -1594,7 +1594,7 @@
     "Commit Mistakes": "https://github.com/mishinma/tardis/commit/f7dbd9d2585a0845628a90d4e86e6a3c8e84e782", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/mishinma/tardis/commit/6d2d660422abcbdfc3c8f36e7fb5a332fa2e8c55", 
+    "Commit Corrections": "https://github.com/mishinma/tardis/commit/6d2d660422abcbdfc3c8f36e7fb5a332fa2e8c55", 
     "Tags:": "import", 
     "Mistake:": "wrong import name"
   }, 
@@ -1606,7 +1606,7 @@
     "Commit Mistakes": "https://github.com/zhangyangyu/zlib64/commit/54d6a5148bbdace36db811b93bb7e8f500734031", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/zhangyangyu/zlib64/commit/97f94017eb94c666dc7c361e8670dd61312d678f", 
+    "Commit Corrections": "https://github.com/zhangyangyu/zlib64/commit/97f94017eb94c666dc7c361e8670dd61312d678f", 
     "Tags:": "variable", 
     "Mistake:": "didnt use variable properly"
   }, 
@@ -1618,7 +1618,7 @@
     "Commit Mistakes": "https://github.com/megies/obspy/commit/947226aeab06671213b29ae4356e79266239560f", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/megies/obspy/commit/2d8f639934eaa97408ea3ad5544248cdb736b19c", 
+    "Commit Corrections": "https://github.com/megies/obspy/commit/2d8f639934eaa97408ea3ad5544248cdb736b19c", 
     "Tags:": "misspell", 
     "Mistake:": "misspelled merge when trying to return a value"
   }, 
@@ -1630,7 +1630,7 @@
     "Commit Mistakes": "https://github.com/unicef/etools/commit/7d11612f8e0d8848449282bc0375f1497f0dce60", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/unicef/etools/commit/110ad7b7286b82245c323fa7ff60853ced594911", 
+    "Commit Corrections": "https://github.com/unicef/etools/commit/110ad7b7286b82245c323fa7ff60853ced594911", 
     "Tags:": "misspell", 
     "Mistake:": "misspelled https for the url"
   }, 
@@ -1642,7 +1642,7 @@
     "Commit Mistakes": "https://github.com/pereahave/tensorflow_examples/commit/10063e71c554ed8ccbead696a3793c513c7bf7a0", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/pereahave/tensorflow_examples/commit/49e11665ab48b234295298c4fc7c041663730128", 
+    "Commit Corrections": "https://github.com/pereahave/tensorflow_examples/commit/49e11665ab48b234295298c4fc7c041663730128", 
     "Tags:": "indentation", 
     "Mistake:": "forgot to indent"
   }, 
@@ -1664,7 +1664,7 @@
     "Commit Mistakes": "https://github.com/KQuadros/gstudio/commit/36bebb07eb2383e32ef661d6328e50041bbe4748", 
     "Keyword:": "indentation", 
     "Length": "6", 
-    "Commit Corrections:": "https://github.com/KQuadros/gstudio/commit/9b310892e4458031866a077ccf401d5cf0593bfb", 
+    "Commit Corrections": "https://github.com/KQuadros/gstudio/commit/9b310892e4458031866a077ccf401d5cf0593bfb", 
     "Tags:": "indentation", 
     "Mistake:": "incorrect indent"
   }, 
@@ -1678,7 +1678,7 @@
     "Commit Mistakes": "https://github.com/rug-cit-ris/COSMO/commit/a1a7aeb7ff13367d7c3475e35e5d44db1ba0547e", 
     "Keyword:": "typo", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/rug-cit-ris/COSMO/commit/10da9c22b9bfe4e5beccd1350fe5fe94d38f44ca", 
+    "Commit Corrections": "https://github.com/rug-cit-ris/COSMO/commit/10da9c22b9bfe4e5beccd1350fe5fe94d38f44ca", 
     "Tags:": "misspell", 
     "Mistake:": "typo in 'description' that would run an error in the script"
   }, 
@@ -1690,7 +1690,7 @@
     "Commit Mistakes": "https://github.com/xia2/xia2_regression/commit/5347de078a5220710e999a76c7e2fe185e0c5945", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/xia2/xia2_regression/commit/31eb930553517e2b4961060c82c16b372bd1275c", 
+    "Commit Corrections": "https://github.com/xia2/xia2_regression/commit/31eb930553517e2b4961060c82c16b372bd1275c", 
     "Tags:": "misspellvariable", 
     "Mistake:": "typo in spelling variable name"
   }, 
@@ -1702,7 +1702,7 @@
     "Commit Mistakes": "https://github.com/dvbrown/Pipelines/commit/55225f69015769b2c476ca8601f45d693a2a0240", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/dvbrown/Pipelines/commit/f6dc5bd790ec38ef9a92c0880b9474b5a732bd25", 
+    "Commit Corrections": "https://github.com/dvbrown/Pipelines/commit/f6dc5bd790ec38ef9a92c0880b9474b5a732bd25", 
     "Tags:": "brackets", 
     "Mistake:": "extra bracket"
   }, 
@@ -1714,7 +1714,7 @@
     "Commit Mistakes": "https://github.com/UKHomeOffice/data-catalogue/commit/c0b674bbb85fbb2b02174f21e4a4e134298d054d", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/UKHomeOffice/data-catalogue/commit/653c79ebcc96cdc71f515f50618002a91d84de86", 
+    "Commit Corrections": "https://github.com/UKHomeOffice/data-catalogue/commit/653c79ebcc96cdc71f515f50618002a91d84de86", 
     "Tags:": "colon", 
     "Mistake:": "missed a : for the loop"
   }, 
@@ -1726,7 +1726,7 @@
     "Commit Mistakes": "https://github.com/kushaldas/autocloud/commit/0d99905a7967f888542025898f88726b7e03e1ed", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/kushaldas/autocloud/commit/acaa12600983fb37c97e317cf6eab659f3554de4", 
+    "Commit Corrections": "https://github.com/kushaldas/autocloud/commit/acaa12600983fb37c97e317cf6eab659f3554de4", 
     "Tags:": "comma", 
     "Mistake:": "forgot to add comma"
   }, 
@@ -1738,7 +1738,7 @@
     "Commit Mistakes": "https://github.com/p3trus/slave/commit/6c9d2bdfde9974f5825c93f0d7690bb215261e1d", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/p3trus/slave/commit/db0707b43b04dec8f58e913836280a990ddb3539", 
+    "Commit Corrections": "https://github.com/p3trus/slave/commit/db0707b43b04dec8f58e913836280a990ddb3539", 
     "Tags:": "brackets", 
     "Mistake:": "put bracket in the wrong spot"
   }, 
@@ -1750,7 +1750,7 @@
     "Commit Mistakes": "https://github.com/h2020-endeavour/endeavour/commit/ba954b27232297ea7cc9d452ab91a1bfdaae292e", 
     "Keyword:": "length", 
     "Length": "1", 
-    "Commit Corrections:": "https://github.com/h2020-endeavour/endeavour/commit/a65a96e627f3d6a3161ca6f7d42c1e0e957f3d9b", 
+    "Commit Corrections": "https://github.com/h2020-endeavour/endeavour/commit/a65a96e627f3d6a3161ca6f7d42c1e0e957f3d9b", 
     "Tags:": "self", 
     "Mistake:": "forgot to add self before calling function"
   }

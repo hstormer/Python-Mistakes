@@ -4,10 +4,11 @@ import json
 answer = raw_input("WARNING! THIS WILL DELETE THE CONTENTS OF THE JSONTEST.JSON FILE! IF YOU DO NOT WANT THIS TO HAPPEN, PLEASE PRESS ^C TO STOP THE PROGRAM!")	
 
 # Run the program with the name of the file to open after the script name (in this case test.txt)
-script, open_file = argv
+filename = raw_input("Which file to write to and remove colons from?: ")
 
 # txt is the file
-txt = open(open_file)
+open_file = open(filename, 'a+')
+print open_file
 # These are the two variables that are added to the dictionary. text is the line after key.
 key = None
 text = 1
@@ -43,9 +44,9 @@ def colongone(l):
 	return str1
 while str(text) != '#':
 	while str(key) != '*\n':
-		key = txt.readline()
+		key = open_file.readline()
 		key = housecleaning(key)			
-		text = txt.readline()
+		text = open_file.readline()
 		text = housecleaning(text)
 		key = colongone(key)
 		text = colongone(text)
@@ -58,7 +59,7 @@ while str(text) != '#':
 		dictionary1 = {}
 		key = text
 		key = housecleaning(text)
-		text = txt.readline()
+		text = open_file.readline()
 		text = housecleaning(text)
 		if str(text) != '*\n' and str(text) != '*' and str(key) != '*\n' and str(key) != '*':
 			dictionary1[key] = text
@@ -76,7 +77,7 @@ print "==============="
 print "This is the first entry's Commit Corrections link: %s" % dictionary1["Commit Corrections"]
 print "This is the number of entries: %r" % len(listofdictionaries)
 
-with open('jsontest.json', 'a+') as outfile:
+with open_file as outfile:
 	json.dump(listofdictionaries, outfile, indent = 2)
 
 

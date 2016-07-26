@@ -130,7 +130,7 @@ for document in cursor:
 							tag = raw_input("Type the Tag: ")
 							patch = housecleaning(patch)
 							length = raw_input("Type the length of changes: ")
-							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i, "Changes:" : patch}
+							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i, "Changes:" : patch}
 							entries.append(data)
 							with open('yes.json') as f:
 								entries = json.load(f)
@@ -149,7 +149,7 @@ for document in cursor:
 							patch = housecleaning(patch)
 							print patch
 							why_not = raw_input("Why did you not include this file? ")
-							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Why Not:" : why_not, "Keyword:" : i, "Additions": additions, "Deletions:": deletions, "Changes:" : patch}
+							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections" : CommitCorrections, "Why Not:" : why_not, "Keyword:" : i, "Additions": additions, "Deletions:": deletions, "Changes:" : patch}
 							entries.append(data)
 							with open('no.json') as f:
 								entries = json.load(f)
