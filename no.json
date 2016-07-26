@@ -1682,5 +1682,17 @@
     "Commit Corrections:": "https://github.com/ilius/pyglossary/commit/bb83e9116dbbd0bc7478dc5ac59e75c30166ff59", 
     "Why Not:": "renamed function", 
     "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = \"__version__ = '0.1.31'\"\n", 
+      "+__version__ = \"__version__ = '0.1.32'\"\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dm-wyncode/linode-kucun/commit/c4efb16a7ceedef120fbf1c52d05d4e1d11bc048", 
+    "Commit Corrections": "https://github.com/dm-wyncode/linode-kucun/commit/eab89bfad4c085ec8d2c9f3a67aaa28ce9ec4a0c", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "change version number", 
+    "Additions": 1
   }
 ]
