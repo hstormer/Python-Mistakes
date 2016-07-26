@@ -1690,5 +1690,17 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Mistake:": "extra indentation"
+  }, 
+  {
+    "Changes:": [
+      "-    self.current_module_code=\"\"\n", 
+      "+        self.current_module_code=\"\"\n"
+    ], 
+    "Commit Mistakes": "https://github.com/cmfcmf29/777/commit/8d77b63d42c0a85a0e0fd7090d394fc44f238ec0", 
+    "Commit Corrections": "https://github.com/cmfcmf29/777/commit/f9b443404d778759947b3b1b3557337dbedf020d", 
+    "Tags": "indentation", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Mistake:": "forgot indentation when defining a class"
   }
 ]
