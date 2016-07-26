@@ -43,13 +43,6 @@
   }, 
   {
     "Length": "1", 
-    "Mistakes": "missing bracket ", 
-    "Commit Mistake": "https://github.com/python-git/python/commit/943c602ef4770c51946ce7d57180414f2c8804d4", 
-    "Commit Corrections": "https://github.com/python-git/python/commit/ff1e04b95c1b1de460d57f2bebc22bd9fd09d4b0", 
-    "Tags": "brackets "
-  }, 
-  {
-    "Length": "1", 
     "Mistakes": "spelling mistake: wrote README.SRT instead of README.RST", 
     "Commit Mistake": "https://github.com/wepay/Python-SDK/commit/f7d1ec0901c6bbfc2389f14075db7043f3679796", 
     "Commit Corrections": "https://github.com/wepay/Python-SDK/commit/3fdc2143f8f85ef40b527cdaebcfc2d9407309a1#diff-2eeaed663bd0d25b7e608891384b7298", 
@@ -82,13 +75,6 @@
     "Commit Mistake": "https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764", 
     "Commit Corrections": "https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8", 
     "Tags": "self"
-  }, 
-  {
-    "Length": "1", 
-    "Mistakes": "Did not correctly use the 'join' function (in line 945)", 
-    "Commit Mistake": "https://github.com/pubnub/python/commit/3cdf70cb5021dc0cf95b4a37cf2a7f2273b60764", 
-    "Commit Corrections": "https://github.com/pubnub/python/commit/56636c75bf48dc9bf26b320354b5e4130e94dbd8", 
-    "Tags": "function"
   }, 
   {
     "Length: ": "1", 
@@ -140,13 +126,6 @@
     "Tags": "brackets"
   }, 
   {
-    "Length": "1", 
-    "Mistakes": "added an extra quotation for no reason (line 89)", 
-    "Commit Mistake": "Can't find file", 
-    "Commit Corrections": "https://github.com/awkay/om-tutorial/commit/e34c7773327806fc7b0d6820330223b5b0432ae7#diff-3205c0ded576131ea255ad2bd38b0fb2", 
-    "Tags": "quotation"
-  }, 
-  {
     "Length": "2", 
     "Mistakes": "Missing a colon in the if/else statement", 
     "Commit Mistake": "https://github.com/ksze/sanitize/commit/d75e613b21f609b44600ecabac14281abc0019ef", 
@@ -187,13 +166,6 @@
     "Commit Mistake": "Could not find a previous commit of file containing mistakes", 
     "Commit Corrections": "https://github.com/Azd325/gingerit/commit/7afd0645723b92a7faa7fe6c6121f488776e79bc", 
     "Tags": "import"
-  }, 
-  {
-    "Length": "2", 
-    "Mistakes": "Missed \":\" for a loop", 
-    "Commit Mistake": "Could not find a previous commit of file containing mistakes", 
-    "Commit Corrections": "https://github.com/ksze/sanitize/commit/0987ded60bcba031ffb7635a28c4c669101278d0", 
-    "Tags": "colon"
   }, 
   {
     "Length": "1", 
@@ -806,13 +778,6 @@
   }, 
   {
     "Length": "1", 
-    "Mistakes": "typo ", 
-    "Commit Mistake": "https://github.com/cissoid/psychopass-python/commit/8df1d779bcfd4f4f3462ba341d20036235483a5d", 
-    "Commit Corrections": "https://github.com/cissoid/psychopass-python/commit/9ba6d7ae8d8f01550855a24a0bd00fc273c2dc5c", 
-    "Tags": "misspellvariable"
-  }, 
-  {
-    "Length": "1", 
     "Mistakes": "forgot to capitalize GPIO", 
     "Commit Mistake": "https://github.com/beepscore/pi_thing/commit/1b981d2ec7bd804e34e8c0b6941e3cb70c5bb525", 
     "Commit Corrections": "https://github.com/beepscore/pi_thing/commit/b7d5767df23aa9b0dcc5c32d83387a622bf9e9e0", 
@@ -911,13 +876,6 @@
   }, 
   {
     "Length": "1", 
-    "Mistakes": "Misspelled 'text' as 'txt'", 
-    "Commit Mistake": "https://github.com/hokuto-k/django-line-bot/commit/3e90e4e53282c27743b9079561d47e9ba6a05c91", 
-    "Commit Corrections": "https://github.com/hokuto-k/django-line-bot/commit/7ab3fcfb53fcee1db9e11553cd4e60748a068966", 
-    "Tags": "misspellvariable"
-  }, 
-  {
-    "Length": "1", 
     "Mistakes": "Added an extra : after the if", 
     "Commit Mistake": "https://github.com/virpatel524/miRNA-Scripts/commit/7484135e8322d9961e7815bf5e1b8f174ca35384", 
     "Commit Corrections": "https://github.com/virpatel524/miRNA-Scripts/commit/39df4a14f8e607be503b14964e70041dfa9db752", 
@@ -936,13 +894,6 @@
     "Commit Mistake": "https://github.com/gbolo/vSummary/commit/0929bf0d5db0e9c1cbd5d3262b5652ec228ed9f0", 
     "Commit Corrections": "https://github.com/gbolo/vSummary/commit/1d288dd2a69ce0a18bc5db4083a36936fae33249", 
     "Tags": "formatter"
-  }, 
-  {
-    "Length": "1", 
-    "Mistakes": "Misspelled 'startswith()' as 'startwith()'", 
-    "Commit Mistake": "https://github.com/ekimekim/pipirc/commit/76a5bc83eb00dfff99c4629727ee54d81258f3e7", 
-    "Commit Corrections": "https://github.com/ekimekim/pipirc/commit/56376857d0d0cd2c7ce472863a979432ef953c38", 
-    "Tags": "function"
   }, 
   {
     "Length": "1", 
@@ -978,13 +929,6 @@
     "Commit Mistake": "https://github.com/xlliu/web_service/commit/4d1c2603782957f42901a4a5291e50069707e85a", 
     "Commit Corrections": "https://github.com/xlliu/web_service/commit/ab60f5e294c16a87038295343e6c36223c09fdf8", 
     "Tags": "bracket"
-  }, 
-  {
-    "Length": "1", 
-    "Mistakes": "Misspelled 'self.weights_file' as 'self.weights_File'", 
-    "Commit Mistake": "https://github.com/harvitronix/project-becho/commit/8bd94bbf6efdbc7f1cb9fbb0555776d2ef430e84", 
-    "Commit Corrections": "https://github.com/harvitronix/project-becho/commit/740205637af0aef5af243f62679712aa26377b1c", 
-    "Tags": "misspellvariable"
   }, 
   {
     "Length": "2", 
@@ -1275,33 +1219,10 @@
   }, 
   {
     "Length": "1", 
-    "Mistakes": "forgot to add comma when switching lines between strings", 
-    "Commit Mistake": "https://github.com/bartverstrynge/azure-sdk-for-python/commit/97f97ce35dc92bdd5394d983a7b19ec84205898e", 
-    "Commit Corrections": "https://github.com/bartverstrynge/azure-sdk-for-python/commit/073c97dfc5239dff9634432bb954397d832a7f7d", 
-    "Tags": "comma"
-  }, 
-  {
-    "Length": "1", 
     "Mistakes": "indent for no reason", 
     "Commit Mistake": "https://github.com/ansible/ansible-modules-extras/commit/f72b0288c0c7df77a31518c99bcd3651260e9c8e", 
     "Commit Corrections": "https://github.com/ansible/ansible-modules-extras/commit/3e8fa8ef829dde4f379d28751059f797751e5014", 
     "Tags": "indentation"
-  }, 
-  {
-    "Commit Mistakes": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06", 
-    "Commit Corrections": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10", 
-    "Keyword:": "typo", 
-    "Length": "1", 
-    "Tags:": "misspellvariable", 
-    "Mistake:": "spelling"
-  }, 
-  {
-    "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188", 
-    "Commit Corrections": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6", 
-    "Keyword:": "typo", 
-    "Length": "1", 
-    "Tags:": "misspellvariable", 
-    "Mistake:": "frogot the _ in move.counter_clockwise"
   }, 
   {
     "Commit Mistakes": "https://github.com/jeff1evesque/machine-learning/commit/cc48ef134302bf28015670aed958289dad680094", 
@@ -1310,14 +1231,6 @@
     "Length": "1", 
     "Tags:": "indentation", 
     "Mistake:": "forgot indentation after else statement"
-  }, 
-  {
-    "Commit Mistakes": "https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7", 
-    "Commit Corrections": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
-    "Keyword:": "typo", 
-    "Length": "1", 
-    "Tags:": "misspellvariable", 
-    "Mistake:": "wrote - instead of _"
   }, 
   {
     "Commit Mistakes": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
