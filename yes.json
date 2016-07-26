@@ -1645,5 +1645,113 @@
     "Commit Corrections:": "https://github.com/pereahave/tensorflow_examples/commit/49e11665ab48b234295298c4fc7c041663730128", 
     "Tags:": "indentation", 
     "Mistake:": "forgot to indent"
+  }, 
+  {
+    "Changes:": [
+      "-            counter_obj = counter_collection.collection.Counter()\n", 
+      "-            counter_obj.user_id=request.user.id\n", 
+      "-            auth_obj= node_collection.one({'_type':'Author','created_by':request.user.id})\n", 
+      "-            counter_obj.auth_id=ObjectId(auth_obj._id)\n", 
+      "-            counter_obj.last_update=datetime.today()\n", 
+      "-            counter_obj.save()\n", 
+      "+        counter_obj = counter_collection.collection.Counter()\n", 
+      "+        counter_obj.user_id=request.user.id\n", 
+      "+        auth_obj= node_collection.one({'_type':'Author','created_by':request.user.id})\n", 
+      "+        counter_obj.auth_id=ObjectId(auth_obj._id)\n", 
+      "+        counter_obj.last_update=datetime.today()\n", 
+      "+        counter_obj.save()\n"
+    ], 
+    "Commit Mistakes": "https://github.com/KQuadros/gstudio/commit/36bebb07eb2383e32ef661d6328e50041bbe4748", 
+    "Keyword:": "indentation", 
+    "Length": "6", 
+    "Commit Corrections:": "https://github.com/KQuadros/gstudio/commit/9b310892e4458031866a077ccf401d5cf0593bfb", 
+    "Tags:": "indentation", 
+    "Mistake:": "incorrect indent"
+  }, 
+  {
+    "Changes:": [
+      "-                    q_descr = value_j[key_j]\n", 
+      "+                    q_descr = value_j\n", 
+      "-                         desription=q_descr)\n", 
+      "+                         description=q_descr)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/rug-cit-ris/COSMO/commit/a1a7aeb7ff13367d7c3475e35e5d44db1ba0547e", 
+    "Keyword:": "typo", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/rug-cit-ris/COSMO/commit/10da9c22b9bfe4e5beccd1350fe5fe94d38f44ca", 
+    "Tags:": "misspell", 
+    "Mistake:": "typo in 'description' that would run an error in the script"
+  }, 
+  {
+    "Changes:": [
+      "-  print >>compare, 'Comparing output against %s' % expected_results_file\n", 
+      "+  print >>compare, 'Comparing output against %s' % expected_result_file\n"
+    ], 
+    "Commit Mistakes": "https://github.com/xia2/xia2_regression/commit/5347de078a5220710e999a76c7e2fe185e0c5945", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/xia2/xia2_regression/commit/31eb930553517e2b4961060c82c16b372bd1275c", 
+    "Tags:": "misspellvariable", 
+    "Mistake:": "typo in spelling variable name"
+  }, 
+  {
+    "Changes:": [
+      "-    comm = '''awk '{{print $1\"\\\\t\"$2\"\\\\t\"$2}}}' {1} | \\\n", 
+      "+    comm = '''awk '{{print $1\"\\\\t\"$2\"\\\\t\"$2}}' {1} | \\\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dvbrown/Pipelines/commit/55225f69015769b2c476ca8601f45d693a2a0240", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/dvbrown/Pipelines/commit/f6dc5bd790ec38ef9a92c0880b9474b5a732bd25", 
+    "Tags:": "brackets", 
+    "Mistake:": "extra bracket"
+  }, 
+  {
+    "Changes:": [
+      "-            if option == \"AWS_ACCESS_KEY_ID\" or option == \"AWS_SECRET_ACCESS_KEY\"\n", 
+      "+            if option == \"AWS_ACCESS_KEY_ID\" or option == \"AWS_SECRET_ACCESS_KEY\":\n"
+    ], 
+    "Commit Mistakes": "https://github.com/UKHomeOffice/data-catalogue/commit/c0b674bbb85fbb2b02174f21e4a4e134298d054d", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/UKHomeOffice/data-catalogue/commit/653c79ebcc96cdc71f515f50618002a91d84de86", 
+    "Tags:": "colon", 
+    "Mistake:": "missed a : for the loop"
+  }, 
+  {
+    "Changes:": [
+      "-        sa.Column('status', sa.String(length=255), nullable=True)\n", 
+      "+        sa.Column('status', sa.String(length=255), nullable=True),\n"
+    ], 
+    "Commit Mistakes": "https://github.com/kushaldas/autocloud/commit/0d99905a7967f888542025898f88726b7e03e1ed", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/kushaldas/autocloud/commit/acaa12600983fb37c97e317cf6eab659f3554de4", 
+    "Tags:": "comma", 
+    "Mistake:": "forgot to add comma"
+  }, 
+  {
+    "Changes:": [
+      "-        self.current = Command(('GETDAT? {}'.format(2**(bit + 1), Float)))\n", 
+      "+        self.current = Command(('GETDAT? {}'.format(2**(bit + 1)), Float))\n"
+    ], 
+    "Commit Mistakes": "https://github.com/p3trus/slave/commit/6c9d2bdfde9974f5825c93f0d7690bb215261e1d", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/p3trus/slave/commit/db0707b43b04dec8f58e913836280a990ddb3539", 
+    "Tags:": "brackets", 
+    "Mistake:": "put bracket in the wrong spot"
+  }, 
+  {
+    "Changes:": [
+      "-        subsets = get_subsets(match_list)\n", 
+      "+        subsets = self.get_subsets(match_list)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/h2020-endeavour/endeavour/commit/ba954b27232297ea7cc9d452ab91a1bfdaae292e", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Commit Corrections:": "https://github.com/h2020-endeavour/endeavour/commit/a65a96e627f3d6a3161ca6f7d42c1e0e957f3d9b", 
+    "Tags:": "self", 
+    "Mistake:": "forgot to add self before calling function"
   }
 ]
