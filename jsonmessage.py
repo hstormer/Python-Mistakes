@@ -17,7 +17,8 @@ def housecleaning(l):
 		list1.append(line)
 	for i in list1:
 		templist.append(i)
-		if str(i) == '\n':
+		print "%r" % i
+		if i.encode('utf8') == '\n':
 			str1 = ''.join(templist)
 			templist = []
 			finalist.append(str1)
@@ -42,7 +43,7 @@ cursor = db.commits.find()
 jsonfile = {}
 entries = []
 counter = 0
-save_location =  231956
+save_location = 152740
 location = 0
 name = 'Hannah'
 message = None
