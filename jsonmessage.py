@@ -130,7 +130,7 @@ for document in cursor:
 							tag = raw_input("Type the Tag: ")
 							patch = housecleaning(patch)
 							length = raw_input("Type the length of changes: ")
-							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length": length, "Keyword:" : i, "Changes:" : patch}
+							data = {"Commit Mistakes" : CommitMistakes, "Commit Corrections" : CommitCorrections, "Mistake:" : mistake, "Tags" : tag, "Length": length, "Keyword:" : i, "Changes:" : patch}
 							entries.append(data)
 							with open('yes.json') as f:
 								entries = json.load(f)
