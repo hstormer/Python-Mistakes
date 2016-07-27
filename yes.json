@@ -1702,5 +1702,17 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Mistake:": "forgot indentation when defining a class"
+  }, 
+  {
+    "Changes:": [
+      "-        scope.connectStatus.connect(self.dis())\n", 
+      "+        scope.connectStatus.connect(self.dis)\n"
+    ], 
+    "Commit Mistakes": "https://github.com/newaetech/chipwhisperer/commit/c29fd43444a1d2358b61d01e8528a2bf2096b103", 
+    "Commit Corrections": "https://github.com/newaetech/chipwhisperer/commit/fcb9f25caa242e5776d00707ed4fe89dee41ea4b", 
+    "Tags": "brackets", 
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Mistake:": "added extra brackets where not required"
   }
 ]
