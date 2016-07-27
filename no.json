@@ -1694,9 +1694,12 @@
     "Keyword:": "length", 
     "Why Not:": "change version number", 
     "Additions": 1
+  },
+  {
+    "Changes:": [
       "-a = 1 + 1;\n", 
       "+a = 1 + 2;\n",
-  
+     ],
     "Commit Mistakes": "https://github.com/Hance-Zheng/big-news/commit/da15fae9dc77a6d87a302363089d352c770396a0", 
     "Commit Corrections": "https://github.com/Hance-Zheng/big-news/commit/c7a5c3edcdffddc968a0ac59f18fcdd5ce0a17d1", 
     "Deletions:": 1, 
