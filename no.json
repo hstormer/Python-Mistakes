@@ -1685,9 +1685,18 @@
   }, 
   {
     "Changes:": [
+      "-__version__ = \"__version__ = '0.1.31'\"\n", 
+      "+__version__ = \"__version__ = '0.1.32'\"\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dm-wyncode/linode-kucun/commit/c4efb16a7ceedef120fbf1c52d05d4e1d11bc048", 
+    "Commit Corrections": "https://github.com/dm-wyncode/linode-kucun/commit/eab89bfad4c085ec8d2c9f3a67aaa28ce9ec4a0c", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "change version number", 
+    "Additions": 1
       "-a = 1 + 1;\n", 
       "+a = 1 + 2;\n"
-    ], 
+  
     "Commit Mistakes": "https://github.com/Hance-Zheng/big-news/commit/da15fae9dc77a6d87a302363089d352c770396a0", 
     "Commit Corrections": "https://github.com/Hance-Zheng/big-news/commit/c7a5c3edcdffddc968a0ac59f18fcdd5ce0a17d1", 
     "Deletions:": 1, 
