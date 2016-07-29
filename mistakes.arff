@@ -1,0 +1,13 @@
+% this is the file that will classifly commits as mistake of not a mistake
+
+@relation python_mistakes
+
+@attribute commit_message string
+@attribute additions numeric
+@attribute deletions numeric
+@attribute length numeric
+@attribute class {mistake, not_mistake}
+
+@data
+
+
