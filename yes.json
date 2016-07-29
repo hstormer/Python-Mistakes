@@ -252,109 +252,124 @@
     "Tags": "formatter"
   }, 
   {
+    "Message:": "typo", 
+    "Commit Corrections": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "spelled the variable wrong", 
-    "Commit Mistake": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06", 
-    "Commit Corrections": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06"
   }, 
   {
+    "Message:": "typo", 
+    "Commit Corrections": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "forgot the _ in variable", 
-    "Commit Mistake": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188", 
-    "Commit Corrections": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188"
   }, 
   {
+    "Message:": "Minor Fixes - Typos and maths in docs\n\nEnsuring the documentation showing the functions is correct and\naccurate.", 
+    "Commit Corrections": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/2bb8eaa5ceff6a64452e7e94972539843300dba6", 
+    "Tags": "misspell", 
     "Length": "13", 
     "Mistakes": "wrote the class name wrong", 
-    "Commit Mistake": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099", 
-    "Commit Corrections": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/2bb8eaa5ceff6a64452e7e94972539843300dba6", 
-    "Tags": "misspell"
+    "Commit Mistake": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099"
   }, 
   {
+    "Message:": "Fixed connection_limit and added UT\n\nDue to a typo, the REST API attribute of connection_limit was\nnot accessed when creating a new lbaas-V2 listener.\nThis patch fixes the typo, so that the connection_limit can\nbe initialized when listener is created. Also, the previous\ncode did not have UT for connection_limit when the listener\nwas created. The same has been added here.\n\nCloses-Bug: #1515112\n\nConflicts:\n\tneutronclient/neutron/v2_0/lb/v2/listener.py\n\nChange-Id: I71eef7b92de91edc1f3ce48f40c645bca704427d\n(cherry picked from commit 9baa62c3c58f4d6187ab22fc3c04843efd283b55)", 
+    "Commit Corrections": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "spelled the variable wrong", 
-    "Commit Mistake": "https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7", 
-    "Commit Corrections": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7"
   }, 
   {
+    "Message:": "Fix typo in CactusCafWrapperLarge2", 
+    "Commit Corrections": "https://github.com/benedictpaten/cactus/commit/92acc42161a24a9ae7925e625d2933771851abc3", 
+    "Tags": "misspell", 
     "Length": "1", 
     "Mistakes": "wrong spelling", 
-    "Commit Mistake": "https://github.com/benedictpaten/cactus/commit/4c08d5fb973d2fd6dd3d1b72548e69508fbb2c33", 
-    "Commit Corrections": "https://github.com/benedictpaten/cactus/commit/92acc42161a24a9ae7925e625d2933771851abc3", 
-    "Tags": "misspell"
+    "Commit Mistake": "https://github.com/benedictpaten/cactus/commit/4c08d5fb973d2fd6dd3d1b72548e69508fbb2c33"
   }, 
   {
+    "Message:": "Fix, a typo.", 
+    "Commit Corrections": "https://github.com/cissoid/psychopass-python/commit/9ba6d7ae8d8f01550855a24a0bd00fc273c2dc5c", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "variable spelled wrong", 
-    "Commit Mistake": "https://github.com/cissoid/psychopass-python/commit/8df1d779bcfd4f4f3462ba341d20036235483a5d", 
-    "Commit Corrections": "https://github.com/cissoid/psychopass-python/commit/9ba6d7ae8d8f01550855a24a0bd00fc273c2dc5c", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/cissoid/psychopass-python/commit/8df1d779bcfd4f4f3462ba341d20036235483a5d"
   }, 
   {
+    "Message:": "fix syntax error", 
+    "Commit Corrections": "https://github.com/sahlinet/httptest/commit/842d0d0cb3ebe8557ceef38b032937170d962b1c", 
+    "Tags": "function", 
     "Length": "1", 
     "Mistakes": "syntax error", 
-    "Commit Mistake": "https://github.com/sahlinet/httptest/commit/7fce91f7aab469297952a2060ca9e5a7f949351e", 
-    "Commit Corrections": "https://github.com/sahlinet/httptest/commit/842d0d0cb3ebe8557ceef38b032937170d962b1c", 
-    "Tags": "function"
+    "Commit Mistake": "https://github.com/sahlinet/httptest/commit/7fce91f7aab469297952a2060ca9e5a7f949351e"
   }, 
   {
+    "Message:": "typo", 
+    "Commit Corrections": "https://github.com/trailbehind/DeepOSM/commit/98347c60f9a56ba8139a25792c25e27cf07124bd", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "forgot the variable name", 
-    "Commit Mistake": "https://github.com/trailbehind/DeepOSM/commit/c711e69f93af03bf361d8d109e07aee81e992ea3", 
-    "Commit Corrections": "https://github.com/trailbehind/DeepOSM/commit/98347c60f9a56ba8139a25792c25e27cf07124bd", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/trailbehind/DeepOSM/commit/c711e69f93af03bf361d8d109e07aee81e992ea3"
   }, 
   {
+    "Message:": "typo", 
+    "Commit Corrections": "https://github.com/JFK/linebot/commit/29bc088d6e5bcc87ac4d96c63368e6f25a318007", 
+    "Tags": "misspellvariable", 
     "Length": "2", 
     "Mistakes": "spelled the variable wrong", 
-    "Commit Mistake": "https://github.com/JFK/linebot/commit/12f4218603e1cddcc8601c7551c771bcd2b2c625", 
-    "Commit Corrections": "https://github.com/JFK/linebot/commit/29bc088d6e5bcc87ac4d96c63368e6f25a318007", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/JFK/linebot/commit/12f4218603e1cddcc8601c7551c771bcd2b2c625"
   }, 
   {
+    "Message:": "bugfix: set correct function call", 
+    "Commit Corrections": "https://github.com/denk-mal/tft-display/commit/01e79bac3d03f52370cf91e114aa4016ddf01f94", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "misspelled variable in calling a function", 
-    "Commit Mistake": "https://github.com/denk-mal/tft-display/commit/02f2f1deed49608542260d43545dc5d591890dff", 
-    "Commit Corrections": "https://github.com/denk-mal/tft-display/commit/01e79bac3d03f52370cf91e114aa4016ddf01f94", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/denk-mal/tft-display/commit/02f2f1deed49608542260d43545dc5d591890dff"
   }, 
   {
+    "Message:": "Woops. Fixed syntax error", 
+    "Commit Corrections": "https://github.com/devchannel/DevLang/commit/b089a0a8d0a3e564444e3f34acc5a0b2dca30899", 
+    "Tags": "function", 
     "Length": "1", 
     "Mistakes": "no script for the for-loop to execute", 
-    "Commit Mistake": "https://github.com/devchannel/DevLang/commit/b348f516c2eabdf6ebc7a0049e39fd7d7af5356e", 
-    "Commit Corrections": "https://github.com/devchannel/DevLang/commit/b089a0a8d0a3e564444e3f34acc5a0b2dca30899", 
-    "Tags": "function"
+    "Commit Mistake": "https://github.com/devchannel/DevLang/commit/b348f516c2eabdf6ebc7a0049e39fd7d7af5356e"
   }, 
   {
+    "Message:": "Fixing typo", 
+    "Commit Corrections": "https://github.com/censof/ansible-deployment/commit/a54d7c109a14de061e54c76f3ba2028ef6248e86", 
+    "Tags": "misspell", 
     "Length": "1", 
     "Mistakes": "wrong spelling", 
-    "Commit Mistake": "https://github.com/censof/ansible-deployment/commit/503cc7a2e6b9b7a23cbbf464187823dcf861b502", 
-    "Commit Corrections": "https://github.com/censof/ansible-deployment/commit/a54d7c109a14de061e54c76f3ba2028ef6248e86", 
-    "Tags": "misspell"
+    "Commit Mistake": "https://github.com/censof/ansible-deployment/commit/503cc7a2e6b9b7a23cbbf464187823dcf861b502"
   }, 
   {
+    "Message:": "Fix Another typo in installation/test_m_nodes_inst_on_cos7.py", 
+    "Commit Corrections": "https://github.com/zstackorg/zstack-woodpecker/commit/713074f8799fef6b244d40a7ab014d24026fb975", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "spelled variable wrong", 
-    "Commit Mistake": "https://github.com/zstackorg/zstack-woodpecker/commit/2de2214a88cd74d4a175720ac6a0a3c2579a7248", 
-    "Commit Corrections": "https://github.com/zstackorg/zstack-woodpecker/commit/713074f8799fef6b244d40a7ab014d24026fb975", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/zstackorg/zstack-woodpecker/commit/2de2214a88cd74d4a175720ac6a0a3c2579a7248"
   }, 
   {
+    "Message:": "Fixing a typo.", 
+    "Commit Corrections": "https://github.com/damyanbogoev/flask-bookshelf/commit/91efb618889e05d16bdbbd1beec58c5f6bd6c576", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "spelled the variable wrong", 
-    "Commit Mistake": "https://github.com/damyanbogoev/flask-bookshelf/commit/56fdb59f6ac6e974dd5bcd0b91b3dd1ff05b29d0", 
-    "Commit Corrections": "https://github.com/damyanbogoev/flask-bookshelf/commit/91efb618889e05d16bdbbd1beec58c5f6bd6c576", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/damyanbogoev/flask-bookshelf/commit/56fdb59f6ac6e974dd5bcd0b91b3dd1ff05b29d0"
   }, 
   {
+    "Message:": "Fixed typos.", 
+    "Commit Corrections": "https://github.com/dltiziani/gammapy/commit/78501873967f1121eebdee28ca2acd3722cf783b", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "variable spelled wrong", 
-    "Commit Mistake": "https://github.com/dltiziani/gammapy/commit/95a56cc777bb93662a376e583acddb33562c0be9", 
-    "Commit Corrections": "https://github.com/dltiziani/gammapy/commit/78501873967f1121eebdee28ca2acd3722cf783b", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/dltiziani/gammapy/commit/95a56cc777bb93662a376e583acddb33562c0be9"
   }, 
   {
     "Length": "3", 
@@ -756,53 +771,60 @@
     "Tags": "brackets"
   }, 
   {
+    "Message:": "Production Summary, added Seconds processing", 
+    "Commit Corrections": "https://github.com/DustinHolden/Anthos/commit/fc3da58d7d6b66dca0e2868d1a0a8d5d7cdf8f0a", 
+    "Tags": "extra", 
     "Length": "1", 
     "Mistakes": "added a comma for no reason", 
-    "Commit Mistake": "https://github.com/DustinHolden/Anthos/commit/cecb1a8db2cccd8211050cab6b03bcc8d17e09bd", 
-    "Commit Corrections": "https://github.com/DustinHolden/Anthos/commit/fc3da58d7d6b66dca0e2868d1a0a8d5d7cdf8f0a", 
-    "Tags": "extra"
+    "Commit Mistake": "https://github.com/DustinHolden/Anthos/commit/cecb1a8db2cccd8211050cab6b03bcc8d17e09bd"
   }, 
   {
+    "Message:": "build docs", 
+    "Commit Corrections": "https://github.com/cxhernandez/msmexplorer/commit/5ae25c03c90466ae6917e22ac9f2f61e00d56480", 
+    "Tags": "misspell", 
     "Length": "1", 
     "Mistakes": "misspelled path required to acess a file", 
-    "Commit Mistake": "https://github.com/cxhernandez/msmexplorer/commit/2cab565d221c23df18b2605fb2aa26fd70e4e872", 
-    "Commit Corrections": "https://github.com/cxhernandez/msmexplorer/commit/5ae25c03c90466ae6917e22ac9f2f61e00d56480", 
-    "Tags": "misspell"
+    "Commit Mistake": "https://github.com/cxhernandez/msmexplorer/commit/2cab565d221c23df18b2605fb2aa26fd70e4e872"
   }, 
   {
+    "Message:": "fixes", 
+    "Commit Corrections": "https://github.com/MiladAlshomary/papers_citations/commit/745d7166edd83631d4ccd77bf6a598cc092bded3", 
+    "Tags": "colon", 
     "Length": "1", 
     "Mistakes": "frogot colon after if statement :)", 
-    "Commit Mistake": "https://github.com/MiladAlshomary/papers_citations/commit/4aea54930ef16c7ef0279cd28bd359c5a24eb9fd", 
-    "Commit Corrections": "https://github.com/MiladAlshomary/papers_citations/commit/745d7166edd83631d4ccd77bf6a598cc092bded3", 
-    "Tags": "colon"
+    "Commit Mistake": "https://github.com/MiladAlshomary/papers_citations/commit/4aea54930ef16c7ef0279cd28bd359c5a24eb9fd"
   }, 
   {
+    "Message:": "Fix gpio to uppercase GPIO", 
+    "Commit Corrections": "https://github.com/beepscore/pi_thing/commit/b7d5767df23aa9b0dcc5c32d83387a622bf9e9e0", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "forgot to capitalize GPIO", 
-    "Commit Mistake": "https://github.com/beepscore/pi_thing/commit/1b981d2ec7bd804e34e8c0b6941e3cb70c5bb525", 
-    "Commit Corrections": "https://github.com/beepscore/pi_thing/commit/b7d5767df23aa9b0dcc5c32d83387a622bf9e9e0", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/beepscore/pi_thing/commit/1b981d2ec7bd804e34e8c0b6941e3cb70c5bb525"
   }, 
   {
+    "Message:": "fix base source import after Shougo/deoplete.nvim@e3e4c4a", 
+    "Commit Corrections": "https://github.com/dylanscott/deoplete-typescript/commit/d281a6cbfaf808715c4c5c710c0cdb135059fecd", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "spelled sources instead of source when importing", 
-    "Commit Mistake": "https://github.com/dylanscott/deoplete-typescript/commit/43e89bd0b234250506aaf8227700521226972091", 
-    "Commit Corrections": "https://github.com/dylanscott/deoplete-typescript/commit/d281a6cbfaf808715c4c5c710c0cdb135059fecd", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/dylanscott/deoplete-typescript/commit/43e89bd0b234250506aaf8227700521226972091"
   }, 
   {
+    "Message:": "geolite longi lati", 
+    "Commit Corrections": "https://github.com/PPMESSAGE/ppmessage/commit/b423fe2e08248909053a8ba60a53668eb53de6ab", 
+    "Tags": "function", 
     "Length": "1", 
     "Mistakes": "forgot a comma ", 
-    "Commit Mistake": "https://github.com/PPMESSAGE/ppmessage/commit/7d25d5381f2ab38d71c38eacf66f9732cb8c8ade", 
-    "Commit Corrections": "https://github.com/PPMESSAGE/ppmessage/commit/b423fe2e08248909053a8ba60a53668eb53de6ab", 
-    "Tags": "function"
+    "Commit Mistake": "https://github.com/PPMESSAGE/ppmessage/commit/7d25d5381f2ab38d71c38eacf66f9732cb8c8ade"
   }, 
   {
+    "Message:": "...", 
+    "Commit Corrections": "https://github.com/andrrey/tlg_dl_bot/commit/dbd5b74bcf53c0705033908fa6401288e605c19a", 
+    "Tags": "indentation", 
     "Length": "1", 
     "Mistakes": "forgot indentation ", 
-    "Commit Mistake": "https://github.com/andrrey/tlg_dl_bot/commit/d1c89c42967abae301e7681e89e84ea8425eb010", 
-    "Commit Corrections": "https://github.com/andrrey/tlg_dl_bot/commit/dbd5b74bcf53c0705033908fa6401288e605c19a", 
-    "Tags": "indentation"
+    "Commit Mistake": "https://github.com/andrrey/tlg_dl_bot/commit/d1c89c42967abae301e7681e89e84ea8425eb010"
   }, 
   {
     "Length": "1", 
@@ -1148,46 +1170,52 @@
     "Tags": "operator"
   }, 
   {
+    "Message:": "Fix patrick's bot.", 
+    "Commit Corrections": "https://github.com/GallagherCommaJack/markets/commit/fc6b3ab5c8b924b7232a6f9f01a3589926400c10", 
+    "Tags": "colon", 
     "Length": "1", 
     "Mistakes": "forgot colon in after else", 
-    "Commit Mistake": "https://github.com/GallagherCommaJack/markets/commit/ee92c04bce9e05d2971b41feb1b2c171ecb2d0de", 
-    "Commit Corrections": "https://github.com/GallagherCommaJack/markets/commit/fc6b3ab5c8b924b7232a6f9f01a3589926400c10", 
-    "Tags": "colon"
+    "Commit Mistake": "https://github.com/GallagherCommaJack/markets/commit/ee92c04bce9e05d2971b41feb1b2c171ecb2d0de"
   }, 
   {
+    "Message:": "Force program_cycle_s to be used as an attribue everywhere", 
+    "Commit Corrections": "https://github.com/mbedmicro/mbed/commit/855cc9155083e02d436a16be98dc43e1590ebfff", 
+    "Tags": "bracket", 
     "Length": "1", 
     "Mistakes": "forgot a bracket", 
-    "Commit Mistake": "https://github.com/mbedmicro/mbed/commit/f7ad7d2e27193a2b5282e5221947b5e127662367", 
-    "Commit Corrections": "https://github.com/mbedmicro/mbed/commit/855cc9155083e02d436a16be98dc43e1590ebfff", 
-    "Tags": "bracket"
+    "Commit Mistake": "https://github.com/mbedmicro/mbed/commit/f7ad7d2e27193a2b5282e5221947b5e127662367"
   }, 
   {
+    "Message:": "Fixed motor when turning by degrees", 
+    "Commit Corrections": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/e9fd0cc5c198108c9d379116792ce1eda5443c65", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "spelled variable wrong", 
-    "Commit Mistake": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/3da79f01e76430a52526bad236450a5d2bb0ceb8", 
-    "Commit Corrections": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/e9fd0cc5c198108c9d379116792ce1eda5443c65", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/3da79f01e76430a52526bad236450a5d2bb0ceb8"
   }, 
   {
+    "Message:": "fix typo", 
+    "Commit Corrections": "https://github.com/waynelkh/OpenADM/commit/18a7f124525a1dde4c5bb25cd371d489e0292519", 
+    "Tags": "bracket", 
     "Length": "1", 
     "Mistakes": "forgot a bracket", 
-    "Commit Mistake": "https://github.com/waynelkh/OpenADM/commit/b091fb0a944f82302eb0d88ee3b410aad94a05dc", 
-    "Commit Corrections": "https://github.com/waynelkh/OpenADM/commit/18a7f124525a1dde4c5bb25cd371d489e0292519", 
-    "Tags": "bracket"
+    "Commit Mistake": "https://github.com/waynelkh/OpenADM/commit/b091fb0a944f82302eb0d88ee3b410aad94a05dc"
   }, 
   {
+    "Message:": "autocommit", 
+    "Commit Corrections": "https://github.com/chaayac/FindMyPet/commit/82ebcf250946305c9749511d1d729d967b08b34f", 
+    "Tags": "bracket", 
     "Length": "1", 
     "Mistakes": "added extra bracket", 
-    "Commit Mistake": "https://github.com/chaayac/FindMyPet/commit/12340f05ba13a19c09c2bd1fec88a25e5222d5b6", 
-    "Commit Corrections": "https://github.com/chaayac/FindMyPet/commit/82ebcf250946305c9749511d1d729d967b08b34f", 
-    "Tags": "bracket"
+    "Commit Mistake": "https://github.com/chaayac/FindMyPet/commit/12340f05ba13a19c09c2bd1fec88a25e5222d5b6"
   }, 
   {
+    "Message:": "Signed-off-by: zry <admin@z-touhou.org>", 
+    "Commit Corrections": "https://github.com/swzry/zlogsysd/commit/d77954b4f4046c83b38be33d756f0df441ba5179", 
+    "Tags": "misspellvariable", 
     "Length": "1", 
     "Mistakes": "misspelled variable", 
-    "Commit Mistake": "https://github.com/swzry/zlogsysd/commit/450ffde060a95a063cc722bcda72bda9aba99a35", 
-    "Commit Corrections": "https://github.com/swzry/zlogsysd/commit/d77954b4f4046c83b38be33d756f0df441ba5179", 
-    "Tags": "misspellvariable"
+    "Commit Mistake": "https://github.com/swzry/zlogsysd/commit/450ffde060a95a063cc722bcda72bda9aba99a35"
   }, 
   {
     "Length": "1", 
@@ -1230,7 +1258,8 @@
     "Keyword:": "indentation", 
     "Length": "1", 
     "Tags:": "indentation", 
-    "Mistake:": "forgot indentation after else statement"
+    "Mistake:": "forgot indentation after else statement", 
+    "Message:": "#2153: views.py, adjust spacing and indentation"
   }, 
   {
     "Commit Mistakes": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
@@ -1238,7 +1267,8 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Tags:": "indentation", 
-    "Mistake:": "deleted extra indentation"
+    "Mistake:": "deleted extra indentation", 
+    "Message:": "some cleanup, tests run again"
   }, 
   {
     "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/559150bbe85061bb297cec01a61f1b2ee135f88e", 
@@ -1246,7 +1276,8 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Tags:": "colon", 
-    "Mistake:": "forgot colon after while statement"
+    "Mistake:": "forgot colon after while statement", 
+    "Message:": "bug"
   }, 
   {
     "Commit Mistakes": "https://github.com/grow/grow/commit/5d903606e117755ab2b5ba686f179d00c542eb04", 
@@ -1254,7 +1285,8 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Tags:": "loop", 
-    "Mistake:": "did not write a complete if statement"
+    "Mistake:": "did not write a complete if statement", 
+    "Message:": "Fix issue related to gid=0 and the corresponding worksheet's position in the spreadsheet."
   }, 
   {
     "Commit Mistakes": "https://github.com/aodn/data-services/commit/e1bc214cd3696c19b163e1434713fbc2cce2344c", 
@@ -1262,7 +1294,8 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Tags:": "operator", 
-    "Mistake:": "wrote '&' instead of 'and' in an if statement"
+    "Mistake:": "wrote '&' instead of 'and' in an if statement", 
+    "Message:": "Use boolean operator and for boolean expression rather than bitwise & in has_current_data() function."
   }, 
   {
     "Commit Mistakes": "https://github.com/SureDoo/3_general_Deming/commit/3527a23ec188a01d07b7ba028f976cd4cc2baae1", 
@@ -1324,7 +1357,8 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Tags:": "misspellvariable", 
-    "Mistake:": "spelled the variable wrong"
+    "Mistake:": "spelled the variable wrong", 
+    "Message:": "bug fix"
   }, 
   {
     "Commit Mistakes": "https://github.com/wanglin1985/Steed/commit/a390e2ecdf5e63f3e9d53ef13d91c9ece3b8c843", 

@@ -5,7 +5,8 @@
     "Deletions:": 38, 
     "Keyword:": "indentation", 
     "Why Not:": "updated a lot of other stuff", 
-    "Additions": 22
+    "Additions": 22, 
+    "Message:": "Code Review:\n\n- Add \"`\" to a print message\n- Fix indentation\n- Refactor some vault stuff in another method"
   }, 
   {
     "Commit Mistakes": "https://github.com/shotat/ansible-modules-extras/commit/ac8e3f18a3c0f8c936beee06cbf44831a52c0e09", 
@@ -13,7 +14,8 @@
     "Deletions:": 4, 
     "Keyword:": "typo", 
     "Why Not:": "it's a typo in string", 
-    "Additions": 4
+    "Additions": 4, 
+    "Message:": "Fix some typos"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/d3954481844ef931ede8ff0a8c09139e529e70a5", 
@@ -21,7 +23,8 @@
     "Deletions:": 3, 
     "Keyword:": "syntax", 
     "Why Not:": "did not enter the right name", 
-    "Additions": 2
+    "Additions": 2, 
+    "Message:": "BUG: replaced old Events syntax from CCCP"
   }, 
   {
     "Commit Mistakes": "https://github.com/andrewbackes/autonoma/commit/c1facc156498668995324300e17ac1bb7a695cc1", 
@@ -29,7 +32,8 @@
     "Deletions:": 1, 
     "Keyword:": "typo", 
     "Why Not:": "deleted an unwanted line", 
-    "Additions": 0
+    "Additions": 0, 
+    "Message:": "typo"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/cfda9b38a6977a23fd92c4bece2068dda13d7625", 
@@ -37,7 +41,8 @@
     "Deletions:": 0, 
     "Keyword:": "syntax", 
     "Why Not:": "just added some stuff", 
-    "Additions": 3
+    "Additions": 3, 
+    "Message:": "Merge branch 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne into lzkelley-restructure-import\n\n* 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne:\n  BUG: replaced old Events syntax from CCCP\n  BUG: changed current_task to Task object Some of the other Task methods were being called so a string alone was not sufficient"
   }, 
   {
     "Commit Mistakes": "https://github.com/rlfscin/bioinspirada/commit/256df7f8a343892deb40e33bd376df20c3568925", 
@@ -45,7 +50,8 @@
     "Deletions:": 3, 
     "Keyword:": "syntax", 
     "Why Not:": "replaced with something quite different", 
-    "Additions": 3
+    "Additions": 3, 
+    "Message:": "changed run.py to pokemon syntax"
   }, 
   {
     "Commit Mistakes": "https://github.com/AdamD2/dvd-waiting-screen/commit/44ff2eaa739ac73291260756e96a569d7e728789", 
@@ -53,7 +59,8 @@
     "Deletions:": 1, 
     "Keyword:": "syntax", 
     "Why Not:": "mistake was not writing the right stuff", 
-    "Additions": 2
+    "Additions": 2, 
+    "Message:": "This was a bug fixing commit, bring the program up to a functional stage\nwhere the screen is drawn and the logo is loaded and appears on the\nscreen correctly.\n\nTo do this I had to make a few small changes, such as changing the\nparameters in updateScreen, importing files where necessary and changing\nthe ! syntax to 'not'.\n\nI have also changed the background color to black to make it more\nauthentic.\n\nThe next commit will involve making the logo actually move around the\nscreen, which it currently fails to do."
   }, 
   {
     "Commit Mistakes": "https://github.com/acheronte/aiohttp_auth_backend/commit/91749dc159b6ab001ac319a3ea9a8fba59175762", 
@@ -61,7 +68,8 @@
     "Deletions:": 2, 
     "Keyword:": "typo", 
     "Why Not:": "wrote something quite different", 
-    "Additions": 2
+    "Additions": 2, 
+    "Message:": "Minor typos"
   }, 
   {
     "Commit Mistakes": "https://github.com/vikas-parashar/plonetheme.spot/commit/d2bcb2de43c8450e229cb76b08d0c9526ab2eea9", 
@@ -69,7 +77,8 @@
     "Deletions:": 1, 
     "Keyword:": "minor changes", 
     "Why Not:": "just deleted an unwanted line", 
-    "Additions": 0
+    "Additions": 0, 
+    "Message:": "minor changes"
   }, 
   {
     "Commit Mistakes": "https://github.com/rhooper/home-assistant/commit/56ca9a0569b26bf430adae4b0c38b32f065f4815", 
@@ -77,7 +86,8 @@
     "Deletions:": 1, 
     "Keyword:": "missed", 
     "Why Not:": "have no idea what they changed", 
-    "Additions": 2
+    "Additions": 2, 
+    "Message:": "style fixes my tox lint/flake8 missed"
   }, 
   {
     "Commit Mistakes": "https://github.com/ProjetPC2/SIMM2.0-DEV/commit/2de83362db58b402ba8d4f7fbf4359c28950f48c", 
@@ -85,7 +95,8 @@
     "Deletions:": 1, 
     "Keyword:": "correct", 
     "Why Not:": "made minor changes to the actual process ", 
-    "Additions": 4
+    "Additions": 4, 
+    "Message:": "correction bug AjoutEquipement.py\n\nCorrection de l'affichage qui etait decales pour les differents etats"
   }, 
   {
     "Commit Mistakes": "https://github.com/wholmgren/pvlib-python/commit/af7e4e42643c05797c1ad9088b50577a8b886763", 
@@ -93,7 +104,8 @@
     "Deletions:": 2, 
     "Keyword:": "mistake", 
     "Why Not:": "replaced with something totally different", 
-    "Additions": 2
+    "Additions": 2, 
+    "Message:": "clean up rebase mistake"
   }, 
   {
     "Commit Mistakes": "https://github.com/LachlanNXT/DroidRacing/commit/4de916f9dd90a7d0c714d387ffa71afac9894bbd", 
@@ -101,7 +113,8 @@
     "Deletions:": 4, 
     "Keyword:": "syntax", 
     "Why Not:": "changed number", 
-    "Additions": 0
+    "Additions": 0, 
+    "Message:": "syntax error"
   }, 
   {
     "Commit Mistakes": "https://github.com/7ws/django-authorizenet/commit/35f7319cb18e46952971020b6437bea3c56d77d4", 
@@ -109,7 +122,8 @@
     "Deletions:": 3, 
     "Keyword:": "syntax", 
     "Why Not:": "wrote very different stuff", 
-    "Additions": 4
+    "Additions": 4, 
+    "Message:": "Improve `EXP_MONTH` and `EXP_YEAR` options building\n\n- Use `range` instead of `xrange` for Python 3 compatibility. Even with\n  Python 2, the used ranges are small enough to not worrying about.\n- Use `str.format` instead of the \"mod\" syntax.\n- Build years list with a string year as label.\n- Avoid calling `date.today` twice."
   }, 
   {
     "Commit Mistakes": "https://github.com/Antergos/antbs/commit/fe0d633aeb21429c57d3a3888b65718653c1e719", 
@@ -117,7 +131,8 @@
     "Deletions:": 1, 
     "Keyword:": "typo", 
     "Why Not:": "wrote different stuff", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "fix typo"
   }, 
   {
     "Commit Mistakes": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099", 
@@ -125,7 +140,8 @@
     "Deletions:": 40, 
     "Keyword:": "correct", 
     "Why Not:": "wrote different stuff", 
-    "Additions": 39
+    "Additions": 39, 
+    "Message:": "Minor Fixes - Typos and maths in docs\n\nEnsuring the documentation showing the functions is correct and\naccurate."
   }, 
   {
     "Commit Mistakes": "https://github.com/AdamD2/dvd-waiting-screen/commit/2862ef78db7018fa8b84131102ada5cf1bc34296", 
@@ -133,7 +149,8 @@
     "Deletions:": 0, 
     "Keyword:": "correct", 
     "Why Not:": "just added an extra line", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Added vertical and horizontal decimal values in the logo class for movement and added lines to update the rect.centerx and rect.centery values based on these decimal values. I have also added a call to logo.update() in the main function and imported the math library into logo.py. With these changes, the logo moves, but it incorrectly moves off the screen in a vertical direction."
   }, 
   {
     "Commit Mistakes": "https://github.com/Pujolsluis/quicktutors/commit/840a40016c6636ddabdab2a1f58601c0fad6e087", 
@@ -141,7 +158,8 @@
     "Deletions:": 0, 
     "Keyword:": "correct", 
     "Why Not:": "just added a bunch of more stuff", 
-    "Additions": 20
+    "Additions": 20, 
+    "Message:": "ADD \"created the open/closed buttons for the quickfire questions, and now the author of the question can also choose the correct answer and the question will be closed and the correct comment will be marked as Correct. also users are no longer able to to submit an answer once a question is closed.\""
   }, 
   {
     "Commit Mistakes": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef", 
@@ -149,7 +167,8 @@
     "Deletions:": 1, 
     "Keyword:": "indentation", 
     "Why Not:": "no real change", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "#2153: __init__.py, adjust spacing and indentation"
   }, 
   {
     "Commit Mistakes": "https://github.com/gappleto97/p2p-project/commit/45eeedb0e081436161719f94f48d40f0577bbfd9", 
@@ -157,7 +176,8 @@
     "Deletions:": 1, 
     "Keyword:": "syntax", 
     "Why Not:": "replaced with totally diffent stuff", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Correct warning syntax"
   }, 
   {
     "Commit Mistakes": "https://github.com/Firstyear/lib389/commit/24f7d8d45a2816c57ba979d36309a66b82c8b980", 
@@ -165,7 +185,8 @@
     "Deletions:": 11, 
     "Keyword:": "correct", 
     "Why Not:": "added some more stuff", 
-    "Additions": 19
+    "Additions": 19, 
+    "Message:": "Ticket 48888 - Correction to create of dsldapobject\n\nBug Description:  We did not allow properly setting of DN for singletons in\ncreate, or the many object case with the factor. This corrects that behaviour.\n\nFix Description:  If _dn is set, use it, else use the RDn + BaseDN to create\nthe dn of the object to be created\n\nhttps://fedorahosted.org/389/ticket/48888\n\nAuthor: wibrown\n\nReview by: mreynolds (Thanks)"
   }, 
   {
     "Commit Mistakes": "https://github.com/APerson241/APersonBot/commit/72a282a461edab462ace0729b0e56efcc69fd9e3", 
@@ -173,7 +194,8 @@
     "Deletions:": 3, 
     "Keyword:": "correct", 
     "Why Not:": "just added some more stuff", 
-    "Additions": 3
+    "Additions": 3, 
+    "Message:": "[botreq-status] Fix two formatting issues\n\nI wasn't counting replies correctly (the initial post doesn't count as a reply) and I wasn't formatting the last edit time outside the if block that was changed in this commit."
   }, 
   {
     "Commit Mistakes": "https://github.com/jprince14/BingTool/commit/e16b36bd4618c79675216bf212d5219546d5aa50", 
@@ -181,7 +203,8 @@
     "Deletions:": 1, 
     "Keyword:": "syntax", 
     "Why Not:": "just removed a line", 
-    "Additions": 0
+    "Additions": 0, 
+    "Message:": "Updates for python 3 syntax"
   }, 
   {
     "Commit Mistakes": "https://github.com/Firstyear/lib389/commit/81d7eab894851020b3dd605a9dd4d462c813eef8", 
@@ -189,7 +212,8 @@
     "Deletions:": 9, 
     "Keyword:": "correct", 
     "Why Not:": "just added a few lines", 
-    "Additions": 25
+    "Additions": 25, 
+    "Message:": "Ticket 48884 - Bugfixes for mapped object and new connections\n\nBug Description:  This patch corrects a number of behaviours around ldap\nconnections, and the mapped object type behaviour in certain conditions.\n(Rdn set through properties, rather than argument)\n\nFix Description:  Fix handling of ldapurl, start_tls, and mapped_objects\nwhen the rdn is part of properties.\n\nhttps://fedorahosted.org/389/ticket/48884\n\nAuthor: wibrown\n\nReview by: nhosoi (Thanks)"
   }, 
   {
     "Commit Mistakes": "https://github.com/NicolasDurrande/Gaussian-Process-short-Course/commit/e8b5ab66e69608d114036e562ae222f07b9d408b", 
@@ -197,7 +221,8 @@
     "Deletions:": 1, 
     "Keyword:": "correct", 
     "Why Not:": "replaced with very different stuff", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Lab1 Noise variance correction"
   }, 
   {
     "Commit Mistakes": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/ab6ebb6d089d6f888faceecbfadb981f166e17d5", 
@@ -205,7 +230,8 @@
     "Deletions:": 13, 
     "Keyword:": "correct", 
     "Why Not:": "very different changes", 
-    "Additions": 5
+    "Additions": 5, 
+    "Message:": "Fixing equations in documentation\n\nSome of the documented equations were incorrect, now fixed"
   }, 
   {
     "Commit Mistakes": "https://github.com/jeff1evesque/machine-learning/commit/375293fbfb2b1c023b1f7485b0f650a6241af8c5", 
@@ -213,7 +239,8 @@
     "Deletions:": 1, 
     "Keyword:": "correct", 
     "Why Not:": "just replaced ''' with \"\"\"", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "#2153: __init__.py, implement correct quoting"
   }, 
   {
     "Commit Mistakes": "https://github.com/ansible/ansible-modules-extras/commit/ac8e3f18a3c0f8c936beee06cbf44831a52c0e09", 
@@ -221,7 +248,8 @@
     "Deletions:": 4, 
     "Keyword:": "typo", 
     "Why Not:": "typos on string", 
-    "Additions": 4
+    "Additions": 4, 
+    "Message:": "Fix some typos (#2490)"
   }, 
   {
     "Commit Mistakes": "https://github.com/JGuanzon/correctv/commit/33cecaba103915dc0c2c44979c972838defb37ee", 
@@ -229,7 +257,8 @@
     "Deletions:": 0, 
     "Keyword:": "syntax", 
     "Why Not:": "changes on comments", 
-    "Additions": 4
+    "Additions": 4, 
+    "Message:": "syntax error remove"
   }, 
   {
     "Commit Mistakes": "https://github.com/bettse/wifi_uds/commit/1c35bd574c71de26f597d708ebc607daade0fea4", 
@@ -237,7 +266,8 @@
     "Deletions:": 1, 
     "Keyword:": "typo", 
     "Why Not:": "replaced number", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "typo with store=2, should be 0"
   }, 
   {
     "Commit Mistakes": "https://github.com/openstack/octavia/commit/d19eb06a67793334594257e8a0acfa7ad08e3d37", 
@@ -245,7 +275,8 @@
     "Deletions:": 5, 
     "Keyword:": "correct", 
     "Why Not:": "deleted bunch of comments", 
-    "Additions": 0
+    "Additions": 0, 
+    "Message:": "Remove untrue comment message\n\nOctavia is using graph_flow to handle building Amphora if there are\nno spares. More details can be find:\n    octavia.controller.worker.flows.amphora_flows.AmphoraFlows.get_amphora_for_lb_subflow\n\nThe comment message for 'create_load_balancer' in ControllerWorker\nis not correct.\n\nChange-Id: I9cfafd96076416c86462b333fe6e6f6abfa3fb97"
   }, 
   {
     "Commit Mistakes": "https://github.com/diegoSQK/UMKL/commit/d9bfd15c14d916c600abbf4e60a6558a4ddd0371", 
@@ -1694,12 +1725,12 @@
     "Keyword:": "length", 
     "Why Not:": "change version number", 
     "Additions": 1
-  },
+  }, 
   {
     "Changes:": [
       "-a = 1 + 1;\n", 
       "+a = 1 + 2;\n"
-     ],
+    ], 
     "Commit Mistakes": "https://github.com/Hance-Zheng/big-news/commit/da15fae9dc77a6d87a302363089d352c770396a0", 
     "Commit Corrections": "https://github.com/Hance-Zheng/big-news/commit/c7a5c3edcdffddc968a0ac59f18fcdd5ce0a17d1", 
     "Deletions:": 1, 
