@@ -655,7 +655,8 @@
     "Deletions:": 8, 
     "Keyword:": "correct", 
     "Why Not:": "Just changed part of the program", 
-    "Additions": 13
+    "Additions": 13, 
+    "Message:": "Fixed jobs not correctly searhed"
   }, 
   {
     "Commit Mistakes": "https://github.com/Five20Star/lycaon/commit/5a058764a8b5caf212ff0334e426c7c2e7aca3d8", 
@@ -663,7 +664,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Just renamed a variable", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Merge pull request #129 from shiweixxx/master\n\n\u4fee\u6539\u7b56\u8d8a"
   }, 
   {
     "Commit Mistakes": "https://github.com/alcantjm/Scripts/commit/038632f5c43e0991222ba4e2c91a85c0ed34e09c", 
@@ -671,7 +673,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "They just changed the contents of a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Edit"
   }, 
   {
     "Commit Mistakes": "https://github.com/davegermiquet/cowrie/commit/9b6247f583f408997bafae41d3c797dc6934f662", 
@@ -679,7 +682,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Misspelled the name of a command they created, but not a python error.", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "PUSH"
   }, 
   {
     "Commit Mistakes": "https://github.com/illfelder/libcloud/commit/98e56d6d9e43166e0c9d585d402bc5a2f009cb17", 
@@ -687,7 +691,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed 'str' to 'dict', but not an error", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Added testing for guest os features."
   }, 
   {
     "Commit Mistakes": "https://github.com/disiji/person_mf/commit/9c6c9bf19feb6d70aac515d15bc2dee0e3acc271", 
@@ -695,7 +700,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Commented out a line", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "removed smoothing for memory"
   }, 
   {
     "Commit Mistakes": "https://github.com/luisk89/Siie1/commit/be0cd0555731edda4229bd0e1e3e93a43c21b570", 
@@ -703,7 +709,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just changed true to false", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "cambiando formulario de add estudiantes"
   }, 
   {
     "Commit Mistakes": "https://github.com/jrios001/CMD-Journal/commit/6383b0dd4ed2d4fe0f7833cf7cee466c585a4d07", 
@@ -711,7 +718,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Removed part of a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "removed obsolete string."
   }, 
   {
     "Commit Mistakes": "https://github.com/nixiaoya/Delivery/commit/3b7c45ef7a3d8944a7132b2c47b26f964304a1c9", 
@@ -719,7 +727,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added to a string and changed the format a bit", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Update 2016-06-29: chage email title"
   }, 
   {
     "Commit Mistakes": "https://github.com/libreswan/libreswan/commit/8d5ecea0555d3b51cb9e77b76c2af019d6a901a1", 
@@ -727,7 +736,8 @@
     "Deletions:": 20, 
     "Keyword:": "missed", 
     "Why Not:": "Added a lot of things to the program, not correcting errors", 
-    "Additions": 30
+    "Additions": 30, 
+    "Message:": "kvmrunner: fix mysterious prompt corruption\n\nWhen read() returns more than SEARCHWINDOWSIZE characters\npexpect discards all but the last SEARCHWINDOWSIZE characters.\nThis results in a critical boot message being missed.\n\nSee: https://github.com/pexpect/pexpect/issues/203\n\nWhen a reboot hangs, only use \"virsh destroy\" when the VM is\npaused.  There seems to be a bug in the KVM/fedora code where a\nrebooting domain, instead of resetting, pauses."
   }, 
   {
     "Commit Mistakes": "https://github.com/1a1a11a/mimircache/commit/5f0e279d2973f9cf4b4e10411e0ed52447c8d67f", 
@@ -735,7 +745,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just changed the version", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "update low level data structure"
   }, 
   {
     "Commit Mistakes": "https://github.com/PacificBiosciences/GenomicConsensus/commit/789edc94c26392735763ce45071dbba5907e0863", 
@@ -743,7 +754,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed the name of something", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "support new rich quality values API"
   }, 
   {
     "Commit Mistakes": "https://github.com/trujunzhang/djzhang-targets/commit/7331aca83432a9ead6e35d8e975a59dc6ae90be9", 
@@ -751,7 +763,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "charset=\"utf8mb4\","
   }, 
   {
     "Commit Mistakes": "https://github.com/trujunzhang/djzhang-targets/commit/3d285806fee8e68ee624a9563db447964a202f7f", 
@@ -759,7 +772,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added another function", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "charset=\"utf8mb4\","
   }, 
   {
     "Commit Mistakes": "https://github.com/celery/celery/commit/7a3f56c32e40abad0c10e1d2182a740ba2f1805f", 
@@ -767,7 +781,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "imported another thing", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Moves hostname related utils to .utils.nodenames"
   }, 
   {
     "Commit Mistakes": "https://github.com/celery/celery/commit/7b93ce91b7311501109a4b47c0688098bb03a5df", 
@@ -775,7 +790,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced an import with another import", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Moves .utils.isatty to .platforms.isatty"
   }, 
   {
     "Commit Mistakes": "https://github.com/celery/celery/commit/b8d5dee7fd6dd93f44193e607d394178c74b1280", 
@@ -783,7 +799,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed an import", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Moves .utils.lpmerge to .utils.collections.lpmerge"
   }, 
   {
     "Commit Mistakes": "https://github.com/celery/celery/commit/8ee50a3d9f3b9ee2cc7f3b54e88b8cfb5832d456", 
@@ -791,7 +808,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed an import", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Moves .utils.strtobool to .utils.serialization"
   }, 
   {
     "Commit Mistakes": "https://github.com/PlasmaSheep/quizApp/commit/65c8a695cdba690a128f692892c02036974f92b9", 
@@ -799,7 +817,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed the name of something", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Interim commit: added rudimentary tests"
   }, 
   {
     "Commit Mistakes": "https://github.com/LessDoing/lessdoing/commit/f5754d81f325b5cc3143a074df97fbeecf0db6dd", 
@@ -807,7 +826,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added an item to a list", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "merge the errors for \"need to check section\" and tuning the layout same as the other tables."
   }, 
   {
     "Commit Mistakes": "https://github.com/underworldcode/underworld2/commit/b8fa9cd711ba36bdf6f4a41f4a17248f85ce88d3", 
@@ -815,7 +835,8 @@
     "Deletions:": 3, 
     "Keyword:": "correct", 
     "Why Not:": "Added some more to the program, not correcting errors", 
-    "Additions": 7
+    "Additions": 7, 
+    "Message:": "Don't set min/max if boundingBox not passed, lv update\n\nEnables correct auto-calc of box dims in WebGL\nAlso check and expand to 3d if 2d bounding box provided\nUpdate LavaVu with some fixes"
   }, 
   {
     "Commit Mistakes": "https://github.com/vibonadia/ICBIO/commit/bf345fe939a5df580af45d2e6569153bd68b791a", 
@@ -823,7 +844,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "edited a comment", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Update Ex01.py"
   }, 
   {
     "Commit Mistakes": "https://github.com/bestpika/pubsub-msgreceiver-python/commit/d42f87711b5357b73cc1b74454217a7228b396fc", 
@@ -831,7 +853,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Added things in brackets", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Update N0Use.py"
   }, 
   {
     "Commit Mistakes": "https://github.com/davegermiquet/cowrie/commit/ea85b431814971b90ab6744bdd43c1faa18afc8c", 
@@ -839,7 +862,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "PUSH"
   }, 
   {
     "Commit Mistakes": "https://github.com/luisk89/Siie1/commit/aa2c4c91b77c0dab8764b88efcfb5b5ce9f5691c", 
@@ -847,7 +871,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed a false to a true", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "update conflicts"
   }, 
   {
     "Commit Mistakes": "https://github.com/CSB5/ViPR2/commit/d31bf09ec750a6e2d4ec72e636db5fa187f5e2e6", 
@@ -855,7 +880,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed contents of a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Update to simple-contig-joiner-0.3"
   }, 
   {
     "Commit Mistakes": "https://github.com/WatNFV/nsf-discovery/commit/5fdf2b75c3ca5913d6f42defc780a9e9ecfb5a29", 
@@ -863,7 +889,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Made a string a unicode string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "misc"
   }, 
   {
     "Commit Mistakes": "https://github.com/MIREL-UNC/wikipedia-ner/commit/e2294dac67380f304f5d283fa6b3af34b50f6bc2", 
@@ -871,7 +898,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Added a part inside parenthesis, but not an error", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Missing a key for a dictionary"
   }, 
   {
     "Commit Mistakes": "https://github.com/MIREL-UNC/wikipedia-ner/commit/a62c73a5a50687a213da5d66cd8f53a236ab5672", 
@@ -879,7 +907,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Performed a function on a variable", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Encoding missing"
   }, 
   {
     "Commit Mistakes": "https://github.com/svenkreiss/databench/commit/3423f3a1ce790e5acb8ee4863d0801ffe1b3f6d3", 
@@ -887,7 +916,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed the version", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "version 0.4a18"
   }, 
   {
     "Commit Mistakes": "https://github.com/muccg/bpa-metadata/commit/4a067215a9d6378073df0c3ffddcacd2b3553e45", 
@@ -895,7 +925,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed the version", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Version 4.0.8 Sulphur admin fix"
   }, 
   {
     "Commit Mistakes": "https://github.com/QZHehe/Web_image_search/commit/1db58e09cf7a7045cedff0acc1d29d640dd33eda", 
@@ -903,7 +934,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Just added an import", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "upload image"
   }, 
   {
     "Commit Mistakes": "https://github.com/dmccloskey/SBaaS_LIMS/commit/1181c1e3299c460da699af46362594d7f5a3a235", 
@@ -911,7 +943,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Called the wrong function, but not an error", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "bug fix"
   }, 
   {
     "Commit Mistakes": "https://github.com/PZaytsevUSC/caravel/commit/66f9f40f6a891dda22cdcb93cd72049e4cad9f4b", 
@@ -919,7 +952,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Added more things to return in a function", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "dashboard_list handle create in base views"
   }, 
   {
     "Commit Mistakes": "https://github.com/followcat/cloudshare/commit/e9cef3d9f7b33cf62bc6dcb7e9bb4b9ade133b0c", 
@@ -927,7 +961,8 @@
     "Deletions:": 15, 
     "Keyword:": "correct", 
     "Why Not:": "Made large changes to the program, none of which were errors", 
-    "Additions": 19
+    "Additions": 19, 
+    "Message:": "Add correct current position and company from get_experience."
   }, 
   {
     "Commit Mistakes": "https://github.com/mitmproxy/mitmproxy/commit/042bcf7cf824551ac128ecff416e017ecc95f7e5", 
@@ -935,7 +970,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Added another function", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "fix mysterious tox issue"
   }, 
   {
     "Commit Mistakes": "https://github.com/lanefu/armbianDocsAndProcess/commit/57fc526799ca2810f957368456e1bf84bde3a282", 
@@ -943,7 +979,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed a link", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Update mkArmbianDocs.py"
   }, 
   {
     "Commit Mistakes": "https://github.com/sintelligentdesign/emma/commit/4a160fab3d0eca959d235d3f2a8a72dc871f40ed", 
@@ -951,7 +988,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Renamed an entry to a dictionary", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Prettified lots of functions, removed some unnecessary ones"
   }, 
   {
     "Commit Mistakes": "https://github.com/chihongze/girlfriend/commit/9144f02fbf4fba1897642ce8127430e086f14f7a", 
@@ -959,7 +997,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed the contents of the () in a tuple", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "bugfix on gf_workflow tools"
   }, 
   {
     "Commit Mistakes": "https://github.com/shubhodeep9/torn/commit/3eb0e127b386acb5df78caa40d1fd8588656189d", 
@@ -967,7 +1006,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "renamed a module", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Test 1"
   }, 
   {
     "Commit Mistakes": "https://github.com/shotakaha/kumawatch/commit/b4021fa8a503ccf8f27b4222eeefb899cfb02671", 
@@ -975,7 +1015,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Uncommented a line", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Merge branch 'develop' of https://github.com/shotakaha/kumawatch into develop"
   }, 
   {
     "Commit Mistakes": "https://github.com/Vieira-zj/ZjPyProject/commit/2ace815b694ef78762a09d654936117c30b7ba64", 
@@ -983,7 +1024,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed '5 *' to '10 *'", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Fix a bug to print the adb remount command in ReplaceHostForShell.py."
   }, 
   {
     "Commit Mistakes": "https://github.com/Mestway/CmdReader/commit/6fc7c1e9a358123fc8eb192562b4e254ace715ed", 
@@ -991,7 +1033,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Renamed a variable", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "lease_url bug fix"
   }, 
   {
     "Commit Mistakes": "https://github.com/shineit-yiwen/learning/commit/a9b0e020f9e4290f6b452aa6596ada21c6cfef8a", 
@@ -999,7 +1042,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Added a field and a comment", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "[add]tranlate to course name"
   }, 
   {
     "Commit Mistakes": "https://github.com/aaronz/nlp/commit/c29ce94e54bf96a3720c6e2cf26774e18057ea6a", 
@@ -1007,7 +1051,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed the variable used after a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "fix(mongo):fix mongo tags idf calc issue"
   }, 
   {
     "Commit Mistakes": "https://github.com/nyaruka/rapidpro/commit/3676af0f61824259e53ee00f1f0edacf18c7a9e9", 
@@ -1015,7 +1060,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed contents of a tuple", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "merge"
   }, 
   {
     "Commit Mistakes": "https://github.com/pignacio/RAAGo/commit/e81626b4d74ebc9edd4670589a308d902d164f06", 
@@ -1023,7 +1069,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added a 'b' to convert a string to bytes", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Arreglar migraciones viejas"
   }, 
   {
     "Commit Mistakes": "https://github.com/xiaweixing/appium_test/commit/250840ce65d40322af8f7f28c4739981bbe67732", 
@@ -1031,7 +1078,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed the order of items in a list", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "install cases at the beginning"
   }, 
   {
     "Changes:": [
@@ -1043,7 +1091,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Added and deleted some empty lines", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Python file"
   }, 
   {
     "Changes:": [
@@ -1055,7 +1104,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed the variable being used", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Minor session debug"
   }, 
   {
     "Changes:": [
@@ -1067,7 +1117,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed the things in the if statement, not correcting an error", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Update wunderground-grovepi-dht22.py"
   }, 
   {
     "Changes:": [
@@ -1079,7 +1130,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Added an argument", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Merge pull request #591 from PandaWei/clear_win_driver_verifier\n\nvirttest.utils_test.qemu: Fix missed param 'driver'"
   }, 
   {
     "Changes:": [
@@ -1091,7 +1143,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed the way a function was being created", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "coredevice/core: add syscall type annotation"
   }, 
   {
     "Changes:": [
@@ -1106,7 +1159,8 @@
     "Deletions:": 3, 
     "Keyword:": "correct", 
     "Why Not:": "Added more to an if statement and various other changes, not correcting errors", 
-    "Additions": 2
+    "Additions": 2, 
+    "Message:": "Wasn't printing correctly"
   }, 
   {
     "Changes:": [
@@ -1118,7 +1172,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Removed 'global' from in front of a variable", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "actuator node impl joy"
   }, 
   {
     "Changes:": [
@@ -1130,7 +1185,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed false to true", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Read wikipedia binary model"
   }, 
   {
     "Changes:": [
@@ -1142,7 +1198,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "Changed contents of a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Update setup.py"
   }, 
   {
     "Changes:": [
