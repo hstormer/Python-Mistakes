@@ -90,6 +90,13 @@ for i in data:
 		print "Changed one Why Not to Why Not:"
 
 for i in data:
+	if i.get("Tags") != None:
+		store = i.get("Tags")
+		i.pop("Tags")
+		i["Tags:"] = store
+		print "Changed one Tags to Tags:"
+
+for i in data:
 	if i.get("Keyword:") != None:
 			del i["Keyword:"]
 
@@ -109,6 +116,10 @@ for i in data:
 	if i.get("Length:") != None:
 			del i["Length:"]
 
+for i in data:
+	if i.get("Tags:") != None:
+			del i["Tags:"]
+
 
 for i in data:
 	print i
@@ -117,12 +128,12 @@ for i in data:
 	assert "Changes:" in i
 	assert "Commit Mistakes:" in i
 	assert "Commit Corrections:" in i
-	assert "Tags:" in i
+	assert "Tags:" not in i
 	assert "Message:" in i
 	assert "Why Not:" not in i
 	assert "Mistakes:" not in i
 	assert "Length:" not in i
-	assert len(i) == 7
+	assert len(i) == 6
 
 
 print data[0]

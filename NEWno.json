@@ -23,13 +23,10 @@
       "+        return create_job_response(job)\n", 
       "+    return jsonify(job.meta)\n"
     ], 
-    "Commit Mistakes": "https://github.com/mochar/corebin-api/commit/6491083fedb6da12187368e8e0baf14db30ed57b", 
-    "Commit Corrections": "https://github.com/mochar/corebin-api/commit/cee34b4e3406264139599b6025283629038ebd4a", 
     "Additions:": 13, 
     "Deletions:": 8, 
-    "Keyword:": "correct", 
-    "Why Not:": "Just changed part of the program", 
-    "Additions": 13, 
+    "Commit Mistakes:": "https://github.com/mochar/corebin-api/commit/6491083fedb6da12187368e8e0baf14db30ed57b", 
+    "Commit Corrections:": "https://github.com/mochar/corebin-api/commit/cee34b4e3406264139599b6025283629038ebd4a", 
     "Message:": "Fixed jobs not correctly searhed"
   }, 
   {
@@ -37,13 +34,10 @@
       "-            base_logger.error(\"\u3010init contact error\u3011\"  + \",uid=\" + self.user_id + \",datetime=\"+ str(datetime.now()))\n", 
       "+            base_logger.error(\"\u3010init contact error\u3011\"  + \" USER_ID  \" + self.user_id)\n"
     ], 
-    "Commit Mistakes": "https://github.com/Five20Star/lycaon/commit/5a058764a8b5caf212ff0334e426c7c2e7aca3d8", 
-    "Commit Corrections": "https://github.com/Five20Star/lycaon/commit/c39dd5e42f8ebd0ddaed47031f0809112dca3c3b", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Just renamed a variable", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/Five20Star/lycaon/commit/5a058764a8b5caf212ff0334e426c7c2e7aca3d8", 
+    "Commit Corrections:": "https://github.com/Five20Star/lycaon/commit/c39dd5e42f8ebd0ddaed47031f0809112dca3c3b", 
     "Message:": "Merge pull request #129 from shiweixxx/master\n\n\u4fee\u6539\u7b56\u8d8a"
   }, 
   {
@@ -51,13 +45,10 @@
       "-    print('Save programmar as the default? (y/n)')\n", 
       "+    print('Save programmer as default? (y/n)')\n"
     ], 
-    "Commit Mistakes": "https://github.com/alcantjm/Scripts/commit/038632f5c43e0991222ba4e2c91a85c0ed34e09c", 
-    "Commit Corrections": "https://github.com/alcantjm/Scripts/commit/a2ce92c0ab152987336ca966acb5e340c7a68f9d", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "They just changed the contents of a string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/alcantjm/Scripts/commit/038632f5c43e0991222ba4e2c91a85c0ed34e09c", 
+    "Commit Corrections:": "https://github.com/alcantjm/Scripts/commit/a2ce92c0ab152987336ca966acb5e340c7a68f9d", 
     "Message:": "Edit"
   }, 
   {
@@ -65,13 +56,10 @@
       "-                    log.msg(eventid='cowrie.command.success', input=' '.join(cmd['command'] + ' '.join(cmd['args'])), format='Command found: %(input)s')\n", 
       "+                    log.msg(eventid='cowrie.command.success', input=' '.join(cmd['command'] + ' '.join(cmd['rargs'])), format='Command found: %(input)s')\n"
     ], 
-    "Commit Mistakes": "https://github.com/davegermiquet/cowrie/commit/9b6247f583f408997bafae41d3c797dc6934f662", 
-    "Commit Corrections": "https://github.com/davegermiquet/cowrie/commit/ea85b431814971b90ab6744bdd43c1faa18afc8c", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Misspelled the name of a command they created, but not a python error.", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/davegermiquet/cowrie/commit/9b6247f583f408997bafae41d3c797dc6934f662", 
+    "Commit Corrections:": "https://github.com/davegermiquet/cowrie/commit/ea85b431814971b90ab6744bdd43c1faa18afc8c", 
     "Message:": "PUSH"
   }, 
   {
@@ -79,13 +67,10 @@
       "-        :type   guest_os_features: ``list`` of ``str`` or ``None``\n", 
       "+        :type   guest_os_features: ``list`` of ``dict`` or ``None``\n"
     ], 
-    "Commit Mistakes": "https://github.com/illfelder/libcloud/commit/98e56d6d9e43166e0c9d585d402bc5a2f009cb17", 
-    "Commit Corrections": "https://github.com/illfelder/libcloud/commit/6fb25b959ee29c67940df23ed1471fd5064f65a8", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed 'str' to 'dict', but not an error", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/illfelder/libcloud/commit/98e56d6d9e43166e0c9d585d402bc5a2f009cb17", 
+    "Commit Corrections:": "https://github.com/illfelder/libcloud/commit/6fb25b959ee29c67940df23ed1471fd5064f65a8", 
     "Message:": "Added testing for guest os features."
   }, 
   {
@@ -93,13 +78,10 @@
       "-        temp = temp * (1-alpha) + np.mean(temp,axis = 0)*alpha       \n", 
       "+        #temp = temp * (1-alpha) + np.mean(temp,axis = 0)*alpha       \n"
     ], 
-    "Commit Mistakes": "https://github.com/disiji/person_mf/commit/9c6c9bf19feb6d70aac515d15bc2dee0e3acc271", 
-    "Commit Corrections": "https://github.com/disiji/person_mf/commit/4b875b6ca54c6c80bcdf2ee11f3cc31a7f5591ac", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Commented out a line", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/disiji/person_mf/commit/9c6c9bf19feb6d70aac515d15bc2dee0e3acc271", 
+    "Commit Corrections:": "https://github.com/disiji/person_mf/commit/4b875b6ca54c6c80bcdf2ee11f3cc31a7f5591ac", 
     "Message:": "removed smoothing for memory"
   }, 
   {
@@ -107,13 +89,10 @@
       "-USE_L10N = False\n", 
       "+USE_L10N = True\n"
     ], 
-    "Commit Mistakes": "https://github.com/luisk89/Siie1/commit/be0cd0555731edda4229bd0e1e3e93a43c21b570", 
-    "Commit Corrections": "https://github.com/luisk89/Siie1/commit/2320329a082ee891c5f6c454a8ef3bf5afe5c9e9", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "just changed true to false", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/luisk89/Siie1/commit/be0cd0555731edda4229bd0e1e3e93a43c21b570", 
+    "Commit Corrections:": "https://github.com/luisk89/Siie1/commit/2320329a082ee891c5f6c454a8ef3bf5afe5c9e9", 
     "Message:": "cambiando formulario de add estudiantes"
   }, 
   {
@@ -121,13 +100,10 @@
       "-        cmd = input(\"[N]ew, [R]ead last entry, Read [a]ll, E[x]it: \")\n", 
       "+        cmd = input(\"[N]ew, Read [a]ll, E[x]it: \")\n"
     ], 
-    "Commit Mistakes": "https://github.com/jrios001/CMD-Journal/commit/6383b0dd4ed2d4fe0f7833cf7cee466c585a4d07", 
-    "Commit Corrections": "https://github.com/jrios001/CMD-Journal/commit/767cbd237323cb4a79425caecba0bfe0369aa043", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Removed part of a string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/jrios001/CMD-Journal/commit/6383b0dd4ed2d4fe0f7833cf7cee466c585a4d07", 
+    "Commit Corrections:": "https://github.com/jrios001/CMD-Journal/commit/767cbd237323cb4a79425caecba0bfe0369aa043", 
     "Message:": "removed obsolete string."
   }, 
   {
@@ -135,13 +111,10 @@
       "-    email_subject = \"Report for xx\"\r\n", 
       "+    email_subject = u'\u3010' + settings.SERVICE_FROM + u'\u3011' + u'\u4f53\u68c0\u62a5\u544a\u4e0b\u8f7d'\r\n"
     ], 
-    "Commit Mistakes": "https://github.com/nixiaoya/Delivery/commit/3b7c45ef7a3d8944a7132b2c47b26f964304a1c9", 
-    "Commit Corrections": "https://github.com/nixiaoya/Delivery/commit/97e663b29200888fbbf3a4b9f664ad5a17967c47", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "added to a string and changed the format a bit", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/nixiaoya/Delivery/commit/3b7c45ef7a3d8944a7132b2c47b26f964304a1c9", 
+    "Commit Corrections:": "https://github.com/nixiaoya/Delivery/commit/97e663b29200888fbbf3a4b9f664ad5a17967c47", 
     "Message:": "Update 2016-06-29: chage email title"
   }, 
   {
@@ -197,13 +170,10 @@
       "+            domain.shutdown()\n", 
       "+\n"
     ], 
-    "Commit Mistakes": "https://github.com/libreswan/libreswan/commit/8d5ecea0555d3b51cb9e77b76c2af019d6a901a1", 
-    "Commit Corrections": "https://github.com/libreswan/libreswan/commit/915c6b4e510ffebf66b56c4b1a3114866f489713", 
     "Additions:": 30, 
     "Deletions:": 20, 
-    "Keyword:": "missed", 
-    "Why Not:": "Added a lot of things to the program, not correcting errors", 
-    "Additions": 30, 
+    "Commit Mistakes:": "https://github.com/libreswan/libreswan/commit/8d5ecea0555d3b51cb9e77b76c2af019d6a901a1", 
+    "Commit Corrections:": "https://github.com/libreswan/libreswan/commit/915c6b4e510ffebf66b56c4b1a3114866f489713", 
     "Message:": "kvmrunner: fix mysterious prompt corruption\n\nWhen read() returns more than SEARCHWINDOWSIZE characters\npexpect discards all but the last SEARCHWINDOWSIZE characters.\nThis results in a critical boot message being missed.\n\nSee: https://github.com/pexpect/pexpect/issues/203\n\nWhen a reboot hangs, only use \"virsh destroy\" when the VM is\npaused.  There seems to be a bug in the KVM/fedora code where a\nrebooting domain, instead of resetting, pauses."
   }, 
   {
@@ -211,13 +181,10 @@
       "-__version__ = \"0.0.2.29\"\n", 
       "+__version__ = \"0.0.2.30\""
     ], 
-    "Commit Mistakes": "https://github.com/1a1a11a/mimircache/commit/5f0e279d2973f9cf4b4e10411e0ed52447c8d67f", 
-    "Commit Corrections": "https://github.com/1a1a11a/mimircache/commit/06b7f3d5ca702b8636052ef2dcc138716cc829bd", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "just changed the version", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/1a1a11a/mimircache/commit/5f0e279d2973f9cf4b4e10411e0ed52447c8d67f", 
+    "Commit Corrections:": "https://github.com/1a1a11a/mimircache/commit/06b7f3d5ca702b8636052ef2dcc138716cc829bd", 
     "Message:": "update low level data structure"
   }, 
   {
@@ -225,13 +192,10 @@
       "-    return np.array(np.clip(cc.ConsensusQVs(ai), 0, 93), dtype=np.uint8)\n", 
       "+    return np.array(np.clip(cc.ConsensusQualities(ai), 0, 93), dtype=np.uint8)\n"
     ], 
-    "Commit Mistakes": "https://github.com/PacificBiosciences/GenomicConsensus/commit/789edc94c26392735763ce45071dbba5907e0863", 
-    "Commit Corrections": "https://github.com/PacificBiosciences/GenomicConsensus/commit/1c6f0a6b4ec81f8cbbd2c51519d25443a080e356", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed the name of something", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/PacificBiosciences/GenomicConsensus/commit/789edc94c26392735763ce45071dbba5907e0863", 
+    "Commit Corrections:": "https://github.com/PacificBiosciences/GenomicConsensus/commit/1c6f0a6b4ec81f8cbbd2c51519d25443a080e356", 
     "Message:": "support new rich quality values API"
   }, 
   {
@@ -239,13 +203,10 @@
       "-        _members_id = self._get_row_id(sql, \"cities\")\n", 
       "+        _members_id = self._get_row_id(sql, \"members\")\n"
     ], 
-    "Commit Mistakes": "https://github.com/trujunzhang/djzhang-targets/commit/7331aca83432a9ead6e35d8e975a59dc6ae90be9", 
-    "Commit Corrections": "https://github.com/trujunzhang/djzhang-targets/commit/3ff258a282f1cf01dec27ed27e70402934ec9b5e", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed a string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/trujunzhang/djzhang-targets/commit/7331aca83432a9ead6e35d8e975a59dc6ae90be9", 
+    "Commit Corrections:": "https://github.com/trujunzhang/djzhang-targets/commit/3ff258a282f1cf01dec27ed27e70402934ec9b5e", 
     "Message:": "charset=\"utf8mb4\","
   }, 
   {
@@ -253,13 +214,10 @@
       "-        _memberName = _memberName.replace('\\n', '').strip()\n", 
       "+        _memberName = _memberName.replace('\\n', '').replace('\\r', '').strip()\n"
     ], 
-    "Commit Mistakes": "https://github.com/trujunzhang/djzhang-targets/commit/3d285806fee8e68ee624a9563db447964a202f7f", 
-    "Commit Corrections": "https://github.com/trujunzhang/djzhang-targets/commit/0b2da5e59f1e368e90a8cd185317963ebc611ab3", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "added another function", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/trujunzhang/djzhang-targets/commit/3d285806fee8e68ee624a9563db447964a202f7f", 
+    "Commit Corrections:": "https://github.com/trujunzhang/djzhang-targets/commit/0b2da5e59f1e368e90a8cd185317963ebc611ab3", 
     "Message:": "charset=\"utf8mb4\","
   }, 
   {
@@ -267,13 +225,10 @@
       "-from celery.utils import anon_nodename\n", 
       "+from celery.utils.nodenames import anon_nodename\n"
     ], 
-    "Commit Mistakes": "https://github.com/celery/celery/commit/7a3f56c32e40abad0c10e1d2182a740ba2f1805f", 
-    "Commit Corrections": "https://github.com/celery/celery/commit/f9380fd8a5c9b646067436a858ce14995eab6ebc", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "imported another thing", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/celery/celery/commit/7a3f56c32e40abad0c10e1d2182a740ba2f1805f", 
+    "Commit Corrections:": "https://github.com/celery/celery/commit/f9380fd8a5c9b646067436a858ce14995eab6ebc", 
     "Message:": "Moves hostname related utils to .utils.nodenames"
   }, 
   {
@@ -281,13 +236,10 @@
       "-from celery.utils import isatty\n", 
       "+from celery.platforms import isatty\n"
     ], 
-    "Commit Mistakes": "https://github.com/celery/celery/commit/7b93ce91b7311501109a4b47c0688098bb03a5df", 
-    "Commit Corrections": "https://github.com/celery/celery/commit/de6cf9552275e3894a5ddd6324f3f93900684d49", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "replaced an import with another import", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/celery/celery/commit/7b93ce91b7311501109a4b47c0688098bb03a5df", 
+    "Commit Corrections:": "https://github.com/celery/celery/commit/de6cf9552275e3894a5ddd6324f3f93900684d49", 
     "Message:": "Moves .utils.isatty to .platforms.isatty"
   }, 
   {
@@ -295,13 +247,10 @@
       "-from celery.utils import lpmerge\n", 
       "+from celery.utils.collections import lpmerge\n"
     ], 
-    "Commit Mistakes": "https://github.com/celery/celery/commit/b8d5dee7fd6dd93f44193e607d394178c74b1280", 
-    "Commit Corrections": "https://github.com/celery/celery/commit/9261fe132cdca239d1dc4a77d6d4cb55816ffdce", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed an import", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/celery/celery/commit/b8d5dee7fd6dd93f44193e607d394178c74b1280", 
+    "Commit Corrections:": "https://github.com/celery/celery/commit/9261fe132cdca239d1dc4a77d6d4cb55816ffdce", 
     "Message:": "Moves .utils.lpmerge to .utils.collections.lpmerge"
   }, 
   {
@@ -309,13 +258,10 @@
       "-from celery.utils import strtobool\n", 
       "+from celery.utils.serialization import strtobool\n"
     ], 
-    "Commit Mistakes": "https://github.com/celery/celery/commit/8ee50a3d9f3b9ee2cc7f3b54e88b8cfb5832d456", 
-    "Commit Corrections": "https://github.com/celery/celery/commit/7acdc0d452f9253e860c65f720adac69ccc4f61c", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed an import", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/celery/celery/commit/8ee50a3d9f3b9ee2cc7f3b54e88b8cfb5832d456", 
+    "Commit Corrections:": "https://github.com/celery/celery/commit/7acdc0d452f9253e860c65f720adac69ccc4f61c", 
     "Message:": "Moves .utils.strtobool to .utils.serialization"
   }, 
   {
@@ -323,13 +269,10 @@
       "-app.config.from_object(config.Config)\n", 
       "+app.config.from_object(config.Production)\n"
     ], 
-    "Commit Mistakes": "https://github.com/PlasmaSheep/quizApp/commit/65c8a695cdba690a128f692892c02036974f92b9", 
-    "Commit Corrections": "https://github.com/PlasmaSheep/quizApp/commit/5eb611c0d0859c206f94647dc5e0b3cee4c476eb", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed the name of something", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/PlasmaSheep/quizApp/commit/65c8a695cdba690a128f692892c02036974f92b9", 
+    "Commit Corrections:": "https://github.com/PlasmaSheep/quizApp/commit/5eb611c0d0859c206f94647dc5e0b3cee4c476eb", 
     "Message:": "Interim commit: added rudimentary tests"
   }, 
   {
@@ -337,13 +280,10 @@
       "-    list_display = ['id', 'name', 'url', 'status', 'lastCommentIsVa', 'labels', 'comments_count', 'created', 'modified']\n", 
       "+    list_display = ['id', 'name', 'url', 'status', 'lastCommentIsVa', 'labels', 'comments_count', 'errors', 'created', 'modified']\n"
     ], 
-    "Commit Mistakes": "https://github.com/LessDoing/lessdoing/commit/f5754d81f325b5cc3143a074df97fbeecf0db6dd", 
-    "Commit Corrections": "https://github.com/LessDoing/lessdoing/commit/67e713026edc5367b1969716aa314c505e356653", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "added an item to a list", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/LessDoing/lessdoing/commit/f5754d81f325b5cc3143a074df97fbeecf0db6dd", 
+    "Commit Corrections:": "https://github.com/LessDoing/lessdoing/commit/67e713026edc5367b1969716aa314c505e356653", 
     "Message:": "merge the errors for \"need to check section\" and tuning the layout same as the other tables."
   }, 
   {
@@ -359,13 +299,10 @@
       "+            self[\"min\"] = boundingBox[0]\n", 
       "+            self[\"max\"] = boundingBox[1]\n"
     ], 
-    "Commit Mistakes": "https://github.com/underworldcode/underworld2/commit/b8fa9cd711ba36bdf6f4a41f4a17248f85ce88d3", 
-    "Commit Corrections": "https://github.com/underworldcode/underworld2/commit/9672fdd70fadc48b92160169a72216d7def3295d", 
     "Additions:": 7, 
     "Deletions:": 3, 
-    "Keyword:": "correct", 
-    "Why Not:": "Added some more to the program, not correcting errors", 
-    "Additions": 7, 
+    "Commit Mistakes:": "https://github.com/underworldcode/underworld2/commit/b8fa9cd711ba36bdf6f4a41f4a17248f85ce88d3", 
+    "Commit Corrections:": "https://github.com/underworldcode/underworld2/commit/9672fdd70fadc48b92160169a72216d7def3295d", 
     "Message:": "Don't set min/max if boundingBox not passed, lv update\n\nEnables correct auto-calc of box dims in WebGL\nAlso check and expand to 3d if 2d bounding box provided\nUpdate LavaVu with some fixes"
   }, 
   {
@@ -373,13 +310,10 @@
       "-# Caso o usuario digite um final menor que inicial, trocamos os valores\r\n", 
       "+# Caso o usuario digite um final menor que inicial, pede que o usu\u00e1rio insira os valores novamente\r\n"
     ], 
-    "Commit Mistakes": "https://github.com/vibonadia/ICBIO/commit/bf345fe939a5df580af45d2e6569153bd68b791a", 
-    "Commit Corrections": "https://github.com/vibonadia/ICBIO/commit/d016e4a3948e4c92503f0d19d9ba7d315058fd4f", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "edited a comment", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/vibonadia/ICBIO/commit/bf345fe939a5df580af45d2e6569153bd68b791a", 
+    "Commit Corrections:": "https://github.com/vibonadia/ICBIO/commit/d016e4a3948e4c92503f0d19d9ba7d315058fd4f", 
     "Message:": "Update Ex01.py"
   }, 
   {
@@ -387,13 +321,10 @@
       "-        # args = \"'{}', '{}'\".format(foo = foo, bar = bar)\n", 
       "+        # args = \"'{foo}', '{bar}'\".format(foo = foo, bar = bar)"
     ], 
-    "Commit Mistakes": "https://github.com/bestpika/pubsub-msgreceiver-python/commit/d42f87711b5357b73cc1b74454217a7228b396fc", 
-    "Commit Corrections": "https://github.com/bestpika/pubsub-msgreceiver-python/commit/d7a6168e155810b2f866ce67a09064a2db4054ab", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Added things in brackets", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/bestpika/pubsub-msgreceiver-python/commit/d42f87711b5357b73cc1b74454217a7228b396fc", 
+    "Commit Corrections:": "https://github.com/bestpika/pubsub-msgreceiver-python/commit/d7a6168e155810b2f866ce67a09064a2db4054ab", 
     "Message:": "Update N0Use.py"
   }, 
   {
@@ -401,13 +332,10 @@
       "-                    log.msg(eventid='cowrie.command.success', input=' '.join(cmd['command'] + ' '.join(cmd['rargs'])), format='Command found: %(input)s')\n", 
       "+                    log.msg(eventid='cowrie.command.success', input=cmd['command'] + ' '.join(cmd['rargs']), format='Command found: %(input)s')\n"
     ], 
-    "Commit Mistakes": "https://github.com/davegermiquet/cowrie/commit/ea85b431814971b90ab6744bdd43c1faa18afc8c", 
-    "Commit Corrections": "https://github.com/davegermiquet/cowrie/commit/46d3bee6bdce8d86ca4657555cfa299ed9b297ed", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed a string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/davegermiquet/cowrie/commit/ea85b431814971b90ab6744bdd43c1faa18afc8c", 
+    "Commit Corrections:": "https://github.com/davegermiquet/cowrie/commit/46d3bee6bdce8d86ca4657555cfa299ed9b297ed", 
     "Message:": "PUSH"
   }, 
   {
@@ -415,13 +343,10 @@
       "-USE_L10N = False\n", 
       "+USE_L10N = True\n"
     ], 
-    "Commit Mistakes": "https://github.com/luisk89/Siie1/commit/aa2c4c91b77c0dab8764b88efcfb5b5ce9f5691c", 
-    "Commit Corrections": "https://github.com/luisk89/Siie1/commit/0e25c3755ba36b74c1cdb42a0ad9cfe925a30672", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed a false to a true", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/luisk89/Siie1/commit/aa2c4c91b77c0dab8764b88efcfb5b5ce9f5691c", 
+    "Commit Corrections:": "https://github.com/luisk89/Siie1/commit/0e25c3755ba36b74c1cdb42a0ad9cfe925a30672", 
     "Message:": "update conflicts"
   }, 
   {
@@ -429,13 +354,10 @@
       "-        LOG.fatal(\"Missing sequence name or sequence length argument\")\n", 
       "+        LOG.fatal(\"Missing sequence name or sequence length argument (or seq len 0)\")\n"
     ], 
-    "Commit Mistakes": "https://github.com/CSB5/ViPR2/commit/d31bf09ec750a6e2d4ec72e636db5fa187f5e2e6", 
-    "Commit Corrections": "https://github.com/CSB5/ViPR2/commit/605782f06ed997835c95335e4dd561375800e11f", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed contents of a string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/CSB5/ViPR2/commit/d31bf09ec750a6e2d4ec72e636db5fa187f5e2e6", 
+    "Commit Corrections:": "https://github.com/CSB5/ViPR2/commit/605782f06ed997835c95335e4dd561375800e11f", 
     "Message:": "Update to simple-contig-joiner-0.3"
   }, 
   {
@@ -443,13 +365,10 @@
       "-    if (msg['action'] == u'create_chain'):\n", 
       "+    if (msg['action'] == 'create_chain'):\n"
     ], 
-    "Commit Mistakes": "https://github.com/WatNFV/nsf-discovery/commit/5fdf2b75c3ca5913d6f42defc780a9e9ecfb5a29", 
-    "Commit Corrections": "https://github.com/WatNFV/nsf-discovery/commit/e8662615969becd765d9d70100af00c2fb84b784", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Made a string a unicode string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/WatNFV/nsf-discovery/commit/5fdf2b75c3ca5913d6f42defc780a9e9ecfb5a29", 
+    "Commit Corrections:": "https://github.com/WatNFV/nsf-discovery/commit/e8662615969becd765d9d70100af00c2fb84b784", 
     "Message:": "misc"
   }, 
   {
@@ -457,13 +376,10 @@
       "-            for line in tqdm(fi, total=LINES[args.experiment_kind]):\n", 
       "+            for line in tqdm(fi, total=LINES[args.experiment_kind][conll_file]):\n"
     ], 
-    "Commit Mistakes": "https://github.com/MIREL-UNC/wikipedia-ner/commit/e2294dac67380f304f5d283fa6b3af34b50f6bc2", 
-    "Commit Corrections": "https://github.com/MIREL-UNC/wikipedia-ner/commit/a62c73a5a50687a213da5d66cd8f53a236ab5672", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Added a part inside parenthesis, but not an error", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/MIREL-UNC/wikipedia-ner/commit/e2294dac67380f304f5d283fa6b3af34b50f6bc2", 
+    "Commit Corrections:": "https://github.com/MIREL-UNC/wikipedia-ner/commit/a62c73a5a50687a213da5d66cd8f53a236ab5672", 
     "Message:": "Missing a key for a dictionary"
   }, 
   {
@@ -471,13 +387,10 @@
       "-                    print(line, file=fo)\n", 
       "+                    print(line.encode('utf-8'), file=fo)"
     ], 
-    "Commit Mistakes": "https://github.com/MIREL-UNC/wikipedia-ner/commit/a62c73a5a50687a213da5d66cd8f53a236ab5672", 
-    "Commit Corrections": "https://github.com/MIREL-UNC/wikipedia-ner/commit/482a06a4145edae5a58901b90fb12c7880595c1b", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Performed a function on a variable", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/MIREL-UNC/wikipedia-ner/commit/a62c73a5a50687a213da5d66cd8f53a236ab5672", 
+    "Commit Corrections:": "https://github.com/MIREL-UNC/wikipedia-ner/commit/482a06a4145edae5a58901b90fb12c7880595c1b", 
     "Message:": "Encoding missing"
   }, 
   {
@@ -485,13 +398,10 @@
       "-__version__ = \"0.4a17\"\n", 
       "+__version__ = \"0.4a18\"\n"
     ], 
-    "Commit Mistakes": "https://github.com/svenkreiss/databench/commit/3423f3a1ce790e5acb8ee4863d0801ffe1b3f6d3", 
-    "Commit Corrections": "https://github.com/svenkreiss/databench/commit/642cc176345eaac4607bd2e477888cd163d7dc30", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed the version", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/svenkreiss/databench/commit/3423f3a1ce790e5acb8ee4863d0801ffe1b3f6d3", 
+    "Commit Corrections:": "https://github.com/svenkreiss/databench/commit/642cc176345eaac4607bd2e477888cd163d7dc30", 
     "Message:": "version 0.4a18"
   }, 
   {
@@ -499,13 +409,10 @@
       "+\n", 
       "-\n"
     ], 
-    "Commit Mistakes": "https://github.com/sruddell09/spamDetect/commit/028ceefc51d5a23d986c2144f3ac1c632e5cd074", 
-    "Commit Corrections": "https://github.com/sruddell09/spamDetect/commit/17dc535a9966f4e17a0a0bd384b4a4dbaa864b96", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Added and deleted some empty lines", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/sruddell09/spamDetect/commit/028ceefc51d5a23d986c2144f3ac1c632e5cd074", 
+    "Commit Corrections:": "https://github.com/sruddell09/spamDetect/commit/17dc535a9966f4e17a0a0bd384b4a4dbaa864b96", 
     "Message:": "Python file"
   }, 
   {
@@ -513,13 +420,10 @@
       "-      version='4.0.7',\n", 
       "+      version='4.0.8',\n"
     ], 
-    "Commit Mistakes": "https://github.com/muccg/bpa-metadata/commit/4a067215a9d6378073df0c3ffddcacd2b3553e45", 
-    "Commit Corrections": "https://github.com/muccg/bpa-metadata/commit/c0283ff7dc08a13bb0e9c3065caa5a33e35e56aa", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed the version", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/muccg/bpa-metadata/commit/4a067215a9d6378073df0c3ffddcacd2b3553e45", 
+    "Commit Corrections:": "https://github.com/muccg/bpa-metadata/commit/c0283ff7dc08a13bb0e9c3065caa5a33e35e56aa", 
     "Message:": "Version 4.0.8 Sulphur admin fix"
   }, 
   {
@@ -527,13 +431,10 @@
       "-from image import Image, PaletteQuery\n", 
       "+from image import Image, PaletteQuery, ImageUpload\n"
     ], 
-    "Commit Mistakes": "https://github.com/QZHehe/Web_image_search/commit/1db58e09cf7a7045cedff0acc1d29d640dd33eda", 
-    "Commit Corrections": "https://github.com/QZHehe/Web_image_search/commit/ec152d6ef6e9a5c7f17d6c886b87b7640df1f156", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Just added an import", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/QZHehe/Web_image_search/commit/1db58e09cf7a7045cedff0acc1d29d640dd33eda", 
+    "Commit Corrections:": "https://github.com/QZHehe/Web_image_search/commit/ec152d6ef6e9a5c7f17d6c886b87b7640df1f156", 
     "Message:": "upload image"
   }, 
   {
@@ -541,13 +442,10 @@
       "-                    sample_description.sample_description.like(sample_description_I),\n", 
       "+                    sample_description.sample_desc.like(sample_description_I),\n"
     ], 
-    "Commit Mistakes": "https://github.com/dmccloskey/SBaaS_LIMS/commit/1181c1e3299c460da699af46362594d7f5a3a235", 
-    "Commit Corrections": "https://github.com/dmccloskey/SBaaS_LIMS/commit/2b897a8db35e5852a1ba9d50a0a5f2d8a0a554d2", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Called the wrong function, but not an error", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/dmccloskey/SBaaS_LIMS/commit/1181c1e3299c460da699af46362594d7f5a3a235", 
+    "Commit Corrections:": "https://github.com/dmccloskey/SBaaS_LIMS/commit/2b897a8db35e5852a1ba9d50a0a5f2d8a0a554d2", 
     "Message:": "bug fix"
   }, 
   {
@@ -555,13 +453,10 @@
       "-        return self.dashboard_title\n", 
       "+        return (self.dashboard_title, self.id, self.slices)\n"
     ], 
-    "Commit Mistakes": "https://github.com/PZaytsevUSC/caravel/commit/66f9f40f6a891dda22cdcb93cd72049e4cad9f4b", 
-    "Commit Corrections": "https://github.com/PZaytsevUSC/caravel/commit/9220a6dcb805ecc65266252bc3d6f0ed361939ae", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Added more things to return in a function", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/PZaytsevUSC/caravel/commit/66f9f40f6a891dda22cdcb93cd72049e4cad9f4b", 
+    "Commit Corrections:": "https://github.com/PZaytsevUSC/caravel/commit/9220a6dcb805ecc65266252bc3d6f0ed361939ae", 
     "Message:": "dashboard_list handle create in base views"
   }, 
   {
@@ -601,13 +496,10 @@
       "-    info_dict[\"experience\"] = get_experience(stream)\n", 
       "+    info_dict.update(get_experience(stream))\n"
     ], 
-    "Commit Mistakes": "https://github.com/followcat/cloudshare/commit/e9cef3d9f7b33cf62bc6dcb7e9bb4b9ade133b0c", 
-    "Commit Corrections": "https://github.com/followcat/cloudshare/commit/bf24c90ab5da9b0d50137335e76af93dd45f8f2a", 
     "Additions:": 19, 
     "Deletions:": 15, 
-    "Keyword:": "correct", 
-    "Why Not:": "Made large changes to the program, none of which were errors", 
-    "Additions": 19, 
+    "Commit Mistakes:": "https://github.com/followcat/cloudshare/commit/e9cef3d9f7b33cf62bc6dcb7e9bb4b9ade133b0c", 
+    "Commit Corrections:": "https://github.com/followcat/cloudshare/commit/bf24c90ab5da9b0d50137335e76af93dd45f8f2a", 
     "Message:": "Add correct current position and company from get_experience."
   }, 
   {
@@ -615,13 +507,10 @@
       "-    group = parser.add_argument_group(\"Proxy Modes\").add_mutually_exclusive_group()\n", 
       "+    group = parser.add_argument_group(\"Proxy Modes\")\n"
     ], 
-    "Commit Mistakes": "https://github.com/mitmproxy/mitmproxy/commit/042bcf7cf824551ac128ecff416e017ecc95f7e5", 
-    "Commit Corrections": "https://github.com/mitmproxy/mitmproxy/commit/3b53d3e393f30879420b4407583c42bb1f51563e", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Added another function", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/mitmproxy/mitmproxy/commit/042bcf7cf824551ac128ecff416e017ecc95f7e5", 
+    "Commit Corrections:": "https://github.com/mitmproxy/mitmproxy/commit/3b53d3e393f30879420b4407583c42bb1f51563e", 
     "Message:": "fix mysterious tox issue"
   }, 
   {
@@ -629,13 +518,10 @@
       "-repo_url: https://git.royall.com/srt/Documentation.git\n", 
       "+repo_url: https://github.com/lanefu/armbianDocsAndProcess\n"
     ], 
-    "Commit Mistakes": "https://github.com/lanefu/armbianDocsAndProcess/commit/57fc526799ca2810f957368456e1bf84bde3a282", 
-    "Commit Corrections": "https://github.com/lanefu/armbianDocsAndProcess/commit/a9a46561772245ae6a71e605ebe419aaeb5392c3", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed a link", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/lanefu/armbianDocsAndProcess/commit/57fc526799ca2810f957368456e1bf84bde3a282", 
+    "Commit Corrections:": "https://github.com/lanefu/armbianDocsAndProcess/commit/a9a46561772245ae6a71e605ebe419aaeb5392c3", 
     "Message:": "Update mkArmbianDocs.py"
   }, 
   {
@@ -643,13 +529,10 @@
       "-    'deleteAsks': True\n", 
       "+    'enableAskDeletion': True\n"
     ], 
-    "Commit Mistakes": "https://github.com/sintelligentdesign/emma/commit/4a160fab3d0eca959d235d3f2a8a72dc871f40ed", 
-    "Commit Corrections": "https://github.com/sintelligentdesign/emma/commit/d7e25222db0384813d3e7eab00d098495fc21af4", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Renamed an entry to a dictionary", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/sintelligentdesign/emma/commit/4a160fab3d0eca959d235d3f2a8a72dc871f40ed", 
+    "Commit Corrections:": "https://github.com/sintelligentdesign/emma/commit/d7e25222db0384813d3e7eab00d098495fc21af4", 
     "Message:": "Prettified lots of functions, removed some unnecessary ones"
   }, 
   {
@@ -657,13 +540,10 @@
       "-                           for col in tmp_result[unique_columns])\n", 
       "+                           for col in title_column_values)\n"
     ], 
-    "Commit Mistakes": "https://github.com/chihongze/girlfriend/commit/9144f02fbf4fba1897642ce8127430e086f14f7a", 
-    "Commit Corrections": "https://github.com/chihongze/girlfriend/commit/8f1a0496ad2f49c31172be84096798d9b49700a7", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed the contents of the () in a tuple", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/chihongze/girlfriend/commit/9144f02fbf4fba1897642ce8127430e086f14f7a", 
+    "Commit Corrections:": "https://github.com/chihongze/girlfriend/commit/8f1a0496ad2f49c31172be84096798d9b49700a7", 
     "Message:": "bugfix on gf_workflow tools"
   }, 
   {
@@ -671,13 +551,10 @@
       "-    py_modules=[\"torn\",\"new\",\"colors\"],\n", 
       "+    py_modules=[\"torn\",\"newapp\",\"colors\"],\n"
     ], 
-    "Commit Mistakes": "https://github.com/shubhodeep9/torn/commit/3eb0e127b386acb5df78caa40d1fd8588656189d", 
-    "Commit Corrections": "https://github.com/shubhodeep9/torn/commit/194cc0dc52ac16b231200e8e418380426cb52e58", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "renamed a module", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/shubhodeep9/torn/commit/3eb0e127b386acb5df78caa40d1fd8588656189d", 
+    "Commit Corrections:": "https://github.com/shubhodeep9/torn/commit/194cc0dc52ac16b231200e8e418380426cb52e58", 
     "Message:": "Test 1"
   }, 
   {
@@ -685,13 +562,10 @@
       "-#sys.path.insert(0, os.path.abspath('.'))\n", 
       "+sys.path.insert(0, os.path.abspath('..'))\n"
     ], 
-    "Commit Mistakes": "https://github.com/shotakaha/kumawatch/commit/b4021fa8a503ccf8f27b4222eeefb899cfb02671", 
-    "Commit Corrections": "https://github.com/shotakaha/kumawatch/commit/fc36e4bba8c63b90136dd5487ce0b7f5185225be", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Uncommented a line", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/shotakaha/kumawatch/commit/b4021fa8a503ccf8f27b4222eeefb899cfb02671", 
+    "Commit Corrections:": "https://github.com/shotakaha/kumawatch/commit/fc36e4bba8c63b90136dd5487ce0b7f5185225be", 
     "Message:": "Merge branch 'develop' of https://github.com/shotakaha/kumawatch into develop"
   }, 
   {
@@ -699,13 +573,10 @@
       "-    g_run_time = 5 * MonitorUtils.g_min\n", 
       "+    g_run_time = 10 * MonitorUtils.g_min\n"
     ], 
-    "Commit Mistakes": "https://github.com/Vieira-zj/ZjPyProject/commit/2ace815b694ef78762a09d654936117c30b7ba64", 
-    "Commit Corrections": "https://github.com/Vieira-zj/ZjPyProject/commit/531ed329fe3e410324d583aabb961d6f33ab6253", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed '5 *' to '10 *'", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/Vieira-zj/ZjPyProject/commit/2ace815b694ef78762a09d654936117c30b7ba64", 
+    "Commit Corrections:": "https://github.com/Vieira-zj/ZjPyProject/commit/531ed329fe3e410324d583aabb961d6f33ab6253", 
     "Message:": "Fix a bug to print the adb remount command in ReplaceHostForShell.py."
   }, 
   {
@@ -713,13 +584,10 @@
       "-                        print(\"Leased: \" + url + \" to \" + str(user))\n", 
       "+                        print(\"Leased: \" + url + \" to \" + str(user_id))\n"
     ], 
-    "Commit Mistakes": "https://github.com/Mestway/CmdReader/commit/6fc7c1e9a358123fc8eb192562b4e254ace715ed", 
-    "Commit Corrections": "https://github.com/Mestway/CmdReader/commit/7f7a1d31e761c92c8f4b1416e3d291192887c9fa", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Renamed a variable", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/Mestway/CmdReader/commit/6fc7c1e9a358123fc8eb192562b4e254ace715ed", 
+    "Commit Corrections:": "https://github.com/Mestway/CmdReader/commit/7f7a1d31e761c92c8f4b1416e3d291192887c9fa", 
     "Message:": "lease_url bug fix"
   }, 
   {
@@ -727,13 +595,10 @@
       "-\tname = fields.Char(string = \"Title\",required = True)\n", 
       "+\tname = fields.Char(string = \"Title\",required = True,translate=True)#translate=True\u8868\u793a\u5b57\u6bb5\u540e\u9762\u7684\u6309\u94ae\u70b9\u8fdb\u53bb\u80fd\u770b\u5230\u539f\u6587\n"
     ], 
-    "Commit Mistakes": "https://github.com/shineit-yiwen/learning/commit/a9b0e020f9e4290f6b452aa6596ada21c6cfef8a", 
-    "Commit Corrections": "https://github.com/shineit-yiwen/learning/commit/7471251a8dba25594169b7ee183771ea7bf772b8", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Added a field and a comment", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/shineit-yiwen/learning/commit/a9b0e020f9e4290f6b452aa6596ada21c6cfef8a", 
+    "Commit Corrections:": "https://github.com/shineit-yiwen/learning/commit/7471251a8dba25594169b7ee183771ea7bf772b8", 
     "Message:": "[add]tranlate to course name"
   }, 
   {
@@ -741,13 +606,10 @@
       "-        util.print_message('Start counting tf-idf...', debug=True)\n", 
       "+        util.print_message('Start counting tf-idf...', url)\n"
     ], 
-    "Commit Mistakes": "https://github.com/aaronz/nlp/commit/c29ce94e54bf96a3720c6e2cf26774e18057ea6a", 
-    "Commit Corrections": "https://github.com/aaronz/nlp/commit/a49e1722abcdfd6575bd4519ebf62a7291f75c0c", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed the variable used after a string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/aaronz/nlp/commit/c29ce94e54bf96a3720c6e2cf26774e18057ea6a", 
+    "Commit Corrections:": "https://github.com/aaronz/nlp/commit/a49e1722abcdfd6575bd4519ebf62a7291f75c0c", 
     "Message:": "fix(mongo):fix mongo tags idf calc issue"
   }, 
   {
@@ -755,13 +617,10 @@
       "-\ttotal_count = session.get('counter', 0)\n", 
       "+\ttotal_count = session.get('total_count', 0)\n"
     ], 
-    "Commit Mistakes": "https://github.com/cweems/nyc-txt-afterschool/commit/6befddd72423501197cbc6670b9ef1c6e1c23f33", 
-    "Commit Corrections": "https://github.com/cweems/nyc-txt-afterschool/commit/99b7655445faa2f8a578c027459265711f8757dc", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed the variable being used", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/cweems/nyc-txt-afterschool/commit/6befddd72423501197cbc6670b9ef1c6e1c23f33", 
+    "Commit Corrections:": "https://github.com/cweems/nyc-txt-afterschool/commit/99b7655445faa2f8a578c027459265711f8757dc", 
     "Message:": "Minor session debug"
   }, 
   {
@@ -769,13 +628,10 @@
       "-        ('flows', '0055_populate_step_broadcasts'),\n", 
       "+        ('flows', '0056_indexes_update'),\n"
     ], 
-    "Commit Mistakes": "https://github.com/nyaruka/rapidpro/commit/3676af0f61824259e53ee00f1f0edacf18c7a9e9", 
-    "Commit Corrections": "https://github.com/nyaruka/rapidpro/commit/03bd377cca165dd3370e99fba89215fad3700981", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "changed contents of a tuple", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/nyaruka/rapidpro/commit/3676af0f61824259e53ee00f1f0edacf18c7a9e9", 
+    "Commit Corrections:": "https://github.com/nyaruka/rapidpro/commit/03bd377cca165dd3370e99fba89215fad3700981", 
     "Message:": "merge"
   }, 
   {
@@ -783,13 +639,10 @@
       "-                (b'objects', django.contrib.sites.models.SiteManager()),\n", 
       "+                ('objects', django.contrib.sites.models.SiteManager()),\n"
     ], 
-    "Commit Mistakes": "https://github.com/pignacio/RAAGo/commit/e81626b4d74ebc9edd4670589a308d902d164f06", 
-    "Commit Corrections": "https://github.com/pignacio/RAAGo/commit/0cef6e1031e7dd4068269aef9cd967739b82ec13", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "added a 'b' to convert a string to bytes", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/pignacio/RAAGo/commit/e81626b4d74ebc9edd4670589a308d902d164f06", 
+    "Commit Corrections:": "https://github.com/pignacio/RAAGo/commit/0cef6e1031e7dd4068269aef9cd967739b82ec13", 
     "Message:": "Arreglar migraciones viejas"
   }, 
   {
@@ -797,13 +650,10 @@
       "-file_names = ['atc_connect', 'atc_discover', 'atc_install', 'atc_my']\n", 
       "+file_names = ['atc_install', 'atc_connect', 'atc_discover', 'atc_my']\n"
     ], 
-    "Commit Mistakes": "https://github.com/xiaweixing/appium_test/commit/250840ce65d40322af8f7f28c4739981bbe67732", 
-    "Commit Corrections": "https://github.com/xiaweixing/appium_test/commit/20b317135fc175f814a23b3a636ccf031cfda2d4", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed the order of items in a list", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/xiaweixing/appium_test/commit/250840ce65d40322af8f7f28c4739981bbe67732", 
+    "Commit Corrections:": "https://github.com/xiaweixing/appium_test/commit/20b317135fc175f814a23b3a636ccf031cfda2d4", 
     "Message:": "install cases at the beginning"
   }, 
   {
@@ -811,13 +661,10 @@
       "-        if ((conditions != False) and (astronomy != False)):\n", 
       "+        if ('current_observation' not in conditions) or ('moon_phase' not in astronomy):\n"
     ], 
-    "Commit Mistakes": "https://github.com/InitialState/grovepi/commit/2db876bf5e4f0740a389269df4e714074f006243", 
-    "Commit Corrections": "https://github.com/InitialState/grovepi/commit/e8f3e42ab3cf64151829be3711d84131b996fde0", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed the things in the if statement, not correcting an error", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/InitialState/grovepi/commit/2db876bf5e4f0740a389269df4e714074f006243", 
+    "Commit Corrections:": "https://github.com/InitialState/grovepi/commit/e8f3e42ab3cf64151829be3711d84131b996fde0", 
     "Message:": "Update wunderground-grovepi-dht22.py"
   }, 
   {
@@ -825,13 +672,10 @@
       "-def clear_win_driver_verifier(session, vm, timeout=300):\n", 
       "+def clear_win_driver_verifier(session, driver, vm, timeout=300):\n"
     ], 
-    "Commit Mistakes": "https://github.com/avocado-framework/avocado-vt/commit/d8a8ddd63287a235156f3fad479b2689f456ca37", 
-    "Commit Corrections": "https://github.com/avocado-framework/avocado-vt/commit/5a33ccc4348de6f092fa42193cb1fa207a556b90", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Added an argument", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/avocado-framework/avocado-vt/commit/d8a8ddd63287a235156f3fad479b2689f456ca37", 
+    "Commit Corrections:": "https://github.com/avocado-framework/avocado-vt/commit/5a33ccc4348de6f092fa42193cb1fa207a556b90", 
     "Message:": "Merge pull request #591 from PandaWei/clear_win_driver_verifier\n\nvirttest.utils_test.qemu: Fix missed param 'driver'"
   }, 
   {
@@ -839,13 +683,10 @@
       "-def rtio_init():\n", 
       "+def rtio_init() -> TNone:\n"
     ], 
-    "Commit Mistakes": "https://github.com/m-labs/artiq/commit/c8dc6ca07c12988ca27b56950911045101f476cf", 
-    "Commit Corrections": "https://github.com/m-labs/artiq/commit/c6e54e30169c3df7c4237641a225969fb3d20d75", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed the way a function was being created", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/m-labs/artiq/commit/c8dc6ca07c12988ca27b56950911045101f476cf", 
+    "Commit Corrections:": "https://github.com/m-labs/artiq/commit/c6e54e30169c3df7c4237641a225969fb3d20d75", 
     "Message:": "coredevice/core: add syscall type annotation"
   }, 
   {
@@ -856,13 +697,10 @@
       "-                    if class_string.endswith('-DOC'):\n", 
       "+                    if class_string.endswith('-DOC') and int(idx) == 1:\n"
     ], 
-    "Commit Mistakes": "https://github.com/MIREL-UNC/wikipedia-ner/commit/482a06a4145edae5a58901b90fb12c7880595c1b", 
-    "Commit Corrections": "https://github.com/MIREL-UNC/wikipedia-ner/commit/bc3a01e90bc616999b85542e4c78f308409ab23e", 
     "Additions:": 2, 
     "Deletions:": 3, 
-    "Keyword:": "correct", 
-    "Why Not:": "Added more to an if statement and various other changes, not correcting errors", 
-    "Additions": 2, 
+    "Commit Mistakes:": "https://github.com/MIREL-UNC/wikipedia-ner/commit/482a06a4145edae5a58901b90fb12c7880595c1b", 
+    "Commit Corrections:": "https://github.com/MIREL-UNC/wikipedia-ner/commit/bc3a01e90bc616999b85542e4c78f308409ab23e", 
     "Message:": "Wasn't printing correctly"
   }, 
   {
@@ -870,13 +708,10 @@
       "-global g_request_queue = []\n", 
       "+g_request_queue = []\n"
     ], 
-    "Commit Mistakes": "https://github.com/Mygao/p1_test/commit/69f462eea074657ad14ebebf2c0b2a216bb4d28d", 
-    "Commit Corrections": "https://github.com/Mygao/p1_test/commit/30e727ca2425e7abf968c5f38786564613efc67e", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Removed 'global' from in front of a variable", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/Mygao/p1_test/commit/69f462eea074657ad14ebebf2c0b2a216bb4d28d", 
+    "Commit Corrections:": "https://github.com/Mygao/p1_test/commit/30e727ca2425e7abf968c5f38786564613efc67e", 
     "Message:": "actuator node impl joy"
   }, 
   {
@@ -884,13 +719,10 @@
       "-        model = gensim.models.Word2Vec.load_word2vec_format(\"model/wiki.en.text.vector\", binary=False)\n", 
       "+        model = gensim.models.Word2Vec.load_word2vec_format(\"model/wiki.en.text.vector\", binary=True)\n"
     ], 
-    "Commit Mistakes": "https://github.com/t-mai/co-occurrence-analysis/commit/e044c523ac423d7e2f8c28d6f4c104b9963bd0d7", 
-    "Commit Corrections": "https://github.com/t-mai/co-occurrence-analysis/commit/d4cd7b5b2e56e3763ac7931f5dd2a5d5f31f1bdf", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed false to true", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/t-mai/co-occurrence-analysis/commit/e044c523ac423d7e2f8c28d6f4c104b9963bd0d7", 
+    "Commit Corrections:": "https://github.com/t-mai/co-occurrence-analysis/commit/d4cd7b5b2e56e3763ac7931f5dd2a5d5f31f1bdf", 
     "Message:": "Read wikipedia binary model"
   }, 
   {
@@ -898,13 +730,10 @@
       "-                          'wand>=0.4.3'],\n", 
       "+                          'Wand>=0.4.3'],\n"
     ], 
-    "Commit Mistakes": "https://github.com/GGiecold/PySCUBA/commit/c397ca31103901a74642f4d3ced3a42324ea18cb", 
-    "Commit Corrections": "https://github.com/GGiecold/PySCUBA/commit/5c7531183a03142a282c6cf95b39add495293194", 
     "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Why Not:": "Changed contents of a string", 
-    "Additions": 1, 
+    "Commit Mistakes:": "https://github.com/GGiecold/PySCUBA/commit/c397ca31103901a74642f4d3ced3a42324ea18cb", 
+    "Commit Corrections:": "https://github.com/GGiecold/PySCUBA/commit/5c7531183a03142a282c6cf95b39add495293194", 
     "Message:": "Update setup.py"
   }
 ]
