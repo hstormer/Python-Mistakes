@@ -2,28 +2,28 @@
   {
     "Commit Mistakes": "https://github.com/yeti/yurt/commit/b855a680b7698650e45e32d248f1f4e79252f718", 
     "Commit Corrections": "https://github.com/yeti/yurt/commit/d61937ab2da8cf1b9664389de6fa7e7dd53fc8dd", 
+    "Additions:": 22, 
     "Deletions:": 38, 
     "Keyword:": "indentation", 
     "Why Not:": "updated a lot of other stuff", 
-    "Additions": 22, 
     "Message:": "Code Review:\n\n- Add \"`\" to a print message\n- Fix indentation\n- Refactor some vault stuff in another method"
   }, 
   {
     "Commit Mistakes": "https://github.com/shotat/ansible-modules-extras/commit/ac8e3f18a3c0f8c936beee06cbf44831a52c0e09", 
     "Commit Corrections": "https://github.com/shotat/ansible-modules-extras/commit/8bef15443a5bcfbdf329f20b2a9c9f9effa7d22d", 
+    "Additions:": 4, 
     "Deletions:": 4, 
     "Keyword:": "typo", 
     "Why Not:": "it's a typo in string", 
-    "Additions": 4, 
     "Message:": "Fix some typos"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/d3954481844ef931ede8ff0a8c09139e529e70a5", 
     "Commit Corrections": "https://github.com/astrocatalogs/sne/commit/6a7285e47f9c4c4f09a5a762788cfec2633e74b3", 
+    "Additions:": 2, 
     "Deletions:": 3, 
     "Keyword:": "syntax", 
-    "Why Not:": "did not enter the right name", 
-    "Additions": 2, 
+    "Why Not:": "did not enter the right name",
     "Message:": "BUG: replaced old Events syntax from CCCP"
   }, 
   {
@@ -38,10 +38,10 @@
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/cfda9b38a6977a23fd92c4bece2068dda13d7625", 
     "Commit Corrections": "https://github.com/astrocatalogs/sne/commit/5c5c08a146f3c874f5d7c71573641bf4973aaccc", 
+    "Additions:": 3, 
     "Deletions:": 0, 
     "Keyword:": "syntax", 
     "Why Not:": "just added some stuff", 
-    "Additions": 3, 
     "Message:": "Merge branch 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne into lzkelley-restructure-import\n\n* 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne:\n  BUG: replaced old Events syntax from CCCP\n  BUG: changed current_task to Task object Some of the other Task methods were being called so a string alone was not sufficient"
   }, 
   {
@@ -344,46 +344,46 @@
   {
     "Commit Mistakes": "https://github.com/DustinHolden/Anthos/commit/bfdd6bdd86d84ef6ac3109d23fc34e10e5c99e1d", 
     "Commit Corrections": "https://github.com/DustinHolden/Anthos/commit/802f8ecac917e74c193edab50208c2b671cf0436", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced some code words with something different", 
-    "Additions": 1, 
     "Message:": "Production Summary, added Seconds processing"
   }, 
   {
     "Commit Mistakes": "https://github.com/thuzhf/history_analysis/commit/105ad97cfa70933035f6189b6ced1d5a902e9c42", 
     "Commit Corrections": "https://github.com/thuzhf/history_analysis/commit/5028a3950984d89eb12241164f840941b5b43820", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced with something different", 
-    "Additions": 1, 
     "Message:": "small fix"
   }, 
   {
     "Commit Mistakes": "https://github.com/jmpark6846/django-fcm-push/commit/638e27d0662e190a58661d1bcf0696ca9748fd60", 
     "Commit Corrections": "https://github.com/jmpark6846/django-fcm-push/commit/d0a01a025f558c2d34ec6277c0e5ceb2a2db0e60", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced with something different", 
-    "Additions": 1, 
     "Message:": "\uc790\uc798\ud55c \ubcc0\uacbd"
   }, 
   {
     "Commit Mistakes": "https://github.com/gt-ros-pkg/hrl-assistive/commit/b9eb0e5026c912d36be082ce3e9f36341282b5ca", 
     "Commit Corrections": "https://github.com/gt-ros-pkg/hrl-assistive/commit/31a1b3a6fa4637467692700b711b750d76d66231", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced numbers", 
-    "Additions": 1, 
     "Message:": "\tmodified:   ../params.py"
   }, 
   {
     "Commit Mistakes": "https://github.com/vauxoo-dev/rma/commit/8812b884a81464d06868f1b7bae949b602c59b1d", 
     "Commit Corrections": "https://github.com/vauxoo-dev/rma/commit/e78096cb9ad0b207d6a0863bc0811e569c927d18", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced with something different", 
-    "Additions": 1, 
     "Message:": "[IMP] Bye to crm_rma_lot_mass_return module: crm_rma_lot_mass_return module was joined with crm_claim_rma"
   }, 
   {
@@ -416,271 +416,271 @@
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/5c5c08a146f3c874f5d7c71573641bf4973aaccc", 
     "Commit Corrections": "https://github.com/astrocatalogs/sne/commit/e8a820eed4b62bd0eb173f2a54f8187c8dd84cca", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced some stuff", 
-    "Additions": 1, 
     "Message:": "Merge branch 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne into lzkelley-restructure-import\n\n* 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne:\n  BUG: replaced old Events calls"
   }, 
   {
     "Commit Mistakes": "https://github.com/ceph/teuthology/commit/3e7e0a357ed2407b14daaf1c65ebf5e6be460681", 
     "Commit Corrections": "https://github.com/ceph/teuthology/commit/5dc130c08714053780b993fb7b4da871c7448f5d", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed operation sign", 
-    "Additions": 1, 
     "Message:": "suite.py: must pass at least once through the backtrack loop\n\nChanging the default of newest to '0' meant that the combined\nloop which handles both backtrack and non-backtrack conditions\nwas never executing, leading to undefined variables.\n\nSigned-off-by: Dan Mick <dan.mick@redhat.com>"
   }, 
   {
     "Commit Mistakes": "https://github.com/ceph/teuthology/commit/3e7e0a357ed2407b14daaf1c65ebf5e6be460681", 
     "Commit Corrections": "https://github.com/ceph/teuthology/commit/f893e94398670a514f222505e6d0d8f43bee2b88", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed operation sign", 
-    "Additions": 1, 
     "Message:": "Merge pull request #888 from dmick/master\n\nsuite.py: must pass at least once through the backtrack loop"
   }, 
   {
     "Commit Mistakes": "https://github.com/mrbitsdcf/django-easygeoip/commit/e621efe2412d6372a0464688b281aab4ceb3548f", 
     "Commit Corrections": "https://github.com/mrbitsdcf/django-easygeoip/commit/022626736dd21e328166fd31eea2186b8aac35c4", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "no real changes", 
-    "Additions": 1, 
     "Message:": "Adjust geoip2 db"
   }, 
   {
     "Commit Mistakes": "https://github.com/caton-wang/godbless/commit/43026ecfc191da7ac2aab4f7489677d8a02f321d", 
     "Commit Corrections": "https://github.com/caton-wang/godbless/commit/9bae568629082a91cf21d318adcd566d8895d0a7", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just removed hashtag", 
-    "Additions": 1, 
     "Message:": "Merge branch 'master' of github.com:caton-wang/godbless"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/6a7285e47f9c4c4f09a5a762788cfec2633e74b3", 
     "Commit Corrections": "https://github.com/astrocatalogs/sne/commit/cb2a76bfb0a48b819859ba2d76521f4e2ea3fe65", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "replaced code", 
-    "Additions": 1, 
+    "Why Not:": "replaced code",  
     "Message:": "BUG: replaced old Events calls"
   }, 
   {
     "Commit Mistakes": "https://github.com/aldryn/aldryn-django/commit/9da62a17c1cd0d387b9316a5a922f74448a08881", 
     "Commit Corrections": "https://github.com/aldryn/aldryn-django/commit/96c0ca8b1873f82aaf0a00b979a9167a1f513e6f", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "replaced number", 
-    "Additions": 1, 
+    "Why Not:": "replaced number",  
     "Message:": "Use Django 1.8.13, bump to v1.8.13.0"
   }, 
   {
     "Commit Mistakes": "https://github.com/nathancoleman/feedback/commit/2784ed5c0ce99cb5ddf5f2f8e77cc7cc2f64e05a", 
     "Commit Corrections": "https://github.com/nathancoleman/feedback/commit/b96556c5550148177e420cf0bd712251bc7e92ae", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced some code", 
-    "Additions": 1, 
     "Message:": "Use flask_moment instead"
   }, 
   {
     "Commit Mistakes": "https://github.com/mcellteam/cellblender/commit/ed851e3ba426c225250e9d3d80e58a9abff69f74", 
     "Commit Corrections": "https://github.com/mcellteam/cellblender/commit/511069e8b0f455d105630e4cbc1b2e6849f75cef", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced string", 
-    "Additions": 1, 
     "Message:": "Added a print statement to verify that the region loop isn't completing."
   }, 
   {
     "Commit Mistakes": "https://github.com/Valuehorizon/valuehorizon-countries/commit/a72f08e617387f3b3b0926c449a4cabb163a5628", 
     "Commit Corrections": "https://github.com/Valuehorizon/valuehorizon-countries/commit/962d0e9413021e75954cfa9314fa41382bb57e81", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced string", 
-    "Additions": 1, 
     "Message:": "Changed data loader"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/df958d5c6e1518d9e2f33210c811df211c27f824", 
     "Commit Corrections": "https://github.com/tecnoagropro/admincondominios/commit/096556a7c2a0218f689a496aa96bf7b7173a266a", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "fixed spelling inside a string", 
-    "Additions": 1, 
+    "Why Not:": "fixed spelling inside a string",  
     "Message:": "palabra"
   }, 
   {
     "Commit Mistakes": "https://github.com/gt-ros-pkg/hrl-assistive/commit/31a1b3a6fa4637467692700b711b750d76d66231", 
     "Commit Corrections": "https://github.com/gt-ros-pkg/hrl-assistive/commit/eaa2c90e6873b3be97f44938fee2c38725d971a1", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced numbers", 
-    "Additions": 1, 
     "Message:": "\tmodified:   ../params.py"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/ee93f5f2edb2c469f20c8c91aa30f6affa655caf", 
     "Commit Corrections": "https://github.com/tecnoagropro/admincondominios/commit/8a779928b0b36e062c6fe0175e34f8aa92b36d31", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "removed hashtag", 
-    "Additions": 1, 
     "Message:": "se omite break para que registre todos los mensajes"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/7d7acfe20b5a15106891ae1c4541ad514f38e54c", 
     "Commit Corrections": "https://github.com/tecnoagropro/admincondominios/commit/cec3b50179a3c96da26c49f40ce794fe261a6704", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added some code and string", 
-    "Additions": 1, 
     "Message:": "se le pasa el parametro nombre para personalizar"
   }, 
   {
     "Commit Mistakes": "https://github.com/capitalone/cloud-custodian/commit/354f6f5bad7d611c2c4c09f515f6dfcaff674385", 
     "Commit Corrections": "https://github.com/capitalone/cloud-custodian/commit/8b6e7fab7b81ee1488687ab4a2b00ea6f4914e64", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "slight changes in code", 
-    "Additions": 1, 
     "Message:": "fix iam access json schema (#244)"
   }, 
   {
     "Commit Mistakes": "https://github.com/svenkreiss/databench/commit/2452a4ba56b4ebea120af7a1211ea62a31e3b624", 
     "Commit Corrections": "https://github.com/svenkreiss/databench/commit/89978d575f01c73ddd270b81652d2b90cc4bd882", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "replaced number", 
-    "Additions": 1, 
+    "Why Not:": "replaced number",  
     "Message:": "version 0.4a17"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/d3c57e60184a51c664a80cbdb523c6e769eba4eb", 
     "Commit Corrections": "https://github.com/tecnoagropro/admincondominios/commit/db2968b86be83951e398410a70433ddec90ac24f", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added some stuff", 
-    "Additions": 1, 
     "Message:": "se elimina campo costo por estar en otro modelo"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/e8a820eed4b62bd0eb173f2a54f8187c8dd84cca", 
     "Commit Corrections": "https://github.com/astrocatalogs/sne/commit/2ff1fa7406bd6040761f363eb8c82ed425cc5edb", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "replaced code with something different", 
-    "Additions": 1, 
+    "Why Not:": "replaced code with something different",  
     "Message:": "BUG: missing 'catalog.args'."
   }, 
   {
     "Commit Mistakes": "https://github.com/aodn/data-services/commit/2849e3f5b28ac86ee2da751e6b54608d9920bd59", 
     "Commit Corrections": "https://github.com/aodn/data-services/commit/fae1f4edb8def9d962dc076f6774ac6052a005ee", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced code is very different", 
-    "Additions": 1, 
     "Message:": "Hourly files created with no valid current data are ignored and not pushed to S3."
   }, 
   {
     "Commit Mistakes": "https://github.com/xuberance137/spark/commit/f27d26369689ea56be0516e37e3fa619915f025f", 
     "Commit Corrections": "https://github.com/xuberance137/spark/commit/53f7acf6fb25a1d90907c43a5bf5443959b0978c", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced stuff under hashtag", 
-    "Additions": 1, 
     "Message:": "Updated recommendations"
   }, 
   {
     "Commit Mistakes": "https://github.com/tsimonq2/snapcraft/commit/c778fbcf6a216750c2dbd9ca9a83fe838c3c52f1", 
     "Commit Corrections": "https://github.com/tsimonq2/snapcraft/commit/d910924a396838835a9a423dfb12dd0472d31dcd", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just added an extra line", 
-    "Additions": 1, 
     "Message:": "Added blank line where needed, removed uncalled subprocess import"
   }, 
   {
     "Commit Mistakes": "https://github.com/mcguang/mcguang.github.io/commit/90e30ad8aa76b5fb5ebb273e5d1cbb0f3541e824", 
     "Commit Corrections": "https://github.com/mcguang/mcguang.github.io/commit/f4931491ca84433b41033b640c11ae121db3adaf", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "just added a comment under hashtag", 
-    "Additions": 1, 
+    "Why Not:": "just added a comment under hashtag",  
     "Message:": "daily update"
   }, 
   {
     "Commit Mistakes": "https://github.com/merryChris/blotus/commit/c06219a4c04acc75aa376039a76010e9bf4b7d47", 
     "Commit Corrections": "https://github.com/merryChris/blotus/commit/3117e300d8f5e9e74673d8adea5f5b294aca8621", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added things to a list", 
-    "Additions": 1, 
     "Message:": "1. Remove 'category' From Wangjia Xinwen Spider.\n\n2. Add 'xiehui' Tab For Wangjia Xinwen Spider."
   }, 
   {
     "Commit Mistakes": "https://github.com/LFPy/LFPy/commit/32b29ffca82c10830a0c3424aab3cd149c08935c", 
     "Commit Corrections": "https://github.com/LFPy/LFPy/commit/13ca6987dc0a81a0f3a6c9671a5f71c1eba7d83b", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number in a string", 
-    "Additions": 1, 
     "Message:": "v1.1.2"
   }, 
   {
     "Commit Mistakes": "https://github.com/mckelvin/python-ctp-deps/commit/2e5abfb601a4bce40fe9a961088cc175de2b06ca", 
     "Commit Corrections": "https://github.com/mckelvin/python-ctp-deps/commit/b1da9ff1623141f82884f450d2ce92c1ea62f7eb", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number in a string", 
-    "Additions": 1, 
     "Message:": "Bump Version 6.3.5-3\n\nChangeLog:\n\n- Add misc files"
   }, 
   {
     "Commit Mistakes": "https://github.com/zpeng2/elasticaGM/commit/b5f47e1d1270294764d327ff0ea96fbd743763e0", 
     "Commit Corrections": "https://github.com/zpeng2/elasticaGM/commit/dc96aede36afb90cd5ca6197624ea897beb2d954", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number in code", 
-    "Additions": 1, 
     "Message:": "value"
   }, 
   {
     "Commit Mistakes": "https://github.com/s2ugimot/exabgp/commit/1bae7ca0eb96e6cdc70b203f67d1129d95fcd806", 
     "Commit Corrections": "https://github.com/s2ugimot/exabgp/commit/f4730d806c8f25a6edd0afce8fcf6ec2c84f1c62", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "deleted extra code", 
-    "Additions": 1, 
+    "Why Not:": "deleted extra code",  
     "Message:": "WIP"
   }, 
   {
     "Commit Mistakes": "https://github.com/terminalmage/salt/commit/d235b1245be7bf77222377f88b831b6cb2a744ee", 
     "Commit Corrections": "https://github.com/terminalmage/salt/commit/2437d4789faf1c7df16ac906cf34c1246541e8f5", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "removed hashtag from front of code", 
-    "Additions": 1, 
     "Message:": "Remove unnecessarily-disabled sanity check\n\nThis was commented out for reasons having nothing to do with anything\nelse going on in 0c069dd. Uncommenting this sanity check so that we are\nnotified if we need to update our targets in the future."
   }, 
   {
     "Commit Mistakes": "https://github.com/open-forcefield-group/smarty/commit/fb1670cc396b0c49face7f29612ce9c947c5495e", 
     "Commit Corrections": "https://github.com/open-forcefield-group/smarty/commit/ea67e5b0ae8896571ceeb52b83cf0b72d089118a", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added stuff to list", 
-    "Additions": 1, 
     "Message:": "Added parameterization of solvent mixtures to tests"
   }, 
   {
     "Commit Mistakes": "https://github.com/gregeastman/gift-exchange-central/commit/cbb7e4434b185c0da9f85969c15a74219e1fe6d1", 
     "Commit Corrections": "https://github.com/gregeastman/gift-exchange-central/commit/9a0c55da66718c074151d86cae3843045217db8f", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "changed from True to False", 
-    "Additions": 1, 
+    "Why Not:": "changed from True to False",  
     "Message:": "Removing debug flags"
   }, 
   {
@@ -690,6 +690,7 @@
     ], 
     "Commit Mistakes": "https://github.com/KihongHeo/auto_feat_data/commit/df7ad5d8ee7a123d8d9c46c021b3a96cd617eba6", 
     "Commit Corrections": "https://github.com/KihongHeo/auto_feat_data/commit/4e429ea8cc81b271f3882ec688d38896f7cac9ef", 
+    "Additions:": 1, 
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just changed number", 
