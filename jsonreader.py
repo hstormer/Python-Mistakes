@@ -99,8 +99,15 @@ for i in data:
 			del i["Mistakes:"]
 
 for i in data:
+	if i.get("Mistake:") != None:
+			del i["Mistake:"]
+
+for i in data:
 	if i.get("Why Not:") != None:
 			del i["Why Not:"]
+for i in data:
+	if i.get("Length:") != None:
+			del i["Length:"]
 
 
 for i in data:
@@ -108,14 +115,14 @@ for i in data:
 	assert "Additions:" in i
 	assert "Deletions:" in i
 	assert "Changes:" in i
-	assert "Length:" in i
 	assert "Commit Mistakes:" in i
 	assert "Commit Corrections:" in i
 	assert "Tags:" in i
 	assert "Message:" in i
 	assert "Why Not:" not in i
 	assert "Mistakes:" not in i
-	assert len(i) == 8
+	assert "Length:" not in i
+	assert len(i) == 7
 
 
 print data[0]
