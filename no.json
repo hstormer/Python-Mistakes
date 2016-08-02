@@ -2260,5 +2260,211 @@
     "Keyword:": "length", 
     "Why Not:": "edited comment under a hashtag", 
     "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        :param tag: You must specify the connection annotation which must have been\n", 
+      "-        previously declared via *AbstractStep.add_connection(\"out/...\")*,\n", 
+      "-        but this doesn't have to be done in the step constructor, it's\n", 
+      "-        also possible in *declare_runs()* right before this method is called.\n", 
+      "-        :param out_path: The output file path, without a directory. The pipeline\n", 
+      "-        assigns directories for you (this parameter must not contain a slash).\n", 
+      "-        :param in_paths: A list of input files this output file depends on. It is\n", 
+      "-        **crucial** to get this right, so that the pipeline can determine which\n", 
+      "-        steps are up-to-date at any given time. You have to specify absolute\n", 
+      "-        paths here, including a directory, and you can obtain them via\n", 
+      "-        *AbstractStep.run_ids_and_input_files_for_connection* and related functions.\n", 
+      "+        - *tag*: You must specify the connection annotation which must have been\n", 
+      "+            previously declared via *AbstractStep.add_connection(\"out/...\")*,\n", 
+      "+            but this doesn't have to be done in the step constructor, it's\n", 
+      "+            also possible in *declare_runs()* right before this method is called.\n", 
+      "+        - *out_path*: The output file path, without a directory. The pipeline\n", 
+      "+            assigns directories for you (this parameter must not contain a slash).\n", 
+      "+        - *in_paths*: A list of input files this output file depends on. It is\n", 
+      "+            **crucial** to get this right, so that the pipeline can determine which\n", 
+      "+            steps are up-to-date at any given time. You have to specify absolute\n", 
+      "+            paths here, including a directory, and you can obtain them via\n", 
+      "+            *AbstractStep.run_ids_and_input_files_for_connection* and related functions.\n"
+    ], 
+    "Commit Mistakes": "https://github.com/tiennes/uap/commit/849ac33fb348fc106ba2ef90f5ac75f2327188c8", 
+    "Commit Corrections": "https://github.com/tiennes/uap/commit/cea4ee702c89cd656ef977dfec84a12b80ceedd3", 
+    "Deletions:": 11, 
+    "Keyword:": "indentation", 
+    "Why Not:": "Indented text, not the program", 
+    "Additions": 11, 
+    "Message:": "modified docblocks: indentation"
+  }, 
+  {
+    "Changes:": [
+      "-    url=\"https://www.baidu.com/\"\r\n", 
+      "+    #url=\"https://www.baidu.com/\"\r\n"
+    ], 
+    "Commit Mistakes": "https://github.com/wjp719/starbuckMonitoring/commit/5baa9038a5687051458e1ca821b738d2759982bc", 
+    "Commit Corrections": "https://github.com/wjp719/starbuckMonitoring/commit/802ce920b9970b820a8f028f36ecf3095def4eb2", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "Commented out a line", 
+    "Additions": 1, 
+    "Message:": "back"
+  }, 
+  {
+    "Changes:": [
+      "-from .time_execution import *\n", 
+      "+from .decorator import *"
+    ], 
+    "Commit Mistakes": "https://github.com/sergray/py-timeexecution/commit/f08bf6b9c5307a50b3ee1190f79bf74dc920f8da", 
+    "Commit Corrections": "https://github.com/sergray/py-timeexecution/commit/12bb797b27ac39525fe63e4fb63cc1ce7f53cb3c", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed the import", 
+    "Additions": 1, 
+    "Message:": "FIX naming collisions of package, module and decorator"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tstr = 'Class: {class_name}\\n' \\\n"
+    ], 
+    "Commit Mistakes": "https://github.com/akuafif/MilkyCogs/commit/ff8d64a80b5927000940cab4fe1ce062870b4e90", 
+    "Commit Corrections": "https://github.com/akuafif/MilkyCogs/commit/364649caf7db9d4aced4758d9ccd58eaac905eaf", 
+    "Deletions:": 1, 
+    "Keyword:": "indentation", 
+    "Why Not:": "It looks like they didn't change anything", 
+    "Additions": 0, 
+    "Message:": "indentation issue bns.py"
+  }, 
+  {
+    "Changes:": [
+      "-print(\"Length: {}\".format(number_of_cashmere_ties))\n", 
+      "+# print(\"Length: {}\".format(number_of_cashmere_ties))\n"
+    ], 
+    "Commit Mistakes": "https://github.com/YangDongIk/DataScienceBasics/commit/07e07a3954acab9ba674b4c48aec7e2ad3661868", 
+    "Commit Corrections": "https://github.com/YangDongIk/DataScienceBasics/commit/aff82f2e327beec3ba90a24f8207a25301f8cb9e", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "Commented out a line", 
+    "Additions": 1, 
+    "Message:": "Data Science Basics_SourceTree"
+  }, 
+  {
+    "Changes:": [
+      "-    assert 0\n", 
+      "+    #assert 0\n"
+    ], 
+    "Commit Mistakes": "https://github.com/avb76/Nova/commit/0aa3c9ea7fd7b9dbbd85f8fc64288f1cea2a67af", 
+    "Commit Corrections": "https://github.com/avb76/Nova/commit/1f7db535989989c20571f996fa297ee1b953a7df", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "Commented out a line", 
+    "Additions": 1, 
+    "Message:": "Adding success test"
+  }, 
+  {
+    "Changes:": [
+      "+\n"
+    ], 
+    "Commit Mistakes": "https://github.com/tiennes/uap/commit/cea4ee702c89cd656ef977dfec84a12b80ceedd3", 
+    "Commit Corrections": "https://github.com/tiennes/uap/commit/0df8eeaf1cf4c94f1914172b18982c50b8cfd0b0", 
+    "Deletions:": 0, 
+    "Keyword:": "indentation", 
+    "Why Not:": "Added a newline", 
+    "Additions": 1, 
+    "Message:": "modified docblocks: indentation"
+  }, 
+  {
+    "Changes:": [
+      "-from trajectory_msgs.msg import FollowJointTrajectoryAction, FollowJointTrajectoryGoal, FollowJointTrajectoryResult\n", 
+      "+from control_msgs.msg import FollowJointTrajectoryAction, FollowJointTrajectoryGoal, FollowJointTrajectoryResult\n"
+    ], 
+    "Commit Mistakes": "https://github.com/tu-darmstadt-ros-pkg/hector_flexbe_behavior/commit/8e9925e91e4a9a61079123664d66e40c2ef849d3", 
+    "Commit Corrections": "https://github.com/tu-darmstadt-ros-pkg/hector_flexbe_behavior/commit/33ecae753bbe54eb5871eda1173e0cb63a2a3ca6", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "Modified the import", 
+    "Additions": 1, 
+    "Message:": "[hector_flexbe_states] Fixed import of FollowJointTrajectoryAction"
+  }, 
+  {
+    "Changes:": [
+      "-        if 'binary' in kwargs:\n", 
+      "+        if kwargs.get('binary') is not None:\n"
+    ], 
+    "Commit Mistakes": "https://github.com/mozilla/gecko-dev/commit/00c637d23168bd81b04269db2cb86d4549ad40c7", 
+    "Commit Corrections": "https://github.com/mozilla/gecko-dev/commit/be5e80f3c6eaf2c4666932d383a4deb40d92d7e3", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "changed the if condition", 
+    "Additions": 1, 
+    "Message:": "Bug 1282755 - Fix `--binary` warning for `mach marionette-test`; r=maja_zf\n\nOnly warn the user if they have provided a --binary argument,\ni.e. if kwargs['binary'] is not None.\n\nMozReview-Commit-ID: EOg9BcH5XJk\n\n--HG--\nextra : rebase_source : c8e19baae7d0959c27062d1ec92c59d4bd14b144"
+  }, 
+  {
+    "Changes:": [
+      "-from fuelclient.cli.serializers import Serializer\n", 
+      "+from cliff import show\n", 
+      "+\n", 
+      "+from fuelclient.common import data_utils\n", 
+      "-class FuelVersion(base.BaseCommand):\n", 
+      "-    \"\"\"Show fuel version.\"\"\"\n", 
+      "+class FuelVersion(show.ShowOne, base.BaseCommand):\n", 
+      "+    \"\"\"Show the version of Fuel.\"\"\"\n", 
+      "+    columns = ('api',\n", 
+      "+               'auth_required',\n", 
+      "+               'feature_groups',\n", 
+      "+               'openstack_version',\n", 
+      "+               'release')\n", 
+      "-        version = self.client.get_all()\n", 
+      "-        serializer = Serializer.from_params(parsed_args)\n", 
+      "-        msg = serializer.serialize(version)\n", 
+      "-        self.app.stdout.write(msg)\n", 
+      "+        data = self.client.get_all()\n", 
+      "+        data = data_utils.get_display_data_single(self.columns, data)\n", 
+      "+\n", 
+      "+        return (self.columns, data)"
+    ], 
+    "Commit Mistakes": "https://github.com/openstack/python-fuelclient/commit/f445bafff6f63d925040055913e2823ec13da211", 
+    "Commit Corrections": "https://github.com/openstack/python-fuelclient/commit/36cc4f1953e558fbdcc3211d9c0d899fe6926832", 
+    "Deletions:": 7, 
+    "Keyword:": "formatter", 
+    "Why Not:": "Changed imports and added things", 
+    "Additions": 14, 
+    "Message:": "Use Cliff's formatters for fuel-verion\n\nfuel-version command used to be introduced by just copying\nand pasting code from the deprecated --fuel-version action.\n\nSince now that action was removed it's time to re-factor\nthe new command to utilize Cliff's features.\n\nRelated-bug: #1590571\nDocImpact: Added new options for showing version of Fuel in\n           different formats: -f/--format {json,shell,table,value,yaml}\n           the output format, defaults to table\nChange-Id: I1dfe6b25c11e0da533c9cf99f67d28ac652c33dc"
+  }, 
+  {
+    "Changes:": [
+      "+from abc import ABCMeta\n", 
+      "-from .abc import ABCMeta\n"
+    ], 
+    "Commit Mistakes": "https://github.com/nomoketo/choo/commit/2a9f798c34de27c34c60256754c18f6b59a7e9aa", 
+    "Commit Corrections": "https://github.com/nomoketo/choo/commit/2051e88ad1cb9bbd19cfe94b31793f6d11a98b94", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "CHanged import", 
+    "Additions": 1, 
+    "Message:": "fix wrong abc import"
+  }, 
+  {
+    "Changes:": [
+      "-\tMAIL_PASSWORD = ''\n", 
+      "+\tMAIL_PASSWORD = 'pennstateerie4'\n"
+    ], 
+    "Commit Mistakes": "https://github.com/aaronmauro/SKTimeline/commit/c5c6d08c2c1e4f8e36aaf6e517bca4ca5930e2fa", 
+    "Commit Corrections": "https://github.com/aaronmauro/SKTimeline/commit/7edf617649ec123c09c3674a14ce50babe9f4f28", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Why Not:": "Filled in a string", 
+    "Additions": 1, 
+    "Message:": "Deleted unnecessary file."
+  }, 
+  {
+    "Keyword:": "length", 
+    "Changes:": [
+      "-# \n", 
+      "+#\n"
+    ], 
+    "Commit Mistakes": "https://github.com/dials/cctbx/commit/00ebc9bd8a20b79314ec9a9b72a03e2c81834a29", 
+    "Commit Corrections": "https://github.com/dials/cctbx/commit/2c7726187dd488372cfd65776aba19d173a6320f", 
+    "Why Not:": "Deleted and added an empty comment", 
+    "Additions": 1, 
+    "Deletions:": 1, 
+    "Message:": "IOTA v2.25, clutter cleanup"
   }
 ]

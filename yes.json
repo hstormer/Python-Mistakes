@@ -1798,5 +1798,20 @@
     "Keyword:": "length", 
     "Length": "1", 
     "Mistake:": "added extra brackets where not required"
+  }, 
+  {
+    "Keyword:": "length", 
+    "Length": "1", 
+    "Changes:": [
+      "-        self.add_journal(unit=\"gdm\")\n", 
+      "+        self.add_journal(units=\"gdm\")\n"
+    ], 
+    "Commit Mistakes": "https://github.com/sosreport/sos/commit/c5e1bd7410eaf2deeb9267eeffef8bb9d151b5e8", 
+    "Commit Corrections": "https://github.com/sosreport/sos/commit/4522d11c2f4478ead563bfbb34b0c834b9326301", 
+    "Tags": "misspellvariable", 
+    "Mistake:": "Misspelled 'units' as 'unit'", 
+    "Deletions:": 1, 
+    "Additions": 1, 
+    "Message:": "[gdm] Fix misspelled units\n\nunit= should be units=\n\nCloses: #841\n\nSigned-off-by: Louis Bouchard <louis.bouchard@canonical.com>"
   }
 ]
