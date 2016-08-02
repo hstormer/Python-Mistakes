@@ -2501,16 +2501,16 @@
     "Message:": "Deleted unnecessary file."
   }, 
   {
-    "Keyword:": "length", 
     "Changes:": [
       "-# \n", 
       "+#\n"
     ], 
     "Commit Mistakes": "https://github.com/dials/cctbx/commit/00ebc9bd8a20b79314ec9a9b72a03e2c81834a29", 
     "Commit Corrections": "https://github.com/dials/cctbx/commit/2c7726187dd488372cfd65776aba19d173a6320f", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
     "Why Not:": "Deleted and added an empty comment", 
     "Additions": 1, 
-    "Deletions:": 1, 
     "Message:": "IOTA v2.25, clutter cleanup"
   }
 ]

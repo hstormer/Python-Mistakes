@@ -30,11 +30,11 @@ for document in cursor:
 		data[counter]["Additions:"] = additions
 		data[counter]["Deletions:"] = deletions
 		print yay[randint(0,3)]
-		if data[counter].get("Length")
-	counter += 1
-	#This is based on save location. If it is more than this, then change it.
-	if counter == 100000:
-		break
+		if data[counter].get("Length"):
+			counter += 1
+		#This is based on save location. If it is more than this, then change it.
+		if counter == 100000:
+			break
 
 ofile.seek(0)
 ofile.truncate()
