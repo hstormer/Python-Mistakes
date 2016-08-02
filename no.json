@@ -284,7 +284,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced the code with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Small fix"
   }, 
   {
     "Commit Mistakes": "https://github.com/DustinHolden/Anthos/commit/56600d3746cd83341a7f5176c1327aa74ac3837e", 
@@ -292,7 +293,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just added some more code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Production Summary, added Seconds processing"
   }, 
   {
     "Commit Mistakes": "https://github.com/stenote/radiusd/commit/f9395746377401aacfab46c2d1af92db948b70f1", 
@@ -300,7 +302,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced a word with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "find_nas -> find_ac"
   }, 
   {
     "Commit Mistakes": "https://github.com/cmward/text-scene/commit/1bb525dfa1fc5750b96fcc7f4ce3329811a45313", 
@@ -308,7 +311,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "fix some broken imports"
   }, 
   {
     "Commit Mistakes": "https://github.com/dmick/teuthology/commit/89c01c5c4cbcae75983aa096664701fb85565329", 
@@ -316,7 +320,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just switched with a different operation", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "suite.py: must pass at least once through the backtrack loop\n\nChanging the default of newest to '0' meant that the combined\nloop which handles both backtrack and non-backtrack conditions\nwas never executing, leading to undefined variables.\n\nSigned-off-by: Dan Mick <dan.mick@redhat.com>"
   }, 
   {
     "Commit Mistakes": "https://github.com/SureDoo/3_general_Deming/commit/083c1b45336a344401c43685cb0e6839a76f0725", 
@@ -324,7 +329,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just added some more code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "[add etldr_null etldr_none]"
   }, 
   {
     "Commit Mistakes": "https://github.com/li772091958/liyuntao.top/commit/f0104d790eddc85c1bacf0830ab234ee71f9cf82", 
@@ -332,7 +338,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just added some more code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "port:80"
   }, 
   {
     "Commit Mistakes": "https://github.com/DustinHolden/Anthos/commit/bfdd6bdd86d84ef6ac3109d23fc34e10e5c99e1d", 
@@ -340,7 +347,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced some code words with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Production Summary, added Seconds processing"
   }, 
   {
     "Commit Mistakes": "https://github.com/thuzhf/history_analysis/commit/105ad97cfa70933035f6189b6ced1d5a902e9c42", 
@@ -348,7 +356,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "small fix"
   }, 
   {
     "Commit Mistakes": "https://github.com/jmpark6846/django-fcm-push/commit/638e27d0662e190a58661d1bcf0696ca9748fd60", 
@@ -356,7 +365,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "\uc790\uc798\ud55c \ubcc0\uacbd"
   }, 
   {
     "Commit Mistakes": "https://github.com/gt-ros-pkg/hrl-assistive/commit/b9eb0e5026c912d36be082ce3e9f36341282b5ca", 
@@ -364,7 +374,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced numbers", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "\tmodified:   ../params.py"
   }, 
   {
     "Commit Mistakes": "https://github.com/vauxoo-dev/rma/commit/8812b884a81464d06868f1b7bae949b602c59b1d", 
@@ -372,7 +383,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "[IMP] Bye to crm_rma_lot_mass_return module: crm_rma_lot_mass_return module was joined with crm_claim_rma"
   }, 
   {
     "Commit Mistakes": "https://github.com/philippWassibauer/django-activity-stream/commit/8381805b5060b38c08c0746d41c1b949a3d33ef9", 
@@ -380,7 +392,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced code word with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "exceptional error in to_python def"
   }, 
   {
     "Commit Mistakes": "https://github.com/joshgagnon/working-days-api/commit/815421156fd83e69f3fdeb130122d6830b83500c", 
@@ -388,7 +401,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced code with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "agreement sale blah uses region"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/468eb2bad693606dc061e08527810b74c814f001", 
@@ -396,7 +410,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added some stuff", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "BUG: extra return value uncaught."
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/5c5c08a146f3c874f5d7c71573641bf4973aaccc", 
@@ -404,7 +419,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced some stuff", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Merge branch 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne into lzkelley-restructure-import\n\n* 'lzkelley-restructure-import' of https://github.com/astrocatalogs/sne:\n  BUG: replaced old Events calls"
   }, 
   {
     "Commit Mistakes": "https://github.com/ceph/teuthology/commit/3e7e0a357ed2407b14daaf1c65ebf5e6be460681", 
@@ -412,7 +428,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed operation sign", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "suite.py: must pass at least once through the backtrack loop\n\nChanging the default of newest to '0' meant that the combined\nloop which handles both backtrack and non-backtrack conditions\nwas never executing, leading to undefined variables.\n\nSigned-off-by: Dan Mick <dan.mick@redhat.com>"
   }, 
   {
     "Commit Mistakes": "https://github.com/ceph/teuthology/commit/3e7e0a357ed2407b14daaf1c65ebf5e6be460681", 
@@ -420,7 +437,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed operation sign", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Merge pull request #888 from dmick/master\n\nsuite.py: must pass at least once through the backtrack loop"
   }, 
   {
     "Commit Mistakes": "https://github.com/mrbitsdcf/django-easygeoip/commit/e621efe2412d6372a0464688b281aab4ceb3548f", 
@@ -428,7 +446,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "no real changes", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Adjust geoip2 db"
   }, 
   {
     "Commit Mistakes": "https://github.com/caton-wang/godbless/commit/43026ecfc191da7ac2aab4f7489677d8a02f321d", 
@@ -436,7 +455,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just removed hashtag", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Merge branch 'master' of github.com:caton-wang/godbless"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/6a7285e47f9c4c4f09a5a762788cfec2633e74b3", 
@@ -444,7 +464,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "BUG: replaced old Events calls"
   }, 
   {
     "Commit Mistakes": "https://github.com/aldryn/aldryn-django/commit/9da62a17c1cd0d387b9316a5a922f74448a08881", 
@@ -452,7 +473,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Use Django 1.8.13, bump to v1.8.13.0"
   }, 
   {
     "Commit Mistakes": "https://github.com/nathancoleman/feedback/commit/2784ed5c0ce99cb5ddf5f2f8e77cc7cc2f64e05a", 
@@ -460,7 +482,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced some code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Use flask_moment instead"
   }, 
   {
     "Commit Mistakes": "https://github.com/mcellteam/cellblender/commit/ed851e3ba426c225250e9d3d80e58a9abff69f74", 
@@ -468,7 +491,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Added a print statement to verify that the region loop isn't completing."
   }, 
   {
     "Commit Mistakes": "https://github.com/Valuehorizon/valuehorizon-countries/commit/a72f08e617387f3b3b0926c449a4cabb163a5628", 
@@ -476,7 +500,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Changed data loader"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/df958d5c6e1518d9e2f33210c811df211c27f824", 
@@ -484,7 +509,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "fixed spelling inside a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "palabra"
   }, 
   {
     "Commit Mistakes": "https://github.com/gt-ros-pkg/hrl-assistive/commit/31a1b3a6fa4637467692700b711b750d76d66231", 
@@ -492,7 +518,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced numbers", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "\tmodified:   ../params.py"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/ee93f5f2edb2c469f20c8c91aa30f6affa655caf", 
@@ -500,7 +527,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "removed hashtag", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "se omite break para que registre todos los mensajes"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/7d7acfe20b5a15106891ae1c4541ad514f38e54c", 
@@ -508,7 +536,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added some code and string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "se le pasa el parametro nombre para personalizar"
   }, 
   {
     "Commit Mistakes": "https://github.com/capitalone/cloud-custodian/commit/354f6f5bad7d611c2c4c09f515f6dfcaff674385", 
@@ -516,7 +545,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "slight changes in code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "fix iam access json schema (#244)"
   }, 
   {
     "Commit Mistakes": "https://github.com/svenkreiss/databench/commit/2452a4ba56b4ebea120af7a1211ea62a31e3b624", 
@@ -524,7 +554,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "version 0.4a17"
   }, 
   {
     "Commit Mistakes": "https://github.com/tecnoagropro/admincondominios/commit/d3c57e60184a51c664a80cbdb523c6e769eba4eb", 
@@ -532,7 +563,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added some stuff", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "se elimina campo costo por estar en otro modelo"
   }, 
   {
     "Commit Mistakes": "https://github.com/astrocatalogs/sne/commit/e8a820eed4b62bd0eb173f2a54f8187c8dd84cca", 
@@ -540,7 +572,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced code with something different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "BUG: missing 'catalog.args'."
   }, 
   {
     "Commit Mistakes": "https://github.com/aodn/data-services/commit/2849e3f5b28ac86ee2da751e6b54608d9920bd59", 
@@ -548,7 +581,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced code is very different", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Hourly files created with no valid current data are ignored and not pushed to S3."
   }, 
   {
     "Commit Mistakes": "https://github.com/xuberance137/spark/commit/f27d26369689ea56be0516e37e3fa619915f025f", 
@@ -556,7 +590,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced stuff under hashtag", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Updated recommendations"
   }, 
   {
     "Commit Mistakes": "https://github.com/tsimonq2/snapcraft/commit/c778fbcf6a216750c2dbd9ca9a83fe838c3c52f1", 
@@ -564,7 +599,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just added an extra line", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Added blank line where needed, removed uncalled subprocess import"
   }, 
   {
     "Commit Mistakes": "https://github.com/mcguang/mcguang.github.io/commit/90e30ad8aa76b5fb5ebb273e5d1cbb0f3541e824", 
@@ -572,7 +608,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "just added a comment under hashtag", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "daily update"
   }, 
   {
     "Commit Mistakes": "https://github.com/merryChris/blotus/commit/c06219a4c04acc75aa376039a76010e9bf4b7d47", 
@@ -580,7 +617,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added things to a list", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "1. Remove 'category' From Wangjia Xinwen Spider.\n\n2. Add 'xiehui' Tab For Wangjia Xinwen Spider."
   }, 
   {
     "Commit Mistakes": "https://github.com/LFPy/LFPy/commit/32b29ffca82c10830a0c3424aab3cd149c08935c", 
@@ -588,7 +626,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number in a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "v1.1.2"
   }, 
   {
     "Commit Mistakes": "https://github.com/mckelvin/python-ctp-deps/commit/2e5abfb601a4bce40fe9a961088cc175de2b06ca", 
@@ -596,7 +635,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number in a string", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Bump Version 6.3.5-3\n\nChangeLog:\n\n- Add misc files"
   }, 
   {
     "Commit Mistakes": "https://github.com/zpeng2/elasticaGM/commit/b5f47e1d1270294764d327ff0ea96fbd743763e0", 
@@ -604,7 +644,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "replaced number in code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "value"
   }, 
   {
     "Commit Mistakes": "https://github.com/s2ugimot/exabgp/commit/1bae7ca0eb96e6cdc70b203f67d1129d95fcd806", 
@@ -612,7 +653,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "deleted extra code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "WIP"
   }, 
   {
     "Commit Mistakes": "https://github.com/terminalmage/salt/commit/d235b1245be7bf77222377f88b831b6cb2a744ee", 
@@ -620,7 +662,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "removed hashtag from front of code", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Remove unnecessarily-disabled sanity check\n\nThis was commented out for reasons having nothing to do with anything\nelse going on in 0c069dd. Uncommenting this sanity check so that we are\nnotified if we need to update our targets in the future."
   }, 
   {
     "Commit Mistakes": "https://github.com/open-forcefield-group/smarty/commit/fb1670cc396b0c49face7f29612ce9c947c5495e", 
@@ -628,7 +671,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "added stuff to list", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Added parameterization of solvent mixtures to tests"
   }, 
   {
     "Commit Mistakes": "https://github.com/gregeastman/gift-exchange-central/commit/cbb7e4434b185c0da9f85969c15a74219e1fe6d1", 
@@ -636,7 +680,8 @@
     "Deletions:": 1, 
     "Keyword:": "length", 
     "Why Not:": "changed from True to False", 
-    "Additions": 1
+    "Additions": 1, 
+    "Message:": "Removing debug flags"
   }, 
   {
     "Changes:": [
@@ -647,7 +692,8 @@
     "Commit Corrections": "https://github.com/KihongHeo/auto_feat_data/commit/4e429ea8cc81b271f3882ec688d38896f7cac9ef", 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Why Not:": "just changed number"
+    "Why Not:": "just changed number", 
+    "Message:": "modify feature lang (274 / 49)"
   }, 
   {
     "Commit Mistakes": "https://github.com/mochar/corebin-api/commit/6491083fedb6da12187368e8e0baf14db30ed57b", 
