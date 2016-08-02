@@ -29,6 +29,13 @@ for document in cursor:
 				link = data[current].get("Commit Corrections")
 				item["Message:"] = message
 				print yay[randint(0,3)]
+				length = document.get("files")
+				if length != [] and length != None:
+					length = length[0]
+					additions = length.get("additions")
+					deletions = length.get("deletions")
+					item["Additions:"] = additions
+					item["Deletions:"] = deletions
 				break
 	counter += 1
 	#This is based on save location. If it is more than this, then change it.
