@@ -22,38 +22,17 @@ else:
 	chicken = "no"
 
 for i in data:
-	if i.get("Message:") != None:
-		m = i.get("Message:")
-		m = m.replace("'", "")
-		m = m.replace("\n", "")
-		m = m.replace("class", "")
-		m = m.replace("-", "")
-	else:
-		m = "?"
-	if i.get("Additions") != None:
-		a = str(i.get("Additions"))
-	else:
-		a = "?"
-	if i.get("Deletions:") != None:
-		d = str(i.get("Deletions:"))
-	else:
-		d = "?"
-	if i.get("Length") != None:
-		l = str(i.get("Length"))
-	else:
-		l = "?"
-
-	#if m in data and a in data and d in data:
-
-	if m == "?":
-		#pass
-		txt2.write("\n?, %s, %s, %s, %s" %(a,d,l,chicken) )
-	else:	
-		#pass
-		text = "\n'%s', %s, %s, %s, %s" %(m,a,d,l,chicken)
-		text = text.encode('ascii', errors='ignore')
-		text = str(text)
-		txt2.write(text)
+	c = str(i.get("Changes:"))
+	m = i.get("Message:")
+	m = m.replace("'", "")
+	m = m.replace("\n", "")
+	m = m.replace("class", "")
+	a = str(i.get("Additions:"))
+	d = str(i.get("Deletions:"))
+	text = "\n'%s', %s, %s, %s, %s" %(c,m,a,d,chicken)
+	text = text.encode('ascii', errors='ignore')
+	text = str(text)
+	txt2.write(text)
 
 txt2.close()
 	
