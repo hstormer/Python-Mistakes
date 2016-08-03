@@ -1,0 +1,484 @@
+[
+  {
+    "Changes:": [
+      "-\tActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n", 
+      "+        ActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n"
+    ], 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
+    "Commit Corrections:": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038", 
+    "Message:": "some cleanup, tests run again"
+  }, 
+  {
+    "Changes:": [
+      "-    while True\n", 
+      "+    while True:\n"
+    ], 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/andrewbackes/autonoma/commit/559150bbe85061bb297cec01a61f1b2ee135f88e", 
+    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/80c35c94d136fdfbc1c3a873b448daaabf97c2bc", 
+    "Message:": "bug"
+  }, 
+  {
+    "Changes:": [
+      "-            if gid:\n", 
+      "+            if gid is not None:\n"
+    ], 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/grow/grow/commit/5d903606e117755ab2b5ba686f179d00c542eb04", 
+    "Commit Corrections:": "https://github.com/grow/grow/commit/a24a3185ab71ffbec82a1815810d335067e54c87", 
+    "Message:": "Fix issue related to gid=0 and the corresponding worksheet's position in the spreadsheet."
+  }, 
+  {
+    "Changes:": [
+      "-        if F['UCUR'][:].mask.all() & F['VCUR'][:].mask.all():\n", 
+      "+        if F['UCUR'][:].mask.all() and F['VCUR'][:].mask.all():\n"
+    ], 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/aodn/data-services/commit/e1bc214cd3696c19b163e1434713fbc2cce2344c", 
+    "Commit Corrections:": "https://github.com/aodn/data-services/commit/7a736e8ef248272647fe7f1dbd51f708809e29c7", 
+    "Message:": "Use boolean operator and for boolean expression rather than bitwise & in has_current_data() function."
+  }, 
+  {
+    "Changes:": [
+      "+\n", 
+      "-        self.frame = self.camera.read()[config.ROI_YMIN:config.ROI_YMAX, config.ROI_XMIN:config.ROI_XMAX]\n", 
+      "+        self.frame = self.camera.read()\n", 
+      "+        self.frame = self.frame[config.ROI_YMIN:config.ROI_YMAX, config.ROI_XMIN:config.ROI_XMAX]\n", 
+      "-        self.frame_chrome = cv2.merge((b,g,r))\n", 
+      "+        self.frame_chroma = cv2.merge((b,g,r))\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 4, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/LachlanNXT/DroidRacing/commit/278e836fb6b58c9865e7ebc880da57d54183ac06", 
+    "Commit Corrections:": "https://github.com/LachlanNXT/DroidRacing/commit/8800576a45a525619744eb8ea4dc469aec35ab10"
+  }, 
+  {
+    "Changes:": [
+      "-    funcs = [move.clockwise, move.counterclockwise]\n", 
+      "+    funcs = [move.clockwise, move.counter_clockwise]\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188", 
+    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6"
+  }, 
+  {
+    "Changes:": [
+      "-            rotations (:class:numpy:`array`): Array of all rotations\n", 
+      "+            rotations (:class:`numpy.array`): Array of all rotations\n", 
+      "-            rotations (:class:numpy:`array`): Array containing the rotations of\n", 
+      "+            rotations (:class:`numpy.array`): Array containing the rotations of\n", 
+      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
+      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
+      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
+      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
+      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
+      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
+      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
+      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
+      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
+      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
+      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
+      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
+      "-        .. math:: \\gamma_2 &= \\frac{<\\Delta r \\Delta\\theta >^2 -\n", 
+      "-                <\\Delta r>^2<\\Delta \\theta>^2 }{<\\Delta r^2><\\Delta\\theta^2>}\n", 
+      "+        .. math:: \\gamma_2 &= \\frac{\\langle\\Delta r \\Delta\\theta \\rangle^2 -\n", 
+      "+                \\langle\\Delta r\\rangle^2\\langle\\Delta \\theta\\rangle^2\n", 
+      "+                }{\\langle\\Delta r^2\\rangle\\langle\\Delta\\theta^2\\rangle}\n", 
+      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
+      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
+      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
+      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
+      "-        .. math:: \\gamma_2 &= \\frac{<\\Delta r \\Delta\\theta >^2 -\n", 
+      "-                <\\Delta r>^2<\\Delta \\theta>^2 }{<\\Delta r^2><\\Delta\\theta^2>}\n", 
+      "+        .. math:: \\gamma_2 &= \\frac{\\langle\\Delta r \\Delta\\theta \\rangle^2 -\n", 
+      "+                \\langle\\Delta r\\rangle^2\\langle\\Delta \\theta\\rangle^2\n", 
+      "+                }{\\langle\\Delta r^2\\rangle\\langle\\Delta\\theta^2\\rangle}\n", 
+      "-        .. math:: Q = \\langle (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
+      "-                (\\Delta r - \\langle \\Delta r \\rangle) \\rangle\n", 
+      "+        .. math:: Q =  (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
+      "+                (\\Delta r - \\langle \\Delta r \\rangle)\n", 
+      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
+      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
+      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
+      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
+      "-            :class:numpy:`array`: Array of corrrelated residuals\n", 
+      "+            :class:`numpy.array`: Array of corrrelated residuals\n", 
+      "-        .. math:: Q = \\langle (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
+      "-                (\\Delta r - \\langle \\Delta r \\rangle) \\rangle\n", 
+      "+        .. math:: Q = (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
+      "+                (\\Delta r - \\langle \\Delta r \\rangle)\n", 
+      "-            system (system): Hoomd system object\n", 
+      "+            system (:class:`hoomd.system`): Hoomd system object\n", 
+      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
+      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
+      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
+      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
+      "-        (float): The distance between rotations (i.e. the binning)\n", 
+      "+        delta_rot (float): The distance between rotations (i.e. the binning)\n", 
+      "-    factor = ((rot_matrix * prob_matrix) * disp_matrix.transpose()) * \\\n", 
+      "-            delta_disp * delta_rot\n", 
+      "+    factor = (((rot_matrix * prob_matrix) * disp_matrix.transpose()) *\n", 
+      "+              delta_disp * delta_rot)\n", 
+      "-    param: input_xml Filename of the file containing the input configuration\n", 
+      "-    param: temp The target temperature at which to run the simulation\n", 
+      "-    param: press The target pressure at which to run the simulation\n", 
+      "-    param: rigid Boolean value indicating whether to integrate using rigid\n", 
+      "-    bodes.\n", 
+      "+\n", 
+      "+    Args:\n", 
+      "+        input_xml (string): Filename of the file containing the input\n", 
+      "+            configuration\n", 
+      "+        temp (float): The target temperature at which to run the simulation\n", 
+      "+        press (float): The target pressure at which to run the simulation\n", 
+      "+        rigid (bool): Boolean value indicating whether to integrate using rigid\n", 
+      "+            bodes.\n", 
+      "-        dyn.print_all(system.take_snapshot(rigid_bodies=True), \\\n", 
+      "-                      timestep, \\\n", 
+      "-                      outfile=basename+\"-dyn.dat\" \\\n", 
+      "-                     )\n", 
+      "-        dyn.print_corr_dist(system.take_snapshot(rigid_bodies=True),\\\n", 
+      "-                            timestep,\\\n", 
+      "-                            outfile=basename+\"-corr.dat\"\n", 
+      "-                           )\n", 
+      "+        dyn.print_all(system, timestep, outfile=basename+\"-dyn.dat\")\n", 
+      "+        dyn.print_corr_dist(system, timestep, outfile=basename+\"-corr.dat\")\n"
+    ], 
+    "Message:": "Minor Fixes - Typos and maths in docs\n\nEnsuring the documentation showing the functions is correct and\naccurate.", 
+    "Additions:": 39, 
+    "Deletions:": 40, 
+    "Commit Mistakes:": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099", 
+    "Commit Corrections:": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/2bb8eaa5ceff6a64452e7e94972539843300dba6"
+  }, 
+  {
+    "Changes:": [
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "+\n", 
+      "-return json.dumps({'error': label_list['error']})\n", 
+      "+            return json.dumps({'error': label_list['error']})"
+    ], 
+    "Additions:": 15, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jeff1evesque/machine-learning/commit/cc48ef134302bf28015670aed958289dad680094", 
+    "Commit Corrections:": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef", 
+    "Message:": "#2153: views.py, adjust spacing and indentation"
+  }, 
+  {
+    "Changes:": [
+      "-    student, _ = Student.objects.create_or_update(\n", 
+      "+    student, _ = Student.objects.update_or_create(\n"
+    ], 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mitodl/sga-lti/commit/a7155655d3dacd3d61268d6cc58d057796169c20", 
+    "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
+    "Message:": "bug fix"
+  }, 
+  {
+    "Changes:": [
+      "-    ws = WageStatement.objects.get(id=wage_statement_id),\n", 
+      "+    ws = WageStatement.objects.get(id=wage_statement_id)\n"
+    ], 
+    "Message:": "Production Summary, added Seconds processing", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/DustinHolden/Anthos/commit/cecb1a8db2cccd8211050cab6b03bcc8d17e09bd", 
+    "Commit Corrections:": "https://github.com/DustinHolden/Anthos/commit/fc3da58d7d6b66dca0e2868d1a0a8d5d7cdf8f0a"
+  }, 
+  {
+    "Changes:": [
+      "-                   'the vip. Positive integer or -1 for unlimited (default).'))\n", 
+      "+                   'the vip. Positive integer or -1 for unlimited (default).'),\n", 
+      "+            type=int)\n", 
+      "-                               ['connection-limit', 'description',\n", 
+      "+                               ['connection_limit', 'description',\n"
+    ], 
+    "Message:": "Fixed connection_limit and added UT\n\nDue to a typo, the REST API attribute of connection_limit was\nnot accessed when creating a new lbaas-V2 listener.\nThis patch fixes the typo, so that the connection_limit can\nbe initialized when listener is created. Also, the previous\ncode did not have UT for connection_limit when the listener\nwas created. The same has been added here.\n\nCloses-Bug: #1515112\n\nConflicts:\n\tneutronclient/neutron/v2_0/lb/v2/listener.py\n\nChange-Id: I71eef7b92de91edc1f3ce48f40c645bca704427d\n(cherry picked from commit 9baa62c3c58f4d6187ab22fc3c04843efd283b55)", 
+    "Additions:": 3, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/openstack/python-neutronclient/commit/c1701c1d289beed3710b17653e386bb3fbffb0c7", 
+    "Commit Corrections:": "https://github.com/openstack/python-neutronclient/commit/721b526b87cdf9635752a7c058369ec501480e48"
+  }, 
+  {
+    "Changes:": [
+      "-with open(\"doc/_deploy/versions.json\", 'w') as versionf:\n", 
+      "+with open(\"docs/_deploy/versions.json\", 'w') as versionf:\n"
+    ], 
+    "Message:": "build docs", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cxhernandez/msmexplorer/commit/2cab565d221c23df18b2605fb2aa26fd70e4e872", 
+    "Commit Corrections:": "https://github.com/cxhernandez/msmexplorer/commit/5ae25c03c90466ae6917e22ac9f2f61e00d56480"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tif p_mse == MSE\n", 
+      "+\t\tif p_mse == MSE:\n"
+    ], 
+    "Message:": "fixes", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/MiladAlshomary/papers_citations/commit/4aea54930ef16c7ef0279cd28bd359c5a24eb9fd", 
+    "Commit Corrections:": "https://github.com/MiladAlshomary/papers_citations/commit/745d7166edd83631d4ccd77bf6a598cc092bded3"
+  }, 
+  {
+    "Changes:": [
+      "-        self.phaseNode.attrib[\"alignmentIDs\"] = alignmentsID\n", 
+      "+        self.phaseNode.attrib[\"alignmentsID\"] = alignmentsID\n"
+    ], 
+    "Message:": "Fix typo in CactusCafWrapperLarge2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/benedictpaten/cactus/commit/4c08d5fb973d2fd6dd3d1b72548e69508fbb2c33", 
+    "Commit Corrections:": "https://github.com/benedictpaten/cactus/commit/92acc42161a24a9ae7925e625d2933771851abc3"
+  }, 
+  {
+    "Changes:": [
+      "-# Last Modified: 2016-06-28T12:10:23+0800\n", 
+      "+# Last Modified: 2016-06-28T12:13:34+0800\n", 
+      "-    setup_require=get_requirements('requirements.txt'),\n", 
+      "+    setup_requires=get_requirements('requirements.txt'),\n"
+    ], 
+    "Message:": "Fix, a typo.", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/cissoid/psychopass-python/commit/8df1d779bcfd4f4f3462ba341d20036235483a5d", 
+    "Commit Corrections:": "https://github.com/cissoid/psychopass-python/commit/9ba6d7ae8d8f01550855a24a0bd00fc273c2dc5c"
+  }, 
+  {
+    "Changes:": [
+      "-        return gpio.input(SWITCH_PIN)\n", 
+      "+        return GPIO.input(SWITCH_PIN)\n"
+    ], 
+    "Message:": "Fix gpio to uppercase GPIO", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/beepscore/pi_thing/commit/1b981d2ec7bd804e34e8c0b6941e3cb70c5bb525", 
+    "Commit Corrections:": "https://github.com/beepscore/pi_thing/commit/b7d5767df23aa9b0dcc5c32d83387a622bf9e9e0"
+  }, 
+  {
+    "Changes:": [
+      "-from deoplete.sources.base import Base\n", 
+      "+from deoplete.source.base import Base\n"
+    ], 
+    "Message:": "fix base source import after Shougo/deoplete.nvim@e3e4c4a", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dylanscott/deoplete-typescript/commit/43e89bd0b234250506aaf8227700521226972091", 
+    "Commit Corrections:": "https://github.com/dylanscott/deoplete-typescript/commit/d281a6cbfaf808715c4c5c710c0cdb135059fecd"
+  }, 
+  {
+    "Changes:": [
+      "-    geolite_latitude = Column(\"geolite_latitude\" Float)\n", 
+      "+    geolite_latitude = Column(\"geolite_latitude\", Float)\n", 
+      "+\n"
+    ], 
+    "Message:": "geolite longi lati", 
+    "Additions:": 2, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/PPMESSAGE/ppmessage/commit/7d25d5381f2ab38d71c38eacf66f9732cb8c8ade", 
+    "Commit Corrections:": "https://github.com/PPMESSAGE/ppmessage/commit/b423fe2e08248909053a8ba60a53668eb53de6ab"
+  }, 
+  {
+    "Changes:": [
+      "-            self.error(self.rid. str(e))\n", 
+      "+            self.error(self.rid, str(e))\n"
+    ], 
+    "Message:": "fix syntax error", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sahlinet/httptest/commit/7fce91f7aab469297952a2060ca9e5a7f949351e", 
+    "Commit Corrections:": "https://github.com/sahlinet/httptest/commit/842d0d0cb3ebe8557ceef38b032937170d962b1c"
+  }, 
+  {
+    "Changes:": [
+      "-from website.views import home, list_errors, view_error\n", 
+      "+from website.views import home, list_errors, refresh_findings, view_error\n", 
+      "-    url(r'^refresh_findings/',views.refresh_findings),\n", 
+      "+    url(r'^refresh_findings/', refresh_findings),\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/trailbehind/DeepOSM/commit/c711e69f93af03bf361d8d109e07aee81e992ea3", 
+    "Commit Corrections:": "https://github.com/trailbehind/DeepOSM/commit/98347c60f9a56ba8139a25792c25e27cf07124bd"
+  }, 
+  {
+    "Changes:": [
+      "-\t        db_conn.commit()\n", 
+      "+\t\t\tdb_conn.commit()\n"
+    ], 
+    "Message:": "...", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/andrrey/tlg_dl_bot/commit/d1c89c42967abae301e7681e89e84ea8425eb010", 
+    "Commit Corrections:": "https://github.com/andrrey/tlg_dl_bot/commit/dbd5b74bcf53c0705033908fa6401288e605c19a"
+  }, 
+  {
+    "Changes:": [
+      "-        channle_mid = self.CHANNEL_MID or Credential.CHANNEL_MID\n", 
+      "+        channel_mid = self.CHANNEL_MID or Credential.CHANNEL_MID\n", 
+      "-            'X-Line-Trusted-User-With-ACL': channle_mid\n", 
+      "+            'X-Line-Trusted-User-With-ACL': channel_mid\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/JFK/linebot/commit/12f4218603e1cddcc8601c7551c771bcd2b2c625", 
+    "Commit Corrections:": "https://github.com/JFK/linebot/commit/29bc088d6e5bcc87ac4d96c63368e6f25a318007"
+  }, 
+  {
+    "Changes:": [
+      "-  else return 0, 0\n", 
+      "+  else: return 0, 0"
+    ], 
+    "Message:": "Fix patrick's bot.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/GallagherCommaJack/markets/commit/ee92c04bce9e05d2971b41feb1b2c171ecb2d0de", 
+    "Commit Corrections:": "https://github.com/GallagherCommaJack/markets/commit/fc6b3ab5c8b924b7232a6f9f01a3589926400c10"
+  }, 
+  {
+    "Changes:": [
+      "-                sleep(TARGET_MAP[mcu].program_cycle_s())\n", 
+      "+                sleep(TARGET_MAP[mcu].program_cycle_s)\n"
+    ], 
+    "Message:": "Force program_cycle_s to be used as an attribue everywhere", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mbedmicro/mbed/commit/f7ad7d2e27193a2b5282e5221947b5e127662367", 
+    "Commit Corrections:": "https://github.com/mbedmicro/mbed/commit/855cc9155083e02d436a16be98dc43e1590ebfff"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tposition = degrees * (self._count_per_rot / 360)\n", 
+      "+\t\tposition = degrees * (self._countPerRot / 360)\n"
+    ], 
+    "Message:": "Fixed motor when turning by degrees", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/3da79f01e76430a52526bad236450a5d2bb0ceb8", 
+    "Commit Corrections:": "https://github.com/LE-GO-LE-STOP/Robocup-Junior-2016/commit/e9fd0cc5c198108c9d379116792ce1eda5443c65"
+  }, 
+  {
+    "Changes:": [
+      "-            temp = self.sense.getTemperature()\n", 
+      "+            temp = self.sense.get_temperature()\n"
+    ], 
+    "Message:": "bugfix: set correct function call", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/denk-mal/tft-display/commit/02f2f1deed49608542260d43545dc5d591890dff", 
+    "Commit Corrections:": "https://github.com/denk-mal/tft-display/commit/01e79bac3d03f52370cf91e114aa4016ddf01f94"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\t\tconn = httplib.HTTPConnection(o.hostname, o.port))\n", 
+      "+\t\t\t\tconn = httplib.HTTPConnection((o.hostname, o.port))\n"
+    ], 
+    "Message:": "fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/waynelkh/OpenADM/commit/b091fb0a944f82302eb0d88ee3b410aad94a05dc", 
+    "Commit Corrections:": "https://github.com/waynelkh/OpenADM/commit/18a7f124525a1dde4c5bb25cd371d489e0292519"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+        pass\n"
+    ], 
+    "Message:": "Woops. Fixed syntax error", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/devchannel/DevLang/commit/b348f516c2eabdf6ebc7a0049e39fd7d7af5356e", 
+    "Commit Corrections:": "https://github.com/devchannel/DevLang/commit/b089a0a8d0a3e564444e3f34acc5a0b2dca30899"
+  }, 
+  {
+    "Changes:": [
+      "-                         u'Paparana Utama')\n", 
+      "+                         u'Paparan Utama')\n"
+    ], 
+    "Message:": "Fixing typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/censof/ansible-deployment/commit/503cc7a2e6b9b7a23cbbf464187823dcf861b502", 
+    "Commit Corrections:": "https://github.com/censof/ansible-deployment/commit/a54d7c109a14de061e54c76f3ba2028ef6248e86"
+  }, 
+  {
+    "Changes:": [
+      "-    cmd = '%s \"zstack-ctl configure --duplicate-to-remote root@%s\"' % (ssh_cm1, vm2_ip)\r\n", 
+      "+    cmd = '%s \"zstack-ctl configure --duplicate-to-remote root@%s\"' % (ssh_cmd1, vm2_ip)\r\n"
+    ], 
+    "Message:": "Fix Another typo in installation/test_m_nodes_inst_on_cos7.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/zstackorg/zstack-woodpecker/commit/2de2214a88cd74d4a175720ac6a0a3c2579a7248", 
+    "Commit Corrections:": "https://github.com/zstackorg/zstack-woodpecker/commit/713074f8799fef6b244d40a7ab014d24026fb975"
+  }, 
+  {
+    "Changes:": [
+      "-    lng_diff = 0.05 * math.fabs(math.cos(lat) * 111.321)) # (1 lng degree = cos(latitude) * 111.321, so 0.05 x that gives same-ish distance as latitude)\n", 
+      "+    lng_diff = 0.05 * math.fabs(math.cos(lat) * 111.321) # (1 lng degree = cos(latitude) * 111.321, so 0.05 x that gives same-ish distance as latitude)\n"
+    ], 
+    "Message:": "autocommit", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/chaayac/FindMyPet/commit/12340f05ba13a19c09c2bd1fec88a25e5222d5b6", 
+    "Commit Corrections:": "https://github.com/chaayac/FindMyPet/commit/82ebcf250946305c9749511d1d729d967b08b34f"
+  }, 
+  {
+    "Changes:": [
+      "-    config_name = os.getenv('FLAKS_CONFIGURATION', 'default')\n", 
+      "+    config_name = os.getenv('FLASK_CONFIGURATION', 'default')\n"
+    ], 
+    "Message:": "Fixing a typo.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/damyanbogoev/flask-bookshelf/commit/56fdb59f6ac6e974dd5bcd0b91b3dd1ff05b29d0", 
+    "Commit Corrections:": "https://github.com/damyanbogoev/flask-bookshelf/commit/91efb618889e05d16bdbbd1beec58c5f6bd6c576"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tif ProcessMonitorOn:\n", 
+      "+\t\tif proccessMonitorOn:\n"
+    ], 
+    "Message:": "Signed-off-by: zry <admin@z-touhou.org>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/swzry/zlogsysd/commit/450ffde060a95a063cc722bcda72bda9aba99a35", 
+    "Commit Corrections:": "https://github.com/swzry/zlogsysd/commit/d77954b4f4046c83b38be33d756f0df441ba5179"
+  }, 
+  {
+    "Changes:": [
+      "-    \"\"\"This class implements the format described here: :ref:`gadf:psf_table`.\n", 
+      "+    \"\"\"This class implements the format described here: :ref:`gadf:psf-table`.\n", 
+      "-    energy_thqresh_hi : `~astropy.units.Quantity`\n", 
+      "+    energy_thresh_hi : `~astropy.units.Quantity`\n", 
+      "-        print(containment)\n"
+    ], 
+    "Message:": "Fixed typos.", 
+    "Additions:": 2, 
+    "Deletions:": 3, 
+    "Commit Mistakes:": "https://github.com/dltiziani/gammapy/commit/95a56cc777bb93662a376e583acddb33562c0be9", 
+    "Commit Corrections:": "https://github.com/dltiziani/gammapy/commit/78501873967f1121eebdee28ca2acd3722cf783b"
+  }
+]
