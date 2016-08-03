@@ -7,95 +7,256 @@
 
 @data
 
+
+
+'Code Review Add  to a print message Fix indentation Refactor some vault stuff in another method', 22, 38, no
+'Small fix', 1, 1, no
+'Production Summary added Seconds processing', 1, 1, no
+'findnas  findac', 1, 1, no
+'fix some broken imports', 1, 1, no
+'suitepy must pass at least once through the backtrack loopChanging the default of newest to 0 meant that the combinedloop which handles both backtrack and nonbacktrack conditionswas never executing leading to undefined variablesSignedoffby Dan Mick danmickredhatcom', 1, 1, no
+'add etldrnull etldrnone', 1, 1, no
+'port80', 1, 1, no
+'Production Summary added Seconds processing', 1, 1, no
+'small fix', 1, 1, no
+' ', 1, 1, no
+'modified   paramspy', 1, 1, no
+'IMP Bye to crmrmalotmassreturn module crmrmalotmassreturn module was joined with crmclaimrma', 1, 1, no
+'Fix some typos', 4, 4, no
+'exceptional error in topython def', 1, 1, no
+'agreement sale blah uses region', 1, 1, no
+'BUG replaced old Events syntax from CCCP', 2, 3, no
+'BUG extra return value uncaught', 1, 1, no
+'Merge branch lzkelleyrestructureimport of httpsgithubcomastrocatalogssne into lzkelleyrestructureimport lzkelleyrestructureimport of httpsgithubcomastrocatalogssne  BUG replaced old Events calls', 1, 1, no
+'suitepy must pass at least once through the backtrack loopChanging the default of newest to 0 meant that the combinedloop which handles both backtrack and nonbacktrack conditionswas never executing leading to undefined variablesSignedoffby Dan Mick danmickredhatcom', 1, 1, no
+'Merge pull request 888 from dmickmastersuitepy must pass at least once through the backtrack loop', 1, 1, no
+'Adjust geoip2 db', 1, 1, no
+'Merge branch master of githubcomcatonwanggodbless', 1, 1, no
+'BUG replaced old Events calls', 1, 1, no
+'Use Django 1813 bump to v18130', 1, 1, no
+'Use flaskmoment instead', 1, 1, no
+'Added a print statement to verify that the region loop isnt completing', 1, 1, no
+'typo', 0, 1, no
+'Merge branch lzkelleyrestructureimport of httpsgithubcomastrocatalogssne into lzkelleyrestructureimport lzkelleyrestructureimport of httpsgithubcomastrocatalogssne  BUG replaced old Events syntax from CCCP  BUG changed currenttask to Task object Some of the other Task methods were being called so a string alone was not sufficient', 3, 0, no
+'Changed data loader', 1, 1, no
+'palabra', 1, 1, no
+'changed runpy to pokemon syntax', 3, 3, no
+'This was a bug fixing commit bring the program up to a functional stagewhere the screen is drawn and the logo is loaded and appears on thescreen correctlyTo do this I had to make a few small changes such as changing theparameters in updateScreen importing files where necessary and changingthe  syntax to notI have also changed the background color to black to make it moreauthenticThe next commit will involve making the logo actually move around thescreen which it currently fails to do', 2, 1, no
+'modified   paramspy', 1, 1, no
+'Minor typos', 2, 2, no
+'se omite break para que registre todos los mensajes', 1, 1, no
+'se le pasa el parametro nombre para personalizar', 1, 1, no
+'fix iam access json schema 244', 1, 1, no
+'version 04a17', 1, 1, no
+'se elimina campo costo por estar en otro modelo', 1, 1, no
+'BUG missing catalogargs', 1, 1, no
+'Hourly files created with no valid current data are ignored and not pushed to S3', 1, 1, no
+'Updated recommendations', 1, 1, no
+'Added blank line where needed removed uncalled subprocess import', 1, 1, no
+'minor changes', 0, 1, no
+'style fixes my tox lintflake8 missed', 2, 1, no
+'daily update', 1, 1, no
+'1 Remove category From Wangjia Xinwen Spider2 Add xiehui Tab For Wangjia Xinwen Spider', 1, 1, no
+'v112', 1, 1, no
+'correction bug AjoutEquipementpyCorrection de laffichage qui etait decales pour les differents etats', 4, 1, no
+'clean up rebase mistake', 2, 2, no
+'Bump Version 6353ChangeLog Add misc files', 1, 1, no
+'value', 1, 1, no
+'syntax error', 0, 4, no
+'WIP', 1, 1, no
+'Improve EXPMONTH and EXPYEAR options building Use range instead of xrange for Python 3 compatibility Even with  Python 2 the used ranges are small enough to not worrying about Use strformat instead of the mod syntax Build years list with a string year as label Avoid calling datetoday twice', 4, 3, no
+'fix typo', 1, 1, no
+'Remove unnecessarilydisabled sanity checkThis was commented out for reasons having nothing to do with anythingelse going on in 0c069dd Uncommenting this sanity check so that we arenotified if we need to update our targets in the future', 1, 1, no
+'Minor Fixes  Typos and maths in docsEnsuring the documentation showing the functions is correct andaccurate', 39, 40, no
+'Added vertical and horizontal decimal values in the logo  for movement and added lines to update the rectcenterx and rectcentery values based on these decimal values I have also added a call to logoupdate in the main function and imported the math library into logopy With these changes the logo moves but it incorrectly moves off the screen in a vertical direction', 1, 0, no
+'ADD created the openclosed buttons for the quickfire questions and now the author of the question can also choose the correct answer and the question will be closed and the correct comment will be marked as Correct also users are no longer able to to submit an answer once a question is closed', 20, 0, no
+'2153 initpy adjust spacing and indentation', 1, 1, no
+'Correct warning syntax', 1, 1, no
+'Ticket 48888  Correction to create of dsldapobjectBug Description  We did not allow properly setting of DN for singletons increate or the many object case with the factor This corrects that behaviourFix Description  If dn is set use it else use the RDn  BaseDN to createthe dn of the object to be createdhttpsfedorahostedorg389ticket48888Author wibrownReview by mreynolds Thanks', 19, 11, no
+'Added parameterization of solvent mixtures to tests', 1, 1, no
+'botreqstatus Fix two formatting issuesI wasnt counting replies correctly the initial post doesnt count as a reply and I wasnt formatting the last edit time outside the if block that was changed in this commit', 3, 3, no
+'Updates for python 3 syntax', 0, 1, no
+'Ticket 48884  Bugfixes for mapped object and new connectionsBug Description  This patch corrects a number of behaviours around ldapconnections and the mapped object type behaviour in certain conditionsRdn set through properties rather than argumentFix Description  Fix handling of ldapurl starttls and mappedobjectswhen the rdn is part of propertieshttpsfedorahostedorg389ticket48884Author wibrownReview by nhosoi Thanks', 25, 9, no
+'Removing debug flags', 1, 1, no
+'Lab1 Noise variance correction', 1, 1, no
+'Fixing equations in documentationSome of the documented equations were incorrect now fixed', 5, 13, no
+'2153 initpy implement correct quoting', 1, 1, no
+'Fix some typos 2490', 4, 4, no
+'modify feature lang 274  49', 1, 1, no
+'syntax error remove', 4, 0, no
+'typo with store2 should be 0', 1, 1, no
+'Remove untrue comment messageOctavia is using graphflow to handle building Amphora if there areno spares More details can be find    octaviacontrollerworkerflowsamphoraflowsAmphoraFlowsgetamphoraforlbsubflowThe comment message for createloadbalancer in ControllerWorkeris not correctChangeId I9cfafd96076416c86462b333fe6e6f6abfa3fb97', 0, 5, no
+'some cleanup tests run again', 1, 1, yes
+'bug', 1, 1, yes
+'Fix issue related to gid0 and the corresponding worksheets position in the spreadsheet', 1, 1, yes
+'Use boolean operator and for boolean expression rather than bitwise  in hascurrentdata function', 1, 1, yes
+'typo', 4, 2, yes
+'typo', 1, 1, yes
+'Minor Fixes  Typos and maths in docsEnsuring the documentation showing the functions is correct andaccurate', 39, 40, yes
+'2153 viewspy adjust spacing and indentation', 15, 1, yes
+'bug fix', 1, 1, yes
+'Production Summary added Seconds processing', 1, 1, yes
+'Fixed connectionlimit and added UTDue to a typo the REST API attribute of connectionlimit wasnot accessed when creating a new lbaasV2 listenerThis patch fixes the typo so that the connectionlimit canbe initialized when listener is created Also the previouscode did not have UT for connectionlimit when the listenerwas created The same has been added hereClosesBug 1515112Conflictsneutronclientneutronv20lbv2listenerpyChangeId I71eef7b92de91edc1f3ce48f40c645bca704427dcherry picked from commit 9baa62c3c58f4d6187ab22fc3c04843efd283b55', 3, 2, yes
+'build docs', 1, 1, yes
+'fixes', 1, 1, yes
+'Fix typo in CactusCafWrapperLarge2', 1, 1, yes
+'Fix a typo', 2, 2, yes
+'Fix gpio to uppercase GPIO', 1, 1, yes
+'fix base source import after Shougodeopletenvime3e4c4a', 1, 1, yes
+'geolite longi lati', 2, 1, yes
+'fix syntax error', 1, 1, yes
+'typo', 2, 2, yes
+'', 1, 1, yes
+'typo', 2, 2, yes
+'Fix patricks bot', 1, 1, yes
+'Force programcycles to be used as an attribue everywhere', 1, 1, yes
+'Fixed motor when turning by degrees', 1, 1, yes
+'bugfix set correct function call', 1, 1, yes
+'fix typo', 1, 1, yes
+'Woops Fixed syntax error', 1, 1, yes
+'Fixing typo', 1, 1, yes
+'Fix Another typo in installationtestmnodesinstoncos7py', 1, 1, yes
+'autocommit', 1, 1, yes
+'Fixing a typo', 1, 1, yes
+'Signedoffby zry adminztouhouorg', 1, 1, yes
+'Fixed typos', 2, 3, yes
+'Fix wineserver call', 1, 1, yes
+'bug fix update configure V82', 1, 1, yes
+'fixes for picture', 1, 1, yes
+'Forward port cli argument', 1, 1, yes
+'Fixed typos', 6, 6, yes
+'Fixed another typo', 4, 1, yes
+'modified   datamanagerpymodified   paramspy', 1, 1, yes
+'BUG FLASK Restful API to server JSON not rendering', 1, 1, yes
+'modidy', 1, 1, yes
+'whoops missed one', 1, 1, yes
+'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, yes
+'Corrected importCorrected import', 1, 1, yes
+'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, yes
+'Small syntax error fixed', 2, 1, yes
+'Small bug fix', 1, 1, yes
+'Fixed indentation', 33, 33, yes
+'Fixed name of papercutsettings import', 1, 1, yes
+'fix import error', 1, 1, no
+'added prints for debugging', 1, 1, no
+'kafka consumer is added', 1, 1, no
+'update version to 011', 1, 1, no
+'Add files via upload', 1, 1, no
+'Update test4py', 1, 1, no
+'adding the mixture gaussian tensorflow implementationwithout likelihood', 1, 1, no
+'Fail case', 1, 1, no
+'tests Minor fix to typo in a string', 1, 1, no
+'endlink angle', 1, 1, no
+'projectEuler Problem 3 Largest Prime NumberAdded ProjectEuler3 SolutionsStyles checked', 1, 1, no
+'Add email to searchfields in registration admin', 1, 1, no
+'Rename bucket1000pytxt to bucket1000py', 1, 1, no
+'Bug 1265028  Bump Firefox Puppeteer to 4900 rmajazfMozReviewCommitID 3Dd7bLeMzCS', 1, 1, no
+'correct spelling', 1, 3, no
+'Update basicpy 1049  reducestock ', 1, 1, no
+'Release 02', 1, 1, no
+'turned debug off', 1, 1, no
+'settingspy timezone revised 160627 1146', 1, 1, no
+'clean up', 1, 1, no
+'comment modification', 1, 1, no
+'pep8', 1, 1, no
+'Cleaned primesUnder', 1, 1, no
+'comments revised', 1, 1, no
+'Fix help string typosc Copyright IBM Corp 2016', 3, 3, no
+'modify', 1, 1, no
+'Update custompy', 1, 1, no
+'version bump', 1, 1, no
+'Merge branch master of httpsgithubcomxgdsxgdsinstrument', 1, 1, no
+'master Add comment', 1, 1, no
+'Merge pull request 18 from PhylliadedevFix name arg in fromurdf method', 1, 1, no
 'Fixed jobs not correctly searhed', 13, 8, no
-'Merge pull request #129 from shiweixxx/master', 1, 1, no
+'Merge pull request 129 from shiweixxxmaster', 1, 1, no
 'Edit', 1, 1, no
 'PUSH', 1, 1, no
-'Added testing for guest os features.', 1, 1, no
+'Added testing for guest os features', 1, 1, no
 'removed smoothing for memory', 1, 1, no
 'cambiando formulario de add estudiantes', 1, 1, no
-'removed obsolete string.', 1, 1, no
-'Update 2016-06-29: chage email title', 1, 1, no
-'kvmrunner: fix mysterious prompt corruptionWhen read() returns more than SEARCHWINDOWSIZE characterspexpect discards all but the last SEARCHWINDOWSIZE characters.This results in a critical boot message being missed.See: https://github.com/pexpect/pexpect/issues/203When a reboot hangs, only use "virsh destroy" when the VM ispaused.  There seems to be a bug in the KVM/fedora code where arebooting domain, instead of resetting, pauses.', 30, 20, no
+'removed obsolete string', 1, 1, no
+'Update 20160629 chage email title', 1, 1, no
+'kvmrunner fix mysterious prompt corruptionWhen read returns more than SEARCHWINDOWSIZE characterspexpect discards all but the last SEARCHWINDOWSIZE charactersThis results in a critical boot message being missedSee httpsgithubcompexpectpexpectissues203When a reboot hangs only use virsh destroy when the VM ispaused  There seems to be a bug in the KVMfedora code where arebooting domain instead of resetting pauses', 30, 20, no
 'update low level data structure', 1, 1, no
 'support new rich quality values API', 1, 1, no
-'charset="utf8mb4",', 1, 1, no
-'charset="utf8mb4",', 1, 1, no
-'Moves hostname related utils to .utils.nodenames', 1, 1, no
-'Moves .utils.isatty to .platforms.isatty', 1, 1, no
-'Moves .utils.lpmerge to .utils.collections.lpmerge', 1, 1, no
-'Moves .utils.strtobool to .utils.serialization', 1, 1, no
-'Interim commit: added rudimentary tests', 1, 1, no
-'merge the errors for "need to check section" and tuning the layout same as the other tables.', 1, 1, no
-'Dont set min/max if boundingBox not passed, lv updateEnables correct auto-calc of box dims in WebGLAlso check and expand to 3d if 2d bounding box providedUpdate LavaVu with some fixes', 7, 3, no
-'Update Ex01.py', 1, 1, no
-'Update N0Use.py', 1, 1, no
+'charsetutf8mb4', 1, 1, no
+'charsetutf8mb4', 1, 1, no
+'Moves hostname related utils to utilsnodenames', 1, 1, no
+'Moves utilsisatty to platformsisatty', 1, 1, no
+'Moves utilslpmerge to utilscollectionslpmerge', 1, 1, no
+'Moves utilsstrtobool to utilsserialization', 1, 1, no
+'Interim commit added rudimentary tests', 1, 1, no
+'merge the errors for need to check section and tuning the layout same as the other tables', 1, 1, no
+'Dont set minmax if boundingBox not passed lv updateEnables correct autocalc of box dims in WebGLAlso check and expand to 3d if 2d bounding box providedUpdate LavaVu with some fixes', 7, 3, no
+'Update Ex01py', 1, 1, no
+'Update N0Usepy', 1, 1, no
 'PUSH', 1, 1, no
 'update conflicts', 1, 1, no
-'Update to simple-contig-joiner-0.3', 1, 1, no
+'Update to simplecontigjoiner03', 1, 1, no
 'misc', 1, 1, no
 'Missing a key for a dictionary', 1, 1, no
 'Encoding missing', 1, 1, no
-'version 0.4a18', 1, 1, no
+'version 04a18', 1, 1, no
 'Python file', 1, 1, no
-'Version 4.0.8 Sulphur admin fix', 1, 1, no
+'Version 408 Sulphur admin fix', 1, 1, no
 'upload image', 1, 1, no
 'bug fix', 1, 1, no
-'dashboard_list handle create in base views', 1, 1, no
-'Add correct current position and company from get_experience.', 19, 15, no
+'dashboardlist handle create in base views', 1, 1, no
+'Add correct current position and company from getexperience', 19, 15, no
 'fix mysterious tox issue', 1, 1, no
-'Update mkArmbianDocs.py', 1, 1, no
-'Prettified lots of functions, removed some unnecessary ones', 1, 1, no
-'bugfix on gf_workflow tools', 1, 1, no
+'Update mkArmbianDocspy', 1, 1, no
+'Prettified lots of functions removed some unnecessary ones', 1, 1, no
+'bugfix on gfworkflow tools', 1, 1, no
 'Test 1', 1, 1, no
-'Merge branch develop of https://github.com/shotakaha/kumawatch into develop', 1, 1, no
-'Fix a bug to print the adb remount command in ReplaceHostForShell.py.', 1, 1, no
-'lease_url bug fix', 1, 1, no
-'[add]tranlate to course name', 1, 1, no
-'fix(mongo):fix mongo tags idf calc issue', 1, 1, no
+'Merge branch develop of httpsgithubcomshotakahakumawatch into develop', 1, 1, no
+'Fix a bug to print the adb remount command in ReplaceHostForShellpy', 1, 1, no
+'leaseurl bug fix', 1, 1, no
+'addtranlate to course name', 1, 1, no
+'fixmongofix mongo tags idf calc issue', 1, 1, no
 'Minor session debug', 1, 1, no
 'merge', 1, 1, no
 'Arreglar migraciones viejas', 1, 1, no
 'install cases at the beginning', 1, 1, no
-'Update wunderground-grovepi-dht22.py', 1, 1, no
-'Merge pull request #591 from PandaWei/clear_win_driver_verifiervirttest.utils_test.qemu: Fix missed param driver', 1, 1, no
-'coredevice/core: add syscall type annotation', 1, 1, no
+'Update wundergroundgrovepidht22py', 1, 1, no
+'Merge pull request 591 from PandaWeiclearwindriververifiervirttestutilstestqemu Fix missed param driver', 1, 1, no
+'coredevicecore add syscall type annotation', 1, 1, no
 'Wasnt printing correctly', 2, 3, no
 'actuator node impl joy', 1, 1, no
 'Read wikipedia binary model', 1, 1, no
-'Update setup.py', 1, 1, no
+'Update setuppy', 1, 1, no
 'fix indentation problem', 1, 1, yes
-'update main.pyif type(xxx) is type instead of if type(xxx) is type', 1, 1, yes
+'update mainpyif typexxx is type instead of if typexxx is type', 1, 1, yes
 'bug fix', 1, 1, yes
 'corrected seconds since epoch bug', 1, 3, yes
 'pass into', 1, 1, yes
-'fix celery.schedulers -> celery.schedules', 1, 1, yes
-'fix setup.py', 1, 1, yes
+'fix celeryschedulers  celeryschedules', 1, 1, yes
+'fix setuppy', 1, 1, yes
 'typo', 1, 1, yes
 'update', 1, 1, yes
 'update', 1, 1, yes
 'Fix broken password prompt', 1, 1, yes
 'Fix typo in pip connect', 1, 1, yes
 'fix wrong  problem', 1, 1, yes
-'Fix typo that was preventing mail from sending.', 1, 1, yes
+'Fix typo that was preventing mail from sending', 1, 1, yes
 'corrected typo', 2, 2, yes
-'Close parantheses that break the whole site.', 1, 1, yes
-'bugfix: add missing semi-colon', 1, 1, yes
+'Close parantheses that break the whole site', 1, 1, yes
+'bugfix add missing semicolon', 1, 1, yes
 'sss', 1, 1, yes
-'Fix typo.', 1, 1, yes
+'Fix typo', 1, 1, yes
 'fox indentation', 1, 1, yes
-'bot_names -> self.bot_names', 2, 2, yes
+'botnames  selfbotnames', 2, 2, yes
 'small fix', 1, 1, yes
 'fixed indentation error in new baud rate code', 1, 1, yes
 'misc', 1, 1, yes
-'	modified:   ../params.py', 1, 1, yes
-'API: new-style es `P_AttrList` and `Common`', 1, 1, yes
-'Modified templates to display posts from database.', 1, 1, yes
-'Add identical_to expression', 2, 1, yes
+'modified   paramspy', 1, 1, yes
+'API newstyle es PAttrList and Common', 1, 1, yes
+'Modified templates to display posts from database', 1, 1, yes
+'Add identicalto expression', 2, 1, yes
 'automated commit', 1, 1, yes
 'automated commit', 2, 1, yes
 'Corrected the while loop', 1, 1, yes
-'fixed pickle.dump issue in polibot.py', 1, 1, yes
+'fixed pickledump issue in polibotpy', 1, 1, yes
 'dbb', 1, 1, yes
 'PEP008', 1, 1, yes
 'a', 1, 1, yes
