@@ -22,14 +22,14 @@ else:
 	chicken = "no"
 
 for i in data:
-	c = str(i.get("Changes:"))
+	#c = str(i.get("Changes:"))
 	m = i.get("Message:")
 	m = m.replace("'", "")
 	m = m.replace("\n", "")
 	m = m.replace("class", "")
 	a = str(i.get("Additions:"))
 	d = str(i.get("Deletions:"))
-	text = "\n'%s', %s, %s, %s, %s" %(c,m,a,d,chicken)
+	text = "\n'%s', %s, %s, %s" %(m,a,d,chicken)
 	text = text.encode('ascii', errors='ignore')
 	text = str(text)
 	txt2.write(text)
