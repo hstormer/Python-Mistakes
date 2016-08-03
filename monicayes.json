@@ -274,4 +274,295 @@
     "Commit Corrections:": "https://github.com/jgrassler/papercut/commit/f2cab7a953c6c8f778bf98ae8a7970641fdfb34e", 
     "Message:": "Fixed name of papercut.settings import."
   }
+][
+  {
+    "Changes:": [
+      "-        wineserver = self.get_executable + 'server'\n", 
+      "+        wineserver = self.get_executable() + 'server'\n"
+    ], 
+    "Message:": "Fix wineserver call", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lutris/lutris/commit/9f8195858bfb6104b47f05c0770b9b0650ac353b", 
+    "Commit Corrections:": "https://github.com/lutris/lutris/commit/5c61e571d306edf780c538547abf7c5deec20cea"
+  }, 
+  {
+    "Changes:": [
+      "-    if ',' in data_principle:\n", 
+      "+    if not ',' in data_principle:\n"
+    ], 
+    "Message:": "[bug fix] update configure V8.2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SureDoo/3_general_Deming/commit/3527a23ec188a01d07b7ba028f976cd4cc2baae1", 
+    "Commit Corrections:": "https://github.com/SureDoo/3_general_Deming/commit/1524fc3f28ec4349c9dba368e905ba4a94cb568e"
+  }, 
+  {
+    "Changes:": [
+      "-        if 'picture' in data and 'url' in data['picture']:\n", 
+      "+        if ('picture' in data) and (data['picture'] is not None) and ('url' in data['picture']):\n"
+    ], 
+    "Message:": "fixes for picture", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pankajlal/prabandh/commit/7343590cf58ddb50ae50f5d51662dd6bc1427b3d", 
+    "Commit Corrections:": "https://github.com/pankajlal/prabandh/commit/37b4ebfb127e6fe1a0c0ad92d059262619f263ed"
+  }, 
+  {
+    "Changes:": [
+      "-            serve(app, executor=executor)\n", 
+      "+            serve(app, executor=executor, port=port)"
+    ], 
+    "Message:": "Forward port cli argument", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/FAForever/api/commit/c98291114ab18176ae08dc66628ed7a897c21259", 
+    "Commit Corrections:": "https://github.com/FAForever/api/commit/444e68bb4cfc12ea96c094558f53df698765007d"
+  }, 
+  {
+    "Changes:": [
+      "-        \t\tc.openPort()\n", 
+      "+        \t\tself.ci.openPort()\n", 
+      "-        \t\tc.setFilterPos(False)\n", 
+      "+        \t\tself.ci.setFilterPos(False)\n", 
+      "-        \t\tc.closePort()\n", 
+      "+        \t\tself.ci.closePort()\n", 
+      "-        \t\tc.openPort()\n", 
+      "+        \t\tself.ci.openPort()\n", 
+      "-        \t\tc.setFilterPos(False)\n", 
+      "+        \t\tself.ci.setFilterPos(False)\n", 
+      "-        \t\tc.closePort()\n", 
+      "+        \t\tself.ci.closePort()\n"
+    ], 
+    "Message:": "Fixed typos", 
+    "Additions:": 6, 
+    "Deletions:": 6, 
+    "Commit Mistakes:": "https://github.com/UWMRO/CloudCamera/commit/10fa7373542fb297e3b739b10bec5a829083079a", 
+    "Commit Corrections:": "https://github.com/UWMRO/CloudCamera/commit/f2170a93023669d0456e69637539a99c0e552ad0"
+  }, 
+  {
+    "Changes:": [
+      "+                        print(\"Job group set to \" + str(jobGroup))\n", 
+      "+                        print(\"No job group specified\")\n", 
+      "+                print(\"Job group = \" + str(jobGroup))\n", 
+      "-                if self.getJob(self.jobGroup) == ResultCode.success:\n", 
+      "+                if self.getJob(jobGroup) == ResultCode.success:\n"
+    ], 
+    "Message:": "Fixed another typo", 
+    "Additions:": 4, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/russellthackston/comp-chem-util/commit/e625875d5d1b4e698796eb54b99c1089f691d715", 
+    "Commit Corrections:": "https://github.com/russellthackston/comp-chem-util/commit/7e147e7edf64047f07e37daf4e529848a5d0775d"
+  }, 
+  {
+    "Changes:": [
+      "-            x = np.hstack([ll_classifier_train_X[:,:,:1], ll_classifier_train_X[:,:,2:]] )\n", 
+      "+            x = np.dstack([ll_classifier_train_X[:,:,:1], ll_classifier_train_X[:,:,2:]] )\n"
+    ], 
+    "Message:": "\tmodified:   ../data_manager.py\n\tmodified:   ../params.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/1a6be657bfdd75778f4b6dfd2d35c7e70c7ba6b2", 
+    "Commit Corrections:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/8269fad5580fdddb5e4c918d70c0d6707f92a7af"
+  }, 
+  {
+    "Changes:": [
+      "-            'id': self.id,\n", 
+      "+            'id': self.id\n"
+    ], 
+    "Message:": "BUG: FLASK Restful API to server JSON not rendering", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/moagm316/FSND_Item_Catalog/commit/cef79e675b68ecbae421c13f25ee052612512b3d", 
+    "Commit Corrections:": "https://github.com/moagm316/FSND_Item_Catalog/commit/947ccda23ee5bedf761a3014286bdd1d87730c6f"
+  }, 
+  {
+    "Changes:": [
+      "-                    if '5' in s_zone : or '6' in s_zone\n", 
+      "+                    if '5' in s_zone  or '6' in s_zone :\n"
+    ], 
+    "Message:": "modidy", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/luyg24/practise/commit/0440d55b3717c521c8dbbb3564ef4257ee1a99d2", 
+    "Commit Corrections:": "https://github.com/luyg24/practise/commit/ec67d4a5e3a52b17ec22c2d81b52d8192b31330b"
+  }, 
+  {
+    "Changes:": [
+      "-import enviroment\n", 
+      "+import environment\n"
+    ], 
+    "Message:": "whoops missed one", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/drocta/someParser/commit/f52e05cb9ac788b1ecd2d55c3f2dc55fda43ae0a", 
+    "Commit Corrections:": "https://github.com/drocta/someParser/commit/203cff66f30f3303c159ba38d33a950fe9c6c63d"
+  }, 
+  {
+    "Changes:": [
+      "-        self.daemon = True;\n", 
+      "+        self.daemon = True\n"
+    ], 
+    "Message:": "Sensor temperatura y humedad listo. Inicio alarma (sensor de movimiento)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/julianAvaca44/HomeBerry/commit/596d4bbc5d5fd11adb0d91fbc630682b660ad26d", 
+    "Commit Corrections:": "https://github.com/julianAvaca44/HomeBerry/commit/b6036ac30e89415f98f4f9661df59c593d6ffeb2"
+  }, 
+  {
+    "Changes:": [
+      "-import Error\n", 
+      "+import Response\n"
+    ], 
+    "Message:": "Corrected import\n\nCorrected import", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Kitsui/AWS-CMS-LAMBDA/commit/c4b911d5e50eeb9a0670f0b1bc7acf9f86914bcc", 
+    "Commit Corrections:": "https://github.com/Kitsui/AWS-CMS-LAMBDA/commit/30b3a8f325c22b0ef66368cbd2ac68627a1f6ee0"
+  }, 
+  {
+    "Changes:": [
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(test_api.__json__(), expected_value)\n", 
+      "+        self.assertEqual(expected_value, test_api.__json__())\n", 
+      "-        self.assertEqual(six.text_type(actual_value),\n", 
+      "-                         six.text_type(expected_value))\n", 
+      "+        self.assertEqual(six.text_type(expected_value),\n", 
+      "+                         six.text_type(actual_value))"
+    ], 
+    "Message:": "Fix order of arguments in assertEqual\n\nSome tests used incorrect order assertEqual(observed, expected).\nThe correct order expected by testtools is\nassertEqual(expected, observed).\nThis patch fix the issue.\n\nChange-Id: Id14676d8d07953fd33139a8fd8b7773aabf5fdfa\nPartial-Bug: #1259292", 
+    "Additions:": 6, 
+    "Deletions:": 6, 
+    "Commit Mistakes:": "https://github.com/openstack/higgins/commit/3e4aad8d082ac70005cd04995a078846105e90d9", 
+    "Commit Corrections:": "https://github.com/openstack/higgins/commit/19fa788961c91d1540d91b7ea5abec028d72a594"
+  }, 
+  {
+    "Changes:": [
+      "+    return result\n", 
+      "-            res = BackChaining_Ask(inKB, g)\n", 
+      "+            res = BackChaining_Ask(inKB, q)\n"
+    ], 
+    "Message:": "Small syntax error fixed", 
+    "Additions:": 2, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tannerzigrang/CSCI-561/commit/c736ee8d69300f647f88a5cfb28bb3fc1aade6e7", 
+    "Commit Corrections:": "https://github.com/tannerzigrang/CSCI-561/commit/c70ee9408ab0482c616911094106f5842b64d270"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tif add_noies == 0:\n", 
+      "+\t\tif add_noise == 0:\n"
+    ], 
+    "Message:": "Small bug fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bmountjoy/LMTools/commit/90cdfd80fcded72aa1b172a755f78b90297b7d56", 
+    "Commit Corrections:": "https://github.com/bmountjoy/LMTools/commit/73267d522b9ceee90c8a9b3ab29356bb333f75b7"
+  }, 
+  {
+    "Changes:": [
+      "-    subject = \"Medical Report as of \"+datetime.now().strftime(\"%d/%m/%Y %H:%M:%S\")\n", 
+      "+    \tsubject = \"Medical Report as of \"+datetime.now().strftime(\"%d/%m/%Y %H:%M:%S\")\n", 
+      "-    \tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-\t\tfound_file = True\n", 
+      "+    \t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+\t\t\tfound_file = True\n", 
+      "-\t\tfiles_to_remove.append(path+i)\n", 
+      "+\t\t\tfiles_to_remove.append(path+i)\n", 
+      "-    \tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+    \t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-\t\tfiles.append(i)\n", 
+      "-\t\tfiles_to_remove.append(path+i)\n", 
+      "+\t\t\tfiles.append(i)\n", 
+      "+\t\t\tfiles_to_remove.append(path+i)\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    body += \"Standing from a chair:\\n\"\n", 
+      "+\tbody += \"Standing from a chair:\\n\"\n", 
+      "-    path = rospack.get_path('ros_visual_wrapper')+'/logs/'\n", 
+      "-    for i in os.listdir(path):\n", 
+      "-        if os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-                found_file = True\n", 
+      "-        files.append(i)\n", 
+      "-        files_to_remove.append(path+i)\n", 
+      "+\tpath = rospack.get_path('ros_visual_wrapper')+'/logs/'\n", 
+      "+\tfor i in os.listdir(path):\n", 
+      "+\t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+\t\t\tfound_file = True\n", 
+      "+\t\t\tfiles.append(i)\n", 
+      "+\t\t\tfiles_to_remove.append(path+i)\n", 
+      "-        for f in files:\n", 
+      "-            with open(path+f, 'r') as myfile:\n", 
+      "-                    body += myfile.read()\n", 
+      "-\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+        \tfor f in files:\n", 
+      "+            \t\twith open(path+f, 'r') as myfile:\n", 
+      "+                    \t\tbody += myfile.read()\n", 
+      "-    msg.attach(MIMEText(body, 'plain'))\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    path = rospack.get_path('radio_node_manager')+'/logs/'\n", 
+      "-    for i in os.listdir(path):\n", 
+      "-        if os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "-                found_file = True\n", 
+      "-        files.append(i)\n", 
+      "-        files_to_remove.append(path+i)\n", 
+      "+\tbody += \"Gym info:\\n\"\n", 
+      "+\n", 
+      "+\tpath = rospack.get_path('radio_node_manager')+'/logs/'\n", 
+      "+\tfor i in os.listdir(path):\n", 
+      "+\t\tif os.path.isfile(os.path.join(path,i)) and 'official_log_'+datetime.today().strftime(\"%d-%m-%Y\") in i:\n", 
+      "+\t\t\tfound_file = True\n", 
+      "+        \t\tfiles.append(i)\n", 
+      "+        \t\tfiles_to_remove.append(path+i)\n", 
+      "-        for f in files:\n", 
+      "-            with open(path+f, 'r') as myfile:\n", 
+      "-                    body += myfile.read()\n", 
+      "+        \tfor f in files:\n", 
+      "+            \t\twith open(path+f, 'r') as myfile:\n", 
+      "+                    \t\tbody += myfile.read()\n", 
+      "-    body += \"---\\n\\n\\n\"\n", 
+      "+\tbody += \"---\\n\\n\\n\"\n", 
+      "-    msg.attach(MIMEText(body, 'plain'))\n", 
+      "+\tmsg.attach(MIMEText(body, 'plain'))\n"
+    ], 
+    "Message:": "Fixed indentation", 
+    "Additions:": 33, 
+    "Deletions:": 33, 
+    "Commit Mistakes:": "https://github.com/RADIO-PROJECT-EU/radio_node_manager/commit/194355857d73ed6c2b17cc5cfa49302d6e30de41", 
+    "Commit Corrections:": "https://github.com/RADIO-PROJECT-EU/radio_node_manager/commit/c3cd470efa40c8a5d4ea6c439ad15eb4bcf47e37"
+  }, 
+  {
+    "Changes:": [
+      "-import papercut.settings\n", 
+      "+import papercut.settings as settings\n"
+    ], 
+    "Message:": "Fixed name of papercut.settings import.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jgrassler/papercut/commit/10ca6f753792d62a1d76cc2566727aa54f5dc717", 
+    "Commit Corrections:": "https://github.com/jgrassler/papercut/commit/f2cab7a953c6c8f778bf98ae8a7970641fdfb34e"
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-            raise\n", 
+      "+        raise\n"
+    ], 
+    "Commit Mistakes:": "https://github.com/ESGF/esg-publisher/commit/575b8e9032e6a89c4d9d27d5d4b5c03f8a09af0a", 
+    "Commit Corrections:": "https://github.com/ESGF/esg-publisher/commit/22c52f4ef697707dbf8ced09036c6e6737839afc", 
+    "Tags:": "indentation", 
+    "Keyword:": "length", 
+    "Mistake:": "wrong indentation", 
+    "Deletions:": 1, 
+    "Additions": 1, 
+    "Message:": "fix a wrong indentation level"
+  }
 ]
