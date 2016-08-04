@@ -7,6 +7,9 @@
 
 @data
 
+
+
+
 'fix indentation problem', 1, 1, yes
 'update mainpyif typexxx is type instead of if typexxx is type', 1, 1, yes
 'bug fix', 1, 1, yes
@@ -59,41 +62,65 @@
 'Misprint in import modul and error in asknumber function were improved', 1, 1, yes
 'Further refactoring of inner parsing functions', 1, 1, yes
 'fix typo in utils build script', 1, 1, yes
-'Fix wineserver call', 1, 1, yes
-'bug fix update configure V82', 1, 1, yes
-'fixes for picture', 1, 1, yes
-'Forward port cli argument', 1, 1, yes
-'Fixed typos', 6, 6, yes
-'Fixed another typo', 4, 1, yes
-'modified   datamanagerpymodified   paramspy', 1, 1, yes
-'BUG FLASK Restful API to server JSON not rendering', 1, 1, yes
-'modidy', 1, 1, yes
-'whoops missed one', 1, 1, yes
-'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, yes
-'Corrected importCorrected import', 1, 1, yes
-'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, yes
-'Small syntax error fixed', 2, 1, yes
-'Small bug fix', 1, 1, yes
-'Fixed indentation', 33, 33, yes
-'Fixed name of papercutsettings import', 1, 1, yes
-'Fix wineserver call', 1, 1, yes
-'bug fix update configure V82', 1, 1, yes
-'fixes for picture', 1, 1, yes
-'Forward port cli argument', 1, 1, yes
-'Fixed typos', 6, 6, yes
-'Fixed another typo', 4, 1, yes
-'modified   datamanagerpymodified   paramspy', 1, 1, yes
-'BUG FLASK Restful API to server JSON not rendering', 1, 1, yes
-'modidy', 1, 1, yes
-'whoops missed one', 1, 1, yes
-'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, yes
-'Corrected importCorrected import', 1, 1, yes
-'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, yes
-'Small syntax error fixed', 2, 1, yes
-'Small bug fix', 1, 1, yes
-'Fixed indentation', 33, 33, yes
-'Fixed name of papercutsettings import', 1, 1, yes
-'fix a wrong indentation level', 1, 1, yes
+
+'Fixed jobs not correctly searhed', 13, 8, no
+'Merge pull request 129 from shiweixxxmaster', 1, 1, no
+'Edit', 1, 1, no
+'PUSH', 1, 1, no
+'Added testing for guest os features', 1, 1, no
+'removed smoothing for memory', 1, 1, no
+'cambiando formulario de add estudiantes', 1, 1, no
+'removed obsolete string', 1, 1, no
+'Update 20160629 chage email title', 1, 1, no
+'kvmrunner fix mysterious prompt corruptionWhen read returns more than SEARCHWINDOWSIZE characterspexpect discards all but the last SEARCHWINDOWSIZE charactersThis results in a critical boot message being missedSee httpsgithubcompexpectpexpectissues203When a reboot hangs only use virsh destroy when the VM ispaused  There seems to be a bug in the KVMfedora code where arebooting domain instead of resetting pauses', 30, 20, no
+'update low level data structure', 1, 1, no
+'support new rich quality values API', 1, 1, no
+'charsetutf8mb4', 1, 1, no
+'charsetutf8mb4', 1, 1, no
+'Moves hostname related utils to utilsnodenames', 1, 1, no
+'Moves utilsisatty to platformsisatty', 1, 1, no
+'Moves utilslpmerge to utilscollectionslpmerge', 1, 1, no
+'Moves utilsstrtobool to utilsserialization', 1, 1, no
+'Interim commit added rudimentary tests', 1, 1, no
+'merge the errors for need to check section and tuning the layout same as the other tables', 1, 1, no
+'Dont set minmax if boundingBox not passed lv updateEnables correct autocalc of box dims in WebGLAlso check and expand to 3d if 2d bounding box providedUpdate LavaVu with some fixes', 7, 3, no
+'Update Ex01py', 1, 1, no
+'Update N0Usepy', 1, 1, no
+'PUSH', 1, 1, no
+'update conflicts', 1, 1, no
+'Update to simplecontigjoiner03', 1, 1, no
+'misc', 1, 1, no
+'Missing a key for a dictionary', 1, 1, no
+'Encoding missing', 1, 1, no
+'version 04a18', 1, 1, no
+'Python file', 1, 1, no
+'Version 408 Sulphur admin fix', 1, 1, no
+'upload image', 1, 1, no
+'bug fix', 1, 1, no
+'dashboardlist handle create in base views', 1, 1, no
+'Add correct current position and company from getexperience', 19, 15, no
+'fix mysterious tox issue', 1, 1, no
+'Update mkArmbianDocspy', 1, 1, no
+'Prettified lots of functions removed some unnecessary ones', 1, 1, no
+'bugfix on gfworkflow tools', 1, 1, no
+'Test 1', 1, 1, no
+'Merge branch develop of httpsgithubcomshotakahakumawatch into develop', 1, 1, no
+'Fix a bug to print the adb remount command in ReplaceHostForShellpy', 1, 1, no
+'leaseurl bug fix', 1, 1, no
+'addtranlate to course name', 1, 1, no
+'fixmongofix mongo tags idf calc issue', 1, 1, no
+'Minor session debug', 1, 1, no
+'merge', 1, 1, no
+'Arreglar migraciones viejas', 1, 1, no
+'install cases at the beginning', 1, 1, no
+'Update wundergroundgrovepidht22py', 1, 1, no
+'Merge pull request 591 from PandaWeiclearwindriververifiervirttestutilstestqemu Fix missed param driver', 1, 1, no
+'coredevicecore add syscall type annotation', 1, 1, no
+'Wasnt printing correctly', 2, 3, no
+'actuator node impl joy', 1, 1, no
+'Read wikipedia binary model', 1, 1, no
+'Update setuppy', 1, 1, no
+
 'some cleanup tests run again', 1, 1, yes
 'bug', 1, 1, yes
 'Fix issue related to gid0 and the corresponding worksheets position in the spreadsheet', 1, 1, yes
@@ -128,6 +155,7 @@
 'Fixing a typo', 1, 1, yes
 'Signedoffby zry adminztouhouorg', 1, 1, yes
 'Fixed typos', 2, 3, yes
+
 'Code Review Add  to a print message Fix indentation Refactor some vault stuff in another method', 22, 38, no
 'Small fix', 1, 1, no
 'Production Summary added Seconds processing', 1, 1, no
@@ -205,6 +233,26 @@
 'syntax error remove', 4, 0, no
 'typo with store2 should be 0', 1, 1, no
 'Remove untrue comment messageOctavia is using graphflow to handle building Amphora if there areno spares More details can be find    octaviacontrollerworkerflowsamphoraflowsAmphoraFlowsgetamphoraforlbsubflowThe comment message for createloadbalancer in ControllerWorkeris not correctChangeId I9cfafd96076416c86462b333fe6e6f6abfa3fb97', 0, 5, no
+
+'Fix wineserver call', 1, 1, yes
+'bug fix update configure V82', 1, 1, yes
+'fixes for picture', 1, 1, yes
+'Forward port cli argument', 1, 1, yes
+'Fixed typos', 6, 6, yes
+'Fixed another typo', 4, 1, yes
+'modified   datamanagerpymodified   paramspy', 1, 1, yes
+'BUG FLASK Restful API to server JSON not rendering', 1, 1, yes
+'modidy', 1, 1, yes
+'whoops missed one', 1, 1, yes
+'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, yes
+'Corrected importCorrected import', 1, 1, yes
+'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, yes
+'Small syntax error fixed', 2, 1, yes
+'Small bug fix', 1, 1, yes
+'Fixed indentation', 33, 33, yes
+'Fixed name of papercutsettings import', 1, 1, yes
+'fix a wrong indentation level', 1, 1, yes
+
 'fix import error', 1, 1, no
 'added prints for debugging', 1, 1, no
 'kafka consumer is added', 1, 1, no
@@ -236,60 +284,3 @@
 'Merge branch master of httpsgithubcomxgdsxgdsinstrument', 1, 1, no
 'master Add comment', 1, 1, no
 'Merge pull request 18 from PhylliadedevFix name arg in fromurdf method', 1, 1, no
-'Fixed jobs not correctly searhed', 13, 8, no
-'Merge pull request 129 from shiweixxxmaster', 1, 1, no
-'Edit', 1, 1, no
-'PUSH', 1, 1, no
-'Added testing for guest os features', 1, 1, no
-'removed smoothing for memory', 1, 1, no
-'cambiando formulario de add estudiantes', 1, 1, no
-'removed obsolete string', 1, 1, no
-'Update 20160629 chage email title', 1, 1, no
-'kvmrunner fix mysterious prompt corruptionWhen read returns more than SEARCHWINDOWSIZE characterspexpect discards all but the last SEARCHWINDOWSIZE charactersThis results in a critical boot message being missedSee httpsgithubcompexpectpexpectissues203When a reboot hangs only use virsh destroy when the VM ispaused  There seems to be a bug in the KVMfedora code where arebooting domain instead of resetting pauses', 30, 20, no
-'update low level data structure', 1, 1, no
-'support new rich quality values API', 1, 1, no
-'charsetutf8mb4', 1, 1, no
-'charsetutf8mb4', 1, 1, no
-'Moves hostname related utils to utilsnodenames', 1, 1, no
-'Moves utilsisatty to platformsisatty', 1, 1, no
-'Moves utilslpmerge to utilscollectionslpmerge', 1, 1, no
-'Moves utilsstrtobool to utilsserialization', 1, 1, no
-'Interim commit added rudimentary tests', 1, 1, no
-'merge the errors for need to check section and tuning the layout same as the other tables', 1, 1, no
-'Dont set minmax if boundingBox not passed lv updateEnables correct autocalc of box dims in WebGLAlso check and expand to 3d if 2d bounding box providedUpdate LavaVu with some fixes', 7, 3, no
-'Update Ex01py', 1, 1, no
-'Update N0Usepy', 1, 1, no
-'PUSH', 1, 1, no
-'update conflicts', 1, 1, no
-'Update to simplecontigjoiner03', 1, 1, no
-'misc', 1, 1, no
-'Missing a key for a dictionary', 1, 1, no
-'Encoding missing', 1, 1, no
-'version 04a18', 1, 1, no
-'Python file', 1, 1, no
-'Version 408 Sulphur admin fix', 1, 1, no
-'upload image', 1, 1, no
-'bug fix', 1, 1, no
-'dashboardlist handle create in base views', 1, 1, no
-'Add correct current position and company from getexperience', 19, 15, no
-'fix mysterious tox issue', 1, 1, no
-'Update mkArmbianDocspy', 1, 1, no
-'Prettified lots of functions removed some unnecessary ones', 1, 1, no
-'bugfix on gfworkflow tools', 1, 1, no
-'Test 1', 1, 1, no
-'Merge branch develop of httpsgithubcomshotakahakumawatch into develop', 1, 1, no
-'Fix a bug to print the adb remount command in ReplaceHostForShellpy', 1, 1, no
-'leaseurl bug fix', 1, 1, no
-'addtranlate to course name', 1, 1, no
-'fixmongofix mongo tags idf calc issue', 1, 1, no
-'Minor session debug', 1, 1, no
-'merge', 1, 1, no
-'Arreglar migraciones viejas', 1, 1, no
-'install cases at the beginning', 1, 1, no
-'Update wundergroundgrovepidht22py', 1, 1, no
-'Merge pull request 591 from PandaWeiclearwindriververifiervirttestutilstestqemu Fix missed param driver', 1, 1, no
-'coredevicecore add syscall type annotation', 1, 1, no
-'Wasnt printing correctly', 2, 3, no
-'actuator node impl joy', 1, 1, no
-'Read wikipedia binary model', 1, 1, no
-'Update setuppy', 1, 1, no
