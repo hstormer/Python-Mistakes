@@ -402,5 +402,181 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/Narcissist1/lunchplace/commit/3e94f9f99b7fea39a63da0983b27f235957b96fc", 
     "Commit Corrections:": "https://github.com/Narcissist1/lunchplace/commit/2ceec1022c56ba0fcda8e391efc5148e32fbe97c"
+  }, 
+  {
+    "Changes:": [
+      "-            \"Topic :: Scientific/Engineering :: Physics\",\n", 
+      "+            \"Topic :: Scientific/Engineering :: Physics\"\n"
+    ], 
+    "Message:": "rm: comma at setup.py->classifiers\nat the end of list, to test if\nit is the cause of winpython crash at\nappveyor", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sem-geologist/hyperspy/commit/830ff4cd5c8f50640fdaeba1244e4aa821ce2d61", 
+    "Commit Corrections:": "https://github.com/sem-geologist/hyperspy/commit/8f8464d8ac1cb3b6561d9d68d4f23f58abd5940f"
+  }, 
+  {
+    "Changes:": [
+      "-TURBOSMS_LOGIN = gettattr(settings, 'TURBOSMS_LOGIN',  'foo')\n", 
+      "+TURBOSMS_LOGIN = getattr(settings, 'TURBOSMS_LOGIN',  'foo')\n"
+    ], 
+    "Message:": "Add fix to settings", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bleedjent/ab_tools/commit/8866f3e50a3e5aecf05ce21418d00877873df8fd", 
+    "Commit Corrections:": "https://github.com/bleedjent/ab_tools/commit/c89c92361d62fba94ed7bae0ff2c128bd97b2aef"
+  }, 
+  {
+    "Changes:": [
+      "-    coe = wtypes.Enum(str, *fields.BayType.ALL, mondatory=True)\n", 
+      "+    coe = wtypes.Enum(str, *fields.BayType.ALL, mandatory=True)\n"
+    ], 
+    "Message:": "fix an incorrect keyword argument\n\nChange-Id: I9937dc5f739d1135e4376d4dfb251cfe241fa25f", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/larsbutler/magnum/commit/2f8df384858cf9e7e73f500dafa2c3abc94fa6fe", 
+    "Commit Corrections:": "https://github.com/larsbutler/magnum/commit/03069e1f9819d7dc3d9a99dd081da7e624cf30ad"
+  }, 
+  {
+    "Changes:": [
+      "-                for varName in dir(self) :\n", 
+      "+            for varName in dir(self) :\n"
+    ], 
+    "Message:": "fix indent", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lawrenceleejr/ZeroLeptonAnalysis/commit/9e9592b0e240738a6ded325aba95784840067702", 
+    "Commit Corrections:": "https://github.com/lawrenceleejr/ZeroLeptonAnalysis/commit/44319522e0a11016c68fcfc184e1eadbb8028847"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tUserdetail.object.create(name=_name,email=_email)\n", 
+      "+\t\tUserdetail.objects.create(name=_name,email_id=_email)\n"
+    ], 
+    "Message:": "database fixed", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/farazfaraz/my-first-blog/commit/da9b9dabd432c9f0283ef448fad06a145f96149c", 
+    "Commit Corrections:": "https://github.com/farazfaraz/my-first-blog/commit/91729f85fbf030b44af96997562675395e54c61e"
+  }, 
+  {
+    "Changes:": [
+      "-    def test_ConfigGuest_parese_cpu(self):\n", 
+      "+    def test_ConfigGuest_parse_cpu(self):\n"
+    ], 
+    "Message:": "UT: cleanup typo in libvirt test_config\n\ns/parese/parse\n\nChange-Id: I3a5c9a2f8677df1a1f943326922026010bcc6df2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/openstack/nova/commit/a074c661e4a336f84e1b2cd7dbd77a69b50c449b", 
+    "Commit Corrections:": "https://github.com/openstack/nova/commit/c880a7ec8d37fcbaf3f2b780c7f5ee167b7e4925"
+  }, 
+  {
+    "Changes:": [
+      "-from cfme.web_ui import CheckboxTable, oolbar as tb\n", 
+      "+from cfme.web_ui import CheckboxTable, toolbar as tb\n"
+    ], 
+    "Message:": "Fixup a typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mfalesni/cfme_tests/commit/d5a570bbf32eb4f0996c8a982bd7f2f5e7b3d6bc", 
+    "Commit Corrections:": "https://github.com/mfalesni/cfme_tests/commit/739e2fd9ced71114670478a7de74bc4277bd1d11"
+  }, 
+  {
+    "Changes:": [
+      "-        self.position = (100, 100) if position not in kwargs else kwargs['position']\n", 
+      "+        self.position = (100, 100) if 'position' not in kwargs else kwargs['position']\n"
+    ], 
+    "Message:": "fixed hardcore bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/keksnicoh/opengl_plot_prototype/commit/f2a32eb89a5bf92da5d314485ed688c3e1c91676", 
+    "Commit Corrections:": "https://github.com/keksnicoh/opengl_plot_prototype/commit/46ecaab71f56d54a5a224bb4211efdc73052580e"
+  }, 
+  {
+    "Changes:": [
+      "-                print('File \\'%s\\' downloads finish')\n", 
+      "+                print('File \\'%s\\' downloads finish' % file_name)\n"
+    ], 
+    "Message:": "\u4fee\u590d\u4e0b\u8f7d\u5b8c\u6210\u65f6\u663e\u793a\u5b57\u7b26\u4e32\u7684\u9519\u8bef", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Arstead/KeNet/commit/f6c44fd641b68b5248d3dc0d14729c1700dbdada", 
+    "Commit Corrections:": "https://github.com/Arstead/KeNet/commit/65df0dab22090c26265def42d9f273b7c6bcf8cb"
+  }, 
+  {
+    "Changes:": [
+      "-        if isnstance(value, numpy.ndarray):\n", 
+      "+        if isinstance(value, numpy.ndarray):\n"
+    ], 
+    "Message:": "Merge branch 'master' into cdmsNCSTRING", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/UV-CDAT/uvcdat/commit/8a02e8a72fdc98bf6d8f908348ca19f2af05487c", 
+    "Commit Corrections:": "https://github.com/UV-CDAT/uvcdat/commit/bbe10d72730e430f37e6cae2be84f64cbf90d47d"
+  }, 
+  {
+    "Changes:": [
+      "-    retlist.append = [li.korsecnnm.string, li.shotnisin.string]\n", 
+      "+    retlist.append([li.korsecnnm.string, li.shotnisin.string])\n"
+    ], 
+    "Message:": "Update findcode_v1.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hyunsikhwang/python/commit/ad9e5e6c9fb0c49ab834a4d614f760a19706fd6d", 
+    "Commit Corrections:": "https://github.com/hyunsikhwang/python/commit/1ca3ee1b9b3d0c30b288366c1aeed24e918d0e84"
+  }, 
+  {
+    "Changes:": [
+      "-        branch = 'dev/vray_for_blender/%s' & args.teamcity_project_type\n", 
+      "+        branch = 'dev/vray_for_blender/%s' % args.teamcity_project_type\n"
+    ], 
+    "Message:": "fix: typo in tc script", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bdancer/vb25-patch/commit/0c2c65b17df83b3b667da89ffee8ce2f0812dba0", 
+    "Commit Corrections:": "https://github.com/bdancer/vb25-patch/commit/cfee6d16dbd889a48f31edbb1c834c72cc447417"
+  }, 
+  {
+    "Changes:": [
+      "-    hold_expiration_date = fields.DateTime(required=True)\n", 
+      "+    hold_expiration_date = fields.Datetime(required=True)\n"
+    ], 
+    "Message:": "FIX datetime field", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CompassionCH/compassion-modules/commit/c4e1ccec12abc180c22a7f07b89df7efec10bc5f", 
+    "Commit Corrections:": "https://github.com/CompassionCH/compassion-modules/commit/43b78faf6dd18ecf9cf192ad0c151bcda678d159"
+  }, 
+  {
+    "Changes:": [
+      "-import cards, games, settingss\n", 
+      "+import cards, games, settings\n"
+    ], 
+    "Message:": "Misprint in import modul and error in ask_number function were improved", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dandel10n/blackjack/commit/f8a7cdfc40a7aabade3df362f1702f8c79fb8677", 
+    "Commit Corrections:": "https://github.com/dandel10n/blackjack/commit/0c18f98bab0470badf617df708cfe847e12e5e69"
+  }, 
+  {
+    "Changes:": [
+      "-class InterventionsViewTestCast(TestCase):\n", 
+      "+class InterventionsViewTestCase(TestCase):\n"
+    ], 
+    "Message:": "Further refactoring of inner parsing functions.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/nr-nd/om/commit/6ba32edfbcf0ad1cbf7ebe3e219e36e0467d078c", 
+    "Commit Corrections:": "https://github.com/nr-nd/om/commit/26ca9b39238fe30a70105506255e488321648085"
+  }, 
+  {
+    "Changes:": [
+      "-\tif host_os == MAC\n", 
+      "+\tif host_os == MAC:\n"
+    ], 
+    "Message:": "fix: typo in utils build script", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bdancer/vb25-patch/commit/eedc9e3ecc4e8743cd4f3105ff111ec42057bb9c", 
+    "Commit Corrections:": "https://github.com/bdancer/vb25-patch/commit/540fcc0f970c4c333546b85f03ed9c7de54eb798"
   }
 ]
