@@ -578,5 +578,75 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/bdancer/vb25-patch/commit/eedc9e3ecc4e8743cd4f3105ff111ec42057bb9c", 
     "Commit Corrections:": "https://github.com/bdancer/vb25-patch/commit/540fcc0f970c4c333546b85f03ed9c7de54eb798"
+  },
+  {
+    "Changes:": [
+      "-def get_sensorboard_mac_addresses:\n", 
+      "+def get_sensorboard_mac_addresses():\n"
+    ], 
+    "Message:": "add missing brackets", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/waggle-sensor/waggle/commit/ae41b6da27ecbbf41475d6ddbaa37902057ef100", 
+    "Commit Corrections:": "https://github.com/waggle-sensor/waggle/commit/3b2a7b024cf566315a5dfda0107d298e5a56ce57"
+  }, 
+  {
+    "Changes:": [
+      "-            link = \" (<%s|link>) \" % conf[\"url\"]+name\n", 
+      "+            link = \" (<%s|link>) \" % (conf[\"url\"]+name)\n"
+    ], 
+    "Message:": "fix issue with link", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/swryan/benchmark/commit/d90b4481ea208ac7643fb09781f97d233adb3409", 
+    "Commit Corrections:": "https://github.com/swryan/benchmark/commit/60d5f0888efe90259d7eb2d48ff961b5312bc063"
+  }, 
+  {
+    "Changes:": [
+      "-         privatedir = cachedir\n", 
+      "+        privatedir = cachedir\n"
+    ], 
+    "Message:": "Merge remote-tracking branch 'openml/develop' into develop", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/openml/openml-python/commit/2a958b03d0874dffb133cf7ae26ff8ff2d65df58", 
+    "Commit Corrections:": "https://github.com/openml/openml-python/commit/6a1561fed3076d9916e8c0afed6d3a6ab052414d"
+  }, 
+  {
+    "Changes:": [
+      "-remote_origin = git@github.com:samdmarshall/pyconfig.git\n", 
+      "-commit_hash = 704e2ad\n", 
+      "+remote_origin = 'git@github.com:samdmarshall/pyconfig.git'\n", 
+      "+commit_hash = 'e885c36'"
+    ], 
+    "Message:": "fixing invalid syntax of updating version_info.py", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/samdmarshall/pyconfig/commit/e885c367dfd260bee6d8a95b411a7ead56848799", 
+    "Commit Corrections:": "https://github.com/samdmarshall/pyconfig/commit/9d6f4503ae5253b0a6754a412991e316a90d84b7"
+  }, 
+  {
+    "Changes:": [
+      "-      self._webservicePrefix = earl.createWebServicePrefix()()\n", 
+      "+      self._webservicePrefix = earl.createWebServicePrefix()\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lifemapper/core/commit/37aa1748b027b544353bf2cb4f1b1e8350bb2891", 
+    "Commit Corrections:": "https://github.com/lifemapper/core/commit/611f1e8376a80352e2b17b3212236fd319bbf9f9"
+  }, 
+  {
+    "Changes:": [
+      "-    with open(args.mmapfile,'r') as f:\n", 
+      "+    with open(args.pmapfile,'r') as f:\n", 
+      "-        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)\n", 
+      "+        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)"
+    ], 
+    "Message:": "bugfix (typo)", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/tribalchicken/raw2padded/commit/baa2cd2c3cd123315bfe3444e2b78a203b664fab", 
+    "Commit Corrections:": "https://github.com/tribalchicken/raw2padded/commit/f198bd6036c9807befdd9942274c5a18f4c82f94"
   }
 ]

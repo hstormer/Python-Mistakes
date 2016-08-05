@@ -273,7 +273,7 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/jgrassler/papercut/commit/10ca6f753792d62a1d76cc2566727aa54f5dc717", 
     "Commit Corrections:": "https://github.com/jgrassler/papercut/commit/f2cab7a953c6c8f778bf98ae8a7970641fdfb34e"
-  },
+  }, 
   {
     "Changes:": [
       "-            raise\n", 
@@ -284,5 +284,46 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/ESGF/esg-publisher/commit/575b8e9032e6a89c4d9d27d5d4b5c03f8a09af0a", 
     "Commit Corrections:": "https://github.com/ESGF/esg-publisher/commit/22c52f4ef697707dbf8ced09036c6e6737839afc"
+  }, 
+  {
+    "Changes:": [
+      "-from scipy.lianlg         import get_blas_funcs, solve\n", 
+      "+from scipy.linalg         import get_blas_funcs, solve\n"
+    ], 
+    "Message:": "FIxing a typo in an import in gmres.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/barbagroup/pygbe/commit/30cb679f36a57a0c53e4b8f1003bff6de6811c6c", 
+    "Commit Corrections:": "https://github.com/barbagroup/pygbe/commit/ecd8a7a01e0623b83fc24340898278b4440a39f7"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\tif bankAccountId == bankAccount.id\n", 
+      "+\t\t\tif bankAccountId == bankAccount.id :\n"
+    ], 
+    "Message:": "Fix coding error.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pjcaraher/APFlask/commit/44277af56ea55043ff56a343daa2e830a72c1dde", 
+    "Commit Corrections:": "https://github.com/pjcaraher/APFlask/commit/ad77a692cdf6a75810bd2c8d1a6bc4c6c1759728"
+  }, 
+  {
+    "Changes:": [
+      "-    \t#initialize all network\n", 
+      "+    \t#initialize all network loads\n", 
+      "-\t\tretPaths = greedyAlgorithm(setP, uncovered_edges, node_loads, edge_loads)\n", 
+      "-\t\t#print retPaths\n", 
+      "-\t\tprint \"the size of retPaths: \", len(retPaths)\n", 
+      "-\t\tprint_result(retPaths, setP, node_loads, edge_loads)\n", 
+      "+    \tretPaths = greedyAlgorithm(setP, uncovered_edges, node_loads, edge_loads)\n", 
+      "+    \t#print \"edge loads: \" + str(edge_loads)\n", 
+      "+    \tprint_result(retPaths, setP, node_loads, edge_loads)\n", 
+      "+\t\n"
+    ], 
+    "Message:": "Fixed more indentation errors", 
+    "Additions:": 5, 
+    "Deletions:": 5, 
+    "Commit Mistakes:": "https://github.com/slin17/Summer_Research_2016/commit/9501b258ff321a1ff89d7082533e609d2f48ffad", 
+    "Commit Corrections:": "https://github.com/slin17/Summer_Research_2016/commit/eb64821c7a65541d149f26fd21a2c2637f3e20c4"
   }
 ]
