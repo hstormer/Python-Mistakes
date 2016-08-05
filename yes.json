@@ -81,7 +81,7 @@
     "Length: ": "1", 
     "Commit Corrections:": "https://github.com/adamn/python-webkit2png/commit/ef70c8ab5a0fffe85c7de50f8bfeeb7f140ad276", 
     "Mistakes:": "Wrote 'False' instead of 'return False'.", 
-    "Tags: ": "noreturn"
+    "Tags:": "noreturn"
   }, 
   {
     "Length:": "2", 
