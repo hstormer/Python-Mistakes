@@ -1,198 +1,111 @@
 [
   {
-    "Changes:": [
-      "-\tActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n", 
-      "+        ActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n"
-    ], 
-    "Message:": "some cleanup, tests run again", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
-    "Commit Corrections:": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038"
-  }, 
-  {
     "Length:": "1", 
     "Changes:": [
-      "-    search_fields = ['full_name',]\n", 
-      "+    search_fields = ['full_name']\n"
+      "-            \"Topic :: Scientific/Engineering :: Physics\",\n", 
+      "+            \"Topic :: Scientific/Engineering :: Physics\"\n"
     ], 
-    "Message:": "Added search_fields", 
+    "Message:": "rm: comma at setup.py->classifiers\nat the end of list, to test if\nit is the cause of winpython crash at\nappveyor", 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/neuromat/nira/commit/fda69e0924912883e76efc1fd7f6cc226fd2f752", 
-    "Commit Corrections:": "https://github.com/neuromat/nira/commit/e55487f24f7bc9bf30f7236f4c767fb635c564b0", 
-    "Tags:": "extra", 
-    "Mistake:": "unrequired comma", 
+    "Commit Mistakes:": "https://github.com/sem-geologist/hyperspy/commit/830ff4cd5c8f50640fdaeba1244e4aa821ce2d61", 
+    "Commit Corrections:": "https://github.com/sem-geologist/hyperspy/commit/8f8464d8ac1cb3b6561d9d68d4f23f58abd5940f", 
+    "Tags:": "comma", 
+    "Mistake:": "Put a comma after the last item in the list", 
     "Additions": 1
   }, 
   {
     "Length:": "1", 
     "Changes:": [
-      "-                logger.info(\"GRADIENT IN LAYER {} IS \\n{}\".format(li+1,np.tensordot(deltas[li],self.net.par_run(self.dat.traininputs,li),((0,2),(0,2)))))\n", 
-      "-                logger.info(\"NUMERICAL GRADIENT IN LAYER {} IS \\n{}\".format(li+1,self.numgrad(li)))\n", 
-      "+                #logger.info(\"GRADIENT IN LAYER {} IS \\n{}\".format(li+1,np.tensordot(deltas[li],self.net.par_run(self.dat.traininputs,li),((0,2),(0,2)))))\n", 
-      "+                #logger.info(\"NUMERICAL GRADIENT IN LAYER {} IS \\n{}\".format(li+1,self.numgrad(li,epsilon = 0.00000001)))\n", 
-      "+                logger.info(\"\\n{}\".format(np.tensordot(deltas[li],self.net.par_run(self.dat.traininputs,li),((0,2),(0,2)))-self.numgrad(li,epsilon = 0.00000000001)))\n", 
-      "-\tdef numgrad(self,li,epsilon = 0.0001):\n", 
-      "+    def numgrad(self,li,epsilon = 0.0001):\n"
+      "-def get_sensorboard_mac_addresses:\n", 
+      "+def get_sensorboard_mac_addresses():\n"
     ], 
-    "Message:": "gradients are very different there must be a mistake somewhere", 
-    "Deletions:": 3, 
-    "Keyword:": "mistake", 
-    "Commit Mistakes:": "https://github.com/riccardodelutio/tenbilac/commit/7f446fa3f54fcd32dcbb88e61bfec6cb4b5328a7", 
-    "Commit Corrections:": "https://github.com/riccardodelutio/tenbilac/commit/d455cfdb4488d80f2ad735272ae42cc9b8d2d7c1", 
-    "Tags:": "indentation", 
-    "Mistake:": "extra indentation", 
-    "Additions": 4
-  }, 
-  {
-    "Length:": "1", 
-    "Changes:": [
-      "-        scope.connectStatus.connect(self.dis())\n", 
-      "+        scope.connectStatus.connect(self.dis)\n"
-    ], 
-    "Message:": "Merge branch 'master' of git://git.assembla.com/chipwhisperer", 
+    "Message:": "add missing brackets", 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/newaetech/chipwhisperer/commit/c29fd43444a1d2358b61d01e8528a2bf2096b103", 
-    "Commit Corrections:": "https://github.com/newaetech/chipwhisperer/commit/fcb9f25caa242e5776d00707ed4fe89dee41ea4b", 
+    "Commit Mistakes:": "https://github.com/waggle-sensor/waggle/commit/ae41b6da27ecbbf41475d6ddbaa37902057ef100", 
+    "Commit Corrections:": "https://github.com/waggle-sensor/waggle/commit/3b2a7b024cf566315a5dfda0107d298e5a56ce57", 
     "Tags:": "brackets", 
-    "Mistake:": "forgot brackets", 
+    "Mistake:": "Missing brackets after the function", 
     "Additions": 1
   }, 
   {
     "Length:": "1", 
     "Changes:": [
-      "-time.sleep(10)\n", 
-      "+    time.sleep(10)"
+      "-            link = \" (<%s|link>) \" % conf[\"url\"]+name\n", 
+      "+            link = \" (<%s|link>) \" % (conf[\"url\"]+name)\n"
     ], 
-    "Message:": "fix intended block", 
+    "Message:": "fix issue with link", 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/pereahave/160628_python_telegram_bot/commit/24510e2c8a7df61fe4a7d5d733bd4dee480cf7e3", 
-    "Commit Corrections:": "https://github.com/pereahave/160628_python_telegram_bot/commit/cb312a6e14fe221015542438248da2b69b730528", 
+    "Commit Mistakes:": "https://github.com/swryan/benchmark/commit/d90b4481ea208ac7643fb09781f97d233adb3409", 
+    "Commit Corrections:": "https://github.com/swryan/benchmark/commit/60d5f0888efe90259d7eb2d48ff961b5312bc063", 
+    "Tags:": "brackets", 
+    "Mistake:": "Forgot to put brackets around string formatter thing", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-         privatedir = cachedir\n", 
+      "+        privatedir = cachedir\n"
+    ], 
+    "Message:": "Merge remote-tracking branch 'openml/develop' into develop", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/openml/openml-python/commit/2a958b03d0874dffb133cf7ae26ff8ff2d65df58", 
+    "Commit Corrections:": "https://github.com/openml/openml-python/commit/6a1561fed3076d9916e8c0afed6d3a6ab052414d", 
     "Tags:": "indentation", 
-    "Mistake:": "forgot indentation", 
+    "Mistake:": "indented too far", 
     "Additions": 1
   }, 
   {
-    "Length:": "1", 
+    "Length:": "2", 
     "Changes:": [
-      "-            )\n", 
-      "+        )\n"
+      "-remote_origin = git@github.com:samdmarshall/pyconfig.git\n", 
+      "-commit_hash = 704e2ad\n", 
+      "+remote_origin = 'git@github.com:samdmarshall/pyconfig.git'\n", 
+      "+commit_hash = 'e885c36'"
     ], 
-    "Message:": "Fix PEP 8 error in DCIM tests", 
-    "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/digitalocean/netbox/commit/66a16dd06b9018e195eee62cb7b33746f41b38c6", 
-    "Commit Corrections:": "https://github.com/digitalocean/netbox/commit/5181c97281e964da0b89176a50d476819039d658", 
-    "Tags:": "indentation", 
-    "Mistake:": "extra indentation", 
-    "Additions": 1
-  }, 
-  {
-    "Length:": "1", 
-    "Changes:": [
-      "-            )\n", 
-      "+        )\n"
-    ], 
-    "Message:": "Merge pull request #59 from digitalocean/dcim-tests-pep-8\n\nFix PEP 8 error in DCIM tests", 
-    "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/digitalocean/netbox/commit/6848a3dc810758d267a5f4a1bc4e6c08340c466e", 
-    "Commit Corrections:": "https://github.com/digitalocean/netbox/commit/d22e4e7698e40f7a61810fef71ec48825c263945", 
-    "Tags:": "indentation", 
-    "Mistake:": "extra indentation", 
-    "Additions": 1
-  }, 
-  {
-    "Length:": "1", 
-    "Changes:": [
-      "-                mock.patch('sys.stderr', new=six.StringIO()) as mock_stderr:\n", 
-      "+            mock.patch('sys.stderr', new=six.StringIO()) as mock_stderr:\n"
-    ], 
-    "Message:": "Merge branch 'shell_add_help' of https://github.com/ChristopherMSpencer/python-cratonclient into shell_add_help", 
-    "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/ChristopherMSpencer/python-cratonclient/commit/f92771095000a7cee466324867840d53d59ec83e", 
-    "Commit Corrections:": "https://github.com/ChristopherMSpencer/python-cratonclient/commit/7c2daa96d270cd9868e2194accaca8a8a359b34c", 
-    "Tags:": "indentation", 
-    "Mistake:": "extra indentation", 
-    "Additions": 1
-  }, 
-  {
-    "Length:": "1", 
-    "Changes:": [
-      "-        bot.sendMessage(chat_id, str(Hi, I'm gosu))\n", 
-      "+        bot.sendMessage(chat_id, str('Hi, Im gosu'))\n"
-    ], 
-    "Message:": "\u3147", 
-    "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/pereahave/160628_python_telegram_bot/commit/aad937374120aa60eb9ff50901fc09cf75042141", 
-    "Commit Corrections:": "https://github.com/pereahave/160628_python_telegram_bot/commit/3c637b3107ac5d1f4191e18847c399ea566ad059", 
+    "Message:": "fixing invalid syntax of updating version_info.py", 
+    "Deletions:": 2, 
+    "Keyword:": "syntax", 
+    "Commit Mistakes:": "https://github.com/samdmarshall/pyconfig/commit/e885c367dfd260bee6d8a95b411a7ead56848799", 
+    "Commit Corrections:": "https://github.com/samdmarshall/pyconfig/commit/9d6f4503ae5253b0a6754a412991e316a90d84b7", 
     "Tags:": "quotation", 
-    "Mistake:": "forgot quotations in the string", 
-    "Additions": 1
+    "Mistake:": "Forgot to put quotes around string", 
+    "Additions": 2
   }, 
   {
     "Length:": "1", 
     "Changes:": [
-      "-            if index != 0\n", 
-      "+            if index != 0:\n"
+      "-      self._webservicePrefix = earl.createWebServicePrefix()()\n", 
+      "+      self._webservicePrefix = earl.createWebServicePrefix()\n"
     ], 
-    "Message:": "Fixed small mistake", 
+    "Message:": "typo", 
     "Deletions:": 1, 
     "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/TauraBots/PyDimitri/commit/49473fbe8008418d95360d3d445fc9328e288598", 
-    "Commit Corrections:": "https://github.com/TauraBots/PyDimitri/commit/8e6fb6faa28db39db6dbfd75e21f9fb2940f446f", 
-    "Tags:": "colon", 
-    "Mistake:": "forgot colon after if statement", 
+    "Commit Mistakes:": "https://github.com/lifemapper/core/commit/37aa1748b027b544353bf2cb4f1b1e8350bb2891", 
+    "Commit Corrections:": "https://github.com/lifemapper/core/commit/611f1e8376a80352e2b17b3212236fd319bbf9f9", 
+    "Tags:": "brackts", 
+    "Mistake:": "Added an extra pair of brackets", 
     "Additions": 1
   }, 
   {
-    "Length:": "1", 
+    "Length:": "misspell", 
     "Changes:": [
-      "-        if transcode is None\n", 
-      "+        if transcode is None:\n"
+      "-    with open(args.mmapfile,'r') as f:\n", 
+      "+    with open(args.pmapfile,'r') as f:\n", 
+      "-        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)\n", 
+      "+        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)"
     ], 
-    "Message:": "Adding scrobbling", 
-    "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/8b7cc3b7f6b18a79af246ea5de7c57106f38d89b", 
-    "Commit Corrections:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/4b156c568c45a8a1e32249f4314800a0518923e0", 
-    "Tags:": "colon", 
-    "Mistake:": "forgot colon after if statement", 
-    "Additions": 1
-  }, 
-  {
-    "Length:": "1", 
-    "Changes:": [
-      "-exept:\n", 
-      "+except:\n"
-    ], 
-    "Message:": "Docker - CUON new manual cli interface for the setup XVI", 
-    "Deletions:": 1, 
-    "Keyword:": "length", 
-    "Commit Mistakes:": "https://github.com/CuonDeveloper/cuon/commit/b176d900416acdb640d8618e85938d227a4bc37f", 
-    "Commit Corrections:": "https://github.com/CuonDeveloper/cuon/commit/82851f65978b183050016024ad4324c211d8430b", 
-    "Tags:": "misspell", 
-    "Mistake:": "misspelled except as exept", 
-    "Additions": 1
-  }, 
-  {
-    "Length:": "1", 
-    "Changes:": [
-      "-if(timeBetweenIntervals === \"rand\"):\n", 
-      "+if(timeBetweenIntervals == \"rand\"):\n"
-    ], 
-    "Commit Mistakes:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0", 
-    "Commit Corrections:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6", 
-    "Tags:": "extra", 
-    "Keyword:": "length", 
-    "Mistake:": "added extra ===", 
-    "Deletions:": 1, 
-    "Additions": 1, 
-    "Message:": "Updated syntax error"
+    "Commit Mistakes:": "https://github.com/tribalchicken/raw2padded/commit/baa2cd2c3cd123315bfe3444e2b78a203b664fab", 
+    "Commit Corrections:": "https://github.com/tribalchicken/raw2padded/commit/f198bd6036c9807befdd9942274c5a18f4c82f94", 
+    "Tags:": "y", 
+    "Keyword:": "typo", 
+    "Mistake:": "spelled pmapfile as mmapfile", 
+    "Deletions:": 2, 
+    "Additions": 2, 
+    "Message:": "bugfix (typo)"
   }
 ]
