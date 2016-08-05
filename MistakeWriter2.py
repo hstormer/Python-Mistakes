@@ -117,6 +117,8 @@ for thing in data:
 	m = m.replace("\n", "")
 	m = m.replace("class", "")
 	a = thing.get("Additions:")
+	if str(a) == 'None':
+		print "NOOOOOOOO IT WAS EQUAL TO NONE!"
 	d = thing.get("Deletions:")
 	if str(c) != '0':
 		text = "\n'%s', %s, %s, %s, %s" %(m,a,d,c,chicken)
