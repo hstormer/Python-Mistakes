@@ -7,9 +7,6 @@
 
 @data
 
-
-
-
 'fix indentation problem', 1, 1, yes
 'update mainpyif typexxx is type instead of if typexxx is type', 1, 1, yes
 'bug fix', 1, 1, yes

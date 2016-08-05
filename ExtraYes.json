@@ -1,0 +1,111 @@
+[
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-            \"Topic :: Scientific/Engineering :: Physics\",\n", 
+      "+            \"Topic :: Scientific/Engineering :: Physics\"\n"
+    ], 
+    "Message:": "rm: comma at setup.py->classifiers\nat the end of list, to test if\nit is the cause of winpython crash at\nappveyor", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/sem-geologist/hyperspy/commit/830ff4cd5c8f50640fdaeba1244e4aa821ce2d61", 
+    "Commit Corrections:": "https://github.com/sem-geologist/hyperspy/commit/8f8464d8ac1cb3b6561d9d68d4f23f58abd5940f", 
+    "Tags:": "comma", 
+    "Mistake:": "Put a comma after the last item in the list", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-def get_sensorboard_mac_addresses:\n", 
+      "+def get_sensorboard_mac_addresses():\n"
+    ], 
+    "Message:": "add missing brackets", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/waggle-sensor/waggle/commit/ae41b6da27ecbbf41475d6ddbaa37902057ef100", 
+    "Commit Corrections:": "https://github.com/waggle-sensor/waggle/commit/3b2a7b024cf566315a5dfda0107d298e5a56ce57", 
+    "Tags:": "brackets", 
+    "Mistake:": "Missing brackets after the function", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-            link = \" (<%s|link>) \" % conf[\"url\"]+name\n", 
+      "+            link = \" (<%s|link>) \" % (conf[\"url\"]+name)\n"
+    ], 
+    "Message:": "fix issue with link", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/swryan/benchmark/commit/d90b4481ea208ac7643fb09781f97d233adb3409", 
+    "Commit Corrections:": "https://github.com/swryan/benchmark/commit/60d5f0888efe90259d7eb2d48ff961b5312bc063", 
+    "Tags:": "brackets", 
+    "Mistake:": "Forgot to put brackets around string formatter thing", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-         privatedir = cachedir\n", 
+      "+        privatedir = cachedir\n"
+    ], 
+    "Message:": "Merge remote-tracking branch 'openml/develop' into develop", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/openml/openml-python/commit/2a958b03d0874dffb133cf7ae26ff8ff2d65df58", 
+    "Commit Corrections:": "https://github.com/openml/openml-python/commit/6a1561fed3076d9916e8c0afed6d3a6ab052414d", 
+    "Tags:": "indentation", 
+    "Mistake:": "indented too far", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "2", 
+    "Changes:": [
+      "-remote_origin = git@github.com:samdmarshall/pyconfig.git\n", 
+      "-commit_hash = 704e2ad\n", 
+      "+remote_origin = 'git@github.com:samdmarshall/pyconfig.git'\n", 
+      "+commit_hash = 'e885c36'"
+    ], 
+    "Message:": "fixing invalid syntax of updating version_info.py", 
+    "Deletions:": 2, 
+    "Keyword:": "syntax", 
+    "Commit Mistakes:": "https://github.com/samdmarshall/pyconfig/commit/e885c367dfd260bee6d8a95b411a7ead56848799", 
+    "Commit Corrections:": "https://github.com/samdmarshall/pyconfig/commit/9d6f4503ae5253b0a6754a412991e316a90d84b7", 
+    "Tags:": "quotation", 
+    "Mistake:": "Forgot to put quotes around string", 
+    "Additions": 2
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-      self._webservicePrefix = earl.createWebServicePrefix()()\n", 
+      "+      self._webservicePrefix = earl.createWebServicePrefix()\n"
+    ], 
+    "Message:": "typo", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/lifemapper/core/commit/37aa1748b027b544353bf2cb4f1b1e8350bb2891", 
+    "Commit Corrections:": "https://github.com/lifemapper/core/commit/611f1e8376a80352e2b17b3212236fd319bbf9f9", 
+    "Tags:": "brackts", 
+    "Mistake:": "Added an extra pair of brackets", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "misspell", 
+    "Changes:": [
+      "-    with open(args.mmapfile,'r') as f:\n", 
+      "+    with open(args.pmapfile,'r') as f:\n", 
+      "-        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)\n", 
+      "+        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)"
+    ], 
+    "Commit Mistakes:": "https://github.com/tribalchicken/raw2padded/commit/baa2cd2c3cd123315bfe3444e2b78a203b664fab", 
+    "Commit Corrections:": "https://github.com/tribalchicken/raw2padded/commit/f198bd6036c9807befdd9942274c5a18f4c82f94", 
+    "Tags:": "y", 
+    "Keyword:": "typo", 
+    "Mistake:": "spelled pmapfile as mmapfile", 
+    "Deletions:": 2, 
+    "Additions": 2, 
+    "Message:": "bugfix (typo)"
+  }
+]
