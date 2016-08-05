@@ -8,6 +8,29 @@
 
 @data
 
+
+
+'Fix wineserver call', 1, 1, 2, yes
+'bug fix update configure V82', 1, 1, 4, yes
+'fixes for picture', 1, 1, 130, yes
+'Forward port cli argument', 1, 1, 14, yes
+'Fixed typos', 6, 6, 76, yes
+'Fixed another typo', 4, 1, 241, yes
+'modified   datamanagerpymodified   paramspy', 1, 1, 2, yes
+'BUG FLASK Restful API to server JSON not rendering', 1, 1, 1, yes
+'modidy', 1, 1, 37, yes
+'whoops missed one', 1, 1, 1, yes
+'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, 1, yes
+'Corrected importCorrected import', 1, 1, 13, yes
+'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, 465, yes
+'Small syntax error fixed', 2, 1, 97, yes
+'Small bug fix', 1, 1, 4, yes
+'Fixed indentation', 33, 33, 648, yes
+'Fixed name of papercutsettings import', 1, 1, 12, yes
+'fix a wrong indentation level', 1, 1, 4, yes
+'FIxing a typo in an import in gmrespy', 1, 1, 4, yes
+'Fix coding error', 1, 1, 2, yes
+'Fixed more indentation errors', 5, 5, 119, yes
 'fix import error', 1, 1, 2, no
 'added prints for debugging', 1, 1, 10, no
 'kafka consumer is added', 1, 1, 28, no
@@ -36,27 +59,6 @@
 'version bump', 1, 1, 4, no
 'master Add comment', 1, 1, 92, no
 'Merge pull request 18 from PhylliadedevFix name arg in fromurdf method', 1, 1, 2, no
-'Fix wineserver call', 1, 1, 2, yes
-'bug fix update configure V82', 1, 1, 4, yes
-'fixes for picture', 1, 1, 130, yes
-'Forward port cli argument', 1, 1, 14, yes
-'Fixed typos', 6, 6, 76, yes
-'Fixed another typo', 4, 1, 241, yes
-'modified   datamanagerpymodified   paramspy', 1, 1, 2, yes
-'BUG FLASK Restful API to server JSON not rendering', 1, 1, 1, yes
-'modidy', 1, 1, 37, yes
-'whoops missed one', 1, 1, 1, yes
-'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, 1, yes
-'Corrected importCorrected import', 1, 1, 13, yes
-'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, 465, yes
-'Small syntax error fixed', 2, 1, 97, yes
-'Small bug fix', 1, 1, 4, yes
-'Fixed indentation', 33, 33, 648, yes
-'Fixed name of papercutsettings import', 1, 1, 12, yes
-'fix a wrong indentation level', 1, 1, 4, yes
-'FIxing a typo in an import in gmrespy', None, 1, 4, yes
-'Fix coding error', None, 1, 2, yes
-'Fixed more indentation errors', None, 5, 119, yes
 'Code Review Add  to a print message Fix indentation Refactor some vault stuff in another method', 22, 38, 2665, no
 'Small fix', 1, 1, 98, no
 'Production Summary added Seconds processing', 1, 1, 19, no
