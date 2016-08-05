@@ -1,0 +1,198 @@
+[
+  {
+    "Changes:": [
+      "-\tActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n", 
+      "+        ActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n"
+    ], 
+    "Message:": "some cleanup, tests run again", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
+    "Commit Corrections:": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038"
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-    search_fields = ['full_name',]\n", 
+      "+    search_fields = ['full_name']\n"
+    ], 
+    "Message:": "Added search_fields", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/neuromat/nira/commit/fda69e0924912883e76efc1fd7f6cc226fd2f752", 
+    "Commit Corrections:": "https://github.com/neuromat/nira/commit/e55487f24f7bc9bf30f7236f4c767fb635c564b0", 
+    "Tags:": "extra", 
+    "Mistake:": "unrequired comma", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-                logger.info(\"GRADIENT IN LAYER {} IS \\n{}\".format(li+1,np.tensordot(deltas[li],self.net.par_run(self.dat.traininputs,li),((0,2),(0,2)))))\n", 
+      "-                logger.info(\"NUMERICAL GRADIENT IN LAYER {} IS \\n{}\".format(li+1,self.numgrad(li)))\n", 
+      "+                #logger.info(\"GRADIENT IN LAYER {} IS \\n{}\".format(li+1,np.tensordot(deltas[li],self.net.par_run(self.dat.traininputs,li),((0,2),(0,2)))))\n", 
+      "+                #logger.info(\"NUMERICAL GRADIENT IN LAYER {} IS \\n{}\".format(li+1,self.numgrad(li,epsilon = 0.00000001)))\n", 
+      "+                logger.info(\"\\n{}\".format(np.tensordot(deltas[li],self.net.par_run(self.dat.traininputs,li),((0,2),(0,2)))-self.numgrad(li,epsilon = 0.00000000001)))\n", 
+      "-\tdef numgrad(self,li,epsilon = 0.0001):\n", 
+      "+    def numgrad(self,li,epsilon = 0.0001):\n"
+    ], 
+    "Message:": "gradients are very different there must be a mistake somewhere", 
+    "Deletions:": 3, 
+    "Keyword:": "mistake", 
+    "Commit Mistakes:": "https://github.com/riccardodelutio/tenbilac/commit/7f446fa3f54fcd32dcbb88e61bfec6cb4b5328a7", 
+    "Commit Corrections:": "https://github.com/riccardodelutio/tenbilac/commit/d455cfdb4488d80f2ad735272ae42cc9b8d2d7c1", 
+    "Tags:": "indentation", 
+    "Mistake:": "extra indentation", 
+    "Additions": 4
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-        scope.connectStatus.connect(self.dis())\n", 
+      "+        scope.connectStatus.connect(self.dis)\n"
+    ], 
+    "Message:": "Merge branch 'master' of git://git.assembla.com/chipwhisperer", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/newaetech/chipwhisperer/commit/c29fd43444a1d2358b61d01e8528a2bf2096b103", 
+    "Commit Corrections:": "https://github.com/newaetech/chipwhisperer/commit/fcb9f25caa242e5776d00707ed4fe89dee41ea4b", 
+    "Tags:": "brackets", 
+    "Mistake:": "forgot brackets", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-time.sleep(10)\n", 
+      "+    time.sleep(10)"
+    ], 
+    "Message:": "fix intended block", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/pereahave/160628_python_telegram_bot/commit/24510e2c8a7df61fe4a7d5d733bd4dee480cf7e3", 
+    "Commit Corrections:": "https://github.com/pereahave/160628_python_telegram_bot/commit/cb312a6e14fe221015542438248da2b69b730528", 
+    "Tags:": "indentation", 
+    "Mistake:": "forgot indentation", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-            )\n", 
+      "+        )\n"
+    ], 
+    "Message:": "Fix PEP 8 error in DCIM tests", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/digitalocean/netbox/commit/66a16dd06b9018e195eee62cb7b33746f41b38c6", 
+    "Commit Corrections:": "https://github.com/digitalocean/netbox/commit/5181c97281e964da0b89176a50d476819039d658", 
+    "Tags:": "indentation", 
+    "Mistake:": "extra indentation", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-            )\n", 
+      "+        )\n"
+    ], 
+    "Message:": "Merge pull request #59 from digitalocean/dcim-tests-pep-8\n\nFix PEP 8 error in DCIM tests", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/digitalocean/netbox/commit/6848a3dc810758d267a5f4a1bc4e6c08340c466e", 
+    "Commit Corrections:": "https://github.com/digitalocean/netbox/commit/d22e4e7698e40f7a61810fef71ec48825c263945", 
+    "Tags:": "indentation", 
+    "Mistake:": "extra indentation", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-                mock.patch('sys.stderr', new=six.StringIO()) as mock_stderr:\n", 
+      "+            mock.patch('sys.stderr', new=six.StringIO()) as mock_stderr:\n"
+    ], 
+    "Message:": "Merge branch 'shell_add_help' of https://github.com/ChristopherMSpencer/python-cratonclient into shell_add_help", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/ChristopherMSpencer/python-cratonclient/commit/f92771095000a7cee466324867840d53d59ec83e", 
+    "Commit Corrections:": "https://github.com/ChristopherMSpencer/python-cratonclient/commit/7c2daa96d270cd9868e2194accaca8a8a359b34c", 
+    "Tags:": "indentation", 
+    "Mistake:": "extra indentation", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-        bot.sendMessage(chat_id, str(Hi, I'm gosu))\n", 
+      "+        bot.sendMessage(chat_id, str('Hi, Im gosu'))\n"
+    ], 
+    "Message:": "\u3147", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/pereahave/160628_python_telegram_bot/commit/aad937374120aa60eb9ff50901fc09cf75042141", 
+    "Commit Corrections:": "https://github.com/pereahave/160628_python_telegram_bot/commit/3c637b3107ac5d1f4191e18847c399ea566ad059", 
+    "Tags:": "quotation", 
+    "Mistake:": "forgot quotations in the string", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-            if index != 0\n", 
+      "+            if index != 0:\n"
+    ], 
+    "Message:": "Fixed small mistake", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/TauraBots/PyDimitri/commit/49473fbe8008418d95360d3d445fc9328e288598", 
+    "Commit Corrections:": "https://github.com/TauraBots/PyDimitri/commit/8e6fb6faa28db39db6dbfd75e21f9fb2940f446f", 
+    "Tags:": "colon", 
+    "Mistake:": "forgot colon after if statement", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-        if transcode is None\n", 
+      "+        if transcode is None:\n"
+    ], 
+    "Message:": "Adding scrobbling", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/8b7cc3b7f6b18a79af246ea5de7c57106f38d89b", 
+    "Commit Corrections:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/4b156c568c45a8a1e32249f4314800a0518923e0", 
+    "Tags:": "colon", 
+    "Mistake:": "forgot colon after if statement", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-exept:\n", 
+      "+except:\n"
+    ], 
+    "Message:": "Docker - CUON new manual cli interface for the setup XVI", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/CuonDeveloper/cuon/commit/b176d900416acdb640d8618e85938d227a4bc37f", 
+    "Commit Corrections:": "https://github.com/CuonDeveloper/cuon/commit/82851f65978b183050016024ad4324c211d8430b", 
+    "Tags:": "misspell", 
+    "Mistake:": "misspelled except as exept", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-if(timeBetweenIntervals === \"rand\"):\n", 
+      "+if(timeBetweenIntervals == \"rand\"):\n"
+    ], 
+    "Commit Mistakes:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0", 
+    "Commit Corrections:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6", 
+    "Tags:": "extra", 
+    "Keyword:": "length", 
+    "Mistake:": "added extra ===", 
+    "Deletions:": 1, 
+    "Additions": 1, 
+    "Message:": "Updated syntax error"
+  }
+]
