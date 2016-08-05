@@ -167,15 +167,5 @@
     "Deletions:": 1, 
     "Additions": 1, 
     "Message:": "removal of indentation bug"
-  },
-  {
-    "Commit Mistakes:": "https://github.com/tribalchicken/raw2padded/commit/baa2cd2c3cd123315bfe3444e2b78a203b664fab", 
-    "Commit Corrections:": "https://github.com/tribalchicken/raw2padded/commit/f198bd6036c9807befdd9942274c5a18f4c82f94", 
-    "Tags:": "y", 
-    "Keyword:": "typo", 
-    "Mistake:": "spelled pmapfile as mmapfile", 
-    "Deletions:": 2, 
-    "Additions": 2, 
-    "Message:": "bugfix (typo)"
   }
 ]
