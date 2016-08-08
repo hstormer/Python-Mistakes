@@ -208,13 +208,28 @@
       "-    for file in faield_to_process:\n", 
       "+    for file in failed_to_process:\n"
     ], 
+    "Message:": "Fix typo in var name and print exception in stderr", 
+    "Deletions:": 2, 
+    "Keyword:": "typo", 
     "Commit Mistakes:": "https://github.com/kinow/pccora/commit/6cf4029517efa796b082fad4530f7fef0830d78a", 
     "Commit Corrections:": "https://github.com/kinow/pccora/commit/e0fe4a55d5e3485cd35fc2e1223823f7c92c3ab1", 
     "Tags:": "misspell", 
-    "Keyword:": "typo", 
     "Mistake:": "misspelled dictionary name", 
-    "Deletions:": 2, 
-    "Additions": 4, 
-    "Message:": "Fix typo in var name and print exception in stderr"
+    "Additions": 4
+  },  
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-\t\t\t\tyes.append(float(hamming_df[alpha][beta])\n", 
+      "+\t\t\t\tyes.append(float(hamming_df[alpha][beta]))\n"
+    ], 
+    "Commit Mistakes:": "https://github.com/virpatel524/miRNA-Scripts/commit/c7a5e08d485c6f7806d704e73635f7b56ae16e3d", 
+    "Commit Corrections:": "https://github.com/virpatel524/miRNA-Scripts/commit/d8e7dbad6f64183bcadb7cedc94b8bc40ed644d5", 
+    "Tags:": "brackets", 
+    "Keyword:": "length", 
+    "Mistake:": "forgot to close one bracket", 
+    "Deletions:": 1, 
+    "Additions": 1, 
+    "Message:": "update"
   }
 ]
