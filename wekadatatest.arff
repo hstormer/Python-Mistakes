@@ -197,7 +197,7 @@
 'Italian lang dependency', 1, 1, 4, yes
 'Fix typo in var name and print exception in stderr', 4, 2, 149, yes
 'update', 1, 1, 1, yes
-'bug', None, 1, 1, yes
+'bug', 0, 1, 1, yes
 'fix indentation problem', 1, 1, 9, yes
 'update mainpyif typexxx is type instead of if typexxx is type', 1, 1, 10, yes
 'bug fix', 1, 1, 105, yes
