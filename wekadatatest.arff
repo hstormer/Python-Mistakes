@@ -59,10 +59,10 @@
 'FIxing a typo in an import in gmrespy', 1, 1, 4, yes
 'Fix coding error', 1, 1, 2, yes
 'Fixed more indentation errors', 5, 5, 119, yes
-'DashboardSummarypy fixed typo', None, 1, 1, yes
-'fix', None, 1, 1, yes
-'customplotpy fix typo', None, 1, 1, yes
-'Typo fixed', None, 1, 1, yes
+'DashboardSummarypy fixed typo', 1, 1, 1, yes
+'fix', 1, 1, 1, yes
+'customplotpy fix typo', 1, 1, 1, yes
+'Typo fixed', 1, 1, 1, yes
 'Code Review Add  to a print message Fix indentation Refactor some vault stuff in another method', 22, 38, 2665, no
 'Small fix', 1, 1, 98, no
 'Production Summary added Seconds processing', 1, 1, 19, no
