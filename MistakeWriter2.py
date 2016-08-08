@@ -6,6 +6,8 @@ import json
 filenames = ['monicano.json', 'monicayes.json', 'eno.json', 'eyes.json', 'NEWyes.json', 'NEWno.json']
 arfffile = 'wekadatatest.arff'
 
+x = raw_input("Make sure you have DELETED the contents of the %s file, otherwise it will just add these onto the end, and we will have duplicate entries. Press any key to continue..." %arfffile)
+
 for i in filenames:
 	txt = open(i, 'a+')
 	txt2= open(arfffile, 'a+')
