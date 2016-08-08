@@ -82,6 +82,7 @@
     "Length: ": "1", 
     "Commit Mistake": "https://github.com/adamn/python-webkit2png/commit/abd7c659878368b9300a6d19bb36243a175e78f3", 
     "Tags: ": "noreturn"
+    "Tags:" "noreturn"
   }, 
   {
     "Length:": "2", 
@@ -1879,8 +1880,7 @@
     "Commit Mistakes:": "https://github.com/sosreport/sos/commit/c5e1bd7410eaf2deeb9267eeffef8bb9d151b5e8", 
     "Tags:": "misspellvariable", 
     "Mistake:": "Misspelled 'units' as 'unit'"
-  }
-][
+  },
   {
     "Length:": "2", 
     "Mistakes:": "Forgot to indent under for loop.", 

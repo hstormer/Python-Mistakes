@@ -99,13 +99,73 @@
       "-        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)\n", 
       "+        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)"
     ], 
-    "Commit Mistakes:": "https://github.com/tribalchicken/raw2padded/commit/baa2cd2c3cd123315bfe3444e2b78a203b664fab", 
-    "Commit Corrections:": "https://github.com/tribalchicken/raw2padded/commit/f198bd6036c9807befdd9942274c5a18f4c82f94", 
-    "Tags:": "y", 
-    "Keyword:": "typo", 
-    "Mistake:": "spelled pmapfile as mmapfile", 
-    "Deletions:": 2, 
-    "Additions": 2, 
-    "Message:": "bugfix (typo)"
+    "Message:": "Adding scrobbling", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/8b7cc3b7f6b18a79af246ea5de7c57106f38d89b", 
+    "Commit Corrections:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/4b156c568c45a8a1e32249f4314800a0518923e0", 
+    "Tags:": "colon", 
+    "Mistake:": "forgot colon after if statement", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-exept:\n", 
+      "+except:\n"
+    ], 
+    "Message:": "Docker - CUON new manual cli interface for the setup XVI", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/CuonDeveloper/cuon/commit/b176d900416acdb640d8618e85938d227a4bc37f", 
+    "Commit Corrections:": "https://github.com/CuonDeveloper/cuon/commit/82851f65978b183050016024ad4324c211d8430b", 
+    "Tags:": "misspell", 
+    "Mistake:": "misspelled except as exept", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-if(timeBetweenIntervals === \"rand\"):\n", 
+      "+if(timeBetweenIntervals == \"rand\"):\n"
+    ], 
+    "Message:": "Updated syntax error", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0", 
+    "Commit Corrections:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6", 
+    "Tags:": "extra", 
+    "Mistake:": "added extra ===", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-\treturn JsonResponse(request.POST, safe=False)\r\n", 
+      "+\t\treturn JsonResponse(request.POST, safe=False)\r\n"
+    ], 
+    "Message:": "a", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/dvm-bitspilani/oasis2016/commit/49523d7b768212c22050262efe902f8af077037d", 
+    "Commit Corrections:": "https://github.com/dvm-bitspilani/oasis2016/commit/3be33c783c7fec7432cba65442f05de8d9d18660", 
+    "Tags:": "indentation", 
+    "Mistake:": "*forgot indentation after if statement", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-app.run()\n", 
+      "+\tapp.run()"
+    ], 
+    "Commit Mistakes:": "https://github.com/KVasya/BoardTubbiesConstellations-/commit/6effa5efd9b77b522c2cf8d8aa5fad8dea3655b0", 
+    "Commit Corrections:": "https://github.com/KVasya/BoardTubbiesConstellations-/commit/6583dc4b393e5f468eba7e3163dcc0c938910473", 
+    "Tags:": "indentation", 
+    "Keyword:": "length", 
+    "Mistake:": "forgot to indent after if statement", 
+    "Deletions:": 1, 
+    "Additions": 1, 
+    "Message:": "removal of indentation bug"
   }
 ]
