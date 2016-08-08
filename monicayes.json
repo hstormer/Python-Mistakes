@@ -325,5 +325,65 @@
     "Deletions:": 5, 
     "Commit Mistakes:": "https://github.com/slin17/Summer_Research_2016/commit/9501b258ff321a1ff89d7082533e609d2f48ffad", 
     "Commit Corrections:": "https://github.com/slin17/Summer_Research_2016/commit/eb64821c7a65541d149f26fd21a2c2637f3e20c4"
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-\ttable_columns = [Column(\"filename_plot\", TEXT),[\"filename_plot\"]\n", 
+      "+\ttable_columns = [Column(\"filename_plot\", TEXT)],[\"filename_plot\"]\n"
+    ], 
+    "Message:": "DashboardSummary.py: fixed typo", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/ArturAkh/HappyFaceModules/commit/5fc9d09fc91938b1aa3f5fb64a68027be6c38540", 
+    "Commit Corrections:": "https://github.com/ArturAkh/HappyFaceModules/commit/442ccd7a525c9a9f96be659baa7861674b3e75b1", 
+    "Tags:": "miss", 
+    "Mistake:": "forgot to add square bracket", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-def printTree(tee, outfile):\n", 
+      "+def printTree(tree, outfile):\n"
+    ], 
+    "Message:": "fix", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/bochf/python/commit/e532224281c44ebab3205d73e6ce0866deea336a", 
+    "Commit Corrections:": "https://github.com/bochf/python/commit/5b1563f986104725d0bc4f71a92b243d9f6db95c", 
+    "Tags:": "", 
+    "Mistake:": "used wrong argument", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-            for key,value in kwargs.interitems():\n", 
+      "+            for key,value in kwargs.iteritems():\n"
+    ], 
+    "Message:": "customplot.py: fix typo", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/ArturAkh/HappyFace/commit/bc5af254a046013b28bed698616e550a8c7293b8", 
+    "Commit Corrections:": "https://github.com/ArturAkh/HappyFace/commit/2cd960af1353ff803b9f7ff7cea716262ccae80f", 
+    "Tags:": "", 
+    "Mistake:": "misspelled function name", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-                validation = self.validiation_set.input\n", 
+      "+                validation = self.validation_set.input\n"
+    ], 
+    "Commit Mistakes:": "https://github.com/DOOMinikThunder/NNPraktikum/commit/35f7a9780363af7ff1ff5e51eda545b287648f30", 
+    "Commit Corrections:": "https://github.com/DOOMinikThunder/NNPraktikum/commit/a9b7d0a51b9680d19850d74a0f2745fbc6b173bc", 
+    "Tags:": "", 
+    "Keyword:": "length", 
+    "Mistake:": "misspelled variable", 
+    "Deletions:": 1, 
+    "Additions": 1, 
+    "Message:": "Typo fixed"
   }
 ]
