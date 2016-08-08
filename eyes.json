@@ -4,44 +4,44 @@
       "-\tActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n", 
       "+        ActivityTypes.objects.get_or_create(name=\"likes\", is_batchable=False)\n"
     ], 
+    "Message:": "some cleanup, tests run again", 
     "Additions:": 1, 
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/philippWassibauer/django-activity-stream/commit/3d05aa85ea26ef8206a1da053f62e636aba7384a", 
-    "Commit Corrections:": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038", 
-    "Message:": "some cleanup, tests run again"
+    "Commit Corrections:": "https://github.com/philippWassibauer/django-activity-stream/commit/1c88e81aa2d78739db0bff1f0e27c93e7c473038"
   }, 
   {
     "Changes:": [
       "-    while True\n", 
       "+    while True:\n"
     ], 
+    "Message:": "bug", 
     "Additions:": 1, 
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/andrewbackes/autonoma/commit/559150bbe85061bb297cec01a61f1b2ee135f88e", 
-    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/80c35c94d136fdfbc1c3a873b448daaabf97c2bc", 
-    "Message:": "bug"
+    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/80c35c94d136fdfbc1c3a873b448daaabf97c2bc"
   }, 
   {
     "Changes:": [
       "-            if gid:\n", 
       "+            if gid is not None:\n"
     ], 
+    "Message:": "Fix issue related to gid=0 and the corresponding worksheet's position in the spreadsheet.", 
     "Additions:": 1, 
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/grow/grow/commit/5d903606e117755ab2b5ba686f179d00c542eb04", 
-    "Commit Corrections:": "https://github.com/grow/grow/commit/a24a3185ab71ffbec82a1815810d335067e54c87", 
-    "Message:": "Fix issue related to gid=0 and the corresponding worksheet's position in the spreadsheet."
+    "Commit Corrections:": "https://github.com/grow/grow/commit/a24a3185ab71ffbec82a1815810d335067e54c87"
   }, 
   {
     "Changes:": [
       "-        if F['UCUR'][:].mask.all() & F['VCUR'][:].mask.all():\n", 
       "+        if F['UCUR'][:].mask.all() and F['VCUR'][:].mask.all():\n"
     ], 
+    "Message:": "Use boolean operator and for boolean expression rather than bitwise & in has_current_data() function.", 
     "Additions:": 1, 
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/aodn/data-services/commit/e1bc214cd3696c19b163e1434713fbc2cce2344c", 
-    "Commit Corrections:": "https://github.com/aodn/data-services/commit/7a736e8ef248272647fe7f1dbd51f708809e29c7", 
-    "Message:": "Use boolean operator and for boolean expression rather than bitwise & in has_current_data() function."
+    "Commit Corrections:": "https://github.com/aodn/data-services/commit/7a736e8ef248272647fe7f1dbd51f708809e29c7"
   }, 
   {
     "Changes:": [
@@ -176,22 +176,22 @@
       "-return json.dumps({'error': label_list['error']})\n", 
       "+            return json.dumps({'error': label_list['error']})"
     ], 
+    "Message:": "#2153: views.py, adjust spacing and indentation", 
     "Additions:": 15, 
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/jeff1evesque/machine-learning/commit/cc48ef134302bf28015670aed958289dad680094", 
-    "Commit Corrections:": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef", 
-    "Message:": "#2153: views.py, adjust spacing and indentation"
+    "Commit Corrections:": "https://github.com/jeff1evesque/machine-learning/commit/19ece78501bcb71146ef31f8af443df884f32cef"
   }, 
   {
     "Changes:": [
       "-    student, _ = Student.objects.create_or_update(\n", 
       "+    student, _ = Student.objects.update_or_create(\n"
     ], 
+    "Message:": "bug fix", 
     "Additions:": 1, 
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/mitodl/sga-lti/commit/a7155655d3dacd3d61268d6cc58d057796169c20", 
-    "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba", 
-    "Message:": "bug fix"
+    "Commit Corrections:": "https://github.com/mitodl/sga-lti/commit/70e35a0ce841f6459381b289745d70f7ee0095ba"
   }, 
   {
     "Changes:": [
@@ -480,7 +480,7 @@
     "Deletions:": 3, 
     "Commit Mistakes:": "https://github.com/dltiziani/gammapy/commit/95a56cc777bb93662a376e583acddb33562c0be9", 
     "Commit Corrections:": "https://github.com/dltiziani/gammapy/commit/78501873967f1121eebdee28ca2acd3722cf783b"
-  },
+  }, 
   {
     "Changes:": [
       "-    search_fields = ['full_name',]\n", 
@@ -617,69 +617,52 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0", 
     "Commit Corrections:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6"
-  }
+  }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-            \"Topic :: Scientific/Engineering :: Physics\",\n", 
       "+            \"Topic :: Scientific/Engineering :: Physics\"\n"
     ], 
     "Message:": "rm: comma at setup.py->classifiers\nat the end of list, to test if\nit is the cause of winpython crash at\nappveyor", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/sem-geologist/hyperspy/commit/830ff4cd5c8f50640fdaeba1244e4aa821ce2d61", 
-    "Commit Corrections:": "https://github.com/sem-geologist/hyperspy/commit/8f8464d8ac1cb3b6561d9d68d4f23f58abd5940f", 
-    "Tags:": "comma", 
-    "Mistake:": "Put a comma after the last item in the list", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/sem-geologist/hyperspy/commit/8f8464d8ac1cb3b6561d9d68d4f23f58abd5940f"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-def get_sensorboard_mac_addresses:\n", 
       "+def get_sensorboard_mac_addresses():\n"
     ], 
     "Message:": "add missing brackets", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/waggle-sensor/waggle/commit/ae41b6da27ecbbf41475d6ddbaa37902057ef100", 
-    "Commit Corrections:": "https://github.com/waggle-sensor/waggle/commit/3b2a7b024cf566315a5dfda0107d298e5a56ce57", 
-    "Tags:": "brackets", 
-    "Mistake:": "Missing brackets after the function", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/waggle-sensor/waggle/commit/3b2a7b024cf566315a5dfda0107d298e5a56ce57"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-            link = \" (<%s|link>) \" % conf[\"url\"]+name\n", 
       "+            link = \" (<%s|link>) \" % (conf[\"url\"]+name)\n"
     ], 
     "Message:": "fix issue with link", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/swryan/benchmark/commit/d90b4481ea208ac7643fb09781f97d233adb3409", 
-    "Commit Corrections:": "https://github.com/swryan/benchmark/commit/60d5f0888efe90259d7eb2d48ff961b5312bc063", 
-    "Tags:": "brackets", 
-    "Mistake:": "Forgot to put brackets around string formatter thing", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/swryan/benchmark/commit/60d5f0888efe90259d7eb2d48ff961b5312bc063"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-         privatedir = cachedir\n", 
       "+        privatedir = cachedir\n"
     ], 
     "Message:": "Merge remote-tracking branch 'openml/develop' into develop", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/openml/openml-python/commit/2a958b03d0874dffb133cf7ae26ff8ff2d65df58", 
-    "Commit Corrections:": "https://github.com/openml/openml-python/commit/6a1561fed3076d9916e8c0afed6d3a6ab052414d", 
-    "Tags:": "indentation", 
-    "Mistake:": "indented too far", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/openml/openml-python/commit/6a1561fed3076d9916e8c0afed6d3a6ab052414d"
   }, 
   {
-    "Length:": "2", 
     "Changes:": [
       "-remote_origin = git@github.com:samdmarshall/pyconfig.git\n", 
       "-commit_hash = 704e2ad\n", 
@@ -687,31 +670,23 @@
       "+commit_hash = 'e885c36'"
     ], 
     "Message:": "fixing invalid syntax of updating version_info.py", 
+    "Additions:": 2, 
     "Deletions:": 2, 
-    "Keyword:": "syntax", 
     "Commit Mistakes:": "https://github.com/samdmarshall/pyconfig/commit/e885c367dfd260bee6d8a95b411a7ead56848799", 
-    "Commit Corrections:": "https://github.com/samdmarshall/pyconfig/commit/9d6f4503ae5253b0a6754a412991e316a90d84b7", 
-    "Tags:": "quotation", 
-    "Mistake:": "Forgot to put quotes around string", 
-    "Additions": 2
+    "Commit Corrections:": "https://github.com/samdmarshall/pyconfig/commit/9d6f4503ae5253b0a6754a412991e316a90d84b7"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-      self._webservicePrefix = earl.createWebServicePrefix()()\n", 
       "+      self._webservicePrefix = earl.createWebServicePrefix()\n"
     ], 
     "Message:": "typo", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/lifemapper/core/commit/37aa1748b027b544353bf2cb4f1b1e8350bb2891", 
-    "Commit Corrections:": "https://github.com/lifemapper/core/commit/611f1e8376a80352e2b17b3212236fd319bbf9f9", 
-    "Tags:": "brackts", 
-    "Mistake:": "Added an extra pair of brackets", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/lifemapper/core/commit/611f1e8376a80352e2b17b3212236fd319bbf9f9"
   }, 
   {
-    "Length:": "misspell", 
     "Changes:": [
       "-    with open(args.mmapfile,'r') as f:\n", 
       "+    with open(args.pmapfile,'r') as f:\n", 
@@ -719,106 +694,78 @@
       "+        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)"
     ], 
     "Message:": "Adding scrobbling", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/8b7cc3b7f6b18a79af246ea5de7c57106f38d89b", 
-    "Commit Corrections:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/4b156c568c45a8a1e32249f4314800a0518923e0", 
-    "Tags:": "colon", 
-    "Mistake:": "forgot colon after if statement", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/4b156c568c45a8a1e32249f4314800a0518923e0"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-exept:\n", 
       "+except:\n"
     ], 
     "Message:": "Docker - CUON new manual cli interface for the setup XVI", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/CuonDeveloper/cuon/commit/b176d900416acdb640d8618e85938d227a4bc37f", 
-    "Commit Corrections:": "https://github.com/CuonDeveloper/cuon/commit/82851f65978b183050016024ad4324c211d8430b", 
-    "Tags:": "misspell", 
-    "Mistake:": "misspelled except as exept", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/CuonDeveloper/cuon/commit/82851f65978b183050016024ad4324c211d8430b"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-if(timeBetweenIntervals === \"rand\"):\n", 
       "+if(timeBetweenIntervals == \"rand\"):\n"
     ], 
     "Message:": "Updated syntax error", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0", 
-    "Commit Corrections:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6", 
-    "Tags:": "extra", 
-    "Mistake:": "added extra ===", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-\treturn JsonResponse(request.POST, safe=False)\r\n", 
       "+\t\treturn JsonResponse(request.POST, safe=False)\r\n"
     ], 
     "Message:": "a", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/dvm-bitspilani/oasis2016/commit/49523d7b768212c22050262efe902f8af077037d", 
-    "Commit Corrections:": "https://github.com/dvm-bitspilani/oasis2016/commit/3be33c783c7fec7432cba65442f05de8d9d18660", 
-    "Tags:": "indentation", 
-    "Mistake:": "*forgot indentation after if statement", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/dvm-bitspilani/oasis2016/commit/3be33c783c7fec7432cba65442f05de8d9d18660"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-app.run()\n", 
       "+\tapp.run()"
     ], 
     "Message:": "removal of indentation bug", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/KVasya/BoardTubbiesConstellations-/commit/6effa5efd9b77b522c2cf8d8aa5fad8dea3655b0", 
-    "Commit Corrections:": "https://github.com/KVasya/BoardTubbiesConstellations-/commit/6583dc4b393e5f468eba7e3163dcc0c938910473", 
-    "Tags:": "indentation", 
-    "Mistake:": "forgot to indent after if statement", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/KVasya/BoardTubbiesConstellations-/commit/6583dc4b393e5f468eba7e3163dcc0c938910473"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-    return 0\n", 
       "+        return 0\n"
     ], 
     "Message:": "Update CandidatePairGenerator.py", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/varun-tandon/MarkerReader/commit/10337508a6b66f71a19315ff6c98886e2c3bdf19", 
-    "Commit Corrections:": "https://github.com/varun-tandon/MarkerReader/commit/38d39fb6f321dcd72dd37f422b3a883f3d385ea4", 
-    "Tags:": "indentation", 
-    "Mistake:": "frogot to indent when returning from an if statement", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/varun-tandon/MarkerReader/commit/38d39fb6f321dcd72dd37f422b3a883f3d385ea4"
   }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-    if getattr(self, 'skip_words', None) is None:\n", 
       "+        if getattr(self, 'skip_words', None) is None:\n"
     ], 
     "Message:": "Italian lang dependency", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/INGEOTEC/b4msa/commit/eeabe1594c3d9a4193d6fcdedeb5f31c91627d7c", 
-    "Commit Corrections:": "https://github.com/INGEOTEC/b4msa/commit/0d5aca0baf035567eb2791ffe5e9917034b1015a", 
-    "Tags:": "indentation", 
-    "Mistake:": "forgot to indent when defining ", 
-    "Additions": 1
+    "Commit Corrections:": "https://github.com/INGEOTEC/b4msa/commit/0d5aca0baf035567eb2791ffe5e9917034b1015a"
   }, 
   {
-    "Length:": "2", 
     "Changes:": [
       "-                    faield_to_process.append(output_file)\n", 
       "+                    failed_to_process.append(output_file)\n", 
@@ -828,27 +775,20 @@
       "+    for file in failed_to_process:\n"
     ], 
     "Message:": "Fix typo in var name and print exception in stderr", 
+    "Additions:": 4, 
     "Deletions:": 2, 
-    "Keyword:": "typo", 
     "Commit Mistakes:": "https://github.com/kinow/pccora/commit/6cf4029517efa796b082fad4530f7fef0830d78a", 
-    "Commit Corrections:": "https://github.com/kinow/pccora/commit/e0fe4a55d5e3485cd35fc2e1223823f7c92c3ab1", 
-    "Tags:": "misspell", 
-    "Mistake:": "misspelled dictionary name", 
-    "Additions": 4
-  },  
+    "Commit Corrections:": "https://github.com/kinow/pccora/commit/e0fe4a55d5e3485cd35fc2e1223823f7c92c3ab1"
+  }, 
   {
-    "Length:": "1", 
     "Changes:": [
       "-\t\t\t\tyes.append(float(hamming_df[alpha][beta])\n", 
       "+\t\t\t\tyes.append(float(hamming_df[alpha][beta]))\n"
     ], 
-    "Commit Mistakes:": "https://github.com/virpatel524/miRNA-Scripts/commit/c7a5e08d485c6f7806d704e73635f7b56ae16e3d", 
-    "Commit Corrections:": "https://github.com/virpatel524/miRNA-Scripts/commit/d8e7dbad6f64183bcadb7cedc94b8bc40ed644d5", 
-    "Tags:": "brackets", 
-    "Keyword:": "length", 
-    "Mistake:": "forgot to close one bracket", 
+    "Message:": "update", 
+    "Additions:": 1, 
     "Deletions:": 1, 
-    "Additions": 1, 
-    "Message:": "update"
+    "Commit Mistakes:": "https://github.com/virpatel524/miRNA-Scripts/commit/c7a5e08d485c6f7806d704e73635f7b56ae16e3d", 
+    "Commit Corrections:": "https://github.com/virpatel524/miRNA-Scripts/commit/d8e7dbad6f64183bcadb7cedc94b8bc40ed644d5"
   }
 ]
