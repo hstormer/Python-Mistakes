@@ -2,6 +2,7 @@
 
 
 import json
+import sys
 
 filenames = ['monicano.json', 'monicayes.json', 'eno.json', 'eyes.json', 'NEWyes.json', 'NEWno.json']
 arfffile = 'wekadatatest.arff'
@@ -120,6 +121,7 @@ for i in filenames:
 		a = thing.get("Additions:")
 		if str(a) == 'None':
 			print "NOOOOOOOO IT WAS EQUAL TO NONE!"
+			exit(0)
 		d = thing.get("Deletions:")
 		if str(c) != '0':
 			text = "\n'%s', %s, %s, %s, %s" %(m,a,d,c,chicken)

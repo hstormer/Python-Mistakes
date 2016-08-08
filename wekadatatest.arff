@@ -298,24 +298,7 @@
 'L', 1, 1, 1, yes
 'tt', 1, 1, 5, yes
 'QCWhoops', 1, 1, 1, yes
-'Merge branch master of githubcomastroJeffXRB', 1, 1, 2, yes
-'Update philippy', 1, 1, 6, yes
-'typos', 12, 12, 698, yes
-'Add missing bracket', 1, 0, 7, yes
-'bugfix 1', 1, 1, 1, yes
-'Some small corrections', 19, 14, 1149, yes
-'t', 1, 1, 1, yes
-'global variable blackListedIp is undefinedI think you meant blackListedIps', 1, 1, 1, yes
-'wip', 1, 1, 1, yes
-'Fixed jobs not correctly searhed', 13, 8, 563, no
-'Merge pull request 129 from shiweixxxmaster', 1, 1, 83, no
-'Edit', 1, 1, 14, no
-'PUSH', 1, 1, 1, no
-'Added testing for guest os features', 1, 1, 7, no
-'removed smoothing for memory', 1, 1, 1, no
-'cambiando formulario de add estudiantes', 1, 1, 7, no
-'removed obsolete string', 1, 1, 19, no
-'Update 20160629 chage email title', 1, 1, 62, no
+
 'kvmrunner fix mysterious prompt corruptionWhen read returns more than SEARCHWINDOWSIZE characterspexpect discards all but the last SEARCHWINDOWSIZE charactersThis results in a critical boot message being missedSee httpsgithubcompexpectpexpectissues203When a reboot hangs only use virsh destroy when the VM ispaused  There seems to be a bug in the KVMfedora code where arebooting domain instead of resetting pauses', 30, 20, 1676, no
 'update low level data structure', 1, 1, 7, no
 'support new rich quality values API', 1, 1, 8, no
