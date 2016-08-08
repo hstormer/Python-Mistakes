@@ -1,6 +1,6 @@
 @relation python_mistakes
 
-@attribute message string
+@attribute commit_message string
 @attribute additions numeric
 @attribute deletions numeric
 @attribute changes numeric
@@ -9,28 +9,6 @@
 @data
 
 
-
-'Fix wineserver call', 1, 1, 2, yes
-'bug fix update configure V82', 1, 1, 4, yes
-'fixes for picture', 1, 1, 130, yes
-'Forward port cli argument', 1, 1, 14, yes
-'Fixed typos', 6, 6, 76, yes
-'Fixed another typo', 4, 1, 241, yes
-'modified   datamanagerpymodified   paramspy', 1, 1, 2, yes
-'BUG FLASK Restful API to server JSON not rendering', 1, 1, 1, yes
-'modidy', 1, 1, 37, yes
-'whoops missed one', 1, 1, 1, yes
-'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, 1, yes
-'Corrected importCorrected import', 1, 1, 13, yes
-'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, 465, yes
-'Small syntax error fixed', 2, 1, 97, yes
-'Small bug fix', 1, 1, 4, yes
-'Fixed indentation', 33, 33, 648, yes
-'Fixed name of papercutsettings import', 1, 1, 12, yes
-'fix a wrong indentation level', 1, 1, 4, yes
-'FIxing a typo in an import in gmrespy', 1, 1, 4, yes
-'Fix coding error', 1, 1, 2, yes
-'Fixed more indentation errors', 5, 5, 119, yes
 'fix import error', 1, 1, 2, no
 'added prints for debugging', 1, 1, 10, no
 'kafka consumer is added', 1, 1, 28, no
@@ -59,6 +37,27 @@
 'version bump', 1, 1, 4, no
 'master Add comment', 1, 1, 92, no
 'Merge pull request 18 from PhylliadedevFix name arg in fromurdf method', 1, 1, 2, no
+'Fix wineserver call', 1, 1, 2, yes
+'bug fix update configure V82', 1, 1, 4, yes
+'fixes for picture', 1, 1, 130, yes
+'Forward port cli argument', 1, 1, 14, yes
+'Fixed typos', 6, 6, 76, yes
+'Fixed another typo', 4, 1, 241, yes
+'modified   datamanagerpymodified   paramspy', 1, 1, 2, yes
+'BUG FLASK Restful API to server JSON not rendering', 1, 1, 1, yes
+'modidy', 1, 1, 37, yes
+'whoops missed one', 1, 1, 1, yes
+'Sensor temperatura y humedad listo Inicio alarma sensor de movimiento', 1, 1, 1, yes
+'Corrected importCorrected import', 1, 1, 13, yes
+'Fix order of arguments in assertEqualSome tests used incorrect order assertEqualobserved expectedThe correct order expected by testtools isassertEqualexpected observedThis patch fix the issueChangeId Id14676d8d07953fd33139a8fd8b7773aabf5fdfaPartialBug 1259292', 6, 6, 465, yes
+'Small syntax error fixed', 2, 1, 97, yes
+'Small bug fix', 1, 1, 4, yes
+'Fixed indentation', 33, 33, 648, yes
+'Fixed name of papercutsettings import', 1, 1, 12, yes
+'fix a wrong indentation level', 1, 1, 4, yes
+'FIxing a typo in an import in gmrespy', 1, 1, 4, yes
+'Fix coding error', 1, 1, 2, yes
+'Fixed more indentation errors', 5, 5, 119, yes
 'Code Review Add  to a print message Fix indentation Refactor some vault stuff in another method', 22, 38, 2665, no
 'Small fix', 1, 1, 98, no
 'Production Summary added Seconds processing', 1, 1, 19, no
@@ -182,6 +181,22 @@
 'Adding scrobbling', 1, 1, 1, yes
 'Docker  CUON new manual cli interface for the setup XVI', 1, 1, 1, yes
 'Updated syntax error', 1, 1, 1, yes
+'rm comma at setuppyifiersat the end of list to test ifit is the cause of winpython crash atappveyor', 1, 1, 1, yes
+'add missing brackets', 1, 1, 2, yes
+'fix issue with link', 1, 1, 34, yes
+'Merge remotetracking branch openmldevelop into develop', 1, 1, 1, yes
+'fixing invalid syntax of updating versioninfopy', 2, 2, 159, yes
+'typo', 1, 1, 2, yes
+'Adding scrobbling', 1, 1, 3, yes
+'Docker  CUON new manual cli interface for the setup XVI', 1, 1, 1, yes
+'Updated syntax error', 1, 1, 1, yes
+'a', 1, 1, 1, yes
+'removal of indentation bug', 1, 1, 20, yes
+'Update CandidatePairGeneratorpy', 1, 1, 4, yes
+'Italian lang dependency', 1, 1, 4, yes
+'Fix typo in var name and print exception in stderr', 4, 2, 149, yes
+'update', 1, 1, 1, yes
+'bug', None, 1, 1, yes
 'fix indentation problem', 1, 1, 9, yes
 'update mainpyif typexxx is type instead of if typexxx is type', 1, 1, 10, yes
 'bug fix', 1, 1, 105, yes
@@ -240,6 +255,53 @@
 'fixing invalid syntax of updating versioninfopy', 2, 2, 159, yes
 'typo', 1, 1, 2, yes
 'bugfix typo', 2, 2, 3, yes
+'Fixing syntax error in test', 2, 1, 21, yes
+'Fixing merge conflicts', 1, 1, 1, yes
+'fixing typo', 1, 1, 1, yes
+'Merge pull request 1275 from jacquerieintegratepr1264dojson fix two bugs', 1, 1, 14, yes
+'dojson fix bug in institutionsSignedoffby Tomasz Gargas tomaszgygmailcom', 1, 1, 14, yes
+'arch fix typofetchsregisteractive  fetchregisteractiveSignedoffby Jeff Mahoney jeffmsusecom', 1, 1, 2, yes
+'comments on own files and notes corrected', 10, 6, 210, yes
+'no use in trying to do this in initial make sure the cleaned up form has the correct sopes in it', 13, 16, 888, yes
+'debugging', 1, 1, 23, yes
+'Fix', 1, 1, 1, yes
+'Fix', 1, 1, 6, yes
+'fix stupid bug', 2, 2, 3, yes
+'new way of doing tril padded', 1, 1, 1, yes
+'Update predict locationspy', 1, 1, 12, yes
+'Trying to fix saving and loading', 1, 1, 6, yes
+'merging from upstream', 1, 1, 19, yes
+'procfile update', 1, 1, 5, yes
+'Add missing comma', 1, 1, 1, yes
+'Raise attribute error when you try to access non model field', 1, 1, 6, yes
+'Bugfix for masks in metasetsdata fileitems', 1, 1, 8, yes
+'Comments and fixed for osu plugin', 1, 1, 4, yes
+'Correcting function naming in gettrainingdata', 1, 1, 1, yes
+'Remove trailing comma', 1, 1, 1, yes
+'Wrong index', 1, 1, 2, yes
+'Typo', 1, 1, 1, yes
+'comma fix', 1, 1, 1, yes
+'62', 1, 1, 1, yes
+'Fix typo', 1, 1, 4, yes
+'Fix ', 1, 1, 2, yes
+'Fixed version string customization bug', 1, 1, 4, yes
+'Fix typo', 1, 1, 1, yes
+'typo', 1, 1, 2, yes
+'Fix indentation error', 8, 11, 256, yes
+'oof syntax', 1, 1, 1, yes
+'Minor fix', 1, 1, 1, yes
+'L', 1, 1, 1, yes
+'tt', 1, 1, 5, yes
+'QCWhoops', 1, 1, 1, yes
+'Merge branch master of githubcomastroJeffXRB', 1, 1, 2, yes
+'Update philippy', 1, 1, 6, yes
+'typos', 12, 12, 698, yes
+'Add missing bracket', 1, 0, 7, yes
+'bugfix 1', 1, 1, 1, yes
+'Some small corrections', 19, 14, 1149, yes
+'t', 1, 1, 1, yes
+'global variable blackListedIp is undefinedI think you meant blackListedIps', 1, 1, 1, yes
+'wip', 1, 1, 1, yes
 'Fixed jobs not correctly searhed', 13, 8, 563, no
 'Merge pull request 129 from shiweixxxmaster', 1, 1, 83, no
 'Edit', 1, 1, 14, no
