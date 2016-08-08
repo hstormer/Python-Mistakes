@@ -967,5 +967,316 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/erwan-lemonnier/klue-client-server/commit/f65a4568f23a276622833ddcda6a6e6b153f7d68", 
     "Commit Corrections:": "https://github.com/erwan-lemonnier/klue-client-server/commit/44284ec3dbe8bc206b5b06bed00269d3bd3c70eb"
+  }, 
+  {
+    "Changes:": [
+      "-                         extra_compile_args=[\"-std=c++11\", \"-w\"])]\n", 
+      "+                         extra_compile_args=[\"-std=c++11\", \"-w\"])],\n"
+    ], 
+    "Message:": "comma fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/TuragaLab/zwatershed/commit/8f60c1612623626023ddcd824b0a4f721b86d49d", 
+    "Commit Corrections:": "https://github.com/TuragaLab/zwatershed/commit/86d8301eced91d626148a81193ed98c343dfe2a4"
+  }, 
+  {
+    "Changes:": [
+      "-                    messageStack[userName] = messaeStack[userName] + individualMessage\n", 
+      "+                    messageStack[userName] = messageStack[userName] + individualMessage\n"
+    ], 
+    "Message:": "6.2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/magnusonsvds/Slack-Application/commit/8062331028b58464c3803b1337628c00d92ce3b8", 
+    "Commit Corrections:": "https://github.com/magnusonsvds/Slack-Application/commit/b74767e9b557a2018bd58fb2bae1ecf027edfc91"
+  }, 
+  {
+    "Changes:": [
+      "-        download_ulr = download_url_mirror\n", 
+      "+        download_url = download_url_mirror\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/joaojunior/django-haystack/commit/5c24066d9ee6fd589078af950ea60bd6a0e7ef81", 
+    "Commit Corrections:": "https://github.com/joaojunior/django-haystack/commit/efab1a5d02b34d1d44d116582ec1445ab2921900"
+  }, 
+  {
+    "Changes:": [
+      "-        if action != \"created\" and action != \"edited\" and action != \"deleted\" \n", 
+      "+        if action != \"created\" and action != \"edited\" and action != \"deleted\":\n"
+    ], 
+    "Message:": "Fix :", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/alvarollmenezes/taiga-back/commit/567c45e0afd46754e4879fe8fc0e015be81b4bed", 
+    "Commit Corrections:": "https://github.com/alvarollmenezes/taiga-back/commit/049a797c036e46c4af17bc40c6b9c04e3e7097ae"
+  }, 
+  {
+    "Changes:": [
+      "-            parser.add_argument('-V', '--version', action='version', version='%%(prog)s %s'%ver,\n", 
+      "+            parser.add_argument('-V', '--version', action='version', version='%%(prog)s %s'%version,\n"
+    ], 
+    "Message:": "Fixed version string customization bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mnmelo/MDreader/commit/e6ddca998577352a932b1e6a64d4daf588be1c32", 
+    "Commit Corrections:": "https://github.com/mnmelo/MDreader/commit/03a1f85c897d0ee85ac2cbc23df69f29ab876f98"
+  }, 
+  {
+    "Changes:": [
+      "-     if 'minimize_nonuniformity' in parset_dict:\n", 
+      "+    if 'minimize_nonuniformity' in parset_dict:\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lofar-astron/factor/commit/409978bc98965c0138a3bb84f22ab619cf8d485d", 
+    "Commit Corrections:": "https://github.com/lofar-astron/factor/commit/a7b3e8718c163620795855f49c9e3c3ea7ca5ecd"
+  }, 
+  {
+    "Changes:": [
+      "-    placed_path = \"/user/\" + config.user \"/qa_data/\" + filename\n", 
+      "+    placed_path = \"/user/\" + config.user + \"/qa_data/\" + filename\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lewisc/spark-tk/commit/464f14cf4abdb567df301492583cd6ecb9352dbe", 
+    "Commit Corrections:": "https://github.com/lewisc/spark-tk/commit/a4b0bd7480b43b5a6601a07e7908b35cd8a5d026"
+  }, 
+  {
+    "Changes:": [
+      "-import time\n", 
+      "-import RPi.GPIO as GPIO\n", 
+      "-    servoPin=11\n", 
+      "+    servoPin = 11\n", 
+      "-    pwm=GPIO.PWM(seroPin, 50)\n", 
+      "+    pwm = GPIO.PWM(seroPin, 50)\n", 
+      "-    for i in range(0,180):\n", 
+      "-            desiredPosition=input(\"Where do you want the servo? 0-180?\")\n", 
+      "-            DC=1./18.*(desiredPosition)+2\n", 
+      "-            pwm.ChangeDutyCycle(DC)\n", 
+      "-        pwm.stop()\n", 
+      "-        \n", 
+      "-    \n", 
+      "+    for i in range(0, 180):\n", 
+      "+        desiredPosition = input(\"Where do you want the servo? 0-180?\")\n", 
+      "+        DC = float(1 / 18) * (desiredPosition) + 2\n", 
+      "+        pwm.ChangeDutyCycle(DC)\n", 
+      "+    pwm.stop()\n", 
+      "+\n"
+    ], 
+    "Message:": "Fix indentation error", 
+    "Additions:": 8, 
+    "Deletions:": 11, 
+    "Commit Mistakes:": "https://github.com/efagerberg/PiCam/commit/12ac7135d1970be54d0e4564b18b2685749ac6b3", 
+    "Commit Corrections:": "https://github.com/efagerberg/PiCam/commit/6f280c930ce43870b38ee0ab190d457126ea18dc"
+  }, 
+  {
+    "Changes:": [
+      "-      install_requires=],\n", 
+      "+      install_requires=[],\n"
+    ], 
+    "Message:": "oof syntax", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rueberger/andrew/commit/b5864b389a9a690a87d88b408b2928c5282cb55d", 
+    "Commit Corrections:": "https://github.com/rueberger/andrew/commit/f412bd6a9f4f829fa223e95d27a4d8afdf11a60c"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\tif permission == \"yes\" | \"YES\" | \"ok\" | \"OK\"\n", 
+      "+\t\t\tif permission == \"yes\" | \"YES\" | \"ok\" | \"OK\":\n"
+    ], 
+    "Message:": "Minor fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/GitSujal/first_repositrory_for_jarvis/commit/2426df44465086a3f3afa9c7d113d494a69003f2", 
+    "Commit Corrections:": "https://github.com/GitSujal/first_repositrory_for_jarvis/commit/c9ec4608eb85afa146ccc201fbada8a12fa6bf2b"
+  }, 
+  {
+    "Changes:": [
+      "-for v in range(3)\n", 
+      "+for v in range(3):\n"
+    ], 
+    "Message:": "L:", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rtrottie/VTST-Tools/commit/a0daf3449dde4b7f53c8db664c529764224fbe88", 
+    "Commit Corrections:": "https://github.com/rtrottie/VTST-Tools/commit/3fc0986ae61f35d283ed0062af1f40966ae82b0e"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tres = test_res - thresh\n", 
+      "+\t\tres = test_res - self.thresh\n"
+    ], 
+    "Message:": "t-t", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pussinboot/taiko_cv_bot/commit/f0fe2e54389cae2d6a7ee8a15e14296ede8f3ccf", 
+    "Commit Corrections:": "https://github.com/pussinboot/taiko_cv_bot/commit/12768ca97b6b299eead6a51b94dec9b0ba4816a8"
+  }, 
+  {
+    "Changes:": [
+      "-    print(\"Training run: %\" % sim.trainTestID)\n", 
+      "+    print(\"Training run: %i\" % sim.trainTestID)\n"
+    ], 
+    "Message:": "QC\n\nWhoops.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/thekerrlab/netpyne/commit/a8721884184a78b28f4bd572fb43dc3dcb984035", 
+    "Commit Corrections:": "https://github.com/thekerrlab/netpyne/commit/ef89456b0404b82491c1bfc6e2e02e9fa2aa3137"
+  }, 
+  {
+    "Changes:": [
+      "-    s = sampler.flatchain[l]\n", 
+      "+    s = sampler.flatchain[i]\n"
+    ], 
+    "Message:": "Merge branch 'master' of github.com:astroJeff/XRB", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/astroJeff/XRB/commit/ee2b32c3e9fb0dc4e29f225506d6a0c371faa07a", 
+    "Commit Corrections:": "https://github.com/astroJeff/XRB/commit/6a33477aaf7408fb4d0ca084703896be88e9a4d0"
+  }, 
+  {
+    "Changes:": [
+      "-  split_message[index] = split_message[index].upper()\n", 
+      "+        split_message[index] = split_message[index].upper()\n"
+    ], 
+    "Message:": "Update philip.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/PdxCodeGuild/Intro-to-Computer-Programming/commit/c67d58741339b6618c8c3532dfb2b1ce3c6b011e", 
+    "Commit Corrections:": "https://github.com/PdxCodeGuild/Intro-to-Computer-Programming/commit/c65dc905173cc7ed53f27e43cba2f557bc83a4d3"
+  }, 
+  {
+    "Changes:": [
+      "-\tProcessTool.__init__(self, options, threads, *args, **kwargs)\n", 
+      "+        ProcessTool.__init__(self, options, threads, *args, **kwargs)\n", 
+      "-        \n", 
+      "+\n", 
+      "-\tif self.process_paired and len(infiles)==2:\n", 
+      "-   \t    in1, in2 = infiles\n", 
+      "+        if self.process_paired and len(infiles) == 2:\n", 
+      "+            in1, in2 = infiles\n", 
+      "-\t        format=\"--format=fastq\"\n", 
+      "+                format = \"--format=fastq\"\n", 
+      "-                format=\"--format=fasta\"\n", 
+      "+                format = \"--format=fasta\"\n", 
+      "-                format=\"\"\n", 
+      "+                format = \"\"\n", 
+      "-                [i.replace(\".fast\",\"_untrimmed.fast\")\n", 
+      "+                [i.replace(\".fast\", \"_untrimmed.fast\")\n", 
+      "-                    \"--untrimmed-paired=%(untrimmed_output2)s\" % locals\n", 
+      "+                    \"--untrimmed-paired=%(untrimmed_output2)s\" % locals()\n", 
+      "-            2>> %(output_prefix)s.log; '''  %locals())\n", 
+      "+            2>> %(output_prefix)s.log; ''' % locals())\n", 
+      "-\telse:\n", 
+      "-\t    for infile, outfile in zip(infiles, outfiles):\n", 
+      "+        else:\n", 
+      "+            for infile, outfile in zip(infiles, outfiles):\n"
+    ], 
+    "Message:": "typos", 
+    "Additions:": 12, 
+    "Deletions:": 12, 
+    "Commit Mistakes:": "https://github.com/sudlab/CGATPipelines/commit/7caac71be23c97420c3278061058998c1111c2ee", 
+    "Commit Corrections:": "https://github.com/sudlab/CGATPipelines/commit/76e183fe6697ab8504100043c0e295660dd2d559"
+  }, 
+  {
+    "Changes:": [
+      "+    }\n"
+    ], 
+    "Message:": "Add missing bracket", 
+    "Additions:": 1, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/Rytiggy/Federal-Prototype/commit/4c983e43c6b62ee45cc55f659d4e94f776f8e003", 
+    "Commit Corrections:": "https://github.com/Rytiggy/Federal-Prototype/commit/0f6faf5ffe0888d408af0a3c9d8632148988994b"
+  }, 
+  {
+    "Changes:": [
+      "-            ATTR_PARAM: attribute\n", 
+      "+            ATTR_PARAM: attribute,\n"
+    ], 
+    "Message:": "bugfix 1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/danielperna84/home-assistant/commit/4a1a7389e7a77342b95d30d969b47134f437e711", 
+    "Commit Corrections:": "https://github.com/danielperna84/home-assistant/commit/89e9333aa83d7d0d7a3efcc0a1c26b3e9a871529"
+  }, 
+  {
+    "Changes:": [
+      "-        sys.stdout.flush();\n", 
+      "+        sys.stdout.flush()\n", 
+      "+\n", 
+      "+# Der hier ist eeetwas besser, aber nicht viel.\n", 
+      "+# Hier amch ich prinzipiell das Gleiche, wie bei dem Dummen Algorithmus.\n", 
+      "+# Mit dem Unterschied, dass ich versuche, dass mindestens 2 Seiten vollen Kontakt mit irgendwas haben.\n", 
+      "+# Also eine Ecke zum Beispiel. Ja? Jupp\n", 
+      "+# Und wenn ich zwei Seiten habe, return ich das.\n", 
+      "-    productPlaced = False\n", 
+      "-                productPlaced = True\n", 
+      "-                break\n", 
+      "+                return True\n", 
+      "+\n", 
+      "-        if productPlaced:\n", 
+      "-            break\n", 
+      "-    return productPlaced\n", 
+      "+    return False\n", 
+      "-                resultList += [(x,y,mask[y][x])]\n", 
+      "+                resultList.append((x,y,mask[y][x]))\n", 
+      "+\n", 
+      "+\n", 
+      "-    printResult(lock, (resultList, resultValue))\n", 
+      "+    printResult(lock, (resultList, resultValue) )\n", 
+      "-    if True:\n", 
+      "+    if False:\n", 
+      "-    products = sorted(products, key=lambda x: x[2], reverse=False)\n", 
+      "-    thread = Thread(target=calcGreedyFilling, args=(lock, placeProductInBagIntelligent, list(bags), list(products), fillCosts,))\n", 
+      "-    threads += [thread]\n", 
+      "-    thread.start()\n", 
+      "+        products = sorted(products, key=lambda x: x[2], reverse=False)\n", 
+      "+        thread = Thread(target=calcGreedyFilling, args=(lock, placeProductInBagIntelligent, list(bags), list(products), fillCosts,))\n", 
+      "+        threads += [thread]\n", 
+      "+        thread.start()\n"
+    ], 
+    "Message:": "Some small corrections", 
+    "Additions:": 19, 
+    "Deletions:": 14, 
+    "Commit Mistakes:": "https://github.com/MauriceGit/2D_Bin_Packing/commit/315ff8fa21348ec1a9041d4b4a12dc2db04dd851", 
+    "Commit Corrections:": "https://github.com/MauriceGit/2D_Bin_Packing/commit/ea352023e9a5416350eead2dbbb517253926d57b"
+  }, 
+  {
+    "Changes:": [
+      "-        self.interpretation = random.choice([\"You want x? Here you go:\", \"x coming right up:\", \"x little cuck, just for you:\"]).replace(\"x\", re.sub(\"[\\(\\[].*?[\\)\\]]\", \"\", self.interpretation).rstrip()))\n", 
+      "+        self.interpretation = random.choice([\"You want x? Here you go:\", \"x coming right up:\", \"x little cuck, just for you:\"]).replace(\"x\", re.sub(\"[\\(\\[].*?[\\)\\]]\", \"\", self.interpretation).rstrip())\n"
+    ], 
+    "Message:": "t", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davenewham/starter-python-bot/commit/fe7859c0644c6c328b1ca760b09d32f3c428992c", 
+    "Commit Corrections:": "https://github.com/davenewham/starter-python-bot/commit/a5a675aace0652dfda8ff94430e6d7469cccc332"
+  }, 
+  {
+    "Changes:": [
+      "-                raise InvalidIPException(\"Provided hostname 'hostname' resolves to '%s', which matches a blacklisted value: %s\" % (\", \".join(ips), blacklistedIp))\n", 
+      "+                raise InvalidIPException(\"Provided hostname 'hostname' resolves to '%s', which matches a blacklisted value: %s\" % (\", \".join(ips), blacklistedIps))\n"
+    ], 
+    "Message:": "global variable blackListedIp is undefined\n\nI think you meant blackListedIps?", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/momopranto/safecurl-python/commit/713bfd56cd761b6b4a567394179aac1b70c52c04", 
+    "Commit Corrections:": "https://github.com/momopranto/safecurl-python/commit/27bd80cccefea9bdc0d09928201cba04815de5af"
+  }, 
+  {
+    "Changes:": [
+      "-            context.hd_acount = context.account\n", 
+      "+            context.hd_account = context.account\n"
+    ], 
+    "Message:": "wip", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/quantopian/zipline/commit/640f918d16463e6a3ed1cde7b54152e1c341716c", 
+    "Commit Corrections:": "https://github.com/quantopian/zipline/commit/5d5588c2461d766bfe8ec2f539eefb8cd513d90e"
   }
 ]
