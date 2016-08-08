@@ -578,7 +578,7 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/bdancer/vb25-patch/commit/eedc9e3ecc4e8743cd4f3105ff111ec42057bb9c", 
     "Commit Corrections:": "https://github.com/bdancer/vb25-patch/commit/540fcc0f970c4c333546b85f03ed9c7de54eb798"
-  },
+  }, 
   {
     "Changes:": [
       "-def get_sensorboard_mac_addresses:\n", 
@@ -648,5 +648,324 @@
     "Deletions:": 2, 
     "Commit Mistakes:": "https://github.com/tribalchicken/raw2padded/commit/baa2cd2c3cd123315bfe3444e2b78a203b664fab", 
     "Commit Corrections:": "https://github.com/tribalchicken/raw2padded/commit/f198bd6036c9807befdd9942274c5a18f4c82f94"
+  }, 
+  {
+    "Changes:": [
+      "-    def test_by_lines_work_on_article_page\n", 
+      "+    def test_by_lines_work_on_article_page(self):\n", 
+      "+        pass\n"
+    ], 
+    "Message:": "Fixing syntax error in test", 
+    "Additions:": 2, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/newamericafoundation/newamerica-cms/commit/69ea0970a3c6ffdfc27a1ba0e966fa05c34e1233", 
+    "Commit Corrections:": "https://github.com/newamericafoundation/newamerica-cms/commit/b8130edadc2fc3ab7e78709dd27971f8f474c0e7"
+  }, 
+  {
+    "Changes:": [
+      "-                             % (p_id, str(e)))\n", 
+      "+                             % (pid, str(e)))\n"
+    ], 
+    "Message:": "Fixing merge conflicts", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/josenavas/QiiTa/commit/04ede6cb2ef3423a49947af948e8cc88f8674707", 
+    "Commit Corrections:": "https://github.com/josenavas/QiiTa/commit/7df405dba9289a31cc81fa268a415afa5c2b6e34"
+  }, 
+  {
+    "Changes:": [
+      "-                                   error['filename'], error['line']))\n", 
+      "+                                   error['filename'], error['line'])\n"
+    ], 
+    "Message:": "fixing typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tommorris/bastardhooks/commit/4fea275ebe4603cc07523e289d4b6e5eb30c4edf", 
+    "Commit Corrections:": "https://github.com/tommorris/bastardhooks/commit/2dfa915df46f25a318d0c86fcbc5534a093bd692"
+  }, 
+  {
+    "Changes:": [
+      "-    names = list(utils.force_list(value.get('a'))) or []\n", 
+      "+    names = list(utils.force_list(value.get('a')) or [])\n"
+    ], 
+    "Message:": "Merge pull request #1275 from jacquerie/integrate-pr-1264\n\ndojson: fix two bugs", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/inspirehep/inspire-next/commit/24d0d81b17733ee5407b529ecea1623cef6a77fd", 
+    "Commit Corrections:": "https://github.com/inspirehep/inspire-next/commit/a9967f2584005bf3501c3e71914216437a9546d4"
+  }, 
+  {
+    "Changes:": [
+      "-    names = list(utils.force_list(value.get('a'))) or []\n", 
+      "+    names = list(utils.force_list(value.get('a')) or [])\n"
+    ], 
+    "Message:": "dojson: fix bug in institutions\n\nSigned-off-by: Tomasz Gargas <tomaszgy@gmail.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/inspirehep/inspire-next/commit/b5ab2e57eadb262cdc4c376211c68719cdafb1a5", 
+    "Commit Corrections:": "https://github.com/inspirehep/inspire-next/commit/921adc6547a619bbc75183e8b85231a75d305501"
+  }, 
+  {
+    "Changes:": [
+      "-            self.fetchsregister_active(thread, register)\n", 
+      "+            self.fetch_register_active(thread, register)\n"
+    ], 
+    "Message:": "arch: fix typo\n\nfetchsregister_active -> fetch_register_active\n\nSigned-off-by: Jeff Mahoney <jeffm@suse.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jeffmahoney/crash-python/commit/4add5cd941cb609fa04a0fe2ecd9180b22102bed", 
+    "Commit Corrections:": "https://github.com/jeffmahoney/crash-python/commit/67d8e30eff0f52f6c5df641713c95c55f58327e0"
+  }, 
+  {
+    "Changes:": [
+      "-                                        counter_obj_creator.comments_by_files[str(counter_obj.user_id)] -= 1 \n", 
+      "+                                        counter_obj_creator.comments_by_files[str(counter_obj.user_id)] -= 1\n", 
+      "+                            counter_obj.last_update = datetime.today()\n", 
+      "+                            counter_obj_creator.last_update = datetime.today()\n", 
+      "+                            counter_obj.save()\n", 
+      "+                            counter_obj_creator.save() \n", 
+      "-                        if benchmark_node.name == 'discussion_delete_reply' :\n", 
+      "+                            if benchmark_node.name == 'discussion_delete_reply' :\n", 
+      "-                    counter_obj.last_update = datetime.today()\n", 
+      "-                    counter_obj_creator.last_update = datetime.today()\n", 
+      "-                    counter_obj.save()\n", 
+      "-                    counter_obj_creator.save()\n", 
+      "+                            counter_obj.last_update = datetime.today()\n", 
+      "+                            counter_obj_creator.last_update = datetime.today()\n", 
+      "+                            counter_obj.save()\n", 
+      "+                            counter_obj_creator.save()\n"
+    ], 
+    "Message:": "comments on own files and notes corrected", 
+    "Additions:": 10, 
+    "Deletions:": 6, 
+    "Commit Mistakes:": "https://github.com/KQuadros/gstudio/commit/6bea79e0d189055f7f96f3b96972dd615f4a9571", 
+    "Commit Corrections:": "https://github.com/KQuadros/gstudio/commit/a4cfc74c3d9e4913a886101f2eb4efafbd5e3fd1"
+  }, 
+  {
+    "Changes:": [
+      "-    skip_authorization_completely = False\n", 
+      "-            return self.oauth2_data.get('scope', self.oauth2_data.get('scopes', []))\n", 
+      "+        return self.oauth2_data.get('scope', self.oauth2_data.get('scopes', []))\n", 
+      "-\n", 
+      "-        application = get_application_model().objects.get(client_id=self.request.GET['client_id'])\n", 
+      "-        allowed_scopes = None\n", 
+      "-        if application.allowed_scopes:\n", 
+      "-            # this will be [''], which evaluates to True if allowed_scopes is the empty string (but not None)\n", 
+      "-            allowed_scopes = application.allowed_scopes.split(' ')\n", 
+      "-        if allowed_scopes:\n", 
+      "-            requested_scopes = self.getscopes()\n", 
+      "-            # now reduce down to allowed scopes\n", 
+      "-            scopes = list(set(allowed_scopes) & set(requested_scopes))\n", 
+      "-        else:\n", 
+      "-            scopes = self.getscopes()\n", 
+      "+        scopes = self.getscopes()\n", 
+      "-\n", 
+      "-            scopes = form.cleaned_data.get('scope')\n", 
+      "+            application = get_application_model().objects.get(client_id=credentials['client_id'])\n", 
+      "+            allowed_scopes = None\n", 
+      "+            if application.allowed_scopes:\n", 
+      "+                # this will be [''], which evaluates to True if allowed_scopes is the empty string (but not None)\n", 
+      "+                allowed_scopes = application.allowed_scopes.split(' ')\n", 
+      "+            if allowed_scopes:\n", 
+      "+                requested_scopes = self.getscopes()\n", 
+      "+                # now reduce down to allowed scopes\n", 
+      "+                scopes = list(set(allowed_scopes) & set(requested_scopes))\n", 
+      "+            else:\n", 
+      "+                scopes = form.cleaned_data.get('scope')\n"
+    ], 
+    "Message:": "no use in trying to do this in initial, make sure the cleaned up form has the correct sopes in it!", 
+    "Additions:": 13, 
+    "Deletions:": 16, 
+    "Commit Mistakes:": "https://github.com/JensTimmerman/django-oauth-toolkit/commit/a218b8c2f1dafbc9f47ffa7bf3a3c8528b183312", 
+    "Commit Corrections:": "https://github.com/JensTimmerman/django-oauth-toolkit/commit/76ba31d6877f04fbd9a9d6eb6e28d15c7ed537e3"
+  }, 
+  {
+    "Changes:": [
+      "-        if site_name > 0:\n", 
+      "+        if len(site_name) > 0:\n"
+    ], 
+    "Message:": "debugging", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lydia-rodriguez/mail-server/commit/e81172c0d40e70b2554348dc3f96ebaa4c9581ef", 
+    "Commit Corrections:": "https://github.com/lydia-rodriguez/mail-server/commit/f00bfc5b18d95883472911731b6faece534fc7e0"
+  }, 
+  {
+    "Changes:": [
+      "-        else\n", 
+      "+        else:\n"
+    ], 
+    "Message:": "Fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/alvarollmenezes/taiga-back/commit/7f95450f2cd3d9e3cfb04698e22bec4b698d3c86", 
+    "Commit Corrections:": "https://github.com/alvarollmenezes/taiga-back/commit/4d5081e254e1226736df7340c27084133d131204"
+  }, 
+  {
+    "Changes:": [
+      "-        if self.payload.get('action', None) != \"created\" AND self.payload.get('action', None) != \"edited\":\n", 
+      "+        if self.payload.get('action', None) != \"created\" and self.payload.get('action', None) != \"edited\":\n"
+    ], 
+    "Message:": "Fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/alvarollmenezes/taiga-back/commit/4d5081e254e1226736df7340c27084133d131204", 
+    "Commit Corrections:": "https://github.com/alvarollmenezes/taiga-back/commit/d20270137a22a001af7980a31afdb00ef07d6395"
+  }, 
+  {
+    "Changes:": [
+      "-                if self.location.name == 'start':\n", 
+      "+                if self.location.name == 'Start':\n", 
+      "-            print('Your score is {}.'.format(self.score)\n", 
+      "+            print('Your score is {}.'.format(self.score))\n"
+    ], 
+    "Message:": "fix stupid bug", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/disorientedperson/python-adventure-game/commit/68d75fda034b8b3372c6b304adffdd5ffe8807d2", 
+    "Commit Corrections:": "https://github.com/disorientedperson/python-adventure-game/commit/ab7901055bf721c3590f5656e02cbb2c09496287"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tif(interpolation_method = 1):   temp.set_attr_dict({'ctf_applied':0, 'npad':1})\n", 
+      "+\t\tif(interpolation_method == 1):   temp.set_attr_dict({'ctf_applied':0, 'npad':1})\n"
+    ], 
+    "Message:": "new way of doing tril padded", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cryoem/eman2/commit/73a150b0fc92339febd032d5bc13d1f58a70cdec", 
+    "Commit Corrections:": "https://github.com/cryoem/eman2/commit/05318e70a5a75a4bab5809e8f279b40fc7f65e20"
+  }, 
+  {
+    "Changes:": [
+      "-score = pickle.load(open('score_of_topics.pkl'),'rb')\n", 
+      "+score = pickle.load(open('score_of_topics.pkl','rb'))\n"
+    ], 
+    "Message:": "Update predict locations.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hmc-cs-nsuaysom/Math-REU-2016-UCLA-Social-Media-Data/commit/e5bb7094032b03c904ef4f4230741cd4b4c1c6e1", 
+    "Commit Corrections:": "https://github.com/hmc-cs-nsuaysom/Math-REU-2016-UCLA-Social-Media-Data/commit/8547ac9aa0d48fe4abe19b01100f7def70b12135"
+  }, 
+  {
+    "Changes:": [
+      "-class Template(object):\n", 
+      "+class Template():\n"
+    ], 
+    "Message:": "Trying to fix saving and loading", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Exodus111/Projects/commit/0cfba76a63234232ac4976ce61b348160fe7c9c7", 
+    "Commit Corrections:": "https://github.com/Exodus111/Projects/commit/9a258204f1458f3d1f88dcd2033271a180ceee09"
+  }, 
+  {
+    "Changes:": [
+      "-        yield ValidationError(\"%r has non-unique elements\" % (instance,))\n", 
+      "+        yield ValidationError(\"%r has non-unique elements\" % instance)\n"
+    ], 
+    "Message:": "merging from upstream", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/purukaushik/jsonschema/commit/b9cfbbaeef75569dc2607887e397b86ab0bf4727", 
+    "Commit Corrections:": "https://github.com/purukaushik/jsonschema/commit/b9e24a05132d1b3b71d01f7b4188c99e569e837a"
+  }, 
+  {
+    "Changes:": [
+      "-\tport = int(os.environ.get(\"PORT\", 5000))\n", 
+      "+    port = int(os.environ.get(\"PORT\", 5000))\n"
+    ], 
+    "Message:": "procfile update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fabians2898/lf-test/commit/e4a0798f59ecd8d54430f85a4690016ae012729a", 
+    "Commit Corrections:": "https://github.com/fabians2898/lf-test/commit/8f8be2323b34162c5216384b10fbf01dbd77f820"
+  }, 
+  {
+    "Changes:": [
+      "-    'molo.servicedirectory'\n", 
+      "+    'molo.servicedirectory',\n"
+    ], 
+    "Message:": "Add missing comma", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/praekelt/molo-tuneme/commit/7b8af3ec5278418a6cca67f7a2b449e450b76808", 
+    "Commit Corrections:": "https://github.com/praekelt/molo-tuneme/commit/a8b5c2d7bf1d4331d8557cda016670fa81b3b573"
+  }, 
+  {
+    "Changes:": [
+      "-            AttributeError(item)\n", 
+      "+            raise AttributeError(item)\n"
+    ], 
+    "Message:": "Raise attribute error when you try to access non model field.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ctxis/lather/commit/9653de0da6a61eb79830d712f3fc9ef3637323a6", 
+    "Commit Corrections:": "https://github.com/ctxis/lather/commit/fa227ad7e384f1d6af176bf0c529e8144e10df7c"
+  }, 
+  {
+    "Changes:": [
+      "-            if k.startswith(name):\n", 
+      "+            if k.startswith('%s.' % name):\n"
+    ], 
+    "Message:": "Bugfix for masks in meta['sets']['data file']['items']", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Quantipy/quantipy/commit/051d6bbbec6a128f54bfbd58309bb33f4e38c071", 
+    "Commit Corrections:": "https://github.com/Quantipy/quantipy/commit/523c02c6282e6099bbb6064a26d1a292f0974fa9"
+  }, 
+  {
+    "Changes:": [
+      "-                        msg += '```'\n", 
+      "+                    msg += '```'\n"
+    ], 
+    "Message:": "Comments and fixed for osu! plugin", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Ma-wa-re/akoBot/commit/95f9e96cd0d8000d26efa16525a346dfd4d1cb0a", 
+    "Commit Corrections:": "https://github.com/Ma-wa-re/akoBot/commit/7777a4a0229e1dfe5911f004684006c846d65b32"
+  }, 
+  {
+    "Changes:": [
+      "-                    featurevector = get_featurevector(training_data_directory + directory + '/' + file)\n", 
+      "+                    featurevector = get_feature_vector(training_data_directory + directory + '/' + file)\n"
+    ], 
+    "Message:": "Correcting function naming in get_training_data", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/joanneljhill/image_classifier/commit/2642d6deeae0f3952b35bf1a4d7d428df8acc8b1", 
+    "Commit Corrections:": "https://github.com/joanneljhill/image_classifier/commit/7fec04576e01e4a3178269d1bff9bb888a9bbfe6"
+  }, 
+  {
+    "Changes:": [
+      "-                         cache_timeout=None, overwrite_cache=False,):\n", 
+      "+                         cache_timeout=None, overwrite_cache=False):\n"
+    ], 
+    "Message:": "Remove trailing comma", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dimagi/commcare-hq/commit/bbb5ea4ca2b069c890f49309b03e10a28970b9fa", 
+    "Commit Corrections:": "https://github.com/dimagi/commcare-hq/commit/71c392d2cdab913af05ce01b5a0e09f06f5572aa"
+  }, 
+  {
+    "Changes:": [
+      "-        if len(args) >= 1 and args[1] == '.':\n", 
+      "+        if len(args) >= 1 and args[0] == '.':\n"
+    ], 
+    "Message:": "Wrong index", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rocky/python2-trepan/commit/6d328451678024c8af139aa3b7a55328509ddd83", 
+    "Commit Corrections:": "https://github.com/rocky/python2-trepan/commit/3d7dd877c31ac071b678fb8e51fc9c9cd7507cd0"
+  }, 
+  {
+    "Changes:": [
+      "-            last_exception = Exception(\"Reached max-attempts (%s). Giving up calling %s %s\" % (self.max_attempts, self.method, self.url)\n", 
+      "+            last_exception = Exception(\"Reached max-attempts (%s). Giving up calling %s %s\" % (self.max_attempts, self.method, self.url))\n"
+    ], 
+    "Message:": "Typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/erwan-lemonnier/klue-client-server/commit/f65a4568f23a276622833ddcda6a6e6b153f7d68", 
+    "Commit Corrections:": "https://github.com/erwan-lemonnier/klue-client-server/commit/44284ec3dbe8bc206b5b06bed00269d3bd3c70eb"
   }
 ]
