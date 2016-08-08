@@ -159,13 +159,62 @@
       "-app.run()\n", 
       "+\tapp.run()"
     ], 
+    "Message:": "removal of indentation bug", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
     "Commit Mistakes:": "https://github.com/KVasya/BoardTubbiesConstellations-/commit/6effa5efd9b77b522c2cf8d8aa5fad8dea3655b0", 
     "Commit Corrections:": "https://github.com/KVasya/BoardTubbiesConstellations-/commit/6583dc4b393e5f468eba7e3163dcc0c938910473", 
     "Tags:": "indentation", 
-    "Keyword:": "length", 
     "Mistake:": "forgot to indent after if statement", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-    return 0\n", 
+      "+        return 0\n"
+    ], 
+    "Message:": "Update CandidatePairGenerator.py", 
     "Deletions:": 1, 
-    "Additions": 1, 
-    "Message:": "removal of indentation bug"
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/varun-tandon/MarkerReader/commit/10337508a6b66f71a19315ff6c98886e2c3bdf19", 
+    "Commit Corrections:": "https://github.com/varun-tandon/MarkerReader/commit/38d39fb6f321dcd72dd37f422b3a883f3d385ea4", 
+    "Tags:": "indentation", 
+    "Mistake:": "frogot to indent when returning from an if statement", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "1", 
+    "Changes:": [
+      "-    if getattr(self, 'skip_words', None) is None:\n", 
+      "+        if getattr(self, 'skip_words', None) is None:\n"
+    ], 
+    "Message:": "Italian lang dependency", 
+    "Deletions:": 1, 
+    "Keyword:": "length", 
+    "Commit Mistakes:": "https://github.com/INGEOTEC/b4msa/commit/eeabe1594c3d9a4193d6fcdedeb5f31c91627d7c", 
+    "Commit Corrections:": "https://github.com/INGEOTEC/b4msa/commit/0d5aca0baf035567eb2791ffe5e9917034b1015a", 
+    "Tags:": "indentation", 
+    "Mistake:": "forgot to indent when defining ", 
+    "Additions": 1
+  }, 
+  {
+    "Length:": "2", 
+    "Changes:": [
+      "-                    faield_to_process.append(output_file)\n", 
+      "+                    failed_to_process.append(output_file)\n", 
+      "+                    e = sys.exc_info()[0]\n", 
+      "+                    print(\"%s\" % e, file=sys.stderr)\n", 
+      "-    for file in faield_to_process:\n", 
+      "+    for file in failed_to_process:\n"
+    ], 
+    "Commit Mistakes:": "https://github.com/kinow/pccora/commit/6cf4029517efa796b082fad4530f7fef0830d78a", 
+    "Commit Corrections:": "https://github.com/kinow/pccora/commit/e0fe4a55d5e3485cd35fc2e1223823f7c92c3ab1", 
+    "Tags:": "misspell", 
+    "Keyword:": "typo", 
+    "Mistake:": "misspelled dictionary name", 
+    "Deletions:": 2, 
+    "Additions": 4, 
+    "Message:": "Fix typo in var name and print exception in stderr"
   }
 ]

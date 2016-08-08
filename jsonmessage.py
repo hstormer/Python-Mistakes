@@ -42,7 +42,7 @@ cursor = db.commits.find()
 jsonfile = {}
 entries = []
 counter = 0
-save_location =  252576
+save_location =  575286
 location = 0
 name = 'Hannah'
 message = None
@@ -132,12 +132,12 @@ for document in cursor:
 							length = raw_input("Type the length of changes: ")
 							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Mistake:" : mistake, "Tags:" : tag, "Length:": length, "Keyword:" : i, "Additions": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
 							entries.append(data)
-							with open('yes.json') as f:
+							with open('ExtraYes.json') as f:
 								entries = json.load(f)
 							txt.seek(0)
 							txt.truncate()
 							entries.append(data)
-							with open('yes.json', 'a+') as outfile:
+							with open('ExtraYes.json', 'a+') as outfile:
 								json.dump(entries, outfile, indent = 2)
 							print "\n============================================"
 							print "Finding another file just for %s..." % name
