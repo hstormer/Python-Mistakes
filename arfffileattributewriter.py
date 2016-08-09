@@ -1,5 +1,5 @@
 #this file will write the commit messages, additions, deletions, and length to the mistakes.arff file
-attributes = ["\n@relation python_mistakes", "\n", "\n@attribute commit_message string", "\n@attribute additions numeric", "\n@attribute deletions numeric"]
+attributes = ["\n@relation python_mistakes", "\n", "\n@attribute commit_message string", "\n@attribute additions numeric", "\n@attribute deletions numeric", "\n@attribute changes numeric"]
 
 from sys import argv
 script, filename, arff_file = argv
@@ -75,7 +75,9 @@ for i in filenames:
 		for i in range(127):
 			chardiff[i] = abs(delchar[i] - addchar[i])
 		print chardiff
-
+		c = 0
+		for i in chardiff:
+			c += i
 		m = thing.get("Message:")
 		m = m.encode('ascii', errors='ignore')
 		for letter in m:
@@ -88,7 +90,7 @@ for i in filenames:
 		a = thing.get("Additions:")
 		d = thing.get("Deletions:")
 		text = "\n"
-		stuff = "'%s', %s, %s" % (m, a, d)
+		stuff = "'%s', %s, %s, %s" % (m, a, d, c)
 		text = "".join([text, stuff])
 		for i in chardiff:
 			text = ", ".join([text, str(i)])
