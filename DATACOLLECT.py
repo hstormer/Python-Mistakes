@@ -1,4 +1,5 @@
-# This initiates the thing that connects to the server thing that does a thing
+# Use this to collect data to add to the arff file. Note that pymongo must be installed and there has to be a mongo database for it to look through.
+
 import pymongo
 import json
 from pymongo import MongoClient

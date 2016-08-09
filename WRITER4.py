@@ -1,3 +1,5 @@
+# Use this to write data to an arff file. This will overwrite the current contents of the arff file and modify the files being written to the arff file.
+
 import json
 import codecs
 from sys import argv
