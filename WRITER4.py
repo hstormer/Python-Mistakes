@@ -1,4 +1,4 @@
-# Use this to write data to an arff file. This will overwrite the current contents of the arff file and modify the files being written to the arff file.
+# Use this to write data to an arff file. This will overwrite the current contents of the arff file and modify the files being written to the arff file. BEST FILE MADE YET :D
 
 import json
 import codecs
