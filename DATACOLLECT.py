@@ -1,4 +1,4 @@
-# Use this to collect data for yes and no entries. Note that pymongo must be installed, and there must be mongo data from GitHub.
+# Use this to collect data for yes and no entries. Note that pymongo must be installed, and there must be mongo data from GitHub. (basically a fancier version of jsonmessage)
 
 import pymongo
 import json
