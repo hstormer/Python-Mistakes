@@ -137,8 +137,7 @@ for document in cursor:
 							CommitMistakes = str(parents)
 							CommitCorrections = str(link)
 							patch = housecleaning(patch)
-							length = raw_input("Type the length of changes: ")
-							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Length:": length, "Additions": additions, "Deletions:": deletions, "Changes:" : patch}
+							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Additions": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
 							entries.append(data)
 							with open(filename) as f:
 								entries = json.load(f)
