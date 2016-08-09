@@ -1,5 +1,4 @@
-# Use this to collect data to add to the arff file. Note that pymongo must be installed and there has to be a mongo database for it to look through.
-
+# This initiates the thing that connects to the server thing that does a thing
 import pymongo
 import json
 from pymongo import MongoClient
@@ -48,7 +47,7 @@ print "I will write the 'yes' entries to the %s file. \nI will write the 'no' en
 
 save_location = raw_input("Do you have a save location? y/n  ")
 if save_location == 'y':
-	save_location = raw_input("Please enter your save location:  ")
+	save_location = int(raw_input("Please enter your save location:  "))
 	print "Starting from save location %d..." % save_location
 else:
 	save_location = 0
