@@ -1,4 +1,6 @@
-#this file will write the commit messages, additions, deletions, and length to the mistakes.arff file
+#this file will write the commit messages, additions, deletions, and length to the mistakes.arff file. Also a looooot of attributes (this is the first version using ascii)
+
+
 attributes = ["\n@relation python_mistakes", "\n", "\n@attribute commit_message string", "\n@attribute additions numeric", "\n@attribute deletions numeric", "\n@attribute changes numeric"]
 
 from sys import argv

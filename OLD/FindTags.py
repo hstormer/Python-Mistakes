@@ -1,3 +1,5 @@
+#This file is incomplete as it got under alien invasion. It was supposed to print out the tag names from a json file and keep a count of how many of each type of tags are present. 
+
 import pymongo
 import json
 from random import randint

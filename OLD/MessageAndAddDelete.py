@@ -1,5 +1,7 @@
 import pymongo
 import json
+#This file adds any missing Commit Message, Additions, or/and Deletions to a json file. 
+
 from random import randint
 from pymongo import MongoClient
 from sys import argv

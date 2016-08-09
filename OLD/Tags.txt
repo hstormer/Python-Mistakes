@@ -1,3 +1,5 @@
+#List of Tags that we can use when adding a "yes" entry
+
 indentation = An error in indentation.
 self = Forgot to add a 'self' before a variable in a function
 misspellvariable = misspelling of a variable

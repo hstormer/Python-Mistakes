@@ -1,4 +1,4 @@
-% this is the file that will classifly commits as mistake of not a mistake
+% this is the file that will classifly commits as mistake or not a mistake using commit message, additions, and deletions
 
 @relation python_mistakes
 
