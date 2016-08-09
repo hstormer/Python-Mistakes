@@ -1,3 +1,5 @@
+#This file tests fro any repeated entries in a json file and I think also deletes them
+
 import json
 ofile = raw_input("What file do you want to check for duplicates?")
 

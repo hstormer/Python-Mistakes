@@ -1,3 +1,5 @@
+#Add any missing colons to a json file. The colons are required to read the file properly and to make sure all the Key names are same. 
+
 from sys import argv
 import json
 

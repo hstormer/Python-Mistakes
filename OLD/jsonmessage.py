@@ -1,4 +1,9 @@
 # This initiates the thing that connects to the server thing that does a thing
+# Or in other words, run the Git entries and allows the user to add specific entries to either a yes or no json file. Run this file file with a yes and no json file. 
+#For any entries you manually classify as "yes", it will record the Commit Message, Commit Corrections, Keyword found, Lines Changed, no. of Additions and Deletions, and ask you for the Length of Changes and to place a Tag to the commit entry. 
+#For any entries you classify as no, you will be asked why you classified it so.
+#Press any other key to skip an entry
+
 import pymongo
 import json
 from pymongo import MongoClient

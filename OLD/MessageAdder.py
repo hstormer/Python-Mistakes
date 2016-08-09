@@ -1,3 +1,5 @@
+#Adds any missing Commit Message to the json file. (I'm not sure if it really adds them or just prints them on the screen!)
+
 import pymongo
 import json
 from random import randint

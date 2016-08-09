@@ -1,3 +1,5 @@
+#modifies any entries in a json file (e.g if you wanna add colons to "Mistake" to make it "Mistake:")
+
 import json
 
 ofile = raw_input("Which file do you want to modify? ")

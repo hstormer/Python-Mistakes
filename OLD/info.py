@@ -1,3 +1,5 @@
+#VERY old file that added our initial manual entries to a json file
+
 from sys import argv
 
 # Run the program with the name of the file to open after the script name (in this case test.txt)

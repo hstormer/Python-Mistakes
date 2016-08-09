@@ -1,3 +1,5 @@
+#Adds Additions, Deletions and Length entries to a JSON file if any are missing 
+
 import json
 import pymongo
 from random import randint

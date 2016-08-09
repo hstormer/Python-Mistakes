@@ -1,3 +1,5 @@
+#Test Data for Weka that uses commit messages, additions, deletions, and no. of changes to classify as yes or no
+
 @relation python_mistakes
 
 @attribute commit_message string
