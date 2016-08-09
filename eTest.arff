@@ -1,0 +1,150 @@
+@relation python_mistakes
+
+@attribute commit_message string
+@attribute additions numeric
+@attribute deletions numeric
+@attribute changes numeric
+@attribute attribute_0 numeric
+@attribute attribute_1 numeric
+@attribute attribute_2 numeric
+@attribute attribute_3 numeric
+@attribute attribute_4 numeric
+@attribute attribute_5 numeric
+@attribute attribute_6 numeric
+@attribute attribute_7 numeric
+@attribute attribute_8 numeric
+@attribute attribute_9 numeric
+@attribute attribute_10 numeric
+@attribute attribute_11 numeric
+@attribute attribute_12 numeric
+@attribute attribute_13 numeric
+@attribute attribute_14 numeric
+@attribute attribute_15 numeric
+@attribute attribute_16 numeric
+@attribute attribute_17 numeric
+@attribute attribute_18 numeric
+@attribute attribute_19 numeric
+@attribute attribute_20 numeric
+@attribute attribute_21 numeric
+@attribute attribute_22 numeric
+@attribute attribute_23 numeric
+@attribute attribute_24 numeric
+@attribute attribute_25 numeric
+@attribute attribute_26 numeric
+@attribute attribute_27 numeric
+@attribute attribute_28 numeric
+@attribute attribute_29 numeric
+@attribute attribute_30 numeric
+@attribute attribute_31 numeric
+@attribute attribute_32 numeric
+@attribute attribute_33 numeric
+@attribute attribute_34 numeric
+@attribute attribute_35 numeric
+@attribute attribute_36 numeric
+@attribute attribute_37 numeric
+@attribute attribute_38 numeric
+@attribute attribute_39 numeric
+@attribute attribute_40 numeric
+@attribute attribute_41 numeric
+@attribute attribute_42 numeric
+@attribute attribute_43 numeric
+@attribute attribute_44 numeric
+@attribute attribute_45 numeric
+@attribute attribute_46 numeric
+@attribute attribute_47 numeric
+@attribute attribute_48 numeric
+@attribute attribute_49 numeric
+@attribute attribute_50 numeric
+@attribute attribute_51 numeric
+@attribute attribute_52 numeric
+@attribute attribute_53 numeric
+@attribute attribute_54 numeric
+@attribute attribute_55 numeric
+@attribute attribute_56 numeric
+@attribute attribute_57 numeric
+@attribute attribute_58 numeric
+@attribute attribute_59 numeric
+@attribute attribute_60 numeric
+@attribute attribute_61 numeric
+@attribute attribute_62 numeric
+@attribute attribute_63 numeric
+@attribute attribute_64 numeric
+@attribute attribute_65 numeric
+@attribute attribute_66 numeric
+@attribute attribute_67 numeric
+@attribute attribute_68 numeric
+@attribute attribute_69 numeric
+@attribute attribute_70 numeric
+@attribute attribute_71 numeric
+@attribute attribute_72 numeric
+@attribute attribute_73 numeric
+@attribute attribute_74 numeric
+@attribute attribute_75 numeric
+@attribute attribute_76 numeric
+@attribute attribute_77 numeric
+@attribute attribute_78 numeric
+@attribute attribute_79 numeric
+@attribute attribute_80 numeric
+@attribute attribute_81 numeric
+@attribute attribute_82 numeric
+@attribute attribute_83 numeric
+@attribute attribute_84 numeric
+@attribute attribute_85 numeric
+@attribute attribute_86 numeric
+@attribute attribute_87 numeric
+@attribute attribute_88 numeric
+@attribute attribute_89 numeric
+@attribute attribute_90 numeric
+@attribute attribute_91 numeric
+@attribute attribute_92 numeric
+@attribute attribute_93 numeric
+@attribute attribute_94 numeric
+@attribute attribute_95 numeric
+@attribute attribute_96 numeric
+@attribute attribute_97 numeric
+@attribute attribute_98 numeric
+@attribute attribute_99 numeric
+@attribute attribute_100 numeric
+@attribute attribute_101 numeric
+@attribute attribute_102 numeric
+@attribute attribute_103 numeric
+@attribute attribute_104 numeric
+@attribute attribute_105 numeric
+@attribute attribute_106 numeric
+@attribute attribute_107 numeric
+@attribute attribute_108 numeric
+@attribute attribute_109 numeric
+@attribute attribute_110 numeric
+@attribute attribute_111 numeric
+@attribute attribute_112 numeric
+@attribute attribute_113 numeric
+@attribute attribute_114 numeric
+@attribute attribute_115 numeric
+@attribute attribute_116 numeric
+@attribute attribute_117 numeric
+@attribute attribute_118 numeric
+@attribute attribute_119 numeric
+@attribute attribute_120 numeric
+@attribute attribute_121 numeric
+@attribute attribute_122 numeric
+@attribute attribute_123 numeric
+@attribute attribute_124 numeric
+@attribute attribute_125 numeric
+@attribute attribute_126 numeric
+@attribute attribute_127 numeric
+@attribute class {yes, no}
+
+@data
+
+'Add files via upload', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, no
+'Update test4py', 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, no
+'Fix wineserver call', 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, yes
+'bug fix update configure V82', 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, yes
+'Merge pull request 888 from dmickmastersuitepy must pass at least once through the backtrack loop', 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, no
+'Adjust geoip2 db', 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, no
+'Update basicpy 1049  reducestock ', 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, no
+'Release 02', 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, no
+'Fixed another typo', 4, 1, 176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78, 0, 6, 0, 0, 0, 0, 0, 5, 5, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 1, 2, 0, 3, 0, 5, 3, 0, 1, 0, 3, 12, 9, 0, 10, 3, 7, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, yes
+'modified   datamanagerpymodified   paramspy', 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, yes
+'BUG FLASK Restful API to server JSON not rendering', 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, yes
+'modidy', 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, yes
