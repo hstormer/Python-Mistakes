@@ -55,6 +55,12 @@ Supplied Test for 12: 58.33%
 (Add another Bagging with RandomTree for even better results)
 (Add also add a Bagging with PART section)
 
+*Used Vote combination of PART, Bagging(with PART), and Bagging(with RandomForest):
+Cross Validation: 80.05%
+50-50 Percetage Split: 72.63%
 
+*Used Vote combination of PART, Bagging(with PART), Bagging(with RandomForest), and RandomCommittee:
+Cross Validation: 79.53%
+50-50 Percetage Split: 75.26%
 
 
