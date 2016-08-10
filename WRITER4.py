@@ -1,9 +1,8 @@
-# Use this to write data to an arff file. This will overwrite the current contents of the arff file and modify the files being written to the arff file.
-
 import json
 import codecs
 from sys import argv
 script, arff_file = argv
+import unicodedata
 
 answer = raw_input("\nWARNING: \nTHIS WILL OVERWRITE THE %s FILE! \nPress any key to continue..." % arff_file)
 txt2 = open(arff_file, 'w')
@@ -13,8 +12,18 @@ print "\n%s file cleared..." % arff_file
 
 # Add the attributes so it is ready for the data to be entered.
 attributes = ["\n@relation python_mistakes", "\n", "\n@attribute commit_message string", "\n@attribute additions numeric", "\n@attribute deletions numeric", "\n@attribute changes numeric"]
-for i in range(128):
-	attributes.append("\n@attribute attribute_%d numeric" % i)
+for i in range(127):
+	if i == 9:	
+		attributes.append("\n@attribute attribute_TAB numeric")
+	elif i == 10:
+		attributes.append("\n@attribute attribute_NEWLINE numeric")
+	elif i == 13:
+		attributes.append("\n@attribute attribute_CARRIAGE_RETURN numeric")
+	elif i > 32:
+		name = unicodedata.name(unicode(chr(i)))
+		name = name.replace(" ", "_")
+		attributes.append("\n@attribute attribute_%s numeric" % name)
+
 attributes.append("\n@attribute class {yes, no}")
 attributes.append("\n")
 attributes.append("\n@data")
@@ -226,8 +235,13 @@ for i in filenames:
 			text = "\n"
 			stuff = "'%s', %s, %s, %s" % (m, a, d, c)
 			text = "".join([text, stuff])
+			counter = 0
 			for i in chardiff:
-				text = ", ".join([text, str(i)])
+				if (counter == 9 or counter == 10 or counter == 13 or counter > 32) and counter != 127:
+					text = ", ".join([text, str(i)])
+				else:
+					print counter
+				counter += 1
 			text = ", ".join([text, chicken])
 			txt2.write(text)
 			txt.close()
