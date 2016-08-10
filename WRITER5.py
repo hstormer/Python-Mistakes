@@ -227,11 +227,8 @@ for i in filenames:
 				c += i
 			letterschanged = 0
 			for i in chardiff:
-				if i != 0:
-					print "i = %r" % i
 				if (chardiff.index(i) > 64 and chardiff.index(i) < 91) or (chardiff.index(i) > 96 and chardiff.index(i) < 123):
 					letterschanged += 1
-			print letterschanged
 			m = thing.get("Message:")
 			m = m.encode('ascii', errors='ignore')
 			for letter in m:
