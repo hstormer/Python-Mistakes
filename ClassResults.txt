@@ -8,6 +8,14 @@ Zero R is dumb
 ~Random Commitee under meta is also not bad
 ~Random SupSpace works too
 ~J48 remains the best
+~AdaBoost might work and you can add one more classifier to it
+
+
+~LogisticR under functions: 71.13% 
+~SGD under functions: 74.80% 
+~SMO under functions: 75.07% 
+~AttributeSelectedClassifier under meta: 76.12% (and you can add another classifier to it)
+~Baggins under meta: 77.69% (and you can add another classifier to it)
 
 
 
