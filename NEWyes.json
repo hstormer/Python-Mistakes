@@ -1278,5 +1278,158 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/quantopian/zipline/commit/640f918d16463e6a3ed1cde7b54152e1c341716c", 
     "Commit Corrections:": "https://github.com/quantopian/zipline/commit/5d5588c2461d766bfe8ec2f539eefb8cd513d90e"
+  },
+  {
+    "Changes:": [
+      "-from bookcrossing.views.error_handler import (\n", 
+      "+from bookcrossing.views.error_handlers import (\n"
+    ], 
+    "Message:": "little fex", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/DmytroKaminskiy/bookcrossing/commit/a0228676a908bb0f954e76a51e6f7eb49d51d0f9", 
+    "Commit Corrections:": "https://github.com/DmytroKaminskiy/bookcrossing/commit/98ed9db0a0bef07774ef002f7d42905b3088c22b", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-                    email = attachment['email']\n", 
+      "-                    hashed_password = attachment['hashed_password']\n", 
+      "-                    is_admin = attachment['is_admin']\n", 
+      "+                    email = user['email']\n", 
+      "+                    hashed_password = user['hashed_password']\n", 
+      "+                    is_admin = user['is_admin']\n"
+    ], 
+    "Message:": "Use the correct variable.", 
+    "Deletions:": 3, 
+    "Commit Mistakes:": "https://github.com/izrik/tudor/commit/1df7489be0401ccb684180f33e93becbc96935cb", 
+    "Commit Corrections:": "https://github.com/izrik/tudor/commit/1267537a4ead8a443b42a7c2b4a35eb8288cd82e", 
+    "Additions": 3
+  }, 
+  {
+    "Changes:": [
+      "-    schame_name = PREREG_CAMPAIGNS.get(campaign) or PREREG_CAMPAIGNS.get('prereg')\n", 
+      "+    schema_name = PREREG_CAMPAIGNS.get(campaign) or PREREG_CAMPAIGNS.get('prereg')\n", 
+      "-        Q('name', 'eq', schame_name) &\n", 
+      "+        Q('name', 'eq', schema_name) &\n"
+    ], 
+    "Message:": "Fix typo: schame --> schema", 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/mfraezz/osf.io/commit/4f5c9d977a8b372c07b561eb7297789dcf69146b", 
+    "Commit Corrections:": "https://github.com/mfraezz/osf.io/commit/0e128710fe40a2af5718fc3a49bd965557794ff8", 
+    "Additions": 2
+  }, 
+  {
+    "Changes:": [
+      "-                results_client_syn = conn.execute(client_syn).fetchall\n", 
+      "+                results_client_syn = conn.execute(client_syn).fetchall()\n"
+    ], 
+    "Message:": "debugging", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lydia-rodriguez/mail-server/commit/7313268894abf280eda935772b36114e17b53a3b", 
+    "Commit Corrections:": "https://github.com/lydia-rodriguez/mail-server/commit/e8ddd79e8e93fbbabd444e01e2d370f7e87bccb4", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            except UnicodeDecodeError, OSError, FileNotFoundError:\n", 
+      "+            except (UnicodeDecodeError, OSError, FileNotFoundError):\n"
+    ], 
+    "Message:": "silly mistake fixed now", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/willzfarmer/black-arrow/commit/976049fa6dfc1ab4c4f24a76795e6dca30a54a82", 
+    "Commit Corrections:": "https://github.com/willzfarmer/black-arrow/commit/dbf52b30d09513a926707aee7c75e96a25e92e68", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-      if not has_attr(params, attribute):\n", 
+      "+      if not hasattr(params, attribute):\n"
+    ], 
+    "Message:": "AMBARI-17485. RU: 'Write Client configs' - step failed (ncole)", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/apache/ambari/commit/e71b06383773993352b1222f2ec61af4e2dec987", 
+    "Commit Corrections:": "https://github.com/apache/ambari/commit/1f73cbe50c88195e1cadce2250ef02e22653f3ec", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-            elif code = 'S':\n", 
+      "+            elif code == 'S':\n"
+    ], 
+    "Message:": "compare, not assign", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/uw-it-aca/canvas-event-consumer/commit/58d3e8f23ec3747bbdc1ceeb91124dbae9853516", 
+    "Commit Corrections:": "https://github.com/uw-it-aca/canvas-event-consumer/commit/8f0ea83a325aa6959c0fa3322e51836d74705375", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-\t\tfor k nwksMap[current_root].keys():\n", 
+      "+\t\tfor k in nwksMap[current_root].keys():\n"
+    ], 
+    "Message:": "Typo", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SynerClust/SynerClust/commit/d2877328b9dfe1c6b7d55f95830b9a3d2cfb9ef0", 
+    "Commit Corrections:": "https://github.com/SynerClust/SynerClust/commit/2706031088715bdeb8ad68a04e4ef2f06d8391ed", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-from dmoj.errors import InternalError\n", 
+      "+from dmoj.error import InternalError\n"
+    ], 
+    "Message:": "@Xyene it's dmoj.error", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/DMOJ/judge/commit/4cb31211027c9a59687cef9304c8838431dc1fae", 
+    "Commit Corrections:": "https://github.com/DMOJ/judge/commit/be6f1b7c98bb194257574bfa11894b232a9bdf97", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        if not e.status_code != 404:\n", 
+      "+        if e.status_code != 404:\n"
+    ], 
+    "Message:": "CFY-5642 `node-instances list`: report errors correctly\n\nErrors other than 404 are no longer hidden", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/codilime/cloudify-cli/commit/a5b396fe2161135e0019d5fe73397d2da5d6bbef", 
+    "Commit Corrections:": "https://github.com/codilime/cloudify-cli/commit/9ac7bbbb24d763b14ffe659aab119f5bf8e96e61", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        existingClassNames = set(self_.getClasses().keys())\n", 
+      "+        existingClassNames = set(self._getClasses().keys())\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/googlei18n/ufo2ft/commit/9757f20ceb21c06dec5fdfddc361ea1cc30499a4", 
+    "Commit Corrections:": "https://github.com/googlei18n/ufo2ft/commit/05603fc9adf93dd3a421641f1c2b7b26b6dd683b", 
+    "Additions": 1
+  }, 
+  {
+    "Changes:": [
+      "-        x = r/self.rs\n", 
+      "+        x = r/self.rs        \n", 
+      "-        return 4*np.pi/3 * self.rhos * np.where(r < rs, r**3, self.rs**3)\n", 
+      "+        return 4*np.pi/3 * self.rhos * np.where(r < self.rs, r**3, self.rs**3)\n", 
+      "-        x = r/self.rs\n", 
+      "+        x = r/self.rs        \n"
+    ], 
+    "Message:": "Fix typo in NFWProfile._mass", 
+    "Deletions:": 3, 
+    "Commit Mistakes:": "https://github.com/kadrlica/dmsky/commit/3e2a8e26b3dc2ec906c7eff460e6c049418e46c1", 
+    "Commit Corrections:": "https://github.com/kadrlica/dmsky/commit/edb261968937f41dae315822a1f86246be8ca5f1", 
+    "Additions": 3
+  }, 
+  {
+    "Changes:": [
+      "-        ROBERT_EVT: 'emery,\n", 
+      "+        ROBERT_EVT: 'emery',\n"
+    ], 
+    "Message:": "Fix typo in ROBERT_EVT declaration", 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pebble/libpebble2/commit/fc63941e553bce972d8cb8333543319cfa4d6b5a", 
+    "Commit Corrections:": "https://github.com/pebble/libpebble2/commit/6a2c089317286096b4d39c270b6b9534acfdf62f", 
+    "Additions": 1
   }
 ]
