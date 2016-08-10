@@ -1,0 +1,60 @@
+#Entries of what I think about certain classifiers and how they are doing. I think we'll have to use filtered classifier for all anyways. 
+
+
+Zero R is dumb
+~Bagging is not the best but the accuracy for yes and no is about equal
+~VotedPerceptron is not very accurate (about 67%) but much better at clssifying for no's.
+			nvm, it's terrible when combined with others
+~Random Commitee under meta is also not bad
+~Random SupSpace works too
+~J48 remains the best
+
+
+
+
+
+
+*Used Vote under meta and a combination of Random Forest and REP Tree:
+Cross Validation: 77.39%
+50-50 Percetage Split: 70.93%
+Supplied Test for 12: 66.67%
+
+*Used PART under rules:
+Cross Validation: 75.07%
+50-50 Percetage Split: 74.42%
+Supplied Test for 12: 75%
+(Slightly better at classifying for no's)
+
+*Used Vote and a combination of Random Forest and PART:
+Cross Validation: 75.36%
+50-50 Percetage Split: 75.58%
+Supplied Test for 12: 75%
+
+*Used JRip under rules:
+Cross Validation: 76.52%
+50-50 Percetage Split: 75.58%
+Supplied Test for 12: 66.67%
+
+*Used Vote combination of JRip, Bagging, RandomForest, PART, and VotedPerceptron:
+Cross Validation: 77.97%
+50-50 Percetage Split: 75%
+Supplied Test for 12: 58.33%
+(Used Majority Voting)
+
+*Used Vote combination of RandomForest, PART, and Bagging(with J48):
+Cross Validation: 79.42%
+50-50 Percetage Split: 73.26%
+Supplied Test for 12: 75%
+(Used Majority Voting)
+
+*Used Vote combination of RandomForest, PART, and Bagging(with RandomForest):
+Cross Validation: 80.58%
+50-50 Percetage Split: 76.16%
+Supplied Test for 12: 58.33%
+(Used Majority Voting)
+(Add another Bagging with RandomTree for even better results)
+(Add also add a Bagging with PART section)
+
+
+
+
