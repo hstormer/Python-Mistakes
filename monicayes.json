@@ -369,7 +369,7 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/DOOMinikThunder/NNPraktikum/commit/35f7a9780363af7ff1ff5e51eda545b287648f30", 
     "Commit Corrections:": "https://github.com/DOOMinikThunder/NNPraktikum/commit/a9b7d0a51b9680d19850d74a0f2745fbc6b173bc"
-  },
+  }, 
   {
     "Changes:": [
       "-def __name__=='__main__':\n", 
