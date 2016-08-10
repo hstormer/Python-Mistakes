@@ -1,0 +1,253 @@
+[
+  {
+    "Changes:": [
+      "-        wineserver = self.get_executable + 'server'\n", 
+      "+        wineserver = self.get_executable() + 'server'\n"
+    ], 
+    "Message:": "Fix wineserver call", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lutris/lutris/commit/9f8195858bfb6104b47f05c0770b9b0650ac353b", 
+    "Commit Corrections:": "https://github.com/lutris/lutris/commit/5c61e571d306edf780c538547abf7c5deec20cea"
+  }, 
+  {
+    "Changes:": [
+      "-def __name__=='__main__':\n", 
+      "+if __name__=='__main__':\n"
+    ], 
+    "Message:": "fixed a bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cdingding/Wecare/commit/a5e53cdc854ab019af47bbc0162e068983375fdc", 
+    "Commit Corrections:": "https://github.com/cdingding/Wecare/commit/08964c19fe6fde6fe50944819596506dbf0c6589"
+  }, 
+  {
+    "Changes:": [
+      "-    for attempt in range(attempts)\n", 
+      "+    for attempt in range(attempts):\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davidgiesberg/mvsg/commit/424064884328505c09532785cc39c531fad1481b", 
+    "Commit Corrections:": "https://github.com/davidgiesberg/mvsg/commit/f336c6686fd8fa6daeebf9ee1f01301af8ed3a17"
+  }, 
+  {
+    "Changes:": [
+      "-                                        e.error_text == 'Service not configured'):\n", 
+      "+                                e.error_text == 'Service not configured'):\n"
+    ], 
+    "Message:": "Silly indent oversight.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/riverbed/steelscript-netprofiler/commit/ab6072cae021af338b88312cc3e231764d30ef38", 
+    "Commit Corrections:": "https://github.com/riverbed/steelscript-netprofiler/commit/56fe509ab60dfdd4a2339e81eaabc4d492d17e94"
+  }, 
+  {
+    "Changes:": [
+      "-import .forms as forms\n", 
+      "+from .forms import * as forms\n"
+    ], 
+    "Message:": "fix local import", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sheyabernstein/django-yearlessdate/commit/8d5d7d1e70b1847a4e77e24ef9668f44108cf272", 
+    "Commit Corrections:": "https://github.com/sheyabernstein/django-yearlessdate/commit/4527fd3abf631ba9dd6c13e73776d3e61b12e7c5"
+  }, 
+  {
+    "Changes:": [
+      "-db[\"options\"][\"group_title\"] = \"{0} GADM {1}\".format(gadm_country,\n", 
+      "+dp[\"options\"][\"group_title\"] = \"{0} GADM {1}\".format(gadm_country,\n"
+    ], 
+    "Message:": "Fix typo.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/itpir/asdf/commit/53d0637d6622e1e9ec8e8450f4ea1fdb30a27ec1", 
+    "Commit Corrections:": "https://github.com/itpir/asdf/commit/9e32cf6db7cfa104e56b28b54484475e38e96e02"
+  }, 
+  {
+    "Changes:": [
+      "-        resources += extra_resources\n", 
+      "+        resources.objects.extend(extra_resources.objects)\n", 
+      "+        resources.ind_dirs.extend(extra_resources.ind_dirs)\n"
+    ], 
+    "Message:": "Pass along the objects and fix indentation", 
+    "Additions:": 2, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/theotherjimmy/mbed/commit/a18e656712a0ee1e0ac8231ffe10268b1755a2e5", 
+    "Commit Corrections:": "https://github.com/theotherjimmy/mbed/commit/34a799b410fe2004a6c1e6f91f626da835aa7348"
+  }, 
+  {
+    "Changes:": [
+      "-                       clean=False, delete=True, append=False)\n", 
+      "+                       clean=False, delete=True, append=False):\n"
+    ], 
+    "Message:": "BUG: added missing colon", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/astrocatalogs/sne/commit/43f8749149f54feed03eb489debf05ef413a8a6a", 
+    "Commit Corrections:": "https://github.com/astrocatalogs/sne/commit/ee2e391484aece66985997ebeae8386b2b1d9477"
+  }, 
+  {
+    "Changes:": [
+      "-        if exit:\n", 
+      "+        if player_action == 'exit':\n"
+    ], 
+    "Message:": "fixed the stupid exit issue", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Spiderstryder/RogueLike-Python-Project/commit/f21ebd16f29b5c9c51ce5224d0610b7f23ec694a", 
+    "Commit Corrections:": "https://github.com/Spiderstryder/RogueLike-Python-Project/commit/c259c8da0625c451c2233076de098b330f71ace5"
+  }, 
+  {
+    "Changes:": [
+      "-        self.pkg_versi\n", 
+      "+        self.pkg_version\n"
+    ], 
+    "Message:": "fixed typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jaredhanson11/Nova/commit/cd87d0b7f115e1a58758a971afe142f29e9552b6", 
+    "Commit Corrections:": "https://github.com/jaredhanson11/Nova/commit/9b95ccb6fcb6e02ec1d61d4a2e0937e460d36d41"
+  }, 
+  {
+    "Changes:": [
+      "-        self.pkg_versi\n", 
+      "+        self.pkg_version = pkg_version\n"
+    ], 
+    "Message:": "fixed typo from merge", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jaredhanson11/Nova/commit/cd87d0b7f115e1a58758a971afe142f29e9552b6", 
+    "Commit Corrections:": "https://github.com/jaredhanson11/Nova/commit/a9e15911911e54b9a2cf56c48815848d083b379e"
+  }, 
+  {
+    "Changes:": [
+      "-    print 'In gdisconnect access token is %s', access_token\n", 
+      "+    print 'In gdisconnect access token is %s' % access_token\n"
+    ], 
+    "Message:": "BUG: fixed missing % in string substitution", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/moagm316/FSND_Item_Catalog/commit/30e1ae7c2b2010ef2d5968affa9fb7c54555d954", 
+    "Commit Corrections:": "https://github.com/moagm316/FSND_Item_Catalog/commit/7fae5001e75a3ba29496122ebbff22f8e7556b4c"
+  }, 
+  {
+    "Changes:": [
+      "-            assert credentials[0] = 'Token'\n", 
+      "+            assert credentials[0] == 'Token'\n"
+    ], 
+    "Message:": "Fixed typo.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/koepked/onramp/commit/efc32a43db4533b779a0679de16ba881458673ce", 
+    "Commit Corrections:": "https://github.com/koepked/onramp/commit/2edcfe371cda61681447183e608355c61a5c2ca8"
+  }, 
+  {
+    "Changes:": [
+      "-        version='2.0.dev14',\n", 
+      "+        version='2.0.dev15',\n", 
+      "-                'warcprox=warprox.main:main',\n", 
+      "+                'warcprox=warcprox.main:main',\n"
+    ], 
+    "Message:": "fix typo", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/internetarchive/warcprox/commit/320df0565ec92b732c7ea0b254c2e6592cc4ba8c", 
+    "Commit Corrections:": "https://github.com/internetarchive/warcprox/commit/04c21408d799335153124de2456c58621e6bcc9d"
+  }, 
+  {
+    "Changes:": [
+      "-        e.setAttribute('old-revision', str(p.old_revision))\n", 
+      "+      e.setAttribute('old-revision', str(p.old_revision))\n"
+    ], 
+    "Message:": "pylint: fix indentation in manifest_xml\n\nThis fixes pylint warning:\n\n************* Module manifest_xml\nW:975, 0: Bad indentation. Found 8 spaces, expected 6 (bad-indentation)\n\nChange-Id: I967212f9439430351836ebdc27e442d7b77476e2\nSigned-off-by: Stefan Beller <sbeller@google.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/GerritCodeReview/git-repo/commit/d64e8eee518714c0d164a0acae03886a3ff675c9", 
+    "Commit Corrections:": "https://github.com/GerritCodeReview/git-repo/commit/6685106306550c6bf2ad68887efc1d075a6f72eb"
+  }, 
+  {
+    "Changes:": [
+      "-from collections import namedtuple\n", 
+      "+import datetime\n", 
+      "-from django.template.loader_tags import (\n", 
+      "-    BlockNode, ExtendsNode, BlockContext, BLOCK_CONTEXT_KEY,\n", 
+      "-)\n", 
+      "+from django.template.loader_tags import BLOCK_CONTEXT_KEY, BlockContext, BlockNode, ExtendsNode\n", 
+      "-    local_blocks = dict(\n", 
+      "-        (block.name, block)\n", 
+      "+    local_blocks = {\n", 
+      "+        block.name: block\n", 
+      "-    )\n", 
+      "+    }\n", 
+      "-        raise template.TemplateSyntaxError(\n", 
+      "-            'widget name must be \"alias:block_name\" - %s' % widget\n", 
+      "-        )\n", 
+      "+        raise template.TemplateSyntaxError('widget name must be \"alias:block_name\" - %s' % widget)\n", 
+      "-            raise template.TemplateSyntaxError(\n", 
+      "-                'No widget library loaded for alias: %r' % alias\n", 
+      "-            )\n", 
+      "+            raise template.TemplateSyntaxError('No widget library loaded for alias: %r' % alias)\n", 
+      "-    raise template.TemplateSyntaxError(\n", 
+      "-        'No widget found for: %r' % (names,)\n", 
+      "-    )\n", 
+      "+    raise template.TemplateSyntaxError('No widget found for: %r' % (names,))\n", 
+      "-        raise template.TemplateSyntaxError(\n", 
+      "-            '%s requires one positional argument' % tag_name\n", 
+      "-        )\n", 
+      "+        raise template.TemplateSyntaxError('%s requires one positional argument' % tag_name)\n", 
+      "-        raise template.TemplateSyntaxError(\n", 
+      "-            '%s accepts only one positional argument' % tag_name\n", 
+      "-        )\n", 
+      "+        raise template.TemplateSyntaxError('%s accepts only one positional argument' % tag_name)\n", 
+      "-        raise template.TemplateSyntaxError(\n", 
+      "-            '%s requires one positional argument' % tag_name\n", 
+      "-        )\n", 
+      "+        raise template.TemplateSyntaxError('%s requires one positional argument' % tag_name)\n", 
+      "-        raise template.TemplateSyntaxError(\n", 
+      "-            '%s accepts only one positional argument' % tag_name\n", 
+      "-        )\n", 
+      "+        raise template.TemplateSyntaxError('%s accepts only one positional argument' % tag_name)\n", 
+      "-        for attr in ('css_classes', 'errors', 'field', 'form', 'help_text',\n", 
+      "-                     'html_name', 'id_for_label', 'label', 'name',):\n", 
+      "+        for attr in (\n", 
+      "+            'css_classes', 'errors', 'field', 'form', 'help_text', 'html_name', 'id_for_label', 'label', 'name',\n", 
+      "+        ):\n", 
+      "+    def initial(self):\n", 
+      "+        data = self.form_field.form.initial.get(self.form_field.name, self.form_field.field.initial)\n", 
+      "+        if callable(data):\n", 
+      "+            data = data()\n", 
+      "+            # If this is an auto-generated default date, nix the\n", 
+      "+            # microseconds for standardized handling. See #22502.\n", 
+      "+            if (\n", 
+      "+                isinstance(data, (datetime.datetime, datetime.time)) and\n", 
+      "+                not self.field.widget.supports_microseconds\n", 
+      "+            ):\n", 
+      "+                data = data.replace(microsecond=0)\n", 
+      "+        return self.form_field.field.prepare_value(data)\n", 
+      "+\n", 
+      "+    @cached_property\n", 
+      "-        if self.raw_alue:\n", 
+      "+        if self.raw_value:\n"
+    ], 
+    "Message:": "Fix typo\nAdd \"initial\" to FieldExtractor\nReformat for 119char line limit\nUse dict comprehension", 
+    "Additions:": 30, 
+    "Deletions:": 31, 
+    "Commit Mistakes:": "https://github.com/funkybob/django-sniplates/commit/e21a0caeaa72a2b367d148fa6ab3f3e551b10886", 
+    "Commit Corrections:": "https://github.com/funkybob/django-sniplates/commit/ee5b18b005aaa71214f06448057faaa91e8d37c5"
+  }, 
+  {
+    "Changes:": [
+      "-\t    \tif catagory != False:\n", 
+      "+\t\t    if catagory != False:\n", 
+      "-\t    \telse:\n", 
+      "+\t\t    else:\n"
+    ], 
+    "Message:": "Fixed category selector. Darn indentation.", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/mainfram3ca/hackerpyramid/commit/95f5a359317433cb84e0848889c0e42259a77e0d", 
+    "Commit Corrections:": "https://github.com/mainfram3ca/hackerpyramid/commit/95c2ee62749fe4e1bc652f6130a41ff7c0d5bbd3"
+  }
+]
