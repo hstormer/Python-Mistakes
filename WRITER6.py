@@ -261,7 +261,6 @@ for i in filenames:
 				for letter in item:
 					if letter.lower() not in characters:
 						if ord(letter) < 127 and letter != '\n' and letter != '\t' and letter != "\r":
-							print "%r" % letter
 							newletter = unicodedata.name(unicode(letter))
 							newletter = newletter.replace(" ", "_")
 							newchanges.append(newletter)

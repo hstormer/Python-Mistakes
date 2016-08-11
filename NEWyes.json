@@ -1431,5 +1431,609 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/pebble/libpebble2/commit/fc63941e553bce972d8cb8333543319cfa4d6b5a", 
     "Commit Corrections:": "https://github.com/pebble/libpebble2/commit/6a2c089317286096b4d39c270b6b9534acfdf62f"
+  }, 
+  {
+    "Changes:": [
+      "-            c=getkw('color'),\n", 
+      "+            c=getkw('color'),);\n"
+    ], 
+    "Message:": "syntax error, more pushing to master! yay (I need tests)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/noobermin/lspplot/commit/94bed56e074969e5add2a82ac8338190409c80f9", 
+    "Commit Corrections:": "https://github.com/noobermin/lspplot/commit/e6ea1665eaf17dbf4da3fce47fa6f4c7b17ce74e"
+  }, 
+  {
+    "Changes:": [
+      "-thresfold = float(sys.argv[3])\n", 
+      "+threshold = float(sys.argv[3])\n"
+    ], 
+    "Message:": "corrected typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rjovelin/MitoVariants/commit/e6de3be93a79ca442b694ac16ac1e35a164dd28a", 
+    "Commit Corrections:": "https://github.com/rjovelin/MitoVariants/commit/8210d30b02391bd5021ca2c01f2912a298a22342"
+  }, 
+  {
+    "Changes:": [
+      "-from PyPWA.configuratr import definitions\n", 
+      "+from PyPWA.configurator import definitions\n"
+    ], 
+    "Message:": "Fixed import misspelling.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/JeffersonLab/PyPWA/commit/a054760eaa7f28d64935c32b67f64654e3422725", 
+    "Commit Corrections:": "https://github.com/JeffersonLab/PyPWA/commit/19b797c724fe734611c93094f461f52055ac27f2"
+  }, 
+  {
+    "Changes:": [
+      "-                    if mailfrom_str.count(client.lower()) > 0:\n", 
+      "+                    if mailfrom_str.count(str(client).lower()) > 0:\n"
+    ], 
+    "Message:": "debugging", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lydia-rodriguez/mail-server/commit/a19bfaeb93773a2e738bf6f859892c0b325f82b8", 
+    "Commit Corrections:": "https://github.com/lydia-rodriguez/mail-server/commit/bbe3776a108ec2018aa28fdd94c95480823c800f"
+  }, 
+  {
+    "Changes:": [
+      "-                elif allele[i] == 'G':\n", 
+      "+                elif alleles[i] == 'G':\n"
+    ], 
+    "Message:": "corrected typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rjovelin/MitoVariants/commit/f9cedad7f54d6f9a48a840849bd5279724455584", 
+    "Commit Corrections:": "https://github.com/rjovelin/MitoVariants/commit/48ba05128b1a97a7448a208b6dd3044df4bcc3a1"
+  }, 
+  {
+    "Changes:": [
+      "-from NeuralNetwork import NeuralNetwork\n", 
+      "+from neuralNetwork import NeuralNetwork\n"
+    ], 
+    "Message:": "example nn usage", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/timbo-rafa/nao/commit/63e9f107c5917e4b33c986dca02c0f377af374c0", 
+    "Commit Corrections:": "https://github.com/timbo-rafa/nao/commit/d40533f201e123a7c1f7442a67cb2f98d77b4935"
+  }, 
+  {
+    "Changes:": [
+      "-            filterused = str(fd.selectedFilter())\n", 
+      "+            filterused = str(fd.selectedNameFilter())\n"
+    ], 
+    "Message:": "fix exportbox crashing when selecting a folder", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/OpenReliability/OpenReliability/commit/50b6c1c156183206580fe6d794b1bd26af3550a5", 
+    "Commit Corrections:": "https://github.com/OpenReliability/OpenReliability/commit/ff77045830585ec23bda74d78ca2a4ef8393614b"
+  }, 
+  {
+    "Changes:": [
+      "-        'ujson == 1.35'\n", 
+      "+        'ujson == 1.35',\n"
+    ], 
+    "Message:": "mend", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Yelp/paasta/commit/d78cab8816ebb49c5464720952bfc687fd554932", 
+    "Commit Corrections:": "https://github.com/Yelp/paasta/commit/da893a90aa3b1f0673e057cfd2531b6a6d38f5f1"
+  }, 
+  {
+    "Changes:": [
+      "-                if id == \"ACK\":\n", 
+      "+                if message.id == \"ACK\":\n"
+    ], 
+    "Message:": "ack bugfix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/littley/network_cjl/commit/8f7a61078e3c30e1867f9daaef5d6bad90cb18b5", 
+    "Commit Corrections:": "https://github.com/littley/network_cjl/commit/d46bb5139c2bae6c05e2639d45dba04e7756cce8"
+  }, 
+  {
+    "Changes:": [
+      "-            if not (field.many_to_one and field.realted_model is None)\n", 
+      "+            if not (field.many_to_one and field.related_model is None)\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/osuosl/streamwebs/commit/56dcead679bd55557711339c73bfb951114483e4", 
+    "Commit Corrections:": "https://github.com/osuosl/streamwebs/commit/2a8113e3bfc6a11914dd5c6eb25887c3e28da784"
+  }, 
+  {
+    "Changes:": [
+      "-            mutations[effect] = list(snpeffectct[effect])\n", 
+      "+            mutations[effect] = list(snpeffect[effect])\n"
+    ], 
+    "Message:": "corrected typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rjovelin/MitoVariants/commit/8210d30b02391bd5021ca2c01f2912a298a22342", 
+    "Commit Corrections:": "https://github.com/rjovelin/MitoVariants/commit/86e0ce256d60dd66939ffa8987b0ca8a11d75ef5"
+  }, 
+  {
+    "Changes:": [
+      "-from homeassistant.const import EVENT_HOMEASSISTANT_STOP, STATE_UNKNOWN,\n", 
+      "+from homeassistant.const import EVENT_HOMEASSISTANT_STOP, STATE_UNKNOWN\n"
+    ], 
+    "Message:": "fix ,", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/danielperna84/home-assistant/commit/ebb20337ff4c1788d7f1cf5395d7fa8312e517f3", 
+    "Commit Corrections:": "https://github.com/danielperna84/home-assistant/commit/439ad8f0325d49808c89580f7c5d7eea7c1ddce0"
+  }, 
+  {
+    "Changes:": [
+      "-        nb = self.cosmoparams['Simulation']['NumBlocks'][bsize]\n", 
+      "-          * self.cosmoparams['Simulation']['NumOctants']\n", 
+      "+        nb = self.cosmoparams['Simulation']['NumBlocks'][bsize] * self.cosmoparams['Simulation']['NumOctants']\n"
+    ], 
+    "Message:": "Fixed indentation error", 
+    "Additions:": 1, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/j-dr/SkyFactory/commit/acaa13b7e61daf7aabdab64d06c169f92abbdc08", 
+    "Commit Corrections:": "https://github.com/j-dr/SkyFactory/commit/5e94d6595a164b3a54b0381f784f3b2495816ec9"
+  }, 
+  {
+    "Changes:": [
+      "-            elif interest == men:\n", 
+      "+            elif interest == 'men':\n"
+    ], 
+    "Message:": "fix bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/easf/friends/commit/1345fbf765d0caa075a4a9cb19ed6241255bdac1", 
+    "Commit Corrections:": "https://github.com/easf/friends/commit/d6a4b3cf82b6c795725298eb1815d220b22bbabc"
+  }, 
+  {
+    "Changes:": [
+      "-                WHERE model = %%s\n", 
+      "+                WHERE model = %s\n"
+    ], 
+    "Message:": "[FIX] double percent sign", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hbrunn/server-tools/commit/4a9b8d15006285209cf0220e521e16b0674ca302", 
+    "Commit Corrections:": "https://github.com/hbrunn/server-tools/commit/135b066d9f8304b87914594180de6ecac6d07df7"
+  }, 
+  {
+    "Changes:": [
+      "-            print(\"Invalid start date format\")\n", 
+      "+            print(\"Invalid start date format - expecting yyyy/mm/dd\")\n", 
+      "-            print(\"Invalid end date format\")\n", 
+      "+            print(\"Invalid end date format - expecting yyyy/mm/dd\")\n", 
+      "-                    continue\n", 
+      "+                    \tcontinue\n", 
+      "-                    continue\n", 
+      "+                    \tcontinue\n"
+    ], 
+    "Message:": "Fix missing indentation + extended error messages", 
+    "Additions:": 4, 
+    "Deletions:": 4, 
+    "Commit Mistakes:": "https://github.com/mrummuka/location-history-json-converter/commit/28836680116719289b50d9a8c1fd2afe5670688f", 
+    "Commit Corrections:": "https://github.com/mrummuka/location-history-json-converter/commit/7fa2356a055a56bb0daefd8bfafe0f3362dd2704"
+  }, 
+  {
+    "Changes:": [
+      "-    ([\"rustbuild\", None, None): {},\n", 
+      "+    (\"rustbuild\", None, None): {},\n"
+    ], 
+    "Message:": "fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/klahnakoski/TestLog-ETL/commit/48ea440bef5d908977aaaf45ab91f989e26cdf57", 
+    "Commit Corrections:": "https://github.com/klahnakoski/TestLog-ETL/commit/e9c56b478cd414621818f9d5ffec8f357e50b83d"
+  }, 
+  {
+    "Changes:": [
+      "-            opts = opts + self.get_conifg_option(config_header)\n", 
+      "+            opts = opts + self.get_config_option(config_header)\n"
+    ], 
+    "Message:": "Fixed gcc.py typo\n\nget_conifg_option -> get_config_option", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sarahmarshy/mbed/commit/5b82869b50ed23cbdd88e5b857ae01d1a50d283d", 
+    "Commit Corrections:": "https://github.com/sarahmarshy/mbed/commit/4e743c753e3e5a1a47100d2e223ecdc803553cbb"
+  }, 
+  {
+    "Changes:": [
+      "-        cfg.get_config_data_header(join(trg_path, self.config_header))\n", 
+      "+        config.get_config_data_header(join(trg_path, self.config_header))\n"
+    ], 
+    "Message:": "Fix typo after rebase", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sarahmarshy/mbed/commit/4e743c753e3e5a1a47100d2e223ecdc803553cbb", 
+    "Commit Corrections:": "https://github.com/sarahmarshy/mbed/commit/f63d4252b5f92b3b06da7d87116889cf26d82b3f"
+  }, 
+  {
+    "Changes:": [
+      "-                    self.sendText('success').\n", 
+      "+                    self.sendText('success')\n"
+    ], 
+    "Message:": "linking to db", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/huangkuan/ponchobot/commit/8aafb1a4b5057c714663d383ff668a6bbcde2e2c", 
+    "Commit Corrections:": "https://github.com/huangkuan/ponchobot/commit/3de50ffefcc83edbd3ef21890d8c428a06067b6e"
+  }, 
+  {
+    "Changes:": [
+      "-        self.send_message(channel_id, str(len(httpbody))\n", 
+      "+        self.send_message(channel_id, str(len(httpbody)))\n"
+    ], 
+    "Message:": "Obvious Fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davenewham/starter-python-bot/commit/e8f89d8a0d9ef807e2ad9745eb7869c024e10cbe", 
+    "Commit Corrections:": "https://github.com/davenewham/starter-python-bot/commit/5ba52267414fe43038f9efa17f1a8edfce6350c7"
+  }, 
+  {
+    "Changes:": [
+      "-        click.confirm('file %s.key exists; overwrite?' % basename, abort=true)\n", 
+      "+        click.confirm('file %s.key exists; overwrite?' % basename, abort=True)\n", 
+      "-            click.confirm('file %s.chain.crt exists; overwrite?' % basename, abort=true)\n", 
+      "+            click.confirm('file %s.chain.crt exists; overwrite?' % basename, abort=True)\n"
+    ], 
+    "Message:": "cert.py: fix typos", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/costela/wile/commit/7fa6e1c66cc88635cf8b6fb69f830682b982fdfb", 
+    "Commit Corrections:": "https://github.com/costela/wile/commit/6e37fd1942fd511345ad16ec8ef9e0936b32ba21"
+  }, 
+  {
+    "Changes:": [
+      "-            **kwargs,\n", 
+      "+            **kwargs\n"
+    ], 
+    "Message:": "syntax error", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/wavenator/tasker/commit/b3968395c48ea67c2521dbdfdbeb3e6c94210cfa", 
+    "Commit Corrections:": "https://github.com/wavenator/tasker/commit/65480e1212a39e9b2c8d5083ba552966cf8701a9"
+  }, 
+  {
+    "Changes:": [
+      "-        resetString = _dict['reset']\n", 
+      "+        resetString = self._dict['reset']\n"
+    ], 
+    "Message:": "fixes syntax error in reset method", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/OpenTrons/otone_backend/commit/677d4c297cc4e55a8c89f39b371dad877a4a22aa", 
+    "Commit Corrections:": "https://github.com/OpenTrons/otone_backend/commit/510f9ae7b3c43d1b8d1bd905ede885f65c9229b4"
+  }, 
+  {
+    "Changes:": [
+      "-            if loaction is not None and len(location) >= 2:\n", 
+      "+            if location is not None and len(location) >= 2:\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/huangkuan/ponchobot/commit/a15a243d6e0def9b077c8beff87188144f01cb94", 
+    "Commit Corrections:": "https://github.com/huangkuan/ponchobot/commit/eda6def5e76a2e3e68387fac3b87c0d116041a40"
+  }, 
+  {
+    "Changes:": [
+      "-                        'backoffDelay: 3\n", 
+      "+                        'backoffDelay': 3\n"
+    ], 
+    "Message:": "Update os_install_tests.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/keedya/RackHD/commit/0d988ad790d24446686e70e568528b7fe3c9e261", 
+    "Commit Corrections:": "https://github.com/keedya/RackHD/commit/490df45750895dde329ffba1cd1a144bf84b29aa"
+  }, 
+  {
+    "Changes:": [
+      "-    remainingIntents = [random.choice(intents) for _ in range len(intents)]\n", 
+      "+    remainingIntents = [random.choice(intents) for _ in range(len(intents))]\n"
+    ], 
+    "Message:": "Fixed syntax error", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sintelligentdesign/emma/commit/ce94f7337c79e59574ca4c80335be6cd6c8589ea", 
+    "Commit Corrections:": "https://github.com/sintelligentdesign/emma/commit/8c34094dd5828d3625c1e6b8aa06a8be753b2315"
+  }, 
+  {
+    "Changes:": [
+      "-            task = target_HeadingPlan(waypoint=wp, nav=self.nav, **kw)\n", 
+      "+            task = HeadingPlan(waypoint=wp, nav=self.nav, **kw)\n"
+    ], 
+    "Message:": "Fix name", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Maritime-Robotics-Student-Society/sailing-robot/commit/28841a717ac913f6b833fe2978e5b8d8eceaf19a", 
+    "Commit Corrections:": "https://github.com/Maritime-Robotics-Student-Society/sailing-robot/commit/be836d12109390bc7113502bd8d92c11261fd6e5"
+  }, 
+  {
+    "Changes:": [
+      "-            cr.execute(\"DROP TABLE %s\", (IdentifierAdapter(line.name,)))\n", 
+      "+            cr.execute(\"DROP TABLE %s\", (IdentifierAdapter(line.name),))\n"
+    ], 
+    "Message:": "[FIX] comma position", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hbrunn/server-tools/commit/135b066d9f8304b87914594180de6ecac6d07df7", 
+    "Commit Corrections:": "https://github.com/hbrunn/server-tools/commit/d93b3192db6b312dfae4eb72861485afbdddcdc5"
+  }, 
+  {
+    "Changes:": [
+      "-    SKIPNAMES = {'os', 'glob', 'path', 'tempfile', 'io'}\n", 
+      "+    SKIPNAMES = set(['os', 'glob', 'path', 'tempfile', 'io'])\n"
+    ], 
+    "Message:": "Fixed syntax error for Python 2.6\n\n- use explicit set construction to work under Python 2.6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mrbean-bremen/pyfakefs/commit/ec71ec01bf85649658e2c45f5ce74855a456ac25", 
+    "Commit Corrections:": "https://github.com/mrbean-bremen/pyfakefs/commit/88a6110e4e2e4b340eec38abb1c81d15783af62f"
+  }, 
+  {
+    "Changes:": [
+      "-            terms_text=terms_text,\n", 
+      "+            terms_text=terms_text\n"
+    ], 
+    "Message:": "user api view change", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/caseylitton/edx-platform/commit/db02412ccf8a90176849234c5c4d7117550ec4de", 
+    "Commit Corrections:": "https://github.com/caseylitton/edx-platform/commit/8984f80bf8f7402f9d7121bbce926cb2d84f37be"
+  }, 
+  {
+    "Changes:": [
+      "-    assert_length_equal(rows, keys * 100)\n", 
+      "+    assertions.assert_length_equal(rows, keys * 100)\n"
+    ], 
+    "Message:": "Fix assertion import", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/riptano/cassandra-dtest/commit/8e79cb6a687d8212da605c40709de7542686f496", 
+    "Commit Corrections:": "https://github.com/riptano/cassandra-dtest/commit/8c0f51bcd753aac3bfa9f29e03e76ee95e17fd11"
+  }, 
+  {
+    "Changes:": [
+      "-            self.rec = true\n", 
+      "+            self.rec = True\n"
+    ], 
+    "Message:": "fx", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davenewham/starter-python-bot/commit/409d3a70f96cb6dd838a31171fa1f491974822c7", 
+    "Commit Corrections:": "https://github.com/davenewham/starter-python-bot/commit/8253e5e4bf7af6921c97d1ba78108fca39326a6e"
+  }, 
+  {
+    "Changes:": [
+      "-        self.clients.web.chat.post_message(channel_id, '', attachments=[attachment], as_user='true')\n", 
+      "+            self.clients.web.chat.post_message(channel_id, '', attachments=[attachment], as_user='true')\n"
+    ], 
+    "Message:": "dd", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davenewham/starter-python-bot/commit/6befa4e37c4ce9167e478981a0a4f58495c94ef4", 
+    "Commit Corrections:": "https://github.com/davenewham/starter-python-bot/commit/08be0bf8e352059103c3d8b073cd3f6f65df8874"
+  }, 
+  {
+    "Changes:": [
+      "-                print \"Unable to write to logfile {}\".format(logfile)\n", 
+      "+                print(\"Unable to write to logfile {}\".format(logfile))\n"
+    ], 
+    "Message:": "Bugfixes, centralizaiton of docker arguments", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/icgc/icgc-get/commit/e46d2872b726387a9dd782bd24455287dd94b3c1", 
+    "Commit Corrections:": "https://github.com/icgc/icgc-get/commit/709a3b4502d624923d32be6e124918889aec73de"
+  }, 
+  {
+    "Changes:": [
+      "-    data = \"(load-facts '{})\".format(get_current_ns(iron)))\n", 
+      "+    data = \"(load-facts '{})\".format(get_current_ns(iron))\n"
+    ], 
+    "Message:": "Fix: Remove extra parens", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hkupty/iron.nvim/commit/316b472d4ae704ba06f139162929a702ea89b89b", 
+    "Commit Corrections:": "https://github.com/hkupty/iron.nvim/commit/52b3911a09828946ad2938d22b9f391b2a9d441f"
+  }, 
+  {
+    "Changes:": [
+      "-                    continue\n", 
+      "+                  continue\n"
+    ], 
+    "Message:": "\tmodified:   ../data_manager.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/502739a91e52770809ea272eda1d1e62f6b16d3d", 
+    "Commit Corrections:": "https://github.com/gt-ros-pkg/hrl-assistive/commit/ef0ff2d9fcfbd6ae1cace34dc19387020e114c8e"
+  }, 
+  {
+    "Changes:": [
+      "-            if (i >= len(argv)):=\n", 
+      "+            if (i >= len(argv)):\n"
+    ], 
+    "Message:": "Typo from merge", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/h2oai/h2o-3/commit/e58e302a50c7f9137cadeeff6db1a76b85be0960", 
+    "Commit Corrections:": "https://github.com/h2oai/h2o-3/commit/46f113358363e811cb299ad6afa6f76a9fc62b25"
+  }, 
+  {
+    "Changes:": [
+      "-LONG_DESCRIPTION = open('README').read()\n", 
+      "+LONG_DESCRIPTION = open('README.md').read()\n"
+    ], 
+    "Message:": "Fixed.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/veeresht/CommPy/commit/51b58cf73634992c273e440c8b01830e4479d5c7", 
+    "Commit Corrections:": "https://github.com/veeresht/CommPy/commit/f21d7277349e64f03faa73af2cff9267a68564f6"
+  }, 
+  {
+    "Changes:": [
+      "-        print(\"Client ID: \" + client_id)\n", 
+      "+        print(\"Client ID: \" + str(client_id))\n"
+    ], 
+    "Message:": "debugging", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lydia-rodriguez/mail-server/commit/20eb5c0702938e8dd630d51a57b9efc5b13c323a", 
+    "Commit Corrections:": "https://github.com/lydia-rodriguez/mail-server/commit/636d152108acceb28745121cfc3b19132639e391"
+  }, 
+  {
+    "Changes:": [
+      "-frmo sys import argv\n", 
+      "+from sys import argv\n"
+    ], 
+    "Message:": "m", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mpermana/origami-tools/commit/da211a381d362c874310e1ebf56e00a19dd9627b", 
+    "Commit Corrections:": "https://github.com/mpermana/origami-tools/commit/579c94d21365cf31a9e49090faa55a01d29a4fcf"
+  }, 
+  {
+    "Changes:": [
+      "-            npV1_A = self.evalData(self.currImage, displayPeriod=displayPeriod)\n", 
+      "+            npV1_A = self.evalData(self.currImg, displayPeriod=displayPeriod)\n"
+    ], 
+    "Message:": "Misspelled variable", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/slundqui/TFSparseCode/commit/4b73336280aff95e680813a941395d53ca3b10a8", 
+    "Commit Corrections:": "https://github.com/slundqui/TFSparseCode/commit/632b7b53f8139dae5de2d90c94a63f6809735212"
+  }, 
+  {
+    "Changes:": [
+      "-                         .set(exhange=exchange, routing_key=choose_worker()))\n", 
+      "+                         .set(exchange=exchange, routing_key=choose_worker()))\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/WikiWatershed/model-my-watershed/commit/d57cfbb13a1dbeb24e44641d4c8608831936b2f7", 
+    "Commit Corrections:": "https://github.com/WikiWatershed/model-my-watershed/commit/a6e99b0f381582a68def0998bbdb018521a53fec"
+  }, 
+  {
+    "Changes:": [
+      "-        send_request(\"\\@%s %s\" % (str(session_id), command)\n", 
+      "+        send_request(\"\\@%s %s\" % (str(session_id), command))\n"
+    ], 
+    "Message:": "add closing bracket", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/waggle-sensor/nodecontroller/commit/3e3205a59a50631923c3f6fc00bfbb9fcd5bf718", 
+    "Commit Corrections:": "https://github.com/waggle-sensor/nodecontroller/commit/7697efb937eabdbcbfa882a4bfd681512c29dd91"
+  }, 
+  {
+    "Changes:": [
+      "-db\"\"\"Events Blueprint for collecting data.\"\"\"\n", 
+      "+\"\"\"Events Blueprint for collecting data.\"\"\"\n"
+    ], 
+    "Message:": "fix typo...", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/donthack-me/donthackme_api/commit/faa9910e5bc852695ded214b7bb84b3b3c721ae3", 
+    "Commit Corrections:": "https://github.com/donthack-me/donthackme_api/commit/d34c109fe1932c538cf2411eee90f97b8406e3d1"
+  }, 
+  {
+    "Changes:": [
+      "-    reg_config.set('priority', str(reg_config_priorty))\n", 
+      "+    reg_config.set('priority', str(reg_config_priority))\n", 
+      "-            if mdapi_reg_config.get('ConfigPrioirity') != None:\n", 
+      "-                reg_config_priorty = int(mdapi_reg_config.get('ConfigPriority'))\n", 
+      "+            if mdapi_reg_config.get('ConfigPriority') != None:\n", 
+      "+                reg_config_priority = int(mdapi_reg_config.get('ConfigPriority'))\n", 
+      "-                reg_config_priorty = 0\n", 
+      "+                reg_config_priority = 0\n", 
+      "-            add_register_config(set, reg_config_id, reg_config_priorty, availability, mux_regs, \"NOA\")\n", 
+      "+            add_register_config(set, reg_config_id, reg_config_priority, availability, mux_regs, \"NOA\")\n"
+    ], 
+    "Message:": "mdapi-xml-convert: fix 'priority' typos", 
+    "Additions:": 5, 
+    "Deletions:": 5, 
+    "Commit Mistakes:": "https://github.com/rib/gputop/commit/ca11802e4b05026cc19e6b2d633692f4c5f6fdff", 
+    "Commit Corrections:": "https://github.com/rib/gputop/commit/c1120721a5623a82ce86b96ad5861a0f2d3a1172"
+  }, 
+  {
+    "Changes:": [
+      "-    if not args.user_email or not args.url_api_collection or not arge.rq_queue:\n", 
+      "+    if not args.user_email or not args.url_api_collection or not args.rq_queue:\n"
+    ], 
+    "Message:": "bug fix - fall through arg call wrong", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mredar/harvester/commit/fd540c80f65ab3e44ba9c60f39e47329eac2f12c", 
+    "Commit Corrections:": "https://github.com/mredar/harvester/commit/c556d644971b67a16674fce041d4f8ad25169883"
+  }, 
+  {
+    "Changes:": [
+      "-import ioF\n", 
+      "+import io\n"
+    ], 
+    "Message:": "fix(ggvcf): typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Shenglai/Broad_vqsr_pipeline/commit/d7acb971b0943fca25732018d9b34a399c59bdc9", 
+    "Commit Corrections:": "https://github.com/Shenglai/Broad_vqsr_pipeline/commit/6799dead336fa2643ce700060009abe102475f58"
+  }, 
+  {
+    "Changes:": [
+      "-       or not setting['save_restart']:\n", 
+      "+      or not setting['save_restart']:\n"
+    ], 
+    "Message:": "bug fix for cpmd alchemy interface", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SamKChang/qctoolkit/commit/a0930452ebd3c44e9701a627de5b88537fb58e20", 
+    "Commit Corrections:": "https://github.com/SamKChang/qctoolkit/commit/05d78d3c9da3ebbd69f48d04e58f6c7bec50d8c6"
+  }, 
+  {
+    "Changes:": [
+      "-                                         \"any tasks\").format(tname, lname)\n", 
+      "+                                         \" any tasks\".format(tname, lname))\n"
+    ], 
+    "Message:": "BUG: syntax error in raise ValueError.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/astrocatalogs/sne/commit/77fa9f73c9d2d398275169774bda6fa3883f4d40", 
+    "Commit Corrections:": "https://github.com/astrocatalogs/sne/commit/c8d614ad61021f847b867a2670e928e7e90841d1"
+  }, 
+  {
+    "Changes:": [
+      "-        self.catalog.log.debug(\"`srcname`: '{}', `bibcode`: '{}'\".foramt(\n", 
+      "+        self.catalog.log.debug(\"`srcname`: '{}', `bibcode`: '{}'\".format(\n"
+    ], 
+    "Message:": "BUG: typo in 'format' call.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/astrocatalogs/sne/commit/c8d614ad61021f847b867a2670e928e7e90841d1", 
+    "Commit Corrections:": "https://github.com/astrocatalogs/sne/commit/2bcd026bbf6b08ce93b4bd1ead2de42bc423535b"
+  }, 
+  {
+    "Changes:": [
+      "-admim.site.register(Thing)\n", 
+      "-admim.site.register(People)\n", 
+      "-admim.site.register(Purchase)\n", 
+      "+admin.site.register(Thing)\n", 
+      "+admin.site.register(People)\n", 
+      "+admin.site.register(Purchase)"
+    ], 
+    "Message:": "fixes a typo in admin.py", 
+    "Additions:": 3, 
+    "Deletions:": 3, 
+    "Commit Mistakes:": "https://github.com/segdeha/whatineed/commit/a637b1cdba9955381967ebf041efb925bd26d3bf", 
+    "Commit Corrections:": "https://github.com/segdeha/whatineed/commit/f24d77ef6eb6ed1926bc75b2098be27271afa93d"
+  }, 
+  {
+    "Changes:": [
+      "-                append_status(\"GFAIL %s baseline\\n\",self._case.get_value(\"CASEBASEID\"),\n", 
+      "+                append_status(\"GFAIL %s baseline\\n\"%self._case.get_value(\"CASEBASEID\"),\n"
+    ], 
+    "Message:": "Merge pull request #233 from ESMCI/santos/compare_baseline_fix\n\nFix typo in `system_tests_common`.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ESMCI/cime/commit/efa6f8539e39b41389ca0aab945b6bc47c569300", 
+    "Commit Corrections:": "https://github.com/ESMCI/cime/commit/1e9e4137677160487dee6266798e8b9373ca4d57"
   }
 ]
