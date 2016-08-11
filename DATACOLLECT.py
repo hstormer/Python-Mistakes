@@ -1,4 +1,5 @@
-# This initiates the thing that connects to the server thing that does a thing
+# Use this file to collect data about commits with and without mistakes. Pymongo must be installed, and there must be a mongo database of commits from github to look through.
+
 import pymongo
 import json
 from pymongo import MongoClient
