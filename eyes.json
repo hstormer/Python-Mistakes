@@ -12,17 +12,6 @@
   }, 
   {
     "Changes:": [
-      "-    while True\n", 
-      "+    while True:\n"
-    ], 
-    "Message:": "bug", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/andrewbackes/autonoma/commit/559150bbe85061bb297cec01a61f1b2ee135f88e", 
-    "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/80c35c94d136fdfbc1c3a873b448daaabf97c2bc"
-  }, 
-  {
-    "Changes:": [
       "-            if gid:\n", 
       "+            if gid is not None:\n"
     ], 
@@ -68,94 +57,6 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/andrewbackes/autonoma/commit/566b2f93589f02947e12a1baf804f5c9d777b188", 
     "Commit Corrections:": "https://github.com/andrewbackes/autonoma/commit/10982aa7d2384141d9dce51a8947bdda8cd73ae6"
-  }, 
-  {
-    "Changes:": [
-      "-            rotations (:class:numpy:`array`): Array of all rotations\n", 
-      "+            rotations (:class:`numpy.array`): Array of all rotations\n", 
-      "-            rotations (:class:numpy:`array`): Array containing the rotations of\n", 
-      "+            rotations (:class:`numpy.array`): Array containing the rotations of\n", 
-      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
-      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
-      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
-      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
-      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
-      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
-      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
-      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
-      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
-      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
-      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
-      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
-      "-        .. math:: \\gamma_2 &= \\frac{<\\Delta r \\Delta\\theta >^2 -\n", 
-      "-                <\\Delta r>^2<\\Delta \\theta>^2 }{<\\Delta r^2><\\Delta\\theta^2>}\n", 
-      "+        .. math:: \\gamma_2 &= \\frac{\\langle\\Delta r \\Delta\\theta \\rangle^2 -\n", 
-      "+                \\langle\\Delta r\\rangle^2\\langle\\Delta \\theta\\rangle^2\n", 
-      "+                }{\\langle\\Delta r^2\\rangle\\langle\\Delta\\theta^2\\rangle}\n", 
-      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
-      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
-      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
-      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
-      "-        .. math:: \\gamma_2 &= \\frac{<\\Delta r \\Delta\\theta >^2 -\n", 
-      "-                <\\Delta r>^2<\\Delta \\theta>^2 }{<\\Delta r^2><\\Delta\\theta^2>}\n", 
-      "+        .. math:: \\gamma_2 &= \\frac{\\langle\\Delta r \\Delta\\theta \\rangle^2 -\n", 
-      "+                \\langle\\Delta r\\rangle^2\\langle\\Delta \\theta\\rangle^2\n", 
-      "+                }{\\langle\\Delta r^2\\rangle\\langle\\Delta\\theta^2\\rangle}\n", 
-      "-        .. math:: Q = \\langle (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
-      "-                (\\Delta r - \\langle \\Delta r \\rangle) \\rangle\n", 
-      "+        .. math:: Q =  (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
-      "+                (\\Delta r - \\langle \\Delta r \\rangle)\n", 
-      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
-      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
-      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
-      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
-      "-            :class:numpy:`array`: Array of corrrelated residuals\n", 
-      "+            :class:`numpy.array`: Array of corrrelated residuals\n", 
-      "-        .. math:: Q = \\langle (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
-      "-                (\\Delta r - \\langle \\Delta r \\rangle) \\rangle\n", 
-      "+        .. math:: Q = (\\Delta \\theta - \\langle \\Delta \\theta \\rangle)\n", 
-      "+                (\\Delta r - \\langle \\Delta r \\rangle)\n", 
-      "-            system (system): Hoomd system object\n", 
-      "+            system (:class:`hoomd.system`): Hoomd system object\n", 
-      "-            disp_sq (:class:numpy:`array`): Array containing the squared\n", 
-      "+            disp_sq (:class:`numpy.array`): Array containing the squared\n", 
-      "-            rotations (class:numpy:`array`): Array of the rotations\n", 
-      "+            rotations (class:`numpy.array`): Array of the rotations\n", 
-      "-        (float): The distance between rotations (i.e. the binning)\n", 
-      "+        delta_rot (float): The distance between rotations (i.e. the binning)\n", 
-      "-    factor = ((rot_matrix * prob_matrix) * disp_matrix.transpose()) * \\\n", 
-      "-            delta_disp * delta_rot\n", 
-      "+    factor = (((rot_matrix * prob_matrix) * disp_matrix.transpose()) *\n", 
-      "+              delta_disp * delta_rot)\n", 
-      "-    param: input_xml Filename of the file containing the input configuration\n", 
-      "-    param: temp The target temperature at which to run the simulation\n", 
-      "-    param: press The target pressure at which to run the simulation\n", 
-      "-    param: rigid Boolean value indicating whether to integrate using rigid\n", 
-      "-    bodes.\n", 
-      "+\n", 
-      "+    Args:\n", 
-      "+        input_xml (string): Filename of the file containing the input\n", 
-      "+            configuration\n", 
-      "+        temp (float): The target temperature at which to run the simulation\n", 
-      "+        press (float): The target pressure at which to run the simulation\n", 
-      "+        rigid (bool): Boolean value indicating whether to integrate using rigid\n", 
-      "+            bodes.\n", 
-      "-        dyn.print_all(system.take_snapshot(rigid_bodies=True), \\\n", 
-      "-                      timestep, \\\n", 
-      "-                      outfile=basename+\"-dyn.dat\" \\\n", 
-      "-                     )\n", 
-      "-        dyn.print_corr_dist(system.take_snapshot(rigid_bodies=True),\\\n", 
-      "-                            timestep,\\\n", 
-      "-                            outfile=basename+\"-corr.dat\"\n", 
-      "-                           )\n", 
-      "+        dyn.print_all(system, timestep, outfile=basename+\"-dyn.dat\")\n", 
-      "+        dyn.print_corr_dist(system, timestep, outfile=basename+\"-corr.dat\")\n"
-    ], 
-    "Message:": "Minor Fixes - Typos and maths in docs\n\nEnsuring the documentation showing the functions is correct and\naccurate.", 
-    "Additions:": 39, 
-    "Deletions:": 40, 
-    "Commit Mistakes:": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/adeae80f9a22cb9f81660cb5b6416ec42d9ef099", 
-    "Commit Corrections:": "https://github.com/malramsay64/MD-Molecules-Hoomd/commit/2bb8eaa5ceff6a64452e7e94972539843300dba6"
   }, 
   {
     "Changes:": [
@@ -598,28 +499,6 @@
   }, 
   {
     "Changes:": [
-      "-exept:\n", 
-      "+except:\n"
-    ], 
-    "Message:": "Docker - CUON new manual cli interface for the setup XVI", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/CuonDeveloper/cuon/commit/b176d900416acdb640d8618e85938d227a4bc37f", 
-    "Commit Corrections:": "https://github.com/CuonDeveloper/cuon/commit/82851f65978b183050016024ad4324c211d8430b"
-  }, 
-  {
-    "Changes:": [
-      "-if(timeBetweenIntervals === \"rand\"):\n", 
-      "+if(timeBetweenIntervals == \"rand\"):\n"
-    ], 
-    "Message:": "Updated syntax error", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/d5d5a19d2ada997a2714b2bd8f23558965c167f0", 
-    "Commit Corrections:": "https://github.com/agupta231/Image-Recognition-with-LSTM/commit/f32ef6c6917bbf950194bd8bd2bea5a156f0f7c6"
-  }, 
-  {
-    "Changes:": [
       "-            \"Topic :: Scientific/Engineering :: Physics\",\n", 
       "+            \"Topic :: Scientific/Engineering :: Physics\"\n"
     ], 
@@ -685,19 +564,6 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/lifemapper/core/commit/37aa1748b027b544353bf2cb4f1b1e8350bb2891", 
     "Commit Corrections:": "https://github.com/lifemapper/core/commit/611f1e8376a80352e2b17b3212236fd319bbf9f9"
-  }, 
-  {
-    "Changes:": [
-      "-    with open(args.mmapfile,'r') as f:\n", 
-      "+    with open(args.pmapfile,'r') as f:\n", 
-      "-        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)\n", 
-      "+        buildFile(args.infile, args.outfile, newFileStruct, sysEntries)"
-    ], 
-    "Message:": "Adding scrobbling", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/8b7cc3b7f6b18a79af246ea5de7c57106f38d89b", 
-    "Commit Corrections:": "https://github.com/cristianmiranda/plex-trakt-scrobbler/commit/4b156c568c45a8a1e32249f4314800a0518923e0"
   }, 
   {
     "Changes:": [

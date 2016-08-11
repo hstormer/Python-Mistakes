@@ -135,7 +135,7 @@ for document in cursor:
 							CommitMistakes = str(parents)
 							CommitCorrections = str(link)
 							patch = housecleaning(patch)
-							data = {"Commit Mistakes:" : CommitMistakes, "Commit 									Corrections:" : CommitCorrections, "Additions:": 									additions, "Deletions:": deletions, "Changes:" : patch, 								"Message:" : message}
+							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Additions:": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
 							entries.append(data)
 							with open(filename) as f:
 								try:
@@ -155,7 +155,7 @@ for document in cursor:
 							CommitMistakes = str(parents)
 							CommitCorrections = str(link)
 							patch = housecleaning(patch)
-							data = {"Commit Mistakes:" : CommitMistakes, "Commit 									Corrections:" : CommitCorrections, "Additions:": 									additions, "Deletions:": deletions, "Changes:" : patch, 								"Message:" : message}
+							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Additions:": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
 							entries.append(data)
 							with open(secondfile) as f:
 								try:

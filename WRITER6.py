@@ -54,7 +54,9 @@ print "\nPreparing to write to these files..."
 
 
 # Edit the keys in all the files to make them compatible
-answer = raw_input("\nWARNING: \nThe dictionary keys Mistake, Tags, Length, and Why Not will be removed from all of these files to make them compatible with this program. \nKeys will also be modified to add colons if missing. \nPress any key to continue...")
+answer = raw_input("\nWARNING: \nThe dictionary keys Mistake, Tags, Length, and Why Not will be removed from all of these files to make them compatible with this program. \nKeys will also be modified to add colons if missing. \nDuplicate entries will be deleted. \nPress any key to continue...")
+
+links = []
 for eachfile in filenames:
 	with open(eachfile) as data_file:
 		data = json.load(data_file)
@@ -89,6 +91,12 @@ for eachfile in filenames:
 			i.pop("Commit Corrections")
 			i["Commit Corrections:"] = store
 			print "Changed one Commit Corrections to Commit Corrections:"
+	for i in data:
+		if i.get("Commit \t\t\t\t\t\t\t\t\tCorrections:") != None:
+			store = i.get("Commit \t\t\t\t\t\t\t\t\tCorrections:")
+			i.pop("Commit \t\t\t\t\t\t\t\t\tCorrections:")
+			i["Commit Corrections:"] = store
+			print "Changed one Commit \t\t\t\t\t\t\t\t\tCorrections: to Commit Corrections:"
 	for i in data:
 		if i.get("Commit Mistakes") != None:
 			store = i.get("Commit Mistakes")
@@ -161,6 +169,13 @@ for eachfile in filenames:
 		assert "Mistakes:" not in i
 		assert "Length:" not in i
 		assert len(i) == 6
+	for i in data:
+		commitlink = i.get("Commit Corrections:")
+		if commitlink in links:
+			print commitlink
+			data.remove(i)
+		else:
+			links.append(commitlink)
 	eachfile = open(eachfile, 'w')
 	with eachfile as outfile:
 		json.dump(data, outfile, indent = 2)
