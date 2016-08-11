@@ -1,5 +1,4 @@
-# Use this to collect data for yes and no entries. Note that pymongo must be installed, and there must be mongo data from GitHub. (basically a fancier version of jsonmessage)
-
+# This initiates the thing that connects to the server thing that does a thing
 import pymongo
 import json
 from pymongo import MongoClient
@@ -141,7 +140,11 @@ for document in cursor:
 							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Additions": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
 							entries.append(data)
 							with open(filename) as f:
-								entries = json.load(f)
+								try:
+									entries = json.load(f)
+								except ValueError:
+									entries = []
+								
 							txt.seek(0)
 							txt.truncate()
 							entries.append(data)
@@ -159,7 +162,10 @@ for document in cursor:
 							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Additions:": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
 							entries.append(data)
 							with open(secondfile) as f:
-								entries = json.load(f)
+								try:
+									entries = json.load(f)
+								except ValueError:
+									entries = []
 							txt2.seek(0)
 							txt2.truncate()
 							entries.append(data)
