@@ -1,4 +1,4 @@
-# Use this to write data to an arff file. This will overwrite the current contents of the arff file and modify the files being written to the arff file. BEST FILE MADE YET :D
+# Use this to write data to an arff file. Adds all characters changed as an attribute (unlike writer 5, which combines all letters changed into one attribute). Please note that this will overwrite the current contents of the arff file and modify the files being written to the arff file.
 
 import json
 import codecs

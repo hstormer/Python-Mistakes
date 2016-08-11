@@ -1,10 +1,11 @@
-#Use this writer to combine all letter attributes into one and also to look at the actual python changes being made as well as the number of characters changed.
+#The newest version of writer. This writer will combine all letter attributes into one attribute, will also look at the actual python changes being made and make a string attribute out of them, and will also make an attribute for the number of characters changed.
 
 import json
 import codecs
 from sys import argv
-script, arff_file = argv
 import unicodedata
+
+script, arff_file = argv
 
 answer = raw_input("\nWARNING: \nTHIS WILL OVERWRITE THE %s FILE! \nPress any key to continue..." % arff_file)
 txt2 = open(arff_file, 'w')
@@ -25,7 +26,6 @@ for i in range(127):
 		name = unicodedata.name(unicode(chr(i)))
 		name = name.replace(" ", "_")
 		attributes.append("\n@attribute attribute_%s numeric" % name)
-
 attributes.append("\n@attribute LETTERS_CHANGED numeric")
 attributes.append("\n@attribute class {yes, no}")
 attributes.append("\n")
@@ -33,7 +33,6 @@ attributes.append("\n@data")
 for item in attributes:
 	text = item
 	txt2.write(text) 
-
 filenames = ['monicano.json', 'monicayes.json', 'eno.json', 'eyes.json', 'NEWyes.json', 'NEWno.json']
 print "\nThe current list of files to write from is:"
 for i in filenames:
@@ -54,7 +53,7 @@ if answer == 'y':
 print "\nPreparing to write to these files..."
 
 
-# Edit the keys to make them compatible
+# Edit the keys in all the files to make them compatible
 answer = raw_input("\nWARNING: \nThe dictionary keys Mistake, Tags, Length, and Why Not will be removed from all of these files to make them compatible with this program. \nKeys will also be modified to add colons if missing. \nPress any key to continue...")
 for eachfile in filenames:
 	with open(eachfile) as data_file:
@@ -78,7 +77,6 @@ for eachfile in filenames:
 			i.pop("Changes")
 			i["Changes:"] = store
 			print "Changed one Changes to Changes:"
-
 	for i in data:
 		if i.get("Length") != None:
 			store = i.get("Length")
@@ -97,7 +95,6 @@ for eachfile in filenames:
 			i.pop("Commit Mistakes")
 			i["Commit Mistakes:"] = store
 			print "Changed one Commit Mistakes to Commit Mistakes:"
-
 	for i in data:
 		if i.get("Commit Mistake") != None:
 			store = i.get("Commit Mistake")
@@ -116,7 +113,6 @@ for eachfile in filenames:
 			i.pop("Mistakes")
 			i["Mistakes:"] = store
 			print "Changed one Mistakes to Mistakes:"
-
 	for i in data:
 		if i.get("Mistake") != None:
 			store = i.get("Mistake")
@@ -137,22 +133,22 @@ for eachfile in filenames:
 			print "Changed one Tags to Tags:"
 	for i in data:
 		if i.get("Keyword:") != None:
-				del i["Keyword:"]
+			del i["Keyword:"]
 	for i in data:
 		if i.get("Mistakes:") != None:
-				del i["Mistakes:"]
+			del i["Mistakes:"]
 	for i in data:
 		if i.get("Mistake:") != None:
-				del i["Mistake:"]
+			del i["Mistake:"]
 	for i in data:
 		if i.get("Why Not:") != None:
-				del i["Why Not:"]
+			del i["Why Not:"]
 	for i in data:
 		if i.get("Length:") != None:
-				del i["Length:"]
+			del i["Length:"]
 	for i in data:
 		if i.get("Tags:") != None:
-				del i["Tags:"]
+			del i["Tags:"]
 	for i in data:
 		assert "Additions:" in i
 		assert "Deletions:" in i
@@ -195,7 +191,7 @@ for i in filenames:
 			changes = thing.get("Changes:")
 			additions = []
 			deletions = []
-
+			# Count up the number of characters changed
 			delchar = []
 			addchar = []
 			chardiff = []
@@ -220,15 +216,18 @@ for i in filenames:
 				for eachletter in i:
 					if ord(eachletter) < 128:
 						delchar[ord(eachletter)] += 1
+			# Total characters changed
 			for i in range(127):
 				chardiff[i] = abs(delchar[i] - addchar[i])
 			c = 0
 			for i in chardiff:
 				c += i
 			letterschanged = 0
+			# Each character changed
 			for i in chardiff:
 				if (chardiff.index(i) > 64 and chardiff.index(i) < 91) or (chardiff.index(i) > 96 and chardiff.index(i) < 123):
 					letterschanged += 1
+			# Get the message and get rid of characters it won't recognize
 			m = thing.get("Message:")
 			m = m.encode('ascii', errors='ignore')
 			characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ']
@@ -244,6 +243,7 @@ for i in filenames:
 			newletter = None
 			newchanges = []
 			newitem = None
+			# Total amount of letters changed
 			for i in ch:
 				list1 = []
 				for letter in i:
@@ -272,6 +272,7 @@ for i in filenames:
 							newchanges.append("SLASH_R")
 					else:
 						newchanges.append(letter)
+			# Get the actual changes and make a string out of them
 			string = ""
 			good = True
 			for i in newchanges:
@@ -285,6 +286,7 @@ for i in filenames:
 					string = "".join([string, i])
 					good = True
 			string = string.replace("class", "")
+			# Add the attributes
 			text = "\n"
 			stuff = "'%s', %s, %s, %s, '%s'" % (m, a, d, c, string)
 			text = "".join([text, stuff])
@@ -297,12 +299,12 @@ for i in filenames:
 			text = ", ".join([text, chicken])
 			txt2.write(text)
 			txt.close()
+			# Add up the number of yes and no entries
 			if chicken == 'yes':
 				yes += 1
 			else:
 				no += 1
 
 txt2.close()
-	
 print "\nAll done! I have added %d yes entries and %d no entries. \nThank you for using %s" % (yes, no, script)
 

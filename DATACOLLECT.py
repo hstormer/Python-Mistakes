@@ -6,8 +6,6 @@ from pymongo import MongoClient
 
 from sys import argv
 script, filename, secondfile = argv
-CommitMistakes = ''
-CommitCorrections = ''
 
 def housecleaning(l):
 	finalist = []
@@ -38,11 +36,7 @@ def housecleaning(l):
 
 client = MongoClient()
 db = client.github
-# This is a thing containing all the documents somehow
 cursor = db.commits.find()
-jsonfile = {}
-entries = []
-counter = 0
 
 print "I will write the 'yes' entries to the %s file. \nI will write the 'no' entries to the %s file." % (filename, secondfile)
 
@@ -58,6 +52,11 @@ location = 0
 name = 'Hannah'
 message = None
 parents = None
+jsonfile = {}
+entries = []
+counter = 0
+CommitMistakes = ''
+CommitCorrections = ''
 things = ["indentation", "typo", "bracket", "misspell", "mistake", "syntax", "correct", "corrected", "missed", "minor fixes", "minor changes", "redundant", "spelling", "formatter", "stupid"]
 print "============================================"
 print "Finding another file just for %s..." % name
@@ -68,10 +67,8 @@ for document in cursor:
 	if save_location == location:
 		save_location += 1
 		location += 1
-		# This is the commit comment
 		message = document.get("commit")
 		message = message.get("message")
-		# This is the link to the comment
 		link = document.get("html_url")
 		patch = document.get("files")
 		if patch != [] and patch != None:
@@ -138,14 +135,13 @@ for document in cursor:
 							CommitMistakes = str(parents)
 							CommitCorrections = str(link)
 							patch = housecleaning(patch)
-							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Additions": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
+							data = {"Commit Mistakes:" : CommitMistakes, "Commit 									Corrections:" : CommitCorrections, "Additions:": 									additions, "Deletions:": deletions, "Changes:" : patch, 								"Message:" : message}
 							entries.append(data)
 							with open(filename) as f:
 								try:
 									entries = json.load(f)
 								except ValueError:
 									entries = []
-								
 							txt.seek(0)
 							txt.truncate()
 							entries.append(data)
@@ -159,8 +155,7 @@ for document in cursor:
 							CommitMistakes = str(parents)
 							CommitCorrections = str(link)
 							patch = housecleaning(patch)
-							print patch
-							data = {"Commit Mistakes:" : CommitMistakes, "Commit Corrections:" : CommitCorrections, "Additions:": additions, "Deletions:": deletions, "Changes:" : patch, "Message:" : message}
+							data = {"Commit Mistakes:" : CommitMistakes, "Commit 									Corrections:" : CommitCorrections, "Additions:": 									additions, "Deletions:": deletions, "Changes:" : patch, 								"Message:" : message}
 							entries.append(data)
 							with open(secondfile) as f:
 								try:
@@ -176,8 +171,9 @@ for document in cursor:
 							print "Finding another file just for %s..." % name
 							print "============================================"
 						else:
+							#Skip this entry entirely; don't add it to either file.
 							None
-						# Don't print it again if it also contains another thing
+						# Don't print it again if it also contains another keyword
 						break
 	else: 
 		location += 1
