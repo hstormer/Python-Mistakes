@@ -2035,5 +2035,170 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/ESMCI/cime/commit/efa6f8539e39b41389ca0aab945b6bc47c569300", 
     "Commit Corrections:": "https://github.com/ESMCI/cime/commit/1e9e4137677160487dee6266798e8b9373ca4d57"
+  }, 
+  {
+    "Changes:": [
+      "-    locked = models.BooleanField(defaul=False)\n", 
+      "+    locked = models.BooleanField(default=False)\n"
+    ], 
+    "Message:": "Production Summary, added Seconds processing", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/DustinHolden/Anthos/commit/9b3d82c0c2497c506cc260be63ca74d05b5b7b83", 
+    "Commit Corrections:": "https://github.com/DustinHolden/Anthos/commit/d27a98252a81e774dad2d32a05f2ccbc07a8c2d4"
+  }, 
+  {
+    "Changes:": [
+      "-                 massbins=None, subjack=False, catalog_type=['galaxycatalog']\n", 
+      "+                 massbins=None, subjack=False, catalog_type=['galaxycatalog'],\n"
+    ], 
+    "Message:": "Fixed missing commas", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/j-dr/bigbrother/commit/7fbc0dec4229f49751aefb93014e01f11b620ebb", 
+    "Commit Corrections:": "https://github.com/j-dr/bigbrother/commit/600cdc0f4e09453ff2b292837b456da4987a3c41"
+  }, 
+  {
+    "Changes:": [
+      "-        self.setup(warning_queue=warning_queue)\n", 
+      "+        self.setup_table(warning_queue=warning_queue)\n"
+    ], 
+    "Message:": "mistyped name", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rethinkdb/rethinkdb/commit/cd2e735062501141911eeb728719d8c5202eb220", 
+    "Commit Corrections:": "https://github.com/rethinkdb/rethinkdb/commit/a02131fa1f80f1b65e38879778b321dc21f481a2"
+  }, 
+  {
+    "Changes:": [
+      "-            for counter in range(1:100):\n", 
+      "+            for counter in range(1,100):\n"
+    ], 
+    "Message:": "fixing range() syntax", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mnr/rubberfish/commit/8db0fff9cc440fc722fc20b2b8ad766280f0f8e1", 
+    "Commit Corrections:": "https://github.com/mnr/rubberfish/commit/79299904cf353a9e9be2cc352665896480d27612"
+  }, 
+  {
+    "Changes:": [
+      "+from panlex import *\n", 
+      "-    r1 = query(\"ex\",params1)\n", 
+      "+    r1 = query(\"/ex\",params1)\n", 
+      "-               \"include\":\"trq\" # include the field trq, \"translation quality\",\n", 
+      "-               \"sort\":\"trq desc\" # sort by descending trq,\n", 
+      "-               \"limit\":1, # get only one result (which will be the one with the highest score)}\n", 
+      "-    r2 = query(\"ex\",params2)\n", 
+      "+               \"include\":\"trq\", # include the field trq, \"translation quality\",\n", 
+      "+               \"sort\":\"trq desc\", # sort by descending trq,\n", 
+      "+               \"limit\":1} # get only one result (which will be the one with the highest score)}\n", 
+      "+    r2 = query(\"/ex\",params2)\n"
+    ], 
+    "Message:": "fixed typos in arguments to query", 
+    "Additions:": 6, 
+    "Deletions:": 5, 
+    "Commit Mistakes:": "https://github.com/longnow/panlex_python_API/commit/e181b43d6c16e083a3679af43f3dcd13b94318ed", 
+    "Commit Corrections:": "https://github.com/longnow/panlex_python_API/commit/1e7da65759d9f5a4726d8391f4311267b97a8d01"
+  }, 
+  {
+    "Changes:": [
+      "-if call(\"pip3 install paramiko\"), shell=True) > 0:\n", 
+      "+if call(\"pip3 install paramiko\", shell=True) > 0:\n"
+    ], 
+    "Message:": "Fix in  postinstall", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/paramecio/pastafari/commit/52b716c13008b7bc382237898c66a1b2503bcfdc", 
+    "Commit Corrections:": "https://github.com/paramecio/pastafari/commit/d14fcf01bc33449fca44086b4740aa9638563437"
+  }, 
+  {
+    "Changes:": [
+      "-        ignored = talos_pgo_jobs._ignored_hack\n", 
+      "+        ignored = talos_pgo_jobs._ignore_hack\n"
+    ], 
+    "Message:": "Typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mozilla/pulse_actions/commit/e8f47b3e8b182bc965d97f31eef0e5dac781b470", 
+    "Commit Corrections:": "https://github.com/mozilla/pulse_actions/commit/18446862f6a3370306111523a94c989a81538521"
+  }, 
+  {
+    "Changes:": [
+      "-        time_tag ET.SubElement(corr_tag, \"TimeIndex\")\n", 
+      "+        time_tag = ET.SubElement(corr_tag, \"TimeIndex\")\n"
+    ], 
+    "Message:": "Fixed a typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/andrewhanlon/laph_analysis/commit/ed7d88357dcefd5c45e3900363291c48edad4b5c", 
+    "Commit Corrections:": "https://github.com/andrewhanlon/laph_analysis/commit/ba893a12fafbcf07264609c8177a3f6183f0f61d"
+  }, 
+  {
+    "Changes:": [
+      "-    f.write(\"\\n\\n\".join(add_config)\n", 
+      "+    f.write(\"\\n\\n\".join(add_config))\n"
+    ], 
+    "Message:": "Fix in  postinstall", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/paramecio/pastafari/commit/d709ceb99efee582464551c831c398f078a6d7c6", 
+    "Commit Corrections:": "https://github.com/paramecio/pastafari/commit/4ddbd0f6534bce2862e43ed72463809c6c172db0"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\tif (ep_air_time is not None):\n", 
+      "+            if (ep_air_time is not None):\n"
+    ], 
+    "Message:": "init", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/UiharuKazari2008/mythPlex/commit/8695dd8b7c78958e4d9573913656a54379fcb7c4", 
+    "Commit Corrections:": "https://github.com/UiharuKazari2008/mythPlex/commit/268614bc30d012786d42e7bbac24ca3f1b3facdc"
+  }, 
+  {
+    "Changes:": [
+      "-def zerofunc() return 0\n", 
+      "+def zerofunc(): return 0\n"
+    ], 
+    "Message:": "Update tertiaryMadnessAndIndexedTuples.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Sonophoto/PythonNotes/commit/9ccc21b0f1f9acd9d69f8f3e78ba14661425db3e", 
+    "Commit Corrections:": "https://github.com/Sonophoto/PythonNotes/commit/df3e5f015b41736d8e27748a6af761132b1cc844"
+  }, 
+  {
+    "Changes:": [
+      "-                return json_err(\n", 
+      "+                return json_error(\n"
+    ], 
+    "Message:": "fix invalid reference to json_err\n\nBug was discovered by PEP8 :-)\n\nSem-Ver: bugfix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/aspiers/git-deps/commit/244bde91160eabc9b0f3a926d22fadd4be6e1fd0", 
+    "Commit Corrections:": "https://github.com/aspiers/git-deps/commit/b506e038a5ada4e4374c5db20e95a3f7d85c2900"
+  }, 
+  {
+    "Changes:": [
+      "-def count_rowsXcols(string_filename)\n", 
+      "+def count_rowsXcols(string_filename):\n"
+    ], 
+    "Message:": "Fix count_rowXcols Function", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SpaceTuna8/data-alpha-Guilf/commit/2194ce45801165956a91880b223c3683d29f95e6", 
+    "Commit Corrections:": "https://github.com/SpaceTuna8/data-alpha-Guilf/commit/1c6d449847e4e00b4ca96bc7de5fa0d5746edbc1"
+  }, 
+  {
+    "Changes:": [
+      "-\tfrom django.conf.urls.defaults import *\n", 
+      "+    from django.conf.urls.defaults import *\n", 
+      "-\tfrom django.conf.urls import *\n", 
+      "+    from django.conf.urls import *\n"
+    ], 
+    "Message:": "Fix inconsistant indentation", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/mrkiwi-nz/django-helpdesk/commit/44bbcd31e56687aa04b8df6d361ba2d3cee02d4a", 
+    "Commit Corrections:": "https://github.com/mrkiwi-nz/django-helpdesk/commit/6c1aea95e8546ead6f379313376716861ff82389"
   }
 ]

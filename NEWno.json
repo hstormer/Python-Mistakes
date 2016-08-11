@@ -7736,5 +7736,3180 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/aflower15/pythia/commit/dc81489a8377df0d1357a28e8052bb70b385ffb4", 
     "Commit Corrections:": "https://github.com/aflower15/pythia/commit/9ad344b67ab1c7031a21f8dc22c2efbc70aa1022"
+  }, 
+  {
+    "Changes:": [
+      "+\n", 
+      "+def take(num,lyst):\n", 
+      "+\trlist=[]\n", 
+      "+\tif num>0 :\n", 
+      "+\t\tfor i in range(0,num) :\n", 
+      "+\t\t\trlist.append(lyst[i])\n", 
+      "+\t\treturn rlist\t\t\n", 
+      "+\telse :\n", 
+      "+\t\tfor i in range(len(lyst)+num,len(lyst)) :\n", 
+      "+\t\t\trlist.append(lyst[i])\n", 
+      "+\t\treturn rlist\t\t\n", 
+      "+\n", 
+      "+names=['Deep','Venky','Harsh','Srijan','Mama']\n", 
+      "+\n", 
+      "+\n", 
+      "+def drop(num,lyst):\n", 
+      "+\tslist=[]\n", 
+      "+\tif num>0 :\n", 
+      "+\t\tfor i in range(num,len(lyst)) :\n", 
+      "+\t\t\tslist.append(lyst[i])\n", 
+      "+\t\treturn slist\n", 
+      "+\telse :\n", 
+      "+\t\tfor i in range(0,len(lyst)+num) :\n", 
+      "+\t\t\tslist.append(lyst[i])\n", 
+      "+\t\treturn slist\n", 
+      "+\n", 
+      "+#taking first three names\n", 
+      "+somenames=take(3,names)\n", 
+      "+print(somenames)\n", 
+      "+\n", 
+      "+#taking last three names\n", 
+      "+somenames=take(-3,names)\n", 
+      "+print(somenames)\n", 
+      "+\n", 
+      "+#dropping first three names\n", 
+      "+names=drop(3,names)\n", 
+      "+print(names)\n", 
+      "+\n", 
+      "+#dropping last three names\n", 
+      "+names=drop(-3,names)\n", 
+      "+print(names)\n", 
+      "+\n", 
+      "+"
+    ], 
+    "Message:": "Take and Drop from a List ( postive and negative indentation )\n\nSigned-off-by: Deep S Nirmal <deep2432@gmail.com>", 
+    "Additions:": 43, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/deepnirmal/python-code/commit/3973e4e95fb6d62c257421fa665d99efd8d3ed3b", 
+    "Commit Corrections:": "https://github.com/deepnirmal/python-code/commit/7d741cecac6026903badedc6f239d01d3d7ba58c"
+  }, 
+  {
+    "Changes:": [
+      "-                print \"The correct sintax is \\'python pygravity X_size Y_size\\'\"\n", 
+      "+                print \"The correct syntax is \\'python pygravity X_size Y_size\\'\"\n"
+    ], 
+    "Message:": "Update Solarsystem.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sscottSD/Python-Nbody-2D-Grav-Sim/commit/7ad55015fd3278653999c110f85a4e6cf984fccb", 
+    "Commit Corrections:": "https://github.com/sscottSD/Python-Nbody-2D-Grav-Sim/commit/e3bd8a03468c074952ca4d326e475c482de69551"
+  }, 
+  {
+    "Changes:": [
+      "-                    parent_property_view = PropertyView(property = prop, cycle = pv.cycle, state=ps)\n", 
+      "+                    parent_property_view = PropertyView(property = parent_property, cycle = pv.cycle, state=parent_property_state)\n"
+    ], 
+    "Message:": "Bugfix.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SEED-platform/seed/commit/0effad9446c659f4f8eff88c77740af1ed167369", 
+    "Commit Corrections:": "https://github.com/SEED-platform/seed/commit/a0329a650b8b7e84152cddefcb0cb3782a8528d4"
+  }, 
+  {
+    "Changes:": [
+      "-        self.mpr = MPRester(mapi_key)\n", 
+      "+        self.mpr = MPRester(api_key=mapi_key)\n"
+    ], 
+    "Message:": "add kwarg for added safety", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hackingmaterials/MatMethods/commit/f21ce3d793a38a165137b40b3b6972133b175f0c", 
+    "Commit Corrections:": "https://github.com/hackingmaterials/MatMethods/commit/bb755d5adc8dee02db26b7bc320a3deff51c20c5"
+  }, 
+  {
+    "Changes:": [
+      "-        return self._fwd != other\n", 
+      "+        return not self.__eq__(other)\n"
+    ], 
+    "Message:": "implement __ne__ in terms of __eq__, add test to test_consistency demonstrating bulk updates are atomic", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jab/bidict/commit/fd6ae6a09c90c700dc4208f6f29f5afd6ebc8c6c", 
+    "Commit Corrections:": "https://github.com/jab/bidict/commit/7a2505b72f9c0eff1851dd8fc1436b96f3d7c6ce"
+  }, 
+  {
+    "Changes:": [
+      "-    'hypothesis==3.1.0',\n", 
+      "+    'hypothesis==3.1.3',\n"
+    ], 
+    "Message:": "upgrade to latest hypothesis (3.1.3)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jab/bidict/commit/7a2505b72f9c0eff1851dd8fc1436b96f3d7c6ce", 
+    "Commit Corrections:": "https://github.com/jab/bidict/commit/9a8368108058b9048ba27d8b3bbabe0800a3cad6"
+  }, 
+  {
+    "Changes:": [
+      "-    'coverage==4.1.b2',\n", 
+      "+    'coverage==4.1.b3',\n"
+    ], 
+    "Message:": "upgrade to coverage 4.1.b3", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jab/bidict/commit/324f1acad45dc440e5e1e26ca1d575c7e16bb5a5", 
+    "Commit Corrections:": "https://github.com/jab/bidict/commit/d5c3c34cb8ee612eb781a30ae6086f7fcc93a9f1"
+  }, 
+  {
+    "Changes:": [
+      "-    'pytest==2.9.1',\n", 
+      "+    'pytest==2.9.2',\n"
+    ], 
+    "Message:": "upgrade to pytest 2.9.2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jab/bidict/commit/9679672d889ef99aca4f6d989fe5b889847681bf", 
+    "Commit Corrections:": "https://github.com/jab/bidict/commit/a2ac0f1e58b80c2caf3ba2fea62aa742c8fa1a2d"
+  }, 
+  {
+    "Changes:": [
+      "-    'sphinx.ext.pngmath',\n", 
+      "+    'sphinx.ext.imgmath',\n"
+    ], 
+    "Message:": "add website material for prior page", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/macroevolution/bamm/commit/83d7eba5aa429f00ca9f34db0eca0597ba80489e", 
+    "Commit Corrections:": "https://github.com/macroevolution/bamm/commit/bff7dfb96f637280e558de8164b125b7e9af8687"
+  }, 
+  {
+    "Changes:": [
+      "-                            body=body)\n", 
+      "+                            body=body)"
+    ], 
+    "Message:": "pep8", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/uw-it-aca/spotseeker_client/commit/c3b1c017954b0e4e89ac68ca52e08bc681b7e805", 
+    "Commit Corrections:": "https://github.com/uw-it-aca/spotseeker_client/commit/08f3ef887a6392999bf4674f452ab5831cecaae6"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+    module.exit_json(c=commands)\n"
+    ], 
+    "Message:": "Adding nxos_vxlan_vlan modul", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/networktocode/cisco-test-modules/commit/1142dbc816eafe8ec509930837d44ebcc862a9b1", 
+    "Commit Corrections:": "https://github.com/networktocode/cisco-test-modules/commit/0e3a06711c5b4cb8b8be00cf8831c1fb6e992ac2"
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.12.0',\n", 
+      "+    version='1.0.0',\n"
+    ], 
+    "Message:": "Prepare v1.0.0 release", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/caleb531/alfred-workflow-packager/commit/d0303c5884f30ce97393e847992f56a9243971e1", 
+    "Commit Corrections:": "https://github.com/caleb531/alfred-workflow-packager/commit/08e59c47bd8d429ac87134fecc4ea9a86e9b4271"
+  }, 
+  {
+    "Changes:": [
+      "-    cmd = \"pth-winexe -U {0}%{1} //{2} 'cmd.exe /c \\\"{3}\\\"'\".format(username, password, host, command)\n", 
+      "+    cmd = \"pth-winexe -U {0}%{1} --reinstall //{2} 'cmd.exe /c \\\"{3}\\\"'\".format(username, password, host, command)\n"
+    ], 
+    "Message:": "Update netgrab.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/AJMartel/netgrab/commit/4b845c372a10716cd7aeb19b3adefef004017b24", 
+    "Commit Corrections:": "https://github.com/AJMartel/netgrab/commit/6f09513727ac5c212a1539326115adfeefc11f9b"
+  }, 
+  {
+    "Changes:": [
+      "-          eth0:\n", 
+      "-            ipaddr:\n", 
+      "-            promiscuity:\n", 
+      "-              onvalue: 1\n", 
+      "-          eth1:\n", 
+      "-            linkmode:\n", 
+      "+          network_settings:\n", 
+      "+            eth0:\n", 
+      "+              ipaddr:\n", 
+      "+              promiscuity:\n", 
+      "+                onvalue: 1\n", 
+      "+            eth1:\n", 
+      "+              linkmode:\n", 
+      "-          coalesce: True\n", 
+      "-          eth0:\n", 
+      "-            ipaddr:\n", 
+      "-            promiscuity:\n", 
+      "+          network_settings:\n", 
+      "+            coalesce: True\n", 
+      "+            eth0:\n", 
+      "+              ipaddr:\n", 
+      "+              promiscuity:\n"
+    ], 
+    "Message:": "network_settings.py: fix documentation\n\nModule documentation is showing an incorrect config example since it's\nomitting the network_settings identifier.\n\nSigned-off-by: Alejandro del Castillo <alejandro.delcastillo@ni.com>", 
+    "Additions:": 12, 
+    "Deletions:": 10, 
+    "Commit Mistakes:": "https://github.com/adelcast/salt/commit/20ed2c6bcf10dea1924c7d5e68d7ded4f3ac0b14", 
+    "Commit Corrections:": "https://github.com/adelcast/salt/commit/99f154cc0a68e49064831346eb15ece7d72c440e"
+  }, 
+  {
+    "Changes:": [
+      "-    module.exit_json(c=commands)\n", 
+      "+\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/networktocode/cisco-test-modules/commit/3e843a25d1851b9cc861dc106109736357953f31", 
+    "Commit Corrections:": "https://github.com/networktocode/cisco-test-modules/commit/b766e7c1a919b18a132b23710234b47bc9c1272c"
+  }, 
+  {
+    "Changes:": [
+      "-        'PASSWORD': 'l7router',\n", 
+      "+        'PASSWORD': 'default_password',\n"
+    ], 
+    "Message:": "-", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/kiran-vemuri/DevServe/commit/920c19125b4d467c7844d1123d1fd3423079033d", 
+    "Commit Corrections:": "https://github.com/kiran-vemuri/DevServe/commit/4f12b851d2e62e168d87b6736e934d5bfff0736b"
+  }, 
+  {
+    "Changes:": [
+      "-        kick.aim_params['desperate_timeout'] = 3\n", 
+      "+        kick.aim_params['desperate_timeout'] = 5\n"
+    ], 
+    "Message:": "Improve pivot kick. Can move ball a bit and moves forward if it can't quite kick the ball.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/RoboJackets/robocup-software/commit/4da80ab54496394212a0a618ff58ad10642a92cf", 
+    "Commit Corrections:": "https://github.com/RoboJackets/robocup-software/commit/ef50bf9eb3d87541da668f0cb7e3766342d2444a"
+  }, 
+  {
+    "Changes:": [
+      "-if not isinstance(sys.version_info, tuple):\n", 
+      "+if isinstance(sys.version_info, tuple):\n"
+    ], 
+    "Message:": "fix: obfuscate print for python 3", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sejans/pyminifier/commit/b9f8175c52c24a08d166936fa57d9f0ec2b67f77", 
+    "Commit Corrections:": "https://github.com/sejans/pyminifier/commit/d7d57f843339139ec5bd8c2affcb4a29ff48376f"
+  }, 
+  {
+    "Changes:": [
+      "-        install_requires = ['cffi>=1.5', 'future']\n", 
+      "+        install_requires = ['cffi>=1.5', 'pycparser', 'future']\n"
+    ], 
+    "Message:": "Add pycparser dependency (in case cffi doesn't install it)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mabuchilab/NiceLib/commit/4ba799106e699a1ad909b4f37fe8beafdc7c0422", 
+    "Commit Corrections:": "https://github.com/mabuchilab/NiceLib/commit/38f626497db2f30e8c3501886da71abf1d7b60c7"
+  }, 
+  {
+    "Changes:": [
+      "-                           \"band_structure.yaml\",\n", 
+      "+                           \"bandstructure.yaml\",\n"
+    ], 
+    "Message:": "fix tests", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hackingmaterials/MatMethods/commit/77fe60336bbaed7bd3457edc024833a1b04aea9f", 
+    "Commit Corrections:": "https://github.com/hackingmaterials/MatMethods/commit/e28afc5df014912634eb245ccffef21eaa32485f"
+  }, 
+  {
+    "Changes:": [
+      "-        results_directory = \"r%s (%s)\" % (self.revision(), self._number)\n", 
+      "-        return \"%s/%s\" % (self._builder.results_url(), urllib.quote(results_directory))\n", 
+      "+        return \"%s/%s/layout-test-results\" % (self._builder.results_url(), self._number)\n"
+    ], 
+    "Message:": "Fix Build.results_url to return the correct results URL.\n\nThe base URL for results for a particular build is now:\nhttps://storage.googleapis.com/chromium-layout-test-archives/<builder>/<buildnumber>/layout-test-results\n\nFor some reason, Build.results_url returned something different from that before; I don't think that Build.results_url has been used recently, so it likely got out of date.\n\nBUG=474273\n\nReview-Url: https://codereview.chromium.org/2112603002\nCr-Commit-Position: refs/heads/master@{#402982}", 
+    "Additions:": 1, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/dstockwell/chromium/commit/9a07dc6b71462795d776490acb1e51142c9afd74", 
+    "Commit Corrections:": "https://github.com/dstockwell/chromium/commit/b190fc61750420adf481756ccce69157a89d2fe9"
+  }, 
+  {
+    "Changes:": [
+      "-              #'data/l10n_neighborhood_co_data.xml',\n", 
+      "+              'data/l10n_neighborhood_co_data.xml',\n"
+    ], 
+    "Message:": "Solucion bug city", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hivam/l10n_co_doctor/commit/a6288e8dcc035544d933645986ed9b816b52df5e", 
+    "Commit Corrections:": "https://github.com/hivam/l10n_co_doctor/commit/31a0be60d5a83a540c874c21d2c454c6d96f2712"
+  }, 
+  {
+    "Changes:": [
+      "-                                   text=str('<p>Make sure you have placed the <a href=\"http://www.w3schools.com/tags/att_input_name.asp\" target=\"_blank\">\"name\" attribute</a> in all your form elements. Also, to prevent empty form submissions, take a look at the <a href=\"http://www.w3schools.com/tags/att_input_required.asp\" target=\"_blank\">\"required\" property</a> or <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" target=\"_blank\">see more HTML form customization info</a>.</p><p><a href=\"%s\">Return to form</a></p>' % request.referrer)), 400\n", 
+      "+                                   text=str('<p>Make sure you have placed the <a href=\"http://www.w3schools.com/tags/att_input_name.asp\" target=\"_blank\"><code>\"name\"</code> attribute</a> in all your form elements. Also, to prevent empty form submissions, take a look at the <a href=\"http://www.w3schools.com/tags/att_input_required.asp\" target=\"_blank\"><code>\"required\"</code> property</a>. This error also happens when you have an <code>\"enctype\"</code> attribute set in your <code>&lt;form&gt;</code>, so make sure you don\\'t.</p><p><a href=\"%s\">Return to form</a></p>' % request.referrer)), 400\n"
+    ], 
+    "Message:": "tell users about the enctype attr issue.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fiatjaf/formspree/commit/86c3af851bc0fdddbb16da0cb7e300466c92d2e5", 
+    "Commit Corrections:": "https://github.com/fiatjaf/formspree/commit/302e89fb0dc9af26a6046f9fa96c163682b3eebd"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\treturn (item[\"K\"], item[\"position\"], item[\"kind\"])\n", 
+      "+\t\t\treturn (item[\"T\"], item[\"K\"], item[\"position\"], item[\"kind\"])\n"
+    ], 
+    "Message:": "sort legs by expiration", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bburns223/jadelizard/commit/178eb081c5d7b5e404b4093562f7ac67746574a7", 
+    "Commit Corrections:": "https://github.com/bburns223/jadelizard/commit/8d829d67168311ab13f95a9dba93e2e6da4611e8"
+  }, 
+  {
+    "Changes:": [
+      "-        neighborhoodNYC.objects.all().delete()\n", 
+      "+        neighborhoodNYC_redux.objects.all().delete()\n"
+    ], 
+    "Message:": "model change for neighborhoodNYC_redux", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/NiJeLorg/DNAinfo-CrimeMaps/commit/2af94ab090614af488460c1b7d383b88b2f6488b", 
+    "Commit Corrections:": "https://github.com/NiJeLorg/DNAinfo-CrimeMaps/commit/f9dab9ca394b0691e9e503235cd33880b906521b"
+  }, 
+  {
+    "Changes:": [
+      "-version = \"3.0.0\"\n", 
+      "+version = \"4.1.2\"\n"
+    ], 
+    "Message:": "yerelle\u015ftirme sorunu giderildi", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hrngultekin/package-manager/commit/10e0164524593847f402937795eee13cb0c8ff90", 
+    "Commit Corrections:": "https://github.com/hrngultekin/package-manager/commit/e68eaf29e6723a09d8e5e270b278953899c36107"
+  }, 
+  {
+    "Changes:": [
+      "-         the \ufffdeq\ufffd and \ufffdand\ufffd logical operators at this time. All the 4 query\n", 
+      "+         the 'eq' and 'and' logical operators at this time. All the 4 query\n"
+    ], 
+    "Message:": "Generated from 59ac2af2f2b86dcc536ebaa3786c25cf0d9c3002", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Azure/azure-sdk-for-python/commit/cedf884c40d9577a33cd49e1e0f416d6ff77186c", 
+    "Commit Corrections:": "https://github.com/Azure/azure-sdk-for-python/commit/136eb1e4a7a7f1124d160ce9340565ceeaac2812"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.2'\n", 
+      "+__version__ = '0.2.1'\n"
+    ], 
+    "Message:": "Simple fix on slabot.bot.SlackBot.get_user_id, use .items()", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ryukinix/slabot/commit/595a777306ee593d4e0588a4eef684522a83a2ef", 
+    "Commit Corrections:": "https://github.com/ryukinix/slabot/commit/bac6c510f39eb5cb0bf09640ac7e3b51e70e2a07"
+  }, 
+  {
+    "Changes:": [
+      "-      - Port to use for Docker Daemon (Note: This flag will not work with boot2docker).\n", 
+      "+      - Port to use for Docker Daemon (Note This flag will not work with boot2docker).\n"
+    ], 
+    "Message:": "Removes colons from description strings", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jgrowl/ansible-modules-extras/commit/986029e7f0b98c3e7ced88c08ffba73e36f27da8", 
+    "Commit Corrections:": "https://github.com/jgrowl/ansible-modules-extras/commit/e1c2417067b108bf411f1daba3b25af409552cc1"
+  }, 
+  {
+    "Changes:": [
+      "-                            if entry.type.is_static_method:\n", 
+      "+                            if entry.type.is_static_method or env.parent_scope.is_cpp_class_scope:\n"
+    ], 
+    "Message:": "Allow C++ class methods to use base class' methods", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/empyrical/cython/commit/2c3c04b25620c437ce41d7851e7581eb1f0c313c", 
+    "Commit Corrections:": "https://github.com/empyrical/cython/commit/05c79eaf3f25527abd5bdd940ce562a188251fbf"
+  }, 
+  {
+    "Changes:": [
+      "-            payload = self.stoq.dumps(payload)\n", 
+      "+            payload = self.stoq.dumps(payload, compactly=self.compactly)\n"
+    ], 
+    "Message:": "Added option to File connector for compact output", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/PUNCH-Cyber/stoq-plugins-public/commit/f1a0f54fc8f35fb7df4d362a9562d47dc0cae1f0", 
+    "Commit Corrections:": "https://github.com/PUNCH-Cyber/stoq-plugins-public/commit/f952062872b323278c38d92352a5e8cde4a903d1"
+  }, 
+  {
+    "Changes:": [
+      "-from .iqiyi_sc import gen_sc\n", 
+      "-\n", 
+      "-        {'id': 'high', 'container': 'mp4', 'video_profile': '\u9ad8\u6e05'},\n", 
+      "-        {'id': 'standard', 'container': 'mp4', 'video_profile': '\u6807\u6e05'},\n", 
+      "+        {'id': 'BD', 'container': 'm3u8', 'video_profile': '\u5168\u9ad8\u6e05'},\n", 
+      "+        {'id': 'FD', 'container': 'm3u8', 'video_profile': '\u8d85\u9ad8\u6e05'},\n", 
+      "+        {'id': 'TD', 'container': 'm3u8', 'video_profile': '\u8d85\u6e05'},\n", 
+      "+        {'id': 'HD', 'container': 'm3u8', 'video_profile': '\u9ad8\u6e05'},\n", 
+      "+        {'id': 'SD', 'container': 'm3u8', 'video_profile': '\u6807\u6e05'},\n", 
+      "+        {'id': 'LD', 'container': 'm3u8', 'video_profile': '\u6d41\u7545'},\n", 
+      "-\n", 
+      "+    '''\n", 
+      "+    '''\n", 
+      "+    ids = ['BD', 'FD', 'OD', 'TD', 'HD', 'SD', 'LD']\n", 
+      "+    vd_2_id = {21: 'TD', 2: 'HD', 4: 'FD', 17: 'BD', 96: 'LD', 1: 'SD'}\n", 
+      "+    vd_2_profile = {21: '\u8d85\u6e05', 2: '\u9ad8\u6e05', 4: '\u8d85\u9ad8\u6e05', 17: '\u5168\u9ad8\u6e05', 96: '\u6d41\u7545', 1: '\u6807\u6e05'}\n", 
+      "-    def getVMS(self,rate):\n", 
+      "-        #tm ->the flash run time for md5 usage\n", 
+      "-        #um -> vip 1 normal 0\n", 
+      "-        #authkey -> for password protected video ,replace '' with your password\n", 
+      "-        #puid user.passportid may empty?\n", 
+      "-        #TODO: support password protected video\n", 
+      "+    def getVMS(self):\n", 
+      "-        sc = gen_sc(tvid, t).decode('utf-8')\n", 
+      "-        vmsreq= 'http://cache.m.iqiyi.com/jp/tmts/{}/{}/?platForm=h5&rate={}&tvid={}&vid={}&cupid=qc_100001_100186&type=mp4&olimit=0&agenttype=13&src=d846d0c32d664d32b6b54ea48997a589&sc={}&t={}&__jsT=null'.format(tvid, vid, rate, tvid, vid, sc, t - 7)\n", 
+      "-        return json.loads(get_content(vmsreq)[13:])\n", 
+      "+        src = '76f90cbd92f94a2e925d83e8ccd22cb7'\n", 
+      "+        key = 'd5fb4bd9d50c4be6948c97edd7254b0e'\n", 
+      "+        sc = hashlib.new('md5', bytes(str(t) + key  + vid, 'utf-8')).hexdigest()\n", 
+      "+        vmsreq= url = 'http://cache.m.iqiyi.com/tmts/{0}/{1}/?t={2}&sc={3}&src={4}'.format(tvid,vid,t,sc,src)\n", 
+      "+        return json.loads(get_content(vmsreq))\n", 
+      "+            self.title = match1(html, '<title>([^<]+)').split('-')[0]\n", 
+      "+\n", 
+      "+        info = self.getVMS()\n", 
+      "+        assert info['code'] == 'A00000', 'can\\'t play this video'\n", 
+      "+\n", 
+      "+        for stream in info['data']['vidl']:\n", 
+      "+           stream_id = self.vd_2_id[stream['vd']]\n", 
+      "+           stream_profile = self.vd_2_profile[stream['vd']]\n", 
+      "+           self.streams[stream_id] = {'video_profile': stream_profile, 'container': 'm3u8', 'src': [stream['m3u']], 'size' : 0}\n", 
+      "-        for stream in self.supported_stream_types:\n", 
+      "-            info = self.getVMS(self.stream_to_bid[stream])\n", 
+      "-            if info[\"code\"] == \"A00000\":\n", 
+      "-                self.title = info['data']['playInfo']['vn']\n", 
+      "-                self.streams[stream] = {'container': 'mp4', 'video_profile': stream, 'src' : [info['data']['m3u']], 'size' : url_size(info['data']['m3u'])}\n"
+    ], 
+    "Message:": "iqiyi: support more stream quality\n\nalgorism form @ERioK\nthank you @ERioK\n\nv2. remove iqiyi_sc.py, and remove Unicode literal syntax\n\nSigned-off-by: Zhang Ning <zhangn1985@gmail.com>", 
+    "Additions:": 26, 
+    "Deletions:": 19, 
+    "Commit Mistakes:": "https://github.com/zhangn1985/you-get/commit/9c8d8b0023d8399e047de0ab503e29f12881118b", 
+    "Commit Corrections:": "https://github.com/zhangn1985/you-get/commit/33381ea01c7fa88fae35e7fb912d4ee58926f49c"
+  }, 
+  {
+    "Changes:": [
+      "-        if self.conf.enable_isolated_metadata:\n", 
+      "+        if self.conf.force_metadata or self.conf.enable_isolated_metadata:\n"
+    ], 
+    "Message:": "Add 169.254.169.254 when enable force_metadata\n\nWhen enable force_metadata in dhcp.ini, and create a network\nand a subnet, none 169.254.169.254/24 ip info set in related\nnamespace(qdhcp-XXX) with `ip a` command. In this case, vms could\nnot get metadata any more.\n\nChange-Id: Ibd73824658c9759d32fa53ffcf41f2b719c1028b\nCloses-Bug: #1549793", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/openstack/neutron/commit/d54e03d233c1cd160cbcf5bbdcfd289b5c1e93d1", 
+    "Commit Corrections:": "https://github.com/openstack/neutron/commit/dfacba0f2d7586df51962c2b927e5272358ea3c1"
+  }, 
+  {
+    "Changes:": [
+      "-        self.channel = self.channels.get_channel_id(channel)\n", 
+      "+        self.channel = channel\n"
+    ], 
+    "Message:": "Use directly the name of channel/group instead get IDs", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ryukinix/slabot/commit/bac6c510f39eb5cb0bf09640ac7e3b51e70e2a07", 
+    "Commit Corrections:": "https://github.com/ryukinix/slabot/commit/cb7519f10922e9f7af0ac37fb315a2e8bf52eeba"
+  }, 
+  {
+    "Changes:": [
+      "-    ebv_list = np.append(ebv_list, np.arange(0.01, 7.0, 0.01))\n", 
+      "+    ebv_list = np.append(ebv_list, np.arange(0.01, 7.0, 0.1))\n"
+    ], 
+    "Message:": "adjust E(B-V) gridding in sed_mag_calc.py to reflect what was used", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lsst-sims/smtn-006/commit/3af06bd6803c30bc47a5ef2ed34c338c97b3613a", 
+    "Commit Corrections:": "https://github.com/lsst-sims/smtn-006/commit/7fc8de42adb16d051d99dfc87a5529537be0228a"
+  }, 
+  {
+    "Changes:": [
+      "-collection = db['twitter_collection']\n", 
+      "+collection = db['media_tweets']\n"
+    ], 
+    "Message:": "The key and tokens of the app are now hidden from the code. The data is\nin another local file of configuration.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/inf-uach/SophiaCollector/commit/24533c884c2f6fe80a545e8321b207b1d3dcaa1d", 
+    "Commit Corrections:": "https://github.com/inf-uach/SophiaCollector/commit/991bd24bc67ea520773018e8ba2aac6f0c1ba55f"
+  }, 
+  {
+    "Changes:": [
+      "-        results = Review.objects.filter(user=self.context['request'].user)\n", 
+      "+        results = Review.objects.filter(user=self.context['request'].user, context=obj)\n"
+    ], 
+    "Message:": "Fix issue with returning all user's reviews with a context", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Architizer/mendel/commit/5490eadf5283400795737b70f3dd875924f49037", 
+    "Commit Corrections:": "https://github.com/Architizer/mendel/commit/dfc47805597454aae81dc369fa19a3605b862439"
+  }, 
+  {
+    "Changes:": [
+      "-DEFAULT_FROM_EMAIL = \"no-reply@zober.com\"\n", 
+      "+DEFAULT_FROM_EMAIL = \"no-reply@whatever.com\"\n"
+    ], 
+    "Message:": "email", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ss108/django-boilerplate/commit/a809be2805addc871d3ba17dddeabe27c7c79a9a", 
+    "Commit Corrections:": "https://github.com/ss108/django-boilerplate/commit/0ca451fbfe65bf477eff61532dd40c12a807e260"
+  }, 
+  {
+    "Changes:": [
+      "-        self.tempBranchLocation = \"git-p4-tmp\"\n", 
+      "+        self.tempBranchLocation = \"refs/git-p4-tmp\"\n"
+    ], 
+    "Message:": "git-p4: place temporary refs used for branch import under refs/git-p4-tmp\n\nGit-P4 used to place temporary refs under \"git-p4-tmp\". Since 3da1f37\nGit checks that all refs are placed under \"refs\". Instruct Git-P4 to\nplace temporary refs under \"refs/git-p4-tmp\". There are no backwards\ncompatibility considerations as these refs are transient.\n\nUse \"git show-ref --verify\" to check the (non-)existience of the refs\ninstead of file checks assuming the file-based ref backend.\n\nAll refs under \"refs\" are shared across all worktrees. This is not\ndesired for temporary Git-P4 refs and will be adressed in a later patch.\n\nSigned-off-by: Lars Schneider <larsxschneider@gmail.com>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/git/git/commit/cf4c2cfe52be5bd973a4838f73a35d3959ce2f43", 
+    "Commit Corrections:": "https://github.com/git/git/commit/e6e5065a0731e571ed1b42f86363a0646af2ef56"
+  }, 
+  {
+    "Changes:": [
+      "-        if self.conf.enable_isolated_metadata:\n", 
+      "+        if self.conf.force_metadata or self.conf.enable_isolated_metadata:\n"
+    ], 
+    "Message:": "Merge \"Add 169.254.169.254 when enable force_metadata\"", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/openstack/neutron/commit/32cc21bc4a003e1345a1014e636d0b14a908c6cb", 
+    "Commit Corrections:": "https://github.com/openstack/neutron/commit/0953371e1239ace6c2f106e12fcb5459b2db3298"
+  }, 
+  {
+    "Changes:": [
+      "-    SQLALCHEMY_DATABASE_URI =  os.environ[\"DATABASE_URL\"]\n", 
+      "+    SQLALCHEMY_DATABASE_URI = \"postgresql://ubuntu:thinkful@localhost:5432/newcrossword\"\n"
+    ], 
+    "Message:": "cleaned up the useless comments that were relics of testing,  and added useful comments for documentation", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/j10sanders/crossword/commit/e4f622c3f2d6f89322d55e6905f42ec34b0edb9e", 
+    "Commit Corrections:": "https://github.com/j10sanders/crossword/commit/b9570c4f19b79fd64c3427c07186e616a530ca50"
+  }, 
+  {
+    "Changes:": [
+      "-        fields = ('id', 'position_from', 'position_to', 'text', 'document', 'keyword_given', 'next_context_id', 'prev_context_id', 'reviews', 'user_reviews')\n", 
+      "+        fields = ('id', 'position_from', 'position_to', 'text', 'document', 'keyword_given', 'next_context_id', 'prev_context_id', 'user_reviews')\n"
+    ], 
+    "Message:": "Remove 'reviews' from Context API return", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Architizer/mendel/commit/6b04cd83e368c5e355fc04b975ef6ab30105e8c0", 
+    "Commit Corrections:": "https://github.com/Architizer/mendel/commit/c7412824c1e9edb7c386f111ce30b5d76952f861"
+  }, 
+  {
+    "Changes:": [
+      "-    :param int results: max number of wiki results to query for sight\n", 
+      "+    :param int results: max number of wiki results to query for site\n", 
+      "-        Find major sight location: self.coordinates = [latitude, longitude]\n", 
+      "+        Find major site location: self.coordinates = [latitude, longitude]\n", 
+      "-        User selects additional sight to include for trip\n", 
+      "+        User selects additional site to include for trip\n", 
+      "-        self.sights = travel.df['place'].values\n", 
+      "+        self.sites = travel.df['place'].values\n", 
+      "-            self.waypoints = len(self.sights) + 1\n", 
+      "+            self.waypoints = len(self.sites) + 1\n", 
+      "-            self.waypoints = len(self.sights)\n", 
+      "+            self.waypoints = len(self.sites)\n", 
+      "-        if len(self.sights) > 2:\n", 
+      "-            self.graph.add_nodes_from(self.sights)\n", 
+      "-            self.edges = itertools.combinations(self.sights, 2)\n", 
+      "+        if len(self.sites) > 2:\n", 
+      "+            self.graph.add_nodes_from(self.sites)\n", 
+      "+            self.edges = itertools.combinations(self.sites, 2)\n", 
+      "-            raise Exception('Not a trip, fewer then 3 sights: ' + self.sights)\n", 
+      "+            raise Exception('Not a trip, fewer then 3 sites: ' + self.sites)\n", 
+      "-        Calculate distances between sights to weight graph \n", 
+      "+        Calculate distances between sites to weight graph \n", 
+      "-        Print out directions leg by leg for each sight\n", 
+      "+        Print out directions leg by leg for each site\n", 
+      "-def wiki_travel(major_sight, gkey, radius=800, results=10):\n", 
+      "+def wiki_travel(major_site, gkey, radius=800, results=10):\n", 
+      "-    start = major_sight\n", 
+      "+    start = major_site\n", 
+      "-    t = Travel(major_sight, radius=radius, results=results)\n", 
+      "+    t = Travel(major_site, radius=radius, results=results)\n"
+    ], 
+    "Message:": "site typo", 
+    "Additions:": 15, 
+    "Deletions:": 15, 
+    "Commit Mistakes:": "https://github.com/marksweissma/code/commit/ab0d8eaacf43fdc2491c64c985e0156ced1399a1", 
+    "Commit Corrections:": "https://github.com/marksweissma/code/commit/a959b78bd77377c584b8b99251bce27fb4e6a19b"
+  }, 
+  {
+    "Changes:": [
+      "-            with open(\"boltztrap.json\", \"w\") as f:\n", 
+      "+            with open(os.path.join(btrap_dir, \"boltztrap.json\"), \"w\") as f:\n"
+    ], 
+    "Message:": "write boltztrap output in correct dir", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hackingmaterials/MatMethods/commit/dd0874c4df77814584852dccb4e084be89deba16", 
+    "Commit Corrections:": "https://github.com/hackingmaterials/MatMethods/commit/ff256eb8c4e6f8bbc36173783f3b169eeacdabbc"
+  }, 
+  {
+    "Changes:": [
+      "-cuda_src = open(os.path.join(module_dir, \"kernels.cu\"), 'r').read()\r\n", 
+      "+cuda_src = open(os.path.join(module_dir,\"kernels.cu\"), 'r').read()\r\n"
+    ], 
+    "Message:": "Change params to dict", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dpineo/gadann/commit/43eda78167d0d9a438644525a2df2fe0db1c823c", 
+    "Commit Corrections:": "https://github.com/dpineo/gadann/commit/d51bca2aa7c45da6a4b0ff776d9a8a1d65021796"
+  }, 
+  {
+    "Changes:": [
+      "-@celery.task()\n", 
+      "+@celery.task(soft_time_limit=600)\n"
+    ], 
+    "Message:": "Merge pull request #443 from akintolga/concurrency\n\n[SD-4827] - Concurrency issues", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/superdesk/superdesk-core/commit/67d2f7042315ac58f98de28b48d8f64e6b5b3e14", 
+    "Commit Corrections:": "https://github.com/superdesk/superdesk-core/commit/2b0b58f72e46cca62e813044159ea0733d41bf85"
+  }, 
+  {
+    "Changes:": [
+      "-    return os.path.join(os.getcwd(), 'tests/images')\n", 
+      "+    return os.path.join(os.path.dirname(__file__), 'tests/images')\n"
+    ], 
+    "Message:": "Made the test images dir univoque", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/insomniacslk/forework/commit/a0c894f679deb26749454b960e8225443c25b106", 
+    "Commit Corrections:": "https://github.com/insomniacslk/forework/commit/423a2a5c17528ced6f70eafa2404f756ae01a0d9"
+  }, 
+  {
+    "Changes:": [
+      "-import collections\n", 
+      "-import functools\n", 
+      "-import logging\n", 
+      "-import math\n", 
+      "-import os\n", 
+      "-import threading\n", 
+      "-import time\n"
+    ], 
+    "Message:": "Added correct \"DONGLE_NOT_FOUND\" error message", 
+    "Additions:": 0, 
+    "Deletions:": 7, 
+    "Commit Mistakes:": "https://github.com/BaroboRobotics/PyLinkbot3/commit/4a27ce97b373c6553bf722de25340abba3665294", 
+    "Commit Corrections:": "https://github.com/BaroboRobotics/PyLinkbot3/commit/270b03ae238bfa798068b339a6ddb929cd963681"
+  }, 
+  {
+    "Changes:": [
+      "-from Flask_LDAP_VIEW import LDAP_VIEW\n", 
+      "+from flask_ldap_view import LDAP_VIEW\n"
+    ], 
+    "Message:": "Renaming", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sonance207/flask_ldap_view/commit/7173107d718ebe14c0515eb01daeed1f2ff7cab9", 
+    "Commit Corrections:": "https://github.com/sonance207/flask_ldap_view/commit/b3d7b0eea80abfe8870e850f65730a9c7bffce36"
+  }, 
+  {
+    "Changes:": [
+      "+\n", 
+      "+    def test_duplicate_tags1(self):\n", 
+      "+        tags = self.tournament1.get_players()\n", 
+      "+        temp = []\n", 
+      "+        for tag in tags:\n", 
+      "+            self.assertEqual(tag in temp, False)\n", 
+      "+            temp.append(tag)\n", 
+      "+\n", 
+      "+    def test_duplicate_tags2(self):\n", 
+      "+        tags = self.tournament2.get_players()\n", 
+      "+        temp = []\n", 
+      "+        for tag in tags:\n", 
+      "+            self.assertEqual(tag in temp, False)\n", 
+      "+            temp.append(tag)"
+    ], 
+    "Message:": "Added a quick unit test for checking tag duplication in brackets", 
+    "Additions:": 14, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/ripgarpr/garpr/commit/cbc97aaa1e48271e5e0e6d95753cf36c1ca2b20f", 
+    "Commit Corrections:": "https://github.com/ripgarpr/garpr/commit/f9a55230b2d6df2fcc58e356f11275274abd6537"
+  }, 
+  {
+    "Changes:": [
+      "-#distutils: include_dirs = NP_GET_INCLUDE /usr/include/suitesparse\n", 
+      "+#distutils: include_dirs = NP_GET_INCLUDE /usr/local/Cellar/suite-sparse/4.5.3/\n"
+    ], 
+    "Message:": "Update cholmod.pyx", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cgreenberg/scikit-sparse/commit/f7fe7dfa1d883953f05c0f10f61e1f7fbe11c5de", 
+    "Commit Corrections:": "https://github.com/cgreenberg/scikit-sparse/commit/22d5df207acb0b48a2c392b5025c77e43c72f920"
+  }, 
+  {
+    "Changes:": [
+      "-        if end_text in scene:\n", 
+      "+        if end_text.upper() in scene.upper():\n"
+    ], 
+    "Message:": "case insensitive", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/andrrey/tlg_dl_bot/commit/19c0b417074ef9e4d0b3198019802a79b1baa253", 
+    "Commit Corrections:": "https://github.com/andrrey/tlg_dl_bot/commit/7f852d3b6ac3ffdf8a1a8d52bb16745c33da0b01"
+  }, 
+  {
+    "Changes:": [
+      "-        approach = bot2ball * Capture.FineApproachSpeed\n", 
+      "+        approach = bot2ball * Capture.FineApproachSpeed + main.ball().vel\n"
+    ], 
+    "Message:": "Fix up some kicks and forward pass", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/RoboJackets/robocup-software/commit/ef50bf9eb3d87541da668f0cb7e3766342d2444a", 
+    "Commit Corrections:": "https://github.com/RoboJackets/robocup-software/commit/c37f2c1543c665393fa0901e6aa6a119f97e0ffd"
+  }, 
+  {
+    "Changes:": [
+      "-            errors.append(self.validation_errors['pw_confirm'])\n", 
+      "+            errors.append(self.validation_errors['pw_match'])\n"
+    ], 
+    "Message:": "Update User.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/gitjacks/10_Black_Belt_Exam/commit/3e8cdae7f1f665fba0a282041195b08faada8685", 
+    "Commit Corrections:": "https://github.com/gitjacks/10_Black_Belt_Exam/commit/66c4904e417d00d6654d9474868b0c8d47c73f51"
+  }, 
+  {
+    "Changes:": [
+      "-        self.assertEqual(response.url, '/helpdesk/tickets/?saved_query=1')\n", 
+      "+        self.assertTrue('/helpdesk/tickets/?saved_query=1' in response.url)\n"
+    ], 
+    "Message:": "Wrong method to test the url\n\nForgot that Travis urls have the 'http://testserver' part at the front", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mrkiwi-nz/django-helpdesk/commit/a842d1a9c3b6fbc096c6ccbaa60d43b26b1dbe14", 
+    "Commit Corrections:": "https://github.com/mrkiwi-nz/django-helpdesk/commit/3ffe505f290b23eee68d7ecd5398abead3ec7bf6"
+  }, 
+  {
+    "Changes:": [
+      "-    version='1.0.0',\n", 
+      "+    version='1.0.1',\n"
+    ], 
+    "Message:": "Prepare v1.0.1 release", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/caleb531/alfred-workflow-packager/commit/cfe992a5808673fcd244acc153274c9c70631b84", 
+    "Commit Corrections:": "https://github.com/caleb531/alfred-workflow-packager/commit/f4e7ac623f5d61543891b559d2aeae989480b531"
+  }, 
+  {
+    "Changes:": [
+      "-    'version': '8.0.1.0.1',\n", 
+      "+    'version': '8.0.1.0.2',\n"
+    ], 
+    "Message:": "[ENH] levantar restriccion factura en cero #67", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jobiols/jeo/commit/ad78138006de82270f5cb0f53b9cad031bf9f0fb", 
+    "Commit Corrections:": "https://github.com/jobiols/jeo/commit/3144140b9f2f6e889129fc88a806a843a71379ce"
+  }, 
+  {
+    "Changes:": [
+      "-    perf_url = \"http://otc-mesa-ci.jf.intel.com/view/All/job/perf/buildWithParameters?token=xyzzy\"\n", 
+      "+    perf_url = \"http://otc-mesa-ci.jf.intel.com/view/All/job/perf/buildWithParameters?token=noauth\"\n"
+    ], 
+    "Message:": "update token used by services to trigger builds.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/janesma/mesa_jenkins/commit/93958c7e6f777791f3955d1f93b74cb1d5748d61", 
+    "Commit Corrections:": "https://github.com/janesma/mesa_jenkins/commit/59661bb173982786095635ad33dc6f0ce8cb6767"
+  }, 
+  {
+    "Changes:": [
+      "-\tviolin_nocomp(flatten([a for a in mirna2family_edited.values() if a in mirna2age and mirna2age[a] < 100.0]), mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum_young')\n", 
+      "+\tviolin_nocomp([a for a in flatten(mirna2family_edited.values()) if a in mirna2age and mirna2age[a] < 100.0], mir_expdb, 'Family', 'Number of Tissues Expressed In', 'fam_tisnum_young')\n"
+    ], 
+    "Message:": "update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/virpatel524/miRNA-Scripts/commit/229ec9c4a476eae5aa4934f6f2cff3d3a239696e", 
+    "Commit Corrections:": "https://github.com/virpatel524/miRNA-Scripts/commit/7c9bc4f1c00e02cc2025e840432d20369a2f4af7"
+  }, 
+  {
+    "Changes:": [
+      "+    bpy.utils.unregister_class(BBake_Object_Settings)\n"
+    ], 
+    "Message:": "missed unregistering one class", 
+    "Additions:": 1, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/florianfelix/render_bbake/commit/cdd5ff359cb150ee1811677e0871e3c283c278b0", 
+    "Commit Corrections:": "https://github.com/florianfelix/render_bbake/commit/5775c4596b376a80c0ebfae6ca9da5b65967df6b"
+  }, 
+  {
+    "Changes:": [
+      "-    url(r'^', include('app_main.urls')),\n", 
+      "+    url(r'^', include('app_main.urls', namespace='main')),\n"
+    ], 
+    "Message:": "Fixed details", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/aesculapiusteam/aesculapius/commit/8f1bc9561fb1a2ba6a35e9acb65838d97fbdf9c5", 
+    "Commit Corrections:": "https://github.com/aesculapiusteam/aesculapius/commit/1dfb2b04ef3091a4727b18f697b50a90eb333933"
+  }, 
+  {
+    "Changes:": [
+      "-    return render_template('presetconfig.html')\n", 
+      "+    return render_template('setConfigRedirect.html')\n"
+    ], 
+    "Message:": "Set up presetconfig submit goes through another page and automatically redirects back to presetconfig.html", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/andrewngai/TVProjRemoteServer/commit/b77a7d617235de13d1f3af5102b414bb01333486", 
+    "Commit Corrections:": "https://github.com/andrewngai/TVProjRemoteServer/commit/3219d045fe2f74d99065522737cd26f6263d3cba"
+  }, 
+  {
+    "Changes:": [
+      "-    JavaOptionSet(\"spark.executor.memory\", [\"700g\"]),\n", 
+      "+    JavaOptionSet(\"spark.executor.memory\", [\"200g\"]),\n"
+    ], 
+    "Message:": "update\n\nSigned-off-by: Noah Watkins <noahwatkins@gmail.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/noahdesu/spark-test/commit/a68fed8ae35a68f21fdfdbce0d902db5d7334280", 
+    "Commit Corrections:": "https://github.com/noahdesu/spark-test/commit/5b95070c5018a83fb4cadfe80cd605c8ad35b0b3"
+  }, 
+  {
+    "Changes:": [
+      "-    return maxdist\n", 
+      "+    return (maxdist, mol) \n"
+    ], 
+    "Message:": "Corrected an error in python general script", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/AdriaPerezCulubret/MSI_isosurface/commit/7a62c9997c2778892267c156d1458bebd4e32f4c", 
+    "Commit Corrections:": "https://github.com/AdriaPerezCulubret/MSI_isosurface/commit/72a809e58fb95c255d85962af1428f2946f8b056"
+  }, 
+  {
+    "Changes:": [
+      "-        return safe_urlopen(url, json=json_data, headers=req_headers)\n", 
+      "+        return safe_urlopen(url, json=json_data, headers=req_headers, allow_redirects=True)\n"
+    ], 
+    "Message:": "handle github api redirects", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/getsentry/sentry-github/commit/975549d12c1f6c68cf8d8658ccf4d5d511fafa40", 
+    "Commit Corrections:": "https://github.com/getsentry/sentry-github/commit/11ff8a90afd3fc013b16f12ba90376324088450f"
+  }, 
+  {
+    "Changes:": [
+      "-                print bin(ord(spiControl)),\" - \",bin(ord(resp))\n", 
+      "+                print bin(spiControl),\" - \",bin(resp)\n"
+    ], 
+    "Message:": "fixing bin()", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mnr/rubberfish/commit/79299904cf353a9e9be2cc352665896480d27612", 
+    "Commit Corrections:": "https://github.com/mnr/rubberfish/commit/4b995b024f8a49427d7d563ffa7088cecc06619e"
+  }, 
+  {
+    "Changes:": [
+      "-                'xkcd', 'join', 'leave', 'kick', 'ban']\n", 
+      "+                'xkcd', 'nostalgia', 'join', 'leave', 'kick', 'ban']\n"
+    ], 
+    "Message:": "add nostalgia command to help", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mikevb1/discordbot/commit/6b3cae1d6aa213c74b713b0104647e0398149dfc", 
+    "Commit Corrections:": "https://github.com/mikevb1/discordbot/commit/9f5b612bf30f91aa132815034d0636a25cd60224"
+  }, 
+  {
+    "Changes:": [
+      "-            context.session.query(SegmentHostMapping).filter(\n", 
+      "+            segments_host_query.filter(\n"
+    ], 
+    "Message:": "Only update SegmentHostMapping for the given host\n\nNow, when an agent removes a physical network from its configuration,\nnot only the segments with that physical network will be unbinded\nfrom the host of upated agent. All the segments with that physical\nnetwork will be unbinded from all hosts. This is incorrect, the\nsegments should only be unbinded from the host of updated agent.\n\nChange-Id: Iccca843d1682ac54ec87c3b003a33a0fc5c62205\nCloses-bug: #1592463", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/openstack/neutron/commit/93a7bef28bc87e302b0faa37112f4fd5c8ca5250", 
+    "Commit Corrections:": "https://github.com/openstack/neutron/commit/b20188d2652e4907dcfc173f4d5d1a8d557227e1"
+  }, 
+  {
+    "Changes:": [
+      "-# -*- coding: utf-8 -*-\n", 
+      "-\n", 
+      "-from pyte import Stream, ByteStream\n", 
+      "-\n", 
+      "-\n", 
+      "-class TestMixin(object):\n", 
+      "-    \"\"\"A mixin which allows explicit subscription to a subset of events.\"\"\"\n", 
+      "-\n", 
+      "-    def connect(self, event, callback):\n", 
+      "-        \"\"\"Add an event listener for a particular event.\n", 
+      "-\n", 
+      "-        Depending on the event, there may or may not be parameters\n", 
+      "-        passed to the callback. Some escape sequences might also have\n", 
+      "-        default values, but providing these defaults is responsibility\n", 
+      "-        of the callback.\n", 
+      "-\n", 
+      "-        :param unicode event: event to listen for.\n", 
+      "-        :param callable callback: callable to invoke when a given event\n", 
+      "-                                  occurs.\n", 
+      "-        \"\"\"\n", 
+      "-        setattr(self.listener, event, callback)\n", 
+      "-\n", 
+      "-\n", 
+      "-class TestStream(TestMixin, Stream):\n", 
+      "-    pass\n", 
+      "-\n", 
+      "-\n", 
+      "-class TestByteStream(TestMixin, ByteStream):\n", 
+      "-    pass"
+    ], 
+    "Message:": "Removed redundant abstractions from tests", 
+    "Additions:": 0, 
+    "Deletions:": 29, 
+    "Commit Mistakes:": "https://github.com/selectel/pyte/commit/595939ce27d8c236324b627ee24fba9cb7277a31", 
+    "Commit Corrections:": "https://github.com/selectel/pyte/commit/a68698ecb374cdaea251502341c67ee0fe4f58fb"
+  }, 
+  {
+    "Changes:": [
+      "-        logger.addHandler(logging.FileHandler(args.log, mode=\"w\"))\n", 
+      "+        logger.addHandler(logging.FileHandler(args.log))\n"
+    ], 
+    "Message:": "Append to log file, don't replace", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/psu-oit/ldap-bulk-change/commit/4843288e304b9d9d879d662ecd7b683693df3ce7", 
+    "Commit Corrections:": "https://github.com/psu-oit/ldap-bulk-change/commit/67211b5db6665408f86e69973a2d9170ca66ca5e"
+  }, 
+  {
+    "Changes:": [
+      "-        url = 'http://elbazarsat.com/bzsat/bzplugins/servidor.xml'\n", 
+      "+        url = 'http://tuvuplus.com/app/files/servidor.xml'\n"
+    ], 
+    "Message:": "servidor-tuvuplus", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tuvuplus/TUVUPanel/commit/edb8546a26f6ddbe80cbecc46223ae0972f5a74a", 
+    "Commit Corrections:": "https://github.com/tuvuplus/TUVUPanel/commit/7b3e980fd4c3f8ec0ce9a90c74b357df08429ef4"
+  }, 
+  {
+    "Changes:": [
+      "-         numbswep=50000, \\\n", 
+      "+         numbswep=300000, \\\n"
+    ], 
+    "Message:": "NA", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tdaylan/pcat/commit/c66276fceda3de672be19a04ebb7c72cc7078830", 
+    "Commit Corrections:": "https://github.com/tdaylan/pcat/commit/093d08b8b2490366ac5c7308dae53d1afaf10db8"
+  }, 
+  {
+    "Changes:": [
+      "-    scripts=['bin/bb-validate', 'bin/bb-genhtml'],\n", 
+      "+    scripts=['bin/bb-validate', 'bin/bb-genhtml', 'bin/bb-compare'],\n"
+    ], 
+    "Message:": "Added compare script to setup.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/j-dr/bigbrother/commit/0cdd9a5c9f7cb332beced3754114cfdcea75ebe4", 
+    "Commit Corrections:": "https://github.com/j-dr/bigbrother/commit/d85bfaa7bebcdb4c022091ea6d801891e8520522"
+  }, 
+  {
+    "Changes:": [
+      "+                self.increment_counter('commoncrawl', 'processed_record', 1)\n", 
+      "-        self.increment_counter('commoncrawl', 'processed_record', 1)\n"
+    ], 
+    "Message:": "Implemented decoding based on content-type", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/qadium-memex/CommonCrawlJob/commit/66a546ca0fbe9c9c052ffc63f5ba668088b18721", 
+    "Commit Corrections:": "https://github.com/qadium-memex/CommonCrawlJob/commit/6ddb9717c355d151a897e0a47a00faac371f10fb"
+  }, 
+  {
+    "Changes:": [
+      "-    i = 0\n", 
+      "+    i = 1 \n"
+    ], 
+    "Message:": "The atsnp-db1 machine is down right now, so start looking for a good url at atsnp-db2.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/RebeccaHudson/ss_search_viewer/commit/79f040e105a99cf5e2d1444dc1dc6ef53ff49258", 
+    "Commit Corrections:": "https://github.com/RebeccaHudson/ss_search_viewer/commit/601ad6af7df19f8a3f482135f7d5c394db6eb255"
+  }, 
+  {
+    "Changes:": [
+      "-@click.option('--shallow', is_flag=True, default=False)\n", 
+      "+@click.option('--shallow', is_flag=True, default=False, help='Extract top level archives only.')\n"
+    ], 
+    "Message:": "#262: added help text for --shallow option", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/nexB/scancode-toolkit/commit/b51e7ce33d5cb3a4dbf5f85e66f14c1de892e630", 
+    "Commit Corrections:": "https://github.com/nexB/scancode-toolkit/commit/c290c30a606ccaaf998b4834cd25bb81a694ba60"
+  }, 
+  {
+    "Changes:": [
+      "-Alex Patthoff, Robert Pappalardo, Jonathan Kay, Lee Tang \\\n", 
+      "+Alex Patthoff, Robert Pappalardo, Jonathan Kay, Lee Tang, \\\n"
+    ], 
+    "Message:": "Small docs update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SatStressGUI/SatStressGUI/commit/4ba4c663aeb756e3d950583052dd5b89e438108b", 
+    "Commit Corrections:": "https://github.com/SatStressGUI/SatStressGUI/commit/1da4936408fd2b04da3a045856c280f5bc1e740f"
+  }, 
+  {
+    "Changes:": [
+      "-            api.update_with_media(\"output.png\")\n", 
+      "+            api.update_with_media(\"output.png\", status)\n"
+    ], 
+    "Message:": "Fixing status message not being pushed through", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sleibrock/Randombrot/commit/764a3658fb863f1dd78af15631cdc62403152f0f", 
+    "Commit Corrections:": "https://github.com/sleibrock/Randombrot/commit/2d32930b63be090da19a212b48cc5c22995bbece"
+  }, 
+  {
+    "Changes:": [
+      "+from .interfaces import outputs_2d\n", 
+      "+from .interfaces import input_interface\n", 
+      "+from .interfaces import input_1d_1st_stage\n", 
+      "+from .interfaces import output_interface\n", 
+      "+from .interfaces import input_1d_2nd_stage\n", 
+      "+\n", 
+      "+__all__ = [\"outputs_2d\", \"input_interface\", \"input_1d_1st_stage\",\n", 
+      "+           \"output_interface\", \"input_1d_2nd_stage\"]"
+    ], 
+    "Message:": "Initial commit modular and scalable 2D-DCT, 1D-DCT modules (#18)\n\n\r\n* 1d_dct module implemented, and 2d_dct software prototype\r\n\r\n* subtracter 128 from inputs, 2d-dct outputs correct results\r\n\r\n* test_dct_1d works perfect\r\n\r\n* 2d-dct testbench completed\r\n\r\n\r\n* removed python 3.4 and 3.5 from travis.yml as there are problem in conversion with tuples\r\n\r\n* added a bug\r\n\r\n* dct_1d more modular and scalable in progress\r\n\r\n* dct_1d refactored for N vectors\r\n\r\n* 2d-dct support NxN blocks of data", 
+    "Additions:": 8, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/cfelton/test_jpeg/commit/d3aab50526d015b570b621aa700f208f30811696", 
+    "Commit Corrections:": "https://github.com/cfelton/test_jpeg/commit/0b03119d36a40b1843f9960fdecbb25edcfafc78"
+  }, 
+  {
+    "Changes:": [
+      "-      MULTISTREAM_DELAY_PER_STREAM * (num_vms * threads_per_vm))\n", 
+      "+      MULTISTREAM_DELAY_PER_STREAM * threads_per_vm)\n"
+    ], 
+    "Message:": "Fix bug in MultiThreadStartDelay", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/commit/141a899cc92c85f72584042991b0df2a2b371064", 
+    "Commit Corrections:": "https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/commit/998928493e18f87a87f7e06e8abdbccd0dee0064"
+  }, 
+  {
+    "Changes:": [
+      "-    ('es', \"Espana\"),\n", 
+      "+    ('es', \"Espa\u00f1a\"),\n", 
+      "-    ('ne', \"Pa\u00edes Bajos\"),\n", 
+      "-    ('gb', \"Gran Bretana\"),\n", 
+      "+    ('ne', \"Pa\u00edses Bajos\"),\n", 
+      "+    ('gb', \"Gran Breta\u00f1a\"),\n", 
+      "-    ('it', \"Itala\"),\n", 
+      "+    ('it', \"Italia\"),\n"
+    ], 
+    "Message:": "Countries with correct spelling", 
+    "Additions:": 4, 
+    "Deletions:": 4, 
+    "Commit Mistakes:": "https://github.com/JohnAZoidberg/companiadelagalleta/commit/a48bcb6dee5b7bce7ad986b573025062d94c701b", 
+    "Commit Corrections:": "https://github.com/JohnAZoidberg/companiadelagalleta/commit/a7f76bcb85b103dbc689596e153c2df566e47420"
+  }, 
+  {
+    "Changes:": [
+      "-__all__ = [\"OpenSearch\"]\n", 
+      "+__all__ = [\"OpenSearch\", \"APIError\", \"AccessRestricted\", \"InvalidSignature\"]"
+    ], 
+    "Message:": "Merge branch 'master' of github.com:shaung/tornado-opensearch into dev-async", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/shaung/tornado-opensearch/commit/44b5f9c9adf0d8f2c27fd328283225042b355be1", 
+    "Commit Corrections:": "https://github.com/shaung/tornado-opensearch/commit/d3971776ccb0d4735ea0039e273aebe7bd833310"
+  }, 
+  {
+    "Changes:": [
+      "-        print(\"Using EBC\")\n", 
+      "+        print(\"Using ECB\")\n"
+    ], 
+    "Message:": "Fixed typo (EBC -> ECB)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/vacuus/cryptopals/commit/8bba28fba13762fe2a87f6169aab280c189707f5", 
+    "Commit Corrections:": "https://github.com/vacuus/cryptopals/commit/bba69debf3c7e85a6b2877e39e325d05ee7e2c44"
+  }, 
+  {
+    "Changes:": [
+      "-@click.option('--shallow', is_flag=True, default=False, help='Extract top level archives only.')\n", 
+      "+@click.option('--shallow', is_flag=True, default=False, help='Prevent the recusive extraction of nested archives.')\n"
+    ], 
+    "Message:": "#262: initial test cases created and passing", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/nexB/scancode-toolkit/commit/c290c30a606ccaaf998b4834cd25bb81a694ba60", 
+    "Commit Corrections:": "https://github.com/nexB/scancode-toolkit/commit/95eecb38eff0a4c38bf97ba8c10cef13bfaf5285"
+  }, 
+  {
+    "Changes:": [
+      "-    bodies_arr, headlines_arr = vectorize_texts(bodies, headlines, word_idx_dct)\n", 
+      "+    vec_bodies, vec_headlines = vectorize_texts(bodies, headlines, word_idx_dct)\n"
+    ], 
+    "Message:": "Refactor", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sallamander/headline-generation/commit/62a622e28d872e27028c3ca177774f029227c12f", 
+    "Commit Corrections:": "https://github.com/sallamander/headline-generation/commit/e8cd580f391b7aa40577931f3db476bc9e43ca34"
+  }, 
+  {
+    "Changes:": [
+      "-        frame += 1\n", 
+      "+#         frame += 1"
+    ], 
+    "Message:": "Remove frame count", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/evantygf/BlockFun/commit/c197939744899dc6b865ac1dd4d80dbe233d2a9d", 
+    "Commit Corrections:": "https://github.com/evantygf/BlockFun/commit/830f5fc36431d8a67d5bf9d97f4455652c5359c3"
+  }, 
+  {
+    "Changes:": [
+      "-global serverNameAD5780_DCBOX; serverNameAD5780_DCBOX = \"ad5780_dcbox\" # ad5780 dcbox quad\n", 
+      "+global serverNameAD5780_DCBOX; serverNameAD5780_DCBOX = \"DCBOX QUAD AD5780\" # ad5780 dcbox quad\n"
+    ], 
+    "Message:": "Updated quad dcbox name\n\nUpdated the quad dcbox name so that the registry entries match those\nsought by the server", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/afylab/Serial-Device-Manager/commit/c9769365510a5c78adf9cba4f7365e079a7fde29", 
+    "Commit Corrections:": "https://github.com/afylab/Serial-Device-Manager/commit/cca6ad8a37b74fa84a4b3d746da2a1f55719640f"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.3.1'\n", 
+      "+__version__ = '0.4.0'\n"
+    ], 
+    "Message:": "version bump, very nice", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dunovank/jupyter-themes/commit/292f88104ecb93705e7c54f0e43382667d1d3937", 
+    "Commit Corrections:": "https://github.com/dunovank/jupyter-themes/commit/e1a0f28233ae56814cf24c9f2b920b135ade7727"
+  }, 
+  {
+    "Changes:": [
+      "-    def get_full_name(self):\n", 
+      "+    def get_full_name(self):                       ## define Row level's method here, method on a single Object/Row \n"
+    ], 
+    "Message:": "Update models.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yxzoro/Django_Code_Template/commit/90b3ba193804be08cc3e23ca0578c79be2117caf", 
+    "Commit Corrections:": "https://github.com/yxzoro/Django_Code_Template/commit/1ff1b34aa734f5944067874a81a629d14d41b1f5"
+  }, 
+  {
+    "Changes:": [
+      "-    state = Column(String(20))\n", 
+      "+    state = Column(String(20), index=True)\n"
+    ], 
+    "Message:": "[AIRFLOW-291] Add index for state in TI table", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/aoen/incubator-airflow/commit/5963ac8b7b7c0b3470ce6171b1cd928485bc9884", 
+    "Commit Corrections:": "https://github.com/aoen/incubator-airflow/commit/b68231c65a58706b151ab1b504538b453b463218"
+  }, 
+  {
+    "Changes:": [
+      "-from django.db import models\n", 
+      "+from django.db import models            ##please reference: https://docs.djangoproject.com/en/1.9/topics/db/models/\n"
+    ], 
+    "Message:": "Update models.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yxzoro/Django_Code_Template/commit/1ff1b34aa734f5944067874a81a629d14d41b1f5", 
+    "Commit Corrections:": "https://github.com/yxzoro/Django_Code_Template/commit/39c2941aef3eeadf46d8fbe4598b7dac28ec5943"
+  }, 
+  {
+    "Changes:": [
+      "-        \"wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py\\n\"\n", 
+      "+        \"wget https://bootstrap.pypa.io/ez_setup.py\\n\"\n"
+    ], 
+    "Message:": "fixing location of ez_setup.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rsmith54/rootpy/commit/99d27cd98e8762c3e1d43af4aabd109201e1c7a4", 
+    "Commit Corrections:": "https://github.com/rsmith54/rootpy/commit/67f49d5d57354aa279aac5f3fed528cea6de895e"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.1.20'\n", 
+      "+__version__ = '0.1.21'\n"
+    ], 
+    "Message:": "Bump version", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/walkr/cryex/commit/0025dc1a928ec39ff5f376c2fa401cc57258493f", 
+    "Commit Corrections:": "https://github.com/walkr/cryex/commit/22fc5245265cb34a3e549dd74cb61d3c529707a2"
+  }, 
+  {
+    "Changes:": [
+      "-\tsock.settimeout(timeout)\n", 
+      "+\tsock.settimeout(timeout)\n"
+    ], 
+    "Message:": "Try to decall socket.timeout", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/janecz-n/python-whois/commit/f33398a376547f82828f81797a281a7f9ebf7322", 
+    "Commit Corrections:": "https://github.com/janecz-n/python-whois/commit/d4e9ac606a7f9e37d1cd52cede4748605bfed6a9"
+  }, 
+  {
+    "Changes:": [
+      "+        global conf, sc, sqlContext\n", 
+      "+\n", 
+      "+        conf = None\n", 
+      "+        sc = None\n", 
+      "+        sqlContext = None\n", 
+      "+\n"
+    ], 
+    "Message:": "Ensuring the contexts are cleaned up correctly", 
+    "Additions:": 6, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/fiskl/incubator-toree/commit/06d0953d362f959cdd812fdea5412ac72e4032ba", 
+    "Commit Corrections:": "https://github.com/fiskl/incubator-toree/commit/53da747df67dfcb77a7667ee4aa44c295983c6a6"
+  }, 
+  {
+    "Changes:": [
+      "-            if self.rsync('../'+codec+'/'+binary,self.work_root+'/'+codec) != 0:\n", 
+      "+            if self.rsync('../'+codec+'/'+binary,self.work_root+'/'+codec+'/') != 0:\n"
+    ], 
+    "Message:": "Fix rsync syntax", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tdaede/rd_tool/commit/55a1c7922cc57f185a7703aac063a8a963943dd5", 
+    "Commit Corrections:": "https://github.com/tdaede/rd_tool/commit/fbd80ba91dc4fa37674fdd8b9cfdeee501621550"
+  }, 
+  {
+    "Changes:": [
+      "-from app import static_routes, auth_routes\n", 
+      "+from app import static_routes, auth_routes, u2f_routes\n"
+    ], 
+    "Message:": "Added u2f_routes.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/herrjemand/U2F-Flask-Demo/commit/4a30c255573cb2bd0a258a74a69bf370c39820d5", 
+    "Commit Corrections:": "https://github.com/herrjemand/U2F-Flask-Demo/commit/92e6cf8372764f255296ab669770bc566ac4a657"
+  }, 
+  {
+    "Changes:": [
+      "-from django.db import models            ##please reference: https://docs.djangoproject.com/en/1.9/topics/db/models/\n", 
+      "+from django.db import models            ##please refer: https://docs.djangoproject.com/en/1.9/topics/db/models/\n"
+    ], 
+    "Message:": "Update models.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yxzoro/Django_Code_Template/commit/39c2941aef3eeadf46d8fbe4598b7dac28ec5943", 
+    "Commit Corrections:": "https://github.com/yxzoro/Django_Code_Template/commit/9b41dc3171d9565c7c74ec7fedc9a5f02dbb8c55"
+  }, 
+  {
+    "Changes:": [
+      "-from worker import scheduler_info, dump_computation_graph, task_info, register_module, connect, disconnect, get, put, remote\n", 
+      "+from worker import scheduler_info, dump_computation_graph, task_info, register_module, connect, disconnect, get, put, remote, kill_workers\n"
+    ], 
+    "Message:": "Kill workers", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/amplab/ray/commit/cdc286ed7046949d7a27bff07d4674ed1b0853ea", 
+    "Commit Corrections:": "https://github.com/amplab/ray/commit/ace5f344059336915049f8c24ff72484d68a17b0"
+  }, 
+  {
+    "Changes:": [
+      "-            helix_com = self.trj.xyz[:, helix_atoms[0], :]\n", 
+      "+            helix_com = self.trj.xyz[:, helix_atoms, :].mean(axis=1)\n"
+    ], 
+    "Message:": "Reference point bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cing/MDGenesis/commit/973e1fda5a837cc5d3b4541d490e6439a50d38ff", 
+    "Commit Corrections:": "https://github.com/cing/MDGenesis/commit/7e52b9a82203901091649ff12119c8f5ba760a13"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.4.9'\n", 
+      "+__version__ = '0.5.0'"
+    ], 
+    "Message:": "VERSION 0.5.0", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Neurosim-lab/netpyne/commit/8b35634d52fedeba2b2e1ce406f628ae69fbe5f9", 
+    "Commit Corrections:": "https://github.com/Neurosim-lab/netpyne/commit/6d265d1855ae44b94981ac5525c39b99854ebdca"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = \"1.2.1\"\n", 
+      "+__version__ = \"1.2.2\"\n"
+    ], 
+    "Message:": "Rev the script", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/chadparry/kodi-repository.chad.parry.org/commit/bdc8b96578f74ecd168794e264b2d42b1224f505", 
+    "Commit Corrections:": "https://github.com/chadparry/kodi-repository.chad.parry.org/commit/2d28b738cd03f4ae05a58abaeff67628be200322"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.1.0'\n", 
+      "+__version__ = '0.2.0'"
+    ], 
+    "Message:": "Bump version: 0.1.0 \u2192 0.2.0", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/kintoandar/caixabreak/commit/b2da47e42044c56a337ed843afc809135778c17b", 
+    "Commit Corrections:": "https://github.com/kintoandar/caixabreak/commit/58099e036d97f16d33f7edddcbf177f33d34d7fd"
+  }, 
+  {
+    "Changes:": [
+      "-            'disp': True, 'stepsize': .05, 'niter_success': 30, 'tol': 1.e-5, 'method': 'TNC'}\n", 
+      "+            'disp': False, 'stepsize': .05, 'niter_success': 30, 'tol': 1.e-5, 'method': 'TNC'}\n"
+    ], 
+    "Message:": "added progress bar as well as functions for writing to output dataframes, also single SSD output plots", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CoAxLab/radd/commit/09737bd472829f6d4401ba6640385200b80968fc", 
+    "Commit Corrections:": "https://github.com/CoAxLab/radd/commit/725e7d2c09620ee48edeb03b068d387c841d4bb7"
+  }, 
+  {
+    "Changes:": [
+      "-setup(name=\"kdcount\", version=\"0.3.11.dev8\",\n", 
+      "+setup(name=\"kdcount\", version=\"0.3.11.dev9\",\n"
+    ], 
+    "Message:": "bump version.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rainwoodman/kdcount/commit/e8323f774c3482a4c0d3e4a1ad1593a60cd650d7", 
+    "Commit Corrections:": "https://github.com/rainwoodman/kdcount/commit/dd3f20f7c01a6609c7340e8c66532e82bde4d379"
+  }, 
+  {
+    "Changes:": [
+      "-        elif infile_path.stat().st_mtime_ns <= outfile_path.stat().st_mtime_ns:\r\n", 
+      "+        elif infile_path.stat().st_mtime_ns < outfile_path.stat().st_mtime_ns:\r\n"
+    ], 
+    "Message:": "Broke testing for remove_if_newer into two flights (labeled as such) and added sleep(1) between old and new file creation in temporary file setup.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cw-andrews/custom_file_tools/commit/c17b8267fa5857b30de21ee6495ec943e8d4515a", 
+    "Commit Corrections:": "https://github.com/cw-andrews/custom_file_tools/commit/4a7450c4ba2dfdf684679c48e7bd29b42da428a8"
+  }, 
+  {
+    "Changes:": [
+      "-        title=_(u'Featured'),\n", 
+      "+        title=_(u'Mostra in Homepage'),\n"
+    ], 
+    "Message:": "first draft of content type creation", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/parruc/parruc.violareggiocalabria/commit/669da6ad47969faa902740bd4d749a1011280e86", 
+    "Commit Corrections:": "https://github.com/parruc/parruc.violareggiocalabria/commit/8fe58589dee45d57e2597cfa43b55986efcd6f80"
+  }, 
+  {
+    "Changes:": [
+      "-        return NbarDriver('brdf')\n", 
+      "+        return (OrthoDriver(), NbarDriver('brdf'))\n"
+    ], 
+    "Message:": "Added OrthoDriver to expected_source for the PqaDriver.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/GeoscienceAustralia/eo-datasets/commit/2257526bea62894d4d68b4c35df48e345c839f7f", 
+    "Commit Corrections:": "https://github.com/GeoscienceAustralia/eo-datasets/commit/896c827ce0b996616aa4acd796d0bd36a3fc5463"
+  }, 
+  {
+    "Changes:": [
+      "+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n", 
+      "+<metadata xml:lang=\"en\"><Esri><CreaDate>20160628</CreaDate><CreaTime>15345100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri></metadata>"
+    ], 
+    "Message:": "corrected remap function", 
+    "Additions:": 2, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/sgibbes/sams_files/commit/e2445f3985ba9fb76ccfde43531e030a2fd73d1b", 
+    "Commit Corrections:": "https://github.com/sgibbes/sams_files/commit/917d290924aba006b78989810f39e0ff073cbc75"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.0.17'\n", 
+      "+__version__ = '0.0.18'\n"
+    ], 
+    "Message:": "updated version", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CoAxLab/radd/commit/4dd1e78a801a22c9aac0857326fdc0952fc85885", 
+    "Commit Corrections:": "https://github.com/CoAxLab/radd/commit/5a4954f0c582695655c40698332336be8e67112a"
+  }, 
+  {
+    "Changes:": [
+      "-        if website is not None and not website.startswith('http'):\n", 
+      "-            website = 'http://%s' % website\n", 
+      "-\n", 
+      "+    def get_prefixed_website(self):\n", 
+      "+        if self.website and not self.website.startswith('http'):\n", 
+      "+            return 'http://%s' % self.website\n", 
+      "+        return self.website\n", 
+      "+\n"
+    ], 
+    "Message:": "website URL: autocorrect the website URL a output time.\nPreviously, the transformation was done at import *CREATION* time,\nbut would not affect existing (updated) restaurant.", 
+    "Additions:": 5, 
+    "Deletions:": 3, 
+    "Commit Mistakes:": "https://github.com/drzraf/manger-veggie/commit/aac39d47766a0861c057455ffe9d1c8e069e1931", 
+    "Commit Corrections:": "https://github.com/drzraf/manger-veggie/commit/7b6873f3f58600c9c9186048186d7597e17868dc"
+  }, 
+  {
+    "Changes:": [
+      "-        'plone.app.transmogrifier',\n", 
+      "+        'plone.app.transmogrifier>=1.4',\n"
+    ], 
+    "Message:": "added pin to support pub date during migration", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/parruc/parruc.violareggiocalabriamigration/commit/0f03bdd16a8f9699490e2eefb5b4b1b901ee4315", 
+    "Commit Corrections:": "https://github.com/parruc/parruc.violareggiocalabriamigration/commit/469ec2966451a49f372cab7c368e84e834ba410a"
+  }, 
+  {
+    "Changes:": [
+      "-    )\n", 
+      "+    ).save()\n"
+    ], 
+    "Message:": "derp", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/donthack-me/donthackme_api/commit/80b5942b2b80ec8fb43af68c99aa7cf34fa4b504", 
+    "Commit Corrections:": "https://github.com/donthack-me/donthackme_api/commit/9153fa6932cf198e4f8a8e68400aa867f3938485"
+  }, 
+  {
+    "Changes:": [
+      "-    dataset = read_data_sets('clock_dataset/data.pkl', 'https://s3.amazonaws.com/fomoro-public-datasets/clock_dataset.pkl', dataset_hash='2c53ed06fffb4655426979af44d9e957')\n", 
+      "+    dataset = read_data_sets('clock_dataset.pkl', 'https://s3.amazonaws.com/fomoro-public-datasets/clock_dataset.pkl', dataset_hash='2c53ed06fffb4655426979af44d9e957')\n"
+    ], 
+    "Message:": "Fix dl", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fomorians/fomoro-tensorflow/commit/224e77b233900f5d06d6ac8c830dc8a8aea25669", 
+    "Commit Corrections:": "https://github.com/fomorians/fomoro-tensorflow/commit/060553ccb4177ce7b6cd8807fd137443400ccdcf"
+  }, 
+  {
+    "Changes:": [
+      "-from .a_star import a_star,Node,DijkstraHeap\n", 
+      "+from .a_star import a_star_search,Node,DijkstraHeap"
+    ], 
+    "Message:": "Changed main function name to a_star_search", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pablogsal/a_star_algorithm/commit/e9472efcb57f8186d5d7d3c46b1552c0fb0467fa", 
+    "Commit Corrections:": "https://github.com/pablogsal/a_star_algorithm/commit/90dac70ff8bde6a2329e5f5f3c32bdfe21f26d27"
+  }, 
+  {
+    "Changes:": [
+      "-    show_us_what_you_got(5009,5010)\n", 
+      "+    show_us_what_you_got(5008,5009)"
+    ], 
+    "Message:": "changed to beta price and back", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/redsphinx/bandits/commit/fce0473cd442744445ff6c75c24c75babbbd20c8", 
+    "Commit Corrections:": "https://github.com/redsphinx/bandits/commit/7b714c1fd32c03aa4005a1c86b1fbeb18227c4f8"
+  }, 
+  {
+    "Changes:": [
+      "-    version='1.1',\n", 
+      "+    version='1.2',\n"
+    ], 
+    "Message:": "[FIX] fix minor bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/masaponto/ofls-shift/commit/db5428a2e95278e66bc6868fd2125f474ec94791", 
+    "Commit Corrections:": "https://github.com/masaponto/ofls-shift/commit/af7609a516126d9d2bb82fe21daf59769c3340d3"
+  }, 
+  {
+    "Changes:": [
+      "-batch = d.minibatch(5, mapping='LASTFM_TAGS', trim=False, audio_tempfile=True)\n", 
+      "+batch = d.minibatch(20, mapping='LASTFM_TAGS', trim=False, audio_tempfile=True)\n"
+    ], 
+    "Message:": "report batch time", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/KelvinLu/krotos-convnet/commit/a5ef24e9b8e25d371b12dff38d741031d33df75d", 
+    "Commit Corrections:": "https://github.com/KelvinLu/krotos-convnet/commit/9bedae9dc655e73f6c720f2d45a56c0092a24ca4"
+  }, 
+  {
+    "Changes:": [
+      "-    SQLALCHEMY_DATABASE_URI = \"postgresql://ubuntu:thinkful@localhost:5432/newcrossword\"\n", 
+      "+    SQLALCHEMY_DATABASE_URI =  os.environ[\"DATABASE_URL\"]\n"
+    ], 
+    "Message:": "better stats and ready for heroku", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/j10sanders/crossword/commit/b9570c4f19b79fd64c3427c07186e616a530ca50", 
+    "Commit Corrections:": "https://github.com/j10sanders/crossword/commit/ee4a4ce93ed9adc4e237a586e5560397612e3c77"
+  }, 
+  {
+    "Changes:": [
+      "-    N = int(n)\n", 
+      "+    N = int(2*n)\n", 
+      "-    main()\n", 
+      "+    main()"
+    ], 
+    "Message:": "Update mincut.py\n\niter = 2*n is more likely to get correct answer", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/penglz/pydev_algo/commit/d275da6d9351f79283f429f8e94a2de855ff542e", 
+    "Commit Corrections:": "https://github.com/penglz/pydev_algo/commit/0167d9d5025a97507036614f539ada356749d3d8"
+  }, 
+  {
+    "Changes:": [
+      "-        if hasattr(workload_settings, 'fts_config'):\n", 
+      "+        if not workload_settings.fts_config:\n"
+    ], 
+    "Message:": "CBPS: 59 fixing the None worker\n\nChange-Id: I2d48cffc3efe04c586e2b6c7c88a86bf5bfffafb\nReviewed-on: http://review.couchbase.org/65378\nReviewed-by: sandip nandi <sandip.nandi@couchbase.com>\nTested-by: sandip nandi <sandip.nandi@couchbase.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/couchbase/spring/commit/e0b0abd85427282e06cf623284e66283279f4e35", 
+    "Commit Corrections:": "https://github.com/couchbase/spring/commit/32911ddbf63b4cca057fdc0e9b900d5d529c7da3"
+  }, 
+  {
+    "Changes:": [
+      "-        #\"RPi.GPIO\",\n", 
+      "+        \"RPi.GPIO\",\n"
+    ], 
+    "Message:": "enable RPi only code", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bvesperman/Sector67RaspberryPiAccessControl/commit/7e367a8cb7628968df35eb8cd0584f90d5377dbf", 
+    "Commit Corrections:": "https://github.com/bvesperman/Sector67RaspberryPiAccessControl/commit/b0bc03ea93f61cc46578557a6868c232bd407ce0"
+  }, 
+  {
+    "Changes:": [
+      "-rsa_key.write_private_key_file(filename, password)\n", 
+      "+rsa_key.write_private_key_file(private_key_file, password)\n"
+    ], 
+    "Message:": "Fix in  postinstall", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/paramecio/pastafari/commit/ba8a7dd5f89fd4d96d78227348d9cd22794b2740", 
+    "Commit Corrections:": "https://github.com/paramecio/pastafari/commit/e008c30e284f77783aae62d38ce0e0d442a2e66a"
+  }, 
+  {
+    "Changes:": [
+      "-                inputdat = j.inputDat(self.makeInputDatParameters, file07, newmem)\n", 
+      "+                inputdat = j.inputDat(newmem, self.makeInputDatParameters, file07)\n"
+    ], 
+    "Message:": "Fixed error", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/russellthackston/comp-chem-util/commit/7b1f4433c344651b83cbc0982509eed5e165ff12", 
+    "Commit Corrections:": "https://github.com/russellthackston/comp-chem-util/commit/dc51059a51796e5fa4eb86a43a20c23bba204a74"
+  }, 
+  {
+    "Changes:": [
+      "-    program = 'numix-gtk-theme numix-icon-theme-circle'\n", 
+      "+    program = 'numix-gtk-theme numix-icon-theme numix-icon-theme-circle'\n"
+    ], 
+    "Message:": "Fixed Numix not installing properly", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/theBigDalt/Decollo/commit/5fdc308cac3d4b8abc05734d32a215a072ee4b65", 
+    "Commit Corrections:": "https://github.com/theBigDalt/Decollo/commit/b69fb6815a8c8612e4282d14071d2f874b0f7f5c"
+  }, 
+  {
+    "Changes:": [
+      "-                      'xdis >= 1.1.1']\n", 
+      "+                      'xdis >= 1.1.2']\n"
+    ], 
+    "Message:": "WIP 2.6 redo bytecode handling\n\nDon't try to convert 2.6 bytecode to 2.7 psuedo bytecode.\nInstead adjust grammar and semantic actions.\n\nDown the line we should to segregate version changes in\nsemantic code better.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rocky/python-uncompyle6/commit/9a251b239e1658072c344f3d53abfefa6f14fb26", 
+    "Commit Corrections:": "https://github.com/rocky/python-uncompyle6/commit/982a6010a1f6242c19f5d733448bd613cb9f0743"
+  }, 
+  {
+    "Changes:": [
+      "-                      'xdis >= 1.1.2']\n", 
+      "+                      'xdis >= 1.1.3']\n"
+    ], 
+    "Message:": "JUMP_IF_{TRUE,FALSE}_OR_OP fixes", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rocky/python-uncompyle6/commit/460ad129cc954e438f57e13e58dc11620eefc671", 
+    "Commit Corrections:": "https://github.com/rocky/python-uncompyle6/commit/622f83970b48e1ff61f1c4c2fcffe2562dbff1ff"
+  }, 
+  {
+    "Changes:": [
+      "-    # profissional = models.ManyToManyField(Profissional)\n", 
+      "+\n"
+    ], 
+    "Message:": "corre\u00e7\u00f5es", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dutraneto/FindDoctor/commit/87cd34e35223fff2f5eedf4f1d16921a78649973", 
+    "Commit Corrections:": "https://github.com/dutraneto/FindDoctor/commit/2d2f536e7cb9075f0d7d8126e834aab8a1e68554"
+  }, 
+  {
+    "Changes:": [
+      "-            imageId = anchore.anchore_utils.discover_imageId(config['anchore_config'], name).keys()[0]\n", 
+      "+            imageId = anchore.anchore_utils.discover_imageId(name).keys()[0]\n"
+    ], 
+    "Message:": "update some helper scripts and ability to stage files run commands a get files from a container instance\n\nSigned-off-by: Daniel Nurmi <nurmi@anchore.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/anchore/anchore/commit/91a4a69e9a7f0fb5c61f4a6c7df01b0ac85c6398", 
+    "Commit Corrections:": "https://github.com/anchore/anchore/commit/387114e89917a213f09b9c286105fd0fce41c710"
+  }, 
+  {
+    "Changes:": [
+      "-    autores = \" E. Escalante, S. Ramos-Sanchez\"\n", 
+      "+    autores = \" E. Escalante-Notario, S. Ramos-S\u00e1nchez\"\n"
+    ], 
+    "Message:": "Actulizaci\u00f3n del prompt", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/elhacs/Dynkin/commit/4b8118c021ba292cda463008b17ee01bad44a4c3", 
+    "Commit Corrections:": "https://github.com/elhacs/Dynkin/commit/4e6e157619fedcebce12c777146ab0346f6acdbd"
+  }, 
+  {
+    "Changes:": [
+      "-                                for p in range(len(buckets[b])):\n", 
+      "+                                for p in range(len(test_data_buckets[b])):\n"
+    ], 
+    "Message:": "Minor fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/UltimateBeaver/handwriting_recognition/commit/140c20be33329e62b190c90f5f36ee2d4b18d73b", 
+    "Commit Corrections:": "https://github.com/UltimateBeaver/handwriting_recognition/commit/f1ac9e004a74891f98c7f820045d35a386e125ea"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\t\tr = requests.get(\"https://cdeservice.mybluemix.net:443/api/v1/messages/count?q=\" + term + \"%20posted%3A\" + last_year.strftime('%Y-%m-%d') + \"%2C\" + last_year.strftime('%Y-%m-%d'), auth=('ecb43b4d-9287-4653-a7dc-ac617d52ba4a', 'QBUITT8wAZ'))\n", 
+      "+\t\t\t\tr = requests.get(\"https://cdeservice.mybluemix.net:443/api/v1/messages/count?q=\" + term + \"%20posted%3A\" + last_year.strftime('%Y-%m-%d') + \"%2C\" + last_year.strftime('%Y-%m-%d'), auth=('c729c38b-5e84-4fc4-aa05-c49ad827373e', 'FPNfFUD5gd'))\n"
+    ], 
+    "Message:": "new password", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/patrick-ogrady/banshee/commit/9c9ed58a6d18d523983bcdd55e88793c0b399127", 
+    "Commit Corrections:": "https://github.com/patrick-ogrady/banshee/commit/e1e6459958f44ca5efe8e8f80507ed19af126871"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = \"0.0.2.47\"\n", 
+      "+__version__ = \"0.0.2.50\""
+    ], 
+    "Message:": "code fix for final update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/1a1a11a/mimircache/commit/55dfac1e4d515c35ca3175fcc6eb8e5909b85b56", 
+    "Commit Corrections:": "https://github.com/1a1a11a/mimircache/commit/04e697139bcfd4154076083a79ed0d49259e44f8"
+  }, 
+  {
+    "Changes:": [
+      "-    def make_img_url(self, url=\"http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/%(lon)s,%(lat)s%(icon)s\", **kwargs):\n", 
+      "+    def make_img_url(self, url=\"//maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/%(lon)s,%(lat)s%(icon)s\", **kwargs):\n"
+    ], 
+    "Message:": "remove http from map urls ... https move / no errors", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/OpenTransitTools/otp_client_py/commit/c8f08db3f1ccf48585e89805b76ae74edcc985a4", 
+    "Commit Corrections:": "https://github.com/OpenTransitTools/otp_client_py/commit/680f92842f2a3f6eb84e1205dc0a06481f5354bd"
+  }, 
+  {
+    "Changes:": [
+      "-            bver = strip_ansible_version(ddict['body'])\n", 
+      "+            bver = strip_ansible_version(ddict['body'], logprefix=logprefix)\n"
+    ], 
+    "Message:": "checkin", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jctanner/pr-triage/commit/52a30b55f74b2c6c16cf10ac6cf45f87bb63995d", 
+    "Commit Corrections:": "https://github.com/jctanner/pr-triage/commit/b2adceef00074dbec1e13e868783243aed3db865"
+  }, 
+  {
+    "Changes:": [
+      "-                   \"ProductoTensorial\", \"Rompimiento\"\n", 
+      "+                   \"ProductoTensorial\", \"Rompimiento\", \"Nombre\"\n"
+    ], 
+    "Message:": "Se agrego el comando Nombre", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/elhacs/Dynkin/commit/9e71fe4e3e581a373c4439ad432686b650bcd2a2", 
+    "Commit Corrections:": "https://github.com/elhacs/Dynkin/commit/c91ebabffe06da4d1e6a290383e81b63b95a9fa3"
+  }, 
+  {
+    "Changes:": [
+      "-class bdist_launcher(distutils.cmd.Command):\n", 
+      "+class bdist_launcher(distutils.cmd.Command):  # pylint: disable=too-many-instance-attributes\n"
+    ], 
+    "Message:": "style: pylint findings", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/zsquareplusc/python-embedded-launcher/commit/5d16b062d4f67db1dd1426645d5d67cda5548325", 
+    "Commit Corrections:": "https://github.com/zsquareplusc/python-embedded-launcher/commit/bb8a50d49398fde8f6d8b761c0fe3859a968b423"
+  }, 
+  {
+    "Changes:": [
+      "-            turn = turn % (INPUT_DEPTH - 1)\n", 
+      "+            turn = turn % (INPUT_DEPTH - 1)\n"
+    ], 
+    "Message:": "read_data modified", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cgao3/pnnhex/commit/3fb5ceaffd9aab75cc08a7090346df40fe1e133a", 
+    "Commit Corrections:": "https://github.com/cgao3/pnnhex/commit/d9d2fbbe282a06a4de6a2e8c206275341cab72c5"
+  }, 
+  {
+    "Changes:": [
+      "-        h = -self.x[2]\r\n", 
+      "+        h = -self.dynamics.x[2]\r\n"
+    ], 
+    "Message:": "bug fix: h = self.dynamics.x[2] and not self.x[2]", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/savadha2/PyUAVSim/commit/25f7fbe6ac9662ad57bf1ad4f49cd5a0974318f7", 
+    "Commit Corrections:": "https://github.com/savadha2/PyUAVSim/commit/81a6551c0c3c689f0a56453a0f2d82c1d52085bb"
+  }, 
+  {
+    "Changes:": [
+      "-            self.set_pitch(self.config['delta_e_max_deg'] * np.pi/180.)\r\n", 
+      "+            self.set_pitch(self.config['error_theta_max_deg'] * np.pi/180 * 0.5)\r\n"
+    ], 
+    "Message:": "use error_theta_max_deg instead of delta_e_max_deg for take off", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/savadha2/PyUAVSim/commit/4c19c6266f440506bf7c2b992e762a03d6159b5f", 
+    "Commit Corrections:": "https://github.com/savadha2/PyUAVSim/commit/c2da7f295cb6513b1060957c44f32e23d2acac03"
+  }, 
+  {
+    "Changes:": [
+      "-\tsock.connect((server, port))\n", 
+      "+\tsock.connect((server, port))\n"
+    ], 
+    "Message:": "Timeout before connect", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/janecz-n/python-whois/commit/a679a5b5c695aea508b55eb9a9f0bcf3f58a0016", 
+    "Commit Corrections:": "https://github.com/janecz-n/python-whois/commit/c4363217c3fc3a0803ad8a3deef6b2b157d1d77b"
+  }, 
+  {
+    "Changes:": [
+      "-    return [line.strip() for line in content.strip().splitlines()]\n", 
+      "+    return content.splitlines()\n"
+    ], 
+    "Message:": "When splitting RT content into lines, don't strip whitespace\n\nThis supports multiline values, which use indentation to group their\ncontinuation lines.\n\nAlso, it's seems more correct in some sense to change the values saved\nin RT as little as possible, even though stripping whitespace seems\ncleaner.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/PSU-OIT-ARC/rt/commit/daf396a478c36b340d23db13f6680cb99c115a29", 
+    "Commit Corrections:": "https://github.com/PSU-OIT-ARC/rt/commit/1e39e18996f212b6cb5cfb24b26094ef882c4ea6"
+  }, 
+  {
+    "Changes:": [
+      "-from . import util, patch, rommap, struct, text\n", 
+      "+from . import util, patch, rommap, struct, text, bsmonkey\n"
+    ], 
+    "Message:": "Monkeypatch bitstring to let romlib add types.\n\nThis is evil but it works.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/andrew-vant/romlib/commit/72723fec5c2bc1df3907bc71fae558ce5aa96803", 
+    "Commit Corrections:": "https://github.com/andrew-vant/romlib/commit/48da55fe5c61c1836965d549930b7d67387d5a75"
+  }, 
+  {
+    "Changes:": [
+      "-            \"traces\": derivatives,\n", 
+      "+            \"modeled_traces\": derivatives,\n"
+    ], 
+    "Message:": "Add date to cache and logging to weather source; fix fetching bug.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/impactlab/eemeter/commit/8ae0ba5a4963c652b120f3788dd2b1030b02caf9", 
+    "Commit Corrections:": "https://github.com/impactlab/eemeter/commit/52501d5ca5a5bddbb2757b20cfb29ac737d547d6"
+  }, 
+  {
+    "Changes:": [
+      "-    multiline_fields = ('Text',)\n", 
+      "+    multiline_fields = ('Content', 'Text')\n"
+    ], 
+    "Message:": "Add initial support for the tickekt/<id>/history operation", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/PSU-OIT-ARC/rt/commit/84884598216ac6e006197110c875e80a7c5bde02", 
+    "Commit Corrections:": "https://github.com/PSU-OIT-ARC/rt/commit/3aa43d2c269bd86aeb441783583d227ec9e70193"
+  }, 
+  {
+    "Changes:": [
+      "-from .data import RTData\n", 
+      "+from .data import RTData, RTMultipartData\n"
+    ], 
+    "Message:": "Add support for multipart RT responses\n\nSome RT operations return multiple results separated by `\\n--\\n\\n`.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/PSU-OIT-ARC/rt/commit/1e39e18996f212b6cb5cfb24b26094ef882c4ea6", 
+    "Commit Corrections:": "https://github.com/PSU-OIT-ARC/rt/commit/9dbb04e35d4fdf0f92d69f5471586e6ee909ef92"
+  }, 
+  {
+    "Changes:": [
+      "-                    'when using the NEWTON fitter.', float),\n", 
+      "+                    'when using the NEWTON fitter.  A value of zero disables damping.', float),\n"
+    ], 
+    "Message:": "Bug fix for fix_background option in localize().", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fermiPy/fermipy/commit/e73f5d94218293d1e08aeaf8f4dafbff7b3ebae5", 
+    "Commit Corrections:": "https://github.com/fermiPy/fermipy/commit/a9b3d08c37de5363c2c3dcdee8a52d70466b051c"
+  }, 
+  {
+    "Changes:": [
+      "-            plt.quiver(face.pos[0], face.pos[1], face.pos[0]+(5.*face.norm[0]), face.pos[1]+(5.*face.norm[1]),\n", 
+      "+            plt.quiver(face.pos[0], face.pos[1], 5.*face.norm[0], 5.*face.norm[1],\n"
+    ], 
+    "Message:": "Correct the x,y components of the interface norms in plot.bonds2d", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ajkerr0/kappa/commit/20502930e976d5bd56c70619d2b522565133e4ff", 
+    "Commit Corrections:": "https://github.com/ajkerr0/kappa/commit/e3993483ecad01388f72492bc87422ff0c834b78"
+  }, 
+  {
+    "Changes:": [
+      "-    Action MoveTo: Arr\u00eate le robot\n", 
+      "+    Action MoveTo: D\u00e9place le robot vers une position cible\n"
+    ], 
+    "Message:": "erreur doc: d\u00e9finition de MoveTo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/AlexandraMercier/StrategyIA/commit/38135e5c903c96fd49a4fe8a97a7d84e9e28fcbc", 
+    "Commit Corrections:": "https://github.com/AlexandraMercier/StrategyIA/commit/5d279ba5c28354378855bfb5bc288326014b46b3"
+  }, 
+  {
+    "Changes:": [
+      "-      return self.Branches.Met_et[0]*0.001\n", 
+      "+      return self.Branches.met_nom_Nominal__met[0]*0.001\n"
+    ], 
+    "Message:": "Update TupleReader.py\n\nChanging MET branch name", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/iskya/atlas-outreach-data-tools-framework/commit/686849e5c513db3eb073928aa271f2f833688891", 
+    "Commit Corrections:": "https://github.com/iskya/atlas-outreach-data-tools-framework/commit/99d648da27e51e93878fd4ae927880dabc0932fe"
+  }, 
+  {
+    "Changes:": [
+      "-        if 'username' in userinfo:\n", 
+      "+        if 'username' in userinfo and userinfo['username']:\n"
+    ], 
+    "Message:": "Ignore username if empty", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/shopkick/Flask-AppBuilder/commit/b10eb88a76ada6ac2891d3b9c63a3a631f79b38f", 
+    "Commit Corrections:": "https://github.com/shopkick/Flask-AppBuilder/commit/acd47ad3b6f01c6cde56eabb6b3f47e8861855b7"
+  }, 
+  {
+    "Changes:": [
+      "-            #   File \"/home/user/pwntools/pwnlib/tubes/process.py\", line 112, in can_recv_raw\n", 
+      "+            #   File \"/home/user/binjitsu/pwnlib/tubes/process.py\", line 112, in can_recv_raw\n"
+    ], 
+    "Message:": "Replace process module with copy from Binjitsu", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/binjitsu/binjitsu/commit/33cdabf0ab51dd7d5a32de1b5c0284fce75ed8e6", 
+    "Commit Corrections:": "https://github.com/binjitsu/binjitsu/commit/9e983c0bb7defa063e39a8ff92d1dd4e97112250"
+  }, 
+  {
+    "Changes:": [
+      "-    query = bzapi.url_to_query(\"\")\n", 
+      "+    query = bzapi.url_to_query(bz_query_url)\n"
+    ], 
+    "Message:": "fix bugzilla script", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mmohrhard/crash/commit/cdc60f5fde469b1baffbc0625ef619c9422539bf", 
+    "Commit Corrections:": "https://github.com/mmohrhard/crash/commit/4b27fbba00f4765f5f1cab479862cbf64978ec64"
+  }, 
+  {
+    "Changes:": [
+      "-    \"\"\"Leaky rectifier :math:`\\\\varphi(x) = \\\\max(\\\\alpha \\\\cdot x, x)`\n", 
+      "+    \"\"\"Leaky rectifier :math:`\\\\varphi(x) = (x > 0)? x : \\\\alpha \\\\cdot x`\n"
+    ], 
+    "Message:": "Update LeakyRectify docstring", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/kli-nlpr/Lasagne/commit/678f49522cd4ced63885d2d0a4005e9891a7ce15", 
+    "Commit Corrections:": "https://github.com/kli-nlpr/Lasagne/commit/3d8a0e2ba176fb0bdf3aea812274eb8a50d66606"
+  }, 
+  {
+    "Changes:": [
+      "-html_theme = 'sphinx_rtd_theme'\n", 
+      "+html_theme = 'classic'\n"
+    ], 
+    "Message:": "'classic theme with color options'", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tghastly/Pynq/commit/dca28dd5ce1405533f27405b08ed08b1230ef717", 
+    "Commit Corrections:": "https://github.com/tghastly/Pynq/commit/4d84081f593d84d62d8d6484c248d3e0e3f126bf"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\t\traise Exception(\"Unrecognized combination of number of qubits, CNOT not supported for > 3 entangled qubits currently\")\n", 
+      "+\t\t\t\traise Exception(\"Unrecognized combination of number of qubits\")\n"
+    ], 
+    "Message:": "some minor updates in code.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/corbett/QuantumComputing/commit/a38b021e79f52a6ad74545b341cd4dd4b11563b1", 
+    "Commit Corrections:": "https://github.com/corbett/QuantumComputing/commit/62beab937db1eb5b1f6da3c49d19bee6994cbbfe"
+  }, 
+  {
+    "Changes:": [
+      "-    self.b = np.random.rand(n_out)\n", 
+      "+    self.b = np.zeros(n_out)\n"
+    ], 
+    "Message:": "b = 0.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/farmAvocado/neural-network/commit/3601de16a18872d6c8da38672571d1b06c6ce3e8", 
+    "Commit Corrections:": "https://github.com/farmAvocado/neural-network/commit/ec23e6271d8d909122fbcfe7ca9c17c6e52bfefb"
+  }, 
+  {
+    "Changes:": [
+      "-                      'xdis >= 1.1.2']\n", 
+      "+                      'xdis >= 1.1.3']\n"
+    ], 
+    "Message:": "Merge pull request #33 from rocky/python-2.6\n\nPython 2.6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rocky/python-uncompyle6/commit/fe8000e02a5e6b85171b3f2138cfbe3fb8701545", 
+    "Commit Corrections:": "https://github.com/rocky/python-uncompyle6/commit/1ce1cf87a4f386d3502cf4526592d752a05599af"
+  }, 
+  {
+    "Changes:": [
+      "-#Note the country code is needed for the latter (SI is for stocks listed in Singapore Stock Exchange)\n", 
+      "+# Note the country code is needed for the latter (SI is for stocks listed in Singapore Stock Exchange)\n"
+    ], 
+    "Message:": "Update CompareStocks.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mapattacker/stocks/commit/13b9012fc9ee3f5fbe46ca7efc80d3bd061e8da3", 
+    "Commit Corrections:": "https://github.com/mapattacker/stocks/commit/3b7e78215355b0a33077974b7ee33c9d339a9139"
+  }, 
+  {
+    "Changes:": [
+      "-    ``collections.MutableMapping`` as well as dict's ``copy``. Also\n", 
+      "+    ``MutableMapping`` as well as dict's ``copy``. Also\n", 
+      "-\n"
+    ], 
+    "Message:": "typo in docs", 
+    "Additions:": 1, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/qadium-memex/CommonCrawlJob/commit/cd7e60b8f26f8c688a640d36b783ec6afb6eca74", 
+    "Commit Corrections:": "https://github.com/qadium-memex/CommonCrawlJob/commit/e3a249fbfa6e339ed1a7883c13c66cad609bd9f4"
+  }, 
+  {
+    "Changes:": [
+      "-    \"\"\"Represent the origin of an event.\"\"\"\n", 
+      "+    \"\"\"Represent the current state of Home Assistant.\"\"\"\n"
+    ], 
+    "Message:": "Update documentation for CoreState enum.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/home-assistant/home-assistant/commit/3a91996445dedcd6d28aaec510887fbce6c8ce12", 
+    "Commit Corrections:": "https://github.com/home-assistant/home-assistant/commit/1e0156060705d78de3720587c97b85ed9395a3c4"
+  }, 
+  {
+    "Changes:": [
+      "-        print _(\"\"\"%(message)sUsage: roundup-admin [options] [<command> <arguments>]\n", 
+      "+        sys.stdout.write( _(\"\"\"%(message)sUsage: roundup-admin [options] [<command> <arguments>]\n", 
+      "-\"\"\")%locals()\n", 
+      "+\"\"\")%locals())\n", 
+      "-        print _('Commands:'),\n", 
+      "+        sys.stdout.write( _('Commands: '))\n", 
+      "-        print '\\n'.join(commands)\n", 
+      "-        print\n", 
+      "+        sys.stdout.write('\\n'.join(commands) + '\\n\\n')\n", 
+      "-                print _('%(key)s: %(value)s (key property)')%locals()\n", 
+      "+                sys.stdout.write( _('%(key)s: %(value)s (key property)\\n')%locals() )\n", 
+      "-                print _('%(key)s: %(value)s')%locals()\n", 
+      "+                sys.stdout.write( _('%(key)s: %(value)s\\n')%locals() )\n", 
+      "-            print cl.create(**props)\n", 
+      "+            sys.stdout.write(cl.create(**props) + '\\n')\n", 
+      "-                print _('No such Role \"%(role)s\"')%locals()\n", 
+      "+                sys.stdout.write( _('No such Role \"%(role)s\"\\n')%locals() )\n", 
+      "-                print _('New Web users get the Roles \"%(role)s\"')%locals()\n", 
+      "+                sys.stdout.write( _('New Web users get the Roles \"%(role)s\"\\n')%locals() )\n", 
+      "-                print _('New Web users get the Role \"%(role)s\"')%locals()\n", 
+      "+                sys.stdout.write( _('New Web users get the Role \"%(role)s\"\\n')%locals() )\n", 
+      "-                print _('New Email users get the Roles \"%(role)s\"')%locals()\n", 
+      "+                sys.stdout.write( _('New Email users get the Roles \"%(role)s\"\\n')%locals() )\n", 
+      "-                print _('New Email users get the Role \"%(role)s\"')%locals()\n", 
+      "+                sys.stdout.write( _('New Email users get the Role \"%(role)s\"\\n')%locals() )\n", 
+      "-            print _('Role \"%(name)s\":')%role.__dict__\n", 
+      "+            sys.stdout.write( _('Role \"%(name)s\":\\n')%role.__dict__ )\n", 
+      "-                        print _(' %(description)s (%(name)s for \"%(klass)s\"'\n", 
+      "-                          ': %(properties)s only)')%d\n", 
+      "+                        sys.stdout.write( _(' %(description)s (%(name)s for \"%(klass)s\"' +\n", 
+      "+                          ': %(properties)s only)\\n')%d )\n", 
+      "-                        print _(' %(description)s (%(name)s for \"%(klass)s\" '\n", 
+      "-                            'only)')%d\n", 
+      "+                        sys.stdout.write( _(' %(description)s (%(name)s for \"%(klass)s\" ' +\n", 
+      "+                            'only)\\n')%d )\n", 
+      "-                    print _(' %(description)s (%(name)s)')%d\n", 
+      "+                    sys.stdout.write( _(' %(description)s (%(name)s)\\n')%d )\n"
+    ], 
+    "Message:": "Adding some tests for admin.py. Specifically for issue2550572: setting\n  nosy=+foo on multiple issues gives them all the same exact nosy\n  list.\n\nTo make this work had to change the admin.py code to use\n\"sys.stdout.write\" in place of \"print\". In the test I now hijack\nstdout.write following an existing example of this for admin's\nimport/export command that hijacks sys.stderr.write.\n\nAlso I corrected a misspelling in security.py. The word \"everything\"\nwas misspelled. It is not inside _() markers so I don't think it's\ngoing to affect translation and grepping the locale subdir doesn't\nshow the original string.", 
+    "Additions:": 18, 
+    "Deletions:": 19, 
+    "Commit Mistakes:": "https://github.com/roundup-tracker/roundup/commit/afa5748fa03ea9df115c134dedddb5826e605252", 
+    "Commit Corrections:": "https://github.com/roundup-tracker/roundup/commit/d728121d33e3307c60f67b9e474762ef021cf5f4"
+  }, 
+  {
+    "Changes:": [
+      "-                \"--no-systemd\"]) == \"\"\n", 
+      "+                \"--no-systemd\"]) == \"kernel.auto_msgmni = 1\\n\"\n"
+    ], 
+    "Message:": "Try with new output.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/orsenthil/dcos/commit/b6630bdb90f6284fcb14bde2c9271ff2dc95b9b5", 
+    "Commit Corrections:": "https://github.com/orsenthil/dcos/commit/f63069d17cb56fd76cf0e17320b014e1eb883f42"
+  }, 
+  {
+    "Changes:": [
+      "-        listWidgetItem = QtGui.QListWidgetItem(self.chat)\n", 
+      "+        listWidgetItem = QtWidgets.QListWidgetItem(self.chat)\n", 
+      "-        self.markSystem.connect(self.parent.markSystemOnMap)\n", 
+      "+        entry.markSystem.connect(self.parent.markSystemOnMap)\n"
+    ], 
+    "Message:": "Fix minor SystemChat typo from Qt5 conversion", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/3vi1/vintel/commit/3703270799bd25ce43bb80d3f4f93568610fa802", 
+    "Commit Corrections:": "https://github.com/3vi1/vintel/commit/2fc223bc4f1c18c09b78fcce8831622e865e777c"
+  }, 
+  {
+    "Changes:": [
+      "-            print(*args)\r\n", 
+      "+            print(self.out_addr[1], *args)\r\n"
+    ], 
+    "Message:": "Add routing table conflict resolution", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/gappleto97/p2p-project/commit/5f132f666459cdf14d8f1ffc655faaa919c6431b", 
+    "Commit Corrections:": "https://github.com/gappleto97/p2p-project/commit/db72fb2753a424374b8c9277d554e82461f5e310"
+  }, 
+  {
+    "Changes:": [
+      "-            'disp': True, 'stepsize': .05, 'niter_success': 30, 'tol': 1.e-5, 'method': 'TNC'}\n", 
+      "+            'disp': False, 'stepsize': .05, 'niter_success': 30, 'tol': 1.e-5, 'method': 'TNC'}\n"
+    ], 
+    "Message:": "Merge pull request #21 from CoAxLab/dev\n\nDev", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CoAxLab/radd/commit/8d8cbfd4e6a6df706439e64e200e4e62bdcdae62", 
+    "Commit Corrections:": "https://github.com/CoAxLab/radd/commit/0b6bb954605a8c065406dd80837deea2bd727558"
+  }, 
+  {
+    "Changes:": [
+      "-with open('settings/config.py', 'w+') as f:\n", 
+      "+with open('settings/config.py', 'a') as f:\n"
+    ], 
+    "Message:": "Fix in  postinstall", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/paramecio/pastafari/commit/4ddbd0f6534bce2862e43ed72463809c6c172db0", 
+    "Commit Corrections:": "https://github.com/paramecio/pastafari/commit/2a545f22a9b8a7700ecabfa5afc148defebedaf6"
+  }, 
+  {
+    "Changes:": [
+      "-if info_data:\n", 
+      "+if info_data and not args.overlap:\n"
+    ], 
+    "Message:": "Don't reference anchor in overlap mode", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tdaede/awcy/commit/37820db84b1e4b8b73c68b9a5bbe7d0dbea72d0d", 
+    "Commit Corrections:": "https://github.com/tdaede/awcy/commit/62669cbe745d44d9bfc22acc43d7e39680fd6f2e"
+  }, 
+  {
+    "Changes:": [
+      "-        print '    removing %d genes that aren\\'t in <only_genes> (%s)' % (len(genes_to_remove), ' '.join(genes_to_remove))\n", 
+      "+        print '    removing %d genes from glfo' % len(genes_to_remove)\n"
+    ], 
+    "Message:": "restrict also to alleles observed in hmm step", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/psathyrella/partis/commit/b989d0c85e9c9f0d53d276fc51cd04778dc5d945", 
+    "Commit Corrections:": "https://github.com/psathyrella/partis/commit/a0c1b03b9b5dafcb8eae8ef6f763a3d4d2f8c7e1"
+  }, 
+  {
+    "Changes:": [
+      "-def run(state, bfs, max_iterations = 10000):\n", 
+      "+def run(state, bfs, max_iterations = 30000):\n"
+    ], 
+    "Message:": "Make it more likely that we get convergence.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/GallagherCommaJack/markets/commit/1d487a8d1043d0f787e1aa514524d2e60a3891dd", 
+    "Commit Corrections:": "https://github.com/GallagherCommaJack/markets/commit/d30a4990c663416813c01df1d5b5751462f45134"
+  }, 
+  {
+    "Changes:": [
+      "-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')\n", 
+      "+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')\n"
+    ], 
+    "Message:": "settings change", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pacocampo/demo-scrapper/commit/16c4847cf4f4b3a8d4016cd2320696008b1077d4", 
+    "Commit Corrections:": "https://github.com/pacocampo/demo-scrapper/commit/19fc29748ceae86fd8734d465bc038cf70c9c8c3"
+  }, 
+  {
+    "Changes:": [
+      "-    os.path.join(PROJECT_ROOT, 'static'),\n", 
+      "+    os.path.join(PROJECT_ROOT, 'scrapper/static'),\n"
+    ], 
+    "Message:": "settings change", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pacocampo/demo-scrapper/commit/19fc29748ceae86fd8734d465bc038cf70c9c8c3", 
+    "Commit Corrections:": "https://github.com/pacocampo/demo-scrapper/commit/4efa4169e7fbb2cba8ab14005809a7e228826d9b"
+  }, 
+  {
+    "Changes:": [
+      "-STATIC_URL = '/static/'\n", 
+      "+STATIC_URL = 'static/'\n"
+    ], 
+    "Message:": "settings change", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pacocampo/demo-scrapper/commit/4efa4169e7fbb2cba8ab14005809a7e228826d9b", 
+    "Commit Corrections:": "https://github.com/pacocampo/demo-scrapper/commit/d2cb9e25209963d0282d9a464935c3fa2d23f705"
+  }, 
+  {
+    "Changes:": [
+      "-    missed_matches = []\n", 
+      "+    missed_matches = [] #todo: load from file don't start empty if u can\n"
+    ], 
+    "Message:": "start of mutliprocessing changes", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/daendinam/mmr-predict/commit/6a43eb405d3aed566e6250f0c83ed4e0306b35dd", 
+    "Commit Corrections:": "https://github.com/daendinam/mmr-predict/commit/76f167eaa00c2d96cf0710066fbd0bc5173db02d"
+  }, 
+  {
+    "Changes:": [
+      "-        assert output == \"kernel.auto_msgmni = 1\\n\"\n", 
+      "+        assert output == b'kernel.auto_msgmni = 0\\n'\n"
+    ], 
+    "Message:": "test_setup.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/orsenthil/dcos/commit/7ab624a0e4c73fc86b493aab9419f45bc30f648f", 
+    "Commit Corrections:": "https://github.com/orsenthil/dcos/commit/c9509f2a4133a2e1cd2c52db5e2cbc2af29df3e2"
+  }, 
+  {
+    "Changes:": [
+      "-    permission_classes = [permissions.IsAuthenticated,]# TokenHasScope]\n", 
+      "+    permission_classes = [permissions.IsAuthenticated, ]  # TokenHasScope]\n"
+    ], 
+    "Message:": "Merge branch 'develop' of https://github.com/CenterForOpenScience/SHARE into biomedcentral", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/caseyrollins/SHARE/commit/9073771c10dacfa91e29a0d55ea22a35b342b748", 
+    "Commit Corrections:": "https://github.com/caseyrollins/SHARE/commit/5264a14d02083cf4a3e843f16cef7a0ebe259b33"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.0.18'\n", 
+      "+__version__ = '0.0.19'\n"
+    ], 
+    "Message:": "fixed css", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CoAxLab/radd/commit/5a4954f0c582695655c40698332336be8e67112a", 
+    "Commit Corrections:": "https://github.com/CoAxLab/radd/commit/846f8f7f8ae09a73a4d439ca454e9b0329487893"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+        super(WageStatement, self).save()\n"
+    ], 
+    "Message:": "Production Summary, added Seconds processing", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/DustinHolden/Anthos/commit/14a2778c883743791ac1cceb3b55063f0a08550a", 
+    "Commit Corrections:": "https://github.com/DustinHolden/Anthos/commit/ca581a436aaabb326d26c8de9a15b5a6958cf2ab"
+  }, 
+  {
+    "Changes:": [
+      "-                html += ' <a href=\"' + image.url + '\">'\n", 
+      "+                html += '> <a target=\"_blank\" href=\"' + image.url + '\">'\n"
+    ], 
+    "Message:": "New version 0.0.5", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mapeveri/django-advertising/commit/164f21a35e409d5ccf86ccc58a5fea0ee3ddb159", 
+    "Commit Corrections:": "https://github.com/mapeveri/django-advertising/commit/59e75d1af621b11054554f75010a35f8dc6757ab"
+  }, 
+  {
+    "Changes:": [
+      "-        self.node.reload()\n"
+    ], 
+    "Message:": "Remove redundant reload", 
+    "Additions:": 0, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/erinspace/osf.io/commit/7ab25eda4b2879c2259859493c3117de3b424fbd", 
+    "Commit Corrections:": "https://github.com/erinspace/osf.io/commit/925925726b29909dc91365b140a330f1021f857e"
+  }, 
+  {
+    "Changes:": [
+      "-                    subprocess.call(['raspistill', '-t 500 -o',  \"{0}{1}\".format(BUDGIE_FILE_PATH, budgie_filename)])\n", 
+      "+                    subprocess.call(['raspistill', '-t', '500', '-o', \"{0}{1}\".format(BUDGIE_FILE_PATH, budgie_filename)])\n"
+    ], 
+    "Message:": "Fixed subprocess args call", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/shannonturner/budgie-cam/commit/d7460fc632d0f34fae50009a9fa790d4dfeb37fe", 
+    "Commit Corrections:": "https://github.com/shannonturner/budgie-cam/commit/5433b51fa30b78829e4201a8171738423a7cbc59"
+  }, 
+  {
+    "Changes:": [
+      "+        print(\"<h2>Resistor Module</h>\")\n", 
+      "-print(sys.stdin)\n"
+    ], 
+    "Message:": "Added header to resistor module", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sbs0034/AUCMS2.0/commit/1f999bf94defb3bf179c87ab6dddf77df0bf58ce", 
+    "Commit Corrections:": "https://github.com/sbs0034/AUCMS2.0/commit/86363c56e91951ac8f2c8361abe0817635376f74"
+  }, 
+  {
+    "Changes:": [
+      "-      if total_time > 1e-3:\n", 
+      "+      if total_time > 1e-2:\n"
+    ], 
+    "Message:": "Reduce warnings.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/GallagherCommaJack/markets/commit/d30a4990c663416813c01df1d5b5751462f45134", 
+    "Commit Corrections:": "https://github.com/GallagherCommaJack/markets/commit/088f1398bb97df949715025b46829a0a52812673"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.0.18'\n", 
+      "+__version__ = '0.0.19'\n"
+    ], 
+    "Message:": "Merge pull request #22 from CoAxLab/dev\n\nfixed css", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CoAxLab/radd/commit/0b6bb954605a8c065406dd80837deea2bd727558", 
+    "Commit Corrections:": "https://github.com/CoAxLab/radd/commit/a93cd90d6367747c1aaae3fb68c3334053b29b47"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '1.1.0'\n", 
+      "+__version__ = '1.1.1'"
+    ], 
+    "Message:": "Bump version to 1.1.1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/imgix/imgix-python/commit/25ba33f7fb6535345ef9b4b94ca8055945ea9528", 
+    "Commit Corrections:": "https://github.com/imgix/imgix-python/commit/f558ef022df3df94696dc295aa53b56b59d0f9a0"
+  }, 
+  {
+    "Changes:": [
+      "-        self.port = serial.Serial('/dev/arduino_rew', baudrate=self.baudrate_rew)\n", 
+      "+        self.port = serial.Serial('/dev/ttyACM0', baudrate=self.baudrate_rew)\n"
+    ], 
+    "Message:": "minor ttl_reward_w_arduino update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/carmenalab/brain-python-interface/commit/4817126531f96a0350aa55fa632c67cf4a1c768d", 
+    "Commit Corrections:": "https://github.com/carmenalab/brain-python-interface/commit/0bd87af7dae96ccfc205c4ed704f1a56349a2ade"
+  }, 
+  {
+    "Changes:": [
+      "-            GroupMeFunctions.send_bot_message_to_group(\"ea63c2edce6573ade27bf74f47\", \"Make America Great Again\")\n", 
+      "+            GroupMeFunctions.send_bot_message_to_group(\"a3352836af6e2ceb8ff03d1a2b\", \"Make America Great Again\")\n"
+    ], 
+    "Message:": "no message", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dstars5/django-projects/commit/25864b73fa48de1b523da97e166e6cb356344333", 
+    "Commit Corrections:": "https://github.com/dstars5/django-projects/commit/6297b91634872d36dd29ca72805d3979b22947a9"
+  }, 
+  {
+    "Changes:": [
+      "-\tif date_from > date_to:\n", 
+      "+\tif date_from >= date_to:\n"
+    ], 
+    "Message:": "Implement predictivepunter.test.date_utils.DatesTest.test_equal", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/justjasongreen/predictivepunter/commit/b15cb344ccff023649d4d1eb174c6feb223d1ee2", 
+    "Commit Corrections:": "https://github.com/justjasongreen/predictivepunter/commit/3be629c1217ad2fba44d2cea6d99b8313e3486cc"
+  }, 
+  {
+    "Changes:": [
+      "-global serverNameAD5780_DCBOX; serverNameAD5780_DCBOX = \"DCBOX QUAD AD5780\" # ad5780 dcbox quad\n", 
+      "+global serverNameAD5780_DCBOX; serverNameAD5780_DCBOX = \"dcbox_quad_ad5780\" # ad5780 dcbox quad\n"
+    ], 
+    "Message:": "Changed registry name for quad dcboxes", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/afylab/Serial-Device-Manager/commit/cca6ad8a37b74fa84a4b3d746da2a1f55719640f", 
+    "Commit Corrections:": "https://github.com/afylab/Serial-Device-Manager/commit/3c3e85319dbba190a29451d176e3f2e8246c8e97"
+  }, 
+  {
+    "Changes:": [
+      "-    global warned\n", 
+      "+        global warned\n"
+    ], 
+    "Message:": "moved 'global warned' to inside the function", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/kvfrans/gym/commit/e799546b111d011d81596eda85290ee1dfbdf6dd", 
+    "Commit Corrections:": "https://github.com/kvfrans/gym/commit/121916bbdda2cf23f7a226bdb817c8369cabcdcb"
+  }, 
+  {
+    "Changes:": [
+      "-PANEL_GROUP_NAME = _('A10 Networks')\n", 
+      "+PANEL_GROUP_NAME = _('A10 ADMIN')\n"
+    ], 
+    "Message:": "More stuff.  None of this matters.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mdurrant-b3/a10-horizon/commit/5f34c70dd2aa7f5439049d8129a6ca199f8043c7", 
+    "Commit Corrections:": "https://github.com/mdurrant-b3/a10-horizon/commit/16ab96d0de68ac7267b021ccb347670a212e31a5"
+  }, 
+  {
+    "Changes:": [
+      "-PANEL_GROUP = 'a10networks'\n", 
+      "+PANEL_GROUP = 'admin'\n"
+    ], 
+    "Message:": "More panels. Still needs loading hooks", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mdurrant-b3/a10-horizon/commit/80421ef08c404f23f77fc8b370ee1f157c90f938", 
+    "Commit Corrections:": "https://github.com/mdurrant-b3/a10-horizon/commit/f61488d4903f239aa725d1d5047521d661d2e11e"
+  }, 
+  {
+    "Changes:": [
+      "-                message += separator + u'\u041f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435:' + separator\n", 
+      "+                message += separator + u'\u0418\u0442\u043e\u0433\u043e\u0432\u044b\u0435:' + separator\n"
+    ], 
+    "Message:": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0432 \u0441\u0432\u043e\u0434\u043d\u043e\u043c \u043e\u0442\u0447\u0435\u0442\u0435", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/demidrol911/medical_registry/commit/19aba20c739192c346c1ae334ddc7ee0c688fa77", 
+    "Commit Corrections:": "https://github.com/demidrol911/medical_registry/commit/6b59dd9d0538a6fb8a8993413249061cc5cbf6c3"
+  }, 
+  {
+    "Changes:": [
+      "-    The primary interface class and factory for GPUTensors\n", 
+      "+    The primary interface class and factory for GPUTensors.\n"
+    ], 
+    "Message:": "Update docstrings so that API doc has a full sentence description.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/NervanaSystems/neon/commit/a2e564e9cf1957882e5609fd4351687068b6d092", 
+    "Commit Corrections:": "https://github.com/NervanaSystems/neon/commit/879c729d830590d7625e90a21ed4bc992f259c20"
+  }, 
+  {
+    "Changes:": [
+      "-text = \"This is only a test, please ignore !\"\n", 
+      "+text = \"Necessity is the mother of invention, but cheap crap from China is the mother of reverse engineering.\"\n"
+    ], 
+    "Message:": "add", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/samisabik/Digital_Whispers/commit/86d1e5e093abb741761edd06f77d390e11064f1b", 
+    "Commit Corrections:": "https://github.com/samisabik/Digital_Whispers/commit/1cf5494d52cfa03a7f20b0c4c7e63b0a5c988a6d"
+  }, 
+  {
+    "Changes:": [
+      "-    plt.figure(3)\n", 
+      "+    plt.figure(3,figsize=(15,16))\n"
+    ], 
+    "Message:": "add figure", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yli5/bdtaunu_machine_learning/commit/1ca4afcf5c3911375616b375a8c865e81171d84f", 
+    "Commit Corrections:": "https://github.com/yli5/bdtaunu_machine_learning/commit/509e84669dbb8817262619a5fd9b4e68f688bc5b"
+  }, 
+  {
+    "Changes:": [
+      "-        act.quartiers_publique = quartiers\n", 
+      "+        act.quartiers_publique = p.quartiers.all()\n"
+    ], 
+    "Message:": "updates script", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/itievolution/cucs_2/commit/182a0830a4d9a6750854a723ad26dedeb715b1eb", 
+    "Commit Corrections:": "https://github.com/itievolution/cucs_2/commit/268d48b8b5f508e99fc4a60268e1540d2988d158"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '2.1.4.dev'\n", 
+      "+__version__ = '2.1.4'"
+    ], 
+    "Message:": "v2.1.4", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Flexget/Flexget/commit/480dc172ec701c384493e7777c6197192af6623f", 
+    "Commit Corrections:": "https://github.com/Flexget/Flexget/commit/73b1bf8c9077de0195b12896e20a94949283056d"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '2.1.4'\n", 
+      "+__version__ = '2.1.5.dev'"
+    ], 
+    "Message:": "Prepare v2.1.5.dev", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Flexget/Flexget/commit/73b1bf8c9077de0195b12896e20a94949283056d", 
+    "Commit Corrections:": "https://github.com/Flexget/Flexget/commit/40e4ff9211816eff2b40d22fa6e8b31f402606b1"
+  }, 
+  {
+    "Changes:": [
+      "-        tkinter.mainloop()\n", 
+      "+        tkinter.mainloop()"
+    ], 
+    "Message:": "Rename Run_Payroll_GUI.py to run_payroll_gui.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/JonathanSullivan78/Titan_Pay/commit/1e4b64a12c07909339aec32c5c5d8aef34c461e9", 
+    "Commit Corrections:": "https://github.com/JonathanSullivan78/Titan_Pay/commit/9dab3f65ac6da81e68dc3db14a60d7e0eb00a5f3"
+  }, 
+  {
+    "Changes:": [
+      "-        act.pilier = p.pilier.all()\n", 
+      "+        act.pilier = p.pilier\n"
+    ], 
+    "Message:": "final script update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/itievolution/cucs_2/commit/6f9db54833baa4525394e821ec9ddc0111bca2e9", 
+    "Commit Corrections:": "https://github.com/itievolution/cucs_2/commit/a499941d7a69dd619eeca89ec444263deac9aedb"
+  }, 
+  {
+    "Changes:": [
+      "-    version='22.3',\n", 
+      "+    version='23.0rc1',\n"
+    ], 
+    "Message:": "Automatic commit of release 23.0rc1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/beaker-project/beaker/commit/c02817107d959fbe33315bf5ef7be14c1230ad84", 
+    "Commit Corrections:": "https://github.com/beaker-project/beaker/commit/436d28cc3a41b5a9ff9299c1b8266efc2fff7fe8"
+  }, 
+  {
+    "Changes:": [
+      "-DEBUG = os.environ.get(\"DEBUG\")\n", 
+      "+DEBUG = False\n"
+    ], 
+    "Message:": "Merge pull request #64 from marvel-explorer/ranch\n\nChanged to debug false", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/marvel-explorer/marvel-explorer/commit/19020a600214074826a2ccd9cd6d978e6f9cb277", 
+    "Commit Corrections:": "https://github.com/marvel-explorer/marvel-explorer/commit/ca0dba2269084c64e1ed0566566c98ef2680ab63"
+  }, 
+  {
+    "Changes:": [
+      "+class InvalidBayDiscoveryURL(Invalid):\n", 
+      "+    message = _(\"Invalid discovery URL '%(discovery_url)s'.\")\n", 
+      "+\n", 
+      "+\n", 
+      "+class InvalidClusterSize(Invalid):\n", 
+      "+    message = _(\"Expected cluster size %(expect_size)d but get cluster \"\n", 
+      "+                \"size %(size)d from '%(discovery_url)s'.\")\n", 
+      "+\n", 
+      "+\n", 
+      "+class GetClusterSizeFailed(MagnumException):\n", 
+      "+    message = _(\"Failed to get the size of cluster from '%(discovery_url)s'.\")\n", 
+      "+\n", 
+      "+\n"
+    ], 
+    "Message:": "Validate discovery url when create a bay\n\nCurrently when we create a Bay, magnum is not enough to prevent bay creation failure,\ndue to Invalid discovery url can be referenced and there're no check toward it. We\nshould check the discovery url before creating bay, a 400 Invalid will be raised if\nthe discovery url is invalid:\n1.the discovery url should be a correct url of etcd cluster.\n2.the discovery url should have suitable cluster size.\n\nChange-Id: Ib75f9f2aade18b16dd46035efe139311faf93e1e", 
+    "Additions:": 13, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/openstack/magnum/commit/8654710c8b471dd5b8df3dc85942fa553a8c26a6", 
+    "Commit Corrections:": "https://github.com/openstack/magnum/commit/253f0ce48c729ac1ba823dd40fe4e9571551091c"
+  }, 
+  {
+    "Changes:": [
+      "-  return Graph.from_adj_matrix(W.astype(int))\r\n", 
+      "+  return Graph.from_adj_matrix(np.where(W, np.sqrt(D), 0))\r\n"
+    ], 
+    "Message:": "Return euclidean distance-weighted edges", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/all-umass/graphs/commit/95c48569a6f201f5484a225e75abb8b8b669918a", 
+    "Commit Corrections:": "https://github.com/all-umass/graphs/commit/6bb8d317ac333662868c4be44398fee79a084cf7"
+  }, 
+  {
+    "Changes:": [
+      "-            # print df\n", 
+      "+\t    print 'end of doSomething', df\n"
+    ], 
+    "Message:": "prints", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dhruvmittal/all_elect/commit/d0a42513638c5c1c6e0621b3386389bfa2c6bdd4", 
+    "Commit Corrections:": "https://github.com/dhruvmittal/all_elect/commit/ddae3dd30bb1c1bfec757a917ba0446b7a2e45cf"
+  }, 
+  {
+    "Changes:": [
+      "-DEBUG = os.environ.get(\"DEBUG\", True)\n", 
+      "+DEBUG = os.environ.get(\"DEBUG\")\n"
+    ], 
+    "Message:": "Debug off", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/marvel-explorer/marvel-explorer/commit/89b42917f5c67756236a502852257044e0bcf7e8", 
+    "Commit Corrections:": "https://github.com/marvel-explorer/marvel-explorer/commit/384128a6703d108723fb5e9ccdbdcebf6771b7ff"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.14.4'\n", 
+      "+__version__ = '0.14.5'"
+    ], 
+    "Message:": "Version bump.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dsoprea/GDriveFS/commit/8b531ad1d9c693a52eac5ea911e929cd01586caa", 
+    "Commit Corrections:": "https://github.com/dsoprea/GDriveFS/commit/6c65e4257d11b9875ddc5148d7f627258f054cd6"
+  }, 
+  {
+    "Changes:": [
+      "-DEBUG = os.environ.get(\"DEBUG\")\n", 
+      "+DEBUG = False\n"
+    ], 
+    "Message:": "Changed to debug false", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/marvel-explorer/marvel-explorer/commit/384128a6703d108723fb5e9ccdbdcebf6771b7ff", 
+    "Commit Corrections:": "https://github.com/marvel-explorer/marvel-explorer/commit/08974a42bc98ebae8a7c24083416a4b03f2f1a47"
+  }, 
+  {
+    "Changes:": [
+      "+            print 'spandate', span_date\n", 
+      "-            print 'spandate', span_date\n"
+    ], 
+    "Message:": "underline in result, debug flags to stdout", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dhruvmittal/all_elect/commit/2169a8ee978f3ca9c3f69009d2bcf91dbfc22361", 
+    "Commit Corrections:": "https://github.com/dhruvmittal/all_elect/commit/d6450776fe7ebb75ad362a56b4c45c3fb1207688"
+  }, 
+  {
+    "Changes:": [
+      "-    gd_to_normal_mapping_filepath       = '/etc/gdfs/mime_mapping.json'\n", 
+      "+#    gd_to_normal_mapping_filepath       = '/etc/gdfs/mime_mapping.json'\n"
+    ], 
+    "Message:": "Merge branch 'master' of github.com:dsoprea/GDriveFS", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dsoprea/GDriveFS/commit/29c2de2bee14612a5d31490608ee45d799dd41ef", 
+    "Commit Corrections:": "https://github.com/dsoprea/GDriveFS/commit/7f3cb082e7d6397d2122317656cbbd9b887cc471"
+  }, 
+  {
+    "Changes:": [
+      "-from git_deps.utils import abort\n", 
+      "+from git_deps.utils import abort, standard_logger\n"
+    ], 
+    "Message:": "move instantiation of standard logger to utils.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/aspiers/git-deps/commit/30111ddc148e8354b0c400c6314cac2628dc21dd", 
+    "Commit Corrections:": "https://github.com/aspiers/git-deps/commit/68018985d82c03d136f850e652d927b526d171ec"
+  }, 
+  {
+    "Changes:": [
+      "-    apiKey = 'sdk-7c55610f-385f-46c5-a3a6-2fdc9ccf3034'\n", 
+      "+    apiKey = 'your api key'\n"
+    ], 
+    "Message:": "cleanup", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/launchdarkly/python-client/commit/ce052170ac157e27ae021974818ff299ec8852d7", 
+    "Commit Corrections:": "https://github.com/launchdarkly/python-client/commit/2b7441022e9bca8b3964b0f073665916f59a85ec"
+  }, 
+  {
+    "Changes:": [
+      "-self.spi.max_speed_hz=spiSpeed # mcp3008 requires >10khz\n", 
+      "+spiDevice.max_speed_hz=spiSpeed # mcp3008 requires >10khz\n"
+    ], 
+    "Message:": "fixing self", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mnr/rubberfish/commit/5611e954441fab87ec91600c1e0d095cabffcd99", 
+    "Commit Corrections:": "https://github.com/mnr/rubberfish/commit/9b78a59236e7daca582f49e22c7f979cf38b5df9"
+  }, 
+  {
+    "Changes:": [
+      "-from integration.util.ssh import run_ssh\n", 
+      "+from util.ssh import run_ssh\n"
+    ], 
+    "Message:": "Running docker tests separately", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/syncloud/platform/commit/1dbf6f12f7d546d7e24eb42f31429fbe5b7e243c", 
+    "Commit Corrections:": "https://github.com/syncloud/platform/commit/9d06c3069c48f3e92bbb3f149da870a5288a2fa3"
+  }, 
+  {
+    "Changes:": [
+      "-    atsnp_data_search_url = 'http://atsnp-db3.biostat.wisc.edu:9200/atsnp_data/atsnp_output/_search'\n", 
+      "+    atsnp_data_search_url = 'http://atsnp-db1.biostat.wisc.edu:9200/atsnp_data/atsnp_output/_search'\n"
+    ], 
+    "Message:": "Put a different url in the SVG pipeline..", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/RebeccaHudson/atsnp_pipeline/commit/5dc34e94724837023cfdd6d548353bd31fabf773", 
+    "Commit Corrections:": "https://github.com/RebeccaHudson/atsnp_pipeline/commit/853f9690216f9a5d49475b0d33d3fecd4ad8afe4"
+  }, 
+  {
+    "Changes:": [
+      "-ALLOWED_HOSTS = ['.us-west-2.compute.amazonaws.com', 'localhost']\n", 
+      "+ALLOWED_HOSTS = ['*']\n"
+    ], 
+    "Message:": "Change allowed hosts.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/marvel-explorer/marvel-explorer/commit/08974a42bc98ebae8a7c24083416a4b03f2f1a47", 
+    "Commit Corrections:": "https://github.com/marvel-explorer/marvel-explorer/commit/29acba620554c05b1e6860fc07a253ad15df763d"
+  }, 
+  {
+    "Changes:": [
+      "-spiDevice.max_speed_hz=spiSpeed # mcp3008 requires >10khz\n", 
+      "+spi.max_speed_hz=spiSpeed # mcp3008 requires >10khz\n"
+    ], 
+    "Message:": "sip, not spidevice", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mnr/rubberfish/commit/9b78a59236e7daca582f49e22c7f979cf38b5df9", 
+    "Commit Corrections:": "https://github.com/mnr/rubberfish/commit/01282be9a765dcc1aec5376600ee2dc327eb3fc5"
+  }, 
+  {
+    "Changes:": [
+      "-        openFile(sys.argv[1])\n", 
+      "+        openFile(filePath)\n"
+    ], 
+    "Message:": "Fixed bug where entering a filepath would not work", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Medic5700/Py3-HexEdit-Lite/commit/02ac633ea733fe1434dce40660c70da596fe6804", 
+    "Commit Corrections:": "https://github.com/Medic5700/Py3-HexEdit-Lite/commit/63f1264250578b06cf87320788f11635f6573df2"
+  }, 
+  {
+    "Changes:": [
+      "-ALLOWED_HOSTS = ['.us-west-2.compute.amazonaws.com', 'localhost']\n", 
+      "+ALLOWED_HOSTS = ['*']\n"
+    ], 
+    "Message:": "Merge pull request #65 from marvel-explorer/ranch\n\nChange allowed hosts.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/marvel-explorer/marvel-explorer/commit/ca0dba2269084c64e1ed0566566c98ef2680ab63", 
+    "Commit Corrections:": "https://github.com/marvel-explorer/marvel-explorer/commit/8e747898ff8c65d81db1449040108711372b361a"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.14.5'\n", 
+      "+__version__ = '0.14.6'"
+    ], 
+    "Message:": "Version bump.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dsoprea/GDriveFS/commit/7f3cb082e7d6397d2122317656cbbd9b887cc471", 
+    "Commit Corrections:": "https://github.com/dsoprea/GDriveFS/commit/c66ca36bbaaa0fc1ad7329013fc86866cf604c6b"
+  }, 
+  {
+    "Changes:": [
+      "-\tprint(\"---- %s seconds ----\" %(time.time()-start_time))\n", 
+      "+\tprint(\"ANNOCHECKED ---- %s seconds ----\" %(time.time()-start_time))\n"
+    ], 
+    "Message:": "Tidy,Tidy", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Quarkins/SuperTranscript/commit/434a666266c9bd9e4f2664cd19fb8810714e7255", 
+    "Commit Corrections:": "https://github.com/Quarkins/SuperTranscript/commit/f65fa889b9128aa6d2e000d9f0ba8a9a16f6312e"
+  }, 
+  {
+    "Changes:": [
+      "-            {filename} -set colorspace RGB\\\n", 
+      "+            {filename} \\\n", 
+      "-        execute_command(\"convert {filename} -set colorspace RGB -modulate 120,10,100 -fill '#222b6d' -colorize 20\\\n", 
+      "+        execute_command(\"convert {filename} -modulate 120,10,100 -fill '#222b6d' -colorize 20\\\n", 
+      "-        execute_command('convert {filename} -set colorspace RGB -modulate 150,80,100 -gamma 1.2\\\n", 
+      "+        execute_command('convert {filename} -modulate 150,80,100 -gamma 1.2\\\n", 
+      "-        execute_command('convert {filename} -set colorspace RGB -contrast -modulate 100,150,100\\\n", 
+      "+        execute_command('convert {filename} -contrast -modulate 100,150,100\\\n", 
+      "-                        {filename} -set colorspace RGB\\\n", 
+      "+                        {filename} \\\n"
+    ], 
+    "Message:": "removed \"-set colorspace RGB\" from all filters (incorrect results would be given otherwise)", 
+    "Additions:": 5, 
+    "Deletions:": 5, 
+    "Commit Mistakes:": "https://github.com/ShadyF/theia-web/commit/0b85ae1c139d2d5231ffd09eaec228285cb6c200", 
+    "Commit Corrections:": "https://github.com/ShadyF/theia-web/commit/3a5dfb27a7d5f6656aebf961a4ee0013ae96d037"
+  }, 
+  {
+    "Changes:": [
+      "-            #if not state_changed:\n", 
+      "+            # if not state_changed:\n"
+    ], 
+    "Message:": "Fixed debug in lg_stats", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/EndPointCorp/lg_ros_nodes/commit/e37bd66ff5edfbb4984c2cdb1ed58b2c8e84b5e4", 
+    "Commit Corrections:": "https://github.com/EndPointCorp/lg_ros_nodes/commit/6c5484d5af09fbd9a057be36aba1e2afde8cda82"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+    \n"
+    ], 
+    "Message:": "Whitespace", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fish2000/libimread/commit/da83f4899c5008ce3b88ff6da647b9dcf56d2a53", 
+    "Commit Corrections:": "https://github.com/fish2000/libimread/commit/57c569cc69821a564e3acf2fd8e83d2384c4285e"
+  }, 
+  {
+    "Changes:": [
+      "-                    subprocess.call(['raspistill', '-t', '500', '-o', \"{0}{1}\".format(BUDGIE_FILE_PATH, budgie_filename)])\n", 
+      "+                    subprocess.call(['raspistill', '-t', '5000', '-o', \"{0}{1}\".format(BUDGIE_FILE_PATH, budgie_filename)])\n"
+    ], 
+    "Message:": "Changed photo delay back to 5s", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/shannonturner/budgie-cam/commit/f84a174ae71986bb1ca058695c594afb9a6ae621", 
+    "Commit Corrections:": "https://github.com/shannonturner/budgie-cam/commit/891d071cce3608f4bfea772f508a7d6394b13494"
+  }, 
+  {
+    "Changes:": [
+      "-        self.trigger = trigger\n", 
+      "+        self.trigger = Mention.load_from_JSON(trigger) if trigger else None\n"
+    ], 
+    "Message:": "Mention.trigger bug fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/myedibleenso/py-processors/commit/cccc5b0de76251d3478e0c53e4e757241acfac65", 
+    "Commit Corrections:": "https://github.com/myedibleenso/py-processors/commit/fc21db3d6f11aab358b683d8b109e928a18c35de"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.7.4'\n", 
+      "+__version__ = '0.7.5'"
+    ], 
+    "Message:": "Update version to 0.7.5", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/willthames/ansible-review/commit/d4bc3e167929beaf580c080939776d13fc3ae3a2", 
+    "Commit Corrections:": "https://github.com/willthames/ansible-review/commit/5794c21d32a4dce2a17b203e19e2d5a49aa7a6f0"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.8.0'\n", 
+      "+__version__ = '0.8.1'"
+    ], 
+    "Message:": "Update version to 0.8.1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/willthames/ansible-review/commit/c21fa9c737c2f903e77771fbee75f2a41ee7d524", 
+    "Commit Corrections:": "https://github.com/willthames/ansible-review/commit/4d9d0745e8e6f12b09cc5e62a7591a9840c5e810"
+  }, 
+  {
+    "Changes:": [
+      "-    accuracy(p)\n", 
+      "+    print_accuracy(p, test_target)\n"
+    ], 
+    "Message:": "Another error in Print_accuracy_m", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/DannyWeitekamp/CMS_SURF_2016/commit/3360c8b20fc96edf79c0f9ea0fe576e086d29224", 
+    "Commit Corrections:": "https://github.com/DannyWeitekamp/CMS_SURF_2016/commit/6384207f0ea86a2036bdc8f3a28b0dd7131119de"
+  }, 
+  {
+    "Changes:": [
+      "-    filters = [u'\u756a\u5916', u'\u82b1\u7d6e']\n", 
+      "+    filters = [u'\u756a\u5916', u'\u82b1\u7d6e',u'\u672a\u5220\u51cf']\n"
+    ], 
+    "Message:": "\u672a\u5220\u51cf\u7248\u672c\u4e0d\u6293\u53d6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hncg/water/commit/a1efdf00813db2397281cb6fcddbe2c3dc8ed6a3", 
+    "Commit Corrections:": "https://github.com/hncg/water/commit/98dbd64b9a123b5f3eb2dede7ef433b5452b48af"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.8.1'\n", 
+      "+__version__ = '0.8.2'"
+    ], 
+    "Message:": "Update to 0.8.2\n\n0.8.1 didn't actually contain the new functionality but I\nreleased it before I noticed that.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/willthames/ansible-review/commit/db51c83113a9aef918b8a9f8ca8eb408ed1d1742", 
+    "Commit Corrections:": "https://github.com/willthames/ansible-review/commit/60b12756bb42283aa11032b512a483a19f308ec3"
+  }, 
+  {
+    "Changes:": [
+      "-spiControlList = [0b1000,0b1001,0b0000,0b0001]\n", 
+      "+spiControlList = [0b10000000,0b10010000,0b00000000,0b00010000]\n"
+    ], 
+    "Message:": "fixed spicontrol to 8 bits", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mnr/rubberfish/commit/01282be9a765dcc1aec5376600ee2dc327eb3fc5", 
+    "Commit Corrections:": "https://github.com/mnr/rubberfish/commit/caa64c1c140c213e6043ff4af672e4e08616d3df"
+  }, 
+  {
+    "Changes:": [
+      "-# app.config.from_pyfile('../default.cfg', silent=True)\n", 
+      "+app.config.from_pyfile('../default.cfg', silent=True)\n"
+    ], 
+    "Message:": "Adding DAL triggers for testing", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ch3nkula/ifttt/commit/89102c0c183b151559ad718f2907237c84ac5cbb", 
+    "Commit Corrections:": "https://github.com/ch3nkula/ifttt/commit/30b4516c3126a572238f6c1235ded3c6064d65c1"
+  }, 
+  {
+    "Changes:": [
+      "-        if context.seeme < 10:\n", 
+      "+        if context.seeme < 30:\n"
+    ], 
+    "Message:": "New Prod 2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jcgiler/notifications/commit/86f47138c518eece5af116b4ee1c86dd93ec6d59", 
+    "Commit Corrections:": "https://github.com/jcgiler/notifications/commit/a40955395e2b00976da51a15f9309a1a89b78b73"
+  }, 
+  {
+    "Changes:": [
+      "-        # TODO: add test option that verifies that passed class can be imported & has necessary methods\n", 
+      "+        # eventually: add test option that verifies that passed class can be imported & has necessary methods\n"
+    ], 
+    "Message:": "change TODO on nice-to-have to avoid triggering code climate", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SexualHealthInnovations/callisto-core/commit/8de031f2ac66eafca59e1adbdf4620267645ebb8", 
+    "Commit Corrections:": "https://github.com/SexualHealthInnovations/callisto-core/commit/b487bad4079773d8537cd46f20164af77e7674fb"
+  }, 
+  {
+    "Changes:": [
+      "-from util.ssh import run_ssh\n", 
+      "+from integration.util.ssh import run_ssh\n"
+    ], 
+    "Message:": "Reverting packages changes", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/syncloud/platform/commit/9d06c3069c48f3e92bbb3f149da870a5288a2fa3", 
+    "Commit Corrections:": "https://github.com/syncloud/platform/commit/e01a915b616471bdd8236b9fad946a590e0e4397"
+  }, 
+  {
+    "Changes:": [
+      "-    version='3.0.2',\n", 
+      "+    version='3.0.3',\n"
+    ], 
+    "Message:": "bump version", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/thisbejim/Pyrebase/commit/6b7cb21fbe5bdb857fe866391ff3c08fa96a55ba", 
+    "Commit Corrections:": "https://github.com/thisbejim/Pyrebase/commit/e195a2a080c25a66c9faf0b5555202bfda9325e9"
+  }, 
+  {
+    "Changes:": [
+      "+            'name':         'return_url',\n", 
+      "+            'value':        'string',  # boolean, integer, long, string\n", 
+      "+            'description':  'The URL where the browser should be redirected once authenticated. '\n", 
+      "+                            'Usually https://wevote.me/more/sign_in',\n", 
+      "+        },\n", 
+      "+        {\n", 
+      "+            'name':         'incoming_request_token',\n", 
+      "+            'value':        'string',  # boolean, integer, long, string\n", 
+      "+            'description':  'Needed by Twitter Auth',\n", 
+      "+        },\n", 
+      "+        {\n", 
+      "+            'name':         'incoming_oauth_verifier',\n", 
+      "+            'value':        'string',  # boolean, integer, long, string\n", 
+      "+            'description':  'Needed by Twitter Auth',\n", 
+      "+        },\n", 
+      "+        {\n", 
+      "-        # {\n", 
+      "-        #     'code':         '',\n", 
+      "-        #     'description':  '',\n", 
+      "-        # },\n", 
+      "-        # 'organization_we_vote_id': 'wv85org1',\n", 
+      "-                   '  \"twitter_redirect_url\": string,\\n' \\\n", 
+      "+                   '  \"return_url\": string, (This is the final url to return to once authentication is complete. ' \\\n", 
+      "+                   'If set, the twitterSignInRequestAccessToken api redirects to the twitterSignInRequestVoterInfo ' \\\n", 
+      "+                   'api before redirecting to the value in return_url)\\n' \\\n", 
+      "+                   '  \"access_token_and_secret_returned\": boolean,\\n' \\\n", 
+      "-            \"\",\n", 
+      "+            \"Flow chart showing entire process here: \"\n", 
+      "+            \"https://docs.google.com/drawings/d/1WdVFsPZl3aLM9wxGuPTW3veqP-5EmZKv36KWjTz5pbU/edit\",\n"
+    ], 
+    "Message:": "Improved documentation for Twitter sign in APIs. Improved twitterIdentityRetrieve so it now returns the candidate related to the election the voter is paying attention to. Fixed incorrect documentation in voterRetrieve.", 
+    "Additions:": 22, 
+    "Deletions:": 7, 
+    "Commit Mistakes:": "https://github.com/wevote/WeVoteServer/commit/09e50e2c76f56c1ae0842d225e4b480d806584f9", 
+    "Commit Corrections:": "https://github.com/wevote/WeVoteServer/commit/e4541d744cb162a374d04624da408aa36529deb3"
+  }, 
+  {
+    "Changes:": [
+      "-from .report_delivery import PDFFullReport\n", 
+      "+from .report_delivery import PDFFullReport, PDFMatchReport\n"
+    ], 
+    "Message:": "restore missing import", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/SexualHealthInnovations/callisto-core/commit/3fc8313becf17342116b42caa99057e26593ec97", 
+    "Commit Corrections:": "https://github.com/SexualHealthInnovations/callisto-core/commit/a4733312a274f8f3499565ee08650195d3919972"
+  }, 
+  {
+    "Changes:": [
+      "-            result = None\n", 
+      "+            result = ''\n"
+    ], 
+    "Message:": "debugged None", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/annietsai/yelp-scraper/commit/2fc37293ea6e614d75927125d2c9bdf706145629", 
+    "Commit Corrections:": "https://github.com/annietsai/yelp-scraper/commit/e4eb9f4c0908bd4ad3fca7193675f06331e85636"
+  }, 
+  {
+    "Changes:": [
+      "-    'beat_init', 'beat_embedded_init', 'heartbeat',\n", 
+      "+    'beat_init', 'beat_embedded_init', 'heartbeat_sent',\n"
+    ], 
+    "Message:": "flakes", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/celery/celery/commit/1ae8819d6955aab62abe4220d94220f9209fcbc9", 
+    "Commit Corrections:": "https://github.com/celery/celery/commit/1167e7d7baeededdef727ee85946d5e7ad3b4529"
+  }, 
+  {
+    "Changes:": [
+      "-cluster = Cluster(['52.41.123.24', '52.36.29.21', '52.41.189.217'])\n", 
+      "+cluster = Cluster(['52.33.51.8', '52.33.51.8', '52.35.232.125'])\n"
+    ], 
+    "Message:": "updated Cassandra ips", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jlantos/insight-project/commit/be412bf1f06f68a1c29de03534408c028cccb963", 
+    "Commit Corrections:": "https://github.com/jlantos/insight-project/commit/e510a9c5e7624a3fcdc8503481fc943205d4af4d"
+  }, 
+  {
+    "Changes:": [
+      "-    rootdir = dataset.description.replace(' ', '_')\n", 
+      "+    rootdir = urllib.quote(dataset.description.replace(' ', '_'), safe='')\n"
+    ], 
+    "Message:": "sanitising dataset description at point of system use and encouraging shorter descriptions", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mytardis/mytardis/commit/a06c58480f584b7974261392b371fac1e3d896ed", 
+    "Commit Corrections:": "https://github.com/mytardis/mytardis/commit/11a0e7c253ffb8a73f68822959201773299d520e"
+  }, 
+  {
+    "Changes:": [
+      "-ALLOWED_HOSTS = ['*']\n", 
+      "+ALLOWED_HOSTS = ['.us-west-2.compute.amazonaws.com', 'localhost']\n"
+    ], 
+    "Message:": "Removing extraneous file", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/marvel-explorer/marvel-explorer/commit/29acba620554c05b1e6860fc07a253ad15df763d", 
+    "Commit Corrections:": "https://github.com/marvel-explorer/marvel-explorer/commit/20095f45e97d703f954777e44482aa0d33f92c66"
+  }, 
+  {
+    "Changes:": [
+      "-            connection.sendline('reboot')\n", 
+      "+            connection.sendline('reboot', send_char=self.config.send_char)\n"
+    ], 
+    "Message:": "add send_char", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Last-Wizard/LAVA/commit/0213694fa5d84fe065069b392731db9cb22cc646", 
+    "Commit Corrections:": "https://github.com/Last-Wizard/LAVA/commit/cc7874e3439d0e420db69e406e96de7f6f311ca6"
+  }, 
+  {
+    "Changes:": [
+      "-    \n", 
+      "+\n"
+    ], 
+    "Message:": "[+]\u51fa\u8f66\u8bb0\u5f55APP\u6dfb\u52a0", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/waterwoodwind/special_fleet/commit/6e38f66dc081405291acb02a8445dcc28f29cbda", 
+    "Commit Corrections:": "https://github.com/waterwoodwind/special_fleet/commit/73dcbdce0f28790185e0af3eb9a7c1cab4dec3b2"
+  }, 
+  {
+    "Changes:": [
+      "-enemy6 = pygame.transform.scale(enemy4,(60,50))\n", 
+      "+enemy6 = pygame.transform.scale(enemy6,(60,50))\n"
+    ], 
+    "Message:": "fixes", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/boy4429856821/game/commit/43b787b8bc7038962df4abb4b3f9fe45e804e6c9", 
+    "Commit Corrections:": "https://github.com/boy4429856821/game/commit/d7ed28ff77f5e2aee45dd6aa6ac1d3e1d728edb4"
+  }, 
+  {
+    "Changes:": [
+      "-        for x in multiprocess_dir(src_dir, dst_dir, get_phrase_frequency_distribution_over_year_in_one_file):\n", 
+      "+        for x in multiprocess_dir(src_dir, dst_dir, get_phrase_frequency_distribution_over_year_in_one_file, chunksize=5):\n"
+    ], 
+    "Message:": "small fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/thuzhf/history_analysis/commit/dfc36a81a282813e4647f269bd19bc1638695153", 
+    "Commit Corrections:": "https://github.com/thuzhf/history_analysis/commit/0924319436cc8e4afd8ed30e747cefbae6476779"
+  }, 
+  {
+    "Changes:": [
+      "-sys.path.insert(0, os.path.abspath('../../'))\n", 
+      "+sys.path.insert(0, os.path.abspath('.'))\n"
+    ], 
+    "Message:": "Test sys.path.insert", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/shotakaha/kumawatch/commit/63cf96c4af1faee5925885b1259fb43a3745dd45", 
+    "Commit Corrections:": "https://github.com/shotakaha/kumawatch/commit/ca70d620e8b70c4dd5af950a3ceda71ada8907b2"
+  }, 
+  {
+    "Changes:": [
+      "-run(host='localhost', port=8080)\n", 
+      "+run(host='localhost', port=8080, server='gunicorn')"
+    ], 
+    "Message:": "modified main.py to use gunicorn", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cteeeri/htmludacity/commit/6c324aa6b249c6b12fc4b061f3261a07772b4f1f", 
+    "Commit Corrections:": "https://github.com/cteeeri/htmludacity/commit/cca9a3942c6ceb29f9eb34e45e6b8b0f82327462"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tdoc_name, function_name_region, function_args_region = utils.get_function_call(view, position)\n", 
+      "+\t\tdoc_name, function_name_region, function_args_region = utils.get_function_call(view, position, True)\n"
+    ], 
+    "Message:": "Bug fixes\n\n- update default minihtml link color\n- ensure cfdocs integration correctly finds support function", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jcberquist/sublimetext-cfml/commit/251d01e7f6851d2aa748811dc8edb3e23b8df16a", 
+    "Commit Corrections:": "https://github.com/jcberquist/sublimetext-cfml/commit/5b76fedb7776b938c9f018fe6421922894ae5d7a"
+  }, 
+  {
+    "Changes:": [
+      "-empty=\"Give me something to search\"\n", 
+      "+empty=\"Give me something to search.\"\n"
+    ], 
+    "Message:": ".", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/carlosmuller/mtgbot/commit/6e9b814bd42d620d93f3e576fff46328af83fa76", 
+    "Commit Corrections:": "https://github.com/carlosmuller/mtgbot/commit/69bd923bf6ad204c27cb620f5d2ab6585eebcff0"
+  }, 
+  {
+    "Changes:": [
+      "-empty=\"Give me something to search.\"\n", 
+      "+empty=\"Give me something to searcha\"\n"
+    ], 
+    "Message:": "t", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/carlosmuller/mtgbot/commit/69bd923bf6ad204c27cb620f5d2ab6585eebcff0", 
+    "Commit Corrections:": "https://github.com/carlosmuller/mtgbot/commit/e6e7c0683b09d476607781274acd2c204624e87e"
+  }, 
+  {
+    "Changes:": [
+      "-        apikey = \"77JTTE-3JLXVRWY9P\"\n", 
+      "+        apikey = \"\"\n"
+    ], 
+    "Message:": "efee", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davenewham/starter-python-bot/commit/117d95c82f67c8b923908717d6dc6a967137b6f1", 
+    "Commit Corrections:": "https://github.com/davenewham/starter-python-bot/commit/8e8a5ba8efbd6516d23f4be910c204638f982b2d"
+  }, 
+  {
+    "Changes:": [
+      "-        sequence_length, beam_width=11, merge_repeated=False)\n", 
+      "+        sequence_length, beam_width=100, merge_repeated=False)\n"
+    ], 
+    "Message:": "Set beam width to 100", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/UltimateBeaver/handwriting_recognition/commit/320b174393e948b23dc8f9e8c4984285125c6fb2", 
+    "Commit Corrections:": "https://github.com/UltimateBeaver/handwriting_recognition/commit/efd30efe87ecb4deff5418a83fd400cb928fc5c6"
+  }, 
+  {
+    "Changes:": [
+      "-MAX_UPLOAD_SIZE = \"5242880\"\n", 
+      "+MAX_UPLOAD_SIZE = \"2621440\"\n"
+    ], 
+    "Message:": "detalles foto alumno", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Solsito/Solcito/commit/ab15612244f316254fad8bcfc78f1accb6a74b18", 
+    "Commit Corrections:": "https://github.com/Solsito/Solcito/commit/27b71df5238731ef60391900b45ea77a64dcf208"
+  }, 
+  {
+    "Changes:": [
+      "-      - The generator to use: C(2) or C(5).\n", 
+      "+      - The generator to use.\n", 
+      "-  - \"This module depends on I(openssl), which needs to be installed on all target systems.\"\n", 
+      "+  - \"This module depends on I(openssl), which needs to be installed on the target system.\"\n", 
+      "-    sample: \"/path/to/server.crt\"\n", 
+      "+    sample: \"/path/to/dh.pem\"\n", 
+      "-        except OSError as e:\n", 
+      "-            if \"permission denied\" in str(e).lower():\n", 
+      "+        except OSError:\n", 
+      "-            os.makedirs(dir_name, 0700)\n", 
+      "-        except OSError as e:\n", 
+      "-            if \"permission denied\" in str(e).lower():\n", 
+      "+            os.makedirs(dir_name, 0o700)\n", 
+      "+        except OSError:\n", 
+      "-            module.exit_json(changed=False, msg=\"DH parameters file already exist.\")\n", 
+      "+            module.exit_json(changed=False, msg=\"DH parameters file already exists.\")\n", 
+      "-    dest = os.path.expanduser(module.params['dest'])\n", 
+      "+    dest   = os.path.expanduser(module.params['dest'])\n", 
+      "-    bits = module.params.get('bits', 2048)\n", 
+      "-    if bits < 1024:\n", 
+      "-        module.fail_json(msg=\"Chosen bits size is too small. Bits should be greater than 1024.\")\n", 
+      "-\n", 
+      "+    bits   = module.params.get('bits', 2048)\n"
+    ], 
+    "Message:": "corrected errors", 
+    "Additions:": 9, 
+    "Deletions:": 14, 
+    "Commit Mistakes:": "https://github.com/aeibrahim/ansible-modules-extras/commit/ec6b8506ca55d26db3ca2fabd974a7b2181c2118", 
+    "Commit Corrections:": "https://github.com/aeibrahim/ansible-modules-extras/commit/260ecff75fd63184a84fd669b22a18951861456a"
+  }, 
+  {
+    "Changes:": [
+      "-                                 pathset.user_class, pathset.access_mode, pathset.transit_mode, pathset.egress_mode,\n", 
+      "+                                 pathset.user_class, pathset.purpose, pathset.access_mode, pathset.transit_mode, pathset.egress_mode,\n"
+    ], 
+    "Message:": "Path weights are specified by user_class AND purpose", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/MetropolitanTransportationCommission/fast-trips/commit/68a5275747ddd2c7b5c3d1b4d9b12b9a8a73d228", 
+    "Commit Corrections:": "https://github.com/MetropolitanTransportationCommission/fast-trips/commit/cf131def80e7eaf3c5ed2a6cdd10d6a053d831a4"
+  }, 
+  {
+    "Changes:": [
+      "-sync_complete_set = {\"mode\", \"who\"}\n", 
+      "+sync_complete_set = {\"mode\", \"who\", \"names\"}\n"
+    ], 
+    "Message:": "fix state", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/watchtower/asyncirc/commit/c789354a503468d9aad77f714ec19f1ff5dbf72d", 
+    "Commit Corrections:": "https://github.com/watchtower/asyncirc/commit/f8380f4c867480cafece591ea53d5eb436703aba"
+  }, 
+  {
+    "Changes:": [
+      "-        self.fw = open('/data/file/aws-s3.file', 'aw')\n", 
+      "+        self.fw = open('/data/file/aws-s3.file-%s' % time.strftime('%Y%m%d%H%M%S'), 'aw')\n"
+    ], 
+    "Message:": "debug ...", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/xtso520ok/minus-scripts/commit/d96a7c4893d3e7d3a81e8b611bf655894acdfc0a", 
+    "Commit Corrections:": "https://github.com/xtso520ok/minus-scripts/commit/ca98e6d67805b818bae8a4dccfae362d6b3ab542"
   }
 ]
