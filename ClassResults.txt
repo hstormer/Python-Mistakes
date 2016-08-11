@@ -17,8 +17,9 @@ Zero R is dumb
 ~AttributeSelectedClassifier under meta: 76.12% (and you can add another classifier to it)
 ~Bagging under meta: 77.69% (and you can add another classifier to it)
 ~LogicBoost under meta: 77.95%
-
-
+~RandomSubSpace under meta: 76.38% (72.63 in 50-50 percent split. Better for no's!)
+~Decision Table under rules: 75.59% (JRip about the same)
+~PART under rules: 76.64%
 
 
 
@@ -74,3 +75,21 @@ Cross Validation: 79.53%
 *Used Bagging(with PART): 
 Cross Validation: 80.05%
 50-50 Percetage Split: 74.62%
+
+*(WRITER6) Used Vote combination of RandomForest, PART, and Bagging(with RandomForest):
+Cross Validation: 84.12%
+50-50 Percetage Split: 89.41%
+(Used Majority Voting)
+(Add another Bagging with RandomTree for even better results)
+(Add also add a Bagging with PART section)
+(Add J48 to get 90.59% on 50 percent split, but 83.72% on cross-validation)
+
+*(WRITER6) Used Vote combination of RandomForest, PART, and Bagging(with RandomForest):
+Cross Validation: 84.12%
+50-50 Percetage Split: 89.41%
+(Used Majority Voting)
+(Add another Bagging with RandomTree for even better results)
+(Add also add a Bagging with PART section)
+(Add another Bagging with J48 to get 88.53% on 50 percent split, but 84.72% on cross-validation)
+
+
