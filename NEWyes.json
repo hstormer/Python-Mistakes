@@ -2205,5 +2205,152 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/mishar7/loops/commit/a05fd671a80f61d84352c4ce5fd2eb6918a299e8", 
     "Commit Corrections:": "https://github.com/mishar7/loops/commit/a746b01b70a624dbd192b4857f949eecd10c99c8"
+  }, 
+  {
+    "Changes:": [
+      "-  rom_data[0xd77] == rom_data[0xd81] == 0x66\n", 
+      "+  rom_data[0xd77] = rom_data[0xd81] = 0x66\n"
+    ], 
+    "Message:": "Fixed the Northern Shrine edit code", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mcgrew/dwrandomizer/commit/ef4c72d71e47f2cfc833358074d97a4b9ebe7149", 
+    "Commit Corrections:": "https://github.com/mcgrew/dwrandomizer/commit/c736b53e519a83df9a2bdc53efe16a65e30dd749"
+  }, 
+  {
+    "Changes:": [
+      "-            model = get_model(app_name, model_name)\n", 
+      "+            model = apps.get_model(app_name, model_name)\n"
+    ], 
+    "Message:": "Missed a get_model reference", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lucaswiman/modeltree/commit/62ce05738264384a0c0f744ee8696a159164edc2", 
+    "Commit Corrections:": "https://github.com/lucaswiman/modeltree/commit/51ebbe17f9713535c23ce19bd6456c30449bbba8"
+  }, 
+  {
+    "Changes:": [
+      "-            if party['qual'] == 'BY':\n", 
+      "-                pids = partner_db.search(cr, uid, [('ref', '=', party['gln'])])\n", 
+      "-                buyer = partner_db.browse(cr, uid, pids, context)[0]\n", 
+      "-                param['partner_id'] = buyer.id\n", 
+      "-                param['user_id'] = buyer.user_id.id\n", 
+      "-                param['fiscal_position'] = buyer.property_account_position.id\n", 
+      "-                param['payment_term'] = buyer.property_payment_term.id\n", 
+      "-                param['pricelist_id'] = buyer.property_product_pricelist.id\n", 
+      "-                fiscal_pos = self.pool.get('account.fiscal.position').browse(cr, uid, buyer.property_account_position.id) or False\n", 
+      "-\n", 
+      "-            if party['qual'] == 'IV':\n", 
+      "-                pids = partner_db.search(cr, uid, [('ref', '=', party['gln'])])\n", 
+      "-                iv = partner_db.browse(cr, uid, pids, context)[0]\n", 
+      "-                param['partner_invoice_id'] = iv.id\n", 
+      "-\n", 
+      "-            if party['qual'] == 'DP':\n", 
+      "-                pids = partner_db.search(cr, uid, [('ref', '=', party['gln'])])\n", 
+      "-                dp = partner_db.browse(cr, uid, pids, context)[0]\n", 
+      "-                param['partner_shipping_id'] = dp.id\n", 
+      "-\n", 
+      "-                'name' : product.name\n", 
+      "-                'property_ids'          : False\n", 
+      "-                'product_id'            : product.id\n", 
+      "-                'product_uom'           : product.uom_id.id\n", 
+      "-                'product_uos_qty'       : line['quantity']\n", 
+      "-                'product_uom_qty'       : line['quantity']\n", 
+      "-                'price_unit'            : line['price']\n", 
+      "-                'delay'                 : False\n", 
+      "-                'discount'              : False\n", 
+      "-                'address_allotment_id'  : False\n", 
+      "-                'type'                  : 'make_to_stock'\n", 
+      "-                'product_packaging'     : False\n", 
+      "-                'tax_id'                : [[6, False, self.env['account.fiscal.position'].map_tax(product.taxes_id).ids]]\n", 
+      "+                'name' \t\t\t: product.name,\n", 
+      "+                'property_ids'          : False,\n", 
+      "+                'product_id'            : product.id,\n", 
+      "+                'product_uom'           : product.uom_id.id,\n", 
+      "+                'product_uos_qty'       : line['quantity'],\n", 
+      "+                'product_uom_qty'       : line['quantity'],\n", 
+      "+                'price_unit'            : line['price'],\n", 
+      "+                'delay'                 : False,\n", 
+      "+                'discount'              : False,\n", 
+      "+                'address_allotment_id'  : False,\n", 
+      "+                'type'                  : 'make_to_stock',\n", 
+      "+                'product_packaging'     : False,\n", 
+      "+                'tax_id'                : [[6, False, self.env['account.fiscal.position'].map_tax(product.taxes_id).ids]],\n"
+    ], 
+    "Message:": "FIX: dictionary syntax error", 
+    "Additions:": 13, 
+    "Deletions:": 33, 
+    "Commit Mistakes:": "https://github.com/clubit/edi-workflow/commit/a260a58d3c806fa775490caea18853628606c5ab", 
+    "Commit Corrections:": "https://github.com/clubit/edi-workflow/commit/63a7d7310d53853a65fd7d60ecacf74187b9e388"
+  }, 
+  {
+    "Changes:": [
+      "-        'hendrix/utils/scripts/hxw'\n", 
+      "+        'hendrix/utils/scripts/hxw',\n"
+    ], 
+    "Message:": "fixed the typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hendrix/hendrix/commit/d9dbc6183bb74b2633a7a384cd665a37d6f8f1c8", 
+    "Commit Corrections:": "https://github.com/hendrix/hendrix/commit/6b7b72fc406ff9b8b48256b1c7e86738ada4b6a4"
+  }, 
+  {
+    "Changes:": [
+      "-                response.addSpeak(\"Your appointment with I D, \" + digit + )\n", 
+      "+                response.addSpeak(\"Your appointment with I D, \" + digit)\n"
+    ], 
+    "Message:": "Errors", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/talhajaved/VillageMed/commit/5c60603e685a033c05fdce2c728303604a9fd9b0", 
+    "Commit Corrections:": "https://github.com/talhajaved/VillageMed/commit/03054bd2ab2ece3e40326af8692c65e675ade0d0"
+  }, 
+  {
+    "Changes:": [
+      "-        def get_headlines(\n", 
+      "+    def get_headlines(\n"
+    ], 
+    "Message:": "Update client.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/maximedivo/ttrss-python/commit/47aae1ac88365a23f5fee6003a9d56e46b710201", 
+    "Commit Corrections:": "https://github.com/maximedivo/ttrss-python/commit/8ae31ffdd8bf086018b74a8454cd63293723394f"
+  }, 
+  {
+    "Changes:": [
+      "-      say menu\n", 
+      "-                  weigth=main_weight,\n", 
+      "+                  weight=main_weight,\n", 
+      "+            say text\n", 
+      "+          say meta, md, html\n", 
+      "+          say EditMainName, EditMainWeight\n"
+    ], 
+    "Message:": "Fix bug that set weight to 0 (misspelled as weigth).", 
+    "Additions:": 4, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/strickyak/aphid/commit/fb1d638bdcf123ee76c46b46e32d33da3b7e6b90", 
+    "Commit Corrections:": "https://github.com/strickyak/aphid/commit/1653096a5d6217970448a84e9692e03531533e19"
+  }, 
+  {
+    "Changes:": [
+      "-            db.update(\"update files set is_analysis=1 where path='%s'\"%(path))\n", 
+      "+        db.update(\"update files set is_analysis=1 where path='%s'\"%(path))\n"
+    ], 
+    "Message:": ".", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tuomao/android_malware_detection/commit/1f634e74b7c4b043bfbc6bd5ee5bc6f76ad20de5", 
+    "Commit Corrections:": "https://github.com/tuomao/android_malware_detection/commit/bfc09dac982130164a66fd646685bc70784d3a4c"
+  }, 
+  {
+    "Changes:": [
+      "-    def logout():\n", 
+      "+def logout():\n"
+    ], 
+    "Message:": "20151218 17:27:06: daily_commit", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ryououki/taoyun_backup/commit/97f8d8fdef07fb0d5e287aafd1e075c61e6987fc", 
+    "Commit Corrections:": "https://github.com/ryououki/taoyun_backup/commit/b511672eff7449166ea1345f6bc84cc2ffda9b93"
   }
 ]
