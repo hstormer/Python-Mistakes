@@ -14,4 +14,14 @@ TO RECORD ENTRIES IN THE ARFF FILE:
 
 2. Please note that WRITER6 will modify all files that are added to the arff file by deleting duplicate entries and modifying the keys. It will also remove any extra values.
 
+RUNNING WEKA:
+
+1. Run the wekadatatest.arff file (or where ever you stored your entries. For Classifiers, use FilteredClassifier and make sure the filter under it is set to StringToWordVector. 
+
+2. Under StringToWordVector, make sure the stop list is True (I've been using Rainbow)
+
+3. The classifier you'll use under FilteredClassifier is Vote. Under Vote, set the combinationRule to Majority Voting.
+
+
+
 Enjoy :)
