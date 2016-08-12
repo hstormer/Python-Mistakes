@@ -3,7 +3,7 @@ Cross Validation: 87.48%
 50-50 Percetage Split: 85.0843%
 
 *Used Filtered classifier > Vote > PART, J48, Bagging(with NaiveBayesMultinomial), Bagging(with NaiveBayes):
-Cross Validation: 87.48%
+Cross Validation: 86.45%
 50-50 Percetage Split: 85.0843%
 
 
