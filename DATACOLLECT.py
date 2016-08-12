@@ -172,6 +172,9 @@ for document in cursor:
 							print "============================================"
 						else:
 							#Skip this entry entirely; don't add it to either file.
+							print "\n============================================"
+							print "Finding another file just for %s..." % name
+							print "============================================"
 							None
 						# Don't print it again if it also contains another keyword
 						break
