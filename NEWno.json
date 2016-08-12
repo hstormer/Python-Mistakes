@@ -10914,28 +10914,6 @@
   }, 
   {
     "Changes:": [
-      "-                    select sum(residual+sotien_lai_conlai) as so_tien_no,mlg_type,chinhanh_id\n", 
-      "+                    select sum(COALESCE(residual,0) + COALESCE(sotien_lai_conlai,0)) as so_tien_no,mlg_type,chinhanh_id\n"
-    ], 
-    "Message:": "update", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/minhphung171093/GreenERP_V8/commit/7acf9d6a2618fe7113f731c97f41c95bcb2c1cbc", 
-    "Commit Corrections:": "https://github.com/minhphung171093/GreenERP_V8/commit/6556df92132bfef0cec1db03bf046c1bfb59f53b"
-  }, 
-  {
-    "Changes:": [
-      "-    version='0.2',\n", 
-      "+    version='0.3',\n"
-    ], 
-    "Message:": "Bump to 0.3", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/filwaitman/pysmartcache/commit/db3079eb14030ea27f54af6ce1aca712ffc68a0f", 
-    "Commit Corrections:": "https://github.com/filwaitman/pysmartcache/commit/de900212f0d0ecec02ee1c0eeaeb811f733b0aa5"
-  }, 
-  {
-    "Changes:": [
       "-    # This testcase contains test that can be used in all\n", 
       "+    # This testcase contains tests that can be used in all\n"
     ], 
