@@ -3,6 +3,7 @@ Python-Mistakes INSTRUCTIONS
 
 TO COLLECT NEW ENTRIES:
 1. Make sure that you have two json files, one to store 'yes' entries and one to store 'no' entries. You can collect entries onto an existing file of entries, or create a new empty file. If you plan to add the data from these files directly to the arff file, make sure the yes file has 'yes' in the filename and the no file has 'no' in the name.
+![Alt text](/INSTRUCTIONS/fig1.png?raw=true "FIGURE 1")
 
 2. Run "python DATACOLLECT.py <yesfile> <nofile>" to collect data for yes and no entries. Make sure you have pymongo installed and that there is a database of github commits from MongoDB downloaded. 
 
