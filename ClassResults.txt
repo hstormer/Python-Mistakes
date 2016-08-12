@@ -2,7 +2,7 @@
 
 
 Zero R is dumb
-~Bagging is not the best but the accuracy for yes and no is about equal
+~Bagging is awesome when used under voting!
 ~VotedPerceptron is not very accurate (about 67%) but much better at clssifying for no's.
 			nvm, it's terrible when combined with others
 ~Random Commitee under meta is also not bad
@@ -92,4 +92,6 @@ Cross Validation: 84.12%
 (Add also add a Bagging with PART section)
 (Add another Bagging with J48 to get 88.53% on 50 percent split, but 84.72% on cross-validation)
 
-
+*Used Vote combination of Bagging(with PART) and Bagging(with RandomForest):
+Cross Validation: 86.60%
+50-50 Percetage Split: 87.10%
