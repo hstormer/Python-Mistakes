@@ -10,7 +10,7 @@ TO COLLECT NEW ENTRIES:
 
 TO RECORD ENTRIES IN THE ARFF FILE:
 
-1. Run "python WRITER6.py <name of arff file>" to upload the data into the arff file. The program starts with a list of files to upload from, but will prompt you to change this list if you wish (or you can go into the program and replace the list if you are going to be adding from the same files many times). There are also other WRITER programs that add different combination of attributes. WRITER6 is the most recent version of the program. Each writer program has a description at the top of what attributes it will.
+1. Run "python WRITER6.py <name of arff file>" to upload the data into the arff file. The program starts with a list of files to upload from, but will prompt you to change this list if you wish (or you can go into the program and replace the list if you are going to be adding from the same files many times). There are also other WRITER programs that add different combination of attributes. WRITER6 is the most recent version of the program. Each writer program has a description at the top of what attributes it will add.
 
 2. Please note that WRITER6 will modify all files that are added to the arff file by deleting duplicate entries and modifying the keys. It will also remove any extra values.
 
