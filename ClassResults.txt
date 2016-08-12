@@ -2,13 +2,14 @@
 
 
 Zero R is dumb
-~Bagging is awesome when used under voting! 
+~Bagging is awesome when used under voting! (Not suggested individually) 
 ~VotedPerceptron is not very accurate (about 67%) but much better at clssifying for no's.
 			nvm, it's terrible when combined with others
 ~Random Commitee under meta is also not bad
 ~Random SupSpace works too
 ~J48 remains the best
 ~AdaBoost might work and you can add one more classifier to it
+~SMO is good
 
 
 ~LogisticR under functions: 71.13% 
@@ -16,10 +17,17 @@ Zero R is dumb
 ~SMO under functions: 75.07% 
 ~AttributeSelectedClassifier under meta: 76.12% (and you can add another classifier to it)
 ~Bagging under meta: 77.69% (and you can add another classifier to it)
-~LogicBoost under meta: 77.95%
+~LogicBoost under meta: 77.95% (nvm DONT't use it)
 ~RandomSubSpace under meta: 76.38% (72.63 in 50-50 percent split. Better for no's!)
 ~Decision Table under rules: 75.59% (JRip about the same)
 ~PART under rules: 76.64%
+
+
+~NaiveBaysMultinomialText: 81.65%
+     		(most bayes are quite good other than NaiveBayes and NaiveBayesUpdateable)
+~SGD under functions: 81.84%
+
+
 
 
 
@@ -95,3 +103,12 @@ Cross Validation: 84.12%
 *Used Vote combination of Bagging(with PART) and Bagging(with RandomForest):
 Cross Validation: 86.60%
 50-50 Percetage Split: 87.10%
+(Added Bagging with J48 to get 86.83% on Cross Validation) 
+
+*Used Vote combination of Bagging(with PART) and Bagging(J48):
+Cross Validation: 88.25%
+50-50 Percetage Split: 87.75%
+
+*Used Vote combination of Bagging(with PART) and Bagging(J48), and Bagging(BayesNet):
+Cross Validation: 87.61%
+
