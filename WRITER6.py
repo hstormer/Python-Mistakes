@@ -261,6 +261,7 @@ for i in filenames:
 			m = m.replace("'", "")
 			m = m.replace("\n", "")
 			m = m.replace("class", "")
+			m = m.replace("Class", "")
 			a = thing.get("Additions:")
 			d = thing.get("Deletions:")
 			ch = thing.get("Changes:")
