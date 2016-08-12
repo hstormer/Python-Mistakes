@@ -7,6 +7,10 @@ Cross Validation: 86.45%
 50-50 Percetage Split: 84.4358%
 
 *Used Filtered classifier > Vote > PART, J48, Bagging(with NaiveBayesMultinomial), Bagging(with REPTree):
-Cross Validation: 
-50-50 Percetage Split: 
+Cross Validation: 87.8729%
+50-50 Percetage Split: 85.1229 %
+
+*Used Filtered classifier > Vote > PART, J48, Bagging(with NaiveBayesMultinomial), Bagging(with RandomTree):
+Cross Validation: 87.6455%
+50-50 Percetage Split: 84.3467 %
 

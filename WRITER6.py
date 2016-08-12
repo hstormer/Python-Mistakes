@@ -38,7 +38,7 @@ print "\nThe current list of files to write from is:"
 for i in filenames:
 	print i
 answer = raw_input("\nDo you want to change this list? y/n ")
-if answer == 'y':
+if 'y' in str(answer):
 	filenames = []
 	print "Please type 'DONE' when you are done adding files."
 	while answer != 'DONE':
@@ -180,7 +180,7 @@ for eachfile in filenames:
 	with eachfile as outfile:
 		json.dump(data, outfile, indent = 2)
 	eachfile.close()
-print "\nFiles have been modified.."
+print "\nFiles have been modified."
 
 
 # Add the data to the arfffile, but keep track of the links so there are no duplicates.
@@ -189,6 +189,15 @@ yes = 0
 no = 0
 characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ']
 badcharacters = ["'"]
+
+answer = raw_input("\n\nSometimes there are way to many no entries. Do you want to set a max limit for no entries? y/n")
+if 'y' in str(answer):
+	maxno = int(raw_input("What is the max number of no entries? >>>   "))
+else:
+	maxno = "Nothing"
+	print "No max for no entries."
+
+
 for i in filenames:
 	print "\nAdding from %r file.." % i
 	txt = open(i, 'a+')
@@ -312,13 +321,16 @@ for i in filenames:
 				counter += 1
 			text = ", ".join([text, str(letterschanged)])
 			text = ", ".join([text, chicken])
-			txt2.write(text)
-			txt.close()
-			# Add up the number of yes and no entries
-			if chicken == 'yes':
-				yes += 1
+			if maxno != "Nothing" and (chicken == 'no' and no == maxno or no > maxno):
+				print "Reached max no, not adding."
 			else:
-				no += 1
+				txt2.write(text)
+				# Add up the number of yes and no entries
+				if chicken == 'yes':
+					yes += 1
+				else:
+					no += 1
+			txt.close()
 
 txt2.close()
 print "\nAll done! I have added %d yes entries and %d no entries. \nThank you for using %s" % (yes, no, script)

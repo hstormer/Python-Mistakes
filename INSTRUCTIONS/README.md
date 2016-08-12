@@ -25,11 +25,13 @@ You can also go into the program and replace the list if you are going to be add
 
 ![Alt text](/INSTRUCTIONS/fig5.png?raw=true "FIGURE 5")
 
+The program will also prompt you for a max number of no entries to add, since there are often way more no entries than yes entries, which can cause problems in Weka.
+
 There are also other WRITER programs that add different combination of attributes. WRITER6 is the most recent version of the program. Each writer program has a description at the top of what attributes it will add.
 
 ![Alt text](/INSTRUCTIONS/fig6.png?raw=true "FIGURE 6")
 
-2.Please note that WRITER6 will modify all files that are added to the arff file by deleting duplicate entries and modifying the keys. It will also remove any extra values.
+Please note that WRITER6 will modify all files that are added to the arff file by deleting duplicate entries and modifying the keys. It will also remove any extra values.
 
 RUNNING WEKA:
 
