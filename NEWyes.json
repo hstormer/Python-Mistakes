@@ -2352,5 +2352,101 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/ryououki/taoyun_backup/commit/97f8d8fdef07fb0d5e287aafd1e075c61e6987fc", 
     "Commit Corrections:": "https://github.com/ryououki/taoyun_backup/commit/b511672eff7449166ea1345f6bc84cc2ffda9b93"
+  }, 
+  {
+    "Changes:": [
+      "-        output.write(pattern % i,'NULL','NULL','NULL','NULL','NULL')\n", 
+      "+        output.write(pattern % (i,'NULL','NULL','NULL','NULL','NULL'))\n"
+    ], 
+    "Message:": "pattern modify", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/shaoguangleo/atas/commit/e89f5e6f4779d4e20aa1e139ea3ca6ad924f2e6f", 
+    "Commit Corrections:": "https://github.com/shaoguangleo/atas/commit/d17e9b41396f4442826ad392be377fb58a6324be"
+  }, 
+  {
+    "Changes:": [
+      "-        self.captch_client = CaptchaServerHttpClient(hs)\n", 
+      "+        self.captcha_client = CaptchaServerHttpClient(hs)\n"
+    ], 
+    "Message:": "Fix typo that broke registration on the mobile clients", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/matrix-org/synapse/commit/8b9f471d27447fd96de6dc3b8e3e480f224ac4c6", 
+    "Commit Corrections:": "https://github.com/matrix-org/synapse/commit/ce4999268a06ccc716d1340b0f4c3e88103d7084"
+  }, 
+  {
+    "Changes:": [
+      "-        'Topic :: Software Development :: Libraries :: Python Modules'\n", 
+      "+        'Topic :: Software Development :: Libraries :: Python Modules',\n"
+    ], 
+    "Message:": "Fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Stranger6667/simple-money/commit/94a468b41b549d7922b1dc61dbea74c09c2b1ed6", 
+    "Commit Corrections:": "https://github.com/Stranger6667/simple-money/commit/5bd54e40c98b772585e7ae32f485b9e173a23138"
+  }, 
+  {
+    "Changes:": [
+      "-        if newamples[tool]:\n", 
+      "+        if newsamples[tool]:\n"
+    ], 
+    "Message:": "Update database.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/J35P312/FindSV/commit/e9df14548d3424e5c071a5ecf89ae4d02f5fdea6", 
+    "Commit Corrections:": "https://github.com/J35P312/FindSV/commit/145325def8cd83029ca245b57205862094009a47"
+  }, 
+  {
+    "Changes:": [
+      "-    out = \"<table border=\"1\" rules=\"rows\">\"\n", 
+      "+    out = \"<table border='1' rules='rows'>\"\n"
+    ], 
+    "Message:": "fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/swisstxt/nagios-plugins/commit/bbca90781d697157bd899ba3b84617094d3f94b3", 
+    "Commit Corrections:": "https://github.com/swisstxt/nagios-plugins/commit/465c6bc1eb3c891b7f90471581b5e6c6fbcee044"
+  }, 
+  {
+    "Changes:": [
+      "-            filename = ('views/%s.py' % file).replace('/', '_').replace('\\\\', '_')\n", 
+      "+            filename = ('views/%s.py' % fname).replace('/', '_').replace('\\\\', '_')\n"
+    ], 
+    "Message:": "fixed compileapp problem in appveyor test (2nd attempt)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/web2py/web2py/commit/4125a97ce18b5e94bc3de6000426b27a68b33004", 
+    "Commit Corrections:": "https://github.com/web2py/web2py/commit/b67edb083e64b2a0d3931bfb7cc184379a436b9b"
+  }, 
+  {
+    "Changes:": [
+      "-def getVedioFileFromDir(dir, recursive=False):\n", 
+      "+def getVideoFileFromDir(dir, recursive=False):\n", 
+      "-    videofiles = list(getVedioFileFromDir(path, recursive))\n", 
+      "+    videofiles = list(getVideoFileFromDir(path, recursive))\n"
+    ], 
+    "Message:": "correct misspelled function's name: 'getVedioFileFromDir' ==> getVideoFileFromDir", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/L-xm/python-shooter.org/commit/4451b41f2af11bfa48d807e8db29ccb7a606e954", 
+    "Commit Corrections:": "https://github.com/L-xm/python-shooter.org/commit/aaec8ca87736f21fe05a650810037392f7674c20"
+  }, 
+  {
+    "Changes:": [
+      "-           'EPI': [0.31606, 0.73243, 0.09615]\n", 
+      "-           'WIK_bal': [0.39184, 0.94530, 0.05444]\n", 
+      "-           'SLA_bal': [0.39715, 0.89838, 0.07852]\n", 
+      "-           'EPI_bal': [0.39054, 0.91445, 0.11193]\n", 
+      "+           'EPI': [0.31606, 0.73243, 0.09615],\n", 
+      "+           'WIK_bal': [0.39184, 0.94530, 0.05444],\n", 
+      "+           'SLA_bal': [0.39715, 0.89838, 0.07852],\n", 
+      "+           'EPI_bal': [0.39054, 0.91445, 0.11193],\n"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 4, 
+    "Deletions:": 4, 
+    "Commit Mistakes:": "https://github.com/daureg/magnet/commit/200ee2fdaf8ac9192af0900c07147184d258ef72", 
+    "Commit Corrections:": "https://github.com/daureg/magnet/commit/31233979e0d488fe8acd6bfe0e185aefe24b15da"
   }
 ]
