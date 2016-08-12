@@ -10914,17 +10914,6 @@
   }, 
   {
     "Changes:": [
-      "-BASEURL = 'http://ngas01.ivec.org/metadata/'\n", 
-      "+BASEURL = 'http://mwa-metadata01.pawsey.org.au/metadata/'\n"
-    ], 
-    "Message:": "Updated URL for archive", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/steve-ord/galaxy-scripts/commit/e422df6ef2bbd5bedb62048f6ef6272955e361f5", 
-    "Commit Corrections:": "https://github.com/steve-ord/galaxy-scripts/commit/97ba73766394d4fb30a166ec7e1303ca86033852"
-  }, 
-  {
-    "Changes:": [
       "-                    select sum(residual+sotien_lai_conlai) as so_tien_no,mlg_type,chinhanh_id\n", 
       "+                    select sum(COALESCE(residual,0) + COALESCE(sotien_lai_conlai,0)) as so_tien_no,mlg_type,chinhanh_id\n"
     ], 
@@ -10936,17 +10925,6 @@
   }, 
   {
     "Changes:": [
-      "-\tdate = models.DateField(default=datetime.datetime.now().date)\n", 
-      "+\tdate = models.DateField(default=timezone.now())\n"
-    ], 
-    "Message:": "Merge branch 'dev' of https://github.com/roselleebarle04/jcrel-ims into dev", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/roselleebarle04/jcrel-ims/commit/f785b7fe2fee8fbe7aaf1149085cefbc999ebd01", 
-    "Commit Corrections:": "https://github.com/roselleebarle04/jcrel-ims/commit/6a189a8b6124e539d8514878589c645e31f788ca"
-  }, 
-  {
-    "Changes:": [
       "-    version='0.2',\n", 
       "+    version='0.3',\n"
     ], 
@@ -10955,17 +10933,6 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/filwaitman/pysmartcache/commit/db3079eb14030ea27f54af6ce1aca712ffc68a0f", 
     "Commit Corrections:": "https://github.com/filwaitman/pysmartcache/commit/de900212f0d0ecec02ee1c0eeaeb811f733b0aa5"
-  }, 
-  {
-    "Changes:": [
-      "-        ''' Inicializa o algoritmo do elevador com a quantidade de setores e o setor inicial. '''\n", 
-      "+        ''' Inicializa o algoritmo FCFS com a quantidade de setores e o setor inicial. '''\n"
-    ], 
-    "Message:": "Correcao na FCFS.", 
-    "Additions:": 1, 
-    "Deletions:": 1, 
-    "Commit Mistakes:": "https://github.com/hugos94/scheduling-hard-drive/commit/bd30873d099cd850c98ba024ddd6b93d0f0fa2b2", 
-    "Commit Corrections:": "https://github.com/hugos94/scheduling-hard-drive/commit/ec1620042c7629c483dac5e8f7e166d1c22257b1"
   }, 
   {
     "Changes:": [
@@ -11756,5 +11723,2456 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/nsh87/ehrcorral/commit/bcba43d51cb1ec02cebef188c38e9f3063c67fda", 
     "Commit Corrections:": "https://github.com/nsh87/ehrcorral/commit/e8e5640a1d2cf1eaeda2e800f09d7bcabc1ea162"
+  }, 
+  {
+    "Changes:": [
+      "+\t\tserv = discord.utils.find(lambda m: m.name == self.server_name, client.servers)\n", 
+      "-\t\t\tserv = discord.utils.find(lambda m: m.name == self.server_name, client.servers)\n"
+    ], 
+    "Message:": "Minor fix to new user notification", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dguil16/DHBot/commit/c2dc79a1a64116665f347f74869cc9ae81d458b4", 
+    "Commit Corrections:": "https://github.com/dguil16/DHBot/commit/a8c6ca610a3bf5c600b16532350b5eb5b32702bc"
+  }, 
+  {
+    "Changes:": [
+      "-        if settings.config.get('verbose') <= verbosity:\n", 
+      "+        if settings.config.get('verbose') >= verbosity:\n"
+    ], 
+    "Message:": "Update safeprint.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/gappleto97/Senior-Project/commit/744f3b2b9cb1c0c6cf4d1ccf6eec139881ef3fda", 
+    "Commit Corrections:": "https://github.com/gappleto97/Senior-Project/commit/97c2dec50b5f204fcb156e003ec11ec3cfcb56cb"
+  }, 
+  {
+    "Changes:": [
+      "-def cleanAll(dataDescription, matrix, headerRow, args ):\n", 
+      "+def cleanAll(dataDescription, matrix, headerRow ):\n"
+    ], 
+    "Message:": "removes unnecessary \"args\" argument", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ClimbsRocks/data-formatter/commit/da3348ce36aa7a0a485af11eaea930eb90ed1841", 
+    "Commit Corrections:": "https://github.com/ClimbsRocks/data-formatter/commit/f3a03f5d26a0acdd71b8774b73b0e4b5d9b363cc"
+  }, 
+  {
+    "Changes:": [
+      "-nltk.data.path.append('nltk_data/')\n", 
+      "+#nltk.data.path.append('nltk_data/')\n"
+    ], 
+    "Message:": "sdaf", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dennyabrain/deard/commit/419842b175a7c6d6f7de7c1282bc2870ea1233fc", 
+    "Commit Corrections:": "https://github.com/dennyabrain/deard/commit/4be0171408e531ef0aa9be8081c26b3d31ef9205"
+  }, 
+  {
+    "Changes:": [
+      "-        self.body.append('\\\\includegraphics%s{%s}' % (options, uri))\n", 
+      "+        base, ext = path.splitext(uri)\n", 
+      "+        self.body.append('\\\\includegraphics%s{{%s}%s}' % (options, base, ext))\n"
+    ], 
+    "Message:": "Fix #981: LaTeX: support image file names with more than 1 dots\n\nLaTeX cannot detect image file names with more than 1 dots in it\ncorrectly. The solution is to use '{}' to surround the base name. See\nhttps://tex.stackexchange.com/questions/10574/includegraphics-dots-in-filename\n\nFix #981", 
+    "Additions:": 2, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/xuhdev/sphinx/commit/8b47cc52b19dd2b6e6933b2d7fc02f9ae6a6e5bd", 
+    "Commit Corrections:": "https://github.com/xuhdev/sphinx/commit/2ee03a272941da480e933478c7b1ae3153158bca"
+  }, 
+  {
+    "Changes:": [
+      "-# basic k-nearest neighbors\n", 
+      "+# Basic K-Nearest Neighbors\n", 
+      "-class basic_knn:\n", 
+      "+\n", 
+      "+class KNN:\n", 
+      "-                                 , key=operator.itemgetter(1), reverse=True)\n", 
+      "+            , key=operator.itemgetter(1), reverse=True)\n"
+    ], 
+    "Message:": "refactoring class name to camel case & spelling correction", 
+    "Additions:": 4, 
+    "Deletions:": 3, 
+    "Commit Mistakes:": "https://github.com/pytrain/pytrain/commit/3712295e7f3a1e54e468a2d3a1095ebb4d7154db", 
+    "Commit Corrections:": "https://github.com/pytrain/pytrain/commit/ef3e4439dda51c076b8230744e285a090c4f7d48"
+  }, 
+  {
+    "Changes:": [
+      "-BASEURL = 'http://ngas01.ivec.org/metadata/'\n", 
+      "+BASEURL = 'http://mwa-metadata01.pawsey.org.au/metadata/'\n"
+    ], 
+    "Message:": "Updated URL for archive", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/steve-ord/galaxy-scripts/commit/e422df6ef2bbd5bedb62048f6ef6272955e361f5", 
+    "Commit Corrections:": "https://github.com/steve-ord/galaxy-scripts/commit/97ba73766394d4fb30a166ec7e1303ca86033852"
+  }, 
+  {
+    "Changes:": [
+      "-                    select sum(residual+sotien_lai_conlai) as so_tien_no,mlg_type,chinhanh_id\n", 
+      "+                    select sum(COALESCE(residual,0) + COALESCE(sotien_lai_conlai,0)) as so_tien_no,mlg_type,chinhanh_id\n"
+    ], 
+    "Message:": "update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/minhphung171093/GreenERP_V8/commit/7acf9d6a2618fe7113f731c97f41c95bcb2c1cbc", 
+    "Commit Corrections:": "https://github.com/minhphung171093/GreenERP_V8/commit/6556df92132bfef0cec1db03bf046c1bfb59f53b"
+  }, 
+  {
+    "Changes:": [
+      "-\tdate = models.DateField(default=datetime.datetime.now().date)\n", 
+      "+\tdate = models.DateField(default=timezone.now())\n"
+    ], 
+    "Message:": "Merge branch 'dev' of https://github.com/roselleebarle04/jcrel-ims into dev", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/roselleebarle04/jcrel-ims/commit/f785b7fe2fee8fbe7aaf1149085cefbc999ebd01", 
+    "Commit Corrections:": "https://github.com/roselleebarle04/jcrel-ims/commit/6a189a8b6124e539d8514878589c645e31f788ca"
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.2',\n", 
+      "+    version='0.3',\n"
+    ], 
+    "Message:": "Bump to 0.3", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/filwaitman/pysmartcache/commit/db3079eb14030ea27f54af6ce1aca712ffc68a0f", 
+    "Commit Corrections:": "https://github.com/filwaitman/pysmartcache/commit/de900212f0d0ecec02ee1c0eeaeb811f733b0aa5"
+  }, 
+  {
+    "Changes:": [
+      "-        ''' Inicializa o algoritmo do elevador com a quantidade de setores e o setor inicial. '''\n", 
+      "+        ''' Inicializa o algoritmo FCFS com a quantidade de setores e o setor inicial. '''\n"
+    ], 
+    "Message:": "Correcao na FCFS.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hugos94/scheduling-hard-drive/commit/bd30873d099cd850c98ba024ddd6b93d0f0fa2b2", 
+    "Commit Corrections:": "https://github.com/hugos94/scheduling-hard-drive/commit/ec1620042c7629c483dac5e8f7e166d1c22257b1"
+  }, 
+  {
+    "Changes:": [
+      "-    '_dburl_': 'mysql://career:career@123@120.24.225.106:33060/%s?charset=utf8',\n", 
+      "+    '_dburl_': 'mysql://career:career@123@127.0.0.1:33060/%s?charset=utf8',\n"
+    ], 
+    "Message:": "remove comments", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yamingd/argo-script/commit/8ce815c74529f0352eaed829b8b306fd9761e44c", 
+    "Commit Corrections:": "https://github.com/yamingd/argo-script/commit/66a130048e2ac780b516010fb87e3776ab149098"
+  }, 
+  {
+    "Changes:": [
+      "-num_cores = multiprocessing.cpu_count()*20\n", 
+      "+num_cores = multiprocessing.cpu_count()*5\n"
+    ], 
+    "Message:": "auto commit", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/insideyourgovernment/insideyourgovernment_api/commit/40170c417ca00e286670fc9ad6a9fce3d54aa27a", 
+    "Commit Corrections:": "https://github.com/insideyourgovernment/insideyourgovernment_api/commit/5c6d22ab416df723b3c9341e7aa6ed3e0092908f"
+  }, 
+  {
+    "Changes:": [
+      "+\t\tserv = discord.utils.find(lambda m: m.name == self.server_name, client.servers)\n", 
+      "-\t\t\tserv = discord.utils.find(lambda m: m.name == self.server_name, client.servers)\n"
+    ], 
+    "Message:": "Merge branch 'master' into stable", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dguil16/DHBot/commit/b690712fa26e76cd85f479693afcf22739718198", 
+    "Commit Corrections:": "https://github.com/dguil16/DHBot/commit/3189067d8945af89d7913f465abdf18f53aaf6c0"
+  }, 
+  {
+    "Changes:": [
+      "-AD_CORE_SERVER = \"http://127.0.0.1:8899/tbid\"\n", 
+      "+AD_CORE_SERVER = \"http://127.0.0.1/tbid\"\n"
+    ], 
+    "Message:": "\u4fee\u6539\u914d\u7f6e\u6587\u4ef6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/wyj999/mtMedia/commit/3669177524fb3626e949fe9083522501f817ab01", 
+    "Commit Corrections:": "https://github.com/wyj999/mtMedia/commit/7b0b08014511f67d4afe64507af875ca5104da27"
+  }, 
+  {
+    "Changes:": [
+      "-bot = Chatbot('BotCred.txt', 'events.txt', 'help.txt', 'fractal.txt', 'mission.txt', 'Xorin Testing')\r\n", 
+      "+bot = Chatbot('BotCred.txt', 'events.txt', 'help.txt', 'fractal.txt', 'mission.txt', 'Descendants of Honor')\r\n"
+    ], 
+    "Message:": "fixed server name", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dguil16/DHBot/commit/a8c6ca610a3bf5c600b16532350b5eb5b32702bc", 
+    "Commit Corrections:": "https://github.com/dguil16/DHBot/commit/ae0912cd8968cd9e9b462775655c028789db0454"
+  }, 
+  {
+    "Changes:": [
+      "-        ret['Data packet size'] = ret['extra_data'][6:6+1]\n", 
+      "+        ret['Data packet size'] = ord(ret['extra_data'][6:6+1])\n"
+    ], 
+    "Message:": "no message", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Epi10/epifpm/commit/91fedcbaede40aed05708c7525a953c6d2cd9c7e", 
+    "Commit Corrections:": "https://github.com/Epi10/epifpm/commit/483bd31b6e9b0f57f086e406d61957093d9799b1"
+  }, 
+  {
+    "Changes:": [
+      "-OUTPUT = \"corpora_compasion.svg\"\n", 
+      "+OUTPUT = \"corpora_comparison.svg\"\n"
+    ], 
+    "Message:": "fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/nflanders9/polldit/commit/17e3ed2ced06801f5453e617ea64372283889342", 
+    "Commit Corrections:": "https://github.com/nflanders9/polldit/commit/01d440ae78e62086f33eb3cd115a83316149afee"
+  }, 
+  {
+    "Changes:": [
+      "-        ret['Data packet size'] = ord(ret['extra_data'][6:6+1])\n", 
+      "+        ret['Data packet size'] = [32, 64, 128, 256][ord(ret['extra_data'][6:6+1])]\n"
+    ], 
+    "Message:": "no message", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Epi10/epifpm/commit/483bd31b6e9b0f57f086e406d61957093d9799b1", 
+    "Commit Corrections:": "https://github.com/Epi10/epifpm/commit/12625bdd82cb84ac82ab461b575925ff3dcf0ffe"
+  }, 
+  {
+    "Changes:": [
+      "-        :return: read data, list columns to drop, list rows to filter\n", 
+      "+        :output: read data, list columns to drop, list rows to filter\n"
+    ], 
+    "Message:": "nothing really", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/banjopickin/women_workforce/commit/697f878366dcb3160b81c8ce047d84285bc05b31", 
+    "Commit Corrections:": "https://github.com/banjopickin/women_workforce/commit/8f627b83fd161c7fbe5a7b40dbc4b2c584722381"
+  }, 
+  {
+    "Changes:": [
+      "-        self.failed_sessions = OrderedDict()\n", 
+      "+        self.failed_sessions = OrderedDict()  # store last 1k failed sessions\n", 
+      "-        return sum(map(len, self.failed_sessions.values()))\n", 
+      "+        return sum(\n", 
+      "+            self.hangup_causes.values()\n", 
+      "+        ) - self.hangup_causes['NORMAL_CLEARING']\n", 
+      "+        prepend = kwargs.pop('prepend', False)\n", 
+      "-        self.consumers.setdefault(\n", 
+      "-            ident, {}).setdefault(\n", 
+      "-                evname, deque()\n", 
+      "-            ).append(callback)\n", 
+      "+        d = self.consumers.setdefault(ident, {}).setdefault(evname, deque())\n", 
+      "+        getattr(d, 'appendleft' if prepend else 'append')(callback)\n", 
+      "-                self.log.error(\"Failed to process event '{}':\\n{}\"\n", 
+      "-                               .format(evname, traceback.format_exc()))\n", 
+      "+                self.log.error(\n", 
+      "+                    \"Failed to process event '{}' with uid '{}':\\n{}\"\n", 
+      "+                    .format(evname, e.getHeader('Unique-ID'),\n", 
+      "+                            traceback.format_exc())\n", 
+      "+                )\n", 
+      "-                    if not sess:\n", 
+      "-                        self.log.debug(\"No session corresponding to bj \"\n", 
+      "-                                       \"'{}'\".format(job_uuid))\n", 
+      "-                    # remove any call repr by this sess\n", 
+      "-                    call = self.calls.pop(job.sess_uuid, None)\n", 
+      "-                    if not call:\n", 
+      "-                        self.log.debug(\"No call corresponding to uuid \"\n", 
+      "-                                       \"'{}'\".format(call))\n", 
+      "+                    if sess:\n", 
+      "+                        # remove any call containing this session\n", 
+      "+                        call = sess.call\n", 
+      "+                        if call:\n", 
+      "+                            call = self.calls.pop(call.uuid, None)\n", 
+      "+                        else:\n", 
+      "+                            self.log.debug(\"No Call containing Session \"\n", 
+      "+                                           \"'{}'\".format(sess.uuid))\n", 
+      "+                    else:\n", 
+      "+                        self.log.warn(\"No session corresponding to bj '{}'\"\n", 
+      "+                                      .format(job_uuid))\n", 
+      "-        # note the start time and current load\n", 
+      "-        # TODO: move this to Session __init__??\n", 
+      "-        sess.times['create'] = get_event_time(e)\n", 
+      "-            sess.times['answer'] = get_event_time(e)\n", 
+      "-            self.log.info('skipping answer of {}'.format(uuid))\n", 
+      "+            self.log.warn('Skipping answer of {}'.format(uuid))\n", 
+      "-        sess.times['hangup'] = get_event_time(e)\n", 
+      "-                    self.log.debug(\"hungup session '{}' for call '{}'\".format(\n", 
+      "+                    self.log.debug(\"hungup Session '{}' for Call '{}'\".format(\n", 
+      "-                    self.log.warn(\"no call for session '{}'\".format(sess.uuid))\n", 
+      "+                    self.log.warn(\"no call for Session '{}'\".format(sess.uuid))\n", 
+      "-                    self.log.debug(\"all sessions for call '{}' were hung up\"\n", 
+      "+                    self.log.debug(\"all sessions for Call '{}' were hung up\"\n", 
+      "-                    self.calls.pop(call.uuid)\n", 
+      "+                    call = self.calls.pop(call.uuid, None)\n", 
+      "+                    if not call:\n", 
+      "+                        self.log.warn(\n", 
+      "+                            \"Call with id '{}' containing Session '{}' was \"\n", 
+      "+                            \"already removed\".format(call.uuid, sess.uuid))\n", 
+      "-        self.log.debug(\"hungup session '{}'\".format(uuid))\n", 
+      "+        self.log.debug(\"hungup Session '{}'\".format(uuid))\n", 
+      "-    # works under the assumption that x-headers are forwarded by the proxy/B2BUA\n", 
+      "+    # works under the assumption that x-headers are forwarded by the proxy\n", 
+      "-    def load_app(self, ns, on_value=None, **prepost_kwargs):\n", 
+      "+    def load_app(self, ns, on_value=None, prepend=False, **prepost_kwargs):\n", 
+      "-                added = listener.add_callback(ev_type, group_id, obj)\n", 
+      "+                added = listener.add_callback(\n", 
+      "+                    ev_type, group_id, obj, prepend=prepend)\n"
+    ], 
+    "Message:": "Support preprending to the callbacks deque\n\nLike it sounds; lets the user insert callbacks in front of all\nothers (i.e. so they're called first) for a given consumer id.\nThis turns out to be handy if we want some built in apps to\nprovide \"core like\" behaviour/state which can be consumed by\nother apps. A prime example would be the `CallTimes` app which\nrecords event time stamps for later metrics calculations.\nSupport this functionality via the `prepend` kwarg to\n`Client.load_app`.\n\nAdditionally,\n- strip out all event time stamp recording from default event\n  handlers\n- correct `EventListener.count_failed` to use the internal\n  `hangup_causes` instance var instead of the size limited\n  `failed_sessions` deque\n- only pop calls in the job handler if a corresponding session\n  can be looked up\n- improve some handler logging", 
+    "Additions:": 37, 
+    "Deletions:": 30, 
+    "Commit Mistakes:": "https://github.com/sangoma/switchy/commit/164c763a1336395b69adc85093ec320b37e0ab9a", 
+    "Commit Corrections:": "https://github.com/sangoma/switchy/commit/eb1b84763ff906aa6d7d1d5559b89fd7868a45ab"
+  }, 
+  {
+    "Changes:": [
+      "-        txt_shell = re.sub(r\"^(```|`)\",\"\", txt_shell)\n", 
+      "+        txt_shell = re.sub(r\"^\\s*(```|`)\\s*\",\"\", txt_shell)\n"
+    ], 
+    "Message:": "strip spaces", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jonschoning/err-lambdabot/commit/2f009d7a985fb251616ac72537c067df05fdad24", 
+    "Commit Corrections:": "https://github.com/jonschoning/err-lambdabot/commit/00f6b504454302862b94386d1b101e7d4c549a4a"
+  }, 
+  {
+    "Changes:": [
+      "-    extension_version = \"0.1.0.6\"\n", 
+      "+    extension_version = \"0.1.0.8\"\n"
+    ], 
+    "Message:": "8", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Snesha/azure-linux-extensions/commit/78fb8f04491f532507caaf812e5515d18d556ac6", 
+    "Commit Corrections:": "https://github.com/Snesha/azure-linux-extensions/commit/bdd3fdcc1580a4da93e8f169de41e98119610e9a"
+  }, 
+  {
+    "Changes:": [
+      "-            os.rename(self._context._settings_file,self._context._settings_file + \".processed\")\r\n", 
+      "+            os.rename(self._context._settings_file, self._context._settings_file + \".processed\")\r\n"
+    ], 
+    "Message:": "little improvement.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Azure/azure-linux-extensions/commit/8c79bebea022d87d48c8f9dd1dc6798618628fdf", 
+    "Commit Corrections:": "https://github.com/Azure/azure-linux-extensions/commit/d61dbaf8cd70bf6082c5dfa0009f8007a5002840"
+  }, 
+  {
+    "Changes:": [
+      "-VERSION = '1.5.0'\n", 
+      "+VERSION = '1.5.1-pre'\n"
+    ], 
+    "Message:": "Version bump\n\nNow 1.5.1-pre.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/AwesomeTTS/AwesomeTTS/commit/fb0c37e4840015f611092d9ad7bf196e9f849cea", 
+    "Commit Corrections:": "https://github.com/AwesomeTTS/AwesomeTTS/commit/4c345b842b1ab63ffaa85fca638486af2fcccfb4"
+  }, 
+  {
+    "Changes:": [
+      "-    rendered_html = html_template.render(RequestContext(request, {'applicant': applicant})).encode(encoding=\"UTF-8\")\n", 
+      "+    rendered_html = html_template.render(RequestContext(request, {'application': applicant})).encode(encoding=\"UTF-8\")\n"
+    ], 
+    "Message:": "Update view to for applicant_pdf page", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/UO-SPUR/reu_utility/commit/6d8ab31275be8f6b24487fbc8d9ebda05eebf84b", 
+    "Commit Corrections:": "https://github.com/UO-SPUR/reu_utility/commit/75f5755c1bd6eca105f7d7e786f88901ba5f5cdd"
+  }, 
+  {
+    "Changes:": [
+      "-        dependent_libs = ['gsl', 'cblas', 'hdf5_cpp', 'hdf5']\n", 
+      "+        dependent_libs = ['gsl', 'gslcblas', 'hdf5_cpp', 'hdf5']\n"
+    ], 
+    "Message:": "fix dependent_libs in Python2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ecell/ecell4/commit/970c7cf9bf28b07f0e5a9f7d048497654eb305ea", 
+    "Commit Corrections:": "https://github.com/ecell/ecell4/commit/384402020883fa6a72a786b109af603e292ad9e8"
+  }, 
+  {
+    "Changes:": [
+      "-        self.failed_sessions = OrderedDict()\n", 
+      "+        self.failed_sessions = OrderedDict()  # store last 1k failed sessions\n", 
+      "-        return sum(map(len, self.failed_sessions.values()))\n", 
+      "+        return sum(\n", 
+      "+            self.hangup_causes.values()\n", 
+      "+        ) - self.hangup_causes['NORMAL_CLEARING']\n", 
+      "+        prepend = kwargs.pop('prepend', False)\n", 
+      "-        self.consumers.setdefault(\n", 
+      "-            ident, {}).setdefault(\n", 
+      "-                evname, deque()\n", 
+      "-            ).append(callback)\n", 
+      "+        d = self.consumers.setdefault(ident, {}).setdefault(evname, deque())\n", 
+      "+        getattr(d, 'appendleft' if prepend else 'append')(callback)\n", 
+      "-                self.log.error(\"Failed to process event '{}':\\n{}\"\n", 
+      "-                               .format(evname, traceback.format_exc()))\n", 
+      "+                self.log.error(\n", 
+      "+                    \"Failed to process event '{}' with uid '{}':\\n{}\"\n", 
+      "+                    .format(evname, e.getHeader('Unique-ID'),\n", 
+      "+                            traceback.format_exc())\n", 
+      "+                )\n", 
+      "-                    if not sess:\n", 
+      "-                        self.log.debug(\"No session corresponding to bj \"\n", 
+      "-                                       \"'{}'\".format(job_uuid))\n", 
+      "-                    # remove any call repr by this sess\n", 
+      "-                    call = self.calls.pop(job.sess_uuid, None)\n", 
+      "-                    if not call:\n", 
+      "-                        self.log.debug(\"No call corresponding to uuid \"\n", 
+      "-                                       \"'{}'\".format(call))\n", 
+      "+                    if sess:\n", 
+      "+                        # remove any call containing this session\n", 
+      "+                        call = sess.call\n", 
+      "+                        if call:\n", 
+      "+                            call = self.calls.pop(call.uuid, None)\n", 
+      "+                        else:\n", 
+      "+                            self.log.debug(\"No Call containing Session \"\n", 
+      "+                                           \"'{}'\".format(sess.uuid))\n", 
+      "+                    else:\n", 
+      "+                        self.log.warn(\"No session corresponding to bj '{}'\"\n", 
+      "+                                      .format(job_uuid))\n", 
+      "-        # note the start time and current load\n", 
+      "-        # TODO: move this to Session __init__??\n", 
+      "-        sess.times['create'] = get_event_time(e)\n", 
+      "-            sess.times['answer'] = get_event_time(e)\n", 
+      "-            self.log.info('skipping answer of {}'.format(uuid))\n", 
+      "+            self.log.warn('Skipping answer of {}'.format(uuid))\n", 
+      "-        sess.times['hangup'] = get_event_time(e)\n", 
+      "-                    self.log.debug(\"hungup session '{}' for call '{}'\".format(\n", 
+      "+                    self.log.debug(\"hungup Session '{}' for Call '{}'\".format(\n", 
+      "-                    self.log.warn(\"no call for session '{}'\".format(sess.uuid))\n", 
+      "+                    self.log.warn(\"no call for Session '{}'\".format(sess.uuid))\n", 
+      "-                    self.log.debug(\"all sessions for call '{}' were hung up\"\n", 
+      "+                    self.log.debug(\"all sessions for Call '{}' were hung up\"\n", 
+      "-                    self.calls.pop(call.uuid)\n", 
+      "+                    call = self.calls.pop(call.uuid, None)\n", 
+      "+                    if not call:\n", 
+      "+                        self.log.warn(\n", 
+      "+                            \"Call with id '{}' containing Session '{}' was \"\n", 
+      "+                            \"already removed\".format(call.uuid, sess.uuid))\n", 
+      "-        self.log.debug(\"hungup session '{}'\".format(uuid))\n", 
+      "+        self.log.debug(\"hungup Session '{}'\".format(uuid))\n", 
+      "-    # works under the assumption that x-headers are forwarded by the proxy/B2BUA\n", 
+      "+    # works under the assumption that x-headers are forwarded by the proxy\n", 
+      "-    def load_app(self, ns, on_value=None, **prepost_kwargs):\n", 
+      "+    def load_app(self, ns, on_value=None, prepend=False, **prepost_kwargs):\n", 
+      "-                added = listener.add_callback(ev_type, group_id, obj)\n", 
+      "+                added = listener.add_callback(\n", 
+      "+                    ev_type, group_id, obj, prepend=prepend)\n"
+    ], 
+    "Message:": "Support preprending to the callbacks deque\n\nLike it sounds; lets the user insert callbacks in front of all\nothers (i.e. so they're called first) for a given consumer id.\nThis turns out to be handy if we want some built in apps to\nprovide \"core like\" behaviour/state which can be consumed by\nother apps. A prime example would be the `CallTimes` app which\nrecords event time stamps for later metrics calculations.\nSupport this functionality via the `prepend` kwarg to\n`Client.load_app`.\n\nAdditionally,\n- strip out all event time stamp recording from default event\n  handlers\n- correct `EventListener.count_failed` to use the internal\n  `hangup_causes` instance var instead of the size limited\n  `failed_sessions` deque\n- only pop calls in the job handler if a corresponding session\n  can be looked up\n- improve some handler logging", 
+    "Additions:": 37, 
+    "Deletions:": 30, 
+    "Commit Mistakes:": "https://github.com/sangoma/switchy/commit/ba078a336756c69fe5a46b2c5b0a05d2c9040e12", 
+    "Commit Corrections:": "https://github.com/sangoma/switchy/commit/cfeae693a4ad5153f3d2c72690226b7077568fd3"
+  }, 
+  {
+    "Changes:": [
+      "-            my_solver = self.problem.get_solver(N, options)\n", 
+      "+            my_solver = ps.dual.DualCoordinator(self.problem, N, options)\n"
+    ], 
+    "Message:": ".", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/srmagura/potential/commit/32d9e18a4b91e9811a5461a88800ffcc57fdc15f", 
+    "Commit Corrections:": "https://github.com/srmagura/potential/commit/2a322e89daed971bb6f3e2516aa0c448c9f2030a"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.2.1'\n", 
+      "+__version__ = '0.2.2'"
+    ], 
+    "Message:": "Merge branch 'release/0.2.2' into develop", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/refractionPOINT/py-beach/commit/5f5ed0ecbef3bc393b711db867672bd0655a5dcc", 
+    "Commit Corrections:": "https://github.com/refractionPOINT/py-beach/commit/5c4742c30f0ce42a0a2b855388ec9b8eb573f970"
+  }, 
+  {
+    "Changes:": [
+      "-        if position is not int:\n", 
+      "+        if type(position) is not int:\n"
+    ], 
+    "Message:": "[comment_roslint_result.py] fix type check", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/furushchev/jsk_travis/commit/a2a3ae5fc2ca576b417c224dcdea5f8aa00da420", 
+    "Commit Corrections:": "https://github.com/furushchev/jsk_travis/commit/88c87850596c1d1799ec91c0b34fa3ca99b8eef6"
+  }, 
+  {
+    "Changes:": [
+      "-PUSHER_SECRET = '51125ba660d359bcaaae'\n", 
+      "+PUSHER_SECRET = 'f5f637d75f31e15880f1'\n"
+    ], 
+    "Message:": "secret", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/UpgrAID/UpgrAID/commit/24442bdaa59aeb7f20299c59f3d736159ac2adbc", 
+    "Commit Corrections:": "https://github.com/UpgrAID/UpgrAID/commit/42c97deb98fb55a96d05312cdf3fe713adc4a684"
+  }, 
+  {
+    "Changes:": [
+      "-            svc_id = 'google'\n", 
+      "+            svc_id = 'yandex'\n"
+    ], 
+    "Message:": "Switch GTTS tags to use Yandex\n\nChanges the ancient undocumented [GTTS:xx:XXX] tags to use the Yandex\nservice instead of Google. I doubt anybody is using these anyway.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/AwesomeTTS/AwesomeTTS/commit/9ce3111f73afb5f8505cb1023e4d00baa7ec4747", 
+    "Commit Corrections:": "https://github.com/AwesomeTTS/AwesomeTTS/commit/dc6f36ebfc7a8c307e228b847de16f1dd1ec8859"
+  }, 
+  {
+    "Changes:": [
+      "-    extension_version = \"0.1.0.0\"\n", 
+      "+    extension_version = \"0.1.0.5\"\n"
+    ], 
+    "Message:": "upgrade version", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Azure/azure-linux-extensions/commit/0998ddd6ccf01e1203688f5b20d18091d694a9f2", 
+    "Commit Corrections:": "https://github.com/Azure/azure-linux-extensions/commit/0553830c7ea918b298b1336fe478581bd90cd0e9"
+  }, 
+  {
+    "Changes:": [
+      "-        print(notebook)\n", 
+      "-        print('Fail: '  + notebook + ': ' + e.traceback[-1])\n", 
+      "+        print('Fail: %s \\n%s\\n\\n' % (notebook, e.traceback[-1]))\n"
+    ], 
+    "Message:": "easier to detect mistakes", 
+    "Additions:": 1, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/tiagoantao/biopython-notebook/commit/f85fce6e1bc7787ca73cf802587b2a3ed4f479e4", 
+    "Commit Corrections:": "https://github.com/tiagoantao/biopython-notebook/commit/2de60d2939343e49fcde94ef75a7028c267735d0"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\tresult = [{'title':p.title, 'body':p.body, 'time':p.timestamp, 'topic':p.topic.theme, 'image':postimg_url(p, p.images.first().imageid) if p.images.first() else ''} for p in posts.items]\n", 
+      "+\t\t\tresult = [{'postid':str(p.id), 'title':p.title, 'body':p.body, 'time':p.timestamp, 'topic':p.topic.theme, 'image':postimg_url(p, p.images.first().imageid) if p.images.first() else ''} for p in posts.items]\n"
+    ], 
+    "Message:": "timeline", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/iThinkSeu/LoveinSEU/commit/b480ef93abf3fa6fb7db027689dd601d20f86778", 
+    "Commit Corrections:": "https://github.com/iThinkSeu/LoveinSEU/commit/1b5d1afdf08ecac86c5438a0a114bb62e28a9e8a"
+  }, 
+  {
+    "Changes:": [
+      "-from six import text_type\n", 
+      "+from django.utils.six import text_type\n"
+    ], 
+    "Message:": "Merge pull request #105 from funkybob/feature/no-six\n\nUse Django's vendored copy of six", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/django-notifications/django-notifications/commit/acc3098ae02b72cd5d8f13b3f9ed05b408742133", 
+    "Commit Corrections:": "https://github.com/django-notifications/django-notifications/commit/71ca543632dafa9b14cce6ad8ffa4c446fafba90"
+  }, 
+  {
+    "Changes:": [
+      "+        chunks = self.get_system_parameters()['Data packet size']\n", 
+      "-        chunks = self.get_system_parameters()['Data packet size']\n"
+    ], 
+    "Message:": "no message", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Epi10/epifpm/commit/d0832dcbdaefeb52cf9a89b88bbc0a5193af55ee", 
+    "Commit Corrections:": "https://github.com/Epi10/epifpm/commit/8df2a8228c57a7bed85105a51a0188845ce5c857"
+  }, 
+  {
+    "Changes:": [
+      "-    'version': '256',\n", 
+      "+    'version': 'beta',\n"
+    ], 
+    "Message:": "[#376][FIX] portal_user: fix a reference needed because of the change of dependencies.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cgstudiomap/cgstudiomap/commit/ae580698a02c65f422ab16115484eec64c44310a", 
+    "Commit Corrections:": "https://github.com/cgstudiomap/cgstudiomap/commit/df586fdd376e623907d2118dc449a42435b21e06"
+  }, 
+  {
+    "Changes:": [
+      "-from xonsh.tools import ON_WINDOWS, print_color, partial_string_finder\n", 
+      "+from xonsh.tools import ON_WINDOWS, print_color\n"
+    ], 
+    "Message:": "remove unnecessary import", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/adqm/xonsh/commit/ba36964ed1d2aec1b10f76fabd53698723ede4dd", 
+    "Commit Corrections:": "https://github.com/adqm/xonsh/commit/ded08639903d21250598500bcebff80d9b47018d"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\t\tnouns = getNouns(text)\n", 
+      "+\t\t\t\t#nouns = getNouns(text)\n"
+    ], 
+    "Message:": "commented nouns", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dennyabrain/deard/commit/07ddcf064462bb33e7192467d178cd5e60ed2eb3", 
+    "Commit Corrections:": "https://github.com/dennyabrain/deard/commit/caf8d95c15ade9106869821d4702e8039983a143"
+  }, 
+  {
+    "Changes:": [
+      "-from gi.repository import Gtk, GLib, Gdk, GdkPixbuf, Gio#, GObject\n", 
+      "+from gi.repository import Gtk, GLib, GdkPixbuf, Gio\n"
+    ], 
+    "Message:": "Remove unused imports and check for Gtk 3.8", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ricardomv/snapper-gui/commit/535a62e4ec4eb7d60437bf335c1726c83b555638", 
+    "Commit Corrections:": "https://github.com/ricardomv/snapper-gui/commit/dc099de8f9d8d75181dd71f08fcec77ad17c39b3"
+  }, 
+  {
+    "Changes:": [
+      "-                        (u\"Descripcion\"),\n", 
+      "+                        (u\"Descripci\u00f3n\"),\n"
+    ], 
+    "Message:": "una que otra tilde", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/manuell12/CafeNostro/commit/f07f296adc0981a36421b181ef89b374c67cd6c9", 
+    "Commit Corrections:": "https://github.com/manuell12/CafeNostro/commit/11c528bd3f0c62e20d0f2fa64125cde030dfb669"
+  }, 
+  {
+    "Changes:": [
+      "-\temail = \n", 
+      "+\t# email = \n"
+    ], 
+    "Message:": "add werkzeug.security", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/chaonet/flask_blog/commit/791938057a7a35b0729c24cae71391dd6451156e", 
+    "Commit Corrections:": "https://github.com/chaonet/flask_blog/commit/4af537aaf8bb19071c60cd55a7363481bf67f9d5"
+  }, 
+  {
+    "Changes:": [
+      "-            callable_code = 'rfc{} = RandomForestClassifier(n_estimators={}, max_features={})'\n", 
+      "+            callable_code = 'RandomForestClassifier(n_estimators={}, max_features={})'\n"
+    ], 
+    "Message:": "Looks like we have it working for RandomForest. Next step is to incrementally port each operator to the new object-oriented scheme.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dmarx/tpot/commit/ecb215c704dfc88e6f6eef47db4152d4ba39a61b", 
+    "Commit Corrections:": "https://github.com/dmarx/tpot/commit/665a5ca27843fce1e08be0137bc0b98ba47d2682"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.8'\n", 
+      "+__version__ = '0.9'\n"
+    ], 
+    "Message:": "Bump version.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/skolsuper/django-configurations/commit/2f26bbae69579f99f4cab364641fc5b98ff09e1d", 
+    "Commit Corrections:": "https://github.com/skolsuper/django-configurations/commit/aecce6f374ad67cdf467f0040dfdf1ef567752de"
+  }, 
+  {
+    "Changes:": [
+      "-SDK_REVISION = '604'\n", 
+      "+SDK_REVISION = '607'\n"
+    ], 
+    "Message:": "prep for r607", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/axiomatic-systems/Bento4/commit/1f100639714577754bd45a2c3777ef7a420f8571", 
+    "Commit Corrections:": "https://github.com/axiomatic-systems/Bento4/commit/fa91c7a703a419a1fa177a96e90e775b1c342cb6"
+  }, 
+  {
+    "Changes:": [
+      "+        ShipmentBoxTypes,\n", 
+      "-        ShipmentBoxTypes,\n"
+    ], 
+    "Message:": "Update to include 'box_type' field", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fulfilio/trytond-shipping/commit/576e9fbff85587541aa37a19601d35f6430af907", 
+    "Commit Corrections:": "https://github.com/fulfilio/trytond-shipping/commit/8b7eabaaaaf6743151d2628a40589f865be51177"
+  }, 
+  {
+    "Changes:": [
+      "-          'Scrapy==1.0.3',\n", 
+      "+          'Scrapy>=1.0.3',\n"
+    ], 
+    "Message:": "Updated the package requirements.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/gilbertoalexsantos/uris/commit/9aee5f4e6610aaf50c7250d1f87c3bf42ec16792", 
+    "Commit Corrections:": "https://github.com/gilbertoalexsantos/uris/commit/2002afe6135a936fc326fd3ca927fe258ba6203e"
+  }, 
+  {
+    "Changes:": [
+      "-    os.system(\"ffmpeg -y -pattern_type glob -i '*.jpg' -vcodec mpeg4 out.mp4\")\n", 
+      "+    os.system(\"ffmpeg -y -pattern_type glob -framerate 15 -i '*.jpg' -vcodec mpeg4 preview.mp4\")\n"
+    ], 
+    "Message:": "brdavis: set framerate of preview video to 15", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davis1410/django_cam_controller/commit/38a75f7f03dc279c8db43deb91744dfdc758bf35", 
+    "Commit Corrections:": "https://github.com/davis1410/django_cam_controller/commit/f0be0ebc91e3af8f0f0e82e365535e91204154bb"
+  }, 
+  {
+    "Changes:": [
+      "-    rank = 0\n", 
+      "+    rank = 5\n"
+    ], 
+    "Message:": "small change for regression sgd init", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/NICTA/revrand/commit/cd14d1621cdafe97e724abfe1d5d78e08f99bedb", 
+    "Commit Corrections:": "https://github.com/NICTA/revrand/commit/32781d62d901716752bc947fb3fe5286d5bca146"
+  }, 
+  {
+    "Changes:": [
+      "-            params = {'n_estimators': 250, 'max_depth': 3, 'min_samples_split': 1, 'learning_rate': 0.005, 'loss': 'ls'}\n", 
+      "+            params = {'n_estimators': 250, 'max_depth': 3, 'min_samples_split': 1, 'learning_rate': 0.01, 'loss': 'ls'}\n"
+    ], 
+    "Message:": "Update projections.py\n\ntweaked learning rate", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/brttstl/proj-fantasy/commit/05a1ef15183c61d3f09f38f0d1c0846f06faf190", 
+    "Commit Corrections:": "https://github.com/brttstl/proj-fantasy/commit/9bfcccd502238db23ba6f3ecc3138d81f7f34a04"
+  }, 
+  {
+    "Changes:": [
+      "-    time.sleep(10)\n", 
+      "+    time.sleep(60)\n"
+    ], 
+    "Message:": "This test should sleep longer to give time for the CBGT reshard to happen", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/couchbaselabs/sync-gateway-testcluster/commit/624a61f9ced072366e73ddb9fe909dd494299931", 
+    "Commit Corrections:": "https://github.com/couchbaselabs/sync-gateway-testcluster/commit/dfe0d1f2bdf19fa4eab611776b5e58f0c96cd705"
+  }, 
+  {
+    "Changes:": [
+      "-    time.sleep(60)\n", 
+      "+    time.sleep(120)\n"
+    ], 
+    "Message:": "Sleep longer", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/couchbaselabs/sync-gateway-testcluster/commit/dfe0d1f2bdf19fa4eab611776b5e58f0c96cd705", 
+    "Commit Corrections:": "https://github.com/couchbaselabs/sync-gateway-testcluster/commit/f87aad6a46fa6f1c04faa70402f5d7ea7e3ee16d"
+  }, 
+  {
+    "Changes:": [
+      "+        ShipmentBoxTypes,\n", 
+      "-        ShipmentBoxTypes,\n"
+    ], 
+    "Message:": "Merge pull request #37 from fulfilio/pr/36\n\nUpdate to include 'box_type' field", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fulfilio/trytond-shipping/commit/576e9fbff85587541aa37a19601d35f6430af907", 
+    "Commit Corrections:": "https://github.com/fulfilio/trytond-shipping/commit/5f23acebfccbf0f6a55ab4036155b780dc5ec9c5"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\t\t#nouns = getNouns(text)\n", 
+      "+\t\t\t\tnouns = getNouns(text)\n"
+    ], 
+    "Message:": "made changes to path", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dennyabrain/deard/commit/caf8d95c15ade9106869821d4702e8039983a143", 
+    "Commit Corrections:": "https://github.com/dennyabrain/deard/commit/726e0d484eeaa8183584a14bbc68c15bcef2c883"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\tfileContents = re.sub('open\\(\"[^\"]*\\\\IMAGENAME\"','open(\"INPUTPATH/IMAGENAME\"', fileContents)\r\n", 
+      "+\t\t\tfileContents = re.sub('open\\(\"[^\"]*\\\\IMAGENAME\"','open(\"INPUTPATH\"', fileContents)\r\n"
+    ], 
+    "Message:": "Changed line in the generalization process", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pwlandoll/cs470-image-processing/commit/beb1ee881b2d2eeef853fca4559b8a0fca7f4d2f", 
+    "Commit Corrections:": "https://github.com/pwlandoll/cs470-image-processing/commit/08df6cbe2e1d125be93976051ee5c7938b8969bc"
+  }, 
+  {
+    "Changes:": [
+      "-def test_queue(models, api_client):\n", 
+      "+def test_queue(models, queue, api_client):\n"
+    ], 
+    "Message:": "Use a shared elasticsearch fixture, instead of separate fixtures for separate indices.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davidmcclure/osp/commit/05aa3aa23f6b311e2d9edfe487dec52d14de7662", 
+    "Commit Corrections:": "https://github.com/davidmcclure/osp/commit/43d84709def721d673d4f08e546d93a4ee6318db"
+  }, 
+  {
+    "Changes:": [
+      "-from Requests import *\n", 
+      "+from zhihu_api import *\n"
+    ], 
+    "Message:": "import error \u4fee\u6b63", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ZombieGroup/NewWorm/commit/27e88ee3e8fd9ce3d4481229278afac8aab70cad", 
+    "Commit Corrections:": "https://github.com/ZombieGroup/NewWorm/commit/1995ddc6efb20db25492e48f5862e3eb595a1683"
+  }, 
+  {
+    "Changes:": [
+      "-    maxLag = numRows - (twoHrs+2)  # last datapoint x where 2hrs from x is recorded\n", 
+      "+    maxLag = numRows - (twoHrs+4)  # last datapoint x where 2hrs from x is recorded\n"
+    ], 
+    "Message:": "fixing small bugs before running 3", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lmcintosh/kaggle/commit/2c2bb8b44509676e3422b129e4df950343b3eae1", 
+    "Commit Corrections:": "https://github.com/lmcintosh/kaggle/commit/c3de73c02d0d77f44db09494fa723e31ca49ac89"
+  }, 
+  {
+    "Changes:": [
+      "-print(\"Hello, my World!\")\n", 
+      "+print(\"Hello, my new World!\")"
+    ], 
+    "Message:": "add exsercise files", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ylitvak/python/commit/f0c55e10c79d0becdcb9ea194d699b1f04185920", 
+    "Commit Corrections:": "https://github.com/ylitvak/python/commit/8093c3af37bc5d83c5f124054ff685e9d8c17251"
+  }, 
+  {
+    "Changes:": [
+      "-        server.add_insecure_port('[::]:80000') #bind to any port that is higher than 20000\n", 
+      "+        server.add_insecure_port('[::]:8080') #bind to any port that is higher than 20000\n"
+    ], 
+    "Message:": "Update candidate_server.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yh1008/laplacian-stochastic-broccoli/commit/20cd8d20fb98a354063ad516d5bd61a1bc96706c", 
+    "Commit Corrections:": "https://github.com/yh1008/laplacian-stochastic-broccoli/commit/fb56be6759b162c01d4fe33cbea5ac54d7b70c46"
+  }, 
+  {
+    "Changes:": [
+      "-env = os.path.dirname(os.path.dirname(__file__))\n", 
+      "+env = os.path.dirname(os.path.dirname(__file__)) + '/'\n"
+    ], 
+    "Message:": "add run env again", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/xutaoding/news_crawler/commit/db0e8167e5866fcb18e247163dce66e32cf52e0c", 
+    "Commit Corrections:": "https://github.com/xutaoding/news_crawler/commit/2c7d58356df151f35c675a7845fb048b071dd745"
+  }, 
+  {
+    "Changes:": [
+      "-y1980 = [5, -7, 4, 2]\t\t\t\t#Arranged Reagan, Carter\n", 
+      "+y1980 = [5, -7, 4, 2]\t\t\t\t#Arranged Reagan, Anderson, Reagan, Carter\n"
+    ], 
+    "Message:": "Updates of random_forest and polldata", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/brettkinson/SoftDes_FinalProj/commit/365c8079280bd9956baf6e727793ef0d686ace58", 
+    "Commit Corrections:": "https://github.com/brettkinson/SoftDes_FinalProj/commit/6fdd69a4c6b21aa7a43dbb34986e6051b4717755"
+  }, 
+  {
+    "Changes:": [
+      "-_TIMEOUT_SECONDS = 10\n", 
+      "+global _TIMEOUT_SECONDS = 10\n"
+    ], 
+    "Message:": "Update candidate_client.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yh1008/laplacian-stochastic-broccoli/commit/d0bbeb8a45e26548b32b6fdb6f5bf70cf1668e69", 
+    "Commit Corrections:": "https://github.com/yh1008/laplacian-stochastic-broccoli/commit/c90ae047c358ce7c9fe2c3c32a8f834d6ac2421e"
+  }, 
+  {
+    "Changes:": [
+      "-    # Read data in chuncks\n", 
+      "+    # Read data in chunks\n"
+    ], 
+    "Message:": "ENH add explained_variance to PCA", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/teonlamont/mne-python/commit/209f9bd3312efe804882e43a22addf849f4523ec", 
+    "Commit Corrections:": "https://github.com/teonlamont/mne-python/commit/949117bb77b82378cd96558bafe6fce12d874831"
+  }, 
+  {
+    "Changes:": [
+      "-metric_output = 1\n", 
+      "+metric_output = 10\n"
+    ], 
+    "Message:": "test checkpointing on Raijin", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dansand/vueesc/commit/988a0850c5368221220ea409eaeff8ea6eb4b3b2", 
+    "Commit Corrections:": "https://github.com/dansand/vueesc/commit/c56cee71c3d6c53d8d274ebb5d561984a772632f"
+  }, 
+  {
+    "Changes:": [
+      "-t = uav.dynamics.t0\n"
+    ], 
+    "Message:": "get rid of redundant t", 
+    "Additions:": 0, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/savadha2/PyUAVSim/commit/c57d88ff719249fabc5068303b8d90c249c87f60", 
+    "Commit Corrections:": "https://github.com/savadha2/PyUAVSim/commit/621825d82b301649820b55960a071cc6a2a5dc9a"
+  }, 
+  {
+    "Changes:": [
+      "-    def delta_a(self, phi_c, phi):\n", 
+      "+    def compute_delta_a(self, phi_c, phi):\n"
+    ], 
+    "Message:": "rename delta_a to compute_delta_a", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/savadha2/PyUAVSim/commit/cdd62b0d5998f28add1123ec13a4054bd0eb5eb3", 
+    "Commit Corrections:": "https://github.com/savadha2/PyUAVSim/commit/b8b5a9fa773ee81c14c0c7c6d1481684f0c8be06"
+  }, 
+  {
+    "Changes:": [
+      "-                if (iter+1) % min(100, (n_train_batches+9)/10) == 0:\n", 
+      "+                if (minibatch_index+1) % min(100, (n_train_batches+9)/10) == 0:\n"
+    ], 
+    "Message:": "mnist-mod: improve printing of progress 'dots'", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mikebentley15/cs6350_project_ml/commit/cea4c5e3f790568ad68fd0080c2bd877ac239edb", 
+    "Commit Corrections:": "https://github.com/mikebentley15/cs6350_project_ml/commit/2e1b6577c8f4442ff996c847333279b9d7a73d7b"
+  }, 
+  {
+    "Changes:": [
+      "-# Establish connection with client (socket must be listening first)\n", 
+      "+# Establish connection with client (socket must be listening for them)\n"
+    ], 
+    "Message:": "Test", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/buckyroberts/Python-Reverse-Shell/commit/08cad42f5618c576bcf03351a9cc2c6c16256fe8", 
+    "Commit Corrections:": "https://github.com/buckyroberts/Python-Reverse-Shell/commit/feb06513584aca18c8f39505e3d7de906850bf35"
+  }, 
+  {
+    "Changes:": [
+      "-\t\"version\" : (0, 215),\n", 
+      "+\t\"version\" : (0, 216),\n"
+    ], 
+    "Message:": "\u7279\u5b9a\u306e\u30a8\u30ea\u30a2\u306b\u5909\u6570\u3092\u30bb\u30c3\u30c8\u3059\u308b\u51e6\u7406\u3092\u95a2\u6570\u5316", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CM3Duser/Blender-CM3D2-Converter/commit/e3b7f2a332d23594e5905d1ce7b98c552343a4f5", 
+    "Commit Corrections:": "https://github.com/CM3Duser/Blender-CM3D2-Converter/commit/0266b8e221ed1d5d9cb3c0f2aeca4afb8fe0b0ba"
+  }, 
+  {
+    "Changes:": [
+      "-        'USER': 'myuser',\n", 
+      "+        'USER': 'mypassword',\n"
+    ], 
+    "Message:": "Check password and confirm password match", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ahmedsabie/app-web-server/commit/ab01bc5fb0a3a26603b749fb2dff6a212a8648ff", 
+    "Commit Corrections:": "https://github.com/ahmedsabie/app-web-server/commit/fc6ad7323c200e25ef2df6036db5ba183644937c"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tself._graph = Widget()  # TODO change to graph widget once implemented.\n", 
+      "+\t\tself._graph = GraphView()  # TODO change to graph widget once implemented.\n"
+    ], 
+    "Message:": "Graph nodes drag/drop and arrows", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/benjamminf/fit3140-assignment/commit/f010dfaad773756fedba294885122d9c62bea5e0", 
+    "Commit Corrections:": "https://github.com/benjamminf/fit3140-assignment/commit/ddb69f7080ce1158de593f52e33989f75ab427c8"
+  }, 
+  {
+    "Changes:": [
+      "-from fabric.api import env, abort\n", 
+      "+from fabric.api import env\n"
+    ], 
+    "Message:": "Both work. Thank goodness", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/prestodb/presto-admin/commit/fe690eb82aec825687b9666cbb7fbff865d7e9cb", 
+    "Commit Corrections:": "https://github.com/prestodb/presto-admin/commit/fd46c0a4e47f574d05ad536f4703aea5c26424bc"
+  }, 
+  {
+    "Changes:": [
+      "-        if redisModule :\n", 
+      "+        if not redisModule :\n"
+    ], 
+    "Message:": "fix nomodule Bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/iubuntu/jobTools/commit/96bf6ca058c377e8e01232138ec34b89d49ba7cc", 
+    "Commit Corrections:": "https://github.com/iubuntu/jobTools/commit/7aaf6cfaaa28894bb9cd589e94eada823d8873d0"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.1.7'\n", 
+      "+__version__ = '0.1.8'\n"
+    ], 
+    "Message:": "add tests for order", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/kmn/coincheck/commit/ab52850381b85567dcd5ff20408e588986bbbf57", 
+    "Commit Corrections:": "https://github.com/kmn/coincheck/commit/424cea0182294f221057cf1412864311e253a090"
+  }, 
+  {
+    "Changes:": [
+      "-        return self.session.get_service(SERVICE_NAME)\n", 
+      "+        return self.session.create_client(SERVICE_NAME)\n"
+    ], 
+    "Message:": "Trying something different", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Evzdrop/PynamoDB/commit/82376f2320b50ab245b64a7d6eb94cfca121b5ed", 
+    "Commit Corrections:": "https://github.com/Evzdrop/PynamoDB/commit/8a29609c324961c93e144e208063b42372313dfa"
+  }, 
+  {
+    "Changes:": [
+      "-\t\t\t# Dup entirey disc to drive\n", 
+      "+\t\t\t# Dup entire disc to drive\n"
+    ], 
+    "Message:": "Typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cmlburnett/PyDvdRead/commit/55a9aaaa7ee604855b21429dd34159a57fefe89c", 
+    "Commit Corrections:": "https://github.com/cmlburnett/PyDvdRead/commit/6869fd73eecc4b5584238f6c7f33f74e0c17efcc"
+  }, 
+  {
+    "Changes:": [
+      "-    le_guide.orienter(90*math.pi/180.0)\n", 
+      "+    #le_guide.orienter(90*math.pi/180.0)\n"
+    ], 
+    "Message:": "Merge branch 'master' of https://github.com/AdrienVR/ReV_Baker\n\nConflicts:\n\tLaboReV/src/simu.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/AdrienVR/ReV_Baker/commit/bc423d00a7e35d56ab362498f19d42e77b4c323b", 
+    "Commit Corrections:": "https://github.com/AdrienVR/ReV_Baker/commit/81dfcab1c4bee27c619976212165bc49a33c8626"
+  }, 
+  {
+    "Changes:": [
+      "-    version='4.4.2.post1',\n", 
+      "+    version='4.4.2.post2',\n"
+    ], 
+    "Message:": "ticking version to 4.4.2.post2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/angr/angr-z3/commit/3a1b4ecce5dadb194fc67b88fff30933cffc8105", 
+    "Commit Corrections:": "https://github.com/angr/angr-z3/commit/4573773333c7800a2e7101a3717b93b4f2d4197b"
+  }, 
+  {
+    "Changes:": [
+      "-def test_queue(models, queue, api_client):\n", 
+      "+def test_queue(queue, api_client):\n"
+    ], 
+    "Message:": "Autouse the models fixture.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davidmcclure/osp/commit/43d84709def721d673d4f08e546d93a4ee6318db", 
+    "Commit Corrections:": "https://github.com/davidmcclure/osp/commit/a0f0fe939bd5502ce5a880af3a31b2db5c188d85"
+  }, 
+  {
+    "Changes:": [
+      "-needs_sphinx = '1.3'\n", 
+      "+needs_sphinx = '1.3.3'\n"
+    ], 
+    "Message:": "Bump the requirement of sphinx to 1.3.3 as some fixes are important here", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/blowb/blowb-doc/commit/4172d939051aca3f7f8fd1ff0ea6cb85c2815ee0", 
+    "Commit Corrections:": "https://github.com/blowb/blowb-doc/commit/9e1ce015d1e424343c4edc16fb43c00ea716c6ed"
+  }, 
+  {
+    "Changes:": [
+      "-             print self.objet.repere.angle\n", 
+      "+            #print self.objet.repere.angle\n"
+    ], 
+    "Message:": "comment print", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/AdrienVR/ReV_Baker/commit/81dfcab1c4bee27c619976212165bc49a33c8626", 
+    "Commit Corrections:": "https://github.com/AdrienVR/ReV_Baker/commit/e16508f8b7e498b8bdfad5a853e2e060a59bcaf6"
+  }, 
+  {
+    "Changes:": [
+      "-        'test': ['fixtures2>=0.1.3'],\n", 
+      "+        'test': ['fixtures2>=0.1.6'],\n"
+    ], 
+    "Message:": "upgrade to fixtures2 0.1.6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CooledCoffee/mqueue/commit/03e90f328d8c03ee39338ceafc4df623bc39b05b", 
+    "Commit Corrections:": "https://github.com/CooledCoffee/mqueue/commit/ab3c26a786a0790238a1a4c97acb76d1cae27961"
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.4.3',\n", 
+      "+    version='0.4.4',\n"
+    ], 
+    "Message:": "version 0.4.4", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CooledCoffee/mqueue/commit/ab3c26a786a0790238a1a4c97acb76d1cae27961", 
+    "Commit Corrections:": "https://github.com/CooledCoffee/mqueue/commit/0c93df4f4203956c48a8419d227cd810bcaea06d"
+  }, 
+  {
+    "Changes:": [
+      "-        check_call(_LIB.MXOptimizerFindCreator(ctypes.c_char_p(name),\n", 
+      "+        check_call(_LIB.MXOptimizerFindCreator(c_str(name),\n"
+    ], 
+    "Message:": "auto convert vgg16", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/piiswrong/mxnet/commit/eb66e78cf97b13c619a4dc9768ad3b9511532086", 
+    "Commit Corrections:": "https://github.com/piiswrong/mxnet/commit/88b5c7b54470823d65edadb6eb095f69365cc667"
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.1.5',\n", 
+      "+    version='0.1.6',\n"
+    ], 
+    "Message:": "version 0.1.6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CooledCoffee/fixtures2/commit/0ef5c5b35fa0313e0bc087ae2af510a3ec140c91", 
+    "Commit Corrections:": "https://github.com/CooledCoffee/fixtures2/commit/f1ba7562803b1622c9bf657aa71933f90b1b2c13"
+  }, 
+  {
+    "Changes:": [
+      "-                                                    replace('(', ' ')) for x in  line[headers.get\\\n", 
+      "+                                                    replace('(', ' ').strip('~') for x in  line[headers.get\\\n"
+    ], 
+    "Message:": "minor change to pathology parser to strip extra delimiters from specimenSource field (~)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/esilgard/argos_nlp/commit/e6b7a05937b8ef0d3a5efa202e05387a7583eb97", 
+    "Commit Corrections:": "https://github.com/esilgard/argos_nlp/commit/7725bd5af036a5094c3e8310eb40cd247b8b3d1f"
+  }, 
+  {
+    "Changes:": [
+      "-        ## dictionary of keys type sparse array is easily confertable to sparse column matrix\n", 
+      "+        ## dictionary of keys type sparse array is easily confertable to sparse column matrix        \n"
+    ], 
+    "Message:": "Merge branch 'new_labkey_dev' of https://github.com/esilgard/argos_nlp into new_labkey_dev", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/esilgard/argos_nlp/commit/7725bd5af036a5094c3e8310eb40cd247b8b3d1f", 
+    "Commit Corrections:": "https://github.com/esilgard/argos_nlp/commit/1be83466a15eae91e065ba8302daf4b2ba3f66d9"
+  }, 
+  {
+    "Changes:": [
+      "-def test_queue(queue, api_client):\n", 
+      "+def test_queue(rq, api_client):\n"
+    ], 
+    "Message:": "Rename elasticsearch -> es, queue -> rq.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davidmcclure/osp/commit/a0f0fe939bd5502ce5a880af3a31b2db5c188d85", 
+    "Commit Corrections:": "https://github.com/davidmcclure/osp/commit/9ec7ba435be00e8e24e6685a532f86b426b7ed7f"
+  }, 
+  {
+    "Changes:": [
+      "-    >>> p = corpus.parse('leadsheet').flat.getElementsByClass('Harmony')\n", 
+      "+    >>> p = corpus.parse('leadsheet').flat.getElementsByClass('Harmony').stream()\n"
+    ], 
+    "Message:": "Merge branch 'streamIter'", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cuthbertLab/music21/commit/40f56dc1df9ed83e05987174b3a2b1b465bb43f5", 
+    "Commit Corrections:": "https://github.com/cuthbertLab/music21/commit/ebac21457ae9749f09dae9b4f2ed5f28c9630f17"
+  }, 
+  {
+    "Changes:": [
+      "-        # self.pub.publish(self.command)\n", 
+      "+        self.pub.publish(self.command)\n"
+    ], 
+    "Message:": "fixed velocity vector", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lianilychee/project_polygon/commit/a0151356987b7e4e7787552fefcb807448de493d", 
+    "Commit Corrections:": "https://github.com/lianilychee/project_polygon/commit/41614108a33e9a8e5e1ee3a23685ca54ee7b3e36"
+  }, 
+  {
+    "Changes:": [
+      "-print __file__\n", 
+      "+print os.path.abspath(__file__)\n"
+    ], 
+    "Message:": "add run env more", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/xutaoding/news_crawler/commit/fede705c35cf729e3722a640822e03665e418f39", 
+    "Commit Corrections:": "https://github.com/xutaoding/news_crawler/commit/dde8a35d9ca24d20784a2040a79bf485383e0c4f"
+  }, 
+  {
+    "Changes:": [
+      "-env = os.path.dirname(os.path.dirname(__file__)) + '/'\n", 
+      "+env = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'\n"
+    ], 
+    "Message:": "add run env more", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/xutaoding/news_crawler/commit/ddcdb219149c9869d8467707daf214133afb1156", 
+    "Commit Corrections:": "https://github.com/xutaoding/news_crawler/commit/84eb179d37b3329cfae52295f3842d505480e98e"
+  }, 
+  {
+    "Changes:": [
+      "-    ('pkgcore.scripts.' + s.replace('-', '_'), s) for s in scripts\n", 
+      "+    ('%s.scripts.' % (project,) + s.replace('-', '_'), s) for s in scripts\n"
+    ], 
+    "Message:": "docs: generalize man page list", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pkgcore/pkgcore/commit/ce3ef2c5d85f4f01cc5270bd45a0a35519a1c0b0", 
+    "Commit Corrections:": "https://github.com/pkgcore/pkgcore/commit/ef5a1965b65bd12e545ff62525dad456205f1334"
+  }, 
+  {
+    "Changes:": [
+      "-def create_app(config_name):\n", 
+      "+def create_app():\n"
+    ], 
+    "Message:": "init", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Panmax/LeanCloud-Python/commit/f4ad117b3deec00bc9e3fe177bed0c5090f8e726", 
+    "Commit Corrections:": "https://github.com/Panmax/LeanCloud-Python/commit/4b39e76e616dfeaa03d59d9046e991bb906475fc"
+  }, 
+  {
+    "Changes:": [
+      "-        data.write(item + '\\n' + disease + '\\n' + \"Title: \" + title + '\\n' + year + '\\n')\n", 
+      "+        data.write(\"Disease: \" + disease + '\\n' + \"Title: \" + title + '\\n' + year + '\\n' + \"PubMed ID: \" + item + '\\n')\n"
+    ], 
+    "Message:": "added labels to data ouput file", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/seh32/FundMe/commit/85c5810a91637b1531b675c313b26b541530095b", 
+    "Commit Corrections:": "https://github.com/seh32/FundMe/commit/1e08506afa41b5b7d18ffaa52e7a5a6d454ba632"
+  }, 
+  {
+    "Changes:": [
+      "-    extra_compile_args = []\n", 
+      "+    extra_compile_args = [\"-DWITH_HDF5\"]\n"
+    ], 
+    "Message:": "add HDF5 compile args for darwin", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ecell/ecell4/commit/bfc8dda66c0ebf369256cf3376ff6ae8d24469ee", 
+    "Commit Corrections:": "https://github.com/ecell/ecell4/commit/3104f40d7aca554be4c4c9352d23521d41704894"
+  }, 
+  {
+    "Changes:": [
+      "-Z_function=np.load('/home/yamaguchi-s/Desktop/Research/c_elegans/src/12_15_Z_0125.npy')[3]\n", 
+      "+Z_function=np.load('/home/yamaguchi-s/Desktop/Research/c_elegans/src/1215_0125_Z.npy')[3]\n"
+    ], 
+    "Message:": "0125 250000 trajectry", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/guguchi/c_elegans/commit/e76e4b9e1557d1dfe096b9044c3ec5ab182d7dc0", 
+    "Commit Corrections:": "https://github.com/guguchi/c_elegans/commit/6ce13ef84a3891613648b154e5cd80e47c8da3f0"
+  }, 
+  {
+    "Changes:": [
+      "-    print \"Creating db\"\n", 
+      "-    print \"Created db\"\n", 
+      "-    return db\n", 
+      "+    return db\n", 
+      "+\n", 
+      "+\n", 
+      "+def get_db():\n", 
+      "+    db = dal_connect()\n", 
+      "+    db.define_table('users',Field('firstname'),Field('lastname'))\n", 
+      "+    db.define_table('statuses',Field('name'), rname='issue_statuses')\n", 
+      "+    db.define_table('issues',\n", 
+      "+         Field('subject'),\n", 
+      "+         Field('parent_id'),\n", 
+      "+         Field('fixed_version_id'),\n", 
+      "+         Field('status_id', 'reference statuses'),\n", 
+      "+         Field('estimated_hours','float'),\n", 
+      "+         Field('assigned_to_id','reference users')\n", 
+      "+        )\n", 
+      "+    return db"
+    ], 
+    "Message:": "minor fixes in pydal scripts", 
+    "Additions:": 16, 
+    "Deletions:": 3, 
+    "Commit Mistakes:": "https://github.com/62mkv/py-redmine-helper/commit/2c6a29225c85847d1014eeae027892f40a29d5a0", 
+    "Commit Corrections:": "https://github.com/62mkv/py-redmine-helper/commit/8efdd882c5e559fc1251130b44783dc373acd295"
+  }, 
+  {
+    "Changes:": [
+      "-    for i in range(1000):\n", 
+      "+    for i in range(100):\n"
+    ], 
+    "Message:": "In the API /queue test, mock 100 docs, not 1000, to speed up the test.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/davidmcclure/osp/commit/96eeebdc35c541d2266f64e71bf3f3c18b433579", 
+    "Commit Corrections:": "https://github.com/davidmcclure/osp/commit/17e1f5f5130276646da6a32550f167770abdb523"
+  }, 
+  {
+    "Changes:": [
+      "-        # self.add_action(\"learn_skill\", script_actions.learn_skill)\n", 
+      "+        self.add_action(\"learn_skill\", script_actions.learn_skill)\n"
+    ], 
+    "Message:": "Add battle_field templates skills.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/muddery/muddery/commit/d54eaca2c39f39bf8e06ec430c090b269395dede", 
+    "Commit Corrections:": "https://github.com/muddery/muddery/commit/6b8d3442a13e77f4fdf60e7fdfbcb93f020bf270"
+  }, 
+  {
+    "Changes:": [
+      "-            query = \"http://api.duckduckgo.com/?q={0}&format=json&no_html=1&no_redirect=1\".format(quote_plus(search + \" -site:yahoo.com\"))\n", 
+      "+            query = \"http://api.duckduckgo.com/?q={0}&format=json&no_html=1&no_redirect=1\".format(quote_plus(search))\n"
+    ], 
+    "Message:": "removed yahoo filter from bang results", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/meskarune/autobot/commit/0a02d92abccb67d593c4d1053dd011f9be4f7b99", 
+    "Commit Corrections:": "https://github.com/meskarune/autobot/commit/2f88404a3341b223013e817c387b2e21b0ef0ff1"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.1.2'\n", 
+      "+__version__ = '0.1.3'\n"
+    ], 
+    "Message:": "Resolved name conflict", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CivicKnowledge/geoid/commit/e9096e28313731af7ac8b58dcc56a3c644adbde0", 
+    "Commit Corrections:": "https://github.com/CivicKnowledge/geoid/commit/9b74209490b234afe09d6fe09ae39f6f3e2318f5"
+  }, 
+  {
+    "Changes:": [
+      "-    return chunk.startswith('00000')\n", 
+      "+    return chunk.startswith('000000')\n"
+    ], 
+    "Message:": "do it for 6 zeroes?", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hoylemd/advent/commit/5f34e0fecbc41c552a59348e6a3b5db06b926051", 
+    "Commit Corrections:": "https://github.com/hoylemd/advent/commit/7ecf1ac8ffc531cf1abdb638a0490f654dc8f6f8"
+  }, 
+  {
+    "Changes:": [
+      "-def create(AMIMap, instanceProfile, snsTopic):\n", 
+      "+def create(AMIMap, instanceProfile, snsTopic, dnsCheckerDDB):\n"
+    ], 
+    "Message:": "Added DDB table", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/kelledro/dnsChecker/commit/cf15ce1648388df7c3dea592e2338d5c46245ded", 
+    "Commit Corrections:": "https://github.com/kelledro/dnsChecker/commit/2017a8eea74b345e666ac14dfeab8f81de900ad9"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+_project = \"cp\";\n"
+    ], 
+    "Message:": "Another Change", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/codeisperfect/cp/commit/83cc59fae07a48033a4756f784ad79e83587d699", 
+    "Commit Corrections:": "https://github.com/codeisperfect/cp/commit/18418b8c7d7666f4e5303a50f87afd0bad57c1c1"
+  }, 
+  {
+    "Changes:": [
+      "-with open(r'/Users/lambertkuang/Rosalind/data/rosalind_dna.txt', 'r') as file:\n", 
+      "+with open(r'../data/rosalind_dna.txt', 'r') as file:\n"
+    ], 
+    "Message:": "Use relative path for data file", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/lambertkuang/Rosalind-Problems/commit/a0831305916e9ee0665985e20fbf2680d73fb85c", 
+    "Commit Corrections:": "https://github.com/lambertkuang/Rosalind-Problems/commit/c20c04781ca151fbcaacfd8d59917601a529a08b"
+  }, 
+  {
+    "Changes:": [
+      "-        time.sleep(0.5)\n", 
+      "+        time.sleep(2)\n"
+    ], 
+    "Message:": "final data tweaks, reupped think", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/imikewhite/mancalaAI/commit/f0abcbf76ca0a159409a6e5623e7d4b210c7ea27", 
+    "Commit Corrections:": "https://github.com/imikewhite/mancalaAI/commit/121bfab865c514621db4ed234dc6d4b275ff6807"
+  }, 
+  {
+    "Changes:": [
+      "-        if bool(hla) + bool(hla_dataframe) + bool(donor_to_hla) != 1:\n", 
+      "+        if bool(hla) + (hla_dataframe is not None) + bool(donor_to_hla) != 1:\n"
+    ], 
+    "Message:": "minor bugfix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/hammerlab/varlens/commit/0242ad486b5c218b79a2e7b415b45d222f61220f", 
+    "Commit Corrections:": "https://github.com/hammerlab/varlens/commit/6326e4df7a3f122ccbe44f4eca40b05bcfe36b61"
+  }, 
+  {
+    "Changes:": [
+      "-            token=dict(required=False)\n", 
+      "+            token=dict(required=False, no_log=True)\n"
+    ], 
+    "Message:": "Add no_log=True to consul modules' API tokens\n\nAPI tokens should be considered sensitive and not logged.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/joelthompson/ansible-modules-extras/commit/06bdec0cac86ef2339e0b4d8a4616ee24619956f", 
+    "Commit Corrections:": "https://github.com/joelthompson/ansible-modules-extras/commit/ae8a4581f4735364094a1198ab7aec14aeae291a"
+  }, 
+  {
+    "Changes:": [
+      "-    cross_entropy = -tf.reduce_mean(labels_placeholder*tf.log(y_conv))\n", 
+      "+    cross_entropy = -tf.reduce_sum(labels_placeholder*tf.log(tf.clip_by_value(y_conv, 1e-10, 1.0)))\n"
+    ], 
+    "Message:": "escape form error", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ngyk/model_make/commit/9475b4e0260d7bd044190ee251c38e8f23c0e2ef", 
+    "Commit Corrections:": "https://github.com/ngyk/model_make/commit/c46061f20fa17ac95007c428564054a8ff12046d"
+  }, 
+  {
+    "Changes:": [
+      "-file.close()\n", 
+      "+file.close()"
+    ], 
+    "Message:": "more progress with the docs", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/paquettedavid/FPGATemperaturePIDController/commit/6c8b097ad2092eec76a339715a593360fe7e6758", 
+    "Commit Corrections:": "https://github.com/paquettedavid/FPGATemperaturePIDController/commit/9147b201d1224f85c2a6a8a6739cdd7fe2555e54"
+  }, 
+  {
+    "Changes:": [
+      "-        status = \"ok\" if hand != lastHand else \"grr\" # this is added in the next round\n", 
+      "+        status = \"not_same\" if hand != lastHand else \"same\" # this is added in the next round\n"
+    ], 
+    "Message:": "added first anomaly detection", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jxieeducation/HTM_sequential_learner/commit/b39b84d42199786b06acd1dc78b05272f835051e", 
+    "Commit Corrections:": "https://github.com/jxieeducation/HTM_sequential_learner/commit/bf6e80679b41f01614c7226d5c7244b4c6f7159e"
+  }, 
+  {
+    "Changes:": [
+      "-def outputPad(filename, pad):\n", 
+      "+def outputPad(pad, filename = \"padOutput\"):\n"
+    ], 
+    "Message:": "GUI really working now - Anvita", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/aashishlalani/CIS192Project/commit/164df6deebebf31905afb457c7cfaaadc2042d8d", 
+    "Commit Corrections:": "https://github.com/aashishlalani/CIS192Project/commit/93e3cf2aa241ff6193fe96051e1ed33e07f03907"
+  }, 
+  {
+    "Changes:": [
+      "-version = '0.0.9'\n", 
+      "+version = '0.0.10'\n"
+    ], 
+    "Message:": "bump verion", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/douban/pymesos/commit/a6d07109e5c90b046a3ffdba1503550682094a58", 
+    "Commit Corrections:": "https://github.com/douban/pymesos/commit/a7a199dfee5a2c1d48ca554156a213a10e37879b"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.2.5'\n", 
+      "+__version__ = '0.2.6'\n"
+    ], 
+    "Message:": "bump to 0.2.6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/datawire/quark/commit/df3a59c5cbd02bab59ae2572fa972c074be52e89", 
+    "Commit Corrections:": "https://github.com/datawire/quark/commit/f3f046ed4c6b9cb32cc62b7f63f113678989fbe2"
+  }, 
+  {
+    "Changes:": [
+      "-    b, m, e, i = get_comment_format()\n", 
+      "+    b, m, e, i = (s.strip() for s in get_comment_format())\n"
+    ], 
+    "Message:": "repl snippets buffergator magit vam", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/skeept/dotvim/commit/90201ce0858bc88df886055e7dc7527f823fa490", 
+    "Commit Corrections:": "https://github.com/skeept/dotvim/commit/962d709ccc18b8eeee557b4a8dbe1bc62d5062ca"
+  }, 
+  {
+    "Changes:": [
+      "+\n"
+    ], 
+    "Message:": "remove typo", 
+    "Additions:": 1, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/lwwhsh/test2/commit/1d11ff26372252e3107554f39e9a54c1c3f3cf62", 
+    "Commit Corrections:": "https://github.com/lwwhsh/test2/commit/e37a3cc4e23e56ca5277d99b5f34898d1f4b1ffd"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.3.1669'\n", 
+      "+__version__ = '0.3.1670'\n"
+    ], 
+    "Message:": "Improvements to exporting ans support for amnry web interface.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CivicKnowledge/ambry/commit/2ae75d145915d8b3856646061ebc7ccd17f1b5c6", 
+    "Commit Corrections:": "https://github.com/CivicKnowledge/ambry/commit/ddedd567e8e9f205401bd7235803ac3bb5f43928"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.3.1670'\n", 
+      "+__version__ = '0.3.1671'\n"
+    ], 
+    "Message:": ".", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CivicKnowledge/ambry/commit/ddedd567e8e9f205401bd7235803ac3bb5f43928", 
+    "Commit Corrections:": "https://github.com/CivicKnowledge/ambry/commit/25a1905c83f98e60f57a0c086aeb90f0741227a2"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.3.1671'\n", 
+      "+__version__ = '0.3.1678'\n"
+    ], 
+    "Message:": "Missing path to dockerfile", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CivicKnowledge/ambry/commit/2935888eebaab43a38eb61ab6afe02cb37d0e955", 
+    "Commit Corrections:": "https://github.com/CivicKnowledge/ambry/commit/494702699bee68ad8c2fd1a39f6e96c4f733e9e5"
+  }, 
+  {
+    "Changes:": [
+      "-    # unique_name = models.CharField(max_length=255, unique=True)\n", 
+      "+    unique_name = models.CharField(max_length=255, unique=True)\n"
+    ], 
+    "Message:": "updated some media files", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/alatting/alatting/commit/5ca056e65e39523cdb3d170be6698c094ac3ddac", 
+    "Commit Corrections:": "https://github.com/alatting/alatting/commit/52330109a5d138bc136030825f69c3333a4d2628"
+  }, 
+  {
+    "Changes:": [
+      "-        connection_string=os.environ['PTERO_WORKFLOW_DB_STRING'],\n", 
+      "+        database_url=os.environ['PTERO_WORKFLOW_DB_STRING'],\n"
+    ], 
+    "Message:": "Update parameter name used in factory construction", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mkiwala/ptero-workflow/commit/9af3ba46fa28564268bb6bfd4661ff4d7edaa77e", 
+    "Commit Corrections:": "https://github.com/mkiwala/ptero-workflow/commit/bd671d9001284f13c885667c533e295208070ac3"
+  }, 
+  {
+    "Changes:": [
+      "+        post *= 10**self.precision\n", 
+      "-            post *= 10\n", 
+      "-            curr = int(post)\n", 
+      "-            out.append(str(self.to_cardinal(curr)))\n", 
+      "-            post -= curr\n", 
+      "+            curr = str(post)[i]\n", 
+      "+            out.append(str(self.to_cardinal(int(curr))))\n"
+    ], 
+    "Message:": "address issue 24: floating point spelling", 
+    "Additions:": 3, 
+    "Deletions:": 4, 
+    "Commit Mistakes:": "https://github.com/isnani/num2words/commit/485e513c19d481333630392a6ef135ee5b373bdf", 
+    "Commit Corrections:": "https://github.com/isnani/num2words/commit/55440b298b212900789afae089b985f5e6b05768"
+  }, 
+  {
+    "Changes:": [
+      "-        'Development Status :: 2 - Pre-Alpha',\n", 
+      "-        'Programming Language :: Python :: 3.4',\n"
+    ], 
+    "Message:": "Remove incorrect classifiers from setup.py", 
+    "Additions:": 0, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/federicobond/django-form-utils-bootstrap3/commit/fbebda653972389d90149d420a865d267ca18ba4", 
+    "Commit Corrections:": "https://github.com/federicobond/django-form-utils-bootstrap3/commit/0bcaec27890582da6b81d427cbe78131919eabc6"
+  }, 
+  {
+    "Changes:": [
+      "-    # unique_name = models.CharField(max_length=255, unique=True)\n", 
+      "+    unique_name = models.CharField(max_length=255, unique=True)\n"
+    ], 
+    "Message:": "Merge branch 'dev' of github.com:alatting/alatting into dev", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/alatting/alatting/commit/aad9be2573bb1876b12227a12936031a757e05bd", 
+    "Commit Corrections:": "https://github.com/alatting/alatting/commit/d5703ed994b111a2d5c0f2fa898f27a94a64ddf0"
+  }, 
+  {
+    "Changes:": [
+      "-    VERSION = \"1.3.5\"\n", 
+      "+    VERSION = \"1.3.6\"\n"
+    ], 
+    "Message:": "bump version to 1.3.6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/iron-io/iron_worker_python/commit/73dd5126bec51934c7c917c54fc3042b87b3b733", 
+    "Commit Corrections:": "https://github.com/iron-io/iron_worker_python/commit/c19ca71940ae5a0c6bea7226dc0595bf282763de"
+  }, 
+  {
+    "Changes:": [
+      "-        'requests',\n", 
+      "+        'requests==2.8.1',\n"
+    ], 
+    "Message:": "Fix requests==2.8.1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/piskvorky/smart_open/commit/40e0dda8108946817bf22e87d92a5969f0df0594", 
+    "Commit Corrections:": "https://github.com/piskvorky/smart_open/commit/a8da5c1ad2dc0fe1b740cc14bf817fc7333faeb7"
+  }, 
+  {
+    "Changes:": [
+      "-        deprecated=True,  # Deprecated until the teams feature is made generally available\n", 
+      "+        deprecated=False,  # Deprecated until the teams feature is made generally available\n"
+    ], 
+    "Message:": "Tried to get pagination working.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/edx/edx-platform/commit/b74e6d7ba4785061220f9429578a9f8a7348b8de", 
+    "Commit Corrections:": "https://github.com/edx/edx-platform/commit/29c86e45a05f0e3c7fc64db810eb401ceb2c6078"
+  }, 
+  {
+    "Changes:": [
+      "+from openedx.core.djangoapps.user_api.permissions import is_field_shared_factory\n", 
+      "-from openedx.core.lib.api.permissions import is_field_shared_factory\n"
+    ], 
+    "Message:": "Moved is_field_shared_factory into user_api.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/edx/edx-platform/commit/120f1cb8aa33b10d8ab1fa5b9839bfcdbdf98103", 
+    "Commit Corrections:": "https://github.com/edx/edx-platform/commit/65a02eeb77924e746b4b54221a40730dd258e12f"
+  }, 
+  {
+    "Changes:": [
+      "-    version='4.4.2.post1',\n", 
+      "+    version='4.4.2.post3',\n"
+    ], 
+    "Message:": "ticking version to 4.4.2.post3", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/angr/angr-z3/commit/3a1b4ecce5dadb194fc67b88fff30933cffc8105", 
+    "Commit Corrections:": "https://github.com/angr/angr-z3/commit/99f795f97c7809269a795b8be843ff2dadfb2f89"
+  }, 
+  {
+    "Changes:": [
+      "-14146 -> b\n", 
+      "+956 -> b\n"
+    ], 
+    "Message:": "Quick adjustment for part 2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rikthevik/advent2015/commit/c03803bfb35544910ef622d34c35d9f3801bead3", 
+    "Commit Corrections:": "https://github.com/rikthevik/advent2015/commit/88e4a72351287dfcb83b7a661f4c3cbbc58250d3"
+  }, 
+  {
+    "Changes:": [
+      "-        check_call(_LIB.MXOptimizerFindCreator(ctypes.c_char_p(name),\n", 
+      "+        check_call(_LIB.MXOptimizerFindCreator(c_str(name),\n"
+    ], 
+    "Message:": "auto convert vgg16", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/piiswrong/mxnet/commit/e8528c53c2c7152e0a3893aa6d622620664f35a5", 
+    "Commit Corrections:": "https://github.com/piiswrong/mxnet/commit/6d708604b0562ee7646aed94035677cdefcf2eb0"
+  }, 
+  {
+    "Changes:": [
+      "-Serializers for badging\n", 
+      "+Serializers for Badges\n"
+    ], 
+    "Message:": "Add share modal to badge listing.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/edx/edx-platform/commit/0c249aa5560635dd4cebe8894405d07e1f00c0fb", 
+    "Commit Corrections:": "https://github.com/edx/edx-platform/commit/7d0b40b54a3c93eb835b510f00b729116ded24ab"
+  }, 
+  {
+    "Changes:": [
+      "-                           \"%(asctime)s:%(levelname)s:%(module)s:%(message)s\")\n", 
+      "+                           \"%(asctime)s:%(thread)d:%(levelname)s:%(module)s:%(message)s\")\n"
+    ], 
+    "Message:": "Merge pull request #6456 from bbockelm/log_threadid\n\nAdd threadid to logfile.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dmwm/WMCore/commit/49716d3c7b54df0337872293771fc1142ae75612", 
+    "Commit Corrections:": "https://github.com/dmwm/WMCore/commit/1ba54b51a679896884a67379946a70785d7ef53d"
+  }, 
+  {
+    "Changes:": [
+      "-    return name if name else 'System'\n", 
+      "+    return name if name else 'System/Unknown User'\n"
+    ], 
+    "Message:": "clarify logger message", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/akersten/cute-casa/commit/dcc957aa62c731cef99e1114492dc4c296bf67fb", 
+    "Commit Corrections:": "https://github.com/akersten/cute-casa/commit/5d133001e5b795e286da10c1d92485d01d758f29"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '2.0.4'\n", 
+      "+__version__ = '2.0.5'\n"
+    ], 
+    "Message:": "Merge tag '2.0.5' into develop\n\nupdate requirements", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bionikspoon/cache_requests/commit/c5cfb1ff4aea6f0dd9005f1724e454bd27edd538", 
+    "Commit Corrections:": "https://github.com/bionikspoon/cache_requests/commit/f40e2d245290223583142872275e072fd3723ff2"
+  }, 
+  {
+    "Changes:": [
+      "-        print 'CAN\\'T find ' + location + data_name +',\\nthe Data for spectral clustering is MISSING!\\n'\n", 
+      "+        print 'CAN\\'T find ' + location + data_name +',\\nthe Data for DBSCAN clustering is MISSING!\\n'\n"
+    ], 
+    "Message:": "Update DBSCAN.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ganji15/ClusteringLearning/commit/56dd4dce366a5faa6f43fcf679cfb70e8866996a", 
+    "Commit Corrections:": "https://github.com/ganji15/ClusteringLearning/commit/dba67dc325cedb667b90d0f6d4566a3481049bff"
+  }, 
+  {
+    "Changes:": [
+      "-        vh_i.parent().removeChild(vh_i)\n", 
+      "+        vh_i.parent().removeChild(vh_i)\n"
+    ], 
+    "Message:": "squashed an undo createvirtualhelix bug problem whereby I was signaling the views after deleting model objects, which since they are hashed in the views causes a problem", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/cadnano/cadnano2.5/commit/bc0ed20f53c764926420eec06d0de8ff07b696c0", 
+    "Commit Corrections:": "https://github.com/cadnano/cadnano2.5/commit/e408277389d5adcabe9ecb59e0835811102cb954"
+  }, 
+  {
+    "Changes:": [
+      "+#!/usr/bin/env python\n", 
+      "+# This Python file uses the following encoding: utf-8\n", 
+      "+from lxml import etree # lxml.de\n", 
+      "+import re\n", 
+      "+import codecs\n", 
+      "+import datetime\n", 
+      "+import sys\n", 
+      "+\n", 
+      "+\"\"\"\n", 
+      "+python stdabbrv.py abbrvfile creffile outputfile\n", 
+      "+e.g.\n", 
+      "+python stdabbrv.py ../../pwbib/crefminusbib.txt abbrvoutput/sortedcrefs.txt ../../pwbib/diffstudy/correctionsubmission/cmbsub.txt\n", 
+      "+\n", 
+      "+crefminusbib.txt has data like 'AGN'\n", 
+      "+sortedcrefs.txt has data like `AGN@SAlagrAma@SAlagrAma@111783@1`\n", 
+      "+We have to combine these two and get data in standard format.\n", 
+      "+Expected output is `\u00afAGN@SAlagrAma@SAlagrAma@111783:\u00afAGN:n:`\n", 
+      "+For standard format - see https://github.com/sanskrit-lexicon/CORRECTIONS/issues/146#issuecomment-163463468\n", 
+      "+\n", 
+      "+\"\"\"\n", 
+      "+def getcref(inputword,creflist):\n", 
+      "+\tfor cref in creflist:\n", 
+      "+\t\tif cref.startswith(inputword+'@'):\n", 
+      "+\t\t\treturn cref\n", 
+      "+\t\t\tbreak\n", 
+      "+def addmacron(line):\n", 
+      "+\tline = line.strip()\n", 
+      "+\tline = line.encode('utf-8')\n", 
+      "+\tbase = line.split('@')[0]\n", 
+      "+\tline = line.replace(base,'\u00af'+base)\n", 
+      "+\treturn line\n", 
+      "+\t\n", 
+      "+\t\n", 
+      "+if __name__==\"__main__\":\n", 
+      "+\tabbrvfile = sys.argv[1]\n", 
+      "+\tcreffile = sys.argv[2]\n", 
+      "+\tabbrvlist = codecs.open(abbrvfile,'r','utf-8').read().split()\n", 
+      "+\tcreflist = codecs.open(creffile,'r','utf-8').read().split()\n", 
+      "+\tfor abbrv in abbrvlist:\n", 
+      "+\t\tcref = getcref(abbrv,creflist)\n", 
+      "+\t\t[ls,k1,k2,lnum,count] = cref.split('@')\n", 
+      "+\t\t#print '\u00af'.encode('utf-8')\n", 
+      "+\t\tline = ls+'@'+k1+'@'+k2+'@'+lnum+':'+ls+':n:'\n", 
+      "+\t\tline = addmacron(line)\n", 
+      "+\t\tprint line\n", 
+      "+\t\n", 
+      "+\t\n", 
+      "+\t\n", 
+      "+\t\n"
+    ], 
+    "Message:": "standard format for ls corrections", 
+    "Additions:": 49, 
+    "Deletions:": 0, 
+    "Commit Mistakes:": "https://github.com/sanskrit-lexicon/PWK/commit/b36a35ea5a417a004889f8a55853e39f6358ba81", 
+    "Commit Corrections:": "https://github.com/sanskrit-lexicon/PWK/commit/3c39386f4030e53386859a502d77c115478ee857"
+  }, 
+  {
+    "Changes:": [
+      "-from datacube import ui\n", 
+      "+from datacube.ui import click as ui\n"
+    ], 
+    "Message:": "Split up ui module to avoid risk of cycles.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/data-cube/agdc-v2/commit/3bb8e478023df1b5a10ff058bf41acfe66fbacbc", 
+    "Commit Corrections:": "https://github.com/data-cube/agdc-v2/commit/fbf2d547415540e6798db63506d5b7d1b6f15bfe"
+  }, 
+  {
+    "Changes:": [
+      "-        'DIRS': [],\n", 
+      "+        'DIRS': ['templates'],\n"
+    ], 
+    "Message:": "se modifico el settings.py para apuntar a un solo base.html", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tinojcvc/FabricaWeb/commit/450fb5008d894ea478f18ca720832150eb994f1e", 
+    "Commit Corrections:": "https://github.com/tinojcvc/FabricaWeb/commit/2d1cb9c8be03e11b6d35ba58b506c8749d86a03c"
+  }, 
+  {
+    "Changes:": [
+      "-        elif isinstance(k_or_v, unicode):\n", 
+      "+        elif isinstance(k_or_v, six.text_type):\n"
+    ], 
+    "Message:": "Add py3 compatibility for unicode builtin\n\nChange-Id: I0aba52a5cbe59d863c2c25d6af60466f93312272\nCloses-Bug: #1527023", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/openstack/python-magnumclient/commit/38bd661b8c52aeedd062e3ddee1ffa1419721a75", 
+    "Commit Corrections:": "https://github.com/openstack/python-magnumclient/commit/5953aea769c1bf4293dd7330f50a0f26dc3de778"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '2.0.4'\n", 
+      "+__version__ = '2.0.5'\n"
+    ], 
+    "Message:": "Bump version: 2.0.4 \u2192 2.0.5", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/bionikspoon/cache_requests/commit/c5cfb1ff4aea6f0dd9005f1724e454bd27edd538", 
+    "Commit Corrections:": "https://github.com/bionikspoon/cache_requests/commit/eca942892f9b961bec6c2d9ed4087056f2f15e26"
+  }, 
+  {
+    "Changes:": [
+      "-from datacube import ui\n", 
+      "+from datacube.ui import click as ui\n"
+    ], 
+    "Message:": "Split up ui module to avoid risk of cycles.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/data-cube/agdc-v2/commit/3bb8e478023df1b5a10ff058bf41acfe66fbacbc", 
+    "Commit Corrections:": "https://github.com/data-cube/agdc-v2/commit/8cc3984833c34e1853da4632d2eb994318d7dc63"
+  }, 
+  {
+    "Changes:": [
+      "-from commands.cmds import BaseCommand\n", 
+      "+from commands.cmds.BaseCommand import *\n"
+    ], 
+    "Message:": "Fix typos and command system class problems", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Armored-Dragon/pymineserver/commit/762f0fa731db2d22be175f7c61915b268345b03c", 
+    "Commit Corrections:": "https://github.com/Armored-Dragon/pymineserver/commit/fc3d47f82d0953e51d34a5e76d9529f3def1ecbe"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+        txn = idl.Transaction(myidl)\n"
+    ], 
+    "Message:": "fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/h-naoto/ops-gobgp/commit/8a3e95e555f20bc138ced17d4bcc5ff777688b7f", 
+    "Commit Corrections:": "https://github.com/h-naoto/ops-gobgp/commit/310bf0ca6e8d885027a0c185878c8a0560720f4f"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.3.1680'\n", 
+      "+__version__ = '0.3.1681'\n"
+    ], 
+    "Message:": "Fixing postgres dir", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CivicKnowledge/ambry/commit/7fd53535c6b9b5d8abe551789657124d1bc6a3e9", 
+    "Commit Corrections:": "https://github.com/CivicKnowledge/ambry/commit/44f6c5128f6edc7b5baa06b7945b5089b0829a56"
+  }, 
+  {
+    "Changes:": [
+      "-class TestUnzipProcessorNew(object):\n", 
+      "+class TestUnzipProcessor(object):\n"
+    ], 
+    "Message:": "Rename testcase.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ulif/ulif.openoffice/commit/d852f14221b3012760a3d44d10097ce0c82431e2", 
+    "Commit Corrections:": "https://github.com/ulif/ulif.openoffice/commit/89a27626797cd00b865fb907e7bbe2c868a7ee98"
+  }, 
+  {
+    "Changes:": [
+      "-                    if \"gws\" not in server_type and \"Google Frontend\" not in server_type:\n", 
+      "+                    if \"gws\" not in server_type and \"Google Frontend\" not in server_type and \"GFE\" not in server_type:\n"
+    ], 
+    "Message:": "fix bug remove ip", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/XX-net/XX-Net/commit/a60d2985bacfed0ec873b8d3dfc47a4f53d35186", 
+    "Commit Corrections:": "https://github.com/XX-net/XX-Net/commit/27cb7203394fba0fa937d49ec4466fb4f9c3a71a"
+  }, 
+  {
+    "Changes:": [
+      "-from repoze.postoffice.message import Message\n", 
+      "+from repoze.postoffice.message import MIMEMultipart\n", 
+      "+from email.mime.text import MIMEText\n", 
+      "-        message = Message()\n", 
+      "+        message = MIMEMultipart()\n", 
+      "-        body = u'''<html><body>\n", 
+      "+        bodyhtml = u'''<html><body>\n", 
+      "-        message.set_payload(body.encode('UTF-8'), 'UTF-8')\n", 
+      "-        message.set_type('text/html')\n", 
+      "+        bodyplain = u'''An authorization code has been requested for the site %s.\n", 
+      "+    Authorization Code: %s\n", 
+      "+    ''' % (\n", 
+      "+            self.request.application_url,\n", 
+      "+            profile.current_auth_code\n", 
+      "+        )\n", 
+      "+        htmlpart = MIMEText(bodyhtml.encode('UTF-8'), 'html', 'UTF-8')\n", 
+      "+        plainpart = MIMEText(bodyplain.encode('UTF-8'), 'plain', 'UTF-8')\n", 
+      "+        message.attach(plainpart)\n", 
+      "+        message.attach(htmlpart)\n"
+    ], 
+    "Message:": "update version, fix incorrect header name for email, fix two factor to send both plain and html text", 
+    "Additions:": 14, 
+    "Deletions:": 5, 
+    "Commit Mistakes:": "https://github.com/wildcardcorp/karl/commit/42b209468b6c62451e831e2f148ba98a131f64ba", 
+    "Commit Corrections:": "https://github.com/wildcardcorp/karl/commit/368b326f08d44c523477b86ee9cb75b9288776d3"
+  }, 
+  {
+    "Changes:": [
+      "-Project: CodeWars - Convert PascalCase string into snake_case\n", 
+      "+Project: CodeWars - Scramblies\n"
+    ], 
+    "Message:": "Scramblies", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mandeepbhutani/CodeWars/commit/e8f6005f03241b121c6b163b6d103916d08a31e2", 
+    "Commit Corrections:": "https://github.com/mandeepbhutani/CodeWars/commit/bdc9ff650432363d85240878bebdb60b8aecbd2e"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.3.1678'\n", 
+      "+__version__ = '0.3.1679'\n"
+    ], 
+    "Message:": "Fixing postgres dir", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CivicKnowledge/ambry/commit/494702699bee68ad8c2fd1a39f6e96c4f733e9e5", 
+    "Commit Corrections:": "https://github.com/CivicKnowledge/ambry/commit/fe8f460d91481413880ac4968fe1ea8095ec4678"
+  }, 
+  {
+    "Changes:": [
+      "-   DayEntries = 7\n", 
+      "+   DayEntries = 5\n"
+    ], 
+    "Message:": "revert day forecast back to 5", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/alexle/shouldalexrun/commit/6b191ef89eb785421997be763c2e98560d20bf0c", 
+    "Commit Corrections:": "https://github.com/alexle/shouldalexrun/commit/12a0ae33586c9d25b655743d1313697fd183d9ab"
+  }, 
+  {
+    "Changes:": [
+      "-transcripts = [Transcript(url) for url in [links[12], links[13], links[14], links[36], links[37], links[38], links[75], links[76], links[77], links[81], links[82], links[83]] + links[104:122]]\n", 
+      "+transcripts = [Transcript(url) for url in [links[12], links[13], links[14], links[36], links[37], links[38], links[75], links[76], links[77], links[81], links[82], links[83]] + links[104:128]]\n"
+    ], 
+    "Message:": "Now grabbing all the presidential debates", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/brettkinson/SoftDes_FinalProj/commit/b109e1f7ddda6680f8fc034148b73f15d8753748", 
+    "Commit Corrections:": "https://github.com/brettkinson/SoftDes_FinalProj/commit/04c31fee66610443b1a673755099883669bb98b4"
+  }, 
+  {
+    "Changes:": [
+      "-    VERSION = \"1.3.5\"\n", 
+      "+    VERSION = \"1.3.6\"\n"
+    ], 
+    "Message:": "Merge pull request #54 from iron-io/ulan-bump-version\n\nbump version to 1.3.6", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/iron-io/iron_worker_python/commit/73dd5126bec51934c7c917c54fc3042b87b3b733", 
+    "Commit Corrections:": "https://github.com/iron-io/iron_worker_python/commit/dfda280b84b2b2d811efbb7357489b86dc49c5a0"
+  }, 
+  {
+    "Changes:": [
+      "-VERSION = '0.9.0'\n", 
+      "+VERSION = '0.9.1'\n"
+    ], 
+    "Message:": "Bump version to 0.9.1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sebdah/scrapy-mongodb/commit/002387c18da3a894ab73c1e326189f04d7928a38", 
+    "Commit Corrections:": "https://github.com/sebdah/scrapy-mongodb/commit/33aef7e3ebcacfae7c973f8bd9dfd5c6d2a7d64a"
+  }, 
+  {
+    "Changes:": [
+      "-        LOG.error(_LE('The agent call to %(method)s returned an '\n", 
+      "+        LOG.error(_LE('The agent call to %(method)s returned '\n"
+    ], 
+    "Message:": "Double 'an' in message\n\nRemove a duplicate word.\n\nChange-Id: I7716f81d345fccb2f50bf2986988a7507410f127\nCloses-Bug: #1488437", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/openstack/nova/commit/c49093866e45e9ee8f24dfc29fefebd6347b85f5", 
+    "Commit Corrections:": "https://github.com/openstack/nova/commit/3b4a2fcc2c8286b86a4380b83f59ba656b78be07"
+  }, 
+  {
+    "Changes:": [
+      "-        self.root.iconbitmap(os.path.expanduser(\"~\")+\"\\\\Documents\\\\IrvineUploadProgram\\\\src\\\\logo.ico\")\n", 
+      "+        self.root.iconbitmap(os.path.expanduser(\"~\")+\"\\\\IrvineUploadProgram\\\\src\\\\logo.ico\")\n"
+    ], 
+    "Message:": "Forgot 1 directory change for the Icons", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/yoshiscienceguy/IrvineUploadProgram/commit/52453b2a0c155c481592c4b3a32af9edc9711ff9", 
+    "Commit Corrections:": "https://github.com/yoshiscienceguy/IrvineUploadProgram/commit/3e6315595fd958544757fd325d65d6a5e071320b"
+  }, 
+  {
+    "Changes:": [
+      "-parseInput(parser, opts, outputFile=strOut)\n", 
+      "+parseInput(parser, opts, inputFile=strIn, outputFile=strOut)\n"
+    ], 
+    "Message:": "Update example.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/LittleYUYU/berkeleyinterface/commit/f89edd753d80307109f6ba1dd96de92ef19a482d", 
+    "Commit Corrections:": "https://github.com/LittleYUYU/berkeleyinterface/commit/422e8b41475d8613ede559205f01f5fa8e080161"
+  }, 
+  {
+    "Changes:": [
+      "-from .pygsm import GlobalSkyModel\n", 
+      "+from .pygsm import GlobalSkyModel\n", 
+      "+from .pygsm import GSMObserver\n"
+    ], 
+    "Message:": "Added capability to generate observed skies for a given observatory\n\nApply GSMObserver(), which does coordinate transforms between galactic and\nequatorial, with correction for lat and long of observatory, so observed\nhorizon-to-horizon images can be generated. Also allows non-observed\nportions of the GSM to be masked for a given LST + LAT + LONG.\n\nGSMObserver() is an extension of pyephem's Observer() class.", 
+    "Additions:": 2, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/telegraphic/PyGSM/commit/8754a5a6121d04d859a8b575a90eaf79e753166a", 
+    "Commit Corrections:": "https://github.com/telegraphic/PyGSM/commit/1c53b53f368ef626353c527453748f0615ccd4d1"
+  }, 
+  {
+    "Changes:": [
+      "-        self.copy = False\n", 
+      "+        self.copy = self.params.get('copy', False)\n"
+    ], 
+    "Message:": "Move stream benchmark to its own file\nAdd sandbox for testing ideal stream performance", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/campagnola/pyacq/commit/05ae362f06a45406944c9ce243351401abd6311e", 
+    "Commit Corrections:": "https://github.com/campagnola/pyacq/commit/618ce4653663945f3f31b6b473c4bd10d1992e54"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.4.3'\n", 
+      "+__version__ = '0.4.4'\n"
+    ], 
+    "Message:": "Version bump", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/koterpillar/aloe_webdriver/commit/f89aac4af97ac994a13359b48f52353282058584", 
+    "Commit Corrections:": "https://github.com/koterpillar/aloe_webdriver/commit/059355bad479b8023500bdcfdf11b94fc0023978"
+  }, 
+  {
+    "Changes:": [
+      "-    version = '1.3.0',\n", 
+      "+    version = '1.3.1',\n"
+    ], 
+    "Message:": "bump up version to 1.3.1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/piskvorky/smart_open/commit/c12fb59a5567723916dee934091c4281a3db39ca", 
+    "Commit Corrections:": "https://github.com/piskvorky/smart_open/commit/30b2cf0b2c18c956a277655e735d2fba3fe3675a"
+  }, 
+  {
+    "Changes:": [
+      "-    connection = sqlite3.connect(os.path.realpath('.') + database.DATABASE_LOCATION)\n", 
+      "+    connection = sqlite3.connect(os.path.dirname(os.path.abspath(__file__)) + database.DATABASE_LOCATION)\n"
+    ], 
+    "Message:": "changed code to get path of database", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tylerbrockett/reddit-bot-buildapcsales/commit/b924281691627d1df0f7d0ed9ff2690ec4430cee", 
+    "Commit Corrections:": "https://github.com/tylerbrockett/reddit-bot-buildapcsales/commit/ef9288e1a8275f2e9e34dd6c65524a1ae9464c69"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+print (\"Tell me world\")"
+    ], 
+    "Message:": "Github for git pull", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/imposno/command_hello/commit/1a3231d56db2c4df1865d36fc4e948a64a11028b", 
+    "Commit Corrections:": "https://github.com/imposno/command_hello/commit/068bf93c76c5222f1b285cac7e1455f02535ab31"
+  }, 
+  {
+    "Changes:": [
+      "-from datacube import ui\n", 
+      "+from datacube.ui import click as ui\n"
+    ], 
+    "Message:": "Split up ui module to avoid risk of cycles.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/data-cube/agdc-v2/commit/3bb8e478023df1b5a10ff058bf41acfe66fbacbc", 
+    "Commit Corrections:": "https://github.com/data-cube/agdc-v2/commit/b5fc89f3b2c9f2e9950756c0a7130412db884ed7"
+  }, 
+  {
+    "Changes:": [
+      "-    return {k: dict(vars(v)) for k, v in namedtuples.items()}\n", 
+      "+    return {k: dict(v._asdict()) for k, v in namedtuples.items()}\n"
+    ], 
+    "Message:": "Fix namedtuple handling for Python 3.5.1\n\nhttp://stackoverflow.com/questions/34166469/did-something-about-namedtuple-change-in-3-5-1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/data-cube/agdc-v2/commit/b5fc89f3b2c9f2e9950756c0a7130412db884ed7", 
+    "Commit Corrections:": "https://github.com/data-cube/agdc-v2/commit/59695cb2d6042cbda4319ae775b226886f233d7c"
+  }, 
+  {
+    "Changes:": [
+      "-    commands.cmds.InvalidCommand.begin(self, cmdobj) if _atmp2 not in commands.cmds.baseList else commands.cmds.baseList[_atmp2].begin(self, cmdobj)\n", 
+      "+    cmds.InvalidCommand.begin(self, cmdobj) if _atmp2 not in cmds.baseList else cmds.baseList[_atmp2].begin(self, cmdobj)\n"
+    ], 
+    "Message:": "Fix some scope mistakes. This fix was part of the reverted commit.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Armored-Dragon/pymineserver/commit/fc3d47f82d0953e51d34a5e76d9529f3def1ecbe", 
+    "Commit Corrections:": "https://github.com/Armored-Dragon/pymineserver/commit/2b380d501b80afad8c7c5ec27537bcc682ed2775"
+  }, 
+  {
+    "Changes:": [
+      "-__version__ = '0.3.1681'\n", 
+      "+__version__ = '0.3.1682'\n"
+    ], 
+    "Message:": ".", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CivicKnowledge/ambry/commit/44f6c5128f6edc7b5baa06b7945b5089b0829a56", 
+    "Commit Corrections:": "https://github.com/CivicKnowledge/ambry/commit/d8b5d94447d11bd8ed012236afee9c71de267d64"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+# what is this doing? \n"
+    ], 
+    "Message:": "add comments", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mishar7/loops/commit/60411db7da99d538ddded77fa47b69fbc6d40cce", 
+    "Commit Corrections:": "https://github.com/mishar7/loops/commit/57efb1f1e489b18a1b06325e1dea6162c95fb3ef"
+  }, 
+  {
+    "Changes:": [
+      "-browser.get(\"https://www.truecaller.com/in/9461219803\")\n", 
+      "+browser.get(\"https://www.truecaller.com/in/<number>\")\n"
+    ], 
+    "Message:": "number removed", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/sumansaurabh-hl/TrueCallerAPi/commit/38983bfe60b8874290c464398cc3ead0c932605f", 
+    "Commit Corrections:": "https://github.com/sumansaurabh-hl/TrueCallerAPi/commit/5445d19b4f0c2881acd7919e0525e75495fb8302"
+  }, 
+  {
+    "Changes:": [
+      "-    if not any([ip_address, enabled, weight, port, healthcheck_type]):\n", 
+      "+    if (not any([ip_address, weight, port, healthcheck_type])) and enabled == None:\n"
+    ], 
+    "Message:": "Fix options check for --disabled option", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/picocandy/softlayer-python/commit/10292af05039b74198a75cd85a79f9ca89e51fc5", 
+    "Commit Corrections:": "https://github.com/picocandy/softlayer-python/commit/32416a8e642ea233aa6d7df510483810fb03dcc7"
+  }, 
+  {
+    "Changes:": [
+      "-to_email = 'Recipient@gmail.com'\n", 
+      "+to_email = ['Recipients@gmail.com']\n"
+    ], 
+    "Message:": "Multiple Users Update", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/valeness/feedme/commit/fc4c849fd14d6cf207c9bd28625b03bd63b4a4bf", 
+    "Commit Corrections:": "https://github.com/valeness/feedme/commit/1d944c3f3869cc9bfed4af7ef1891650d240f78d"
+  }, 
+  {
+    "Changes:": [
+      "-Serializers for badging\n", 
+      "+Serializers for Badges\n"
+    ], 
+    "Message:": "Add share modal to badge listing.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/edx/edx-platform/commit/0c249aa5560635dd4cebe8894405d07e1f00c0fb", 
+    "Commit Corrections:": "https://github.com/edx/edx-platform/commit/96093fe87ca4eba89ec5f92862ff193831577cb5"
+  }, 
+  {
+    "Changes:": [
+      "-            package_dict = json.loads(harvest_object.content.decode('string_escape'))\n", 
+      "+            package_dict = json.loads(harvest_object.content, strict=False)\n"
+    ], 
+    "Message:": "- Allowing control characters inside strings.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/datagovau/ckanext-harvest/commit/4764ed16c43f3e3c0db7b50cbe9cb93e0d21c618", 
+    "Commit Corrections:": "https://github.com/datagovau/ckanext-harvest/commit/f97658d257fe9fa30cf4415513c7359a74995e78"
+  }, 
+  {
+    "Changes:": [
+      "-## So if we search for 2009 06 06, it means the char is for 2009 05 31 - 2009 06 06\n", 
+      "+## So if we search for 2009 06 06, it means the chart is for 2009 05 31 - 2009 06 06\n"
+    ], 
+    "Message:": "edit comment for scraper", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/JunjieW/BillboardPredictor/commit/849351f6ecbb33ce1753b91ea1e6ca275062d2e9", 
+    "Commit Corrections:": "https://github.com/JunjieW/BillboardPredictor/commit/7494bf7661415f0b2713c94f11d09ff485daad99"
+  }, 
+  {
+    "Changes:": [
+      "-version=\"0.1.12a18\"\n", 
+      "+version=\"0.1.12a19\"\n"
+    ], 
+    "Message:": "add xlsxreport funtion", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/huangtao-sh/stdlib/commit/8cad10c6210789b82a5f12ffacfe42bbacc126e2", 
+    "Commit Corrections:": "https://github.com/huangtao-sh/stdlib/commit/1d571a2ed3f5f0e9e06de56943b2f418b819a28a"
+  }, 
+  {
+    "Changes:": [
+      "-    \"p\": {\"p\": \"p\" }\n", 
+      "+    \"p\": {\"p\": \"1\" }\n"
+    ], 
+    "Message:": "Corrected comment on format of JSON file.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/milindvdamle/numerics/commit/11b23608fedfaa8b8be554debb00b1d8b119572b", 
+    "Commit Corrections:": "https://github.com/milindvdamle/numerics/commit/6af75b0f5dc1d354b0da476c8b385d7202d7d223"
+  }, 
+  {
+    "Changes:": [
+      "-\t\tindividual_source = False\n", 
+      "+\t\tindividual_source = True\n", 
+      "-\t\tself.field = HeliostatField(self.pos, 6.09, 6.09, absorptivity=0.04, aim_height=60,  sigma_xy=1e-3)\n", 
+      "+\t\tself.field = HeliostatField(self.pos, 6.09, 6.09, absorptivity=0.04, aim_height=60,  sigma_xy=1e-3, option=None)\n", 
+      "-\t\trender = True\n", 
+      "+\t\trender = False\n", 
+      "-\t\tnum_rays = 8000.\n", 
+      "-\t\titers = 50\n", 
+      "+\t\tnum_rays = 500000.\n", 
+      "+\t\titers = 40\n", 
+      "-\t\twhile hits_helios < 20e6:\n", 
+      "-\t\t#for i in xrange(iters):\n", 
+      "+\t\t#while hits_helios < 20e6:\n", 
+      "+\t\tfor i in xrange(iters):\n", 
+      "-\t\t\t\tsources.append(self.gen_rays(num_rays/procs, flux=self.flux/procs))\n", 
+      "+\t\t\t\tsources.append(self.gen_rays(num_rays/float(procs), flux=self.flux/float(procs)))\n", 
+      "-\t\t\tfluxmap = (fluxmap*i+H/(1000.*(11./50.)**2))/(i+1)\n", 
+      "+\t\t\tfluxmap = (fluxmap*float(i)+H/(1000.*dl**2.))/(i+1.)\n", 
+      "+\n", 
+      "-\n", 
+      "+\t\t'''\n", 
+      "-\t\tplt.colorbar()\n", 
+      "+\t\tplt.colorbar().set_label('Flux (kW)')\n", 
+      "-\n", 
+      "+\t\t'''\n", 
+      "+\ttotal_time = time.time()\n", 
+      "+\ttotal_time = time.time()-total_time\n", 
+      "+\tprint 'Simulation total time: ', total_time/60., 'min'\n"
+    ], 
+    "Message:": "Multiprocessing was faulty and updated. Now works as intended and is able to correctly recombine the trace tree and optical managers in one and only instance for a parallel simulation.", 
+    "Additions:": 16, 
+    "Deletions:": 12, 
+    "Commit Mistakes:": "https://github.com/casselineau/Tracer/commit/42d8fcf540b4bec37befaad6bad6c5f6b8cbc456", 
+    "Commit Corrections:": "https://github.com/casselineau/Tracer/commit/3aeabc1536c097126b083c3c11609a21addb6860"
+  }, 
+  {
+    "Changes:": [
+      "-#module day1.py\n", 
+      "+# module day1.py\n"
+    ], 
+    "Message:": "day 7 OO madness (partial)", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/crerwin/advent/commit/7716a748d45d7294b8e6c9d9845dd7516cc85219", 
+    "Commit Corrections:": "https://github.com/crerwin/advent/commit/53ede01b88fd86b9850c22296e61642ec12b313c"
+  }, 
+  {
+    "Changes:": [
+      "-\tn2=239406.0-15000\n", 
+      "+\tn2=239406.0#-15000\n"
+    ], 
+    "Message:": "bus predict contest 2015-12-18 v1", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/Chunzhen/bus_predict/commit/a4485f3d6bb801c423560c399ca2c41bf1e7505c", 
+    "Commit Corrections:": "https://github.com/Chunzhen/bus_predict/commit/f0df38d8d76a452799746a1773a1d099d73b1702"
+  }, 
+  {
+    "Changes:": [
+      "-@keystonemod.route('/v1/basecloud/url', methods=['GET'])\n", 
+      "+@keystonemod.route('/icp/url', methods=['GET'])\n"
+    ], 
+    "Message:": "Modify the url of sso login\n\nSigned-off-by: luoyancn <luoyan_cn@outlook.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/luoyancn/webservice/commit/b8e9a0f3e8a0c4cad164898a6187588a4341d25c", 
+    "Commit Corrections:": "https://github.com/luoyancn/webservice/commit/bb5ac28c23bc7125dea6414ec461a740255db7b4"
+  }, 
+  {
+    "Changes:": [
+      "-demo_list = [\"He would declare and could himself believe\", \"that the birds there in all the garden round\", \"from having heard the daylong voice of Eve\", \"had added to their own an oversound\", \"her tone of meaning but without the words\", \"admittedly an eloquence so soft\", \"could only have had an influence on birds\"]\n", 
+      "+demo_list = [\"He would declare and could himself believe\", \"that the birds there in all the garden round\", \"from having heard the daylong voice of Eve\", \"had added to their own an oversound\", \"her tone of meaning but without the words\", \"admittedly an eloquence so soft\", \"could only have had an influence on birds\", \"when call or laughter carried it aloft\"]\n", 
+      "-demo_line = \"that the birds there in all the garden round\"\n", 
+      "+from random import randint\n", 
+      "-demo_pre = \"He would declare and could himself believe\"\n", 
+      "+random_number = randint(0,len(demo_list) - 1)\n", 
+      "-demo_post = \"from having heard the daylong voice of Eve\"\n", 
+      "+try:\n", 
+      "+\tpre_line = demo_list[random_number - 1]\n", 
+      "+except IndexError:\n", 
+      "+\tpre_line =\"START OF LIST\"\n", 
+      "-blank_filler = \"_\" * len(demo_line)\n", 
+      "+try:\n", 
+      "+\tpost_line = demo_list[random_number + 1]\n", 
+      "+except IndexError:\n", 
+      "+\tpost_line =\"END OF LIST\"\n", 
+      "+\n", 
+      "+blank_filler = \"-\" * len((demo_list[random_number]))\n", 
+      "-print demo_pre\n", 
+      "+print pre_line\n", 
+      "-print demo_post\n", 
+      "+print post_line\n"
+    ], 
+    "Message:": "Random selection from demo list\n\nprogram randomly selects items from demo list and correctly prints the\nprevious and subsequent item for context", 
+    "Additions:": 15, 
+    "Deletions:": 7, 
+    "Commit Mistakes:": "https://github.com/marbiru/sequence_memoriser/commit/1721653f3d6eff09adf3b385dd54e418c8d2b11d", 
+    "Commit Corrections:": "https://github.com/marbiru/sequence_memoriser/commit/bfe32ff84a2a9aa9ccc3a34a84dbccbb4de3586c"
+  }, 
+  {
+    "Changes:": [
+      "-        # row_path.bgp_nexthops = row_nh\n", 
+      "+        row_path.bgp_nexthops = row_nh\n"
+    ], 
+    "Message:": "fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/h-naoto/ops-gobgp/commit/02bfacc6f9d771e08a88e9fb83d7bae128e89eef", 
+    "Commit Corrections:": "https://github.com/h-naoto/ops-gobgp/commit/bafa7bc6b9368966ec64f06da6e2ca6b17c4d93c"
+  }, 
+  {
+    "Changes:": [
+      "-            package_dict = json.loads(harvest_object.content, strict=False)\n", 
+      "+            package_dict = json.loads(harvest_object.content.decode('string_escape'), strict=False)\n"
+    ], 
+    "Message:": "- Decoding JSON input and relaxing control characters inside strings.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/datagovau/ckanext-harvest/commit/f97658d257fe9fa30cf4415513c7359a74995e78", 
+    "Commit Corrections:": "https://github.com/datagovau/ckanext-harvest/commit/769a043ae45ef49ce6647b6b40f0a00df6629b84"
+  }, 
+  {
+    "Changes:": [
+      "-                newly_created_pos_file.close()\n", 
+      "+                newly_created_pos_file.close()\n"
+    ], 
+    "Message:": "Fixed new pos file creation", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/erbdex/deathbird/commit/6ac466e51178e308a41a026355bb5fade3ba7286", 
+    "Commit Corrections:": "https://github.com/erbdex/deathbird/commit/594895f7e2d79bcbe5e142d433a9fba60442def4"
+  }, 
+  {
+    "Changes:": [
+      "+import fscore\n", 
+      "-        print type(a)\n", 
+      "-def predict(Theta1, Theta2, X):\n", 
+      "+def predict(Theta_1, Theta_2, X):\n", 
+      "-    num_labels = Theta2.shape[0]\n", 
+      "+    num_labels = Theta_2.shape[0]\n", 
+      "-    h1 = sigmoid(a1.dot(Theta1.T))\n", 
+      "+    h1 = sigmoid(a1.dot(Theta_1.T))\n", 
+      "+    \n", 
+      "-    h2 = sigmoid(z2.dot(Theta2.T))\n", 
+      "+    h2 = sigmoid(z2.dot(Theta_2.T))\n", 
+      "-    print p.shape\n", 
+      "-    #p = h2.max(axis=1)\n", 
+      "-    #for i in range(p.shape[0]):\n", 
+      "-    #    print 'predicted: ', p[i]\n", 
+      "+    p = h2.argmax(axis = 1)\n", 
+      "+    for i in range(p.shape[0]):\n", 
+      "+        p[i] += 1\n", 
+      "-    #for i in range(p.shape[0]):\n", 
+      "-    #    #if (p[i]) == y[i]:\n", 
+      "-    #    print p[i], ' yooow ', y[i]\n", 
+      "-    return (sum/p.shape[0])*100\n", 
+      "+    m = p.shape[0]\n", 
+      "+    for i in range(m):\n", 
+      "+        if p[i] == y[i]:\n", 
+      "+            sum += 1\n", 
+      "+    accuracy = (sum/p.shape[0])*100\n", 
+      "+    print accuracy\n", 
+      "+    return accuracy"
+    ], 
+    "Message:": "added correct accuracy and prediction", 
+    "Additions:": 16, 
+    "Deletions:": 13, 
+    "Commit Mistakes:": "https://github.com/LucidComplex/python-face-recognition/commit/ee4abd4db9b01d64aa6d7e0b51ad94cf45fc2356", 
+    "Commit Corrections:": "https://github.com/LucidComplex/python-face-recognition/commit/b5e2b9a95f81af4799195d3003baeeffc41960b6"
+  }, 
+  {
+    "Changes:": [
+      "-#\u00a9 Copyright IBM Corporation 2015.\u00a0\u00a0\u00a0\n", 
+      "+#Copyright IBM Corporation 2015.\n"
+    ], 
+    "Message:": "copyright updated", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/nadgowdas/cargo/commit/5262be9eb646e5e6a3671d402d29e1efbf2b3608", 
+    "Commit Corrections:": "https://github.com/nadgowdas/cargo/commit/5aacf0517786b6f702bfa256a01477531f58dac9"
+  }, 
+  {
+    "Changes:": [
+      "-\n", 
+      "+ \n"
+    ], 
+    "Message:": "Uncommit \"class test\" part.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ysh329/spam-msg-classifier/commit/bb87804939ec480bfdf462f8958d675e0a3875b8", 
+    "Commit Corrections:": "https://github.com/ysh329/spam-msg-classifier/commit/f7508529b8d01009715c58f3ce02eada530b188b"
+  }, 
+  {
+    "Changes:": [
+      "-    version='0.1.6',\n", 
+      "+    version='0.1.8',\n"
+    ], 
+    "Message:": "change version to 0.1.8", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/imjoey/pyhaproxy/commit/3c792b370f913a2034bfcd335601ff72833020db", 
+    "Commit Corrections:": "https://github.com/imjoey/pyhaproxy/commit/4af30de1dd2b18d738c9971a33aaefb3ed271e0d"
+  }, 
+  {
+    "Changes:": [
+      "-    'protobuf>=3.0.0',\n", 
+      "+    'protobuf>=3.0.0b1.post2',\n"
+    ], 
+    "Message:": "Support protobuf>=3.0.0b1.post2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/pfnet/chainer/commit/b07a3792b69f138f2821de695162f5ba72cc69bd", 
+    "Commit Corrections:": "https://github.com/pfnet/chainer/commit/d75f0ffdfcdd35346ca84d831b298b52e9b5197f"
+  }, 
+  {
+    "Changes:": [
+      "-    @api.depends('period', 'maintenance_ids.state_id', 'maintenance_ids.request_date')\n", 
+      "+    @api.depends('period', 'maintenance_open_count', 'maintenance_ids.request_date')\n"
+    ], 
+    "Message:": "[FIX] MAINTENANCE : Change function of next action computation.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/odoo-dev/odoo/commit/ffb74652a7e2f8b50da14548e4b3fd1e88a78f20", 
+    "Commit Corrections:": "https://github.com/odoo-dev/odoo/commit/3002f4f7f243c274db53619723e96d45995176e4"
+  }, 
+  {
+    "Changes:": [
+      "-    \"\"\"Return a list generated from dist<min, max> | f\"\"\"\n", 
+      "+    \"\"\"Return a list generated from dist<vals, weights>\"\"\"\n"
+    ], 
+    "Message:": "Nits by Alex", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/odds-lang/odds/commit/6d65c804206725ed17cce226df3e04f15491ebd0", 
+    "Commit Corrections:": "https://github.com/odds-lang/odds/commit/aa77e911ec8ef8540e8484d65541b60ccfe6e9ef"
   }
 ]

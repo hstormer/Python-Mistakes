@@ -2132,5 +2132,78 @@
     "Deletions:": 2, 
     "Commit Mistakes:": "https://github.com/mrkiwi-nz/django-helpdesk/commit/44bbcd31e56687aa04b8df6d361ba2d3cee02d4a", 
     "Commit Corrections:": "https://github.com/mrkiwi-nz/django-helpdesk/commit/6c1aea95e8546ead6f379313376716861ff82389"
+  }, 
+  {
+    "Changes:": [
+      "-\tresult = runTest(\"./solver \"+test.command, test.timeout)\r\n", 
+      "+    result = runTest(\"./solver \"+test.command, test.timeout)\r\n"
+    ], 
+    "Message:": "Fixed indentation issue in tester and added comments to testGenerator", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/michaelandersonb/segmentationfaults/commit/23104f4356330a4619b068175ea741cce4aef051", 
+    "Commit Corrections:": "https://github.com/michaelandersonb/segmentationfaults/commit/e7864968d47bf590f185e01500e04606cc7a958a"
+  }, 
+  {
+    "Changes:": [
+      "-from requests import get\n", 
+      "+from requests import get\n", 
+      "+    \"\"\"Search duck duck go and return the first url from the restuls\"\"\"\n", 
+      "-            query =\n", 
+      "-            \"http://api.duckduckgo.com/?q={0}&format=json&no_html=1&no_redirect=1\".format(quote_plus(search + \" -site:yahoo.com\"))\n", 
+      "+            query = \"http://api.duckduckgo.com/?q={0}&format=json&no_html=1&no_redirect=1\".format(quote_plus(search + \" -site:yahoo.com\"))\n", 
+      "-            site =\n", 
+      "-            get(\"http://duckduckgo.com/html/?q={0}&kl=us-en\".format(search + \" -site:yahoo.com\")).text\n", 
+      "+            site = get(\"http://duckduckgo.com/html/?q={0}&kl=us-en\".format(search + \" -site:yahoo.com\")).text\n"
+    ], 
+    "Message:": "fixed typos >.>", 
+    "Additions:": 4, 
+    "Deletions:": 5, 
+    "Commit Mistakes:": "https://github.com/meskarune/autobot/commit/16ce23cb39832acd964e5f2f15d21534d9f6481a", 
+    "Commit Corrections:": "https://github.com/meskarune/autobot/commit/0a02d92abccb67d593c4d1053dd011f9be4f7b99"
+  }, 
+  {
+    "Changes:": [
+      "-        num+=1\n", 
+      "+        tmpnum+=1\n"
+    ], 
+    "Message:": "Update SpoTyping.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/xiaeryu/SpoTyping-v2.0/commit/8b9aa388778305b49bb268dbb9455d9b60d726c8", 
+    "Commit Corrections:": "https://github.com/xiaeryu/SpoTyping-v2.0/commit/7de291833823a298775ebdcb7ad2329c0b1c2321"
+  }, 
+  {
+    "Changes:": [
+      "-            self.service_obj.append(TimeSynch(self, config_dict))\n", 
+      "+            self.service_obj.append(TimeSync(self, config_dict))\n"
+    ], 
+    "Message:": "omg make the cleanup stop", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/garretlh/stratosphere/commit/046d35428a6bd0ffce183866e37ba0e4dc5f7db8", 
+    "Commit Corrections:": "https://github.com/garretlh/stratosphere/commit/51bd04f85df21d449408a40ee1efcf1ecb41b96e"
+  }, 
+  {
+    "Changes:": [
+      "-                          (backend.get_name(), backend.get_id()), ex)\n", 
+      "+                          (backend.get_name(), backend.get_id(), ex))\n"
+    ], 
+    "Message:": "[arthur] Fixed exception reporting.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/acs/GrimoireELK/commit/9dded4e1d33da62b29f5f78db369424a511ae26f", 
+    "Commit Corrections:": "https://github.com/acs/GrimoireELK/commit/9563de3defd999de3ee2d435c43337a83990fbe3"
+  }, 
+  {
+    "Changes:": [
+      "-how is this?\n", 
+      "+# how is this?\n"
+    ], 
+    "Message:": "Update loops2.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mishar7/loops/commit/a05fd671a80f61d84352c4ce5fd2eb6918a299e8", 
+    "Commit Corrections:": "https://github.com/mishar7/loops/commit/a746b01b70a624dbd192b4857f949eecd10c99c8"
   }
 ]
