@@ -14152,5 +14152,49 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/odds-lang/odds/commit/6d65c804206725ed17cce226df3e04f15491ebd0", 
     "Commit Corrections:": "https://github.com/odds-lang/odds/commit/aa77e911ec8ef8540e8484d65541b60ccfe6e9ef"
+  }, 
+  {
+    "Changes:": [
+      "-    L = LDAModel(X, b.ordered_ingredients, b.ordered_recipes)\n", 
+      "+    L = LDAModel(X, b.ordered_ingredients, b.ordered_recipes, K=2)\n"
+    ], 
+    "Message:": "removed tooltips in front end", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jchen006/shenanigans/commit/c73f814df7db748716cc1ab6c1c3b8e4f71964ec", 
+    "Commit Corrections:": "https://github.com/jchen006/shenanigans/commit/999c53f6c4fb1d072f503fec3d7a7fa60ecdb624"
+  }, 
+  {
+    "Changes:": [
+      "-    @api.depends('period', 'maintenance_ids.kanban_state', 'maintenance_ids.request_date')\n", 
+      "+    @api.depends('period', 'maintenance_ids.state_id', 'maintenance_ids.request_date')\n"
+    ], 
+    "Message:": "[FIX] MAINTENANCE : Change function of next action computation.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/odoo-dev/odoo/commit/cf02c723d6588607710844211c3d136518a352b9", 
+    "Commit Corrections:": "https://github.com/odoo-dev/odoo/commit/ffb74652a7e2f8b50da14548e4b3fd1e88a78f20"
+  }, 
+  {
+    "Changes:": [
+      "-VERSION=\"0.4.4.2\"\n", 
+      "+VERSION=\"0.4.4.3\""
+    ], 
+    "Message:": "Version bump", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/delfick/credo/commit/206ab2d9aede8ccd678f5b40e1d80369417d1a35", 
+    "Commit Corrections:": "https://github.com/delfick/credo/commit/c5ab55a6a2ccbba0390ada64cafa45afa0524906"
+  }, 
+  {
+    "Changes:": [
+      "-            package_dict = json.loads(harvest_object.content.decode('string_escape'), strict=False)\n", 
+      "+            package_dict = json.loads(harvest_object.content.replace(\"\\\\\\\\\", \"\\\\\"))\n"
+    ], 
+    "Message:": "- Decoding JSON input and relaxing control characters inside strings.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/datagovau/ckanext-harvest/commit/769a043ae45ef49ce6647b6b40f0a00df6629b84", 
+    "Commit Corrections:": "https://github.com/datagovau/ckanext-harvest/commit/5c2546c1614e2376e067bd8a8302d1766ba990d2"
   }
 ]
