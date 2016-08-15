@@ -2448,5 +2448,105 @@
     "Deletions:": 4, 
     "Commit Mistakes:": "https://github.com/daureg/magnet/commit/200ee2fdaf8ac9192af0900c07147184d258ef72", 
     "Commit Corrections:": "https://github.com/daureg/magnet/commit/31233979e0d488fe8acd6bfe0e185aefe24b15da"
+  }, 
+  {
+    "Changes:": [
+      "-        self.factor, self.flag = cho_factor(covar)\n", 
+      "+        self.factor, self.flag = cho_factor(self.covar)\n"
+    ], 
+    "Message:": "fixed small error in GaussianProcesses.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/martinmcallister/lfit_python/commit/1aab610faa8f45419987564452acd1904fd3b8a7", 
+    "Commit Corrections:": "https://github.com/martinmcallister/lfit_python/commit/2f7beff43201af7967ae5419b238159814bdd832"
+  }, 
+  {
+    "Changes:": [
+      "-    def rumpUp(self):\n", 
+      "+    def rampUp(self):\n"
+    ], 
+    "Message:": "rampUp, not rumpUp.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/niklas-arm/htrun/commit/8301b14b3c9dce929d328f3f99a63d85009cec05", 
+    "Commit Corrections:": "https://github.com/niklas-arm/htrun/commit/323699e6e6d8b5e5a8e69b00eabf4ce0946aaefb"
+  }, 
+  {
+    "Changes:": [
+      "-        snapshot.edit_snapshot_tag(snapshotuuid=uuid, tag='testtagedited'. oldtag='testtag')\n", 
+      "+        snapshot.edit_snapshot_tag(snapshotuuid=uuid, tag='testtagedited', oldtag='testtag')\n"
+    ], 
+    "Message:": "added the test for snapshot", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/anand0707/python-aasemble.django/commit/b961a6e118b12a17eaf4c753371c159f91c22654", 
+    "Commit Corrections:": "https://github.com/anand0707/python-aasemble.django/commit/b2d0a91fcdcee30ebce32f3d3e414c41364e4d55"
+  }, 
+  {
+    "Changes:": [
+      "-            self._as_parameter_ = lib.zcert_new from(args[0], args[1]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zcert_new_from(args[0], args[1]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zframe_new empty() # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zframe_new_empty() # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zmsg_new signal(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zmsg_new_signal(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new pub(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_pub(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new sub(args[0], args[1]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_sub(args[0], args[1]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new req(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_req(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new rep(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_rep(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new dealer(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_dealer(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new router(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_router(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new push(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_push(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new pull(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_pull(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new xpub(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_xpub(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new xsub(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_xsub(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new pair(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_pair(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new stream(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_stream(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new server(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_server(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zsock_new client(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zsock_new_client(args[0]) # Creation of new raw type\n", 
+      "-            self._as_parameter_ = lib.zuuid_new from(args[0]) # Creation of new raw type\n", 
+      "+            self._as_parameter_ = lib.zuuid_new_from(args[0]) # Creation of new raw type\n"
+    ], 
+    "Message:": "Problem: check-py build fails due to syntax error\n\nSee https://travis-ci.org/zeromq/czmq/builds/97634214\n\nSolution: regenerate with latest zproject", 
+    "Additions:": 18, 
+    "Deletions:": 18, 
+    "Commit Mistakes:": "https://github.com/c-rack/czmq/commit/913b0b48b9f0714468c632bb0c53c11fac040404", 
+    "Commit Corrections:": "https://github.com/c-rack/czmq/commit/1b2fca8bf3752cc3f8da048615ee53727f856898"
+  }, 
+  {
+    "Changes:": [
+      "-        d2 = cv2.absdiff(images[1], imeges[0])\n", 
+      "+        d2 = cv2.absdiff(images[1], images[0])\n"
+    ], 
+    "Message:": "fix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/noir-neo/grusonii/commit/0fcbb206fead3e9c7e39a6cdbd0b4845d2607a2c", 
+    "Commit Corrections:": "https://github.com/noir-neo/grusonii/commit/ad3dfcb9217b6c9f3f4115b468c83fbe3ac8c8ad"
+  }, 
+  {
+    "Changes:": [
+      "-    return web..Response(body=b'<h1>OpenBlog</h1>')\n", 
+      "+    return web.Response(body=b'<h1>OpenBlog</h1>')\n"
+    ], 
+    "Message:": "bug fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/wjd1218/OpenBlog/commit/008d1c94df2559d282628523e98ef5d9eff16313", 
+    "Commit Corrections:": "https://github.com/wjd1218/OpenBlog/commit/812625d24cd245e186f2fbc7ed62961716cc8b0a"
   }
 ]
