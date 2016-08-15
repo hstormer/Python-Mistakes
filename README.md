@@ -39,6 +39,8 @@ RUNNING WEKA:
 
 3.The classifier you'll use under FilteredClassifier is Vote. Under Vote, set the combinationRule to Majority Voting.
 
+4.Again under vote, click on the classifiers. Delete the ZeroR
 
+5.One Combination you can try is Bagging(with PART) and Bagging(with RandomForest): Choose Bagging first and then click on the Bagging again to choose PART under rules. Now pless the Add button. Do the same to add Random Forest.
 
 Enjoy :)

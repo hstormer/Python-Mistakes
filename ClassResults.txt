@@ -117,3 +117,7 @@ Cross Validation: 87.61%
 *Baggings (with RandomForest, RandomTree, J48, PART)
 Cross-Validation: 82.88
 Percent Split: 83.92
+
+*Baggings (with RandomForst and PART)
+Cross-Validation: ~85.15%
+Percent Split: ~83.93%
