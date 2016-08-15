@@ -2614,5 +2614,93 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/den1den/webtech_team/commit/6f3d929ef6620a4e8ce9eaa4c34f960ff7322596", 
     "Commit Corrections:": "https://github.com/den1den/webtech_team/commit/6fb56917525ec360cbbf82adb1a212c17e8a1b34"
+  }, 
+  {
+    "Changes:": [
+      "-        logger.warning('No message-id in fp.name')\n", 
+      "+        logger.warning('No message-id in %s' % fp.name)"
+    ], 
+    "Message:": "typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/tlevine/mhdir/commit/ecc7269a2fc839360579ec676b62117d2eb4d52a", 
+    "Commit Corrections:": "https://github.com/tlevine/mhdir/commit/6d44b021ec13e649a07a54c4598d9a6b6a765c08"
+  }, 
+  {
+    "Changes:": [
+      "-    etaiHatAft =(lambda psiN: niHatAft(psiN)*numpy.exp(-CPhi/THatAft[species](psiN))\n", 
+      "+    etaiHatAft =(lambda psiN: niHatAft(psiN)*numpy.exp(-CPhi/THatAft[species](psiN)))\n"
+    ], 
+    "Message:": "Bug", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/daringli/PERFECT_utils/commit/72740559fe6f431706507d970f4546d3eba2f035", 
+    "Commit Corrections:": "https://github.com/daringli/PERFECT_utils/commit/d272b053b37b14b649fed0c795072b0e0e891d37"
+  }, 
+  {
+    "Changes:": [
+      "-    return concentration(temp, Paml22PT, f_H2_22PT, PamlSIS, f_SIS)\n", 
+      "+    return concentration(temp, Paml22PT, f_He_22PT, PamlSIS, f_SIS)\n"
+    ], 
+    "Message:": "Fix calculation of He concentration", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/rouckas/lib22pt/commit/5ba6ad11a25630074772aa6e3182f5147cb9b355", 
+    "Commit Corrections:": "https://github.com/rouckas/lib22pt/commit/78d1fc08334dd90136ac752fd429c6b5c34c6001"
+  }, 
+  {
+    "Changes:": [
+      "-        for mytemp in self.__builddata.GetListOfModuletemplates():\n", 
+      "+        for mytemp in self.__builddata.GetListOfModuleTemplates():\n"
+    ], 
+    "Message:": "Fix function name", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mfasDa/alibuild/commit/640e31af5d80ad33e603819177d3127bdcf2df5e", 
+    "Commit Corrections:": "https://github.com/mfasDa/alibuild/commit/0402d862ceed372ccc031f9bd6606f4630d75447"
+  }, 
+  {
+    "Changes:": [
+      "-html += \"<hr/>{}\".format(insert_statement(team_name, tem_dept, practices, form))\n", 
+      "+html += \"<hr/>{}\".format(insert_statement(team_name, team_dept, practices, form))\n"
+    ], 
+    "Message:": "I love tyops.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CharlesRandles/autolama/commit/172ef0f83469b786b6c7cf19b25c0132c017986e", 
+    "Commit Corrections:": "https://github.com/CharlesRandles/autolama/commit/96f1b7b5466b113b61f61cf6cf6a5de75b9addd8"
+  }, 
+  {
+    "Changes:": [
+      "-        modulesfiles = options.modulefiles\n", 
+      "+        modulefiles = options.modulefiles\n"
+    ], 
+    "Message:": "Fix typo in previous commit for --modulefiles option (was broken).", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/fls-bioinformatics-core/auto_process_ngs/commit/9be2e59bde3cd2ae59fb2ddcba282b4126b08eb5", 
+    "Commit Corrections:": "https://github.com/fls-bioinformatics-core/auto_process_ngs/commit/2201a7ce71f8f30759791ecb9032cf9c10da9b00"
+  }, 
+  {
+    "Changes:": [
+      "-    values = \"({},{},\".format(team_name, department_name)\n", 
+      "+    values = \"('{}','{}',\".format(team_name, department_name)\n"
+    ], 
+    "Message:": "Beer coding is STILL best coding.", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CharlesRandles/autolama/commit/dc991423caa497484793a50eea38d68fddc6e403", 
+    "Commit Corrections:": "https://github.com/CharlesRandles/autolama/commit/bf70772fb351deb3e4c4de7c0aee1d607ccfd9dd"
+  }, 
+  {
+    "Changes:": [
+      "-        settings.ALLOWSHARERUN = \n", 
+      "+        settings.ALLOWSHARERUN = True\n"
+    ], 
+    "Message:": "fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/proycon/clam/commit/669da6353fdad27f683f03c3aa076faacedd09a1", 
+    "Commit Corrections:": "https://github.com/proycon/clam/commit/efb025ff53f0b136361182806feab14ceea92fe7"
   }
 ]
