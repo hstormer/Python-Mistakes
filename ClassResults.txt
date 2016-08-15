@@ -112,3 +112,8 @@ Cross Validation: 88.25%
 *Used Vote combination of Bagging(with PART) and Bagging(J48), and Bagging(BayesNet):
 Cross Validation: 87.61%
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ON~NEW~DATA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Baggings (with RandomForest, RandomTree, J48, PART)
+Cross-Validation: 82.88
+Percent Split: 83.92
