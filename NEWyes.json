@@ -2953,5 +2953,16 @@
     "Deletions:": 9, 
     "Commit Mistakes:": "https://github.com/Mausy5043/bonediagd/commit/337fca437946e696ea9eb67c2dc7202ecc699689", 
     "Commit Corrections:": "https://github.com/Mausy5043/bonediagd/commit/5dbc9d13c7b03485b23d1ea433cd0167f6c506e2"
+  }, 
+  {
+    "Changes:": [
+      "-        return cls.deserialized(etree.XML(text))\n", 
+      "+        return cls.deserialize(etree.XML(text))"
+    ], 
+    "Message:": "Merge pull request #8 from mehcode/issue-7\n\nCorrect a typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/mehcode/python-saml/commit/8e748a5cd08a32c168064b998196cbaea8b34cbf", 
+    "Commit Corrections:": "https://github.com/mehcode/python-saml/commit/33ed62018efa9ec15b551f309429de510fa44321"
   }
 ]
