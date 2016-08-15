@@ -2548,5 +2548,71 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/wjd1218/OpenBlog/commit/008d1c94df2559d282628523e98ef5d9eff16313", 
     "Commit Corrections:": "https://github.com/wjd1218/OpenBlog/commit/812625d24cd245e186f2fbc7ed62961716cc8b0a"
+  }, 
+  {
+    "Changes:": [
+      "-                random_state=random_state)\n", 
+      "+                random_state=self.random_state)\n"
+    ], 
+    "Message:": "Test frodo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/arthurmensch/scikit-learn/commit/67b099f59abced4b1c71ad8800c544f95aecd137", 
+    "Commit Corrections:": "https://github.com/arthurmensch/scikit-learn/commit/d7fed913148ee98acc1a21b9fcea3ba2cd6d76c3"
+  }, 
+  {
+    "Changes:": [
+      "-            'filename': DATADOG_LOG_FILE\n", 
+      "+            'filename': DATADOG_LOG_FILE,\n"
+    ], 
+    "Message:": "Update localsettings.py.j2", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dimagi/commcarehq-ansible/commit/c3e8b0b0cb2e3a7db4e0eea4915ff85056001308", 
+    "Commit Corrections:": "https://github.com/dimagi/commcarehq-ansible/commit/13e5717e0544c850bc100ddb53413282f64c4fa9"
+  }, 
+  {
+    "Changes:": [
+      "-                                                       random_state)\n", 
+      "+                                                       self.random_state)\n"
+    ], 
+    "Message:": "Test frodo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/arthurmensch/scikit-learn/commit/d7fed913148ee98acc1a21b9fcea3ba2cd6d76c3", 
+    "Commit Corrections:": "https://github.com/arthurmensch/scikit-learn/commit/2d48a88950aab1810146ccd7797c6924fdcb9ff1"
+  }, 
+  {
+    "Changes:": [
+      "-    print(\"Found instances count : \"+len(instances))\n", 
+      "+    print(\"Found instances count : %d \" % len(instances))\n"
+    ], 
+    "Message:": "changes to join cluster", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/maan82/cloud-factory/commit/c040237801e8d706313375967baa44dc02c7ad3b", 
+    "Commit Corrections:": "https://github.com/maan82/cloud-factory/commit/3ebdf0ab35a833ee4e62ce7fc64b017762078a55"
+  }, 
+  {
+    "Changes:": [
+      "-    instance.insterfaces[1].private_ip_address\n", 
+      "+    instance.interfaces[1].private_ip_address\n"
+    ], 
+    "Message:": "changes to join cluster", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/maan82/cloud-factory/commit/3ebdf0ab35a833ee4e62ce7fc64b017762078a55", 
+    "Commit Corrections:": "https://github.com/maan82/cloud-factory/commit/422227e3b5105e218b7cdab2ef5a785b80caba94"
+  }, 
+  {
+    "Changes:": [
+      "-        models = Ai\n", 
+      "+        model = Ai\n"
+    ], 
+    "Message:": "Swagger issue with incomplete views", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/den1den/webtech_team/commit/6f3d929ef6620a4e8ce9eaa4c34f960ff7322596", 
+    "Commit Corrections:": "https://github.com/den1den/webtech_team/commit/6fb56917525ec360cbbf82adb1a212c17e8a1b34"
   }
 ]
