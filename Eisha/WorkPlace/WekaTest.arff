@@ -1,0 +1,32 @@
+@relation python_mistakes
+
+@attribute commit_message string
+@attribute additions numeric
+@attribute deletions numeric
+@attribute changes numeric
+@attribute class {yes, no}
+
+@data
+
+'Fixed more indentation errors', 5, 5, 119, yes
+'BUG extra return value uncaught', 1, 1, 9, no
+'BUG FLASK Restful API to server JSON not rendering', 1, 1, 1, yes
+'customplotpy fix typo', 1, 1, 1, yes
+'Typo fixed', 1, 1, 1, yes
+'Code Review Add  to a print message Fix indentation Refactor some vault stuff in another method', 22, 38, 2665, no
+'Small fix', 1, 1, 98, no
+'bug fix update configure V82', 1, 1, 4, yes
+'fixes for picture', 1, 1, 130, yes
+'Forward port cli argument', 1, 1, 14, yes
+'Ticket 48888  Correction to create of dsldapobjectBug Description  We did not allow properly setting of DN for singletons increate or the many object case with the factor This corrects that behaviourFix Description  If dn is set use it else use the RDn  BaseDN to createthe dn of the object to be createdhttpsfedorahostedorg389ticket48888Author wibrownReview by mreynolds Thanks', 19, 11, 844, no
+'Added parameterization of solvent mixtures to tests', 1, 1, 15, no
+'autocommit', 1, 1, 1, yes
+'Fixing a typo', 1, 1, 4, yes
+'Signedoffby zry adminztouhouorg', 1, 1, 7, yes
+'rm comma at setuppyifiersat the end of list to test ifit is the cause of winpython crash atappveyor', 1, 1, 1, yes
+'add missing brackets', 1, 1, 2, yes
+'fix issue with link', 1, 1, 34, yes
+'Fixing equations in documentationSome of the documented equations were incorrect now fixed', 5, 13, 857, no
+'2153 initpy implement correct quoting', 1, 1, 6, no
+'Fix some typos 2490', 4, 4, 8, no
+
