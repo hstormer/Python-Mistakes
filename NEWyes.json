@@ -2814,5 +2814,144 @@
     "Deletions:": 2, 
     "Commit Mistakes:": "https://github.com/praekelt/goddard-node-updater/commit/1c16c2f3a863d925da5663eb9b4b03ab6d54143b", 
     "Commit Corrections:": "https://github.com/praekelt/goddard-node-updater/commit/b49fe35995a6db59061ed878ace2ee188ceafad4"
+  }, 
+  {
+    "Changes:": [
+      "-    ip_address = CharField(null=True. max_length=40)\n", 
+      "+    ip_address = CharField(null=True, max_length=40)\n"
+    ], 
+    "Message:": "Fixed typos", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/praekelt/goddard-node-updater/commit/b49fe35995a6db59061ed878ace2ee188ceafad4", 
+    "Commit Corrections:": "https://github.com/praekelt/goddard-node-updater/commit/9c8540c5e40d7624d8d265ca5b8c31eab7f08d30"
+  }, 
+  {
+    "Changes:": [
+      "-def branches_containing(ref, remote == False):\n", 
+      "+def branches_containing(ref, remote = False):\n"
+    ], 
+    "Message:": "fixed typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/BohemianCoding/ECLogging/commit/645654fd52becd464a654b83be54898400be4fcb", 
+    "Commit Corrections:": "https://github.com/BohemianCoding/ECLogging/commit/03efd5f7be0c89c067a30d33f97f469e2c19e6a3"
+  }, 
+  {
+    "Changes:": [
+      "-        self.readus = 1000\n", 
+      "+        self.radius = 1000\n"
+    ], 
+    "Message:": "fixed type in code", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jkeung/Customer_Recommender/commit/58154462484824a6013552b2a8a9631f0f9605c6", 
+    "Commit Corrections:": "https://github.com/jkeung/Customer_Recommender/commit/ffd6f0a4f77903bbdab8d092e00b1c7c20aa7c79"
+  }, 
+  {
+    "Changes:": [
+      "-from pseudon_ast import Node\n", 
+      "+from pseudon.pseudon_tree import Node\n", 
+      "--                expanded.append(element.expand(\n", 
+      "+                expanded.append(element.expand(\n"
+    ], 
+    "Message:": "Fix syntax errors", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/alehander42/pseudon/commit/62ae9fa47691c6ad37642ced81dee5e56e434c9b", 
+    "Commit Corrections:": "https://github.com/alehander42/pseudon/commit/91405ec2d28aab54e452df6bff34f7e84dc607b3"
+  }, 
+  {
+    "Changes:": [
+      "-os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.paradir)))\n", 
+      "+os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))\n"
+    ], 
+    "Message:": "Update setup.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/McCent/reusable_blog_app/commit/af39b903e43fbb5cd01db67393de45115e50c880", 
+    "Commit Corrections:": "https://github.com/McCent/reusable_blog_app/commit/409b6e82d79e6d27f68405bf98cbd8d884464916"
+  }, 
+  {
+    "Changes:": [
+      "-\t\telif not payroll and voucher_effect == _Constants.TRANSFERRED_VOUCHER_EFFECT\n", 
+      "+\t\telif not payroll and voucher_effect == _Constants.TRANSFERRED_VOUCHER_EFFECT:\n"
+    ], 
+    "Message:": "syntax error fixed at utilities", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/CTAM-Binary/corebook_sdk/commit/91af6beeb1423e59cafb3b92ccf19becf91f6d62", 
+    "Commit Corrections:": "https://github.com/CTAM-Binary/corebook_sdk/commit/a21aa13e633e86ff7e3c669ba8327f1fc51ee9e9"
+  }, 
+  {
+    "Changes:": [
+      "-    class Meta\n", 
+      "+    class Meta:\n"
+    ], 
+    "Message:": "missing colon", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/praekelt/goddard-node-updater/commit/90f805c318f05a30357cecec5d6bf44e2b6d99b3", 
+    "Commit Corrections:": "https://github.com/praekelt/goddard-node-updater/commit/385797f233914756779ca5117ff04d2040c38adc"
+  }, 
+  {
+    "Changes:": [
+      "-                elif 'vote_event_id' in entity \n", 
+      "+                elif 'vote_event_id' in entity:\n"
+    ], 
+    "Message:": "missing colon", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/datamade/pupa/commit/665ffdf5e11baf9093810dbb7fdfa6359527dee8", 
+    "Commit Corrections:": "https://github.com/datamade/pupa/commit/6b8f476480145a75fced07e887738f431717376b"
+  }, 
+  {
+    "Changes:": [
+      "-        url(r'^post/(?P<pk>[0-9]+)/edit/$', views.post_edit, name='post_edit'),\n", 
+      "+    url(r'^post/(?P<pk>[0-9]+)/edit/$', views.post_edit, name='post_edit'),\n"
+    ], 
+    "Message:": "te odio djangogirls", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/m0tz/misturnos/commit/66b4b89b116332aa4286a4da6bb117170dd4d2e4", 
+    "Commit Corrections:": "https://github.com/m0tz/misturnos/commit/8f61735a232ce4f64699bd3ff2d92930d843c8c6"
+  }, 
+  {
+    "Changes:": [
+      "-    'C_SVM':C_SVM()\n", 
+      "+    'C_SVM':C_SVM(),\n"
+    ], 
+    "Message:": "Dropped deprecated svc code", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dmarx/tpot/commit/efa3fb0bddc0e9a57c4c1d69611c619ec9e10aa0", 
+    "Commit Corrections:": "https://github.com/dmarx/tpot/commit/242d391e20eb694d2a287a2adaade3413e25e325"
+  }, 
+  {
+    "Changes:": [
+      "-      sampleptr = 0\n", 
+      "-      reportTime = 60                                 # time [s] between reports\n", 
+      "-      cycles = 3                                      # number of cycles to aggregate\n", 
+      "-      samplesperCycle = 5                             # total number of samples in each cycle\n", 
+      "-      samples = samplesperCycle * cycles              # total number of samples averaged\n", 
+      "-      sampleTime = reportTime/samplesperCycle         # time [s] between samples\n", 
+      "-      cycleTime = samples * sampleTime                # time [s] per cycle\n", 
+      "-\n", 
+      "-      data = []                                       # array for holding sampledata\n", 
+      "+    sampleptr = 0\n", 
+      "+    reportTime = 60                                 # time [s] between reports\n", 
+      "+    cycles = 3                                      # number of cycles to aggregate\n", 
+      "+    samplesperCycle = 5                             # total number of samples in each cycle\n", 
+      "+    samples = samplesperCycle * cycles              # total number of samples averaged\n", 
+      "+    sampleTime = reportTime/samplesperCycle         # time [s] between samples\n", 
+      "+    cycleTime = samples * sampleTime                # time [s] per cycle\n", 
+      "+\n", 
+      "+    data = []                                       # array for holding sampledata\n"
+    ], 
+    "Message:": "correct indenting", 
+    "Additions:": 9, 
+    "Deletions:": 9, 
+    "Commit Mistakes:": "https://github.com/Mausy5043/bonediagd/commit/337fca437946e696ea9eb67c2dc7202ecc699689", 
+    "Commit Corrections:": "https://github.com/Mausy5043/bonediagd/commit/5dbc9d13c7b03485b23d1ea433cd0167f6c506e2"
   }
 ]
