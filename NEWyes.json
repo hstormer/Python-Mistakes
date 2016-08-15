@@ -2702,5 +2702,117 @@
     "Deletions:": 1, 
     "Commit Mistakes:": "https://github.com/proycon/clam/commit/669da6353fdad27f683f03c3aa076faacedd09a1", 
     "Commit Corrections:": "https://github.com/proycon/clam/commit/efb025ff53f0b136361182806feab14ceea92fe7"
+  }, 
+  {
+    "Changes:": [
+      "-        self.lenght = buffer.pop_unsigned_int(1)\n", 
+      "+        self.length = buffer.pop_unsigned_int(1)\n"
+    ], 
+    "Message:": "sdr: fix typo\n\nSigned-off-by: Heiko Thiery <heiko.thiery@kontron.com>", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/kontron/python-ipmi/commit/58f02f7768507285636631a6151830fc38a8eec8", 
+    "Commit Corrections:": "https://github.com/kontron/python-ipmi/commit/71ef97ba9ccd25ed4d675301a572d7c343a70243"
+  }, 
+  {
+    "Changes:": [
+      "-            f.write('{0}:: {1}\\n'.format(rev_next, self.timestmap))\n", 
+      "+            f.write('{0}:: {1}\\n'.format(rev_nxt, self.timestmap))\n"
+    ], 
+    "Message:": "Fixed a broken variable reference: rev_next -> rev_nxt", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/djtaylor/lense-devtools/commit/0b3f066dfa91d93223ef1471174afe662c069129", 
+    "Commit Corrections:": "https://github.com/djtaylor/lense-devtools/commit/f815f94e75f100be4955b957a952fca2921eef21"
+  }, 
+  {
+    "Changes:": [
+      "-        ext = '.bin'\n", 
+      "+            ext = '.bin'\n"
+    ], 
+    "Message:": "Update scraper.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/blablupcom/sp_E5011_CLBC_gov/commit/a6486c75509080d8c8059a767dba731f2712d10f", 
+    "Commit Corrections:": "https://github.com/blablupcom/sp_E5011_CLBC_gov/commit/84398976797e6b4769070aa36f385a796314e4cf"
+  }, 
+  {
+    "Changes:": [
+      "-    query = {'stype': mstd.stype}\n", 
+      "+    query = {'stype': mstg.stype}\n"
+    ], 
+    "Message:": "Merge pull request #20 from vkuznet/fix_mt\n\nFix typo", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dmwm/WMArchive/commit/0413a41fb5588887c072a42d8ec5ab27101a1354", 
+    "Commit Corrections:": "https://github.com/dmwm/WMArchive/commit/9260cf672d1de0a0a724d32b1f67346b9fa89fef"
+  }, 
+  {
+    "Changes:": [
+      "-transmission = sp.transmission.get('transmission_id')\n", 
+      "+transmission = sp.transmissions.get('transmission_id')\n"
+    ], 
+    "Message:": "Updated transmissions examples Closes #60", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/aydrian/python-sparkpost/commit/8154d3ac0203af8c53b7aaa166ca1bc83f2c6998", 
+    "Commit Corrections:": "https://github.com/aydrian/python-sparkpost/commit/e8f6387351a1655d900c0bd32683a4eac8e47bd5"
+  }, 
+  {
+    "Changes:": [
+      "-                    self.name_idx[name].add(idx)\n", 
+      "+                    self._name_idx[name].add(idx)\n"
+    ], 
+    "Message:": "fix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jhprinz/openpathsampling/commit/5ea3f322402d7ef7c8fffab8ed8ae19dc3fbc5bf", 
+    "Commit Corrections:": "https://github.com/jhprinz/openpathsampling/commit/f8dee490f9dc8efb29150304b5441ef0671f1c32"
+  }, 
+  {
+    "Changes:": [
+      "-    elif re.match(\"\\d+\")\n", 
+      "+    elif re.match(\"\\d+\"):\n"
+    ], 
+    "Message:": "Fix a broken elif in engine.py", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/jondlove/terseflow-core/commit/d11d40549c946ab64a4f8684f9e79ebc5fef977a", 
+    "Commit Corrections:": "https://github.com/jondlove/terseflow-core/commit/ee8d20cc4abf2a948576d51262fa921dcde2babc"
+  }, 
+  {
+    "Changes:": [
+      "-                    obj.removeNodeIndexCacheAttrbute(attr)\n", 
+      "+                    obj.removeNodeIndexCacheAttribute(attr)\n"
+    ], 
+    "Message:": "Merge branch 'release/6.1.14' into develop", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/ganga-devs/ganga/commit/4a5f583b8bdcbbaa5c78374af5f6fe60a5a49988", 
+    "Commit Corrections:": "https://github.com/ganga-devs/ganga/commit/b859cf9c77903e6b118d17f781f12ce6a2f5c7ef"
+  }, 
+  {
+    "Changes:": [
+      "-        if instance.is_registered and not instance.deregister(safe=False):\n", 
+      "+        if instance.is_registered and not instance.deregister(save=False):\n"
+    ], 
+    "Message:": "bugfix", 
+    "Additions:": 1, 
+    "Deletions:": 1, 
+    "Commit Mistakes:": "https://github.com/dreipol/django-scarface/commit/86b2578136a19c7ee41ed7e80cb1585f656620e5", 
+    "Commit Corrections:": "https://github.com/dreipol/django-scarface/commit/70bfe967c80e243eb33ba5217ffd5d15ae312ee9"
+  }, 
+  {
+    "Changes:": [
+      "-class NodeSiteMeta\n", 
+      "-    node_id = IntergerField(index=True)\n", 
+      "+class NodeSiteMeta(Model):\n", 
+      "+    node_id = IntegerField(index=True)\n"
+    ], 
+    "Message:": "Fixed typos", 
+    "Additions:": 2, 
+    "Deletions:": 2, 
+    "Commit Mistakes:": "https://github.com/praekelt/goddard-node-updater/commit/1c16c2f3a863d925da5663eb9b4b03ab6d54143b", 
+    "Commit Corrections:": "https://github.com/praekelt/goddard-node-updater/commit/b49fe35995a6db59061ed878ace2ee188ceafad4"
   }
 ]
